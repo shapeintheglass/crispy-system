@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="mat_Water" MatTemplate="" Diffuse="0.18447502,0,0" Specular="0.099898733,0.099898733,0.099898733" Opacity="1" Shininess="255" AlphaTest="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/liquid/liquid_string_mask.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/liquid/liquid_string.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

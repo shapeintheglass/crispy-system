@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524320" Shader="Illum" GenMask="2000800000002" StringGenMask="%ALLOW_SILHOUETTE_POM%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.83879912,0.45641103,0.25015831" Specular="1,1,1" Emittance="0.83879912,0.45641103,0.25015831,25.600002" Opacity="0.25" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/environment/cloudcard_01.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/environment/cloudcard_01.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

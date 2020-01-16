@@ -1,0 +1,6 @@
+<download name="shird_collisionmulti" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="47190" md5="ad606878b40d1254703afd480260633a"/>
+ </files>
+</download>

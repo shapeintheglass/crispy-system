@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="LightBeam.LightBeam" GenMask="7" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.029556841,0.70837593,0.98225069" Specular="0,0,0" Emissive="1,1,1" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/temporary/projection_test_02a.tif">
+   <TexMod TileU="1.5" TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_RotateType="1" TexMod_WRotateRate="0.99975586" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="0.99975586" TexMod_URotateCenter="1" TexMod_VRotateCenter="1" TexMod_UOscillatorRate="1" TexMod_VOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams fGlobalDensity="5.5700002" fNoiseDirZ="0" vNoiseSpeed="4" fFadeScale="13.64" fNoiseCoordScale="0.050999999" JitterScale="65.300003" fNoiseDirY="0.5" fNoiseDirX="0" fFadeDist="963" fNoiseStrength="6.0689998"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="simu_02" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="326414" md5="788dd82bda14bf9a1f5f15fca13a679f"/>
+ </files>
+</download>

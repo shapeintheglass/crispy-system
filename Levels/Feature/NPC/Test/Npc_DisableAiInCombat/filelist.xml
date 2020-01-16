@@ -1,0 +1,6 @@
+<download name="npc_disableaiincombat" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2838947" md5="8446be39f22c3a6012649360f1ac0f3f"/>
+ </files>
+</download>

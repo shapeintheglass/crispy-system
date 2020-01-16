@@ -1,0 +1,5 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="10" LayerAct="1" MatTemplate="" MtlFlags="526336" Opacity="1" Shader="ArkSimpleGlass" Specular="0.46778381,0.46778381,0.46778381" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures/>
+ <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.75" TintColor="0.92158198,0.50288647,0"/>
+</Material>

@@ -1,0 +1,8 @@
+
+<Material AlphaTest="0.55000001" Diffuse="0.035601322,0.035601322,0.035601322" GenMask="802000000000802" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="212" Specular="0.0085681258,0.0085681258,0.0085681258" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="objects/environment/architecture/decals/panel_decals_a/panel_decals_a_diff.tif" Map="Diffuse"/>
+  <Texture File="objects/environment/architecture/decals/panel_decals_a/panel_decals_a_ddna.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams DecalAlphaMult="3.6199999" DecalDiffuseOpacity="0.69599998" DecalFalloff="9.9999997e-005" EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

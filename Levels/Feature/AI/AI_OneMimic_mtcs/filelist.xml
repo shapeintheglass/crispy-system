@@ -1,0 +1,6 @@
+<download name="ai_onemimic_mtcs" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35920" md5="7ed001d2799274ad575c8cff248b60a2"/>
+ </files>
+</download>

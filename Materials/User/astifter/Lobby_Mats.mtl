@@ -1,0 +1,56 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="lobby_phong01" Opacity="1" Shader="Illum" Shininess="176" Specular="0.1620294,0.1620294,0.1620294" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material AlphaTest="0.22" Diffuse="0.034339812,0.034339812,0.19806935" Emissive="0,0,0" GenMask="40000000001" GlowAmount="4" LayerAct="1" MatTemplate="" MtlFlags="2621604" Name="lobby_sandglass" Opacity="0.60000002" Shader="Illum" Shininess="253" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Glass_Unbreakable">
+   <Textures>
+    <Texture File="objects/User/epetit/grey/blockout_grey_20.tif" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/vs_exterior/environmentprobe10_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="400000000010010" LayerAct="1" MatTemplate="" MtlFlags="2623648" Name="lobby_glass" Opacity="0.99000001" Shader="ArkSimpleGlass" Shininess="255" Specular="0.45641103,0.45641103,0.45641103" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable">
+   <Textures>
+    <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+    <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="0.02842604,0.018500222,0.00091058103" Emissive="0,0,0" GenMask="60000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="lobby_metal" Opacity="1" Shader="Illum" Shininess="217" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+    <Texture File="objects/pbs_reference/gold_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0,1,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="lobby_proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+  </Material>
+  <Material Diffuse="0.3185468,0.3185468,0.3185468" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="lobby_floor" Opacity="1" Shader="Illum" Shininess="34" Specular="0.55000001,0.55000001,0.55000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Wood_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.65505499,0.65505499,0.65505499" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="lobby_walls" Opacity="1" Shader="Illum" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.29616201,0.29616201,0.29616201" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="lobby_plants" Opacity="1" Shader="Illum" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

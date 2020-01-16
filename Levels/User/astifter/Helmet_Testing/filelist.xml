@@ -1,0 +1,6 @@
+<download name="Helmet_Testing" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="186263" md5="bf498fb836dcfc290f76676fee1650df"/>
+ </files>
+</download>

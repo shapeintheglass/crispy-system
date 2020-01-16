@@ -1,0 +1,6 @@
+<download name="npc_toosmallforturret" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2842669" md5="2995cdb8087c7d3e01fd178934677b5b"/>
+ </files>
+</download>

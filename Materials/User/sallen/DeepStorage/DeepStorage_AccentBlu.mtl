@@ -1,0 +1,9 @@
+
+<Material Diffuse="0.14126332,0.43965721,0.66538745" Emissive="0,0,0" GenMask="A00800000020" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="0.80695242,0.8962695,0.87962252" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="objects/pbs_reference/car_paint_diff.tif" Map="Diffuse"/>
+  <Texture File="objects/pbs_reference/gloss80_ddna.tif" Map="Bumpmap"/>
+  <Texture File="objects/pbs_reference/car_paint_spec.tif" Map="Specular"/>
+ </Textures>
+ <PublicParams IndirectColor="0.5332765,0.73791051,0.97344542" SSSIndex="0"/>
+</Material>

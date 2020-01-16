@@ -1,0 +1,6 @@
+<download name="ai_onenightmare" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="146715" md5="135b6b62dc920b1d1d7a28ed64d74dc1"/>
+ </files>
+</download>

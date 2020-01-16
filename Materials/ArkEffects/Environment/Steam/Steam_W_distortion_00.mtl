@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/softgraysmoke_01.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.1" DeformAnimSpeed="0.1" GlobalIlluminationAmount="1" DeformTile="0.25"/>
+</Material>

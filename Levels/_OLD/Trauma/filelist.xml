@@ -1,0 +1,6 @@
+<download name="trauma" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="675639" md5="c5b6c50a0f959895db8257056c9f6b7a"/>
+ </files>
+</download>

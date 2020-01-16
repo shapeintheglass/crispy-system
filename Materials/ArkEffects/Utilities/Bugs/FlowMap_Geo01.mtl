@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="ArkParticlesGeo" GenMask="100000040000000" StringGenMask="%FLOWMAP%UNLIT" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/ArkEffects/Utilities/checker.tif"/>
+  <Texture Map="Custom" File="Textures/ArkEffects/Smoke/smoke_black_soft_whispy_4tile_FM_02.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" FlowTile="1" FlowSpeed="1"/>
+</Material>

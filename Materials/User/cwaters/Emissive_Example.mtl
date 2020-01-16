@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="4001000000000" StringGenMask="%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="0.8796224,0.033104766,0.012983033,50" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/uv.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/utilities/gradients/gradientcentervertical.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorRate="0.1"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

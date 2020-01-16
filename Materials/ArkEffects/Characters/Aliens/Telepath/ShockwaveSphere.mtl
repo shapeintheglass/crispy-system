@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524294" Shader="ArkParticlesGeo" GenMask="400000000400000" StringGenMask="%EMITTANCE_MAP%UNLIT" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,0.21586053,0,160" Opacity="0.2" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1"/>
+</Material>

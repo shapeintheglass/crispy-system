@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524322" Shader="ArkParticlesGeo" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="1,0.027320893,0.027320893" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001" GlowAmount="4" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/player/psitargeting/cylindrical_target_01.tif">
+   <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="-1" TexMod_UOscillatorAmplitude="3" TexMod_VOscillatorAmplitude="0.1"/>
+  </Texture>
+ </Textures>
+</Material>

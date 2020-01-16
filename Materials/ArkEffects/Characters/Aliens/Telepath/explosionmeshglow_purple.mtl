@@ -1,0 +1,23 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Diffuse" MtlFlags="524454" Shader="ArkParticlesGeo" GenMask="200000080001" StringGenMask="%ALLOW_SILHOUETTE_POM%EMITTANCE_MAP%FLOWMAP" SurfaceType="" MatTemplate="" Diffuse="0.17464744,0.068478175,0.36625263" Emittance="0.11443538,0.07618539,0.24620135,75" Opacity="0.99000001" Shininess="255" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/arkeffects/characters/aliens/phantom/kineticprojectile/scrollinglinestiledu.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Custom" File="textures/arkeffects/characters/aliens/phantom/kineticprojectile/kineticprojectilemeshflow.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Emittance" File="textures/arkeffects/utilities/solid_white.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="0.5" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="-1" TexMod_VRotateCenter="1" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.5" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="-1" TexMod_WRotateRate="0.49987793" TexMod_WRotatePhase="0.49987793" TexMod_WRotateAmplitude="0.49987793"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.050000001" DividerY="0.0099999998" NoiseScale="0.050000001,0.050000001,0.050000001">
+    <WaveX Type="1" Amp="0.0049999999" Level="0.050000001" Phase="25" Freq="1"/>
+   </VertexDeform>
+   <PublicParams EmittanceMapGamma="1" FlowTile="1.516" FlowSpeed="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

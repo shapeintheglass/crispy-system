@@ -1,0 +1,6 @@
+<download name="wh_lighting" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="172866" md5="996b9556b1d19a9a0db295c185ac201a"/>
+ </files>
+</download>

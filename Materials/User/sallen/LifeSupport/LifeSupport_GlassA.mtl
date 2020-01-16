@@ -1,0 +1,12 @@
+
+<Material CloakAmount="0" Diffuse="0.005181517,0.0069954107,0.019382363" Emissive="0.25818288,0.23455061,0.67244327" GenMask="10" GlowAmount="5" LayerAct="1" MatTemplate="" MtlFlags="526336" Opacity="0.98000002" Shader="Glass" Shininess="255" Specular="0.049706571,0.042311415,0.10224174" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/grey.dds" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_VOscillatorAmplitude="0.1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0"/>
+  </Texture>
+  <Texture File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif" Map="Bumpmap">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0"/>
+  </Texture>
+ </Textures>
+ <PublicParams BackLightScale="0.11" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+</Material>

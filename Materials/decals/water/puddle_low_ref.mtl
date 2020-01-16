@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20100000800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Water" MatTemplate="" Specular="0.27889431,0.27889431,0.27889431" Opacity="1" Shininess="216" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decals/water/puddle_decal.tif"/>
+  <Texture Map="Bumpmap" File="textures/decals/water/puddle_decal_ddn.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.5" DecalFalloff="1" DecalAlphaMult="1"/>
+</Material>

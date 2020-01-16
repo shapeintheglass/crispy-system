@@ -1,0 +1,6 @@
+
+<Material MtlFlags="524292" Shader="ArkEmissive" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.26225069,0.68668544,0.99110222" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" GlowAmount="2" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/lightning_00.tif"/>
+ </Textures>
+</Material>

@@ -1,0 +1,6 @@
+<download name="seamtest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="77001" md5="6f9cae140a56f0a3fb26d0974b417e3f"/>
+ </files>
+</download>

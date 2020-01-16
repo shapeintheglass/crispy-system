@@ -1,0 +1,56 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Industrial_Walls" MtlFlags="524416" Shader="Illum" GenMask="802800000000002" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Large" MatTemplate="" Diffuse="0.36625263,0.15292618,0.11443538" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_walls_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_walls_a_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_walls_a_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Industrial_Wall_Parts" MtlFlags="524416" Shader="Illum" GenMask="802800000000002" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Large" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" AlphaTest="0.28999999" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_wall_parts_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_wall_parts_a_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_wall_parts_a_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Industrial_Insulation" MtlFlags="524416" Shader="Illum" GenMask="802000000000002" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Plastic_Thick_Medium" MatTemplate="" Diffuse="0.50888133,0.50888133,0.50888133" Specular="0.043735035,0.043735035,0.043735035" Opacity="1" Shininess="166" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_standard_a_insulation_tileable_ddn.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Glass" MtlFlags="526464" Shader="ArkSimpleGlass" GenMask="600000000000010" StringGenMask="%BILINEAR_FP16%TINT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.072271854,0.072271854,0.072271854" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/generic/glass/glass_clear_ddna.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.40724024,0.49693301,0.50288647" CloudinessReducesGloss="0.5" TintCloudiness="0.255" BackLightScale="0.5" BumpScale="0.033" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Industrial_Pipes" MtlFlags="524416" Shader="Illum" GenMask="802800000000002" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/props/gameplay/o2_station_a/o2_station_piping_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/props/gameplay/o2_station_a/o2_station_piping_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/props/gameplay/o2_station_a/o2_station_piping_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Industrial_Cables_Tiled" MtlFlags="524416" Shader="Illum" GenMask="802000000000002" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="0.10461649,0.10461649,0.10461649" Specular="0.35640016,0.35640016,0.35640016" Opacity="1" Shininess="154" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/simulation/testobservation/testobservation_sim_wire_cable_a_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Industrial_Decals" MtlFlags="524416" Shader="Illum" GenMask="2000000000802" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="231" AlphaTest="0.25" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_wall_decals.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

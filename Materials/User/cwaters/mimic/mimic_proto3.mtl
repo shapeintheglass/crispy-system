@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="ArkAlien" GenMask="800000000" StringGenMask="%TEMP_ARK_ALIEN" SurfaceType="" MatTemplate="" Diffuse="0.00080465846,0.00080465846,0.00080465846" Specular="0,0,0" Emissive="0,0,0" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="engine/engineassets/textures/black.dds"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25"/>
+</Material>

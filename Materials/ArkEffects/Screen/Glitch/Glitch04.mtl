@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526336" Shader="Monitor" GenMask="50" StringGenMask="" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,20" Opacity="1" Shininess="255" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Objects/Environment/Props/Tech/Screen_Standard_A/Screen_Standard_A_Security6_Emi.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="3" TexMod_UOscillatorRate="10" TexMod_UOscillatorAmplitude="0.050000001" TexMod_VOscillatorType="3" TexMod_VOscillatorRate="5" TexMod_VOscillatorAmplitude="0.0099999998"/>
+  </Texture>
+  <Texture Map="Emittance" File="Objects/Environment/Props/Tech/Screen_Standard_A/Screen_Standard_A_Security6_Emi.tif"/>
+ </Textures>
+ <PublicParams GrainAmount="0" DeformAmount="0" DeformTillingY="0.029999999" EmittanceMapGamma="1" GrainTilling="0" BendScale="0.050000001" RandomSalt="0" ChromaGlitchWidth="0.050000001" ResolutionX="128" ResolutionY="128" InterlacingTilling="0" GlitchEnabled="0" Contrast="1" Saturation="1" DeformTillingX="0.029999999" GrainSaturation="1" FresnelScale="17.049999" InterlacingAmount="0.30000001" VSyncFreq="0" PixelVisibility="0.5" FresnelBias="0.53299999" BlockGlitchReduction="2" ChromaGlitchSpeed="23.16" ChromaShift="0.5" BlockGlitchSpeed="12.84" ViewAngle="155" DeformFreq="-3" BlockSize="9.1199999"/>
+</Material>

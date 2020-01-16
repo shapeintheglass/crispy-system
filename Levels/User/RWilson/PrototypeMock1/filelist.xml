@@ -1,0 +1,6 @@
+<download name="prototypemock1" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="389805" md5="ae8f840da83237b548e6f940b49b077a"/>
+ </files>
+</download>

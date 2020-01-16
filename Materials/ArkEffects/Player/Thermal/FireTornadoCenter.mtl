@@ -1,0 +1,13 @@
+
+<Material MtlFlags="134744068" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.52099562,0.73791051,1" Emittance="1,1,1,150" Opacity="1" Shininess="10" AlphaTest="0.0099999998" LayerAct="0">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/firespike_1x4.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/utilities/solid_white.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_02_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="25" TileV="25"/>
+  </Texture>
+ </Textures>
+ <PublicParams DeformAmount="0.014" DeformAnimSpeed="0.52200001" GlobalIlluminationAmount="0.0099999998" DeformTile="0.29699999"/>
+</Material>

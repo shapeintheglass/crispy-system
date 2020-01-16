@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="800000000000140" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.42326769,0,0" Specular="0.12477184,0.014443845,0.014443845" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/ink/splash_ring02.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_02_ddn.tif"/>
+  <Texture Map="[1] Custom" File="textures/arkeffects/characters/humans/blood_colorlookup.tif"/>
+ </Textures>
+ <PublicParams ColLookupAmplitude="1.61" GlobalIlluminationAmount="0.0099999998" ColLookupColPhase="16.92"/>
+</Material>

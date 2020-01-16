@@ -1,0 +1,6 @@
+<download name="mysurfacehazards" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2949930" md5="5848339951290caab6659b816279657b"/>
+ </files>
+</download>

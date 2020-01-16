@@ -1,0 +1,9 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="404" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,0.15000001" Opacity="0.89999998" Shininess="255" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glitch/lookingglass_glitch/lookingglass_glitch_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/glitch/lookingglass_glitch/lookingglass_glitch_ddn.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/glitch/lookingglass_glitch/lookingglass_glitch_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.015"/>
+</Material>

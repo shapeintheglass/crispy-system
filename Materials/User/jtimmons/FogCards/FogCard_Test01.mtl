@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524320" Shader="GeometryBeam" GenMask="5" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/fog_mask01.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorAmplitude="0.1" TexMod_VOscillatorRate="0.1" TexMod_VOscillatorAmplitude="0.1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/arkeffects/smoke/fog_mask02.tif"/>
+ </Textures>
+ <PublicParams StartColor="0.48514995,0.32777813,0.21586053" EndColor="1,0.87962252,0.52099562" FinalMultiplier="20" turbStrength="1" SoftIntersectionFactor="1" dustUVScale="0.5" viewDependencyFactor="0.25" baseUVScale="1" dustTimeScale="0.1" AmbStrength="10" uvRot="0" turbRatio="0.67699999" uvVigFeaturing="4" fadingFeaturing="2.5"/>
+</Material>

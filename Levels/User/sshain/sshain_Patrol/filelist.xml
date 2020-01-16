@@ -1,0 +1,6 @@
+<download name="sshain_patrol" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="42666" md5="ade834ea161eae2298ac663a3bc52f2b"/>
+ </files>
+</download>

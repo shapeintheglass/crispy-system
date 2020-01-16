@@ -1,0 +1,6 @@
+<download name="lobbymimic" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1701994" md5="7b3b95a8d75b1d082a283ad880955676"/>
+ </files>
+</download>

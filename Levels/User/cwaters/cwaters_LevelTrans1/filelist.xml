@@ -1,0 +1,6 @@
+<download name="cwaters_leveltrans1" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="33784" md5="7a66f2a67ce814433fa5ae07e523ecb1"/>
+ </files>
+</download>

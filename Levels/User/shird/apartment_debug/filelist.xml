@@ -1,0 +1,6 @@
+<download name="apartment_debug" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="48529" md5="e9aae90dfe587f0adf5120df10b3d626"/>
+ </files>
+</download>

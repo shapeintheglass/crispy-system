@@ -1,0 +1,6 @@
+<download name="voltaic_turret" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="56091" md5="58f00150774b01c683c5d9d70338263c"/>
+ </files>
+</download>

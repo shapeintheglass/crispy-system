@@ -1,0 +1,6 @@
+<download name="mimicfaraway" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2842434" md5="1daa09ee09723039f59727d5d5dd8b86"/>
+ </files>
+</download>

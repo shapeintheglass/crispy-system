@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526336" Shader="Monitor" GenMask="2000" StringGenMask="" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,10" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/props/universal/screen_info_background_a/screen_info_background_a_diff.tif">
+   <TexMod TexMod_RotateType="3" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TexMod_UOscillatorType="3" TexMod_UOscillatorRate="5" TexMod_UOscillatorAmplitude="5" TileV="1.2" TexMod_VOscillatorType="3" TexMod_VOscillatorRate="20" TexMod_VOscillatorAmplitude="5" TexMod_WRotateRate="0.049438477" TexMod_WRotateAmplitude="0.049438477"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/utilities/gradients/gradientcenter.tif"/>
+ </Textures>
+ <PublicParams GrainAmount="0.86299998" DeformAmount="0.075999998" DeformTillingY="11" EmittanceMapGamma="1.002" GrainTilling="1.14" ResolutionX="483" ResolutionY="48" InterlacingTilling="0.34999999" Contrast="1.1" Saturation="0.5" DeformTillingX="8.1999998" GrainSaturation="0.67400002" FresnelScale="1.96" InterlacingAmount="0.184" VSyncFreq="10.71" PixelVisibility="0.79400003" FresnelBias="0.184" ChromaShift="0.050000001" ViewAngle="180" DeformFreq="-10.98"/>
+</Material>

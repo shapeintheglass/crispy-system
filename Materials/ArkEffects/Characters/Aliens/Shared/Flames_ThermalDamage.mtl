@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.54572457,0.67244327,0.75294232" Specular="0,0,0" Emittance="1,1,1,25" Opacity="1" Shininess="10" AlphaTest="0.0099999998" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/explosion_test_glow_01.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/fire/exp_shockwave_gray_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.079999998" DeformAnimSpeed="0.91299999" GlobalIlluminationAmount="1" DeformTile="0.75700003"/>
+</Material>

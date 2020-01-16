@@ -1,0 +1,6 @@
+<download name="screen_capture" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38121" md5="5f26e662079d7bbf7d4d0119c0627577"/>
+ </files>
+</download>

@@ -1,0 +1,10 @@
+
+<Material MtlFlags="134744068" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.16513222,0.057805438,0.005181517" Emittance="0.32314324,0.18782079,0.046665091,12" Opacity="0.99000001" Shininess="150" AlphaTest="0.0099999998" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/screen/diffuseshard_01.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" RotateW="90"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/distortshard_01_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

@@ -1,0 +1,10 @@
+
+<Material MtlFlags="36177952" Shader="ArkSimpleGlass" GenMask="42000000400000" StringGenMask="%DIRT_MAP%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_Glass" MatTemplate="" Diffuse="1,1,1" Specular="0.21952623,0.21952623,0.21952623" Opacity="1" Shininess="241" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/architecture/exec/stairs_neodeco_a/stairs_neodeco_a_bridge_glass_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/environment/architecture/exec/stairs_neodeco_a/stairs_neodeco_a_bridge_glass_ddn.tif"/>
+  <Texture Map="Specular" File="objects/environment/architecture/exec/stairs_neodeco_a/stairs_neodeco_a_bridge_glass_spec.tif"/>
+  <Texture Map="Environment" File="nearest_cubemap" TexType="Nearest Cube-Map probe for alpha blended"/>
+ </Textures>
+ <PublicParams BumpMapTile="10" TintColor="0.77582234,0.82278591,0.70837593" CloudinessReducesGloss="0.70300001" TintCloudiness="0.77200001" BackLightScale="0" BumpScale="0.59799999"/>
+</Material>

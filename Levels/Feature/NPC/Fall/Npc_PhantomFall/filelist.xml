@@ -1,0 +1,6 @@
+<download name="npc_phantomfall" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839421" md5="ace09cb1a1b9cb1a8125adb52803bffb"/>
+ </files>
+</download>

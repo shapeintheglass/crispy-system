@@ -1,0 +1,6 @@
+<download name="ft_capturevolumeb" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2846675" md5="d8e8ee5b0a4ca67bac8dbed6140d7ffc"/>
+ </files>
+</download>

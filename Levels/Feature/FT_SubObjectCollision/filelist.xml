@@ -1,0 +1,6 @@
+<download name="ft_subobjectcollision" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="75998" md5="287b994251bb4ef67f8bc5e0c196a823"/>
+ </files>
+</download>

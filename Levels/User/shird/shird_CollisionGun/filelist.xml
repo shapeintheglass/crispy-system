@@ -1,0 +1,6 @@
+<download name="shird_collisiongun" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38232" md5="474b99b7f6733344c3637d8544094372"/>
+ </files>
+</download>

@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524320" Shader="Illum" GenMask="40000000003" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.20507877,0.1470273,0.9046613" Specular="0.0085681258,0.52711523,0.97344542" Emissive="0.0036765076,0.20507877,0.99110222" Opacity="1" GlowAmount="66" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/ink_light_smoke_crisp_00.tif"/>
+ </Textures>
+ <PublicParams AmbientMultiplier="1" SSSIndex="0" IndirectColor="0.0056053922,0.3467041,0.99110222"/>
+</Material>

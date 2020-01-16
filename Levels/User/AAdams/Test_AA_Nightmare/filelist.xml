@@ -1,0 +1,6 @@
+<download name="test_aa_nightmare" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="49057" md5="81814842053d7c5fb72973cc0676e9b3"/>
+ </files>
+</download>

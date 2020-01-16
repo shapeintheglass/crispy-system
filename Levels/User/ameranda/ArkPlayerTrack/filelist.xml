@@ -1,0 +1,6 @@
+<download name="arkplayertrack" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="593964" md5="1dde2f6b8463653474605d36b1188f10"/>
+ </files>
+</download>

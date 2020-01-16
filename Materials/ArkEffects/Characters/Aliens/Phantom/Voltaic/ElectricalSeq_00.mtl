@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524292" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.1301365,0.28314877,0.72305524" Specular="0,0,0" Emittance="1,1,1,7840" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/small_bolts_512x4.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/electricity/small_bolts_512x4.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

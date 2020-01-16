@@ -1,0 +1,7 @@
+
+<Material MtlFlags="526372" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.23455061,0.082282715,0.00060705398" Specular="0,0,0" Emittance="1,1,1,100" Opacity="0.99000001" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/screen/screen_highresvingette_01.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

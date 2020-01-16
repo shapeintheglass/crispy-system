@@ -1,0 +1,6 @@
+<download name="sshain_rigidbody" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37242" md5="5c0bf800eba102ccd107188c311de738"/>
+ </files>
+</download>

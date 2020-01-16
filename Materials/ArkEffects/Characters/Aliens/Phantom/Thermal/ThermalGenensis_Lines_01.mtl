@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524292" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,160" Opacity="1" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/aliens/nightmare/thermalaura_02.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/aliens/nightmare/thermalaura_glow_02.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.041000001" DeformAnimSpeed="0.186" GlobalIlluminationAmount="0.0099999998" DeformTile="0.083999999"/>
+</Material>

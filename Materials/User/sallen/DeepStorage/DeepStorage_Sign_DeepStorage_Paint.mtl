@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="2000000000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_Plastic_Thin_Small" MatTemplate="" Diffuse="0.034339812,0.038204376,0.22322798" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/user/sallen/deepstorage/deepstorage_signagedecal02.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1.244" DecalDiffuseOpacity="0.63800001" DecalFalloff="19.1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="ai_phantom_hardwarehub" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2998491" md5="8a77a3be011ef0fb18f082e3b9e918e7"/>
+ </files>
+</download>

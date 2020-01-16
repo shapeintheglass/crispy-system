@@ -1,0 +1,8 @@
+
+<Material CloakAmount="0" Diffuse="0.01228649,0.01228649,0.01228649" Emissive="0,0,0" GenMask="20000008001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="253" Specular="0.015996294,0.015996294,0.015996294" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+  <Texture File="textures/generic/concrete/concrete_ground_a_ddna.dds" Map="Detail"/>
+ </Textures>
+ <PublicParams DetailBumpScale="0.059999999" DetailDiffuseScale="0.161" DetailGlossScale="0.068000004" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

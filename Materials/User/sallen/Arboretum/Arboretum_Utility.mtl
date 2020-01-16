@@ -1,0 +1,60 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="524416" Shader="Illum" GenMask="401400000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/pbs_reference/conductor_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/pbs_reference/galvanized_steel_ddna.tif"/>
+    <Texture Map="Specular" File="objects/pbs_reference/galvanized_steel_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="524416" Shader="Illum" GenMask="401400000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="objects/pbs_reference/gloss70_ddna.tif"/>
+    <Texture Map="Specular" File="objects/pbs_reference/gold_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="524448" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+    <Texture Map="Emittance" File="textures/defaults/white.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl4" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="0.006512091,0.006512091,0.006512091" Specular="0.099898733,0.099898733,0.099898733" Opacity="1" Shininess="11" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/props/gameplay/floormat_rubber_a/floormat_rubber_a_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="524416" Shader="Illum" GenMask="401400000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Wood_Medium" MatTemplate="" Diffuse="0.99110222,0.46207702,0.28314877" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/user/jfuhrer/wall_wood_a_tiled_desat_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/exec/wall_wood_a/wall_wood_a_tiled_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/base/wall_base_a/base_wall_a_wood_med_01_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl6" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures/>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl7" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures/>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl8" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures/>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl9" MtlFlags="524416" Shader="Illum" GenMask="1000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures/>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

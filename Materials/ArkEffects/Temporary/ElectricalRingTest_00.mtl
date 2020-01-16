@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0.038204376,0.19120172,1,2000" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/lightning_01.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_02_ddn.tif"/>
+  <Texture Map="[1] Custom" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.057999998" DeformAnimSpeed="0.248" GlobalIlluminationAmount="1" DeformTile="0.1"/>
+</Material>

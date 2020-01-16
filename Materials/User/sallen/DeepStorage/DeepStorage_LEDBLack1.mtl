@@ -1,0 +1,7 @@
+
+<Material CloakAmount="0" Diffuse="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" GenMask="80000000001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="194" Specular="0.12477184,0.12477184,0.12477184" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

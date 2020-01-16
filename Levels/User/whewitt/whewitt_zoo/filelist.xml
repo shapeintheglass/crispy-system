@@ -1,0 +1,6 @@
+<download name="whewitt_zoo" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="44661" md5="afafa981b6e7d1437cdfd8f15e743d53"/>
+ </files>
+</download>

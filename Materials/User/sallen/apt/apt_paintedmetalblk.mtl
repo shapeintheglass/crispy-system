@@ -1,0 +1,8 @@
+
+<Material CloakAmount="0" Diffuse="0.011881335,0.011881335,0.011881335" Emissive="0,0,0" GenMask="80001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="213" Specular="0.032617062,0.032617062,0.032617062" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/user/sallen/apt_metalbase.dds" Map="Diffuse"/>
+  <Texture File="textures/user/sallen/apt_metalbasespec.dds" Map="Specular"/>
+ </Textures>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossMapChannelB="0" IndirectColor="0.25,0.25,0.25" SpecMapChannelB="0" SpecMapChannelG="0" SpecMapChannelR="0"/>
+</Material>

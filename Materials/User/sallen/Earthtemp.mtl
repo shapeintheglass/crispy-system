@@ -1,0 +1,7 @@
+
+<Material Diffuse="0.065753885,0.065753885,0.065753885" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="0.034230206,0.034230206,0.034230206" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/user/sallen/apt_concreteslabdiff.dds" Map="Diffuse"/>
+ </Textures>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,10 @@
+
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="30000000000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="152" Specular="1,1,1" StringGenMask="%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete">
+ <Textures>
+  <Texture File="objects/pbs_reference/conductor_diff.dds" Map="Diffuse">
+   <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+  </Texture>
+  <Texture File="objects/pbs_reference/iron_spec.dds" Map="Specular"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

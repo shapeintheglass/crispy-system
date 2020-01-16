@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524292" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.84687334,0.60382748,0.21223079" Specular="0,0,0" Emittance="0.9046613,0.81484669,0.50288647,25" Opacity="0.99000001" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/smoketendrilring_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/smoke/smokeradialinward_flow.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="1.184" FlowSpeed="2.1600001"/>
+</Material>

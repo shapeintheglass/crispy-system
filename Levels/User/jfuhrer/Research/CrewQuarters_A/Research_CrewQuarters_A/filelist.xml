@@ -1,0 +1,6 @@
+<download name="research_crewquarters_a" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="117186" md5="c211ab675e407f9f3ed547166130cbfb"/>
+ </files>
+</download>

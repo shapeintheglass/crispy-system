@@ -1,0 +1,6 @@
+<download name="footsteptest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="48882" md5="ac6e91fb59e5c7b1aba449216eb6dea7"/>
+ </files>
+</download>

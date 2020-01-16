@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="404" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.029556841,0.029556841,0.029556841" Specular="1,1,1" Opacity="1" Shininess="10" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/screen/alienscreensplash_lv2_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/screen/alienscreensplash_lv2_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="10" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TileV="4" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="0.0099999998" RefrBumpScale="0.15000001"/>
+</Material>

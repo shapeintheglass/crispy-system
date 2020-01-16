@@ -1,0 +1,6 @@
+<download name="guttele" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="851998" md5="90bfcc597e86ff96f6fc123e1584661d"/>
+ </files>
+</download>

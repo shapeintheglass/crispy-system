@@ -1,0 +1,27 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="524416" Shader="Illum" GenMask="802800000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/pbs_reference/conductor_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/pbs_reference/worn_metal_ddna.tif"/>
+    <Texture Map="Specular" File="objects/pbs_reference/iron_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="526498" Shader="Glass" GenMask="600000000050010" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%TINT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.11953845,0.11953845,0.11953845" Opacity="1" Shininess="255" AlphaTest="1" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+    <Texture Map="Environment" File="nearest_cubemap"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.064803272,0.099898733,0.11193243" CloudinessReducesGloss="0.5" TintCloudiness="0.145" BackLightScale="0.142" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="524416" Shader="Illum" GenMask="2000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures/>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

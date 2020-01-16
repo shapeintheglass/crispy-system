@@ -1,0 +1,14 @@
+
+<Material Diffuse="0.1169707,0.033104774,0.22322798" Emittance="1,1,1,40" GenMask="2000000400000" LayerAct="1" MatTemplate="" MtlFlags="524290" Opacity="0.86000001" Shader="Illum" Shininess="88" Specular="0.064803272,0.44520122,0.015208516" StringGenMask="%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Flesh_Cystoid" vertModifType="3">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse">
+   <TexMod TexMod_RotateType="2" TexMod_TexGenType="0" TexMod_WRotateAmplitude="14.298706" TexMod_WRotateRate="91.895142" TexMod_bTexGenProjected="0"/>
+  </Texture>
+  <Texture File="textures/defaults/white.dds" Map="Emittance"/>
+ </Textures>
+ <VertexDeform DividerX="0.1" DividerY="0.1" NoiseScale="0,0,0" Type="3">
+  <WaveX Amp="0.050000001" Freq="2" Level="0.050000001" Phase="0" Type="1"/>
+  <WaveY Amp="0.050000001" Freq="2" Level="0.050000001" Phase="0" Type="1"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

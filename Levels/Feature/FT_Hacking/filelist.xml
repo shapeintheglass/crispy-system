@@ -1,0 +1,6 @@
+<download name="ft_hacking" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839444" md5="725667267646e978597a91b78aadb7be"/>
+ </files>
+</download>

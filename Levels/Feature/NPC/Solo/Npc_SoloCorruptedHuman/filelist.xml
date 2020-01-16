@@ -1,0 +1,6 @@
+<download name="npc_solocorruptedhuman" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2843170" md5="15b42d3ab40a182ef5042ccc1cd1ea3f"/>
+ </files>
+</download>

@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524326" Shader="Illum" GenMask="40000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.99110222,0.35640016,0.078187428" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.30000001" GlowAmount="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/smoketrail_00.tif">
+   <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="3"/>
+  </Texture>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

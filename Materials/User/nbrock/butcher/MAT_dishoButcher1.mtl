@@ -1,0 +1,21 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="MAT_dishoButcher" MtlFlags="524416" Shader="HumanSkin" GenMask="400021080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%INNER_LAYER_DIFFUSE_SSS%PHONG_TESSELLATION%TEMP_SKIN" SurfaceType="" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Shininess="100" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/nbrock/butcher/RothWildButcherHead_diff.tif"/>
+    <Texture Map="Specular" File="Textures/User/nbrock/butcher/RothWildButcherHead_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/user/nbrock/butcher/rothwildbutcherhead_ddn.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" ScatterRadius="1.5" Melanin="0.1" FresnelScale="4" RimStrength="2" FresnelBias="0.34999999" SecondarySpecGloss="75" TessellationFactorMax="32" InnerLayerDiffuseSSS="1" SecondarySpecStrength="1" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="MAT_dishoButcher_eye" MtlFlags="524416" Shader="Eye" GenMask="100000000200" StringGenMask="%BUMP_MAP%TEMP_EYES" SurfaceType="" MatTemplate="" Diffuse="0.15728073,0.15728073,0.15728073" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/nbrock/butcher/RothWildButcherEye_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/user/nbrock/butcher/rothwildbutchereye_ddn.tif"/>
+   </Textures>
+   <PublicParams PupilX="0.5" IrisDepth="0.0049999999" PupilDynDilation="2" CorneaOpacity="1" PupilDilation="0.5" IrisScattering="1" FresnelScale="1" PupilY="0.5" IrisColor="0.5,0.5,0.5" GlintMul="1" FresnelBias="0.80000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

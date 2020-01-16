@@ -1,0 +1,6 @@
+<download name="phantomlookattest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="40839" md5="6cdcab2523f1d6c11d4c5c1721832a2b"/>
+ </files>
+</download>

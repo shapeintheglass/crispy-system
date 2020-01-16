@@ -1,0 +1,22 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="MAT_butcher_eyeOverlay" MtlFlags="524416" Shader="Eye" GenMask="800030000" StringGenMask="%ENVIRONMENT_MAP%EYE_OVERLAY%TEMP_EYES" SurfaceType="" MatTemplate="" Diffuse="0.48195225,0.48195225,0.48195225" Specular="0.031551391,0.031551391,0.031551391" Emissive="0,0,0" Shininess="240" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/nbrock/eye/butcher_eye_diff.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/user/jmagill/concept/psi_lab/environmentprobe1_cm.tif"/>
+   </Textures>
+   <PublicParams DepthBiasScale="1" FresnelScale="1" FresnelBias="0.80000001" OcclusionStrength="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="MAT_Butcher_eyes" MtlFlags="524416" Shader="Eye" GenMask="800010200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%TEMP_EYES" SurfaceType="" MatTemplate="" Diffuse="0.48195225,0.48195225,0.48195225" Specular="0.042987008,0.042987008,0.042987008" Emissive="0,0,0" Shininess="240" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/nbrock/eye/butcher_eye_diff.tif"/>
+    <Texture Map="Specular" File="textures/user/nbrock/eye/butcher_eye_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/user/nbrock/eye/butcher_eye_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/user/jmagill/concept/psi_lab/environmentprobe1_cm.tif"/>
+   </Textures>
+   <PublicParams PupilX="0.5" IrisDepth="0" PupilDynDilation="2" CorneaOpacity="0.5" PupilDilation="1" IrisScattering="2" FresnelScale="1" PupilY="0.5" IrisColor="0.5,0.5,0.5" GlintMul="1" FresnelBias="0.80000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

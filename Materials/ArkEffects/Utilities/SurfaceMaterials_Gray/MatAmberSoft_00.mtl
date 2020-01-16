@@ -1,0 +1,7 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" GenMask="2000000000002" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Gloo_Soft" vertModifType="0">
+ <Textures>
+  <Texture File="textures/arkeffects/utilities/solid_gray.tif" Map="Diffuse"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

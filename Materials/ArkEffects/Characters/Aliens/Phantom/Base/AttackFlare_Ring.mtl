@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524292" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0.99110222,0.77582234,0.63075727,30" Opacity="1" Shininess="100" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/ring_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="0.5" FlowTile="1" FlowSpeed="10"/>
+</Material>

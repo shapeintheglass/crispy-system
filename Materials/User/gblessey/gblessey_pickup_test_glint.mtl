@@ -1,0 +1,8 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="0" GlowAmount="1" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="ArkEmissive" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="objects/user/astifter/object_glint_test_diff.tif" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="2.7" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorType="6" TexMod_VOscillatorAmplitude="3.4000001" TexMod_VOscillatorRate="0.60000002" TexMod_VOscillatorType="5" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.30000001"/>
+  </Texture>
+ </Textures>
+</Material>

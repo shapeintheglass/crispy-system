@@ -1,0 +1,7 @@
+
+<Material MtlFlags="526336" Shader="ArkSimpleGlass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.20507877,0.20507877,0.20507877" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_gray.tif"/>
+ </Textures>
+ <PublicParams BumpMapTile="1" TintColor="1,1,1" TintCloudiness="0" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

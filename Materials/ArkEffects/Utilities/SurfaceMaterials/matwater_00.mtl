@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="1000000000002" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Water" MatTemplate="" Diffuse="0.038204376,0.39157251,0.81484669" Specular="0.46778381,0.93011099,0.93011099" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_gray.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526340" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,2" Opacity="0.99000001" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/targetingringglow_2x2_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.0049999999" DeformAnimSpeed="0.38100001" GlobalIlluminationAmount="1" DeformTile="1"/>
+</Material>

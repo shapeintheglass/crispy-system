@@ -1,0 +1,6 @@
+<download name="lobbyguts_layouttest02" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="99236" md5="a69b404c9a47c5b8d0b4e3446db49570"/>
+ </files>
+</download>

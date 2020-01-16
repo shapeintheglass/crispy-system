@@ -1,0 +1,6 @@
+<download name="proxtriggerbug" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="126411" md5="1cba12eb0ebe28fa01b734eb7f3878e0"/>
+ </files>
+</download>

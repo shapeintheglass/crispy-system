@@ -1,0 +1,6 @@
+<download name="ft_coral" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="74019" md5="787cd69be1ea1aa7e66e5ebce02044d9"/>
+ </files>
+</download>

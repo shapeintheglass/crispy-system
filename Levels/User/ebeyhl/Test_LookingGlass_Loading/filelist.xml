@@ -1,0 +1,6 @@
+<download name="test_lookingglass_loading" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2825439" md5="83acfa3b4f368f6388b792c6906e808a"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="ai_phantomthrowtest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2844330" md5="aac379204a015a811a200876aa4d01aa"/>
+ </files>
+</download>

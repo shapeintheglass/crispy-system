@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="ArkParticlesGeo" GenMask="800080000202" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%FLOWMAP%SPEC_MAP" SurfaceType="" MatTemplate="" Diffuse="0.69387192,0.00091058103,0.0030352699" Specular="0.28744087,0.28744087,0.28744087" Opacity="1" Shininess="210" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/noise/concretemiscdebris_00_ddn.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/smoke/smoke_black_soft_whispy_4tile_fm_01.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1.237" FlowTile="1.163" FlowSpeed="4.7800002"/>
+</Material>

@@ -1,0 +1,8 @@
+
+<Material Diffuse="0.20507877,0.20507877,0.20507877" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="82" Specular="0.015996294,0.026241222,0.022173885" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+  <Texture File="textures/cubemaps/workshop/environmentprobe9_cm.tif" Map="Environment"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="0.29613829,0.76815128,0.96468639" Emittance="1,1,1,40" GenMask="10010" LayerAct="1" MatTemplate="" MtlFlags="34080768" Opacity="1" Shader="ArkSimpleGlass" Shininess="224" Specular="0.41788509,0.63759702,0.96468639" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP" SurfaceType="mat_Glass_Healing" vertModifType="0">
+ <Textures>
+  <Texture File="textures/arkeffects/utilities/matglasshealing.tif" Map="Diffuse"/>
+  <Texture File="textures/cubemaps/artcorner/environmentprobe_room2_off_cm.tif" Map="Environment"/>
+  <Texture File="textures/arkeffects/utilities/matglasshealing.tif" Map="Emittance"/>
+ </Textures>
+ <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.35800001" TintColor="0.36625263,0.98225069,0.9046613"/>
+</Material>

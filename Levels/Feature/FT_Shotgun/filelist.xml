@@ -1,0 +1,6 @@
+<download name="ft_shotgun" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="172538" md5="856496e47d0539a3a789c12e690bde4f"/>
+ </files>
+</download>

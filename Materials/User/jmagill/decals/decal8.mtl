@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20000000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.11443538,0.11443538,0.11443538" Specular="0.46778381,0.46778381,0.46778381" Emissive="0,0,0" Opacity="0.34999999" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/architecture/decals/decals_misc/decal_textures/square_01.tif" IsTileU="0" IsTileV="0"/>
+ </Textures>
+ <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

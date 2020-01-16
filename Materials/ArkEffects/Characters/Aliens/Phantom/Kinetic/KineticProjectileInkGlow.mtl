@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="1080" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0.18782079,0.76052463,0.98225069,50" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/ink/inktrails_00.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/ink/inktrails_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/distcircularnoiseinv.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.14399999" FlowSpeed="5.98"/>
+</Material>

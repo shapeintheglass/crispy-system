@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="401400000000002" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Porcelain_Small" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/props/apartment/broken_plate_shards_a/broken_plate_shards_a_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/environment/props/apartment/broken_plate_shards_a/broken_plate_shards_a_ddna.tif"/>
+  <Texture Map="Specular" File="objects/environment/props/apartment/broken_plate_shards_a/broken_plate_shards_a_spec.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="encountersc" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="69654" md5="670b68386c6573c65d0d8135d31fa648"/>
+ </files>
+</download>

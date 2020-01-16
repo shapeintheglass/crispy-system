@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526368" Shader="ArkAlienDistortion" GenMask="2000000000" StringGenMask="%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/baseglow_02.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif"/>
+ </Textures>
+ <PublicParams BumpMapTile="0.50999999" TintColor="0.55201149,0.063010022,0.063010022" BlurAmount="0.405" FresnelScale="3.4000001" FresnelBias="0.074000001" FadeEnd="1.77" FadeStart="3.5999999" BumpScale="0.322" IndirectColor="1,1,1"/>
+</Material>

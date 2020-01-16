@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/exp_shockwave_gray_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/fire/fire_crawl_flow.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.048999999" DeformAnimSpeed="0.064000003" GlobalIlluminationAmount="1" DeformTile="0.191"/>
+</Material>

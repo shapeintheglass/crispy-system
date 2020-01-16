@@ -1,0 +1,8 @@
+
+<Material MtlFlags="134744068" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="0.63759702,0.98225069,0.18782079,1000" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/StarGlows_00_dif.tif"/>
+  <Texture Map="[1] Custom" File="textures/arkeffects/glows/DetailGlow_01.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

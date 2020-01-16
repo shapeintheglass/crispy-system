@@ -1,0 +1,15 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.26317474,0.36859095,0.26317474" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="gray_mat" Opacity="1" Shader="Illum" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/environment/_griddefault/griddefault_diff.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Diffuse="0.82352901,0.113033,0.113033" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="gray_collision" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

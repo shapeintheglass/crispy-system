@@ -1,0 +1,6 @@
+<download name="ai_onephantomcombat" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="83996" md5="2755839e8943881c14c60263c878827e"/>
+ </files>
+</download>

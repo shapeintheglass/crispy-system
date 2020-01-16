@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="1,0.20863689,0.016807377,25" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/explosion_fireball_smoke_tendril.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/fire/explosion_fireball_tendril_glow.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

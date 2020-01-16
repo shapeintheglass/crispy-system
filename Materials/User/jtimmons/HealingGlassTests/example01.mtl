@@ -1,0 +1,15 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="40020080180000" StringGenMask="%EMITTANCE_MAP%EMITTANCE_MAP_MASK%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="0.27467734,0.35640016,0.58407855" Specular="0.58407855,0.58407855,0.58407855" Emittance="0.20155628,0.2269659,0.50888133,6" Opacity="1" Shininess="231" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/props/neodeco/lobby_sculpture_a/lobby_sculpture_a_screen_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorAmplitude="0.1" TexMod_VOscillatorRate="0.1" TexMod_VOscillatorAmplitude="0.1"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/environment/props/neodeco/lobby_sculpture_a/lobby_sculpture_a_screen_ddna.tif"/>
+  <Texture Map="Specular" File="objects/environment/props/neodeco/lobby_sculpture_a/lobby_sculpture_a_screen_spec.tif"/>
+  <Texture Map="Decal" File="objects/environment/props/neodeco/lobby_sculpture_a/lobby_sculpture_a_screen_msk.tif"/>
+  <Texture Map="Emittance" File="objects/environment/props/neodeco/lobby_sculpture_a/lobby_sculpture_a_screen_emi.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="5" TexMod_UOscillatorRate="0.079999998" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="0.2" TexMod_VOscillatorType="5" TexMod_VOscillatorRate="0.079999998" TexMod_VOscillatorPhase="0.1" TexMod_VOscillatorAmplitude="0.2" TexMod_WRotateRate="0.098876953" TexMod_WRotateAmplitude="0.098876953"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

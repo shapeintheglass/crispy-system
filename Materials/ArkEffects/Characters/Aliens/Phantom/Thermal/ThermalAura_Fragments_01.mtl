@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.9046613,0.17464744,0.013702084" Specular="0,0,0" Emittance="1,1,1,1000" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/solidglow_alpha_00.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" RotateW="90"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

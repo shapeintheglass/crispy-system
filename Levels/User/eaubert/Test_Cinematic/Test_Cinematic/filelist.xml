@@ -1,0 +1,6 @@
+<download name="test_cinematic" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35040" md5="a0ae8a43dc654fa9450fe9ea59ac77f7"/>
+ </files>
+</download>

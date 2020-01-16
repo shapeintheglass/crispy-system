@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,40" Opacity="1" Shininess="51" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/smoke_black_soft_whispy_4tile.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif"/>
+ </Textures>
+ <PublicParams SoftParticlesScale="1" GlobalIlluminationAmount="1"/>
+</Material>

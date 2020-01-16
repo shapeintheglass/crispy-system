@@ -1,0 +1,6 @@
+<download name="sshain_targetingtimetest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="3005688" md5="76cb55742b77d382afc7ae294ebfbc42"/>
+ </files>
+</download>

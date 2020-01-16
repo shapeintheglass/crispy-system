@@ -1,0 +1,18 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="light_mat" MtlFlags="524416" Shader="Illum" GenMask="20000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="0.46599999,0.46599999,0.46599999" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="light_emissive_mat" MtlFlags="524416" Shader="Illum" GenMask="20000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

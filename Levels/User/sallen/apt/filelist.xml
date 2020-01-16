@@ -1,0 +1,6 @@
+<download name="apt" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="271535" md5="e6723591293c9e77f470e25b9dfe66d1"/>
+ </files>
+</download>

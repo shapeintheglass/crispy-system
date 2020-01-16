@@ -1,0 +1,6 @@
+<download name="ai_mimicdistract" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="75983" md5="36a91de8c2ae24c0173e9b152c789c9f"/>
+ </files>
+</download>

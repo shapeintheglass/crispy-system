@@ -1,0 +1,7 @@
+
+<Material MtlFlags="134744068" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.97344542,0.84687334,0.42869052" Emittance="0.83077002,0.42869052,0.1169707,100000" Opacity="1" Shininess="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/sparks/multiple_sparks_streaks_01.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

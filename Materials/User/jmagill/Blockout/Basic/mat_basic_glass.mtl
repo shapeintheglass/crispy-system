@@ -1,0 +1,9 @@
+
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="10000000050010" LayerAct="1" MatTemplate="" MtlFlags="36177952" Opacity="0.40000001" Shader="ArkSimpleGlass" Shininess="255" Specular="0.22322798,0.22322798,0.22322798" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+  <Texture File="objects/user/epetit/lobby/frostedglassnoise_01_ddn.tif" Map="Bumpmap"/>
+  <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+ </Textures>
+ <PublicParams BackLightScale="1" BumpMapTile="1" BumpScale="0.0099999998" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0.71499997" TintColor="0.068478175,0.068478175,0.068478175"/>
+</Material>

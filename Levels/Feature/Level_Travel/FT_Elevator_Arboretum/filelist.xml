@@ -1,0 +1,6 @@
+<download name="ft_elevator_arboretum" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37161" md5="2047329beb0aac397aecb033bbee69da"/>
+ </files>
+</download>

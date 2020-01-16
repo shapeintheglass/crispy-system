@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="800000004" StringGenMask="%ALPHAMASK_DETAILMAP%NORMAL_MAP" SurfaceType="" MatTemplate="" Diffuse="1,0.03189604,0.03189604" Specular="0,0,0" Emissive="0,0,0" Opacity="1" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/screen/screenglitchnormals_small_00_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/screen/screenglitchnormals_small_00_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.02"/>
+</Material>

@@ -1,0 +1,31 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="MAT_butcher2_skin" MtlFlags="655488" Shader="HumanSkin" GenMask="400000080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.19046287,0.19046287,0.19046287" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/nbrock/butcher/butcher2_diff.tif"/>
+    <Texture Map="Specular" File="textures/user/nbrock/butcher/butcher2_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/user/nbrock/butcher/butcher2_ddn.tif"/>
+   </Textures>
+   <PublicParams ScatterRadius="2" Melanin="0" FresnelScale="4" RimStrength="1.5" FresnelBias="0.34999999" SecondarySpecGloss="75" SecondarySpecStrength="3" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="MAT_butcher2_eye" MtlFlags="524416" Shader="Eye" GenMask="100000010200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%TEMP_EYES" SurfaceType="" MatTemplate="" Diffuse="0.40982577,0.40982577,0.40982577" Specular="0.10114516,0.10114516,0.10114516" Emissive="0,0,0" Shininess="240" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/nbrock/eye/butcher_eye_diff.tif"/>
+    <Texture Map="Specular" File="Textures/user/nbrock/eye/butcher_eye_spec.tif"/>
+    <Texture Map="Bumpmap" File="Textures/user/nbrock/eye/butcher_eye_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/user/jmagill/concept/psi_lab/environmentprobe1_cm.tif"/>
+   </Textures>
+   <PublicParams PupilX="0.5" IrisDepth="0.0049999999" PupilDynDilation="2" CorneaOpacity="1" PupilDilation="0.5" IrisScattering="1" FresnelScale="1" PupilY="0.5" IrisColor="0.5,0.5,0.5" GlintMul="1" FresnelBias="0.80000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="MAT_butcher2_eyebrows" MtlFlags="526464" Shader="Hair" GenMask="10000000208" StringGenMask="%ANISO_SPECULAR%BUMP_MAP%SOFT_ALPHATEST" SurfaceType="" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.25,0.25,0.25" Emissive="0,0,0" Opacity="0.99000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/nbrock/butcher/butcher2_diff.tif"/>
+    <Texture Map="Specular" File="textures/user/nbrock/butcher/butcher2_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/user/nbrock/butcher/butcher2_ddn.tif"/>
+   </Textures>
+   <PublicParams AnimAmplitudeWav0="0" AmbientSpecMult="1" SecondarySpecShift="0.54000002" PrimarySpecColor="1,1,1" RimMultiplier="0.2" DiffuseWrap="0.75" PrimarySpecPow="200" SelfShadowSoftening="40" DetailTilling="1" HairColor="1,1,1" AlphaTestSoftening="0.0099999998" SecondarySpecColor="1,1,1" AnimFrequency="0" PrimarySpecShift="0.079999998" AnimAmplitudeWav2="0" SecondarySpecPow="16" AnimPhase="1" BumpScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

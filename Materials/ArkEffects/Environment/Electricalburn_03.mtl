@@ -1,0 +1,7 @@
+
+<Material MtlFlags="134742016" Shader="Illum" GenMask="20000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.65837497,0.65837497,0.65837497" Opacity="0.81999999" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/electrical_burns_03_diff.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

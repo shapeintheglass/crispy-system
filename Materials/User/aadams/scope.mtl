@@ -1,0 +1,5 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Scopes" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Metal_Thin_Medium">
+ <Textures/>
+ <PublicParams NoiseScale="0.75" ObjectUV="0" ScopeColorMultiplier="160" ScopeScale="4"/>
+</Material>

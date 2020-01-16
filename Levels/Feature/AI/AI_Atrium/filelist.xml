@@ -1,0 +1,6 @@
+<download name="ai_atrium" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="3056356" md5="734e0188377273fc562cf072a50885ee"/>
+ </files>
+</download>

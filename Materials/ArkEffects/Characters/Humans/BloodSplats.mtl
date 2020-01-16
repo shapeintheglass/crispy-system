@@ -1,0 +1,16 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="560" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.1559265,0.0080231931,0" Specular="0.017641956,0.010960096,0.010960096" Opacity="1" Shininess="220" CloakAmount="0" LayerAct="0">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/characters/aliens/mimic/body/mimicaurasmoke.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TexMod_UOscillatorType="6" TexMod_UOscillatorRate="2" TexMod_UOscillatorPhase="2" TexMod_UOscillatorAmplitude="2" TileV="2" TexMod_VOscillatorRate="2" TexMod_VOscillatorPhase="2" TexMod_VOscillatorAmplitude="2"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/arkeffects/characters/aliens/mimic/body/MimicAuraSmoke_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_02_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="2" TexMod_UOscillatorPhase="2" TexMod_UOscillatorAmplitude="2" TexMod_VOscillatorPhase="2" TexMod_VOscillatorAmplitude="2"/>
+  </Texture>
+  <Texture Map="[1] Custom" File="textures/arkeffects/characters/humans/blood_colorlookup.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.024" DeformAnimSpeed="0.29899999" ColLookupAmplitude="6.3400002" GlobalIlluminationAmount="1" DeformTile="0.18700001" ColLookupColPhase="0.31999999"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="artcorner_lab_panels01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="42274" md5="11b0f6807ba8abde68bbf83a19a68f2d"/>
+ </files>
+</download>

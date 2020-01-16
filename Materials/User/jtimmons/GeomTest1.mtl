@@ -1,0 +1,25 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.30498734,0.30498734,0.30498734" Emissive="0,0,0" GenMask="30000000101" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Panel_Metall_01_base" Opacity="1" Shader="Illum" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="objects/environment/architecture/interior/coldwar/panel_metal_a/panel_metal_a_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/interior/coldwar/panel_metal_a/panel_metal_a_spec.tif" Map="Specular"/>
+    <Texture File="objects/environment/architecture/interior/coldwar/panel_metal_a/panel_metal_a_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.29411799,0.44308999,1" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="Panel_Metall_01_collision" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="30000000101" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Panel_Metal_01_bottom" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="objects/environment/architecture/interior/coldwar/panel_metal_a/panel_metal_a_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/interior/coldwar/panel_metal_a/panel_metal_a_spec.tif" Map="Specular"/>
+    <Texture File="objects/environment/architecture/interior/coldwar/panel_metal_a/panel_metal_a_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

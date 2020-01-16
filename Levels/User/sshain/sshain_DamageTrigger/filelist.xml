@@ -1,0 +1,6 @@
+<download name="sshain_damagetrigger" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35410" md5="0b935bda095f9cd1429a3b3e86652858"/>
+ </files>
+</download>

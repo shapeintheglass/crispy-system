@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="D24" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.29613829,0.3467041,0.44520122" Opacity="1" Shininess="240" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/gameplay/wigglebubbles_retouch01.tif" IsTileU="0" IsTileV="0"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/gameplay/wigglebubbles_seq_best_01a_ddn.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif" IsTileU="0" IsTileV="0"/>
+ </Textures>
+ <PublicParams DeformAmount="0.029999999" DeformAnimSpeed="0.285" GlobalIlluminationAmount="1" RefrBumpScale="0.40000001" DeformTile="0.059999999"/>
+</Material>

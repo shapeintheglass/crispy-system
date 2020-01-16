@@ -1,0 +1,8 @@
+
+<Material MtlFlags="36177952" Shader="ArkSimpleGlass" GenMask="4000000010000" StringGenMask="%ENVIRONMENT_MAP%UNLIT" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.37626216,0.49102089,0.63075727" Opacity="1" Shininess="255" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_gray.tif"/>
+  <Texture Map="Environment" File="nearest_cubemap" TexType="Nearest Cube-Map probe for alpha blended"/>
+ </Textures>
+ <PublicParams BumpMapTile="1" TintColor="0.49102089,0.59720188,0.75294232" TintCloudiness="0.25" BackLightScale="0.25" BumpScale="0.1"/>
+</Material>

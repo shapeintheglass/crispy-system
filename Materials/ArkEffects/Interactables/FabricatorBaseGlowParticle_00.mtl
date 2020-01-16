@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.34191445,0.55201149,0.6795426" Specular="0,0,0" Emittance="1,1,1,1000" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

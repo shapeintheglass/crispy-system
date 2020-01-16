@@ -1,0 +1,7 @@
+
+<Material Diffuse="0.056128494,0.026241222,0.010329825" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="230" Specular="0.049706571,0.049706571,0.049706571" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Wood_Medium">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

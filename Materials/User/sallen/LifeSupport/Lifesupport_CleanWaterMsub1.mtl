@@ -1,0 +1,67 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" GenMask="802800000000002" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Lifesupport_CleanWaterMsub" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/conductor_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture File="objects/pbs_reference/brushed_steel_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/pbs_reference/iron_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0,0,0" GenMask="802800000000002" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="255" Specular="0.73046088,0.41254264,0.30946895" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/gloss70_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/pbs_reference/iron_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.49102089,0.19806935,0.043735035" GenMask="802002000000002" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="225" Specular="0.082282715,0.04518621,0.011612247" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="" vertModifType="0">
+   <Textures>
+    <Texture File="textures/arkeffects/noise/smoke_noise_test.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="-0.0099999998" TexMod_UOscillatorPhase="1" TexMod_UOscillatorRate="-0.2" TexMod_UOscillatorType="2" TexMod_URotateCenter="0.02" TexMod_VOscillatorAmplitude="-0.0099999998" TexMod_VOscillatorPhase="1" TexMod_VOscillatorRate="-1" TexMod_VOscillatorType="2" TexMod_VRotateCenter="0.0099999998" TexMod_WRotateAmplitude="0.0054931641" TexMod_WRotatePhase="0.098876953" TexMod_WRotateRate="0.098876953" TexMod_bTexGenProjected="0" TileU="6" TileV="6"/>
+    </Texture>
+    <Texture File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.27889431,0.059511244,0.033104774" Emittance="1,1,1,67" GenMask="400000000010010" LayerAct="1" MatTemplate="" MtlFlags="34080928" Name="SubMtl4" Opacity="1" Shader="ArkSimpleGlass" Shininess="239" Specular="0.1301365,0.048171829,0.024157634" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%UNLIT" SurfaceType="" vertModifType="0">
+   <Textures>
+    <Texture File="textures/arkeffects/utilities/matglasslooking.tif" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/artcorner/environmentprobe_room2_off_cm.tif" Map="Environment"/>
+    <Texture File="textures/arkeffects/utilities/matglasslooking.tif" Map="Emittance"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.35800001" TintColor="0.095307469,0.026241222,0.010960096"/>
+  </Material>
+  <Material Diffuse="0,0,0" GenMask="802800000000002" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl5" Opacity="1" Shader="Illum" Shininess="255" Specular="0.73046088,0.41254264,0.30946895" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/gloss70_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/pbs_reference/iron_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material AlphaTest="0.0099999998" CloakAmount="0" Diffuse="0.53947961,0.82278591,0.88792324" Emittance="1,1,1,1.6" GenMask="800000000000100" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="SubMtl6" Opacity="1" Shader="Particles" Shininess="220" Specular="1,1,1" StringGenMask="" SurfaceType="" vertModifType="0">
+   <Textures>
+    <Texture File="textures/arkeffects/temporary/bubble_00.tif" IsTileU="0" IsTileV="0" Map="Diffuse"/>
+    <Texture File="textures/arkeffects/distortionmaps/dist_droplets_alpha_ddn_00.tif" Map="Bumpmap"/>
+    <Texture File="textures/arkeffects/temporary/bubble_00.tif" Map="Emittance"/>
+   </Textures>
+   <PublicParams GlobalIlluminationAmount="0.0099999998"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.27889431,0.059511244,0.033104774" Emittance="1,1,1,83" GenMask="400000000010010" LayerAct="1" MatTemplate="" MtlFlags="34080928" Name="SubMtl7" Opacity="1" Shader="ArkSimpleGlass" Shininess="224" Specular="0.1301365,0.048171829,0.024157634" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%UNLIT" SurfaceType="" vertModifType="0">
+   <Textures>
+    <Texture File="textures/arkeffects/utilities/matglasslooking.tif" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/artcorner/environmentprobe_room2_off_cm.tif" Map="Environment"/>
+    <Texture File="textures/arkeffects/utilities/matglasslooking.tif" Map="Emittance"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.45699999" TintColor="0.074213572,0.021219011,0.0091340598"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="2000000000002" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl8" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" vertModifType="0">
+   <Textures/>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

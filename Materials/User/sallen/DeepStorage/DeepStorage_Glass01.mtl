@@ -1,0 +1,5 @@
+
+<Material CloakAmount="0" Diffuse="0,0,0" GenMask="90" LayerAct="1" MatTemplate="" MtlFlags="2623522" Opacity="1" Shader="Glass" Shininess="200" Specular="0.21586053,0.21586053,0.21586053" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION" SurfaceType="mat_Glass_Unbreakable" vertModifType="0">
+ <Textures/>
+ <PublicParams BackLightScale="0.25" BlurAmount="1" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.0099999998" TintColor="0.49693301,0.49693301,0.49693301"/>
+</Material>

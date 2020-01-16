@@ -1,0 +1,81 @@
+<Graph isModule="1" moduleName="RLOutputValue" isObjectList="0" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <ModuleInputsOutputs>
+  <Port Name="Vec3" Type="4" Input="1"/>
+  <Port Name="VecType" Type="5" Input="1"/>
+  <Port Name="FormattedString" Type="5" Input="0"/>
+ </ModuleInputsOutputs>
+ <Nodes>
+  <Node Id="1" Class="Module:Start_RLOutputValue" pos="-190,10,0"/>
+  <Node Id="2" Class="Module:End_RLOutputValue" pos="1300,30,0">
+   <Inputs FormattedString=""/>
+  </Node>
+  <Node Id="3" Class="Debug:FloatToString" pos="280,-30,0">
+   <Inputs Number="0" AmountOfDecimals="9"/>
+  </Node>
+  <Node Id="4" Class="String:Concat" pos="290,220,0">
+   <Inputs String1="" String2=":("/>
+  </Node>
+  <Node Id="6" Class="Vec3:FromVec3" pos="90,60,0">
+   <Inputs vec3="0,0,0"/>
+  </Node>
+  <Node Id="7" Class="Debug:FloatToString" pos="280,60,0">
+   <Inputs Number="0" AmountOfDecimals="9"/>
+  </Node>
+  <Node Id="8" Class="Debug:FloatToString" pos="280,140,0">
+   <Inputs Number="0" AmountOfDecimals="9"/>
+  </Node>
+  <Node Id="9" Class="String:Concat" pos="480,220,0">
+   <Inputs String1="" String2=""/>
+  </Node>
+  <Node Id="10" Class="String:Concat" pos="880,220,0">
+   <Inputs String1="" String2=", "/>
+  </Node>
+  <Node Id="11" Class="String:Concat" pos="890,100,0">
+   <Inputs String1="" String2=", "/>
+  </Node>
+  <Node Id="12" Class="String:Concat" pos="1040,100,0">
+   <Inputs String1="" String2=", "/>
+  </Node>
+  <Node Id="13" Class="String:Concat" pos="890,0,0">
+   <Inputs String1="" String2=", "/>
+  </Node>
+  <Node Id="14" Class="String:Concat" pos="1040,0,0">
+   <Inputs String1="" String2=")"/>
+  </Node>
+  <Node Id="80" Class="Debug:Log" pos="740,-220,0">
+   <Inputs message="TESTING"/>
+  </Node>
+  <Node Id="81" Class="String:Concat" pos="680,220,0">
+   <Inputs String1="" String2=""/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="1" portIn="Cancel" portOut="Cancel" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="Set" portOut="Start" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="String1" portOut="VecType" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="vec3" portOut="Vec3" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="3" portIn="String2" portOut="out" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="4" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="4" portIn="String1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="6" portIn="Number" portOut="x" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="6" portIn="Number" portOut="y" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="6" portIn="Number" portOut="z" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="7" portIn="String2" portOut="out" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="8" portIn="String2" portOut="out" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="9" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="9" portIn="String1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="10" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="10" portIn="String1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="11" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="11" portIn="String1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="12" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="12" portIn="String1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="13" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="13" portIn="String1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="14" portIn="FormattedString" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="14" portIn="Success" portOut="Out" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="81" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="81" portIn="String1" portOut="Out" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

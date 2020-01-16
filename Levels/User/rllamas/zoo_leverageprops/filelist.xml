@@ -1,0 +1,6 @@
+<download name="zoo_leverageprops" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2841698" md5="39374f4db5082d4ed95f533608ac56b2"/>
+ </files>
+</download>

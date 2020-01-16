@@ -1,0 +1,8 @@
+
+<Material CloakAmount="0" Diffuse="0.40724024,0.40724024,0.40724024" Emissive="0,0,0" GenMask="10" LayerAct="1" MatTemplate="" MtlFlags="2623488" Opacity="0.51999998" Shader="ArkSimpleGlass" Shininess="86" Specular="0.2269659,0.2269659,0.2269659" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_Glass">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+  <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+ </Textures>
+ <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+</Material>

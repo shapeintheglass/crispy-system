@@ -1,0 +1,6 @@
+<download name="sshain_tod" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="44557" md5="7f4c39d85b26521f2692b7f3d7774704"/>
+ </files>
+</download>

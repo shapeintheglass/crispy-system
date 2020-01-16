@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="1001400000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="230" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/user/pnguyen/crew_quarters/kitchen_crewquarters_a/metal_sheet_wall_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/user/pnguyen/crew_quarters/kitchen_crewquarters_a/metal_sheet_wall_ddna_wreynard.tif"/>
+  <Texture Map="Specular" File="objects/user/pnguyen/crew_quarters/kitchen_crewquarters_a/metal_sheet_wall_spec.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

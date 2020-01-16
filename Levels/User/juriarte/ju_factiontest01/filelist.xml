@@ -1,0 +1,6 @@
+<download name="ju_factiontest01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="82042" md5="c2d3bf81196491a0f0e8e8fc31e6f4cf"/>
+ </files>
+</download>

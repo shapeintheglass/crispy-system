@@ -1,0 +1,6 @@
+
+<Material MtlFlags="524288" Shader="ArkEmissive" GenMask="0" StringGenMask="" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,33" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="videos/rw_crewtheater2temp@1.bk2" TexType="5"/>
+ </Textures>
+</Material>

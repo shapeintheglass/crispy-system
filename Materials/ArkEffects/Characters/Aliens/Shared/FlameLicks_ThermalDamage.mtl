@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.93011099,0.5332765,0.22322798" Specular="0,0,0" Emittance="0.98225069,0.93011099,0.61049569,150" Opacity="0.99000001" Shininess="10" AlphaTest="0.0099999998" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/flamelicks_2x2_dif.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/noise/wavynoisetiled_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.118" DeformAnimSpeed="1" GlobalIlluminationAmount="1" DeformTile="0.26499999"/>
+</Material>

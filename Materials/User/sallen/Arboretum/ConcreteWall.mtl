@@ -1,0 +1,8 @@
+
+<Material Diffuse="0.49693301,0.49693301,0.49693301" Emissive="0,0,0" GenMask="2001000000000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+ <Textures>
+  <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_01_conc_diff.tif" Map="Diffuse"/>
+  <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_01_conc_ddna.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

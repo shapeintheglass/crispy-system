@@ -1,0 +1,20 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="DeepStorage_ServerIceBox" MtlFlags="524416" Shader="Illum" GenMask="30100000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Large" MatTemplate="" Specular="1,1,1" Opacity="1" Shininess="255" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="objects/pbs_reference/gloss70_ddna.tif"/>
+    <Texture Map="Specular" File="objects/pbs_reference/iron_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="542884" Shader="ArkSimpleGlass" GenMask="4000000010000" StringGenMask="%ENVIRONMENT_MAP%UNLIT" SurfaceType="" MatTemplate="" Diffuse="0.054480281,0.1620294,0.054480281" Specular="0.39675525,0.82278591,0.39675525" Emittance="1,1,1,40" Opacity="1" Shininess="255" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+    <Texture Map="Environment" File="Textures/cubemaps/corporateit/environmentprobe27_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="5.5700002" TintColor="0.074213572,0.1301365,0.07618539" TintCloudiness="1" BackLightScale="0.61799997" BumpScale="0.40200001"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

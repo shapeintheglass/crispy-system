@@ -1,0 +1,6 @@
+<download name="npc_soloethericphantom" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2838929" md5="a9d753efca402c12ae02c0ad02cd3d99"/>
+ </files>
+</download>

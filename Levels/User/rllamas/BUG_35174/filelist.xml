@@ -1,0 +1,6 @@
+<download name="bug_35174" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2842868" md5="e2883583427850a8bf1117ac3d024bb4"/>
+ </files>
+</download>

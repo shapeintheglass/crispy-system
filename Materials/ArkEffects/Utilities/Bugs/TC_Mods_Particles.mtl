@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/arrowup.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

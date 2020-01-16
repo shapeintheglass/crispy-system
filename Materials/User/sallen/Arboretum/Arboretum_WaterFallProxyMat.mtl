@@ -1,0 +1,29 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="524416" Shader="Illum" GenMask="2002800000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" MatTemplate="" Diffuse="0.29177067,0.30946895,0.38132605" Specular="0.50888133,0.50888133,0.50888133" Opacity="1" Shininess="237" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="524416" Shader="Illum" GenMask="2002800000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" MatTemplate="" Diffuse="0.084376216,0.084376216,0.084376216" Specular="0.50888133,0.50888133,0.50888133" Opacity="1" Shininess="237" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="524416" Shader="Illum" GenMask="2002800000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Large" MatTemplate="" Specular="1,1,1" Opacity="1" Shininess="255" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="objects/pbs_reference/gloss70_ddna.tif"/>
+    <Texture Map="Specular" File="objects/pbs_reference/iron_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

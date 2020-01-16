@@ -1,0 +1,6 @@
+<download name="sponza_svoti" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="63260" md5="1bdc173f869ce2fb11687c1caf6ada7c"/>
+ </files>
+</download>

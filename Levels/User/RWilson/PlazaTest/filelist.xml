@@ -1,0 +1,6 @@
+<download name="plazatest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1143897" md5="3408a352701a9325300df3f32746e11e"/>
+ </files>
+</download>

@@ -1,0 +1,10 @@
+
+<Material Diffuse="0.1441285,0.1441285,0.1441285" Emissive="0,0,0" GenMask="40000000101" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="44" Specular="0.019382363,0.019382363,0.019382363" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete">
+ <Textures>
+  <Texture File="textures/generic/concrete/wall_cracked_diff.dds" Map="Diffuse">
+   <TexMod TileU="15" TileV="15"/>
+  </Texture>
+  <Texture File="textures/generic/concrete/wall_cracked_ddn.dds" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

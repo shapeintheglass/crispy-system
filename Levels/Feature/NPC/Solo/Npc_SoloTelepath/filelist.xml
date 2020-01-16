@@ -1,0 +1,6 @@
+<download name="npc_solotelepath" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="55370" md5="9adf6cfc12235b6121c915b8cc55faca"/>
+ </files>
+</download>

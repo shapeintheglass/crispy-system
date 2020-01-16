@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524326" Shader="Illum" GenMask="20000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.068478175,0.068478175,0.068478175" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="6" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/tiledfire_00.tif">
+   <TexMod TileU="2"/>
+  </Texture>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

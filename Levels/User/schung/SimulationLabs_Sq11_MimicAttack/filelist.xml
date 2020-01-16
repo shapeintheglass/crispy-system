@@ -1,0 +1,6 @@
+<download name="simulationlabs_sq11_mimicattack" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2799496" md5="b78d346424d43c9d1ca42544237b4d12"/>
+ </files>
+</download>

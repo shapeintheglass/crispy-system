@@ -1,0 +1,6 @@
+<download name="test_aa_phantomperf" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="50639" md5="faaacd4e5053f45bce1d2fac67e74ae3"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="sshain_mimic" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="34501" md5="887a4582285371470a72f6bf1da974da"/>
+ </files>
+</download>

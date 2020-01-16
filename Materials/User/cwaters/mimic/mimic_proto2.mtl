@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="ArkAlien" GenMask="804000000" StringGenMask="%MULTILAYER%TEMP_ARK_ALIEN" SurfaceType="" MatTemplate="" Diffuse="0.00080465846,0.00080465846,0.00080465846" Specular="0,0,0" Emissive="0,0,0" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="engine/engineassets/textures/fuzzy_pow_sampler_merged.dds"/>
+ </Textures>
+ <PublicParams ShellDistance="0.0099999998" FresnelScale="1" FresnelBias="0.097000003" IndirectColor="0.25,0.25,0.25"/>
+</Material>

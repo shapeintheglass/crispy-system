@@ -1,0 +1,6 @@
+<download name="sshain_electricalbox" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="96969" md5="eb1d444377f0e1fd7dff4af251b2a7d7"/>
+ </files>
+</download>

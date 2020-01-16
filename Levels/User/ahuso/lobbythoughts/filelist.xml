@@ -1,0 +1,6 @@
+<download name="lobbythoughts" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="168606" md5="07f0b0ef10f1cbf3ad298ed82d5bc053"/>
+ </files>
+</download>

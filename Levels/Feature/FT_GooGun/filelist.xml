@@ -1,0 +1,6 @@
+<download name="ft_googun" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="141423" md5="a7a1121875224ac931b91b0bb4a3b992"/>
+ </files>
+</download>

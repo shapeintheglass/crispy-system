@@ -1,0 +1,6 @@
+<download name="npc_soloweaver" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="55454" md5="21ceb5bc64ff8c1b032cee47885c2970"/>
+ </files>
+</download>

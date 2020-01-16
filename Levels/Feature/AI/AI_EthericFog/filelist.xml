@@ -1,0 +1,6 @@
+<download name="ai_ethericfog" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="82027" md5="f5e929bb3988cd4a2dbf2fc839471b0d"/>
+ </files>
+</download>

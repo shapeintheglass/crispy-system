@@ -1,0 +1,186 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material CloakAmount="0" Diffuse="0.2269659,0.2269659,0.2269659" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="50grey" Opacity="1" Shader="Illum" Shininess="24" Specular="0.017641956,0.017641956,0.017641956" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="50GreyShiney" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl4" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl5" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl6" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl7" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.27049783,0.27049783,0.27049783" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl8" Opacity="1" Shader="Illum" Shininess="118" Specular="0.21223079,0.21223079,0.21223079" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl9" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl10" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl11" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl12" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl13" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl14" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl15" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl16" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl17" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl18" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.52099562,0.52099562,0.52099562" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl19" Opacity="1" Shader="Illum" Shininess="10" Specular="0.038204376,0.038204376,0.038204376" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl20" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl21" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl22" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl23" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl24" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl25" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl26" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl27" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl28" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl29" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl30" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

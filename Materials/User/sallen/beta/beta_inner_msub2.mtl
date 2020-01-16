@@ -1,0 +1,36 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material CloakAmount="0" Diffuse="0.1441285,0.1441285,0.1441285" Emissive="0,0,0" GenMask="1000000A1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="158" Specular="0.27049783,0.27049783,0.27049783" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%PN_TESSELLATION" SurfaceType="mat_Metal_Thick_Medium" vertModifType="2">
+   <Textures>
+    <Texture File="textures/user/sallen/beta_crawlingskin_color.tif" Map="Diffuse">
+     <TexMod TexMod_UOscillatorAmplitude="0.0070000002" TexMod_UOscillatorRate="0.30000001" TexMod_UOscillatorType="5" TexMod_VOscillatorAmplitude="0.001" TexMod_VOscillatorRate="-19.9" TexMod_VOscillatorType="2" TexMod_WRotateAmplitude="0.02746582" TexMod_WRotateRate="0.49987793" TileU="0.40000001" TileV="0.60000002"/>
+    </Texture>
+    <Texture File="textures/user/sallen/beta_crawlingskin_nrm.tif" Map="Bumpmap"/>
+    <Texture File="textures/cubemaps/workshop/environmentprobe1_cm.tif" Map="Environment"/>
+    <Texture File="textures/generic/blend_masks/dirty_blend.tif" Map="Opacity"/>
+    <Texture File="textures/defaults/perlinnoise2d.tif" Map="Custom"/>
+   </Textures>
+   <VertexDeform DividerW="0.0099999998" DividerX="0.0099999998" DividerY="0.0099999998" DividerZ="0.0099999998" NoiseScale="1,1,1" Type="2">
+    <WaveX Amp="0.0099999998" Freq="0.1" Level="0.0099999998" Phase="0.60000002" Type="6"/>
+    <WaveY Amp="-0.1" Freq="5" Level="-0.1" Phase="0" Type="2"/>
+    <WaveZ Amp="0.1" Freq="1" Level="0.1" Phase="0" Type="8"/>
+    <WaveW Amp="0.1" Freq="0" Level="-0.1" Phase="0" Type="1"/>
+   </VertexDeform>
+   <PublicParams BlendFactor="8.7600002" BlendFalloff="36.5" BlendLayer2Specular="0.037999999" BlendLayer2Tiling="1.08" BlendMaskTiling="8.1899996" IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="32" TessellationFactorMin="1"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.58407855,0.58407855,0.58407855" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/black.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="400000000000010" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="SubMtl3" Opacity="1" Shader="Glass" Shininess="10" Specular="0,0,0" StringGenMask="%BILINEAR_FP16%UNLIT" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

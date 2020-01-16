@@ -1,0 +1,6 @@
+<download name="ft_chargetraps" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="737324" md5="aaf65d1f795b3401421900b600e73fd3"/>
+ </files>
+</download>

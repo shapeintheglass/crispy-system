@@ -1,0 +1,6 @@
+<download name="ft_cinematiccharacter" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="113158" md5="3c4f343d044a82bd7e8825436160c4fd"/>
+ </files>
+</download>

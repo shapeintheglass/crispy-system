@@ -1,0 +1,8 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="800800000020" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+  <Texture File="textures/user/sallen/material_templates/pantone/10/pantone_cool_10_nrm.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

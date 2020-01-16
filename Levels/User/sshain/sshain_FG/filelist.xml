@@ -1,0 +1,6 @@
+<download name="sshain_fg" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="36331" md5="ccf2f2fe3aec984fcbfd5050266e36d2"/>
+ </files>
+</download>

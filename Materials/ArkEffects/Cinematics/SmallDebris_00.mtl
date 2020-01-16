@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="2800000000002" StringGenMask="%ALLOW_SILHOUETTE_POM%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.10946172,0.14126332,0.19806935" Specular="0.93011099,0.79910284,0.10702311" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_gray.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/utilities/gradients/gradientlinear.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="sshain_dramaticglassbreak" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="56432" md5="cf06cc7a58c5283b9a491192f4046248"/>
+ </files>
+</download>

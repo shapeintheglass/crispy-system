@@ -1,0 +1,10 @@
+
+<Material MtlFlags="134744096" Shader="Particles" GenMask="400" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.27049783,0.35153264,0.39157251" Specular="0.0021246891,0.51491767,0.55201149" Opacity="1" Shininess="31" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/gooball/gooball_stuff_splatter_solid_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/decal/gooball/gooball_stuff_splatter_solid_ddna.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TileV="2" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

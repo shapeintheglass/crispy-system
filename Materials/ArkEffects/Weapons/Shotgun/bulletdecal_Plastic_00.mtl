@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="2001000000080" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.30498734,0.30498734,0.30498734" Specular="0.035601322,0.035601322,0.035601322" Emissive="0,0,0" Opacity="1" Shininess="109" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/bullets/bulletdecals_plastic_00_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/decal/bullets/bulletdecals_plastic_00_ddn.tif"/>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+</Material>

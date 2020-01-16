@@ -1,0 +1,6 @@
+<download name="zerog" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="62699" md5="8fafea8c1c336c4a0bba51a2ddbf53ab"/>
+ </files>
+</download>

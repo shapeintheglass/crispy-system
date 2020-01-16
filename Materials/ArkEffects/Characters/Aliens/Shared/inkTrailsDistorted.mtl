@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" Shininess="100" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/ink/inktrails_00.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_02_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.028000001" DeformAnimSpeed="0.12" GlobalIlluminationAmount="1" DeformTile="0.103"/>
+</Material>

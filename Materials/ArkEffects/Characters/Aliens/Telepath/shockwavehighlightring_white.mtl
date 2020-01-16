@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.33245155,0.33245155,0.33245155" Emittance="1,1,1,50" Opacity="1" Shininess="200" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/glowtrailtiled_01.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/masks/noisetiled.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_02_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.039000001" DeformAnimSpeed="0.801" GlobalIlluminationAmount="1" DeformTile="0.27399999"/>
+</Material>

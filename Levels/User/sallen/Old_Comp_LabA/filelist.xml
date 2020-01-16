@@ -1,0 +1,6 @@
+<download name="old_comp_laba" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="173433" md5="3aa0cb962d1a347dba4e4a3d4806feac"/>
+ </files>
+</download>

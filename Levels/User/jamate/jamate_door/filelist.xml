@@ -1,0 +1,6 @@
+<download name="jamate_door" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35626" md5="938ac2350d3a33760b7fcddb062d68be"/>
+ </files>
+</download>

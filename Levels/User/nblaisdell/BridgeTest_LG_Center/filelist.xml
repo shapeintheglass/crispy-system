@@ -1,0 +1,6 @@
+<download name="BridgeTest_LG_Center" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="376463" md5="3e1fa1b16d941215d538f1787a03d4a1"/>
+ </files>
+</download>

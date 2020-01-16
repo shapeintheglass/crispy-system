@@ -1,0 +1,6 @@
+<download name="sshain_usabletrigger" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="39864" md5="641f6e8134d45edbc3285c82ec160c2c"/>
+ </files>
+</download>

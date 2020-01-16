@@ -1,0 +1,6 @@
+<download name="ai_doors" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="201422" md5="4c7578c8a190d140c650cb839e5fcb96"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="exterior" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="373503" md5="5c809525e82fb601cd949f0ff6458cbe"/>
+ </files>
+</download>

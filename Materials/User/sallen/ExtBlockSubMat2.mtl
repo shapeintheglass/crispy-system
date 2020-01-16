@@ -1,0 +1,94 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.63075727,0.63075727,0.63075727" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="playupnomaterial" Opacity="1" Shader="Illum" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/generic/concrete/concrete_a1_diff.dds" Map="Diffuse">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.095307469,0.095307469,0.095307469" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDCColorA07" Opacity="1" Shader="Illum" Shininess="212" Specular="0.17464744,0.17464744,0.17464744" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.22202042,0.22202042,0.22202042" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDC0133Gray" Opacity="1" Shader="Illum" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/generic/metal/metal_plain_agedbright_diff.dds" Map="Diffuse">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.088249616,0.088249616,0.088249616" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDCColor006" Opacity="1" Shader="Illum" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.45641103,0.45641103,0.45641103" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDC0023FireBrick" Opacity="1" Shader="Illum" Shininess="16" Specular="0.025186861,0.025186861,0.025186861" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/generic/concrete/concrete_a1_diff.dds" Map="Diffuse">
+     <TexMod TileU="0.0020000001" TileV="0.0020000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.095307469,0.025186861,0.010329825" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDCTranslucentGlassBlue" Opacity="1" Shader="Illum" Shininess="186" Specular="0.038204376,0.038204376,0.038204376" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/vs_exterior/environmentprobe10_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.012983033,0.12477184,0.25818288" Emissive="0,0,0" GenMask="400000000050010" GlowAmount="1" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="SUDCColorA23" Opacity="1" Shader="Glass" Shininess="240" Specular="0.090841718,0.090841718,0.090841718" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/generic/glass/glass_clear_diff.dds" Map="Diffuse"/>
+    <Texture File="Textures/cubemaps/vs_exterior/environmentprobe16_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="0.032958359,0.032958359,0.032958359" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDCColor007" Opacity="1" Shader="Illum" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.006512091,0.006512091,0.006512091" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDC0135DarkGray" Opacity="1" Shader="Illum" Shininess="209" Specular="0.27889431,0.27889431,0.27889431" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.057805438,0.057805438,0.057805438" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDCDerrickT-shirt" Opacity="1" Shader="Illum" Shininess="237" Specular="0.28744087,0.28744087,0.28744087" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.28016639,0.28016639,0.28016639" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDCDerrickSweater" Opacity="1" Shader="Illum" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/generic/concrete/concrete_a1_ddn.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.1706523,0.1706523,0.1706523" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDCColor005" Opacity="1" Shader="Illum" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/generic/concrete/concrete_a1_ddn.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.057805438,0.057805438,0.057805438" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl13" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

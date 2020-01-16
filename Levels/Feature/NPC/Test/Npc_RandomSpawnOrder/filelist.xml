@@ -1,0 +1,6 @@
+<download name="npc_randomspawnorder" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839305" md5="3d9f670f3609f5c2b2dd5a8d2e5f3d7f"/>
+ </files>
+</download>

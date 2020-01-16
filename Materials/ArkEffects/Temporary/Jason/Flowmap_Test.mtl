@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="ArkParticlesGeo" GenMask="20000000" StringGenMask="%FLOWMAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/checker.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/utilities/flowtester.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" FlowTile="1" FlowSpeed="1"/>
+</Material>

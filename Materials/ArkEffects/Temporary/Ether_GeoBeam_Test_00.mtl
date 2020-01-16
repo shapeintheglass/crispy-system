@@ -1,0 +1,13 @@
+
+<Material MtlFlags="134742016" Shader="GeometryBeam" GenMask="5" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/smoketrail_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/smoke/smoketrail_00.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/smoke/smoketrail_00.tif"/>
+ </Textures>
+ <VertexDeform Type="3" DividerX="1" DividerY="1" NoiseScale="1,1,1">
+  <WaveX Type="2" Amp="0.0099999998" Level="0" Phase="10" Freq="2"/>
+  <WaveY Type="1" Amp="0.0099999998" Level="0" Phase="10" Freq="2"/>
+ </VertexDeform>
+ <PublicParams StartColor="0.017641956,0.036889456,0.07618539" EndColor="0.16513222,0.21223079,0.052860651" FinalMultiplier="19.76" turbStrength="0.53399998" SoftIntersectionFactor="7.4699998" dustUVScale="0.442" viewDependencyFactor="2.8800001" baseUVScale="0.61000001" dustTimeScale="0.152" AmbStrength="10" uvRot="0.29899999" turbRatio="0.215" uvVigFeaturing="0.69999999" fadingFeaturing="0.191"/>
+</Material>

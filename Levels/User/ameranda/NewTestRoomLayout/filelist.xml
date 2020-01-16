@@ -1,0 +1,6 @@
+<download name="newtestroomlayout" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="242055" md5="d50af6ebb348f70d0dee2491019a27c9"/>
+ </files>
+</download>

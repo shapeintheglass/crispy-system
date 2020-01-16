@@ -1,0 +1,6 @@
+<download name="ft_psiresearch" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="63441" md5="b95485ede2bbb2b5922c0280f41a4256"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="ft_keypad" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2870237" md5="4ae1c8b5d717ae383fb66b869efb6daa"/>
+ </files>
+</download>

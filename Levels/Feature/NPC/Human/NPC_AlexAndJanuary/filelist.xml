@@ -1,0 +1,6 @@
+<download name="npc_alexandjanuary" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2838289" md5="eacfda68ce55b04741f1210cad5d4f93"/>
+ </files>
+</download>

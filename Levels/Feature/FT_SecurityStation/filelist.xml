@@ -1,0 +1,6 @@
+<download name="ft_securitystation" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="153215" md5="841add348448f2acb8c5f2c456f91389"/>
+ </files>
+</download>

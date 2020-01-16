@@ -1,0 +1,54 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.0043914425,0.0043914425,0.0043914425" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="playupnomaterial" Opacity="1" Shader="Illum" Shininess="209" Specular="0.025371276,0.030256517,0.058187179" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.018500222,0.02842604,0.021219011" Emissive="0,0,0" GenMask="0" GlowAmount="0.5" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="SubMtl2" Opacity="0.70999998" Shader="Illum" Shininess="255" Specular="0.30498734,0.30498734,0.30498734" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.011612247,0.010960096,0.0056053922" Emissive="0,0,0" GenMask="0" GlowAmount="2" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="255" Specular="0.01266372,0.022012994,0.037028514" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.010960096,0.014443845,0.014443845" Emissive="0,0,0" GenMask="4" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl4" Opacity="1" Shader="Illum" Shininess="255" Specular="0.41788509,0.52711523,0.46778381" StringGenMask="%ALPHAMASK_DETAILMAP" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.078056589,0.080219261,0.078056589" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl5" Opacity="1" Shader="Illum" Shininess="255" Specular="0.078878477,0.11138156,0.18456942" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.00099237426,0.017936433,0.024222942" Emissive="0,0,0" GenMask="400000000100010" GlowAmount="0.40000001" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="SubMtl6" Opacity="1" Shader="Glass" Shininess="212" Specular="0.017936433,0.019917838,0.028991185" StringGenMask="%BILINEAR_FP16%DIRT_MAP%UNLIT" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0" TintColor="0.0014331344,0.096266121,0.019917838"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.14198029,0.026548682,0.17677432" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl7" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.11443538,0.11443538,0.11443538" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl8" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

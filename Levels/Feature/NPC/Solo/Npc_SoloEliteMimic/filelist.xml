@@ -1,0 +1,6 @@
+<download name="npc_soloelitemimic" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2841224" md5="78c28c64d8caf3fbbfbce29a2ae69122"/>
+ </files>
+</download>

@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="440" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/checker.tif"/>
+  <Texture Map="Bumpmap" File="textures/detail_bumpmaps/concrete/wallstructure_2_detail.dds"/>
+  <Texture Map="[1] Custom" File="textures/arkeffects/glows/blast_glow_01.tif"/>
+ </Textures>
+ <PublicParams SoftParticlesScale="1" ColLookupAmplitude="1" GlobalIlluminationAmount="1" ColLookupColPhase="0.94999999"/>
+</Material>

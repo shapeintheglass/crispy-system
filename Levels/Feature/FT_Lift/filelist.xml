@@ -1,0 +1,6 @@
+<download name="ft_lift" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="184283" md5="57b8d7d720b28fe8d3a82ac3b79047fd"/>
+ </files>
+</download>

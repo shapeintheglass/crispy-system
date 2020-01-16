@@ -1,0 +1,6 @@
+<download name="jamate_mimic" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37310" md5="048d6a645e6225bd0e5e3f60aef5d81a"/>
+ </files>
+</download>

@@ -1,0 +1,12 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20100080800" StringGenMask="%DECAL%EMITTANCE_MAP%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Glass_Healing" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,20" Opacity="1" Shininess="255" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/healingglass/healingglass_a_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/healingglass/healingglass_a_ddn.tif"/>
+  <Texture Map="Opacity" File="textures/arkeffects/healingglass/healingglass_a_opacity_diff.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/healingglass/healingglass_a_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="0.5" TexMod_VRotateCenter="0.5" TexMod_WRotateRate="0.098876953" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="0.098876953"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1"/>
+</Material>

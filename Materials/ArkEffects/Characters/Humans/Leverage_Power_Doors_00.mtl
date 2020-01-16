@@ -1,0 +1,11 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="424" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="10" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/lightninground_00.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" RotateW="90"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/dist_droplets_alpha_ddn_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/DistortionMaps/TileNoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.168" DeformAnimSpeed="0.72600001" GlobalIlluminationAmount="1" RefrBumpScale="0.050000001" DeformTile="0.63"/>
+</Material>

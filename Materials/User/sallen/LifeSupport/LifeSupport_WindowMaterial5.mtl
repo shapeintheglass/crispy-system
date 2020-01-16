@@ -1,0 +1,58 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="A00800000020" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/conductor_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture File="objects/pbs_reference/galvanized_steel_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/pbs_reference/galvanized_steel_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.042311415,0.016807377,0.2383976" Emissive="0.25818288,0.23455061,0.67244327" GenMask="400000000090010" GlowAmount="21" LayerAct="1" MatTemplate="" MtlFlags="526496" Name="SubMtl2" Opacity="0.81999999" Shader="Glass" Shininess="255" Specular="0.11953845,0.099898733,0.25818288" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_VOscillatorAmplitude="0.1" TexMod_VOscillatorRate="1" TexMod_bTexGenProjected="0"/>
+    </Texture>
+    <Texture File="nearest_cubemap" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.11" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="A00800000020" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/gloss40_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/pbs_reference/iron_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="800800000020" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl4" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/conductor_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/pbs_reference/gloss30_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material AlphaTest="0.34999999" CloakAmount="0" Diffuse="0.0097212186,0.018500222,0.043735035" Emissive="0.33716366,0.3185468,0.54572457" GenMask="810800000820" GlowAmount="2" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="SubMtl5" Opacity="0.47999999" Shader="Illum" Shininess="255" Specular="0.038204376,0.033104774,0.074213572" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%PHONG_TESSELLATION%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse">
+     <TexMod OffsetV="9.5" RotateU="39.094849" RotateV="18.198853" RotateW="7.8991699" TexMod_RotateType="3" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="0.2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="0.1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_WRotateAmplitude="0.0054931641" TexMod_WRotateRate="0.016479492" TexMod_bTexGenProjected="0" TileV="12"/>
+    </Texture>
+    <Texture File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif" Map="Bumpmap">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorRate="1" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+    </Texture>
+   </Textures>
+   <PublicParams DecalAlphaMult="1.4" DecalDiffuseOpacity="0.31200001" DecalFalloff="18.9" IndirectColor="0.038204376,0.059511244,0.35153264" TessellationFaceCull="0.193" TessellationFactor="2.6359999" TessellationFactorMax="16.23" TessellationFactorMin="1"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="800000000020" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl6" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures/>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="800000000020" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl7" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures/>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

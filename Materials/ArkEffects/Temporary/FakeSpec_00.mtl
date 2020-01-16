@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_gray.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/noise/arkane_test_wind_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/dist_droplets_ddn.tif"/>
+ </Textures>
+ <PublicParams SoftParticlesScale="1" GlobalIlluminationAmount="1"/>
+</Material>

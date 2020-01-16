@@ -1,0 +1,5 @@
+
+<Material MtlFlags="526336" Shader="Monitor" GenMask="8" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="1" CloakAmount="0" LayerAct="1">
+ <Textures/>
+ <PublicParams GrainAmount="0" DeformAmount="0" DeformTillingY="1" GrainTilling="2.8699999" ResolutionX="512" ResolutionY="512" InterlacingTilling="0.95999998" Contrast="1" Saturation="1" DeformTillingX="0.5" GrainSaturation="0.69499999" FresnelScale="1" InterlacingAmount="0" VSyncFreq="0" PixelVisibility="0.93400002" FresnelBias="1" ChromaShift="0" ViewAngle="68.800003" DeformFreq="0"/>
+</Material>

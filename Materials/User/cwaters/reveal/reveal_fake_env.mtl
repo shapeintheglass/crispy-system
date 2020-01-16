@@ -1,0 +1,7 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="engineassets/textures/grey.tif" Map="Diffuse"/>
+ </Textures>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

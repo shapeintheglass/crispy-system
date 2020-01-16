@@ -1,0 +1,6 @@
+<download name="test_aa_surfacetypes" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="40061" md5="6a30f1a2ce7c2a07f58f67f73664dd23"/>
+ </files>
+</download>

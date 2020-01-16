@@ -1,0 +1,8 @@
+
+<Material MtlFlags="36177952" Shader="ArkSimpleGlass" GenMask="4000000010000" StringGenMask="%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Healing" MatTemplate="" Specular="0.12477184,0.12477184,0.12477184" Opacity="0.34999999" Shininess="240" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Bumpmap" File="textures/generic/glass/glass_clear_ddna.tif"/>
+  <Texture Map="Environment" File="nearest_cubemap" TexType="Nearest Cube-Map probe for alpha blended"/>
+ </Textures>
+ <PublicParams BumpMapTile="5" TintColor="1,1,1" TintCloudiness="0" BackLightScale="0" BumpScale="0.0049999999"/>
+</Material>

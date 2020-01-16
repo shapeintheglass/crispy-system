@@ -1,0 +1,6 @@
+<download name="mimicstrafetest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="59870" md5="1a2292e0ab34be53e9cd9493077b939d"/>
+ </files>
+</download>

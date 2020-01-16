@@ -1,0 +1,6 @@
+<download name="sshain_countdownscreen" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="36114" md5="7771070372a884596be20f201d624d2f"/>
+ </files>
+</download>

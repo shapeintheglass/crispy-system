@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.1169707,0.22322798,0.63075727" Emittance="0.12743771,0.35640016,0.73046088,25" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/glowbase_01_diff.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/glows/glowbase_01_diff.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

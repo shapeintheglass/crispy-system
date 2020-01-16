@@ -1,0 +1,6 @@
+<download name="operator_debug_audio" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="46677" md5="48fcf8056508e827684e8b6255c10e8c"/>
+ </files>
+</download>

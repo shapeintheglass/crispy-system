@@ -1,0 +1,6 @@
+<download name="AI_OneTelepath" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="81848" md5="9bb6599d89bfb96449a5262df60b1e34"/>
+ </files>
+</download>

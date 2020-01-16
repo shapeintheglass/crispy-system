@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="404" StringGenMask="" SurfaceType="" MatTemplate="" Emittance="0,0,0,0" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/solidglow_alpha_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/dist_droplets_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.15000001"/>
+</Material>

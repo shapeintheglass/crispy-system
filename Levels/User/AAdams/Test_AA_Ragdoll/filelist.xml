@@ -1,0 +1,6 @@
+<download name="test_aa_ragdoll" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="108180" md5="f5d68d06cd258ecdbab1155b77d19340"/>
+ </files>
+</download>

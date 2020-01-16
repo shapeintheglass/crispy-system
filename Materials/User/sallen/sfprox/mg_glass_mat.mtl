@@ -1,0 +1,21 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material AlphaTest="1" Diffuse="1,1,1" Emissive="0,0,0" GenMask="400000000000010" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="glass_mat" Opacity="0.54000002" Shader="Glass" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="%BILINEAR_FP16%UNLIT" SurfaceType="mat_Glass">
+   <Textures>
+    <Texture File="Textures/generic/glass/window_glass_diff.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="gray_mat2" Opacity="1" Shader="Illum" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="Textures/User/jmagill/Blockout/Basic/Default.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Diffuse="0.82352901,0.113033,0.113033" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="glass_collision" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

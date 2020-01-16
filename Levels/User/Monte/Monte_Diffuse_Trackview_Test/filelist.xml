@@ -1,0 +1,6 @@
+<download name="monte_diffuse_trackview_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35027" md5="8a6112c38f84ee409ac5f136a47e4e53"/>
+ </files>
+</download>

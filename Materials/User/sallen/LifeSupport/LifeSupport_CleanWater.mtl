@@ -1,0 +1,13 @@
+
+<Material Diffuse="0.059511244,0.14126332,0.43965721" Emittance="1,1,1,1.6000001" GenMask="80000100" LayerAct="1" MatTemplate="" MtlFlags="542752" Opacity="0.75999999" Shader="WaterVolume" Shininess="212" Specular="0.1559265,0.18782079,0.65837497" StringGenMask="" SurfaceType="mat_Water" vertModifType="1">
+ <Textures>
+  <Texture File="textures/defaults/grey.dds" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorRate="0.050000001" TexMod_UOscillatorType="2" TexMod_bTexGenProjected="0" TileU="15.1" TileV="12.7"/>
+  </Texture>
+  <Texture File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif" Map="Bumpmap"/>
+  <Texture File="nearest_cubemap" Map="Environment"/>
+  <Texture File="textures/defaults/grey.dds" Map="Emittance"/>
+ </Textures>
+ <VertexDeform DividerX="1" DividerY="0.0099999998" NoiseScale="1,1,1" Type="1"/>
+ <PublicParams DetailNormalsScale="2.527" DetailTilling="25.76" EnvCubeReflMul="1" EnvCubeScale="20" NormalsScale="1.25" RainTilling="1" RealtimeReflMul="1" SoftIntersectionFactor="1" Tilling="10" VertexWaveScale="0.125"/>
+</Material>

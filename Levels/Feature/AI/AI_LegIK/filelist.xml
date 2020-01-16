@@ -1,0 +1,6 @@
+<download name="ai_legik" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839369" md5="ab7b55fa605db9eb04acc6c03094591d"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="cargobayturrettest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1407438" md5="e9eb30d2dfff4604f9e18b87ed993361"/>
+ </files>
+</download>

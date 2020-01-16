@@ -1,0 +1,6 @@
+<download name="shird_npcragdollinfloor" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="44711" md5="f2b07299997e27cf59e793ff344d8e29"/>
+ </files>
+</download>

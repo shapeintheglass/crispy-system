@@ -1,0 +1,6 @@
+<download name="rw_gravroomtest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="61360" md5="8fdf67598901872a400637bc98d31d11"/>
+ </files>
+</download>

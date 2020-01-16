@@ -1,0 +1,13 @@
+
+<Material MtlFlags="2621474" Shader="Illum" GenMask="20100080800" StringGenMask="%DECAL%EMITTANCE_MAP%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/bulletdecals_healingglass_00_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/decal/bulletdecals_healingglass_00_ddn.tif"/>
+  <Texture Map="Environment" File="nearest_cubemap" TexType="Nearest Cube-Map probe for alpha blended"/>
+  <Texture Map="Opacity" File="textures/arkeffects/decal/bulletdecals_healingglass_00_opacity.tif"/>
+  <Texture Map="Emittance" File="objects/user/ebeyhl/glass_shatter_mimic/glass_shatter_mimic_emi.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="1" TexMod_UOscillatorType="3" TexMod_UOscillatorRate="10" TexMod_UOscillatorPhase="0.2" TexMod_UOscillatorAmplitude="1" TexMod_VRotateCenter="1" TexMod_VOscillatorType="3" TexMod_VOscillatorRate="10" TexMod_VOscillatorPhase="0.2" TexMod_VOscillatorAmplitude="1" TexMod_WRotateRate="6.1962891" TexMod_WRotatePhase="4.2956543" TexMod_WRotateAmplitude="0.99975586"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1"/>
+</Material>

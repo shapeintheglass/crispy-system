@@ -1,0 +1,6 @@
+<download name="vfx_artcorner_lab" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="87652" md5="3d2784a4b1470eab3bc467dfa1ef5ec8"/>
+ </files>
+</download>

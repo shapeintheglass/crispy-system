@@ -1,0 +1,6 @@
+<download name="npc_phantomgetattentiontest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2833801" md5="f21d2be1d838767a8e8f63da098efc8a"/>
+ </files>
+</download>

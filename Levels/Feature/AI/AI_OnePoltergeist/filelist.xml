@@ -1,0 +1,6 @@
+<download name="ai_onepoltergeist" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="91943" md5="3ce942540b8d4f8bbd3e4a546bc4bd5a"/>
+ </files>
+</download>

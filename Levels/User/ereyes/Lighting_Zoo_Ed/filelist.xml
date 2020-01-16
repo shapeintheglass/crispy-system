@@ -1,0 +1,6 @@
+<download name="lighting_zoo_ed" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="221395" md5="91cd50a86ac804a765af649bb6bdc92c"/>
+ </files>
+</download>

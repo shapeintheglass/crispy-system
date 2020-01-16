@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="2000000400000" StringGenMask="%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,10" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/screen/transitiondoorscreens/lobby/transscreenlobby_##01_21(0.1).tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/screen/transitiondoorscreens/lobby/transscreenlobby_##01_21(0.1).tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,9 @@
+
+<Material MtlFlags="34080800" Shader="ArkSimpleGlass" GenMask="4000000010000" StringGenMask="%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="0.29613829,0.76815128,0.96468639" Specular="0.41788509,0.63759702,0.96468639" Emittance="1,1,1,40" Opacity="1" Shininess="224" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/matglasslooking.tif"/>
+  <Texture Map="Environment" File="textures/cubemaps/artcorner/environmentprobe_room2_off_cm.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/utilities/matglasslooking.tif"/>
+ </Textures>
+ <PublicParams BumpMapTile="1" TintColor="0.36625263,0.98225069,0.9046613" TintCloudiness="0.35800001" BackLightScale="0.5" BumpScale="0.1"/>
+</Material>

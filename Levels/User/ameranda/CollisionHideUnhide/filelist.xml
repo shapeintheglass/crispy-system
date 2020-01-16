@@ -1,0 +1,6 @@
+<download name="collisionhideunhide" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37119" md5="984577b792c844d647801a46fbf6d407"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="station_research" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="113369" md5="3bc77ba42a45a2bc766fd206f1dcd4b5"/>
+ </files>
+</download>

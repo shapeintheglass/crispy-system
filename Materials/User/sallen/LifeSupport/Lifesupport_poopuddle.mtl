@@ -1,0 +1,14 @@
+
+<Material MtlFlags="524292" Shader="Illum" GenMask="A00800000020" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh_beta" MatTemplate="" Diffuse="0.11953845,0.035601322,0.023153368" Specular="0.024157634,0.0069954107,0.0069954107" Emissive="0,0,0" Opacity="1" Shininess="205" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/noise/puddle_mask.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.85000002" TileV="0.85000002"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/arkeffects/weapon/gooball_finalrenders_oil_01_spec.tif"/>
+  <Texture Map="Environment" File="nearest_cubemap"/>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

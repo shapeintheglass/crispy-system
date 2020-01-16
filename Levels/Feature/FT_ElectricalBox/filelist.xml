@@ -1,0 +1,6 @@
+<download name="ft_electricalbox" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="121522" md5="68e1e6af6499ce0e71fec0c469f8588a"/>
+ </files>
+</download>

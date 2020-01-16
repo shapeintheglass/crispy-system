@@ -1,0 +1,14 @@
+
+<Material CloakAmount="0" Diffuse="0.10946172,0.10946172,0.10946172" Emissive="0,0,0" GenMask="100000001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="83" Specular="0.052860651,0.052860651,0.052860651" StringGenMask="%ALLOW_SILHOUETTE_POM%PN_TESSELLATION" SurfaceType="mat_Metal_Thick_Medium" vertModifType="2">
+ <Textures>
+  <Texture File="textures/user/sallen/beta_specularpan01.tif" Map="Diffuse">
+   <TexMod TexMod_RotateType="3" TexMod_UOscillatorAmplitude="0.0070000002" TexMod_UOscillatorPhase="1.9" TexMod_UOscillatorRate="11.9" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="0.001" TexMod_VOscillatorPhase="1.7" TexMod_VOscillatorRate="4" TexMod_VOscillatorType="2" TexMod_WRotateAmplitude="0.0054931641" TexMod_WRotateRate="2.1972656" TileU="0.5" TileV="0.5"/>
+  </Texture>
+  <Texture File="textures/cubemaps/workshop/environmentprobe1_cm.tif" Map="Environment"/>
+ </Textures>
+ <VertexDeform DividerW="0.0099999998" DividerX="0.0099999998" DividerY="0.0099999998" DividerZ="0.0099999998" NoiseScale="1,1,1" Type="2">
+  <WaveX Amp="-0.0099999998" Freq="0.60000002" Level="0.059999999" Phase="0.60000002" Type="6"/>
+  <WaveY Amp="-0.1" Freq="1.6" Level="0.0099999998" Phase="0" Type="8"/>
+ </VertexDeform>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0" TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="32" TessellationFactorMin="1"/>
+</Material>

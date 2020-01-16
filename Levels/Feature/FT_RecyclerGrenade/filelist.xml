@@ -1,0 +1,6 @@
+<download name="ft_recyclergrenade" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="57925" md5="1d71db531eff54f978787bc809f2c3be"/>
+ </files>
+</download>

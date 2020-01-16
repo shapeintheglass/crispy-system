@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="1000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.56471163,0.29177067,0.10224174" Specular="0,0,0" Emittance="1,1,1,16000" Opacity="1" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/characters/aliens/phantom/kineticprojectile/fragments_diffuse01.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/characters/aliens/phantom/kineticprojectile/fragments_glow01.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

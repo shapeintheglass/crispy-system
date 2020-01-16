@@ -1,0 +1,9 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.01228649,0.01228649,0.01228649" Emittance="0.19120172,0.12743771,0.28744087,3000" Opacity="0.98000002" Shininess="10" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/baseglow_02.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/ink/inktrails_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/fire/fire_crawl_flow.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.123" DeformAnimSpeed="0.259" GlobalIlluminationAmount="1" DeformTile="0.30700001"/>
+</Material>

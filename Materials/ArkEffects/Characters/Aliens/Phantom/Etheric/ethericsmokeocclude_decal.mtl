@@ -1,0 +1,7 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/flameroundtop_gray_8x8_dif.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

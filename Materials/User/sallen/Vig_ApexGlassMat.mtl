@@ -1,0 +1,19 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.5,0.5,0.5" Emissive="0,0,0" GenMask="400000000000050" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="ApexGlass_rendermesh" Opacity="1" Shader="Glass" Shininess="171" Specular="0.5,0.5,0.5" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%UNLIT" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams BackLightScale="0.66299999" BlurAmount="0.5" BumpMapTile="3.9000001" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.119" TintColor="0.2269659,0.2269659,0.2269659"/>
+  </Material>
+  <Material Diffuse="0,0.181906,1" Emissive="0,0,0" GenMask="400000000010010" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="ApexGlass" Opacity="1" Shader="Glass" Shininess="211" Specular="0.46778381,0.46778381,0.46778381" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass">
+   <Textures>
+    <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+    <Texture File="Textures/cubemaps/apex_vig/environmentprobe1_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.66299999" BumpMapTile="3.9000001" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.86000001" TintColor="0.2269659,0.2269659,0.2269659"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

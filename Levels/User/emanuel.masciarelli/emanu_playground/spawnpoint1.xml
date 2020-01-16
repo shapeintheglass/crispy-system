@@ -1,0 +1,25 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="2" Class="entity:SpawnPoint" pos="100,-190,0" GraphEntity="0">
+   <Inputs entityId="0" Disable="0" Enable="0" Spawn="0"/>
+  </Node>
+  <Node Id="4" Class="Game:Start" pos="-360,-270,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="6" Class="entity:ArkInteractiveObject" pos="-490,-80,0" EntityGUID="{DEAFAA99-D5AC-4295-AE93-E3DA93ED1587}" EntityGUID_64="4295D5ACDEAFAA99">
+   <Inputs entityId="0" Activate="0" Deactivate="0" Disable="0" DisableGlint="0" Enable="0" EnableGlint="0"/>
+  </Node>
+  <Node Id="8" Class="Ark:SunDisabler" pos="-181,-6,0">
+   <Inputs DisableSun="0"/>
+  </Node>
+  <Node Id="9" Class="Debug:Log" pos="60,0,0">
+   <Inputs message="Sun Disabled"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="4" portIn="Spawn" portOut="output" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="6" portIn="DisableSun" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="8" portIn="input" portOut="SunDisabled" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

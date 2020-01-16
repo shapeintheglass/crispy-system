@@ -1,0 +1,6 @@
+<download name="shird_turret" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="42640" md5="2b63b23d83cf5e4a2caef663ee1379c4"/>
+ </files>
+</download>

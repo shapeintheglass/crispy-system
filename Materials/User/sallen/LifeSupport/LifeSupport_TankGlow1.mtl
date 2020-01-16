@@ -1,0 +1,12 @@
+
+<Material AlphaTest="0.94999999" CloakAmount="0" Diffuse="0.26225069,0.36625263,0.49102089" Emissive="0.25818288,0.23455061,0.67244327" GenMask="800800000020" GlowAmount="0.40000001" LayerAct="1" MatTemplate="" MtlFlags="524292" Opacity="1" Shader="Illum" Shininess="255" Specular="0.36130682,0.31398875,0.63075727" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/grey.dds" Map="Diffuse">
+   <TexMod OffsetU="20.9" OffsetV="7.9000001" RotateU="15.79834" TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_VOscillatorAmplitude="0.059999999" TexMod_VOscillatorRate="0.5" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+  </Texture>
+  <Texture File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif" Map="Bumpmap">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0"/>
+  </Texture>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

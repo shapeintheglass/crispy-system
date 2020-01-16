@@ -1,0 +1,6 @@
+<download name="sshain_operator" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="48159" md5="aa8a528448824cc3f95818bcb22ea31d"/>
+ </files>
+</download>

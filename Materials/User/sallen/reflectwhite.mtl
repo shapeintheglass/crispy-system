@@ -1,0 +1,9 @@
+
+<Material AlphaTest="0.80000001" Diffuse="0.0097212186,0.0036765076,0.002731743" Emissive="0.60382748,0.99110222,0.93868583" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="8" Specular="0.072271854,0.072271854,0.072271854" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="3">
+ <Textures>
+  <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+  <Texture File="textures/cubemaps/cave/environmentprobe1_cm.tif" Map="Environment"/>
+ </Textures>
+ <VertexDeform DividerW="0.0099999998" DividerX="1.9" DividerY="0.0099999998" DividerZ="0.0099999998" NoiseScale="1,1,1" Type="3"/>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

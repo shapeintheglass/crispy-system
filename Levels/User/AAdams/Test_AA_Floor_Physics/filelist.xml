@@ -1,0 +1,6 @@
+<download name="test_aa_floor_physics" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="39743" md5="8d9324a17be19ae39b8a0782f912d20c"/>
+ </files>
+</download>

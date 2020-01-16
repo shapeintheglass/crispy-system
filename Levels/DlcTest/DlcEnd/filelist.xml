@@ -1,0 +1,6 @@
+<download name="dlcend" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="104694" md5="2c0a10c008551ccc8027bed87a65c64d"/>
+ </files>
+</download>

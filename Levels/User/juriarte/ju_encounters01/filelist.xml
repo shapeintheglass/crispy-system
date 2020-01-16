@@ -1,0 +1,6 @@
+<download name="ju_encounters01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="74119" md5="bbfa58602b86fc9c0281033d36151438"/>
+ </files>
+</download>

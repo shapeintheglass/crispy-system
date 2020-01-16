@@ -1,0 +1,6 @@
+<download name="ft_arkflares" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="47014" md5="01e90b858f46d0587e50452a6e1592ae"/>
+ </files>
+</download>

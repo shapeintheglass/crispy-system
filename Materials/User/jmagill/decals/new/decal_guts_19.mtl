@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="1000000000802" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.26225069,0.17464744,0.10946172" Specular="0,0,0" Opacity="0.86000001" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/architecture/decals/decals_stains_floor_a/decals_stains_floor_a2_diff.tif" IsTileU="0" IsTileV="0"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

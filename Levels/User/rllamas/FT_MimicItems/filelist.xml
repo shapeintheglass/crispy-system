@@ -1,0 +1,6 @@
+<download name="ft_mimicitems" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2869950" md5="b439bbac644411dd0d51dfb27e74478d"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="emanu_terrain_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="18774842" md5="eee2b80008f867a8fec8d1a21d28611f"/>
+ </files>
+</download>

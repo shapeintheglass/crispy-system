@@ -1,0 +1,6 @@
+<download name="test_crewquarters4" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="52451" md5="6afa3dad2466ba4f719b713f17445729"/>
+ </files>
+</download>

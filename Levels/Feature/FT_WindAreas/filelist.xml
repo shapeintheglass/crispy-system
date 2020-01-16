@@ -1,0 +1,6 @@
+<download name="ft_windareas" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="81853" md5="02c9b159da29d5b401aba76e24dc57cf"/>
+ </files>
+</download>

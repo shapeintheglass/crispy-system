@@ -1,0 +1,6 @@
+<download name="fabrication" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="229638" md5="6bcdb1b8c7728731675971dc45d17ff1"/>
+ </files>
+</download>

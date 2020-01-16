@@ -1,0 +1,6 @@
+<download name="sshain_screens" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="34093" md5="cb2f76c3b9295ee4f73b65c600471c55"/>
+ </files>
+</download>

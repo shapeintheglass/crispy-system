@@ -1,0 +1,6 @@
+<download name="npc_saveloadc" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="53908" md5="2b2f5c1aece6f4ba44f0cb257e397b1e"/>
+ </files>
+</download>

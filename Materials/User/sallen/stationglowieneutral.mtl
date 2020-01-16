@@ -1,0 +1,7 @@
+
+<Material Diffuse="0.32777813,0.30946895,0.12477184" Emissive="0.32314324,0.20507877,0.070360102" GenMask="40000000001" GlowAmount="0.69999999" LayerAct="1" MatTemplate="" MtlFlags="524320" Opacity="1" Shader="Illum" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/user/sallen/gen_basicgradient.dds" Map="Diffuse"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

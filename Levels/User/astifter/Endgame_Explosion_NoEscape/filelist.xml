@@ -1,0 +1,6 @@
+<download name="endgame_explosion_noescape" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2867853" md5="76c2affe9c1e193b0649d74a8f37c5fe"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="sshain_1155_lightstatenotreseting" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="70889" md5="3aa18dab096d40db468c9ff099715f3b"/>
+ </files>
+</download>

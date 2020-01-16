@@ -1,0 +1,7 @@
+
+<Material CloakAmount="0" Diffuse="0.99110222,0.0036765076,0.0036765076" Emissive="0,0,0" GenMask="20000000000" GlowAmount="1" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+ <Textures>
+  <Texture File="textures/arkeffects/utilities/alphatest_guide.tif" Map="Diffuse"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

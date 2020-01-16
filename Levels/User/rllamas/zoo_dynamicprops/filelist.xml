@@ -1,0 +1,6 @@
+<download name="zoo_dynamicprops" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="122158" md5="fc69b3148d2da8e410fee884ab5d4801"/>
+ </files>
+</download>

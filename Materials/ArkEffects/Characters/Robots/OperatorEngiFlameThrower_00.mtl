@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.55201149,0.45078582,0.33245155" Emittance="0.96468639,0.84687334,0.57112497,3000" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/flameslarge_dif.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/fire/explosion_test_glow_01.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

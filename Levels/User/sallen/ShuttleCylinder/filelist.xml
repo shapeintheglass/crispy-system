@@ -1,0 +1,6 @@
+<download name="shuttlecylinder" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="34514" md5="c5542ac9e0be6694a014faeab12e8247"/>
+ </files>
+</download>

@@ -1,0 +1,10 @@
+
+<Material Diffuse="0.21952623,0.21952623,0.21952623" Emissive="0,0,0" GenMask="800800000020" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="0.040915202,0.040915202,0.040915202" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+ <Textures>
+  <Texture File="objects/pbs_reference/concrete_stucco_diff.tif" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+  </Texture>
+  <Texture File="objects/pbs_reference/concrete_stucco_ddna.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

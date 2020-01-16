@@ -1,0 +1,6 @@
+<download name="npc_voltaicmimicsturret" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2835278" md5="0bb6de88afe2d32ec385b3d84a7d0a47"/>
+ </files>
+</download>

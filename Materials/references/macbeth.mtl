@@ -1,0 +1,7 @@
+
+<Material Diffuse="0.5,0.5,0.5" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524290" Opacity="1" Shader="Illum" Shininess="255" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Concrete">
+ <Textures>
+  <Texture File="textures/references/macbeth.tif" IsTileU="0" IsTileV="0" Map="Diffuse"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

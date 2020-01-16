@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="510" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.20507877,0.20507877,0.20507877" Emissive="0,0,0" Shininess="51" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/fx_zoo_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/noise/concretemiscdebris_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/warpnormals_00_ddn.tif"/>
+ </Textures>
+ <PublicParams PerturbationScale="1" PerturbationStrength="0.2" AnimSpeed="1" SoftParticlesScale="1" GlobalIlluminationAmount="1"/>
+</Material>

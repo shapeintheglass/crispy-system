@@ -1,0 +1,10 @@
+
+<Material Diffuse="0.084376216,0.65140575,0.0056053922" Emissive="0.12477184,0.43965721,0.02842604" GenMask="800000100" GlowAmount="7" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="98" Specular="0.12743771,0.73046088,0.006512091" StringGenMask="%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/generic/metal/generic_metal_diff.tif" Map="Diffuse"/>
+  <Texture File="textures/detail_bumpmaps/metal/metal_painted_b_detail.tif" Map="Detail">
+   <TexMod TileU="4" TileV="4"/>
+  </Texture>
+ </Textures>
+ <PublicParams DetailBumpScale="0.050000001" DetailDiffuseScale="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

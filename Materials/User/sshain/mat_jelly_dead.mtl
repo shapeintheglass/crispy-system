@@ -1,0 +1,11 @@
+
+<Material Diffuse="0,0.033104774,0.080219828" Emittance="1,1,1,40" GenMask="2000000400000" LayerAct="1" MatTemplate="" MtlFlags="524324" Opacity="0.93000001" Shader="Illum" Shininess="223" Specular="0.40724024,0.39675525,0.77582234" StringGenMask="%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Flesh_Cystoid" vertModifType="3">
+ <Textures>
+  <Texture File="textures/defaults/perlinnoise2d.dds" Map="Diffuse"/>
+  <Texture File="textures/defaults/perlinnoise2d.dds" Map="Emittance"/>
+ </Textures>
+ <VertexDeform DividerX="0.02" DividerY="11.2" NoiseScale="1,1,1" Type="3">
+  <WaveX Amp="0.1" Freq="0" Level="0.001" Phase="0" Type="9"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

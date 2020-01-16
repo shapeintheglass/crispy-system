@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="802000000000800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.054480281,0.07618539,0.18782079" Specular="0.63075727,0.63075727,0.63075727" Opacity="0.66000003" Shininess="181" AlphaTest="0.07" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="materials/user/lvallely/decal/oil_slick1.tif" IsTileU="0" IsTileV="0"/>
+  <Texture Map="Bumpmap" File="materials/user/lvallely/decal/oil_slick1_spc.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

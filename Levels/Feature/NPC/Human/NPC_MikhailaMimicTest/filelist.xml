@@ -1,0 +1,6 @@
+<download name="npc_mikhailamimictest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2841437" md5="594b2cadeb3f5cd4a33d99f135eddcf9"/>
+ </files>
+</download>

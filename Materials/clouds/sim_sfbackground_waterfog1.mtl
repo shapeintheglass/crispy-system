@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524320" Shader="GeometryBeam" GenMask="6" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.8962695,0.8962695,0.79910284" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/clouds/distanceclouds_low_05.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="0.0049999999" TexMod_UOscillatorAmplitude="0.1"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/arkeffects/liquid/flow_variation_swirls_soft_fm.tif"/>
+ </Textures>
+ <PublicParams StartColor="0.30498734,0.30498734,0.30498734" EndColor="0.30498734,0.30498734,0.30498734" FinalMultiplier="10" VolumetricScale="0.5" SoftIntersectionFactor="0.00050000002" viewDependencyFactor="1.65" baseUVScale="1" AmbStrength="1" uvVigFeaturing="4" fadingFeaturing="0.5"/>
+</Material>

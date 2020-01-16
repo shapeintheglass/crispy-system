@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="800000004" StringGenMask="%ALPHAMASK_DETAILMAP%NORMAL_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/gameplay/noisenormals_comp_00_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/gameplay/noisenormals_comp_00_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1.22" RefrBumpScale="0.1"/>
+</Material>

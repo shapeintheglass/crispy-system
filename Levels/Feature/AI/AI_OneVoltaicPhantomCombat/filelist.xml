@@ -1,0 +1,6 @@
+<download name="ai_onevoltaicphantomcombat" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="43534" md5="6b97b22b02bc58a7ced3460ebd3653c3"/>
+ </files>
+</download>

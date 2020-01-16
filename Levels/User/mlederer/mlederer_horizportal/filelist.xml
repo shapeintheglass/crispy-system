@@ -1,0 +1,6 @@
+<download name="mlederer_horizportal" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="39777" md5="ac67bec17084267ce8c04b37121c9e43"/>
+ </files>
+</download>

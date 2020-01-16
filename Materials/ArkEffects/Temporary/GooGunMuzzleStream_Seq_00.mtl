@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1000000100" StringGenMask="%BLUR_REFRACTION%NORMAL_MAP" SurfaceType="" MatTemplate="" Diffuse="0.92158198,0.98225069,0.99110222" Specular="0.023153368,0.06124606,0.099898733" Emissive="0,0,0" Opacity="1" Shininess="191" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/temporary/googun_stream_seq_01.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/temporary/googun_stream_seq_01_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

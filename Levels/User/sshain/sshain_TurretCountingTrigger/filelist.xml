@@ -1,0 +1,6 @@
+<download name="sshain_turretcountingtrigger" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="42601" md5="65b6140de988a3166712484945f7cee3"/>
+ </files>
+</download>

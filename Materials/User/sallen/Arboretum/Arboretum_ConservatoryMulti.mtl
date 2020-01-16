@@ -1,0 +1,32 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2001000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="255" Specular="0.046665091,0.046665091,0.046665091" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/porcelain_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture File="objects/pbs_reference/gloss80_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.086500466,0.086500466,0.086500466" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="400000000410010" LayerAct="1" MatTemplate="" MtlFlags="36178082" Name="SubMtl2" Opacity="0.75" Shader="ArkSimpleGlass" Shininess="255" Specular="0.13843164,0.13843164,0.13843164" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass" vertModifType="0">
+   <Textures>
+    <Texture File="textures/user/sallen/arboretum/conservatory_roofpat_color.tif" Map="Diffuse"/>
+    <Texture File="textures/user/sallen/arboretum/conservatory_roofpat_nrm.tif" Map="Bumpmap"/>
+    <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+   </Textures>
+   <PublicParams BackLightScale="0.235" BumpMapTile="1" BumpScale="0.0099999998" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="-3.395" SpecFromDiffAlphaMult="0.22" TintCloudiness="0.505" TintColor="0.068478175,0.068478175,0.068478175"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2001000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="255" Specular="0.046665091,0.046665091,0.046665091" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/porcelain_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture File="objects/pbs_reference/gloss80_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.086500466,0.086500466,0.086500466" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

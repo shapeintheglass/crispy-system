@@ -1,0 +1,6 @@
+<download name="LGBreakTest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="58938" md5="ad6633945af098be26809c26f7bad34e"/>
+ </files>
+</download>

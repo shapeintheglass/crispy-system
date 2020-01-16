@@ -1,0 +1,12 @@
+
+<Material CloakAmount="0" Diffuse="0.11953845,0.11953845,0.11953845" Emissive="0,0,0" GenMask="80001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="112" Specular="0.010873067,0.010873067,0.034043368" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_Concrete">
+ <Textures>
+  <Texture File="textures/user/sallen/apt_concreteslabdiff.dds" Map="Diffuse">
+   <TexMod TileU="4" TileV="4"/>
+  </Texture>
+  <Texture File="textures/generic/metal/metal_rusty_01.dds" Map="Specular">
+   <TexMod TileU="2" TileV="2"/>
+  </Texture>
+ </Textures>
+ <PublicParams IndirectColor="0.24680044,0.24680044,0.24680044" SubsurfaceScatteringAmount="0"/>
+</Material>

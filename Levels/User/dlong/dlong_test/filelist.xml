@@ -1,0 +1,6 @@
+<download name="dlong_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="106901" md5="a007769bf7a8891c89bf4f7e0ebfa521"/>
+ </files>
+</download>

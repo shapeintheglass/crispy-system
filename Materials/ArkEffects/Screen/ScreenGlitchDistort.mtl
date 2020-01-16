@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="484" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="0.99000001" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/masks/radialgradientinvertedsharp.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/screendistortglitch_ddn.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/distcircularnoiseout_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.050000001" FlowTile="0.491" FlowSpeed="10.69"/>
+</Material>

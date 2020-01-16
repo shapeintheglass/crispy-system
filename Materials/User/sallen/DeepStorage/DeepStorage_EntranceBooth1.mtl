@@ -1,0 +1,27 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material CloakAmount="0" Diffuse="0.29613829,0.76815128,0.96468639" Emissive="0,0,0" GenMask="400000000010010" GlowAmount="1" LayerAct="1" MatTemplate="" MtlFlags="34080896" Name="DeepStorage_EntranceBooth" Opacity="0.28999999" Shader="ArkSimpleGlass" Shininess="115" Specular="0.41788509,0.63759702,0.96468639" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" vertModifType="0">
+   <Textures>
+    <Texture File="textures/arkeffects/utilities/matglasslooking.tif" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/artcorner/environmentprobe_room2_off_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.35800001" TintColor="0.36625263,0.98225069,0.9046613"/>
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="A00800000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/gloss30_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/pbs_reference/iron_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.6795426,0.72305524,0.93011099" Emissive="0,0,0" GenMask="800800000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="255" Specular="0.1441285,0.21586053,0.75294232" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/conductor_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/pbs_reference/gloss20_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="vent_crouch" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="34084" md5="ebc9814e94b7e0215c3cde3d97ae0261"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="npc_solocorruptedsciop" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="56841" md5="389a9e5536dab9dc5c97c3dd9793409e"/>
+ </files>
+</download>

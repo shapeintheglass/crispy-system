@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" GenMask="2000000000002" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+ <Textures>
+  <Texture File="materials/user/gblessey/target2.tif" Map="Diffuse">
+   <TexMod OffsetU="0.5" OffsetV="0.5" TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

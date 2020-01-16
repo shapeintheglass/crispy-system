@@ -1,0 +1,8 @@
+
+<Material AlphaTest="0.0099999998" Diffuse="0.40982577,0.40982577,0.40982577" Emissive="0,0,0" GenMask="400000110010" GlowAmount="25" LayerAct="1" MatTemplate="" MtlFlags="2623520" Opacity="0.5" Shader="Glass" Shininess="255" Specular="1,1,1" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable">
+ <Textures>
+  <Texture File="textures/generic/glass/glass_clear_diff.tif" Map="Diffuse"/>
+  <Texture File="textures/cubemaps/user/jmagill/concept/psi_lab/environmentprobe1_cm.tif" Map="Environment" TexType="3"/>
+ </Textures>
+ <PublicParams BackLightScale="0" BumpMapTile="1" BumpScale="1.414" FresnelBias="0.5" FresnelScale="1" IndirectColor="0,0,0" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0.1" TintColor="1,1,1"/>
+</Material>

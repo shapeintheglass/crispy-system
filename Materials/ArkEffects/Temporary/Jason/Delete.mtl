@@ -1,0 +1,11 @@
+
+<Material MtlFlags="524288" Shader="ArkParticlesGeo" GenMask="20000002" StringGenMask="%ALLOW_SILHOUETTE_POM%FLOWMAP" SurfaceType="" MatTemplate="" Diffuse="0.16826943,0.16826943,0.16826943" Specular="0,0,0" Opacity="1" CloakAmount="0" vertModifType="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/fog_dust01.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif"/>
+ </Textures>
+ <VertexDeform Type="1" DividerX="0.2" DividerY="0.0099999998" NoiseScale="0.1,0.1,0.1">
+  <WaveX Type="1" Amp="0.050000001" Level="0" Phase="0" Freq="1.5"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" FlowTile="1.247" FlowSpeed="19.26"/>
+</Material>

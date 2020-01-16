@@ -1,0 +1,6 @@
+<download name="npc_dahlalwaysfall" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2851269" md5="73e97ec96a59824855e89538d7b30286"/>
+ </files>
+</download>

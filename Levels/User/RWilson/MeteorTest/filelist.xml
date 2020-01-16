@@ -1,0 +1,6 @@
+<download name="meteortest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="201741" md5="7ef282705b8c492cc75b510fae8363b9"/>
+ </files>
+</download>

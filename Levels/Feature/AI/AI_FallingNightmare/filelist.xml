@@ -1,0 +1,6 @@
+<download name="ai_fallingnightmare" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2840332" md5="ad04726daff97dacfab3615570550514"/>
+ </files>
+</download>

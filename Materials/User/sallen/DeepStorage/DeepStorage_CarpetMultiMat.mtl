@@ -1,0 +1,30 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="A00801000024" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAMASK_DETAILMAP%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Carpet" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_spec.tif" Map="Specular"/>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_det.tif" Map="Detail">
+     <TexMod TexMod_RotateType="2" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="14" TileV="7"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.41" DetailDiffuseScale="0.52600002" DetailGlossScale="0.50999999" IndirectColor="1,1,1" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="800800000020" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="255" Specular="0.038204376,0.038204376,0.038204376" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Plastic_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/dark_leather_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+    </Texture>
+    <Texture File="objects/pbs_reference/leather_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="800000000020" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures/>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.0069954107,0.0069954107,0.0069954107" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="230" AlphaTest="0.039999999" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/Decal/Blood/bloodSplatDecal_02_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/Decal/Blood/bloodSplatDecal_02_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

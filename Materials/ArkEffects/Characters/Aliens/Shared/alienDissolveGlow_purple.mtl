@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.32314324,0.25415212,0.58407855" Emittance="0.04518621,0.022173885,0.11193243,50" Opacity="0.99000001" Shininess="10" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/characters/aliens/shared/aliendissolve_a_dif.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/characters/aliens/shared/aliendissolve_a_dif.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

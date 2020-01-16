@@ -1,0 +1,9 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="484" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="0.99000001" Shininess="255" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/baseglow_02.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/ripples_01_ddn.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/distcircularnoiseout_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.2" FlowTile="0.28400001" FlowSpeed="12.26"/>
+</Material>

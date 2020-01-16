@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526336" Shader="Monitor" GenMask="14" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,26" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/environment/monitors/monitor_wallpaper_base_00_dif.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_VOscillatorType="3" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="3"/>
+  </Texture>
+  <Texture Map="Emittance" File="textures/arkeffects/environment/monitors/emmisive_glitch_##00_29(0.035).tif"/>
+ </Textures>
+ <PublicParams GrainAmount="0" DeformAmount="0.018999999" DeformTillingY="0" EmittanceMapGamma="1" GrainTilling="1" ResolutionX="512" ResolutionY="512" InterlacingTilling="0.25" Contrast="1.02" Saturation="0.46000001" DeformTillingX="6.5999999" GrainSaturation="1" FresnelScale="1" InterlacingAmount="0" VSyncFreq="0" PixelVisibility="0.1" FresnelBias="1" ChromaShift="0.022" ViewAngle="155" DeformFreq="-16"/>
+</Material>

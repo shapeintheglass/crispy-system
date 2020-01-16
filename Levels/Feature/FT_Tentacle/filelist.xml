@@ -1,0 +1,6 @@
+<download name="ft_tentacle" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="92889" md5="292b8c0a632e40ea08944a771f3cfeec"/>
+ </files>
+</download>

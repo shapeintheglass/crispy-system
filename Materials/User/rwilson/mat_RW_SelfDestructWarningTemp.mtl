@@ -1,0 +1,45 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="0.066625945,0.097587354,0.1169707" Emissive="0,0,0" GenMask="1000000000002" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="gold" Opacity="1" Shader="Illum" Shininess="207" Specular="0.30946895,0.40724024,0.44520122" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,0.80800003,0.46599999" Emissive="0,0,0" GenMask="1000000000002" GlowAmount="7" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="illu" Opacity="1" Shader="Illum" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.070481002,0.070481002,0.070481002" Emissive="0,0,0" GenMask="1000000000002" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="plastic" Opacity="1" Shader="Illum" Shininess="182" Specular="0.0097212186,0.0097212186,0.0097212186" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.67745101,0.78100002,0.412368" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures/>
+  </Material>
+  <Material Diffuse="0.03954624,0.078187428,0.074213572" Emissive="0,0,0" GenMask="1000000008002" GlowAmount="6" LayerAct="1" MatTemplate="" MtlFlags="34078880" Name="screen" Opacity="1" Shader="Illum" Shininess="255" Specular="0.06124606,0.06124606,0.06124606" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_Glass_Unbreakable" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="6.4000001" TexMod_UOscillatorPhase="0.5" TexMod_UOscillatorRate="1" TexMod_VOscillatorAmplitude="6" TexMod_VOscillatorPhase="0.5" TexMod_VOscillatorRate="1" TexMod_WRotateAmplitude="0.69763184" TexMod_WRotatePhase="0.69763184" TexMod_WRotateRate="1.1975098" TexMod_bTexGenProjected="0"/>
+    </Texture>
+    <Texture File="textures/generic/glass/interior_space_glass_det.tif" Map="Detail"/>
+    <Texture File="textures/user/rwilson/rw_selfdestructproxy.tif" Map="Decal">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="6" TexMod_UOscillatorPhase="0.5" TexMod_UOscillatorRate="1" TexMod_UOscillatorType="4" TexMod_VOscillatorAmplitude="6" TexMod_VOscillatorPhase="0.5" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailBumpScale="0.02" DetailDiffuseScale="0.185" DetailGlossScale="0.12800001" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.140963,0.091691002,0.0094149997" Emissive="0,0,0" GenMask="1000000000002" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="wood" Opacity="1" Shader="Illum" Shininess="10" Specular="0.48899999,0.293257,0.093399003" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

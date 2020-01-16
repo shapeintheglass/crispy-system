@@ -1,0 +1,6 @@
+<download name="npc_sabotagemimicry" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839658" md5="0ac39ce8abf4afcbf5bda49eaf1eabb5"/>
+ </files>
+</download>

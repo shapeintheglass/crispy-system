@@ -1,0 +1,6 @@
+<download name="demonstration_theater_a" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="46099" md5="99fea246d7200240e56775059fca98ce"/>
+ </files>
+</download>

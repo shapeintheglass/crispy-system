@@ -1,0 +1,6 @@
+<download name="apartmenttravel" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="33855" md5="bc30598e370de970547e0e637379a54a"/>
+ </files>
+</download>

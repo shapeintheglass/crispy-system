@@ -1,0 +1,6 @@
+<download name="ai_onethermalphantom" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="36281" md5="5d2310ae5b82052402df985cbad7f505"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="npc_2humansmimictest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2847486" md5="c38a337dd6715f6ea79c84268f2188b1"/>
+ </files>
+</download>

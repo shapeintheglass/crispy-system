@@ -1,0 +1,6 @@
+<download name="Grenade2" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1422150" md5="07a1f369e72ea24dd085221c196906b2"/>
+ </files>
+</download>

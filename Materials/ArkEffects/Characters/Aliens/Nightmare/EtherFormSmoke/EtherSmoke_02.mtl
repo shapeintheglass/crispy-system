@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="480" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.046665091,0.046665091,0.046665091" Specular="0,0,0" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/smoke_black_soft_whispy_4tile.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/smoke/ink_smoke_soft_01_ddn.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/characters/aliens/nightmareether/ethersmoke/flow_smoke_01.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.30000001" FlowSpeed="2"/>
+</Material>

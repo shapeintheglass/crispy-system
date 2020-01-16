@@ -1,0 +1,6 @@
+<download name="regenerate_nav_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="36946" md5="c145a040616db776eabbc06c11878639"/>
+ </files>
+</download>

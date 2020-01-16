@@ -1,0 +1,6 @@
+<download name="zoo_misc" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2833113" md5="4ff1aa02ebfafeae4be5387264567869"/>
+ </files>
+</download>

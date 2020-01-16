@@ -1,0 +1,6 @@
+<download name="vip_shuttle_bay_research_01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="76128" md5="120e16b4b08228d4dbfb5f5ef1f5f15e"/>
+ </files>
+</download>

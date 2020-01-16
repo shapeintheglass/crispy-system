@@ -1,0 +1,6 @@
+<download name="npc_mimicongamestart" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839837" md5="dc36a8069a67770238ce887c056ff5d0"/>
+ </files>
+</download>

@@ -1,0 +1,21 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.46599999,0.46599999,0.46599999" Emissive="0,0,0" GenMask="40000000000" LayerAct="1" MatTemplate="" MtlFlags="34078850" Name="gray_mat" Opacity="0.1" Shader="Illum" Shininess="182" Specular="0.44999999,0.44999999,0.44999999" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/user/jmagill/blockout/basic/default.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.315,0.315,0.315" Emissive="0,0,0" GenMask="40000000000" LayerAct="1" MatTemplate="" MtlFlags="34078848" Name="gray_mat1" Opacity="1" Shader="Illum" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/user/jmagill/blockout/basic/default.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.46599999,0.047065999,0.047065999" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="34079872" Name="gray_mat_collision" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

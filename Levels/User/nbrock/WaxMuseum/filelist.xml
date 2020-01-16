@@ -1,0 +1,6 @@
+<download name="waxmuseum" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="78783" md5="2e66c9fca9ed8b0f08c3c1a9608b32c4"/>
+ </files>
+</download>

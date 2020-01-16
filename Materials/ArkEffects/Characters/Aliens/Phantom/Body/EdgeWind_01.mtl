@@ -1,0 +1,12 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.026241222,0.026241222,0.026241222" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="68" CloakAmount="0" vertModifType="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/characters/aliens/phantom/body/edgewind_01_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="29.299999" TileU="1.5" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.30000001" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="0.1" TexMod_VRotateCenter="31.1" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.5" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="0.1" TexMod_WRotateRate="0.29663086" TexMod_WRotateAmplitude="0.02746582"/>
+  </Texture>
+ </Textures>
+ <VertexDeform Type="1" DividerX="1" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.0049999999" Level="0" Phase="0" Freq="1"/>
+ </VertexDeform>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

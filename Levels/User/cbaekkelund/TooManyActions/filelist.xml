@@ -1,0 +1,6 @@
+<download name="toomanyactions" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="78755" md5="8c963f6c1d75bef166a08a397eea5bcf"/>
+ </files>
+</download>

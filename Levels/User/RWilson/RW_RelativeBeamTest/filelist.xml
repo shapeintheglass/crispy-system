@@ -1,0 +1,6 @@
+<download name="rw_relativebeamtest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="42222" md5="4b7815aa04f17900e0c74a5d1f0ae2b1"/>
+ </files>
+</download>

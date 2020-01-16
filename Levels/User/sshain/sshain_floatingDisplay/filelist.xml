@@ -1,0 +1,6 @@
+<download name="sshain_floatingdisplay" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="41882" md5="1a3301f980a766f303d45a884dbf11e4"/>
+ </files>
+</download>

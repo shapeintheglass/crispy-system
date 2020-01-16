@@ -1,0 +1,49 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="collisionLab_Standard_A_SHD" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures/>
+  </Material>
+  <Material Name="Lab_Standard_A_MetalPanel_01_SHD" MtlFlags="524416" Shader="Illum" GenMask="802800000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="0.3712377,0.70110202,0.82278591" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_01_mtlpanel_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_01_mtlpanel_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_01_mtlpanel_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Lab_Standard_A_Conc_01_SHD" MtlFlags="524416" Shader="Illum" GenMask="802000000000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_standard_a_fiberglass_tileable_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/industrial/wall_industrial_a/industrial_standard_a_fiberglass_tileable_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Lab_Standard_A_Hdware_01_SHD" MtlFlags="524416" Shader="Illum" GenMask="802800000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_hardware_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_hardware_01_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_hardware_01_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Lab_Standard_A_Glass" MtlFlags="36178082" Shader="ArkSimpleGlass" GenMask="400000000000010" StringGenMask="%BILINEAR_FP16%UNLIT" SurfaceType="mat_Glass" MatTemplate="" Diffuse="1,1,1" Specular="0.072271854,0.072271854,0.072271854" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/generic/glass/glass_clear_ddna.tif"/>
+    <Texture Map="Environment" File="nearest_cubemap" TexType="7"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.83879912,0.93868583,0.92158198" TintCloudiness="0" BackLightScale="0" BumpScale="0.050000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Lab_Standard_A_Rail_01_SHD" MtlFlags="524416" Shader="Illum" GenMask="802800000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="1,1,1" Specular="0.54572457,0.54572457,0.54572457" Opacity="1" Shininess="155" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_rails_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_rails_01_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/lab/lab_wall_a/lab_wall_a_rails_01_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

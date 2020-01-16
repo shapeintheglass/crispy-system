@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="ArkParticlesGeo" GenMask="40000" StringGenMask="%BUMP_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="0.99000001" vertModifType="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif" IsTileU="0" IsTileV="0"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+ </Textures>
+ <VertexDeform Type="1" DividerX="0.050000001" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.050000001" Level="0" Phase="0" Freq="1"/>
+ </VertexDeform>
+</Material>

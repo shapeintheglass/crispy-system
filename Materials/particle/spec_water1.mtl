@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.68668544,0.68668544,0.68668544" Specular="4.6999998,4.6999998,4.6999998" Opacity="0.99000001" Shininess="10" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/liquid/liquid_large_mask.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/liquid/liquid_large_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

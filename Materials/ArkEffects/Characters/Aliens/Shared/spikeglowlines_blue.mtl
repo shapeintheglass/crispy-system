@@ -1,0 +1,13 @@
+
+<Material MtlFlags="526340" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.28314877,0.35153264,0.58407855" Emittance="1,1,1,750" Opacity="1" Shininess="10" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/glowbase_add_02_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="1" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorRate="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+  <Texture Map="Detail" File="textures/arkeffects/glows/lineglowstiled.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.25" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.25" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.025" DeformAnimSpeed="0.69800001" GlobalIlluminationAmount="1" DeformTile="0.289"/>
+</Material>

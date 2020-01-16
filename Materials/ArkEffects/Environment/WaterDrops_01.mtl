@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="800000000000104" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.1441285,0.3185468,0.39675525" Emittance="0.059511244,0.13843164,0.21586053,0" Opacity="1" Shininess="170" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/gameplay/wigglebubbles_seq_best_03.tif" IsTileU="0" IsTileV="0"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/gameplay/wigglebubbles_seq_best_01a_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.2"/>
+</Material>

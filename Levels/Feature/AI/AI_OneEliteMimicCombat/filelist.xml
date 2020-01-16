@@ -1,0 +1,6 @@
+<download name="ai_oneelitemimiccombat" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="74047" md5="fca8f9ee8f5969df2b4f184407807bcc"/>
+ </files>
+</download>

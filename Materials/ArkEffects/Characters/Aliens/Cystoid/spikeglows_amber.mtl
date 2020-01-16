@@ -1,0 +1,7 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.45078582,0.3712377,0.29177067" Emittance="0.72305524,0.33716366,0.027320893,800" Opacity="0.99000001" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/Screen/DiffuseShard_02.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="0.5"/>
+</Material>

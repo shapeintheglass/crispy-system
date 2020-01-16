@@ -1,0 +1,34 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="collision_Window_Bay_A_metal_thick" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_Metal_Thick_Large" MatTemplate="" Diffuse="1,0,0" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures/>
+  </Material>
+  <Material Name="Window_Bay_A_mat" MtlFlags="524416" Shader="Illum" GenMask="40020080000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="0.021219011,0.021219011,0.021219011" Specular="0.13286835,0.13286835,0.13286835" Opacity="1" Shininess="120" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/exec/window_bay_a/window_bay_a_ao.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/exec/window_bay_a/window_bay_a_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/exec/window_bay_a/window_bay_a_steel_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="Window_Bay_A_glass_floor_mat" MtlFlags="36178080" Shader="ArkSimpleGlass" GenMask="4000000010000" StringGenMask="%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Healing" MatTemplate="" Specular="0.26225069,0.26225069,0.26225069" Opacity="0.99000001" Shininess="240" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/generic/glass/glass_clear_ddna.tif"/>
+    <Texture Map="Environment" File="nearest_cubemap" TexType="Nearest Cube-Map probe for alpha blended"/>
+   </Textures>
+   <PublicParams BumpMapTile="5" TintColor="1,1,1" TintCloudiness="0" BackLightScale="0" BumpScale="0.0099999998"/>
+  </Material>
+  <Material Name="Window_Bay_A_glass_mat" MtlFlags="36178080" Shader="ArkSimpleGlass" GenMask="4000000010000" StringGenMask="%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Healing" MatTemplate="" Specular="0.12477184,0.12477184,0.12477184" Opacity="0.34999999" Shininess="240" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/generic/glass/glass_clear_ddna.tif"/>
+    <Texture Map="Environment" File="nearest_cubemap" TexType="Nearest Cube-Map probe for alpha blended"/>
+   </Textures>
+   <PublicParams BumpMapTile="5" TintColor="1,1,1" TintCloudiness="0" BackLightScale="0" BumpScale="0.0049999999"/>
+  </Material>
+  <Material Name="collision_Window_Bay_A_glass_healing" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_Glass_Healing" MatTemplate="" Diffuse="1,0,0" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

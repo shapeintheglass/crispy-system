@@ -1,0 +1,6 @@
+<download name="endgame_nullwaveexterior" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2855362" md5="5e632d5ff3edacd2238b109a2cdf3332"/>
+ </files>
+</download>

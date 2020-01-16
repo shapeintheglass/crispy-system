@@ -1,0 +1,11 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="580" StringGenMask="" SurfaceType="mat_Oil" MatTemplate="" Diffuse="0.03189604,0.027320893,0.064803272" Specular="0.010329825,0.010960096,0.013702084" Opacity="1" Shininess="255" AlphaTest="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/liquid/liquid_medium_mask.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/liquid/liquid_medium.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/liquid/flow_variation_swirls_soft_fm.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.025" FlowSpeed="0.25"/>
+</Material>

@@ -1,0 +1,13 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Door_Transition_Interior_A_ColumnScreen" MtlFlags="526464" Shader="Monitor" GenMask="10" StringGenMask="" SurfaceType="mat_Electrical" MatTemplate="" Diffuse="1,1,1" Specular="0.038204376,0.038204376,0.038204376" Emittance="1,1,1,12" Opacity="1" Shininess="60" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+    <Texture Map="Emittance" File="objects/environment/props/gameplay/door_transition_interior_a/door_transition_interior_a_sign_lobby_diff.tif"/>
+   </Textures>
+   <PublicParams GrainAmount="1" DeformAmount="0" DeformTillingY="0" EmittanceMapGamma="1" GrainTilling="8.8400002" BendScale="0.2" RandomSalt="0" ChromaGlitchWidth="0.1" ResolutionX="256" ResolutionY="512" InterlacingTilling="8.6999998" GlitchEnabled="0" Contrast="1" Saturation="1" DeformTillingX="0" GrainSaturation="0" FresnelScale="1" InterlacingAmount="0.074000001" VSyncFreq="5.1599998" PixelVisibility="0.5" FresnelBias="1" BlockGlitchReduction="1" ChromaGlitchSpeed="30" ChromaShift="0.079999998" BlockGlitchSpeed="24" ViewAngle="180" DeformFreq="0.14" BlockSize="32"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

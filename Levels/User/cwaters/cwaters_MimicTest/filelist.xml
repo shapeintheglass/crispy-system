@@ -1,0 +1,6 @@
+<download name="cwaters_mimictest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="45294" md5="a9780c7ad59aee1e751cfd9ad28521ae"/>
+ </files>
+</download>

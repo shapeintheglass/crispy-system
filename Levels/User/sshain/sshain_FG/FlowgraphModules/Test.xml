@@ -1,0 +1,17 @@
+<Graph isModule="1" moduleName="Test" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="Module:Start_Test" pos="-90,20,0" flags="0"/>
+  <Node Id="2" Class="Module:End_Test" pos="400,30,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="5" Class="Debug:ConsoleVariable" pos="100,-50,0" flags="0">
+   <Inputs CVar="pl_forcezerogmode" Value="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="1" portIn="Cancel" portOut="Cancel" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="Set" portOut="Start" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="Success" portOut="CurValue" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

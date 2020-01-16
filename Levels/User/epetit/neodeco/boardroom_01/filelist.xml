@@ -1,0 +1,6 @@
+<download name="boardroom_01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="42480" md5="43dc5f8a199d7d9a8f51efa6c36f4da6"/>
+ </files>
+</download>

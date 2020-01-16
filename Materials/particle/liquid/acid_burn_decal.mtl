@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="mat_Water" MatTemplate="" Diffuse="1,1,1" Specular="0.0097212186,0.0097212186,0.0097212186" Opacity="1" Shininess="176" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/ArkEffects/Decal/Liquid/acid_splatter_albedo.tif"/>
+  <Texture Map="Bumpmap" File="Textures/ArkEffects/Decal/Liquid/acid_splatter_normal.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

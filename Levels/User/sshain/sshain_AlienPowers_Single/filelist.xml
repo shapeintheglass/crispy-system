@@ -1,0 +1,6 @@
+<download name="sshain_alienpowers_single" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35120" md5="0cce00941466103c493a7d08d1424044"/>
+ </files>
+</download>

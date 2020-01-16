@@ -1,0 +1,6 @@
+<download name="sshain_deadbody" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35490" md5="c0740860a1c49789e872ec9f37d0a389"/>
+ </files>
+</download>

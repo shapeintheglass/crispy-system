@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.35640016,0.43965721,1" Emittance="0.095307469,0.93011099,0.97344542,1000" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/electricalring_connected_00_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+  <Texture Map="[1] Custom" File="textures/arkeffects/electricity/electricalring_connected_00_dif.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.17399999" DeformAnimSpeed="0.68199998" GlobalIlluminationAmount="1" DeformTile="0.384"/>
+</Material>

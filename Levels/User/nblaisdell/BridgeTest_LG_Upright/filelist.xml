@@ -1,0 +1,6 @@
+<download name="BridgeTest_LG_Upright" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="372359" md5="35f571cb2ad447d14f517c5f2e07f044"/>
+ </files>
+</download>

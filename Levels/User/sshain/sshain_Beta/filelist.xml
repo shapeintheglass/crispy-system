@@ -1,0 +1,6 @@
+<download name="sshain_beta" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37299" md5="b7c761bd32e040f30cb267cdcac9038a"/>
+ </files>
+</download>

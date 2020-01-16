@@ -1,0 +1,6 @@
+<download name="styleswatchq_001" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="32634" md5="6410c705ba3a134d31992afd9f2f6b78"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="apex_vig" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="159988" md5="f10f908aab023a05f4af311a73e3df30"/>
+ </files>
+</download>

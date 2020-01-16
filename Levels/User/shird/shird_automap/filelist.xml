@@ -1,0 +1,6 @@
+<download name="shird_automap" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38975" md5="7b51df8275efef9205a90f8f786b10b1"/>
+ </files>
+</download>

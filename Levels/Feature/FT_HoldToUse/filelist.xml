@@ -1,0 +1,6 @@
+<download name="ft_holdtouse" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="87246" md5="475fd546da4e795d11a7de9c3e2f1b77"/>
+ </files>
+</download>

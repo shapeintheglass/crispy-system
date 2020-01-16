@@ -1,0 +1,11 @@
+
+<Material MtlFlags="524288" Shader="GeometryBeam" GenMask="5" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" CloakAmount="0" vertModifType="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/noise/concretemiscdebris_00.tif"/>
+ </Textures>
+ <VertexDeform Type="1" DividerX="0" DividerY="0" DividerZ="0" DividerW="0" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.001" Level="0" Phase="1" Freq="5"/>
+ </VertexDeform>
+ <PublicParams StartColor="0.1620294,0.15292618,0.46778381" EndColor="0.16826943,0.33245155,0.35640016" FinalMultiplier="3.1199999" turbStrength="1" SoftIntersectionFactor="3.1400001" dustUVScale="0.5" viewDependencyFactor="2" baseUVScale="1" dustTimeScale="1" AmbStrength="0.46000001" uvRot="1" turbRatio="0" uvVigFeaturing="2.5899999" fadingFeaturing="2.7590001"/>
+</Material>

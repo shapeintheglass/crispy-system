@@ -1,0 +1,6 @@
+<download name="npc_voltaicandmimics" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="56542" md5="7c358b35a821bd49c774c0c6670fed24"/>
+ </files>
+</download>

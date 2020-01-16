@@ -1,0 +1,14 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20080180000" StringGenMask="%EMITTANCE_MAP%EMITTANCE_MAP_MASK%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="0.24620135,0.24620135,0.24620135" Specular="1,1,1" Emittance="0.49102089,1,0.3185468,400" Opacity="0.28" Shininess="80" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/fire_crawl.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorAmplitude="0.1" TileV="0.1" TexMod_VOscillatorRate="0.2" TexMod_VOscillatorAmplitude="0.1"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+  <Texture Map="Decal" File="textures/arkeffects/fire/fire_crawl.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/fire/tiledfire_00.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" OffsetU="0.5" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.2" TexMod_UOscillatorAmplitude="0.2" TileV="0.003" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="100" TexMod_VOscillatorAmplitude="0.2" TexMod_WRotateRate="0.0054931641"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

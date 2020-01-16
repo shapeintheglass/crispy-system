@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="2" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="DistanceClouds" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/user/sallen/exterior_vista_textures/nebula/starfield02.tif" Map="Diffuse">
+   <TexMod TileU="2" TileV="2"/>
+  </Texture>
+ </Textures>
+ <PublicParams Exposure="1" Opacity="0.15000001"/>
+</Material>

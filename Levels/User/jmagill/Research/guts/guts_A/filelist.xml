@@ -1,0 +1,6 @@
+<download name="guts_a" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="41575" md5="4559fd5dac430a5c8fc96e33c644cd58"/>
+ </files>
+</download>

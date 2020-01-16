@@ -1,0 +1,68 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material AlphaTest="0.19" CloakAmount="0" Diffuse="0.9046613,0.9046613,0.97344542" Emittance="1,1,1,6" GenMask="600000000000010" LayerAct="1" MatTemplate="" MtlFlags="34080930" Name="SubMtl1" Opacity="0.70999998" Shader="Glass" Shininess="189" Specular="0.46778381,0.19806935,0.02842604" StringGenMask="%BILINEAR_FP16%TINT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" VoxelCoverage="67" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/perlinnoise2d.dds" Map="Diffuse"/>
+    <Texture File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif" Map="Bumpmap"/>
+    <Texture File="nearest_cubemap" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" CloudinessReducesGloss="0.5" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.42399999" TintColor="0.62396049,0.34191445,0.25015831"/>
+  </Material>
+  <Material Diffuse="0,0,0" GenMask="802800000000002" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/gloss70_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/pbs_reference/iron_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0,0,0" GenMask="802800000000002" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/gloss70_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/pbs_reference/iron_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.082282715,0.030713448,0.015208516" GenMask="5" LayerAct="1" MatTemplate="" MtlFlags="34097316" Name="SubMtl4" Opacity="1" Shader="Waterfall" Shininess="176" Specular="0.082282715,0.030713448,0.015208516" StringGenMask="" SurfaceType="mat_Metal_Thin_Medium" VoxelCoverage="147" vertModifType="1">
+   <Textures>
+    <Texture File="textures/defaults/perlinnoise2d.dds" Map="Diffuse">
+     <TexMod OffsetV="9.5" RotateU="39.089355" RotateV="18.198853" RotateW="7.8991699" TexMod_RotateType="3" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="0.2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="0.1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_WRotateAmplitude="0.0054931641" TexMod_WRotateRate="0.016479492" TexMod_bTexGenProjected="0"/>
+    </Texture>
+    <Texture File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif" Filter="6" Map="Bumpmap">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorRate="1" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0" TileU="1.2" TileV="1.6"/>
+    </Texture>
+    <Texture File="nearest_cubemap" Map="Environment">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6.0999999" TileV="6.5999999"/>
+    </Texture>
+    <Texture File="textures/defaults/white.dds" Map="Emittance"/>
+   </Textures>
+   <VertexDeform DividerX="0" DividerY="0.0099999998" NoiseScale="1,1,1" Type="1"/>
+   <PublicParams AlphaBlendMul="2.9000001" BumpScaleLayer0="1.1160001" BumpScaleLayer1="1.551" FoamDeform="0.075000003" FoamMultiplier="1.42" FresnelBias="0.50400001" ReflectionAmount="9.3500004" RefractionBumpScale="0.0099999998" SpeedLayer0="73.599998" SpeedLayer1="4" SunMultiplier="8.8800001" TillingLayer0="9.1999998" TillingLayer1="5.29"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.042311415,0.063010022,0.23074007" GenMask="5" LayerAct="1" MatTemplate="" MtlFlags="34097316" Name="SubMtl5" Opacity="1" Shader="Waterfall" Shininess="215" Specular="0.1169707,0.19120172,0.61049569" StringGenMask="" SurfaceType="mat_Metal_Thin_Medium" VoxelCoverage="147" vertModifType="1">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse">
+     <TexMod OffsetV="9.5" RotateU="39.089355" RotateV="18.198853" RotateW="7.8991699" TexMod_RotateType="3" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="0.2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="0.1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_WRotateAmplitude="0.0054931641" TexMod_WRotateRate="0.016479492" TexMod_bTexGenProjected="0"/>
+    </Texture>
+    <Texture File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif" Filter="6" Map="Bumpmap">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorRate="1" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0" TileU="1.2" TileV="1.6"/>
+    </Texture>
+    <Texture File="nearest_cubemap" Map="Environment">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6.0999999" TileV="6.5999999"/>
+    </Texture>
+    <Texture File="textures/defaults/white.dds" Map="Emittance"/>
+   </Textures>
+   <VertexDeform DividerX="0" DividerY="0.0099999998" NoiseScale="1,1,1" Type="1"/>
+   <PublicParams AlphaBlendMul="2.9000001" BumpScaleLayer0="1.1160001" BumpScaleLayer1="0.68099999" FoamDeform="0.075000003" FoamMultiplier="1.42" FresnelBias="0.50400001" ReflectionAmount="9.3500004" RefractionBumpScale="0.0099999998" SpeedLayer0="8.6999998" SpeedLayer1="0" SunMultiplier="8.8800001" TillingLayer0="0" TillingLayer1="1.8099999"/>
+  </Material>
+  <Material AlphaTest="0.19" CloakAmount="0" Diffuse="0.035601322,0.035601322,0.55834049" Emittance="1,1,1,46" GenMask="600000000000010" LayerAct="1" MatTemplate="" MtlFlags="34080930" Name="SubMtl6" Opacity="0.70999998" Shader="Glass" Shininess="27" Specular="0.1221388,0.070360102,0.66538745" StringGenMask="%BILINEAR_FP16%TINT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" VoxelCoverage="67" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/perlinnoise2d.dds" Map="Diffuse"/>
+    <Texture File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif" Map="Bumpmap"/>
+    <Texture File="nearest_cubemap" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" CloudinessReducesGloss="0.5" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.42399999" TintColor="0.62396049,0.34191445,0.25015831"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

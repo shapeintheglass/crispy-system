@@ -1,0 +1,6 @@
+<download name="facesetup" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="33157" md5="52f40a7749dd10dc04faac4b1ed47338"/>
+ </files>
+</download>

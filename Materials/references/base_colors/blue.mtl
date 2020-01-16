@@ -1,0 +1,7 @@
+
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="80000001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="128" Specular="0.026241222,0.026241222,0.026241222" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+ <Textures>
+  <Texture File="textures/generic/base_colors/blue_diff.tif" Map="Diffuse"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="134744068" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,0.52099562,0.21223079" Emittance="1,1,1,200" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/weapon/pistol_muzzle_flare_01.tif" IsTileU="0" IsTileV="0"/>
+  <Texture Map="Emittance" File="textures/arkeffects/weapon/pistol_muzzle_flare_01.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

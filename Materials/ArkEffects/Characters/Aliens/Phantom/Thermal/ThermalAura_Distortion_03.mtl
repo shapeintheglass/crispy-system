@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20000000101" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,0.21586053,0" Specular="0,0,0" Emissive="1,0.21586053,0" Opacity="0.99000001" GlowAmount="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/gradients/gradientlinear.tif"/>
+  <Texture Map="Bumpmap" File="textures/sprites/water/refraction_b_ddn.dds"/>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

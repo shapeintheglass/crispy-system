@@ -1,0 +1,6 @@
+<download name="npc_feartests" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2842407" md5="438364e48d48db24645047fd57137412"/>
+ </files>
+</download>

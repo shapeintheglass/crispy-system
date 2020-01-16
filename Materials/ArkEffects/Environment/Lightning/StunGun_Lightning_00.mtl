@@ -1,0 +1,6 @@
+
+<Material MtlFlags="524288" Shader="ArkEmissive" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.63075727,0.73046088,0.99110222" Emittance="0.2269659,0.65140575,0.96468639,200" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/arclighting_00.tif"/>
+ </Textures>
+</Material>

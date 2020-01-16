@@ -1,0 +1,6 @@
+<download name="ft_achievements" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="73991" md5="911a5e9143c5a4ab70d44f94f2116230"/>
+ </files>
+</download>

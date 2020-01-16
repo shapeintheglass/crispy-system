@@ -1,0 +1,11 @@
+
+<Material Diffuse="0.21586053,0.022173885,0.0091340598" Emissive="0,0,0" GenMask="80001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="159" Specular="0.4793202,0.4793202,0.48514995" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse">
+   <TexMod TileU="0.1" TileV="0.1"/>
+  </Texture>
+  <Texture File="textures/defaults/perlinnoise2d.dds" Map="Specular"/>
+  <Texture File="textures/cubemaps/vs_exterior/environmentprobe16_cm.tif" Map="Environment"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

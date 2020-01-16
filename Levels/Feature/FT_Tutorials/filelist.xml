@@ -1,0 +1,6 @@
+<download name="ft_tutorials" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="75173" md5="d66ff27a746d16bbcc1bdae15cd9bbd8"/>
+ </files>
+</download>

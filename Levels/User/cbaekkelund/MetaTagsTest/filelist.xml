@@ -1,0 +1,6 @@
+<download name="metatagstest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="78431" md5="0fd9ad7561e94c9aaac88e43265516c8"/>
+ </files>
+</download>

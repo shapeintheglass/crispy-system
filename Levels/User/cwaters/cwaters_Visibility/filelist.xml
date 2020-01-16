@@ -1,0 +1,6 @@
+<download name="cwaters_visibility" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="148786" md5="66e71176e1bbe6a18882a4a345b0cfb1"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="rw_graphtokenbug" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38769" md5="3364d8db77d5997c5d875132e58c0db8"/>
+ </files>
+</download>

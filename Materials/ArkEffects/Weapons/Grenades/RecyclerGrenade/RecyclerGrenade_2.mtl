@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524326" Shader="Particles" GenMask="1080" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,0.45641103,0.19806935,20" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/detailglow_01.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/glows/detailglow_01.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/warpnormals_00_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.5" FlowSpeed="20"/>
+</Material>

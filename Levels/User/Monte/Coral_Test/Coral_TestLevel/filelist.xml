@@ -1,0 +1,6 @@
+<download name="Coral_TestLevel" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="74151" md5="735eebbdda3a8a2ee06db5f2f4ce003e"/>
+ </files>
+</download>

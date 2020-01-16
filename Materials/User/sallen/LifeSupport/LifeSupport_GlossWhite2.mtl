@@ -1,0 +1,8 @@
+
+<Material AlphaTest="0.090000004" CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="1001000000802" LayerAct="1" MatTemplate="" MtlFlags="524290" Opacity="0.79000002" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+  <Texture File="textures/user/sallen/material_templates/pantone/10/pantone_cool_10_gloss_30.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams DecalAlphaMult="1" DecalDiffuseOpacity="1" DecalFalloff="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,10 @@
+
+<Material AlphaTest="1" Diffuse="1,1,1" Emissive="0,0,0" GenMask="10250" LayerAct="1" MatTemplate="" MtlFlags="526336" Opacity="1" Shader="Glass" Shininess="202" Specular="0.97344542,0.97344542,0.97344542" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DEPTH_FOG%ENVIRONMENT_MAP" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/defaults/white_noise.tif" Map="Diffuse">
+   <TexMod TexMod_UOscillatorPhase="7.5" TexMod_UOscillatorRate="0.0099999998" TexMod_VOscillatorAmplitude="0.2" TexMod_VOscillatorPhase="8.6000004" TexMod_VOscillatorRate="0.0099999998" TexMod_VOscillatorType="5" TileU="0.5" TileV="0.5"/>
+  </Texture>
+  <Texture File="Textures/cubemaps/workshop/environmentprobe2_cm.tif" Map="Environment"/>
+ </Textures>
+ <PublicParams BackLightScale="0.17200001" BlurAmount="0.101" BumpMapTile="1" BumpScale="0.1" FogColor="0.02842604,0.0069954107,0.0069954107" FogCutoffEnd="0.2" FogDensity="0.46000001" FresnelBias="1" FresnelScale="1" TintCloudiness="0.198" TintColor="0.40197781,0.046665091,0.072271854"/>
+</Material>

@@ -1,0 +1,7 @@
+<download name="mapgen_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="230275" md5="f65b49a958b3cc766bd6a068266e51a6"/>
+  <file src="MapGen_Test.xml" dest="MapGen_Test.xml" size="138" md5="a27747de1246f5338971c43371add8d0"/>
+ </files>
+</download>

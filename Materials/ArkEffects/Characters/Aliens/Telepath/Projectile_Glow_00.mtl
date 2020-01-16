@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="800000000000000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.91309881,0.16826943,0.010329825" Specular="0.0043914425,0.005181517,0.005181517" Emittance="1,1,1,200" Opacity="1" Shininess="6" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/ink_light_smoke_soft_gray_00_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/smoke/ink_smoke_soft_01_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.0069954107,0.0069954107,0.0069954107" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="230" AlphaTest="0.039999999" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/bloodalien/aliensplash_decals01_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/decal/bloodalien/aliensplash_decals01_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="autoplayanimation" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="32895" md5="69e6430a74b24f6ca86a1728fc09d550"/>
+ </files>
+</download>

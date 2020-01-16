@@ -1,0 +1,11 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="484" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.26225069,0.59061897,0.95597351" Specular="0,0,0" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/lightninground_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="5" TexMod_UOscillatorPhase="5" TexMod_UOscillatorAmplitude="5"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/distcircularnoiseinv.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.057999998" FlowTile="0.25799999" FlowSpeed="7.6500001"/>
+</Material>

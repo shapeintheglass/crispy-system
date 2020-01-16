@@ -1,0 +1,6 @@
+<download name="bsg_endgame" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="86808" md5="7db93d44537e5861de03a6d28c04b705"/>
+ </files>
+</download>

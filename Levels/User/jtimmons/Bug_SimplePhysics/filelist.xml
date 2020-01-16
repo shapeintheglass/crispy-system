@@ -1,0 +1,6 @@
+<download name="bug_simplephysics" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="45977" md5="ef86ceff946b82d933639285dc87805a"/>
+ </files>
+</download>

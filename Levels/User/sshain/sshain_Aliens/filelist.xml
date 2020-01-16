@@ -1,0 +1,6 @@
+<download name="sshain_aliens" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38326" md5="85b283f10891a47fa19e1faeb307f4a7"/>
+ </files>
+</download>

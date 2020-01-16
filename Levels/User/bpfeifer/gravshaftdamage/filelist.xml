@@ -1,0 +1,6 @@
+<download name="gravshaftdamage" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="3013535" md5="06995a1cda8ddd990afd2e40f2787eb3"/>
+ </files>
+</download>

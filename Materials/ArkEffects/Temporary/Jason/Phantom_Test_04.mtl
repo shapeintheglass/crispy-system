@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524320" Shader="Particles" GenMask="800000000000884" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.35640016,0.35640016,0.35640016" Specular="1,1,1" Opacity="1" Shininess="100" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/glowbase_01_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/generic/glass/glass_clear_ddna.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/smoke/mistslow_flow.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.024" FlowTile="0.5" FlowSpeed="10"/>
+</Material>

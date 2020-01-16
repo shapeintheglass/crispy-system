@@ -1,0 +1,6 @@
+<download name="sshain_todnextlevel" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="44462" md5="38e6c9b8d3ab16c3cd0ce24e961d1d19"/>
+ </files>
+</download>

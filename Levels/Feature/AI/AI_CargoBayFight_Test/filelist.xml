@@ -1,0 +1,6 @@
+<download name="ai_cargobayfight_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="164940" md5="5a30401649ecb423e80320209e2afc4a"/>
+ </files>
+</download>

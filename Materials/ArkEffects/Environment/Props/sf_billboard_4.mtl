@@ -1,0 +1,16 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Sign_Neuromod_A_mat" MtlFlags="526464" Shader="Monitor" GenMask="11" StringGenMask="" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.10946172,0.10946172,0.10946172" Emittance="1,1,1,25" Opacity="1" Shininess="255" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/arkeffects/environment/sf_billboards/billboard_large_03.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetV="1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/environment/props/coldwar/desk_tech_a/desk_tech_a_screen_ddna.tif"/>
+    <Texture Map="Emittance" File="textures/arkeffects/environment/sf_billboards/billboard_large_03.tif"/>
+   </Textures>
+   <PublicParams GrainAmount="8" DeformAmount="0.0049999999" DeformTillingY="1" EmittanceMapGamma="1" GrainTilling="2" BendScale="0.5" RandomSalt="0" ChromaGlitchWidth="0.5" ResolutionX="256" ResolutionY="256" InterlacingTilling="0.125" GlitchEnabled="0" Contrast="0.89999998" Saturation="1" DeformTillingX="0.0099999998" GrainSaturation="1" FresnelScale="1" InterlacingAmount="0.025" VSyncFreq="0.25" PixelVisibility="1" FresnelBias="1" BlockGlitchReduction="1" ChromaGlitchSpeed="1" ChromaShift="0.050000001" BlockGlitchSpeed="24" ViewAngle="90" DeformFreq="0.1" BlockSize="32"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

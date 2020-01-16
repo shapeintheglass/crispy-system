@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.91309881,0.83879912,0.52711523" Opacity="1" Shininess="239" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/weapon/gloogun/gloogun_muzzle_fragmentsnoise_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/weapon/gloogun/glooball_liquid_spec.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

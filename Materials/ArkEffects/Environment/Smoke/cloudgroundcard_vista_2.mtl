@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526342" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.73046088,0.72305524,0.65140575" Opacity="1" Shininess="10" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/clouds/distanceclouds_low_02.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/smoke/mistslow_flow.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.5" FlowSpeed="0.2"/>
+</Material>

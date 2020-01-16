@@ -1,0 +1,9 @@
+
+<Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="A00800000000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+  <Texture File="objects/pbs_reference/gloss70_ddna.tif" Map="Bumpmap"/>
+  <Texture File="objects/pbs_reference/iron_spec.tif" Map="Specular"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

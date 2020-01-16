@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20100000800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.27889431,0,0" Specular="0.39675525,0,0" Opacity="0.99000001" Shininess="200" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/blood/bloodsplatdecal_01_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/decal/blood/bloodsplatdecal_01_ddn.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1.34"/>
+</Material>

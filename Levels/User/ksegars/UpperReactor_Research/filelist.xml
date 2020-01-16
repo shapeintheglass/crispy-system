@@ -1,0 +1,6 @@
+<download name="upperreactor_research" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="50674" md5="a1356e84e1f6bef3c74400be5907d143"/>
+ </files>
+</download>

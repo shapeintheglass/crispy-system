@@ -1,0 +1,6 @@
+<download name="npc_soloscienceoperator" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="57592" md5="9d8b4d2bf7485e980c0a1a8a66f88d6b"/>
+ </files>
+</download>

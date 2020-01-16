@@ -1,0 +1,6 @@
+<download name="npc_solopoltergeist" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839321" md5="872a9f445c3e094f67fe25364d0ab10c"/>
+ </files>
+</download>

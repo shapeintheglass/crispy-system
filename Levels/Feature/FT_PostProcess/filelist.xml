@@ -1,0 +1,6 @@
+<download name="ft_postprocess" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="74036" md5="49860c4a5086e52770ebbcedcd1933dc"/>
+ </files>
+</download>

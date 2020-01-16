@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="0.097587354,0.19461785,0.31398875" Emissive="0,0,0" GenMask="800000000020" GlowAmount="1" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="0.15000001" Shader="Illum" Shininess="203" Specular="0.61049569,0.29613829,0.086500466" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/user/sallen/deepstorage/deepstorage_gradientpanner01.tif" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="0.1" TexMod_UOscillatorRate="1" TexMod_UOscillatorType="2" TexMod_bTexGenProjected="0"/>
+  </Texture>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

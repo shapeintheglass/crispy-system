@@ -1,0 +1,6 @@
+<download name="test_powersource_021" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1050091" md5="de8c3830cc1d936bf2d420263ad4e9a4"/>
+ </files>
+</download>

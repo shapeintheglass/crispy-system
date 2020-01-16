@@ -1,0 +1,16 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.292,0.317709,0.5" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524420" Name="Glassshatter" Opacity="1" Shader="Illum" Shininess="194" Specular="0.1620294,0.1620294,0.1620294" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_default">
+   <Textures>
+    <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/apex_vig/environmentprobe1_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material Diffuse="0.5,0.075999998,0.318966" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="glassproxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

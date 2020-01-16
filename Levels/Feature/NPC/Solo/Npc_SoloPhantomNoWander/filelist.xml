@@ -1,0 +1,6 @@
+<download name="npc_solophantomnowander" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="55493" md5="d888b2eb5bb7b3112ad6f97154ed3d29"/>
+ </files>
+</download>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="134742020" Shader="Illum" GenMask="20000080001" StringGenMask="%ALLOW_SILHOUETTE_POM%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.57112497,0.58407855,0.99110222" Emittance="1,1,1,40" Opacity="0.80000001" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

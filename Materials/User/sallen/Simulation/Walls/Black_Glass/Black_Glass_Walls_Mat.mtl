@@ -1,0 +1,23 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.500000,0.500000,0.500000" Emissive="0.000000,0.000000,0.000000" GenMask="100000000" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="10" Specular="0.500000,0.500000,0.500000" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+  <Material Diffuse="0.500000,0.500000,0.500000" Emissive="0.000000,0.000000,0.000000" GenMask="100000000" MatTemplate="" MtlFlags="524416" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="10" Specular="0.500000,0.500000,0.500000" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+  <Material Diffuse="0.500000,0.500000,0.500000" Emissive="0.000000,0.000000,0.000000" GenMask="100000000" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="10" Specular="0.500000,0.500000,0.500000" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+  <Material Diffuse="0.500000,0.500000,0.500000" Emissive="0.000000,0.000000,0.000000" GenMask="100000000" MatTemplate="" MtlFlags="524416" Name="SubMtl4" Opacity="1" Shader="Illum" Shininess="10" Specular="0.500000,0.500000,0.500000" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+  <Material Diffuse="0.500000,0.500000,0.500000" Emissive="0.000000,0.000000,0.000000" GenMask="100000000" MatTemplate="" MtlFlags="524416" Name="SubMtl5" Opacity="1" Shader="Illum" Shininess="10" Specular="0.500000,0.500000,0.500000" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+  <Material Diffuse="0.500000,0.500000,0.500000" Emissive="0.000000,0.000000,0.000000" GenMask="100000000" MatTemplate="" MtlFlags="524416" Name="SubMtl6" Opacity="1" Shader="Illum" Shininess="10" Specular="0.500000,0.500000,0.500000" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+</Material>

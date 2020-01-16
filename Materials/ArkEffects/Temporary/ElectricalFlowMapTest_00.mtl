@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524324" Shader="ArkEmissive" GenMask="20000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0.17144112,0.42326769,0.81484669,200" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/chainlightning_02.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/electricity/chainlightningflowmap_01.tif"/>
+ </Textures>
+ <PublicParams FlowTile="0.42199999" FlowSpeed="8.2200003"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="stagingarea" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2928385" md5="8f521ec3434b90c497666e5fdb45a4eb"/>
+ </files>
+</download>

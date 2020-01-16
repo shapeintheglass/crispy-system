@@ -1,0 +1,8 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="0.99110222,0.53947961,0.29613829,2000" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/sparks/sparksingle.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/sparks/sparksingle.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

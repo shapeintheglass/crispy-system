@@ -1,0 +1,20 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="collision_Floor_Carpet_Pattern_B_COL_Carpet" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_Carpet" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures/>
+  </Material>
+  <Material Name="Floor_Carpet_Pattern_B_mat" MtlFlags="524416" Shader="Illum" GenMask="802800000008002" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Carpet" MatTemplate="" Diffuse="0.14995982,0.45078582,0.43415368" Specular="0.17788844,0.21586053,0.73046088" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/environment/architecture/exec/floor_carpet_pattern_b/floor_carpet_pattern_b_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/environment/architecture/exec/floor_carpet_pattern_b/floor_carpet_pattern_b_ddna.tif"/>
+    <Texture Map="Specular" File="objects/environment/architecture/exec/floor_carpet_pattern_b/floor_carpet_pattern_b_spec.tif"/>
+    <Texture Map="Detail" File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_det.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.685" SSSIndex="0" DetailBumpScale="0.34999999" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

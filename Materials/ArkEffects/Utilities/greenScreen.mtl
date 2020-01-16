@@ -1,0 +1,6 @@
+
+<Material MtlFlags="524322" Shader="ReferenceImage" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,1,0" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_green.tif"/>
+ </Textures>
+</Material>

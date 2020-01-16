@@ -1,0 +1,6 @@
+<download name="npc_lifted" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2841754" md5="d78108335e14f5fc2159449ba86ca556"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="ether_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="41251" md5="d09076ea742001b948dddda5bd61f0c0"/>
+ </files>
+</download>

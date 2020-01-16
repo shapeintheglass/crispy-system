@@ -1,0 +1,6 @@
+<download name="npc_nightmareandunconchuman" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2834015" md5="5eef89e85f317a5f6fd0fde955deb50d"/>
+ </files>
+</download>

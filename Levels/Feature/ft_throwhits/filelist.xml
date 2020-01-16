@@ -1,0 +1,6 @@
+<download name="ft_throwhits" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="76478" md5="fbf3946a151a7fd7ea700aa0f9015eb7"/>
+ </files>
+</download>

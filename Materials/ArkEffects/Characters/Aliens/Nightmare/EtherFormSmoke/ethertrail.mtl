@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.60382748,0.60382748,0.60382748" Opacity="1" Shininess="200" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/characters/aliens/nightmareether/ethersmoke/ethersmokestrip_dif_####0000-0031(0.05).tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/characters/aliens/nightmareether/ethersmoke/ethersmokestrip_ddn_####0000-0031(0.05).tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

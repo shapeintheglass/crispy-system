@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="ArkParticlesGeo" GenMask="100" StringGenMask="%BUMP_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.49693301,0.49693301,0.49693301" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_02_ddn.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1"/>
+</Material>

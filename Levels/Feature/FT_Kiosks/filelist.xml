@@ -1,0 +1,6 @@
+<download name="ft_kiosks" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="31838" md5="2692670e4bc7a83b0616a11daecffc9a"/>
+ </files>
+</download>

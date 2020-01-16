@@ -1,0 +1,10 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0.57758057,0.00091058103,0.00091058103" GenMask="A00800000000" GlowAmount="2" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="173" Specular="1,1,1" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/user/sallen/deepstorage/deepstorage_simpleserverwalldesat_color.tif" Map="Diffuse"/>
+  <Texture File="textures/user/sallen/deepstorage/deepstorage_simpleserverwall_nrm.tif" Map="Bumpmap"/>
+  <Texture File="textures/user/sallen/deepstorage/deepstorage_simpleserverwall_spec.tif" Map="Specular"/>
+  <Texture File="textures/user/sallen/deepstorage/deepstorage_serverwallsimple_emis.tif" Map="Decal"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

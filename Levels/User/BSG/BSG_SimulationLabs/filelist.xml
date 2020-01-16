@@ -1,0 +1,6 @@
+<download name="bsg_simulationlabs" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="476190" md5="0ecf71a4a6e1493afb0d3c84610f12b6"/>
+ </files>
+</download>

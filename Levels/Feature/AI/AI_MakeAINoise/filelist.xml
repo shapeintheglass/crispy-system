@@ -1,0 +1,6 @@
+<download name="ai_makeainoise" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="81822" md5="789e98336ea78a62f09c8e48d98c4212"/>
+ </files>
+</download>

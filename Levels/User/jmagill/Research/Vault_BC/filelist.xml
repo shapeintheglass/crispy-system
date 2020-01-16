@@ -1,0 +1,6 @@
+<download name="vault_bc" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="48194" md5="3c94da7c7c624b8bb237041450a09f7a"/>
+ </files>
+</download>

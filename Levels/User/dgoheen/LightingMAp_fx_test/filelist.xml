@@ -1,0 +1,6 @@
+<download name="LightingMAp_fx_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="265940" md5="b7742f95a001a2e664d690f02d4581b0"/>
+ </files>
+</download>

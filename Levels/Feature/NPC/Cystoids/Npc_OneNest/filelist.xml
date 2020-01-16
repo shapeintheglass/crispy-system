@@ -1,0 +1,6 @@
+<download name="npc_onenest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="54811" md5="7e1fad2b81633ad4e9d423dd8c5899e2"/>
+ </files>
+</download>

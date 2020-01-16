@@ -1,0 +1,6 @@
+<download name="arboretumentry" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="39909" md5="6852470280da9a276efe9cf67c162409"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="ft_kineticshield" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="11338832" md5="f634b004eec155df475e837b4031813d"/>
+ </files>
+</download>

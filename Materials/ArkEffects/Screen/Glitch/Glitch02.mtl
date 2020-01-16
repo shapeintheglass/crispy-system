@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526336" Shader="Monitor" GenMask="2000" StringGenMask="" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,10" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/props/universal/screen_info_background_a/screen_info_background_a_diff.tif">
+   <TexMod TexMod_RotateType="3" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TexMod_UOscillatorType="3" TexMod_UOscillatorRate="10" TexMod_UOscillatorAmplitude="10" TileV="2" TexMod_VOscillatorType="3" TexMod_VOscillatorRate="13" TexMod_VOscillatorAmplitude="10" TexMod_WRotateRate="0.016479492" TexMod_WRotateAmplitude="0.098876953"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/glows/glowtrailtiled_01.tif"/>
+ </Textures>
+ <PublicParams GrainAmount="1.22" DeformAmount="0.078000002" DeformTillingY="30.799999" EmittanceMapGamma="1.016" GrainTilling="4.9200001" ResolutionX="500" ResolutionY="500" InterlacingTilling="0.1" Contrast="1" Saturation="0.5" DeformTillingX="30.4" GrainSaturation="0.155" FresnelScale="0" InterlacingAmount="0.052000001" VSyncFreq="6" PixelVisibility="0.111" FresnelBias="0" ChromaShift="0.017999999" ViewAngle="180" DeformFreq="-14.26"/>
+</Material>

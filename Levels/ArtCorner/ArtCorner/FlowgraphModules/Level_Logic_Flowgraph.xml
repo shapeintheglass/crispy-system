@@ -1,0 +1,13 @@
+<Graph isModule="1" moduleName="Level_Logic_Flowgraph" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="Module:Start_Level_Logic_Flowgraph" pos="80,10,0" flags="0"/>
+  <Node Id="2" Class="Module:End_Level_Logic_Flowgraph" pos="400,10,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="1" portIn="Cancel" portOut="Cancel" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="1" portIn="Success" portOut="Start" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="401000000000802" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.52711523,0.79129809,0.94730669" Specular="0.35640016,0.35640016,0.35640016" Opacity="1" Shininess="199" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/weapon/gloogun/glooball_hardened_decal_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/weapon/gloogun/glooball_hardened_decal_ddna.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

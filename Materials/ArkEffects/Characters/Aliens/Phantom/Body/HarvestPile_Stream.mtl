@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.6795426,0.96468639,0.93868583" Specular="0,0,0" Emittance="1,1,1,40" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/aliens/harvestpile/harvestpile_stream.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10" RotateW="90"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/aliens/harvestpile/harvestpile_stream.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.2" DeformAnimSpeed="0.5" SoftParticlesScale="1" GlobalIlluminationAmount="1" DeformTile="1"/>
+</Material>

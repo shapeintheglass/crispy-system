@@ -1,0 +1,22 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.70110202,0.70110202,0.70110202" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Trambody" Opacity="1" Shader="Illum" Shininess="10" Specular="0.068478175,0.068478175,0.068478175" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material AlphaTest="1" Diffuse="0.14497215,0.14497215,0.14497215" Emissive="0,0,0" GenMask="400000000010050" LayerAct="1" MatTemplate="" MtlFlags="526470" Name="Tramwindows" Opacity="1" Shader="Glass" Shininess="194" Specular="0.5,0.5,0.5" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass">
+   <Textures>
+    <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/workshop/environmentprobe8_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BlurAmount="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="0.10224174,0.23455061,0.56471163"/>
+  </Material>
+  <Material Diffuse="0.5,0.5,0.5" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

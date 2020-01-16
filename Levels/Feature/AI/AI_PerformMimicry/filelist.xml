@@ -1,0 +1,6 @@
+<download name="ai_performmimicry" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="43532" md5="548b3ae62c770156d8cb1d2228dc9b06"/>
+ </files>
+</download>

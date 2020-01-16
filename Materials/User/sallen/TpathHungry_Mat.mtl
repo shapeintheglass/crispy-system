@@ -1,0 +1,20 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material AlphaTest="0.38999999" CloakAmount="0" Diffuse="0.095307469,0.095307469,0.095307469" Emissive="0,0,0" GenMask="400000000100010" LayerAct="1" MatTemplate="" MtlFlags="526498" Name="Tpath_Hungry" Opacity="0.62" Shader="Glass" Shininess="74" Specular="0.0074990322,0.0074990322,0.0074990322" StringGenMask="%BILINEAR_FP16%DIRT_MAP%UNLIT" SurfaceType="mat_Metal_Thick_Medium" vertModifType="3">
+   <Textures>
+    <Texture File="textures/defaults/perlinnoise2d.tif" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/workshop/environmentprobe7_cm.tif" Map="Environment"/>
+   </Textures>
+   <VertexDeform DividerW="1.5" DividerX="0.5" DividerY="4.6999998" DividerZ="0.89999998" NoiseScale="1,1,1" Type="3">
+    <WaveX Amp="0.30000001" Freq="1" Level="0" Phase="4" Type="2"/>
+    <WaveY Amp="3.5" Freq="4" Level="3" Phase="3.5" Type="1"/>
+   </VertexDeform>
+   <PublicParams BackLightScale="0.126" BumpMapTile="2.4300001" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0.234" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="0.5,0.5,0.5" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="TpathHungryprox" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

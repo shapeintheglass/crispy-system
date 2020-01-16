@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="C24" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="0.16513222,0.52711523,0.2383976,0.75" Opacity="1" Shininess="200" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/environment/airbubble_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/ArkEffects/DistortionMaps/dist_droplets_alpha_ddn_00.tif"/>
+  <Texture Map="Custom" File="textures/ArkEffects/DistortionMaps/TileNoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0" DeformAnimSpeed="0.32600001" GlobalIlluminationAmount="1" RefrBumpScale="0.022" DeformTile="0.2"/>
+</Material>

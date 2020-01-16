@@ -1,0 +1,13 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="patern_01" MtlFlags="524450" Shader="Hologram" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.0097212186,0.68668544,0.84687334" Emissive="0.65837497,0.65837497,0.65837497" Shininess="24" Opacity="0.54000002" GlowAmount="14" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/epetit/pattern_01.tif"/>
+    <Texture Map="Decal" File="Textures/User/epetit/pattern_01.tif"/>
+   </Textures>
+   <PublicParams InterferenceContrast="1" InterferenceSpeedScale="1" EdgeColor="0.52099562,0.5332765,0.95597351" InterferenceSizeScale="0.89999998" FresnelBias="0.171"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

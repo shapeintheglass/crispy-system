@@ -1,0 +1,12 @@
+
+<Material AlphaTest="0.34999999" CloakAmount="0" Diffuse="0.0097212186,0.018500222,0.043735035" Emissive="0.33716366,0.3185468,0.54572457" GenMask="810800000820" GlowAmount="5" LayerAct="1" MatTemplate="" MtlFlags="524320" Opacity="0.85000002" Shader="Illum" Shininess="255" Specular="0.038204376,0.033104774,0.074213572" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%PHONG_TESSELLATION%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/grey.dds" Map="Diffuse">
+   <TexMod OffsetV="9.5" RotateU="39.089355" RotateV="18.198853" RotateW="7.8991699" TexMod_RotateType="3" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="0.2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="0.1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_WRotateAmplitude="0.0054931641" TexMod_WRotateRate="0.016479492" TexMod_bTexGenProjected="0" TileV="12"/>
+  </Texture>
+  <Texture File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif" Map="Bumpmap">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorRate="1" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="1" TexMod_VOscillatorRate="1" TexMod_VOscillatorType="2" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+  </Texture>
+ </Textures>
+ <PublicParams DecalAlphaMult="1.4" DecalDiffuseOpacity="0.31200001" DecalFalloff="18.9" IndirectColor="0.038204376,0.059511244,0.35153264" TessellationFaceCull="0.193" TessellationFactor="2.6359999" TessellationFactorMax="16.23" TessellationFactorMin="1"/>
+</Material>

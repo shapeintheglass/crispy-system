@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524320" Shader="ArkEmissive" GenMask="1" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,25.600002" Opacity="0.050000001" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/environment/clouds_03_dif.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/environment/clouds_03_dif.tif"/>
+ </Textures>
+</Material>

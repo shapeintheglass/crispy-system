@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524322" Shader="Sky" GenMask="0" StringGenMask="" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="16" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/user/sallen/apt_concreteslabdiff.dds" Filter="5">
+   <TexMod TileU="12" TileV="12" OffsetU="11"/>
+  </Texture>
+ </Textures>
+</Material>

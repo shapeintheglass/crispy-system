@@ -1,0 +1,6 @@
+<download name="spacemimic_cinematic" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="86299" md5="0eaf43250d83133915e32539f39d5896"/>
+ </files>
+</download>

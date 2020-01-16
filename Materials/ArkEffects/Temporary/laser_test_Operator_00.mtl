@@ -1,0 +1,29 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="UV_beam" MtlFlags="524418" Shader="ArkEmissive" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.5,0.5,0.5" Emittance="0.72305524,1,0.21223079,0" Opacity="1" Shininess="10" AlphaTest="0.050000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/ArkEffects/Temporary/LaserWiggle_02thin.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="-1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TileV="0.2" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="2.5"/>
+    </Texture>
+    <Texture Map="Emittance" File="Textures/ArkEffects/Temporary/LaserWiggle_02thin.tif"/>
+   </Textures>
+  </Material>
+  <Material Name="InnerCore_dif" MtlFlags="524418" Shader="ArkEmissive" GenMask="20000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.5,0.5,0.5" Emittance="1,0.03189604,0.03189604,0" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/ArkEffects/Temporary/LaserWiggle_02thin.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="3" TexMod_UOscillatorRate="10" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="0.2"/>
+    </Texture>
+   </Textures>
+   <PublicParams FlowTile="0.185" FlowSpeed="2.4400001"/>
+  </Material>
+  <Material Name="Core_dif" MtlFlags="524418" Shader="ArkEmissive" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.93868583,0.23455061,0.21952623" Specular="0.5,0.5,0.5" Emittance="0.8962695,0.21586053,0.048171829,30" Opacity="1" Shininess="10" AlphaTest="0.0099999998" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/arkeffects/characters/operators/laserbeam_red_00.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="3" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="-1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+  </Material>
+ </SubMaterials>
+ <PublicParams FlowTile="1" FlowSpeed="1"/>
+</Material>

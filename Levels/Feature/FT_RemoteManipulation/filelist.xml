@@ -1,0 +1,6 @@
+<download name="ft_remotemanipulation" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="99116" md5="b479247f2cec2c361575b0ab1ab578e6"/>
+ </files>
+</download>

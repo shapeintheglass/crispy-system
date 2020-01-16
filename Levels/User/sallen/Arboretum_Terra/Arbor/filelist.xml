@@ -1,0 +1,6 @@
+<download name="arbor" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="7206485" md5="a5477b1e9bab8bb9f0ef019c9c0a5c26"/>
+ </files>
+</download>

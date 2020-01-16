@@ -1,0 +1,6 @@
+<download name="wildsoundworld" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="3033503" md5="4a97d8ebc7d01ebf1ccc7a6178560603"/>
+ </files>
+</download>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524292" Shader="Illum" GenMask="20000000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,0.001214108,0.001214108" Shininess="10" Opacity="1" GlowAmount="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/baseglow_01.tif"/>
+  <Texture Map="Opacity" File="textures/arkeffects/glows/baseglow_01.tif"/>
+ </Textures>
+ <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

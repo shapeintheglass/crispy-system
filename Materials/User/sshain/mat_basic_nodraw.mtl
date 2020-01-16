@@ -1,0 +1,7 @@
+
+<Material MtlFlags="525312" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0,0,1" Specular="0,0,1" Emissive="0,0,1" Shininess="10" Opacity="1" GlowAmount="4" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/references/mid_gray.tif"/>
+  <Texture Map="Specular" File="textures/references/mid_gray.tif"/>
+ </Textures>
+</Material>

@@ -1,0 +1,6 @@
+<download name="ft_kineticblast" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="186028" md5="0190e16413c9a9cc55e3f1c8ccc96042"/>
+ </files>
+</download>

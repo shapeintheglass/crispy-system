@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="D04" StringGenMask="" SurfaceType="mat_Water" MatTemplate="" Diffuse="1,1,1" Shininess="255" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/liquid/liquid_drop_mask.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/liquid/liquid_drop_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.1"/>
+</Material>

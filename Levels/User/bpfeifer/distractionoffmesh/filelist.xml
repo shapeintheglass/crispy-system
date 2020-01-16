@@ -1,0 +1,6 @@
+<download name="distractionoffmesh" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2854160" md5="76bc8e1623e02091f83a9fc3653da87a"/>
+ </files>
+</download>

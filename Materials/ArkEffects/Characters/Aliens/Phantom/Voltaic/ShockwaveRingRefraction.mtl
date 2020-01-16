@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="800000000000004" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0,0,0,0" Opacity="1" AlphaTest="0.0099999998" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/distortionmaps/shockwavering_ddn.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/shockwavering_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.32800001"/>
+</Material>

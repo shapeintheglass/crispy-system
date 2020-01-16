@@ -1,0 +1,7 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" GenMask="1000000000802" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/user/rwilson/rw_crewpoddecor.tif" Map="Diffuse"/>
+ </Textures>
+ <PublicParams DecalAlphaMult="1" DecalDiffuseOpacity="1" DecalFalloff="1" EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

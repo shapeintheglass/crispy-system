@@ -1,0 +1,6 @@
+<download name="hwnight" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2028084" md5="1de0a563f4986c5728f4162ab6519244"/>
+ </files>
+</download>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="134742050" Shader="Illum" GenMask="20000080001" StringGenMask="%ALLOW_SILHOUETTE_POM%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.99110222,0.0033465358,0.0033465358" Specular="1,1,1" Emittance="1,1,1,360" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_gray.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/noise/concretemiscdebris_00.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

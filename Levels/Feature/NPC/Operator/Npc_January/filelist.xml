@@ -1,0 +1,6 @@
+<download name="npc_january" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2832595" md5="b8ecdc1a87d422826cad781ab918a33e"/>
+ </files>
+</download>

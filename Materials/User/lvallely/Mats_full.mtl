@@ -1,0 +1,149 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.10461649,0.10461649,0.10461649" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="ICU_Bed" Opacity="1" Shader="Illum" Shininess="153" Specular="0.1620294,0.1620294,0.1620294" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.54572457,0.54572457,0.54572457" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="InnerFloor" Opacity="1" Shader="Illum" Shininess="33" Specular="0.21952623,0.21952623,0.21952623" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.12477184,0.12477184,0.12477184" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="hosp_walls" Opacity="1" Shader="Illum" Shininess="11" Specular="0.072271854,0.072271854,0.072271854" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" GlowAmount="0.5" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Signage" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="objects/user/lvallely/trauma_test_research/trauma_singage_diff.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.21952623,0.21952623,0.21952623" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="WoodAccent" Opacity="1" Shader="Illum" Shininess="11" Specular="0.10461649,0.10461649,0.10461649" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.052860651,0.052860651,0.052860651" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="OuterFloor" Opacity="1" Shader="Illum" Shininess="117" Specular="0.14995982,0.14995982,0.14995982" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.39675525,0.55834049,0.93011099" Emissive="0.79910284,0.78353792,1" GenMask="400000000050010" LayerAct="1" MatTemplate="" MtlFlags="2623650" Name="screenpanel" Opacity="0.0099999998" Shader="ArkSimpleGlass" Shininess="207" Specular="0.00060705398,0.013702084,0.029556841" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+    <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0" TintColor="0.31398875,0.57758057,0.88792324"/>
+  </Material>
+  <Material Diffuse="0.044983,0.76470602,0.244545" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="collision" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+  </Material>
+  <Material Diffuse="0.068478175,0.068478175,0.068478175" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Ceiling" Opacity="1" Shader="Illum" Shininess="146" Specular="0.027320893,0.027320893,0.027320893" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.01228649,0.01228649,0.01228649" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="plastic" Opacity="1" Shader="Illum" Shininess="99" Specular="0.019382363,0.019382363,0.019382363" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.25415212,0.25415212,0.25415212" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="plafond" Opacity="1" Shader="Illum" Shininess="128" Specular="0.064803272,0.064803272,0.064803272" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.064803272,0.064803272,0.064803272" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="parquet" Opacity="1" Shader="Illum" Shininess="39" Specular="0.07618539,0.07618539,0.07618539" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Wood_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.60382748,0.73046088,0.95597351" Emissive="1,1,1" GenMask="400000000010090" LayerAct="1" MatTemplate="" MtlFlags="2623618" Name="optic" Opacity="0.2" Shader="Glass" Shininess="229" Specular="0.28314877,0.66538745,0.94730669" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+    <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BlurAmount="0.63499999" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="15.36" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.022" TintColor="0.39675525,0.72305524,0.95597351"/>
+  </Material>
+  <Material Diffuse="0.064803272,0.064803272,0.064803272" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="metal" Opacity="1" Shader="Illum" Shininess="113" Specular="0.040915202,0.040915202,0.040915202" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.96468639,0.81484669,0.41788509" Emissive="0.98225069,0.86315733,0.61049569" GenMask="20000000001" GlowAmount="13" LayerAct="1" MatTemplate="" MtlFlags="524448" Name="illu" Opacity="1" Shader="Illum" Shininess="73" Specular="0.97344542,0.8962695,0.55834049" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.35640016,0.35640016,0.35640016" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="gray" Opacity="1" Shader="Illum" Shininess="72" Specular="0.099898733,0.099898733,0.099898733" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.19806935,0.19806935,0.19806935" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="gold" Opacity="1" Shader="Illum" Shininess="202" Specular="0.12477184,0.12477184,0.12477184" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="8000000050010" LayerAct="1" MatTemplate="" MtlFlags="2623648" Name="glass" Opacity="0.22" Shader="ArkSimpleGlass" Shininess="255" Specular="0.45078582,0.66538745,0.87962252" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+    <Texture File="textures/cubemaps/vs_lobby/environmentprobe4_cm.tif" Map="Environment" TexType="3"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="0.38642946,0.38642946,0.38642946" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Base_Accent" Opacity="1" Shader="Illum" Shininess="40" Specular="0.049706571,0.049706571,0.049706571" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="C010000010010" LayerAct="1" MatTemplate="" MtlFlags="2623648" Name="DarkWood" Opacity="0.99000001" Shader="ArkSimpleGlass" Shininess="255" Specular="1,1,1" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%SPEC_MAP%TINT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable">
+   <Textures>
+    <Texture File="textures/generic/glass/interior_space_glass_diff.tif" Map="Diffuse"/>
+    <Texture File="textures/generic/glass/interior_space_glass_tint.tif" Map="Specular"/>
+    <Texture File="textures/generic/glass/interior_space_glass_ddn.tif" Map="Bumpmap"/>
+    <Texture File="textures/cubemaps/vs_lobby/environmentprobe4_cm.tif" Map="Environment" TexType="3"/>
+   </Textures>
+   <PublicParams BackLightScale="0" BumpMapTile="1" BumpScale="0.14300001" CloudinessReducesGloss="0.5" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="1" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="0.19806935,0.19806935,0.19806935" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="Base_Color" Opacity="1" Shader="Illum" Shininess="5" Specular="0.13286835,0.13286835,0.13286835" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.36625263,0.36625263,0.36625263" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="alu" Opacity="1" Shader="Illum" Shininess="75" Specular="0.046665091,0.046665091,0.046665091" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="black_Floor" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

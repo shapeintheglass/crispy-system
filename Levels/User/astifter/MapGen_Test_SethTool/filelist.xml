@@ -1,0 +1,6 @@
+<download name="mapgen_test_sethtool" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="176026" md5="585cb18267bccb70037963164ce4c1e7"/>
+ </files>
+</download>

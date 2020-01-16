@@ -1,0 +1,6 @@
+<download name="ai_door_occlusion" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="119115" md5="5807365d9811e4ef5a14c17ec7270cc2"/>
+ </files>
+</download>

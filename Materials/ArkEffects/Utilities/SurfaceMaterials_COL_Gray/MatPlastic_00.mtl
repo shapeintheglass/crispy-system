@@ -1,0 +1,6 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525312" Opacity="1" Shader="NoDraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Plastic_Thick_Small" vertModifType="0">
+ <Textures>
+  <Texture File="textures/arkeffects/utilities/matplastic.tif" Map="Diffuse"/>
+ </Textures>
+</Material>

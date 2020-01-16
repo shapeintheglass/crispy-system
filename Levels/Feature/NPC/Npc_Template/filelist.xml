@@ -1,0 +1,6 @@
+<download name="npc_template" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2838802" md5="0b7ac6ca35a08927fe6c8935301c4d3b"/>
+ </files>
+</download>

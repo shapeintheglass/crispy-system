@@ -1,0 +1,7 @@
+
+<Material CloakAmount="0" Diffuse="0.63877958,0.0060405941,0.63877958" Emissive="0.97430032,2.3328002e-005,2.3328002e-005" GenMask="0" GlowAmount="10" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="0.97000003" Shader="Illum" Shininess="179" Specular="0.77265185,0.28692314,0.67469591" StringGenMask="" SurfaceType="mat_Plastic_Thick_Medium">
+ <Textures>
+  <Texture File="textures/defaults/grey.tif" Map="Diffuse"/>
+ </Textures>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

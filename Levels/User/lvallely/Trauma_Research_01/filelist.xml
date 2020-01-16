@@ -1,0 +1,6 @@
+<download name="trauma_research_01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="48990" md5="89436fd226d2cd38b8f79517e215970b"/>
+ </files>
+</download>

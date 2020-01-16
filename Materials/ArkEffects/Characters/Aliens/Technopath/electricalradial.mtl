@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.18447502,0.18447502,0.18447502" Emittance="0.19461785,0.50288647,0.72305524,1500" Opacity="1" Shininess="10" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/electricalcorelp_dif.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/electricity/electricalcorelp_dif.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

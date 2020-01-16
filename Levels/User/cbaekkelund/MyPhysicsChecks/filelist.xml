@@ -1,0 +1,6 @@
+<download name="myphysicschecks" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="130375" md5="821717ad1029679f92be17c6fb68c726"/>
+ </files>
+</download>

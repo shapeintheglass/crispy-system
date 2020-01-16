@@ -1,0 +1,6 @@
+<download name="npc_solomedicaloperator" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839870" md5="59ebe0366655d30aa3d9cc12ab433d73"/>
+ </files>
+</download>

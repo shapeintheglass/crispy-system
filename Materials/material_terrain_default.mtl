@@ -1,0 +1,7 @@
+
+<Material Diffuse="1,1,1" GenMask="200000000" LayerAct="1" MatTemplate="" MtlFlags="524320" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0.0030352699,0.0030352699,0.0030352699" StringGenMask="%TEMP_TERRAIN" SurfaceType="mat_Concrete" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+ </Textures>
+ <PublicParams BlendFactor="0" BlendFalloff="1" DetailTextureStrength="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

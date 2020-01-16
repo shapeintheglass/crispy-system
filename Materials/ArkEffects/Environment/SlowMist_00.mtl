@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/mistslow_2x2.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/smoke/mistslow_flow.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.32600001" FlowSpeed="0.44999999"/>
+</Material>

@@ -1,0 +1,9 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="424" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/circleguide_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/dist_droplets_alpha_ddn_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.171" DeformAnimSpeed="0.72299999" GlobalIlluminationAmount="1" RefrBumpScale="0.050000001" DeformTile="0.30000001"/>
+</Material>

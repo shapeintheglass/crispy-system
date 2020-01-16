@@ -1,0 +1,6 @@
+<download name="sshain_npcvsproximitytrigger" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38513" md5="3a162fed11e075cb4401d55e7da7b2ab"/>
+ </files>
+</download>

@@ -1,0 +1,49 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.018500222,0.030713448,0.0085681258" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="ent_window_01_trim_01" Opacity="1" Shader="Illum" Shininess="30" Specular="0.038204376,0.038204376,0.038204376" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.018500222,0.030713448,0.0085681258" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="ent_window_01_trim_02" Opacity="1" Shader="Illum" Shininess="30" Specular="0.038204376,0.038204376,0.038204376" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.001214108,0.001214108,0.00091058103" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="ent_window_01_base" Opacity="1" Shader="Illum" Shininess="30" Specular="0.03189604,0.03189604,0.03189604" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.67244327,0.47353151,0.25415212" Emissive="0,0,0" GenMask="18000000050010" LayerAct="1" MatTemplate="" MtlFlags="2623650" Name="ent_window_01_glass" Opacity="1" Shader="ArkSimpleGlass" Shininess="255" Specular="0.20863689,0.10461649,0.020288564" StringGenMask="%BILINEAR_FP16%DIRT_MAP%ENVIRONMENT_MAP%TINT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+    <Texture File="objects/user/epetit/lobby/frostedglassnoise_01_ddn.tif" Map="Bumpmap"/>
+    <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+   </Textures>
+   <PublicParams BackLightScale="0.579" BumpMapTile="1" BumpScale="0.0099999998" CloudinessReducesGloss="0.5" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" SpecFromDiffAlphaBias="0" SpecFromDiffAlphaMult="1" TintCloudiness="1" TintColor="0.59061897,0.38642946,0.059511244"/>
+  </Material>
+  <Material Diffuse="0.29177067,0.43965721,1" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="ent_window_01_collision" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl6" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl7" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.65837497,0.65837497,0.65837497" Emissive="0,0,0" GenMask="40000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl8" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

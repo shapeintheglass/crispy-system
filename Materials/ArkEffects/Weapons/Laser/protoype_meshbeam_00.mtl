@@ -1,0 +1,6 @@
+
+<Material MtlFlags="524288" Shader="ArkEmissive" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="0.12743771,0.99110222,0.072271854,17" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+</Material>

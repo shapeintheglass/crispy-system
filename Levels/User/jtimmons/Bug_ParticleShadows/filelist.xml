@@ -1,0 +1,6 @@
+<download name="bug_particleshadows" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="60158" md5="eb96c2052cc0208104e1a76e65caee8c"/>
+ </files>
+</download>

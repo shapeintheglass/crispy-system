@@ -1,0 +1,6 @@
+<download name="test_aa_watervolume" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="54487" md5="256560784faa686b3a2964c64e894a2a"/>
+ </files>
+</download>

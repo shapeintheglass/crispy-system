@@ -1,0 +1,8 @@
+
+<Material Diffuse="0.04145189,0.038472746,0.41514811" Emissive="0,0,0" GenMask="824" LayerAct="1" MatTemplate="" MtlFlags="526336" Opacity="0.55000001" Shader="Water" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Concrete">
+ <Textures>
+  <Texture File="textures/defaults/grey.tif" Map="Diffuse"/>
+  <Texture File="textures/cubemaps/simulationlabs/environmentprobe5_cm.tif" Map="Environment"/>
+ </Textures>
+ <PublicParams DetailNormalsScale="0.5" DetailTilling="2.5" FresnelGloss="0.89999998" GradientScale="0.1" HeightScale="0.2" NormalsScale="1.25" RainTilling="0" ReflectionBumpScale="0.1" ReflectionScale="1" RefractionBumpScale="0.1" RipplesNormalsScale="0.36700001" SoftIntersectionFactor="1" SubSurfaceScatteringScale="3.3299999" Tilling="47.5"/>
+</Material>

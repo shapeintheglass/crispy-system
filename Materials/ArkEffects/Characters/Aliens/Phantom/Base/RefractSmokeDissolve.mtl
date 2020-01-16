@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="404" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/ink_light_smoke_soft_gray_00_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/smoke/ink_smoke_soft_01_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" RefrBumpScale="0.050000001"/>
+</Material>

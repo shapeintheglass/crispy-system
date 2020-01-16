@@ -1,0 +1,8 @@
+
+<Material Diffuse="0.13843164,0.13843164,0.13843164" Emissive="0,0,0" GenMask="800800000020" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="73" Specular="0.072271854,0.072271854,0.072271854" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Rubber" vertModifType="0">
+ <Textures>
+  <Texture File="textures/defaults/grey.tif" Map="Diffuse"/>
+  <Texture File="materials/references/surface_types/rubber_ddn.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

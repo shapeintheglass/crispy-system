@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="80080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.48195225,0.48195225,0.48195225" Specular="0.38891026,0.38891026,0.57954663" Emissive="0,0,0" Shininess="220" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/user/nbrock/teeth/teeth&amp;tongue_diff.tif"/>
+  <Texture Map="Specular" File="textures/user/nbrock/teeth/teeth&amp;tongue_spec.tif"/>
+  <Texture Map="Bumpmap" File="textures/user/nbrock/teeth/teeth&amp;tongue_ddn.tif"/>
+ </Textures>
+ <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

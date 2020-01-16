@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/smoke_black_whispy_4tile.tif"/>
+  <Texture Map="Custom" File="textures/ArkEffects/DistortionMaps/TileNoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.046999998" DeformAnimSpeed="0.32600001" GlobalIlluminationAmount="1" DeformTile="0.27399999"/>
+</Material>

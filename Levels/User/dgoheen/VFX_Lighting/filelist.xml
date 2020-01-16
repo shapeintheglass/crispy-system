@@ -1,0 +1,6 @@
+<download name="VFX_Lighting" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="3061308" md5="46bfa4615f58dad0cae7a1b62bf36143"/>
+ </files>
+</download>

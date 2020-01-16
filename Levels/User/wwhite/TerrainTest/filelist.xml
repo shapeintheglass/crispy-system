@@ -1,0 +1,6 @@
+<download name="terraintest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="46428064" md5="8ee38178f5d400d23f8475fa73dd58e1"/>
+ </files>
+</download>

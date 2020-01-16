@@ -1,0 +1,6 @@
+<download name="psi_lab" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="36834" md5="dda8c3985446e1178b7a8382c4aeceaa"/>
+ </files>
+</download>

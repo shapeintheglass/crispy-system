@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="404" StringGenMask="" SurfaceType="mat_Water" MatTemplate="" Diffuse="0.63075727,0.83077002,0.95597351" Specular="0.035601322,0.03954624,0.068478175" Emittance="1,1,1,0.25" Opacity="0.079999998" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/solidglow_alpha_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/environment/waterdrops_00_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="23.85" RefrBumpScale="0.1"/>
+</Material>

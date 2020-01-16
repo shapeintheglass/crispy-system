@@ -1,0 +1,6 @@
+<download name="collisiontest2" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="11197847" md5="a63926a8c3bb1fb94c7df041206130fd"/>
+ </files>
+</download>

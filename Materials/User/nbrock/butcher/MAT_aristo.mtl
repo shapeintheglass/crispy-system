@@ -1,0 +1,14 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="MAT_aristo_skin" MtlFlags="524416" Shader="Humanskin" GenMask="1010480200" StringGenMask="%BUMP_MAP%GLOSS_MAP%INNER_LAYER_DIFFUSE_SSS%PHONG_TESSELLATION%TEMP_SKIN" SurfaceType="" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.43134022,0.43134022,0.56049919" Emissive="0,0,0" Shininess="200" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/User/nbrock/butcher/aristonativehead_diff.tif"/>
+    <Texture Map="Specular" File="textures/user/nbrock/butcher/aristonativehead_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/user/nbrock/butcher/aristonativehead_ddn.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" ScatterRadius="1.5" Melanin="0" FresnelScale="4" RimStrength="1" FresnelBias="0.25" SecondarySpecGloss="100" TessellationFactorMax="32" InnerLayerDiffuseSSS="1" SecondarySpecStrength="2" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="containerprefabs" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="34908" md5="7ac7ab00ff29adc6eb520cf131fe9261"/>
+ </files>
+</download>

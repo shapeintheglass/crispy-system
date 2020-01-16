@@ -1,0 +1,7 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,0.55201149,0.001517635" Specular="0.3185468,0.3185468,0.3185468" Emissive="0,0,0" Shininess="220" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/canyon_rock_terrain_diff.dds"/>
+ </Textures>
+ <PublicParams SoftParticlesScale="1" GlobalIlluminationAmount="1"/>
+</Material>

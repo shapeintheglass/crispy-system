@@ -1,0 +1,6 @@
+<download name="exterior_scale_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="131099" md5="b7e12764b870b502b74f222480d933f8"/>
+ </files>
+</download>

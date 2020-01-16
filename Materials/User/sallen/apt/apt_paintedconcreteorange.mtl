@@ -1,0 +1,8 @@
+
+<Material CloakAmount="0" Diffuse="0.098689198,0.044552624,0.019917838" Emissive="0,0,0" GenMask="80001" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="233" Specular="0.00051054626,0.00014009918,4.5537407e-005" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_Concrete">
+ <Textures>
+  <Texture File="textures/user/sallen/apt_concreteslabdiff.dds" Map="Diffuse"/>
+  <Texture File="textures/defaults/perlinnoise2d.dds" Map="Specular"/>
+ </Textures>
+ <PublicParams FresnelBias="1" FresnelScale="18.110001" GlossMapChannelB="0" IndirectColor="0.24680044,0.24680044,0.24680044" SpecMapChannelB="0" SpecMapChannelG="0" SpecMapChannelR="0"/>
+</Material>

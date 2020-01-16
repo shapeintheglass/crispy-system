@@ -1,0 +1,6 @@
+<download name="spacegridlinktest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2975469" md5="2e09261ecce6794e25f27112ca13db37"/>
+ </files>
+</download>

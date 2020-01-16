@@ -1,0 +1,6 @@
+<download name="ju_spawntest01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2842384" md5="06ecca75f0427403485a0f57452dea4e"/>
+ </files>
+</download>

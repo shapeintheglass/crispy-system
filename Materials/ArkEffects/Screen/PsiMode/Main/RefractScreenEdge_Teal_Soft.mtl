@@ -1,0 +1,11 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="C84" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.38642946,0.87136728,0.77582234" Specular="0.0024282159,0.21586053,0.17464744" Emittance="0.0091340598,0.24620135,0.17788844,0" Opacity="0.75" Shininess="10" AlphaTest="0.0099999998" CloakAmount="0" Timer="2" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/masks/radialgradientinverted.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoisesharp_01_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="10" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TileV="4" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/distcircularnoiseout_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="0.0099999998" RefrBumpScale="0.050000001" FlowTile="0.15000001" FlowSpeed="5"/>
+</Material>

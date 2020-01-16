@@ -1,0 +1,6 @@
+<download name="ft_gravshaft_arklight" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="74882" md5="ab92ea5ce9bc2e382b35340834773a60"/>
+ </files>
+</download>

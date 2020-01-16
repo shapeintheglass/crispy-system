@@ -1,0 +1,11 @@
+
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="802800000020" LayerAct="1" MatTemplate="" MtlFlags="524320" Opacity="1" Shader="Illum" Shininess="10" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_Water" vertModifType="1">
+ <Textures>
+  <Texture File="objects/natural/woodland/river_foam_diff.tif" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorRate="0.050000001" TexMod_UOscillatorType="2" TexMod_bTexGenProjected="0"/>
+  </Texture>
+  <Texture File="textures/generic/water/river_foam_var3_ddn.dds" Map="Bumpmap"/>
+ </Textures>
+ <VertexDeform DividerX="1" DividerY="0.0099999998" NoiseScale="1,1,1" Type="1"/>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

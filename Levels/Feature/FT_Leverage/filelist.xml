@@ -1,0 +1,6 @@
+<download name="ft_leverage" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="90837" md5="89f42186030bf9887161b169cd9d87d7"/>
+ </files>
+</download>

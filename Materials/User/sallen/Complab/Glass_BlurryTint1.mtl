@@ -1,0 +1,7 @@
+
+<Material CloakAmount="0" Diffuse="0.13843164,0.13843164,0.13843164" Emissive="0,0,0" GenMask="10090" LayerAct="1" MatTemplate="" MtlFlags="526370" Opacity="1" Shader="Glass" Shininess="255" Specular="0.32777813,0.32777813,0.32777813" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%ENVIRONMENT_MAP" SurfaceType="mat_Metal_Thin_Medium">
+ <Textures>
+  <Texture File="textures/cubemaps/simulationlabs/environmentprobe2_cm.tif" Map="Environment"/>
+ </Textures>
+ <PublicParams BackLightScale="0" BlurAmount="0.1" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+</Material>

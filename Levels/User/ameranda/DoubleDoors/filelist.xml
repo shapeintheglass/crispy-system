@@ -1,0 +1,6 @@
+<download name="doubledoors" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="109738" md5="0d4f77a6e14493bb9c8d154bfa0cba66"/>
+ </files>
+</download>

@@ -1,0 +1,11 @@
+
+<Material MtlFlags="134744096" Shader="Particles" GenMask="1080" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="1,1,1,250" Opacity="1" Shininess="100" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/Exp_Shockwave_Gray_00.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+  </Texture>
+  <Texture Map="Detail" File="textures/arkeffects/glows/LightningRound_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/RadialBulgeConvexCenter_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.228" FlowSpeed="5.04"/>
+</Material>

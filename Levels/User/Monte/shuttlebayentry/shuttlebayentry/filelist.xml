@@ -1,0 +1,6 @@
+<download name="shuttlebayentry" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38394" md5="4d1348e02b8d596ca8e478266abe1597"/>
+ </files>
+</download>

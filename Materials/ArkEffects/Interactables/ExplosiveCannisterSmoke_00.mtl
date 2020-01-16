@@ -1,0 +1,9 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="520" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.27049783,0.27049783,0.27049783" Specular="0.038204376,0.027320893,0.018500222" Emittance="0.11953845,0.11953845,0.11953845,0" Opacity="1" Shininess="9" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/ink_light_smoke_soft_gray_00_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/smoke/ink_smoke_soft_01_ddn.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.046999998" DeformAnimSpeed="0.40000001" GlobalIlluminationAmount="1" DeformTile="0.398"/>
+</Material>

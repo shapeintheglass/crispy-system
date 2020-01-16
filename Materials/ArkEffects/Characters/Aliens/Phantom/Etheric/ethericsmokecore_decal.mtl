@@ -1,0 +1,8 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="400" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.21586053,0.1470273,0.3467041" Specular="0.37626216,0.37626216,0.37626216" Emittance="0.43965721,0.3712377,0.52711523,10" Opacity="1" Shininess="200" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/characters/aliens/shared/aliendissolve_a_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/dissolvepuff_a_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

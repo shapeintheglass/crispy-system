@@ -1,0 +1,34 @@
+<Graph isModule="1" moduleName="GetTime" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <ModuleInputsOutputs>
+  <Port Name="Hour" Type="2" Input="0"/>
+  <Port Name="Minute" Type="2" Input="0"/>
+  <Port Name="Second" Type="2" Input="0"/>
+ </ModuleInputsOutputs>
+ <Nodes>
+  <Node Id="1" Class="Module:Start_GetTime" pos="-60,10,0" flags="0"/>
+  <Node Id="2" Class="Module:End_GetTime" pos="890,-10,0" flags="0">
+   <Inputs Hour="0" Minute="0" Second="0"/>
+  </Node>
+  <Node Id="3" Class="Time:TimeOfDay" pos="340,-40,0" flags="0">
+   <Inputs Time="0" ForceUpdate="0" Speed="1"/>
+  </Node>
+  <Node Id="73" Class="Logic:Any" pos="180,-10,0" flags="0" InHideMask="1023" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="74" Class="Module:Call_DecimalToSeconds" pos="610,-30,0" flags="1">
+   <Inputs Instanced="1" InstanceID="-1" DecimalTime="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="73" nodeOut="1" portIn="in1" portOut="Start" enabled="1"/>
+  <Edge nodeIn="73" nodeOut="1" portIn="in2" portOut="Update" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="3" portIn="Call" portOut="CurTime" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="3" portIn="DecimalTime" portOut="CurTime" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="73" portIn="Get" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="74" portIn="Hour" portOut="Hours" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="74" portIn="Minute" portOut="Minutes" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="74" portIn="Second" portOut="Seconds" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="74" portIn="Success" portOut="Seconds" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

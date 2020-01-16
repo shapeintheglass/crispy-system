@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Flesh_Mimic" MatTemplate="" Diffuse="0.50888133,0.50888133,0.50888133" Specular="0.50888133,0.50888133,0.50888133" Opacity="0.5" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/animatedrgb/rgb##00_02count(0.5).tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

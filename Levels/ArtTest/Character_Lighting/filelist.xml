@@ -1,0 +1,6 @@
+<download name="character_lighting" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38448" md5="01a96b101afbba146d5b932eedc78e1e"/>
+ </files>
+</download>

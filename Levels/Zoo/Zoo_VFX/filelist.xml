@@ -1,0 +1,6 @@
+<download name="zoo_vfx" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2957359" md5="5cc8e9a0d1ba9aef6dfa14cceb0b6cec"/>
+ </files>
+</download>

@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.55201149,0.45078582,0.33245155" Emittance="0.96468639,0.84687334,0.57112497,30" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/flameslarge_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/fire/explosion_test_glow_01.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.011" DeformAnimSpeed="1" GlobalIlluminationAmount="1" DeformTile="0.2"/>
+</Material>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524326" Shader="ArkParticlesGeo" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.068478175,0.068478175,0.068478175" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="6" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/tiledfire_00.tif">
+   <TexMod TileU="2" TexMod_RotateType="1" TexMod_WRotateRate="27.998657" TexMod_WRotatePhase="23.598633" TexMod_WRotateAmplitude="27.399902" TexMod_URotateCenter="16.9" TexMod_VRotateCenter="4.0999999"/>
+  </Texture>
+ </Textures>
+</Material>

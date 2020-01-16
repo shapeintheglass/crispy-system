@@ -1,0 +1,14 @@
+
+<Material MtlFlags="526370" Shader="ArkSimpleGlass" GenMask="4010000040010" StringGenMask="%BILINEAR_FP16%DIRT_MAP%SPEC_MAP%TINT_MAP" SurfaceType="" MatTemplate="" Diffuse="0.29177067,0.36130682,0.66538745" Specular="0.1559265,0.12743771,0.58407855" Emissive="1,1,1" Shininess="245" Opacity="1" CloakAmount="0" vertModifType="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/utilities/solid_gray.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif">
+   <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="0.5"/>
+  </Texture>
+ </Textures>
+ <VertexDeform Type="1" DividerX="0" DividerY="0" DividerZ="0" DividerW="0" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.001" Level="0" Phase="1" Freq="5"/>
+ </VertexDeform>
+ <PublicParams BumpMapTile="5.8499999" TintColor="0.0021246891,0.017641956,0.074213572" FresnelScale="0" FresnelBias="1" CloudinessReducesGloss="0" TintCloudiness="0.021" BackLightScale="1" BumpScale="0.93300003" IndirectColor="0.0080231931,0.0018211621,0.20155628"/>
+</Material>

@@ -1,0 +1,7 @@
+
+<Material CloakAmount="0" Diffuse="0.016988052,0.016988052,0.016988052" Emissive="0,0,0" GenMask="20000000000" LayerAct="1" MatTemplate="" MtlFlags="34078720" Opacity="1" Shader="Illum" Shininess="151" Specular="3,3,3" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium">
+ <Textures>
+  <Texture File="textures/arkeffects/utilities/solid_white.tif" Map="Diffuse"/>
+ </Textures>
+ <PublicParams IndirectColor="0.24279638,0.24279638,0.24279638" SSSIndex="0"/>
+</Material>

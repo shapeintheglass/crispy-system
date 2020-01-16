@@ -1,0 +1,6 @@
+<download name="sshain_767_spawnerplayspickupsfx" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37347" md5="67367427d2e7ec54f9b5977627b96e32"/>
+ </files>
+</download>

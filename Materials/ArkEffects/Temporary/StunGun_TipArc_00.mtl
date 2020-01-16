@@ -1,0 +1,9 @@
+
+<Material MtlFlags="134744068" Shader="Particles" GenMask="1080" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="0.11443538,0.42326769,0.97344542,1000" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/stungun_tiparc_02.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/utilities/solid_white.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/electricity/stungun_tiparcflowmap_01.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="1" FlowSpeed="10.67"/>
+</Material>

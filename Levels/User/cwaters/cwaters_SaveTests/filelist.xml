@@ -1,0 +1,6 @@
+<download name="cwaters_savetests" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="65980" md5="59c87ce6857b8ae836bcf05fdf0bff5a"/>
+ </files>
+</download>

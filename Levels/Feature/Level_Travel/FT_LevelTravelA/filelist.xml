@@ -1,0 +1,6 @@
+<download name="ft_leveltravela" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="136783" md5="a685c1c97e99a84ea6a4e3d1223b325a"/>
+ </files>
+</download>

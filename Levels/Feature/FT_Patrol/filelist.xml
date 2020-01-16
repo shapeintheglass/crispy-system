@@ -1,0 +1,6 @@
+<download name="FT_Patrol" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="87930" md5="e73a3d83c1f816b81e7453299df2f444"/>
+ </files>
+</download>

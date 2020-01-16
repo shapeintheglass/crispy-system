@@ -1,0 +1,10 @@
+
+<Material Diffuse="0.20507877,0.2269659,0.19806935" Emissive="0,0,0" GenMask="800800000000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="0.23455061,0.23455061,0.23455061" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Rubber" vertModifType="0">
+ <Textures>
+  <Texture File="objects/pbs_reference/dark_leather_diff.tif" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+  </Texture>
+  <Texture File="objects/pbs_reference/leather_ddna.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

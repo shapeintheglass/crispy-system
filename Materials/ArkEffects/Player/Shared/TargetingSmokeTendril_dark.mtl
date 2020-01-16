@@ -1,0 +1,8 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" Timer="2" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/exp_shockwave_gray_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/smoke/smokeradialinward_flow.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="1.184" FlowSpeed="2.1600001"/>
+</Material>

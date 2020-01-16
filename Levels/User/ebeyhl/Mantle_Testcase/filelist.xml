@@ -1,0 +1,6 @@
+<download name="mantle_testcase" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="32211" md5="c0cb75bfd787f43b07af21e43ae2c44a"/>
+ </files>
+</download>

@@ -1,0 +1,7 @@
+
+<Material AlphaTest="0.55000001" Diffuse="1,1,1" GenMask="2000000000802" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="0.86000001" Shader="Illum" Shininess="212" Specular="0.0085681258,0.0085681258,0.0085681258" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="textures/user/sallen/lifesupport/control_room_text.tif" Map="Diffuse"/>
+ </Textures>
+ <PublicParams DecalAlphaMult="1" DecalDiffuseOpacity="1" DecalFalloff="1" EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

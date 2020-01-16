@@ -1,0 +1,9 @@
+
+<Material MtlFlags="134744068" Shader="Monitor" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.3185468,0.51491767,0.42869052" Specular="0.40197781,0.40197781,0.40197781" Emittance="1,1,1,1" Opacity="1" Shininess="212" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/ArkEffects/Screen/Glitch_##01_05(0.05).tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="3" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="0.85000002" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorType="3" TexMod_VOscillatorRate="5" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams GrainAmount="6.0149999" DeformAmount="0.13" DeformTillingY="0" EmittanceMapGamma="1" GrainTilling="8.6499996" BendScale="0.2" RandomSalt="0" ChromaGlitchWidth="0.1" ResolutionX="8" ResolutionY="8" InterlacingTilling="2.73" GlitchEnabled="0" Contrast="1.21" Saturation="0.73000002" DeformTillingX="0" GrainSaturation="0.34799999" FresnelScale="0" InterlacingAmount="0.037" VSyncFreq="3.3800001" PixelVisibility="0" FresnelBias="0" BlockGlitchReduction="1" ChromaGlitchSpeed="30" ChromaShift="0.2" BlockGlitchSpeed="24" ViewAngle="140.7" DeformFreq="0" BlockSize="32"/>
+</Material>

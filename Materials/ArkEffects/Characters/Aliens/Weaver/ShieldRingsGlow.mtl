@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524292" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.85499275,0.051269464,0.018500222" Specular="0,0,0" Emittance="0.85499275,0.11193243,0.099898733,0" Opacity="1" Shininess="100" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/lightninground_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/smoke/smoke_black_soft_whispy_4tile_fm_02.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="2" FlowSpeed="5"/>
+</Material>

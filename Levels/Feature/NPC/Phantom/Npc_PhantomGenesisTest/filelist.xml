@@ -1,0 +1,6 @@
+<download name="npc_phantomgenesistest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2834194" md5="5d3cc5c9b95cc7f7f0b855a00f88ff8f"/>
+ </files>
+</download>

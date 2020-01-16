@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20000000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.32314324,0.078187428,0.006512091" Specular="0.11193243,0.029556841,0.0033465358" Emissive="0,0,0" Opacity="0.89999998" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/user/jmagill/cargo_bay/decal_number_09.tif" IsTileU="0" IsTileV="0"/>
+ </Textures>
+ <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

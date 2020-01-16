@@ -1,0 +1,6 @@
+<download name="trenchtests" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="201853" md5="0d92bc3cbf6a4b79db4ca68673bf3c12"/>
+ </files>
+</download>

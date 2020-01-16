@@ -1,0 +1,6 @@
+<download name="npc_thermalandmimics" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="56543" md5="f376926bb3dac1a5dd825224e0443082"/>
+ </files>
+</download>

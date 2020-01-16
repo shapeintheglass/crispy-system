@@ -1,0 +1,6 @@
+<download name="leveragepushbug" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="79822" md5="9b24bf81b7c9330c28ba74c272895fa2"/>
+ </files>
+</download>

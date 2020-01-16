@@ -1,0 +1,10 @@
+
+<Material Diffuse="0.072271854,0.11953845,0.0097212186" Emissive="0,0,0" GenMask="800000000000" LayerAct="1" MatTemplate="" MtlFlags="524290" Opacity="1" Shader="Illum" Shininess="255" Specular="0.13286835,0.23074007,0.056128494" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="1">
+ <Textures>
+  <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+ </Textures>
+ <VertexDeform DividerX="11" DividerY="0.0099999998" NoiseScale="1,1,1" Type="1">
+  <WaveX Amp="1" Freq="1" Level="0.1" Phase="0" Type="1"/>
+ </VertexDeform>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

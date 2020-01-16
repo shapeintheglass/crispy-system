@@ -1,0 +1,6 @@
+<download name="npc_telepathandmore" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="57420" md5="5c582db247fc7125fd886464ebf4643e"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="wallpanelzoo" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="46853" md5="c5aa7bd4fb5a17d7da26608c0d019c75"/>
+ </files>
+</download>

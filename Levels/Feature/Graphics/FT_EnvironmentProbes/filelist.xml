@@ -1,0 +1,6 @@
+<download name="ft_environmentprobes" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="76486" md5="49ca0459f06f9951bb421a7ed6809f8c"/>
+ </files>
+</download>

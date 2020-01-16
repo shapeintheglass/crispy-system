@@ -1,0 +1,15 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.198199,0.16,0.5" Emissive="0,0,0" GenMask="400000000010050" LayerAct="1" MatTemplate="" MtlFlags="526496" Name="Vig_PhysGlassMat" Opacity="1" Shader="Glass" Shininess="26" Specular="0.5,0.5,0.5" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/cubemaps/apex_vig/environmentprobe1_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BlurAmount="0.178" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="0.51800001,0,0" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="meshProxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

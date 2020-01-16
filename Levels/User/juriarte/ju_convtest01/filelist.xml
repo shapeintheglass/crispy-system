@@ -1,0 +1,6 @@
+<download name="ju_convtest01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="266546" md5="20eb284111b7b3bdb86482365396b349"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="npc_phantomdistracttest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2834055" md5="0cc754c69b8b37c3dbd9b02022b470a3"/>
+ </files>
+</download>

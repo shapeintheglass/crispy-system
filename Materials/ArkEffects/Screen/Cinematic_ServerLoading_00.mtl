@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="1000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.33716366,0.77582234,0.95597351" Specular="0,0,0" Emittance="1,1,1,360" Opacity="1" Shininess="10" AlphaTest="0.039999999" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/screen/laodingtext_00.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/utilities/solid_gray.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

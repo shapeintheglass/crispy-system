@@ -1,0 +1,6 @@
+<download name="heliride_main" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="176762" md5="064f32ff862624bd2a7e5ac3ee4b50e9"/>
+ </files>
+</download>

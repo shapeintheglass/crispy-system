@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="80000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.81484669,0.81484669,0.81484669" Specular="0.46778381,0.27889431,0" Emissive="0,0,0" Opacity="1" GlowAmount="0.30000001" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/gradients/gradientcenter.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

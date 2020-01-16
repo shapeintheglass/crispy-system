@@ -1,0 +1,11 @@
+
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="800802000020" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="0.03189604,0.03189604,0.03189604" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%OFFSET_BUMP_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_Dirt" vertModifType="0">
+ <Textures>
+  <Texture File="textures/terrain/detail/beach_sand_b_diff.tif" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="12" TileV="12"/>
+  </Texture>
+  <Texture File="textures/terrain/detail/beach_sand_b_ddna.tif" Map="Bumpmap"/>
+  <Texture File="textures/terrain/detail/beach_sand_b_displ.tif" Map="Heightmap"/>
+ </Textures>
+ <PublicParams HeightBias="1" IndirectColor="0.25,0.25,0.25" ObmDisplacement="0.0040000002" SSSIndex="0" SelfShadowStrength="3"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="helicopter" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="36179" md5="e38f3fae2bbb51d93db7ce9db031af4e"/>
+ </files>
+</download>

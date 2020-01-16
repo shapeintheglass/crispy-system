@@ -1,0 +1,6 @@
+<download name="sshain_archetypes" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="33902" md5="8950ca1f57ee2aaefb7ca1341c4caa9a"/>
+ </files>
+</download>

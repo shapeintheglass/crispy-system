@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="802000000000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="0.029556841,0.048171829,0.084376216" Specular="0.6795426,0.70837593,0.86315733" Opacity="1" Shininess="212" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+  <Texture Map="Bumpmap" File="textures/user/sallen/material_templates/pantone/10/pantone_cool_10_gloss_100.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

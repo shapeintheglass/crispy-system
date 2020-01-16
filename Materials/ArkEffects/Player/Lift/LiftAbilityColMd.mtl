@@ -1,0 +1,15 @@
+
+<Material MtlFlags="524326" Shader="ArkParticlesGeo" GenMask="180001" StringGenMask="%ALLOW_SILHOUETTE_POM%EMITTANCE_MAP%EMITTANCE_MAP_MASK" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="0.55834049,0.74540436,0.93011099,100" Opacity="0.40000001" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/Player/LiftAbility/lift_col_md.tif">
+   <TexMod TexMod_RotateType="1" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+  </Texture>
+  <Texture Map="Decal" File="textures/arkeffects/Player/LiftAbility/lift_lower_ring_color.tif">
+   <TexMod TexMod_RotateType="1" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TexMod_UOscillatorRate="2" TexMod_UOscillatorPhase="2" TexMod_UOscillatorAmplitude="2" TileV="3" TexMod_VOscillatorRate="2" TexMod_VOscillatorPhase="2" TexMod_VOscillatorAmplitude="2" TexMod_WRotateRate="90" TexMod_WRotatePhase="90" TexMod_WRotateAmplitude="90"/>
+  </Texture>
+  <Texture Map="Emittance" File="textures/arkeffects/Player/LiftAbility/lift_lower_ring_color.tif">
+   <TexMod TexMod_RotateType="1" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.64999998" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_WRotateRate="90" TexMod_WRotatePhase="90" TexMod_WRotateAmplitude="90"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1"/>
+</Material>

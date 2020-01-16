@@ -1,0 +1,11 @@
+
+<Material MtlFlags="524322" Shader="Illum" GenMask="2000000400002" StringGenMask="%ALLOW_SILHOUETTE_POM%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,0.57758057,0" Specular="0,0,0" Emittance="1,1,1,16000" Opacity="0.050000001" vertModifType="4" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+ <VertexDeform Type="4" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.001" Level="0.001" Phase="0" Freq="25"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

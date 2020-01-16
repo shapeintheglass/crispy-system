@@ -1,0 +1,11 @@
+
+<Material MtlFlags="134744096" Shader="Particles" GenMask="1080" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="1,1,1,500" Opacity="1" Shininess="100" AlphaTest="0.0099999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/fire/FlameRoundTop_Gray_8x8_dif.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+  </Texture>
+  <Texture Map="Detail" File="textures/arkeffects/glows/LightningRound_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/WarpNormals_01_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.046999998" FlowSpeed="14.88"/>
+</Material>

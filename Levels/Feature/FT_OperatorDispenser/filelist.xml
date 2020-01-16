@@ -1,0 +1,6 @@
+<download name="ft_operatordispenser" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="86242" md5="dc5c239a9d61783be30eb05b388e6a47"/>
+ </files>
+</download>

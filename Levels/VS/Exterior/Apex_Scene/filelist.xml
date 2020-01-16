@@ -1,0 +1,6 @@
+<download name="apex_scene" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="89738" md5="9e80761ee8082ef02958cb2963282f38"/>
+ </files>
+</download>

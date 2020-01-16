@@ -1,0 +1,6 @@
+<download name="ai_callandignitemimics" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="61840" md5="9484e2221c63f72ab741be07655b4305"/>
+ </files>
+</download>

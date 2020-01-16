@@ -1,0 +1,11 @@
+
+<Material MtlFlags="524288" Shader="ArkEmissive" GenMask="20001" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="1,1,1,10" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/uv.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="1" TexMod_UOscillatorAmplitude="1"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/distcircularnoiseout_ddn.tif"/>
+  <Texture Map="Emittance" File="objects/environment/architecture/simulation/transtar_sim_office_a/transtar_sim_office_a_glass_logo_emi.tif"/>
+ </Textures>
+ <PublicParams FlowTile="1" FlowSpeed="1"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="bridgeshot" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="655882" md5="85d9ca8e50de0a0d4b58e3fb35a26410"/>
+ </files>
+</download>

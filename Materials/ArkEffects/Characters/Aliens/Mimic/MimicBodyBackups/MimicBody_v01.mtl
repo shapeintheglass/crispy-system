@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="ArkAlienRefract" GenMask="C0" StringGenMask="" SurfaceType="mat_flesh_beta" MatTemplate="" Diffuse="0,0,0" Specular="0.25415212,0.25415212,0.25415212" Emissive="0,0,0" Opacity="1" Shininess="175" AlphaTest="0.039999999" CloakAmount="0" vertModifType="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_gray.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TexMod_UOscillatorType="5" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorAmplitude="0.0070000002" TileV="2" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="-1" TexMod_VOscillatorAmplitude="0.001" TexMod_WRotateRate="0.49987793" TexMod_WRotateAmplitude="0.02746582"/>
+  </Texture>
+ </Textures>
+ <VertexDeform Type="1" DividerX="0.40000001" DividerY="0.0099999998" NoiseScale="1,1,1"/>
+ <PublicParams ENFrequency="4.5" EdgeRadius="2" EdgeChoke="0" MNOffset="0" StarDesaturate="0" ENLevels="3" ENScale="0.60000002" LumRadius="0.5" BlurSpeed="0" FNScale="1" MNScale="1" FNOffset="0" RimYaw="0.79100001" MNSpeed="1" FNSpeed="1" StarBrightness="0.029999999" BlurRatio="0" StarOffset="0.51700002" FNFrequency="1.5" BlurMin="0.02" MNFrequency="1.5" ENSpeed="0.02" FNLevels="1" LumSensitivity="0" MNLevels="5" BlurSize="0" FNColor="1,1,1" RimPitch="0.30399999" ENOffset="1" IndirectColor="1,1,1"/>
+</Material>

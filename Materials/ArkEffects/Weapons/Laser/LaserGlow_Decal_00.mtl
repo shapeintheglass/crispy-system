@@ -1,0 +1,6 @@
+
+<Material MtlFlags="524292" Shader="ArkEmissive" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.99110222,0.55201149,0.23074007" Specular="0,0,0" Emissive="0.40724024,0.02842604,0.00060705398" Opacity="1" GlowAmount="2" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/baseglow_01.tif"/>
+ </Textures>
+</Material>

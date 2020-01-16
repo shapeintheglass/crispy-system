@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Waterfall" GenMask="6" StringGenMask="" SurfaceType="" MatTemplate="" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/ArkEffects/Smoke/SmokeTrail_Black_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/ArkEffects/DistortionMaps/TileNoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams SunMultiplier="0" TillingLayer0="0.22" SpeedLayer0="5" SpeedLayer1="8" TillingLayer1="1" FoamMultiplier="0" FresnelBias="0.97799999" RefractionBumpScale="0" ReflectionAmount="0" BumpScaleLayer1="1.5" FoamDeform="0.21699999" AlphaBlendMul="3.1099999" BumpScaleLayer0="2"/>
+</Material>

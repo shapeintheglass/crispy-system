@@ -1,0 +1,26 @@
+<Graph isModule="1" moduleName="ScheduleEvent" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <ModuleInputsOutputs>
+  <Port Name="Day" Type="1" Input="1"/>
+  <Port Name="DecimalHours" Type="2" Input="1"/>
+ </ModuleInputsOutputs>
+ <Nodes>
+  <Node Id="1" Class="Module:Start_ScheduleEvent" pos="80,10,0" flags="0"/>
+  <Node Id="2" Class="Module:End_ScheduleEvent" pos="1100,0,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="6" Class="Mission:GameTokenCheck" pos="610,80,0" flags="0">
+   <Inputs gametoken_Token="sshain_Test.ScheduleSystem.Day" CheckValue=""/>
+  </Node>
+  <Node Id="8" Class="Time:TimeOfDayTrigger" pos="390,20,0" flags="0">
+   <Inputs Active="1" Time="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="6" nodeOut="1" portIn="CheckValue" portOut="Day" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="Time" portOut="DecimalHours" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="Active" portOut="Start" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="Success" portOut="True" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="8" portIn="Trigger" portOut="Trigger" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

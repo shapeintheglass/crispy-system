@@ -1,0 +1,6 @@
+<download name="ft_drain" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="144936" md5="c0182b568abfd981156e767137acdbc9"/>
+ </files>
+</download>

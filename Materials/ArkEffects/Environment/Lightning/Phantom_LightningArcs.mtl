@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524292" Shader="ArkEmissive" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.14126332,0.40724024,0.79129809" Specular="0,0,0" Emittance="0.52711523,0.94730669,0.93011099,350" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/arclighting_00.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="5" TexMod_UOscillatorPhase="-1" TexMod_UOscillatorAmplitude="-1"/>
+  </Texture>
+  <Texture Map="Emittance" File="textures/arkeffects/electricity/lightning_00.tif"/>
+ </Textures>
+</Material>

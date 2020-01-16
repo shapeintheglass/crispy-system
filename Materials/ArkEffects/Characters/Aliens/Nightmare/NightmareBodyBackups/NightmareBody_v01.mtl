@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="ArkAlienRefract" GenMask="C0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0.3467041,0.3467041,0.3467041" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/defaults/16_5.dds"/>
+ </Textures>
+ <PublicParams ENFrequency="1.78" EdgeRadius="2.25" EdgeChoke="0" MNOffset="0" StarDesaturate="0" ENLevels="3" ENScale="1" LumRadius="0.5" BlurSpeed="0" FNScale="1" MNScale="1" FNOffset="0" RimYaw="0.79100001" MNSpeed="1" FNSpeed="1" StarBrightness="0.029999999" BlurRatio="0" StarOffset="0.51700002" FNFrequency="1.5" BlurMin="0.1" MNFrequency="1.5" ENSpeed="0.1" FNLevels="1" LumSensitivity="0" MNLevels="5" BlurSize="0" FNColor="1,1,1" RimPitch="-0.51899999" ENOffset="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

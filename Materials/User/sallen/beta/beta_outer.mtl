@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="0.42326769,0.42326769,0.42326769" Emissive="0,0,0" GenMask="50" LayerAct="1" MatTemplate="" MtlFlags="526368" Opacity="1" Shader="Glass" Shininess="182" Specular="0,0,0" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION" SurfaceType="mat_Metal_Thick_Medium" vertModifType="3">
+ <Textures>
+  <Texture File="textures/defaults/perlinnoise2d.tif" Map="Diffuse"/>
+  <Texture File="Textures/cubemaps/workshop/environmentprobe1_cm.tif" Map="Environment"/>
+ </Textures>
+ <VertexDeform DividerW="0.0099999998" DividerX="0.1" DividerY="1.2" DividerZ="0.0099999998" NoiseScale="1,1,1" Type="3"/>
+ <PublicParams BackLightScale="0" BlurAmount="0.546" BumpMapTile="0" BumpScale="0" FresnelBias="0" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+</Material>

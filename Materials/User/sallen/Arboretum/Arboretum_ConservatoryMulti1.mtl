@@ -1,0 +1,32 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2001000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="255" Specular="0.046665091,0.046665091,0.046665091" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/porcelain_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture File="objects/pbs_reference/gloss80_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.086500466,0.086500466,0.086500466" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="600800000408010" LayerAct="1" MatTemplate="" MtlFlags="2623650" Name="SubMtl2" Opacity="1" Shader="Glass" Shininess="255" Specular="0.25415212,0.25415212,0.25415212" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DIRT_MAP%SPECULAR_MAP%TINT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" vertModifType="0">
+   <Textures>
+    <Texture File="textures/generic/glass/window_streaks_glass_diff.tif" Map="Diffuse"/>
+    <Texture File="textures/generic/glass/window_streaks_glass_ddn.tif" Map="Bumpmap"/>
+    <Texture File="textures/generic/glass/window_streaks_glass_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams BackLightScale="0.33000001" BlurAmount="0.25" BumpMapTile="1" BumpScale="1" CloudinessMasksBlur="0" CloudinessReducesGloss="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.25" TintColor="0.21586053,0.21586053,0.21586053"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="2001000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="255" Specular="0.046665091,0.046665091,0.046665091" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/pbs_reference/porcelain_diff.tif" Map="Diffuse">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture File="objects/pbs_reference/gloss80_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.086500466,0.086500466,0.086500466" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

@@ -1,0 +1,9 @@
+
+<Material MtlFlags="2621474" Shader="Illum" GenMask="20100000800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,0.0097212186,0.0097212186" Specular="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/user/ebeyhl/glass_shatter_mimic/glass_shatter_mimic_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/user/ebeyhl/glass_shatter_mimic/glass_shatter_mimic_ddn.tif"/>
+  <Texture Map="Environment" File="nearest_cubemap" TexType="Nearest Cube-Map probe for alpha blended"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.12" DecalFalloff="9.9999997e-005" DecalAlphaMult="0.87"/>
+</Material>

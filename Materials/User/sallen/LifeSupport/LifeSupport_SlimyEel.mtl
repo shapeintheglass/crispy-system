@@ -1,0 +1,10 @@
+
+<Material CloakAmount="0" Diffuse="0.074213572,0.29177067,0.1221388" GenMask="2000000000002" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="108" Specular="0.41788509,0.65837497,0.53947961" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="1">
+ <Textures>
+  <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+ </Textures>
+ <VertexDeform DividerX="0.1" DividerY="0.0099999998" NoiseScale="1,1,1" Type="1">
+  <WaveX Amp="0.001" Freq="1" Level="3.9999999e-005" Phase="0" Type="1"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526340" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.084376216,0.19120172,0.55834049" Emittance="1,1,1,1000" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/electricalcorelp_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0" DeformAnimSpeed="0" GlobalIlluminationAmount="1" DeformTile="0"/>
+</Material>

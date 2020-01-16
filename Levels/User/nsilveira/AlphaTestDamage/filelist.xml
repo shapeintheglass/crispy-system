@@ -1,0 +1,6 @@
+<download name="alphatestdamage" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1717566" md5="f9028d12d35bcabfbbf449bf58a34c60"/>
+ </files>
+</download>

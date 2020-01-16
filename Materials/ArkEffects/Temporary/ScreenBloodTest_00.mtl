@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1000" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,5" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/temporary/screenbloodtest_03.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/temporary/screenbloodtest_emissive_02.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/noise/noiseflowcenterlow_flow.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

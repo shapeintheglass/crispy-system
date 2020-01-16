@@ -1,0 +1,6 @@
+<download name="shird_crushedbody" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="41492" md5="86d7298d28b1dffd949c51c8948a964f"/>
+ </files>
+</download>

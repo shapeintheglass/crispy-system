@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/smoke_ground_curl.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/liquid/flow_variation_swirls_soft_fm.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.02" FlowSpeed="2"/>
+</Material>

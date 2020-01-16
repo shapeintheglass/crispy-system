@@ -1,0 +1,6 @@
+<download name="nightmaredoortest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="89680" md5="9eb9dd25ae76d39efa96fb76ec22b951"/>
+ </files>
+</download>

@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20000000101" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.16826943,0.16826943,0.16826943" Emissive="1,1,1" Shininess="67" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/liquid/goomaterial_decal_large_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif">
+   <TexMod TileV="2" TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="1" TexMod_VOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

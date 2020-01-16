@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="580" StringGenMask="" SurfaceType="mat_Water" MatTemplate="" Diffuse="0.79910284,1,0.10224174" Specular="0.099898733,0.099898733,0.099898733" Opacity="1" Shininess="255" AlphaTest="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/liquid/liquid_pool_mask.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/liquid/liquid_pool.tif"/>
+  <Texture Map="Custom" File="Textures/ArkEffects/liquid/flow_variation_swirls_soft.dds"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="1.285" FlowSpeed="5.6300001"/>
+</Material>

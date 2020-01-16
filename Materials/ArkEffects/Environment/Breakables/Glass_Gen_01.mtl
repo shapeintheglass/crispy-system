@@ -1,0 +1,7 @@
+
+<Material MtlFlags="36177952" Shader="ArkSimpleGlass" GenMask="200000000010010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%UNLIT" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="0.57999998" Shininess="222" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Environment" File="nearest_cubemap" TexType="7"/>
+ </Textures>
+ <PublicParams BumpMapTile="1" TintColor="0.74540436,0.69387192,0.69387192" TintCloudiness="1" BackLightScale="0" BumpScale="1.837" IndirectColor="0.58407855,0.58407855,0.58407855"/>
+</Material>

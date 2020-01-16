@@ -1,0 +1,6 @@
+<download name="ai_onetechnopath" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="47654" md5="b65d9c6e1bae72f299fbfdcb93542258"/>
+ </files>
+</download>

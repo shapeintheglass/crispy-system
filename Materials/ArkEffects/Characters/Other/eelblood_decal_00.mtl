@@ -1,0 +1,11 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="40020080000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.10461649,0.13563335,0.054480281" Specular="0.2269659,0.95597351,0.19806935" Opacity="1" Shininess="250" AlphaTest="0.80000001" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/Decal/BloodAlien/InkSplatSpray_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="0.75" DecalAlphaMult="1"/>
+</Material>

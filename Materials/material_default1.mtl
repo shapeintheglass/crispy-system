@@ -1,0 +1,8 @@
+
+<Material Diffuse="0.21223079,0.21223079,0.21223079" Emissive="0,0,0" GenMask="60000000000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete">
+ <Textures>
+  <Texture File="textures/references/mid_gray.tif" Map="Diffuse"/>
+  <Texture File="textures/references/mid_gray.tif" Map="Specular"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

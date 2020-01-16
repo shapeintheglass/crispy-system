@@ -1,0 +1,6 @@
+<download name="npc_disablemimicai" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839324" md5="1f100dd59bc5789ae6820032cc59dbc6"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="ft_focusmode" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="186437" md5="ddfffe9c47d4fee3e5522b1fa3c1a85a"/>
+ </files>
+</download>

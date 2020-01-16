@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="2801000000880" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.035601322,0.035601322,0.035601322" Emissive="0,0,0" Opacity="0.5" Shininess="21" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/baseglow_02.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/dist_droplets_ddn.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/decal/wrenchdecal_generic_00_spec.tif"/>
+ </Textures>
+ <PublicParams DecalDiffuseOpacity="1" DecalFalloff="36.400002" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

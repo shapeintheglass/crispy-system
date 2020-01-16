@@ -1,0 +1,6 @@
+<download name="ft_hypnosis" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="182959" md5="7cf80dbb0d9c136e2988bf88ccce7fa1"/>
+ </files>
+</download>

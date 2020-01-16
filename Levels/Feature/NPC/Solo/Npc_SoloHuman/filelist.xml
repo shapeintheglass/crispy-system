@@ -1,0 +1,6 @@
+<download name="npc_solohuman" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2838391" md5="ccbe2a3bff3e9b1f611262a8cd3b2da6"/>
+ </files>
+</download>

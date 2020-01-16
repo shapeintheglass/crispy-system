@@ -1,0 +1,6 @@
+<download name="ft_elevatorkiosk" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="30588" md5="064c9241850d1c7e96377415f2f0ed6e"/>
+ </files>
+</download>

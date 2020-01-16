@@ -1,0 +1,6 @@
+<download name="apt_research" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="635731" md5="00159f880dbaa414b2714eaacfc72778"/>
+ </files>
+</download>

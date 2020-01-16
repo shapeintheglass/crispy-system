@@ -1,0 +1,6 @@
+<download name="corporateit" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="3833476" md5="7ca33abf35731de9c4c1933e9801dec7"/>
+ </files>
+</download>

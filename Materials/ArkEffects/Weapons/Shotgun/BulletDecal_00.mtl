@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="60002000100" StringGenMask="%BUMP_MAP%OFFSET_BUMP_MAPPING%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.10461649,0.11953845,0.090841718" Specular="0.040915202,0.040915202,0.040915202" Emissive="0,0,0" Shininess="33" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/bulletdecals_00.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/decal/bulletdecals_00_spec.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/decal/bulletdecal_00_ddn.tif"/>
+  <Texture Map="Heightmap" File="textures/arkeffects/decal/bulletdecal_00_ddn.tif"/>
+ </Textures>
+ <PublicParams SSSIndex="0" SelfShadowStrength="3" ObmDisplacement="0.0101" HeightBias="0.92199999" IndirectColor="0.58407855,0.58407855,0.58407855"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="simlabtest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38300" md5="fc05f4d0ddeb271ccd38f2d6463535a8"/>
+ </files>
+</download>

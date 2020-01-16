@@ -1,0 +1,6 @@
+<download name="ft_trackview_player" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="41234" md5="70af65b236df77e3f7098f50cfac2dcb"/>
+ </files>
+</download>

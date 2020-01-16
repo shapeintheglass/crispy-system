@@ -1,0 +1,11 @@
+
+<Material MtlFlags="524290" Shader="ArkEmissive" GenMask="20001" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,1,1" Emittance="1,1,1,100" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/weapon/plasma_##00_04(0.1).tif">
+   <TexMod TexMod_RotateType="2" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="3" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="0.0099999998" TexMod_VOscillatorType="3" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="0.0099999998" TexMod_WRotateRate="0.99975586" TexMod_WRotatePhase="0.99975586" TexMod_WRotateAmplitude="0.0054931641"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/weapon/plasma_##00_04(0.1).tif"/>
+ </Textures>
+ <PublicParams FlowTile="0.28099999" FlowSpeed="15.22"/>
+</Material>

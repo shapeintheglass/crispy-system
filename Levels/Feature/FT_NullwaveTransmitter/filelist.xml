@@ -1,0 +1,6 @@
+<download name="ft_nullwavetransmitter" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="42780" md5="e9ca7ed84e0963607d63d8c08a79a9ac"/>
+ </files>
+</download>

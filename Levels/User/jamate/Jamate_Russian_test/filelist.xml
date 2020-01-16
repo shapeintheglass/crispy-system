@@ -1,0 +1,6 @@
+<download name="jamate_russian_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="34764" md5="786a10c62a1985b4a38cf9e1d25bce47"/>
+ </files>
+</download>

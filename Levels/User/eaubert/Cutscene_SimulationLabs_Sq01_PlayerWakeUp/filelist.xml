@@ -1,0 +1,6 @@
+<download name="cutscene_simulationlabs_sq01_playerwakeup" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35598" md5="841baac0c8246cdbfb240661897a5735"/>
+ </files>
+</download>

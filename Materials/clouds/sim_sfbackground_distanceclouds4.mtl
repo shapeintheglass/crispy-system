@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="DistanceClouds" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/clouds/distanceclouds_low_04.tif"/>
+ </Textures>
+ <PublicParams StepSize="1" Attenuation="0.5" AlphaSaturation="1.5" SkyColorMultiplier="1" SunColorMultiplier="0.85000002"/>
+</Material>

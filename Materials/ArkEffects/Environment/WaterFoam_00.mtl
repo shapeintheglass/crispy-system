@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="904" StringGenMask="%ALPHAMASK_DETAILMAP%BUMP_MAP%DECAL" SurfaceType="" MatTemplate="" Diffuse="0.65140575,0.77582234,0.79129809" Specular="0.3185468,0.49102089,0.47353151" Emissive="1,1,1" Shininess="223" Opacity="0.88999999" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/environment/waterfoam_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/environment/waterfoam_00_ddn.tif"/>
+ </Textures>
+ <PublicParams SoftParticlesScale="16.780001" GlobalIlluminationAmount="30" RefrBumpScale="0.1"/>
+</Material>

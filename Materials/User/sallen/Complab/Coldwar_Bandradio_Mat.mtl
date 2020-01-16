@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="60000000103" GlowAmount="5" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="125" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+ <Textures>
+  <Texture File="textures/user/sallen/computerlab/band_radio/basematerial [albedo] copy.tif" Map="Diffuse"/>
+  <Texture File="textures/user/sallen/computerlab/band_radio/basematerial [specular] copy.tif" Map="Specular"/>
+  <Texture File="textures/user/sallen/computerlab/band_radio/basematerial [normal].tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams AmbientMultiplier="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

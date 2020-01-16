@@ -1,0 +1,6 @@
+<download name="healingglass_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2992357" md5="009c604ba6347788b5c718c42af2b39b"/>
+ </files>
+</download>

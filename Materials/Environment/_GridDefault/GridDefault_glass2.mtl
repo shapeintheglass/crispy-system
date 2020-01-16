@@ -1,0 +1,21 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="gray_mat" MtlFlags="34078848" Shader="Illum" GenMask="20000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="0.46599999,0.46599999,0.46599999" Specular="0.5,0.5,0.5" Opacity="0.38999999" Shininess="10" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="gray_mat1" MtlFlags="34078848" Shader="Illum" GenMask="20000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="0.315,0.315,0.315" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="gray_mat_collision" MtlFlags="34079872" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium" MatTemplate="" Diffuse="0.46599999,0.047065999,0.047065999" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" LayerAct="1">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

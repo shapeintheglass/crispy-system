@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" MatTemplate="" Specular="1,1,1" Opacity="1" Shininess="255" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/references/mid_gray.dds"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

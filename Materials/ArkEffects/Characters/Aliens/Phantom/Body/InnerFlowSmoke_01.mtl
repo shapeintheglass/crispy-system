@@ -1,0 +1,8 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/smoke_black_whispy_4tile.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/smoke/smoke_black_soft_whispy_4tile_fm_02.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="0.0099999998" FlowTile="2" FlowSpeed="30"/>
+</Material>

@@ -1,0 +1,6 @@
+<download name="avoid_obstacle_gloo" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="90933" md5="16a32f8b76ec2ef23b6ee484adf1781e"/>
+ </files>
+</download>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Monitor" GenMask="10" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,10" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/environment/monitors/monitor_screen_connectomes.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/environment/monitors/emmisive_glitch_##00_29(0.066).tif"/>
+ </Textures>
+ <PublicParams GrainAmount="0.1" DeformAmount="0" DeformTillingY="0" EmittanceMapGamma="1" GrainTilling="1" ResolutionX="512" ResolutionY="512" InterlacingTilling="0.25" Contrast="1" Saturation="5.2800002" DeformTillingX="0" GrainSaturation="1" FresnelScale="1" InterlacingAmount="0" VSyncFreq="0" PixelVisibility="0.5" FresnelBias="1" ChromaShift="0" ViewAngle="155" DeformFreq="-16"/>
+</Material>

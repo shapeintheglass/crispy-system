@@ -1,0 +1,6 @@
+<download name="sshain_13875_playerfallsincrawl" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="132093" md5="2a78df511c10a3ceec1bcca8a3114a60"/>
+ </files>
+</download>

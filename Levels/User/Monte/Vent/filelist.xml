@@ -1,0 +1,6 @@
+<download name="vent" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="32580" md5="45cac21050abab8e84b57f10232b6de5"/>
+ </files>
+</download>

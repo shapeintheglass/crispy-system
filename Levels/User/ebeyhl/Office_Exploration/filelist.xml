@@ -1,0 +1,6 @@
+<download name="office_exploration" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="33341" md5="7bfcd39dfd702da88c7a968dded62e14"/>
+ </files>
+</download>

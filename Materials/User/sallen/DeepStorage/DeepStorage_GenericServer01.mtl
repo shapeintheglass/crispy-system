@@ -1,0 +1,25 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="100000000000010" LayerAct="1" MatTemplate="" MtlFlags="36178080" Name="Computer_Server_A_glass_mat" Opacity="1" Shader="ArkSimpleGlass" Shininess="255" Specular="0.068478175,0.068478175,0.068478175" StringGenMask="%BILINEAR_FP16%UNLIT" SurfaceType="mat_Glass_Unbreakable" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/props/tech/computer_server_a/computer_server_a_glass_ddna.tif" Map="Bumpmap"/>
+    <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+   </Textures>
+   <PublicParams BackLightScale="0" BumpMapTile="1" BumpScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="A00800000000" GlowAmount="5" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Computer_Server_A_mat" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/user/sallen/deepstorage/computer_server_a_diff_blue.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/props/tech/computer_server_a/computer_server_a_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/props/tech/computer_server_a/computer_server_a_spec.tif" Map="Specular"/>
+    <Texture File="textures/user/sallen/deepstorage/computer_server_a_emissive blue.tif" Map="Decal"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.91600001,0.20060401,0.20060401" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="collision_mat" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_nodraw" vertModifType="0">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

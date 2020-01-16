@@ -1,0 +1,6 @@
+<download name="ft_paspeaker" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="92984" md5="f4156c7b705d8b5c6aeee95e56ec3176"/>
+ </files>
+</download>

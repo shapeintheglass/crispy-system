@@ -1,0 +1,6 @@
+<download name="conversation" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37464" md5="223c0d88cebc58d40b660a545568e90a"/>
+ </files>
+</download>

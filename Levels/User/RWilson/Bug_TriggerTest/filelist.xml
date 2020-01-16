@@ -1,0 +1,6 @@
+<download name="bug_triggertest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="44933" md5="db250c2df3f926154d5ea1b327e1c432"/>
+ </files>
+</download>

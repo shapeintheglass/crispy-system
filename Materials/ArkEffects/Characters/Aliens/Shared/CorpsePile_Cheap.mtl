@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="ArkParticlesGeo" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.00060705398,0.00060705398,0.00060705398" Specular="0.0097212186,0.0097212186,0.0097212186" Emittance="0,0,0,0" Opacity="1" Shininess="100" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/noise/smoke_noise_test.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1"/>
+</Material>

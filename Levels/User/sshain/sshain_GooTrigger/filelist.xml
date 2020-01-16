@@ -1,0 +1,6 @@
+<download name="sshain_gootrigger" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="44032" md5="672712ba45adbb6f1d702f8f50d0662c"/>
+ </files>
+</download>

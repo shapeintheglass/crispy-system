@@ -1,0 +1,6 @@
+<download name="sshain_leveltravel" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="32424" md5="e6682d44f0963cdae66ad3a59499cfce"/>
+ </files>
+</download>

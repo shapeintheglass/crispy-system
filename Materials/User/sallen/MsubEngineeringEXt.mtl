@@ -1,0 +1,18 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.033104774,0.033104774,0.033104774" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="playupnomaterial" Opacity="1" Shader="Illum" Shininess="255" Specular="0.038472746,0.047775757,0.080219261" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material Diffuse="0.032958359,0.032958359,0.032958359" Emissive="0,0,0" GenMask="1" GlowAmount="10" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SUDCColor007" Opacity="1" Shader="Illum" Shininess="81" Specular="0.30212551,0.30212551,0.30212551" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/grey.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="802800000000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Rubber" MatTemplate="" Diffuse="0.099898733,0.10461649,0.14126332" Specular="0.38132605,0.46207702,0.56471163" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/architecture/industrial/floor_lab_epoxy_a/floor_lab_epoxy_a_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/environment/architecture/industrial/floor_lab_epoxy_a/floor_lab_epoxy_a_ddna.tif"/>
+  <Texture Map="Specular" File="objects/environment/architecture/industrial/floor_lab_epoxy_a/floor_lab_epoxy_a_spec.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

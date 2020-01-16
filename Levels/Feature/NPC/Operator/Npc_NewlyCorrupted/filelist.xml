@@ -1,0 +1,6 @@
+<download name="npc_newlycorrupted" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2843850" md5="f36414cdcba6910681b99e3ecee88d52"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="npc_technopathoneoperator" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2842842" md5="e82a048672536f65c15457db9dfb4119"/>
+ </files>
+</download>

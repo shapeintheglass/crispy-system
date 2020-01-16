@@ -1,0 +1,6 @@
+<download name="alienabilitystattest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="99009" md5="4755efbc2467ee8f5cfd230006a3632b"/>
+ </files>
+</download>

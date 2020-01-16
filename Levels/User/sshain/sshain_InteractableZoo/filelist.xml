@@ -1,0 +1,6 @@
+<download name="sshain_interactablezoo" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="39117" md5="d1f5bd6eb2358b7613a82f03b7b30e04"/>
+ </files>
+</download>

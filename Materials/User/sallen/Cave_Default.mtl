@@ -1,0 +1,23 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0.033104774,0.033104774,0.033104774" Emissive="0,0,0" GenMask="1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="reflectwhite" Opacity="1" Shader="Illum" Shininess="10" Specular="0.033104774,0.033104774,0.033104774" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+  </Material>
+  <Material Diffuse="0.5,0.37349999,0.37349999" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="Cave_Prox" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+  <Material AlphaTest="1" Diffuse="0.03954624,0.046665091,0.06124606" Emissive="0,0,0" GenMask="400000000080010" LayerAct="1" MatTemplate="" MtlFlags="526466" Name="pod_glass" Opacity="1" Shader="Glass" Shininess="255" Specular="0.5,0.5,0.5" StringGenMask="%BILINEAR_FP16%GLOSS_MAP%UNLIT" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures>
+    <Texture File="textures/defaults/white.tif" Map="Diffuse"/>
+    <Texture File="textures/defaults/grey.tif" Map="Specular"/>
+    <Texture File="textures/cubemaps/apex_vig/environmentprobe1_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

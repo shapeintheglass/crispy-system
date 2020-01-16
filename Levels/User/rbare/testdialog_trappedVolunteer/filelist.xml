@@ -1,0 +1,6 @@
+<download name="testdialog_trappedvolunteer" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="56259" md5="777e7fafa06b3fb260f614a149fc3036"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="cave" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="51775" md5="3e15c6ebd8d0732e637e8ae9ce2bd26d"/>
+ </files>
+</download>

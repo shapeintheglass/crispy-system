@@ -1,0 +1,11 @@
+
+<Material MtlFlags="526336" Shader="Monitor" GenMask="11" StringGenMask="" SurfaceType="mat_Glass_Unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,96" Opacity="1" Shininess="255" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/environment/props/tech/combooth_a/combooth_a_screen_diff_1.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="55.099998" TexMod_UOscillatorPhase="15.9" TexMod_UOscillatorAmplitude="6" TexMod_VOscillatorRate="20.799999" TexMod_VOscillatorPhase="6.4000001" TexMod_VOscillatorAmplitude="16.200001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/environment/props/tech/console_screens_a/glass_screen_ddna.tif"/>
+  <Texture Map="Emittance" File="objects/environment/props/tech/combooth_a/combooth_a_screen_diff_1.tif"/>
+ </Textures>
+ <PublicParams GrainAmount="0" DeformAmount="0" DeformTillingY="41" EmittanceMapGamma="1" GrainTilling="0" ChromaGlitchWidth="0.1" ResolutionX="128" ResolutionY="128" InterlacingTilling="0" GlitchEnabled="0" Contrast="1" Saturation="1" DeformTillingX="4" GrainSaturation="1" FresnelScale="1" InterlacingAmount="0" VSyncFreq="0" PixelVisibility="0.5" FresnelBias="1" BlockGlitchReduction="1" ChromaGlitchSpeed="30" ChromaShift="0.667" BlockGlitchSpeed="24" ViewAngle="155" DeformFreq="-0.52999997" BlockSize="32"/>
+</Material>

@@ -1,0 +1,8 @@
+
+<Material MtlFlags="134744064" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="0.84687334,0.26635563,0.014443845,200" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/Glows/GlowTrailTiled_00.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/Fire/TiledFire_00.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

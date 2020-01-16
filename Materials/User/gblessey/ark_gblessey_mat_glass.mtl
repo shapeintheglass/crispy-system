@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="10" LayerAct="1" MatTemplate="" MtlFlags="526336" Opacity="1" Shader="ArkSimpleGlass" Shininess="10" Specular="0.45641103,0.45641103,0.45641103" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_Glass">
+ <Textures>
+  <Texture File="textures/generic/glass/glass_clear_diff.dds" Map="Diffuse">
+   <TexMod TileU="0.1" TileV="0.1"/>
+  </Texture>
+ </Textures>
+ <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+</Material>

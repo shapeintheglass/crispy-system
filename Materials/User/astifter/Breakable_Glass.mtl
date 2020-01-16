@@ -1,0 +1,10 @@
+
+<Material CloakAmount="0" Diffuse="0.090841718,0.090841718,0.090841718" GenMask="10" LayerAct="1" MatTemplate="" MtlFlags="2623490" Opacity="1" Shader="ArkSimpleGlass" Shininess="255" Specular="0.06124606,0.06124606,0.06124606" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_Glass" vertModifType="0">
+ <Textures>
+  <Texture File="textures/generic/glass/glass_clear_diff.dds" Map="Diffuse">
+   <TexMod OffsetU="-0.1" TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.050000001" TileV="0.050000001"/>
+  </Texture>
+  <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+ </Textures>
+ <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+</Material>

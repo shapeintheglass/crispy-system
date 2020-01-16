@@ -1,0 +1,6 @@
+<download name="fog_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37539" md5="cc3cfbfa02ead6cf063ac6fc20be5697"/>
+ </files>
+</download>

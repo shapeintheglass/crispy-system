@@ -1,0 +1,6 @@
+<download name="hwmimics" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2053811" md5="48fb29cb5aa2eccdfde77390ae78d7b2"/>
+ </files>
+</download>

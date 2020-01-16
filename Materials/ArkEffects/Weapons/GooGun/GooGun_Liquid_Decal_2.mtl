@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="100" StringGenMask="%BUMP_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.20507877,0.20507877,0.20507877" Emissive="1,1,1" Shininess="198" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/liquid/goomaterial_decal_small_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif">
+   <TexMod TileV="2" TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="1" TexMod_VOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams SoftParticlesScale="1" GlobalIlluminationAmount="1"/>
+</Material>

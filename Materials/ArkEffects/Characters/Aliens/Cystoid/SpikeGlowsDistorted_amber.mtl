@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.61049569,0.41788509,0.20155628" Emittance="0.96468639,0.60382748,0.41788509,25" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/Ink/InkSpikes_1x4_dif.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/Ink/InkSpikes_1x4_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/DistortionMaps/TileNoise_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.119" DeformAnimSpeed="0.78100002" GlobalIlluminationAmount="1" DeformTile="0.215"/>
+</Material>

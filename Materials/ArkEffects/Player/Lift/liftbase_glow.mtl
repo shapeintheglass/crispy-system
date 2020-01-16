@@ -1,0 +1,15 @@
+
+<Material MtlFlags="524326" Shader="ArkParticlesGeo" GenMask="2000080001" StringGenMask="%ALLOW_SILHOUETTE_POM%EMITTANCE_MAP%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.1169707,0.72305524,0.50288647" Emittance="0.030713448,0.49693301,0.52099562,250" Opacity="1" CloakAmount="0" Timer="2" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/player/liftability/lift_lower_ring_edge.tif">
+   <TexMod TexMod_RotateType="1" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="1.25" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TileV="3" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.25" TexMod_VOscillatorPhase="0.25" TexMod_VOscillatorAmplitude="0.25" TexMod_WRotateAmplitude="180"/>
+  </Texture>
+  <Texture Map="Emittance" File="textures/arkeffects/noise/wavynoisetiled_add_01_dif.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.25" OffsetU="1" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TileV="6" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <VertexDeform Type="13" DividerX="1" DividerY="0.0099999998" NoiseScale="0,0,0">
+  <WaveX Type="1" Amp="0.050000001" Level="0.0099999998" Phase="0.25" Freq="1.5"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1"/>
+</Material>

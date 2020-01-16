@@ -1,0 +1,15 @@
+
+<Material AlphaTest="1" CloakAmount="0" Diffuse="0.92158198,0.87962252,0.9046613" Emissive="0,0,0" GenMask="21" LayerAct="1" MatTemplate="" MtlFlags="524324" Opacity="1" Shader="Illum" Specular="0.30498734,0.30498734,0.30498734" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER" SurfaceType="mat_Metal_Thick_Medium" vertModifType="3">
+ <Textures>
+  <Texture File="textures/defaults/perlinnoise2d.tif" Map="Diffuse">
+   <TexMod TexMod_RotateType="3" TexMod_UOscillatorAmplitude="0.69999999" TexMod_UOscillatorRate="2.3" TexMod_UOscillatorType="2" TexMod_URotateCenter="9.3000002" TexMod_VOscillatorAmplitude="0.5" TexMod_VOscillatorRate="2" TexMod_VOscillatorType="2" TexMod_VRotateCenter="5.5999999" TexMod_WRotateAmplitude="0.098876953" TexMod_WRotateRate="0.39550781" TileU="0.1" TileV="0.1"/>
+  </Texture>
+  <Texture File="textures/defaults/grey.tif" Map="Opacity"/>
+  <Texture File="textures/user/sallen/coralite_nrm.tif" Map="SubSurface"/>
+  <Texture File="textures/user/sallen/coralite_color.tif" Map="Custom">
+   <TexMod TexMod_UOscillatorAmplitude="26.200001" TexMod_UOscillatorRate="4.6999998" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="29" TexMod_VOscillatorRate="4.1999998" TexMod_VOscillatorType="2" TexMod_WRotateAmplitude="3.6968994" TexMod_WRotateRate="0.89538574" TileU="3.7" TileV="5.0999999"/>
+  </Texture>
+ </Textures>
+ <VertexDeform DividerW="0.0099999998" DividerX="4" DividerY="0.0099999998" DividerZ="0.0099999998" NoiseScale="1,1,1" Type="3"/>
+ <PublicParams BlendFactor="2.8900001" BlendFalloff="14.1" BlendLayer2Specular="0.02" BlendLayer2Tiling="1.4299999" BlendMaskTiling="0.22" IndirectColor="0.25,0.25,0.25" SubsurfaceScatteringAmount="0"/>
+</Material>

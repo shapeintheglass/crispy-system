@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="414" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Emittance="1,1,1,5" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_black.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/distcircularnoiseout_ddn.tif"/>
+ </Textures>
+ <PublicParams PerturbationScale="10" PerturbationStrength="0.5" AnimSpeed="0.69999999" GlobalIlluminationAmount="1" RefrBumpScale="0.079999998"/>
+</Material>

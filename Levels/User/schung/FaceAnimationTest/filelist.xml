@@ -1,0 +1,6 @@
+<download name="FaceAnimationTest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="80960" md5="eb9ff054af27ef15e679e74ecdbba4b8"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="distractors_phantom" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="88444" md5="e66c2041492ef4a556cce58ccd90df86"/>
+ </files>
+</download>

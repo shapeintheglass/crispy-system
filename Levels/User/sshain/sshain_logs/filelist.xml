@@ -1,0 +1,6 @@
+<download name="sshain_logs" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="32801" md5="f687a4ae9472cb03a6c10e9d7f41d894"/>
+ </files>
+</download>

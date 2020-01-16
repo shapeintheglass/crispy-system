@@ -1,0 +1,6 @@
+<download name="turret" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="107245" md5="7178470c372e0912eb1f53896a0440ee"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="ft_hardwarelabs_elevator" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="100304" md5="1800d5c2705ad0781a6cc61f7dc87d05"/>
+ </files>
+</download>

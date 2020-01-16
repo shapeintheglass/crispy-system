@@ -1,0 +1,6 @@
+<download name="wwise_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="40230" md5="aa7c29d5c1cc9741d468fccb22702d91"/>
+ </files>
+</download>

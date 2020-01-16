@@ -1,0 +1,12 @@
+
+<Material Diffuse="0.011612247,0.14995982,0.006512091" Emittance="1,1,1,4840" GenMask="2000000400000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="0.68000001" Shader="Illum" Specular="0,0,0" StringGenMask="%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Flesh_Cystoid" vertModifType="3">
+ <Textures>
+  <Texture File="textures/defaults/grey.tif" Map="Diffuse"/>
+  <Texture File="textures/defaults/grey.tif" Map="Emittance"/>
+ </Textures>
+ <VertexDeform DividerX="0.1" DividerY="1" NoiseScale="0,0,0" Type="3">
+  <WaveX Amp="0.15000001" Freq="5" Level="0.025" Phase="2" Type="7"/>
+  <WaveY Amp="0.25" Freq="5" Level="0.025" Phase="1" Type="7"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

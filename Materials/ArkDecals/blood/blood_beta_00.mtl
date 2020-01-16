@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="30000000100" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.013702084,0.013702084,0.013702084" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.050000001" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/temporary/alien_blood_00.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/temporary/alien_blood_00_ddn.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/temporary/alien_blood_00_ddn.tif"/>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

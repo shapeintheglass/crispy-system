@@ -1,0 +1,6 @@
+<download name="telepathtest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="48686" md5="1b0fcc22682bbf9c1af88bf31c13bbab"/>
+ </files>
+</download>

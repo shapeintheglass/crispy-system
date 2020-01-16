@@ -1,0 +1,6 @@
+<download name="zerogobjectivetest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1249653" md5="c5ff6fe450e8a044d1c4cf813982674b"/>
+ </files>
+</download>

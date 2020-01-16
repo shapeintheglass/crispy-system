@@ -1,0 +1,6 @@
+<download name="physicsdisable" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="35148" md5="64c94e89d342e258e63534a6524d26f1"/>
+ </files>
+</download>

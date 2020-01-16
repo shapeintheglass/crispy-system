@@ -1,0 +1,6 @@
+<download name="skin_normals" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="87761" md5="8f31be123e3696f825dcb03417a2cabe"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="alexbodyvolumetest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="64508" md5="4a8f3ed815c973ecbdaf17917a9bae0e"/>
+ </files>
+</download>

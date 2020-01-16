@@ -1,0 +1,24 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="524416" Shader="Illum" GenMask="2000000000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="0.1559265,0.1559265,0.1559265" Specular="0.18447502,0.18447502,0.18447502" Opacity="1" Shininess="253" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="526498" Shader="ArkSimpleGlass" GenMask="400000000010010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="0.42869052,0.51491767,0.73791051" Specular="0.13843164,0.13843164,0.13843164" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Environment" File="textures/cubemaps/old_comp_laba/environmentprobe6_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" TintCloudiness="0" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="526498" Shader="ArkSimpleGlass" GenMask="400000000010010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Metal_Thin_Medium" MatTemplate="" Diffuse="0.42869052,0.51491767,0.73791051" Specular="0.13843164,0.13843164,0.13843164" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Environment" File="textures/cubemaps/old_comp_laba/environmentprobe6_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" TintCloudiness="0" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

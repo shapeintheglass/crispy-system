@@ -1,0 +1,6 @@
+<download name="sshain_1334_breakresistance" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="34123" md5="0a213850d91862e49a73ecc083d5b36b"/>
+ </files>
+</download>

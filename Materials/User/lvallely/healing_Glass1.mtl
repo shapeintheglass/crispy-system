@@ -1,0 +1,11 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="8020000010010" LayerAct="1" MatTemplate="" MtlFlags="2623520" Opacity="0.2" Shader="ArkSimpleGlass" Shininess="230" Specular="0.012983033,0.012983033,0.012983033" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_Glass_Unbreakable" vertModifType="0">
+ <Textures>
+  <Texture File="objects/environment/architecture/exec/window_bay_a/window_bay_a_glass_decal_ddna.tif" Map="Bumpmap"/>
+  <Texture File="objects/environment/architecture/exec/window_bay_a/window_bay_a_glass_decal_tint.tif" Map="Specular">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="4"/>
+  </Texture>
+  <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+ </Textures>
+ <PublicParams BackLightScale="0.80000001" BumpMapTile="2" BumpScale="0.050000001" CloudinessReducesGloss="0.25" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.0099999998" TintColor="1,1,1"/>
+</Material>

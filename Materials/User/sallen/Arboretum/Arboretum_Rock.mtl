@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="0.67244327,0.67244327,0.67244327" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="10" Specular="0.064803272,0.064803272,0.064803272" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Dirt" vertModifType="0">
+ <Textures>
+  <Texture File="textures/terrain/rock_3d.dds" Map="Diffuse">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

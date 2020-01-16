@@ -1,0 +1,11 @@
+
+<Material MtlFlags="526340" Shader="Particles" GenMask="1020" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.87962252,0.47353151,0.0074990322" Emittance="0.87136728,0.40724024,0.0030352699,30" Opacity="1" Shininess="10" AlphaTest="0.079999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/coralglowtrail_dif.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorPhase="0.1" TexMod_UOscillatorAmplitude="0.1" TexMod_VOscillatorRate="0.1" TexMod_VOscillatorPhase="0.1" TexMod_VOscillatorAmplitude="0.1"/>
+  </Texture>
+  <Texture Map="Detail" File="textures/arkeffects/glows/coralglowtrail_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.055" DeformAnimSpeed="0.185" GlobalIlluminationAmount="1" DeformTile="0.125"/>
+</Material>

@@ -1,0 +1,12 @@
+
+<Material MtlFlags="526368" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.006512091,0.006512091,0.006512091" Specular="0.10461649,0.10461649,0.10461649" Opacity="1" Shininess="250" CloakAmount="0" LayerAct="0">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/Liquid/liquid_medium_mask_dif.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TexMod_UOscillatorType="6" TexMod_UOscillatorRate="2" TexMod_UOscillatorPhase="2" TexMod_UOscillatorAmplitude="2" TileV="2" TexMod_VOscillatorRate="2" TexMod_VOscillatorPhase="2" TexMod_VOscillatorAmplitude="2"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/arkeffects/Liquid/liquid_medium_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

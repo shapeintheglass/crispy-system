@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="0.044552624,0.089193508,0.13609855" Emissive="0,0,0" GenMask="80201" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="134" Specular="0.00049618713,0.00049618713,0.0014661591" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_Concrete">
+ <Textures>
+  <Texture File="textures/user/sallen/apt_concreteslabdiff.tif" Map="Diffuse"/>
+  <Texture File="textures/user/sallen/apt_shojiscreen.tif" Map="Specular"/>
+  <Texture File="textures/detail_bumpmaps/metal/detail_metal_ddn.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams FresnelBias="1" FresnelScale="18.110001" GlossMapChannelB="0" IndirectColor="0.24680044,0.24680044,0.24680044" SpecMapChannelB="0" SpecMapChannelG="0" SpecMapChannelR="0"/>
+</Material>

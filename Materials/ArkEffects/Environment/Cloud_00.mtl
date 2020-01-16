@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Common.Cloud" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.61720669,0.61720669,0.61720669" Opacity="0.15000001" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/environment/clouds_00_dif.tif"/>
+ </Textures>
+ <PublicParams CloudAngularAtten="46.529999" HDRBrightnessAdjust="0.34" CloudOutlineSlope="2.6300001" CloudBacklightingScale="0.055" CloudOutlineThreshold="0.34999999"/>
+</Material>

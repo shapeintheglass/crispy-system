@@ -1,0 +1,6 @@
+<download name="ai_onecorengcombat" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="76784" md5="a34c84ba6a4d072caa4be4dcafb966da"/>
+ </files>
+</download>

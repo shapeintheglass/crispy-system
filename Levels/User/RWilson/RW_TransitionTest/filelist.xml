@@ -1,0 +1,6 @@
+<download name="rw_transitiontest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="40745" md5="46331e39af1efb089635b8cbc5544817"/>
+ </files>
+</download>

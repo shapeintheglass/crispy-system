@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526340" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.55201149,0.61720669,0.42869052" Specular="0,0,0" Emittance="0.65140575,0.29177067,0.049706571,50" Opacity="0.99000001" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/glowbase_add_02_diff.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_00_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.048999999" DeformAnimSpeed="0.954" GlobalIlluminationAmount="1" DeformTile="0.229"/>
+</Material>

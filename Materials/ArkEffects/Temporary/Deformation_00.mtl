@@ -1,0 +1,11 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="400" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/fx_zoo_00.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/arkeffects/noise/arkane_test_wind_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/dist_droplets_ddn.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="4.5100002"/>
+</Material>

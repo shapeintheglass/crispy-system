@@ -1,0 +1,70 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.0085681258,0.0069954107,0.006512091" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="37" Specular="0.019382363,0.019382363,0.019382363" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.078187428,0.052860651,0.03954624" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl4" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material AlphaTest="0.91000003" Diffuse="0.38642946,0.38642946,0.38642946" GenMask="2400801000" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="SubMtl5" Opacity="1" Shader="Vegetation" Shininess="10" Specular="0.01228649,0.01228649,0.01228649" StringGenMask="%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" vertModifType="0">
+   <Textures>
+    <Texture File="textures/user/sallen/arboretum/pomegranate_leaves.tif" Filter="2" Map="Diffuse"/>
+    <Texture File="textures/user/sallen/arboretum/pomegranate_leaves.tif" Map="Opacity"/>
+   </Textures>
+   <PublicParams BackDiffuseMultiplier="0.40000001" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="0" IndirectColor="0.25,0.25,0.25" NormalViewDependency="0.5" TransmittanceColor="0.94730651,0.92158186,0.62396044" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="-0.5" bendDetailFrequency="0.5" bendDetailLeafAmplitude="0.5"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.0085681258,0.0069954107,0.006512091" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl6" Opacity="1" Shader="Illum" Shininess="37" Specular="0.019382363,0.019382363,0.019382363" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.015208516,0.084376216,0.37626216" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl7" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.043735035,0.048171829,0.024157634" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl8" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.074213572,0.074213572,0.036889456" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl9" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material AlphaTest="0.40000001" Diffuse="0.38642946,0.38642946,0.38642946" GenMask="800802400000000" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="SubMtl10" Opacity="1" Shader="Vegetation" Shininess="117" Specular="0.011612247,0.015208516,0.0091340598" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" vertModifType="0">
+   <Textures>
+    <Texture File="textures/user/sallen/arboretum/sequoia_leaves_color.tif" Filter="2" Map="Diffuse"/>
+    <Texture File="textures/user/sallen/arboretum/sequoia_leaves_nrm.tif" Map="Bumpmap"/>
+    <Texture File="textures/user/sallen/arboretum/sequoia_leaves_spec.tif" Map="Specular"/>
+    <Texture File="textures/user/sallen/arboretum/sequoia_leaves_color.tif" Map="Opacity"/>
+   </Textures>
+   <PublicParams BlendTerrainCol="0" BlendTerrainColDist="0.63300002" IndirectColor="0.25,0.25,0.25" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="-0.5" bendDetailFrequency="0.5" bendDetailLeafAmplitude="0.33500001"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

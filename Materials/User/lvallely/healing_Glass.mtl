@@ -1,0 +1,8 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="200000000000010" LayerAct="1" MatTemplate="" MtlFlags="36177952" Opacity="1" Shader="ArkSimpleGlass" Shininess="255" Specular="0.072271854,0.072271854,0.072271854" StringGenMask="%BILINEAR_FP16%UNLIT" SurfaceType="mat_Glass_Healing" vertModifType="0">
+ <Textures>
+  <Texture File="textures/generic/glass/glass_dirty_ddna.tif" Map="Bumpmap"/>
+  <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+ </Textures>
+ <PublicParams BackLightScale="0" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+</Material>

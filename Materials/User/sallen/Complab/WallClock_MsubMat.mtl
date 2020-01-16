@@ -1,0 +1,20 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="60000000101" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="87" Specular="0.080219828,0.080219828,0.080219828" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/user/sallen/computerlab/wallclock/basematerial [albedo] copy.tif" Map="Diffuse"/>
+    <Texture File="textures/user/sallen/computerlab/wallclock/basematerial [specular] copy.tif" Map="Specular"/>
+    <Texture File="textures/user/sallen/computerlab/wallclock/basematerial [normal] copy.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="400000000010090" LayerAct="1" MatTemplate="" MtlFlags="526464" Name="SubMtl2" Opacity="1" Shader="Glass" Shininess="255" Specular="0.30498734,0.30498734,0.30498734" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%ENVIRONMENT_MAP%UNLIT" SurfaceType="mat_Metal_Thin_Medium">
+   <Textures>
+    <Texture File="textures/cubemaps/old_comp_laba/environmentprobe3_cm.tif" Map="Environment"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BlurAmount="0.0070000002" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.23800001" TintColor="1,1,1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

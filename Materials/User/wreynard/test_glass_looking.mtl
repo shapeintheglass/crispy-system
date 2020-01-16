@@ -1,0 +1,9 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="4010000010010" LayerAct="1" MatTemplate="" MtlFlags="2623488" Opacity="0.60000002" Shader="Glass" Shininess="255" Specular="0.10946172,0.10946172,0.10946172" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%SPEC_MAP%TINT_MAP" SurfaceType="mat_Glass_Looking">
+ <Textures>
+  <Texture File="textures/generic/glass/looking_glass_clean_tint.tif" Map="Specular"/>
+  <Texture File="textures/generic/glass/looking_glass_ddn.tif" Map="Bumpmap"/>
+  <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+ </Textures>
+ <PublicParams BackLightScale="0" BumpMapTile="1" BumpScale="0.027000001" CloudinessReducesGloss="0.5" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="1" TintColor="0.0080231931,0.22322798,0.17464741"/>
+</Material>

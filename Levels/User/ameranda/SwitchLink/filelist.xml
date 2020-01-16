@@ -1,0 +1,6 @@
+<download name="switchlink" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="33430" md5="20a5b9c0842f16a64371e88b7e8294dd"/>
+ </files>
+</download>

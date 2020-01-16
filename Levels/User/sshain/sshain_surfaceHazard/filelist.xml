@@ -1,0 +1,6 @@
+<download name="sshain_surfacehazard" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="120100" md5="6c0a6479439e11e7e0f44cb6f973fadf"/>
+ </files>
+</download>

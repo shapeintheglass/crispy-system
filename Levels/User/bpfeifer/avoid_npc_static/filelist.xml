@@ -1,0 +1,6 @@
+<download name="avoid_npc_static" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="45171" md5="512cc13caacb3f24a4e99d6a9a34718c"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="shird_arklight" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="44310" md5="12b4f0a2725e1d679bc7328c5ddd0b5f"/>
+ </files>
+</download>

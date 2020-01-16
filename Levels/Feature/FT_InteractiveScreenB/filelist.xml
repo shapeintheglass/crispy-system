@@ -1,0 +1,6 @@
+<download name="ft_interactivescreenb" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2835195" md5="dc27139f64b553045e65869b62cf7bff"/>
+ </files>
+</download>

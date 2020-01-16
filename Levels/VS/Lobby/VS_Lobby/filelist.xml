@@ -1,0 +1,6 @@
+<download name="vs_lobby" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="169007" md5="58f1b46a71ac07c67738311874f5ec0c"/>
+ </files>
+</download>

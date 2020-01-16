@@ -1,0 +1,10 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="1520" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.049706571,0.029556841,0.068478175" Emittance="0.45641103,0.34191445,0.71569365,100" Opacity="0.99000001" Shininess="150" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/noise/aliennoise_2x2_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/noise/aliennoise_2x2_ddn.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/noise/aliennoise_2x2_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoise_02_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.017000001" DeformAnimSpeed="0.25600001" GlobalIlluminationAmount="1" DeformTile="0.177"/>
+</Material>

@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="80" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.25415212,0.35640016,0.97344542" Specular="0,0,0" Emittance="0.0036765076,0.11953845,0.29613829,10000" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/electricalring_seq_00_dif.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/temporary/nullwave_flowmap_00.tif"/>
+  <Texture Map="Emittance" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.1" FlowSpeed="3.5"/>
+</Material>

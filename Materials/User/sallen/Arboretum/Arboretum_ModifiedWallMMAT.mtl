@@ -1,0 +1,53 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="0.17144112,0.17788844,0.19461785" Emissive="0,0,0" GenMask="A0080000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl1" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.49693301,0.49693301,0.49693301" Emissive="0,0,0" GenMask="80080000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl2" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_01_conc_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_01_conc_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.17144112,0.17788844,0.19461785" Emissive="0,0,0" GenMask="A0080000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl3" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.17144112,0.17788844,0.19461785" Emissive="0,0,0" GenMask="A0080000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl4" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="80000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl5" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures/>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="80000000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl6" Opacity="1" Shader="Illum" Shininess="10" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures/>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.17144112,0.17788844,0.19461785" Emissive="0,0,0" GenMask="A0080000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl7" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_outer_05_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

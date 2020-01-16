@@ -1,0 +1,6 @@
+<download name="ft_medicalbay" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="115174" md5="8bd6c8c3c3aef5b289ff041824d1cbb9"/>
+ </files>
+</download>

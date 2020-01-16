@@ -1,0 +1,6 @@
+<download name="sshain_explosivetank" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38244" md5="82784d402a91262260df56f383fed186"/>
+ </files>
+</download>

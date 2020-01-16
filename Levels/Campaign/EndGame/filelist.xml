@@ -1,0 +1,6 @@
+<download name="endgame" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2915242" md5="8fc8d9025ad636c1073194d881ee5af7"/>
+ </files>
+</download>

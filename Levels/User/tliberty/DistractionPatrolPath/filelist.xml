@@ -1,0 +1,6 @@
+<download name="distractionpatrolpath" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2841590" md5="59e59b8870ac5a0c3270e64be24fce81"/>
+ </files>
+</download>

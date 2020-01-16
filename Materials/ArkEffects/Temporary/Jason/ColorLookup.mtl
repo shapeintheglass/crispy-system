@@ -1,0 +1,9 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="800000000000040" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/smoke/white_smoke_00.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/distortionmaps/tilenoise_01_ddn.tif"/>
+  <Texture Map="[1] Custom" File="textures/arkeffects/glows/lensflarehorizontal_00.tif"/>
+ </Textures>
+ <PublicParams ColLookupAmplitude="1" GlobalIlluminationAmount="1" ColLookupColPhase="1"/>
+</Material>

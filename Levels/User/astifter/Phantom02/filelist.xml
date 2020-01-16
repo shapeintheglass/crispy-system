@@ -1,0 +1,6 @@
+<download name="phantom02" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="36749" md5="0d4bac895973d598219cb69a3bfda322"/>
+ </files>
+</download>

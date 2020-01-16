@@ -1,0 +1,9 @@
+
+<Material MtlFlags="2623522" Shader="Particles" GenMask="500" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.37626216,0.49102089,0.63075727" Opacity="1" Shininess="255" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glass/smallglassshards_512x4.tif"/>
+  <Texture Map="Bumpmap" File="textures/generic/glass/glass_clear_ddna.tif"/>
+  <Texture Map="Environment" File="nearest_cubemap" TexType="Nearest Cube-Map probe for alpha blended"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1"/>
+</Material>

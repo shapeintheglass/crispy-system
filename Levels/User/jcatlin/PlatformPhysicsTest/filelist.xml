@@ -1,0 +1,6 @@
+<download name="platformphysicstest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="38663" md5="f97e8986f28e38fcef2294c5ff394ef7"/>
+ </files>
+</download>

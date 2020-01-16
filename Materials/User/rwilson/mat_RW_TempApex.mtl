@@ -1,0 +1,8 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emittance="1,1,1,40" GenMask="2000000400000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Flesh_Apex" vertModifType="0">
+ <Textures>
+  <Texture File="textures/user/rwilson/rw_apextemptex.tif" Map="Diffuse"/>
+  <Texture File="textures/user/rwilson/rw_apextemptex.tif" Map="Emittance"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

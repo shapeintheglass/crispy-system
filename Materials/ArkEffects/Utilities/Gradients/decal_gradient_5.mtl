@@ -1,0 +1,7 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="20000000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Opacity="0.40000001" Shininess="255" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decals/gradient_1.tif" IsTileU="0" IsTileV="0"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1"/>
+</Material>

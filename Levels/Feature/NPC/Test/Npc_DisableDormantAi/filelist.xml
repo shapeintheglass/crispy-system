@@ -1,0 +1,6 @@
+<download name="npc_disabledormantai" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2839860" md5="c30e1dc264019e6b0e9bd086ca99ac59"/>
+ </files>
+</download>

@@ -1,0 +1,10 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="2000000000822" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/fx_zoo_00.tif"/>
+  <Texture Map="Decal" File="textures/arkeffects/utilities/flipbookseq_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/utilities/flipbookseq_00.tif"/>
+  <Texture Map="Opacity" File="textures/arkeffects/utilities/gradientmap_00.tif"/>
+ </Textures>
+ <PublicParams BlendFalloff="24.299999" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="1.9" BlendLayer2Specular="0.0418" IndirectColor="0.25,0.25,0.25"/>
+</Material>

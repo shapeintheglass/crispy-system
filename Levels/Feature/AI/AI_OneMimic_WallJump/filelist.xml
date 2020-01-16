@@ -1,0 +1,6 @@
+<download name="ai_onemimic_walljump" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="77792" md5="5acd2c18ce0927913fc9984b155554f8"/>
+ </files>
+</download>

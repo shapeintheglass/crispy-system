@@ -1,0 +1,6 @@
+<download name="sshain_1023_signalreceiverreportsfalsepositives" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="39038" md5="52edee557e86032892ee992e8e7cff41"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="sshain_doors" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2841508" md5="69f622f22d568c0781a0f7fc75d3ae2f"/>
+ </files>
+</download>

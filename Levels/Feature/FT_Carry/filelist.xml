@@ -1,0 +1,6 @@
+<download name="ft_carry" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2844021" md5="34b29367b77247246e2e7d9a51a6c083"/>
+ </files>
+</download>

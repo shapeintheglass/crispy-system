@@ -1,0 +1,11 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="40020080000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.45641103,0.64447981,0.47353151" Specular="0.0085681258,0.84687334,0.0024282159" Emittance="1,1,1,1" Opacity="1" Shininess="250" AlphaTest="0.80000001" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/decal/liquid/liquidspill_02a_dif.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/decal/liquid/liquidspill_02a_ddn.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/arkeffects/utilities/solid_white.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="0.75" DecalAlphaMult="1"/>
+</Material>

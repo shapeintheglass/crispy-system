@@ -1,0 +1,6 @@
+<download name="crewshot" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="1757084" md5="278d45f125c5551f6a8b508bd83b64a6"/>
+ </files>
+</download>

@@ -1,0 +1,6 @@
+<download name="choppyfans" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="180542" md5="51d4e2a30f9b1c462972706987b424c7"/>
+ </files>
+</download>

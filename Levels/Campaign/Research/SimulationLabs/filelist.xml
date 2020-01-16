@@ -1,0 +1,6 @@
+<download name="simulationlabs" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="5360540" md5="f0fd5d2aba433a8bcc781967670a8c2d"/>
+ </files>
+</download>

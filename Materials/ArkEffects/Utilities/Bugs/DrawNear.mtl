@@ -1,0 +1,9 @@
+
+<Material MtlFlags="540704" Shader="Illum" GenMask="20000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.49693301,0.49693301,0.49693301" Emissive="0,0,0" Shininess="10" Opacity="0.99000001" GlowAmount="2" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/utilities/solid_white.tif">
+   <TexMod TileV="0.2" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="-1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="5"/>
+  </Texture>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

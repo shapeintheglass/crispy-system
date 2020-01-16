@@ -1,0 +1,6 @@
+<download name="gravlifttest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="55873" md5="16e8a8ae4a2b9e632548523d1e45ab0f"/>
+ </files>
+</download>

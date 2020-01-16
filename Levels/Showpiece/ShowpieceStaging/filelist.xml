@@ -1,0 +1,6 @@
+<download name="showpiecestaging" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37980" md5="417417a5caec9f36ea30381c669c46b8"/>
+ </files>
+</download>

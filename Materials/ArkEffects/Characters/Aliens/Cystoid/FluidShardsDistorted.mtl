@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526336" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.45078582,0.3712377,0.29177067" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/Screen/DiffuseShard_02.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/DistortionMaps/TileNoise_00_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.024" DeformAnimSpeed="0.77399999" GlobalIlluminationAmount="0.5" DeformTile="0.063000001"/>
+</Material>

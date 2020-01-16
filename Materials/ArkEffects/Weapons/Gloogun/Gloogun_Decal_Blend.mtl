@@ -1,0 +1,13 @@
+
+<Material MtlFlags="524288" Shader="Illum" GenMask="40020080100812" StringGenMask="%BLENDLAYER%BLENDSPEC%DECAL%EMITTANCE_MAP_MASK%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.19120172,0.1441285,0.052860651" Opacity="1" Shininess="239" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/weapon/gloogun/glooball_liquid_decal_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/arkeffects/weapon/gloogun/glooball_liquid_decal_ddna.tif"/>
+  <Texture Map="Specular" File="textures/arkeffects/weapon/gloogun/glooball_liquid_spec.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/weapon/gloogun/glooball_hardened_decal_diff.tif"/>
+  <Texture Map="[1] Custom" File="textures/arkeffects/weapon/gloogun/glooball_hardened_decal_ddna.tif"/>
+  <Texture Map="Opacity" File="textures/arkeffects/weapon/gloogun/glooball_blendmap_diff.tif"/>
+  <Texture Map="[2] Custom" File="textures/arkeffects/weapon/gloogun/glooball_hardened_spec.tif"/>
+ </Textures>
+ <PublicParams BlendFalloff="10" EmittanceMapGamma="1" DecalDiffuseOpacity="1" BlendLayer2Tiling="1" DecalFalloff="1" SSSIndex="0" BlendMaskTiling="1" DecalAlphaMult="1" BlendFactor="3" BlendLayer2Specular="0.02"/>
+</Material>

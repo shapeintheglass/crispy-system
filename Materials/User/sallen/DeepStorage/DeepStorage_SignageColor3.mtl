@@ -1,0 +1,8 @@
+
+<Material Diffuse="0.6795426,0.72305524,0.93011099" Emissive="0,0,0" GenMask="800800000000" LayerAct="1" MatTemplate="" MtlFlags="524288" Opacity="1" Shader="Illum" Shininess="255" Specular="0.6795426,0.34191445,0.17144112" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+ <Textures>
+  <Texture File="objects/pbs_reference/conductor_diff.tif" Map="Diffuse"/>
+  <Texture File="objects/pbs_reference/gloss20_ddna.tif" Map="Bumpmap"/>
+ </Textures>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

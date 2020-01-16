@@ -1,0 +1,8 @@
+
+<Material MtlFlags="526340" Shader="Particles" GenMask="20" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.059511244,0.059511244,0.059511244" Emittance="1,1,1,500" Opacity="1" Shininess="50" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/glows/lightninground_00.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/distortionmaps/tilenoisesharp_01_ddn.tif"/>
+ </Textures>
+ <PublicParams DeformAmount="0.101" DeformAnimSpeed="0.266" GlobalIlluminationAmount="1" DeformTile="0.103"/>
+</Material>

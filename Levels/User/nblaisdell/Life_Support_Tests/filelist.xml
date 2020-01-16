@@ -1,0 +1,6 @@
+<download name="life_support_tests" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="398407" md5="9537e4f5d7bc9fea9e19c720dd2edfef"/>
+ </files>
+</download>

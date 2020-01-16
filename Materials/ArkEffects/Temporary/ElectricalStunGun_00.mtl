@@ -1,0 +1,9 @@
+
+<Material MtlFlags="524288" Shader="Particles" GenMask="1080" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0.059511244,0.32777813,0.98225069,2000" Opacity="1" Shininess="10" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/arkeffects/electricity/stungunlighting_02.tif"/>
+  <Texture Map="Detail" File="textures/arkeffects/electricity/stungunlighting_02.tif"/>
+  <Texture Map="Custom" File="textures/arkeffects/electricity/stungunlighting_flowmap_02.tif"/>
+ </Textures>
+ <PublicParams GlobalIlluminationAmount="1" FlowTile="0.38499999" FlowSpeed="10.44"/>
+</Material>

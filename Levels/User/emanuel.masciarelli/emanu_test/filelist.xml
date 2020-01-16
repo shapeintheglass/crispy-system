@@ -1,0 +1,6 @@
+<download name="emanu_test" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="80115" md5="47958a50f04c96565abe44cdb29f812b"/>
+ </files>
+</download>

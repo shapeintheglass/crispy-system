@@ -1,0 +1,6 @@
+<download name="ai_humanshittest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2849062" md5="1ea85ab2f5adb6d4ad927d821e804d86"/>
+ </files>
+</download>

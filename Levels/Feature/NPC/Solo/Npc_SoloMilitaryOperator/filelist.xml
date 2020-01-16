@@ -1,0 +1,6 @@
+<download name="npc_solomilitaryoperator" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="56791" md5="df828e451744083002729160c26e2939"/>
+ </files>
+</download>

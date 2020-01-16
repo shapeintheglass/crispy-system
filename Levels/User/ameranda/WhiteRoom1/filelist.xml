@@ -1,0 +1,6 @@
+<download name="whiteroom1" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="161185" md5="faaf00b78f99de4b6b69e73486e19f80"/>
+ </files>
+</download>

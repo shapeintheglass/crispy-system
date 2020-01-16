@@ -1,0 +1,6 @@
+<download name="warm_vessels" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="42650" md5="1ab2700e7fdbb1642771f32f2c50b4c4"/>
+ </files>
+</download>

@@ -1,0 +1,130 @@
+
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="Collision" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" StringGenMask="" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.4793202,0.41254264,0.36625263" GenMask="802800000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Lobby_Wood" Opacity="1" Shader="Illum" Shininess="216" Specular="0.064803272,0.064803272,0.064803272" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Wood_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/simulation/transtar_sim_office_a/transtar_sim_office_a_wood_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/simulation/transtar_sim_office_a/transtar_sim_office_a_wood_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_basic_01_diff.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="400800000000010" LayerAct="1" MatTemplate="" MtlFlags="36178080" Name="Lobby_Glass" Opacity="0.56" Shader="ArkSimpleGlass" Shininess="216" Specular="0.51491767,0.51491767,0.51491767" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" vertModifType="0">
+   <Textures>
+    <Texture File="textures/generic/glass/interior_space_glass_diff.tif" Map="Diffuse"/>
+    <Texture File="textures/generic/glass/interior_space_glass_ddn.tif" Map="Bumpmap"/>
+    <Texture File="textures/generic/glass/interior_space_glass_tint.tif" Map="Specular"/>
+    <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+   </Textures>
+   <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0" TintColor="1,1,1"/>
+  </Material>
+  <Material Diffuse="0,0,0" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="34078848" Name="Lobby_Gold" Opacity="1" Shader="Illum" Shininess="208" Specular="0.12743771,0.042311415,0.005181517" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.046665091,0.046665091,0.046665091" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Lobby_LightMetal" Opacity="1" Shader="Illum" Shininess="206" Specular="0.18447502,0.18447502,0.18447502" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/user/jfuhrer/crewquarters_a.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.75294232,0.75294232,0.75294232" GenMask="802800000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Lobby_DarkMetal" Opacity="1" Shader="Illum" Shininess="219" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Wood_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/ceiling_panel_tile_a/ceiling_panel_tile_a_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/ceiling_panel_tile_a/ceiling_panel_tile_a_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/ceiling_panel_tile_a/ceiling_panel_tile_a_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.49693301,0.49693301,0.49693301" GenMask="802000000000000" LayerAct="1" MatTemplate="" MtlFlags="34078848" Name="Lobby_Screen" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Electrical" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_01_conc_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_01_conc_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.55834049,0.85499275,0.85499275" Emittance="1,1,1,40" GenMask="2000000400000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Lobby_Emissive_A" Opacity="1" Shader="Illum" Shininess="10" Specular="0,0,0" StringGenMask="%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/user/jfuhrer/crewquarters_a.tif" Map="Diffuse"/>
+    <Texture File="textures/user/jfuhrer/crewquarters_a.tif" Map="Emittance"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.1559265,0.21586053,0.31398875" GenMask="802800000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Lobby_DarkMarble" Opacity="1" Shader="Illum" Shininess="237" Specular="0.4793202,0.4793202,0.4793202" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_spec.tif" Map="Specular"/>
+    <Texture File="textures/user/jfuhrer/lobbytile.tif" Map="Custom"/>
+    <Texture File="objects/user/_artcorner/artcorner/floor_tile_a_ddna.tif" Map="[1] Custom"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,1,1" GenMask="802800000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Lobby_LightMarble" Opacity="1" Shader="Illum" Shininess="232" Specular="0.50888133,0.50888133,0.50888133" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/user/jfuhrer/lobby/lobby_test/floor_stone_a_white_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/floor_stone_a/floor_stone_a_spec.tif" Map="Specular"/>
+    <Texture File="textures/user/jfuhrer/lobbytile.tif" Map="Custom"/>
+    <Texture File="objects/user/_artcorner/artcorner/floor_tile_a_ddna.tif" Map="[1] Custom"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.39157251,0.42869052,0.47353151" GenMask="802800000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl11" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_tile_b/floor_carpet_tile_b_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_tile_b/floor_carpet_tile_b_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_tile_b/floor_carpet_tile_b_spec.tif" Map="Specular"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.24620135,0.24620135,0.24620135" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="1,1,1" GenMask="802800000008004" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl12" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%ALPHAMASK_DETAILMAP%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thin_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_ddna.tif" Map="Bumpmap"/>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_spec.tif" Map="Specular"/>
+    <Texture File="objects/environment/architecture/exec/floor_carpet_pattern_a/floor_carpet_pattern_a_det.tif" Map="Detail">
+     <TexMod TexMod_RotateType="2" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="14" TileV="7"/>
+    </Texture>
+    <Texture File="objects/user/_artcorner/artcorner/floor_carpet_a_worn_diff.tif" Map="Custom"/>
+    <Texture File="objects/user/_artcorner/artcorner/floor_carpet_a_wearmask_diff.tif" Map="Opacity"/>
+   </Textures>
+   <PublicParams DetailBumpScale="0.41" DetailDiffuseScale="0.52600002" DetailGlossScale="0.50999999" EmittanceMapGamma="1" IndirectColor="1,1,1" SSSIndex="0"/>
+  </Material>
+  <Material Diffuse="0.49693301,0.49693301,0.49693301" GenMask="802000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl13" Opacity="1" Shader="Illum" Shininess="255" Specular="0.021219011,0.021219011,0.021219011" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Concrete" vertModifType="0">
+   <Textures>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_01_conc_diff.tif" Map="Diffuse"/>
+    <Texture File="objects/environment/architecture/exec/exec_standard_a/exec_standard_a_6m_01_conc_ddna.tif" Map="Bumpmap"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material AlphaTest="1" Diffuse="0.59061897,0.93011099,0.9046613" Emittance="1,1,1,25.600002" GenMask="2000000400000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="SubMtl14" Opacity="1" Shader="Illum" Shininess="63" Specular="0.75294232,0.75294232,0.75294232" StringGenMask="%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Large" vertModifType="0">
+   <Textures>
+    <Texture File="textures/user/jfuhrer/table_neodeco_b_emissive.tif" Map="Diffuse"/>
+    <Texture File="textures/user/jfuhrer/table_neodeco_b_emissive.tif" Map="Emittance"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="1,1,1" GenMask="600800000010010" LayerAct="1" MatTemplate="" MtlFlags="36178080" Name="SubMtl15" Opacity="0.99000001" Shader="ArkSimpleGlass" Shininess="220" Specular="1,1,1" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%SPECULAR_MAP%TINT_MAP%UNLIT" SurfaceType="mat_Glass_Unbreakable" vertModifType="0">
+   <Textures>
+    <Texture File="textures/generic/glass/interior_space_glass_diff.tif" Map="Diffuse"/>
+    <Texture File="textures/generic/glass/interior_space_glass_ddn.tif" Map="Bumpmap"/>
+    <Texture File="textures/generic/glass/interior_space_glass_tint.tif" Map="Specular"/>
+    <Texture File="nearest_cubemap" Map="Environment" TexType="7"/>
+   </Textures>
+   <PublicParams BackLightScale="0" BumpMapTile="1" BumpScale="0.14300001" CloudinessReducesGloss="0.5" IndirectColor="0.25,0.25,0.25" TintCloudiness="1" TintColor="1,1,1"/>
+  </Material>
+  <Material CloakAmount="0" Diffuse="0.0036765076,0.0036765076,0.0036765076" GenMask="2000000000000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Lobby_DullWhite" Opacity="1" Shader="Illum" Shininess="123" Specular="0.052860651,0.052860651,0.052860651" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_Metal_Thick_Medium" vertModifType="0">
+   <Textures>
+    <Texture File="textures/user/jfuhrer/crewquarters_a.tif" Map="Diffuse"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" IndirectColor="0.25,0.25,0.25" SSSIndex="0"/>
+</Material>

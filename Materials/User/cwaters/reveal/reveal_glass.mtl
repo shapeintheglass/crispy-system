@@ -1,0 +1,5 @@
+
+<Material CloakAmount="0" Diffuse="1,1,1" Emissive="0,0,0" GenMask="20000000010" LayerAct="1" MatTemplate="" MtlFlags="526336" Opacity="1" Shader="Glass" Shininess="10" Specular="0,0,0" StringGenMask="%BILINEAR_FP16%SCENE_SELECTOR" SurfaceType="mat_Glass">
+ <Textures/>
+ <PublicParams BackLightScale="0.5" BumpMapTile="1" BumpScale="0.1" FresnelBias="1" FresnelScale="1" IndirectColor="0.25,0.25,0.25" TintCloudiness="0.354" TintColor="1,1,1"/>
+</Material>

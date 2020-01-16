@@ -1,0 +1,6 @@
+<download name="mimic_extraction_process" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="43283" md5="c7544115b246236fc41c76244428ec2c"/>
+ </files>
+</download>

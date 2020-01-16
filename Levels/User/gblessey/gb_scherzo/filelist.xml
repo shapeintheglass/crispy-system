@@ -1,0 +1,6 @@
+<download name="gb_scherzo" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="37706" md5="567252bb43f5c097663211d7a9c7336c"/>
+ </files>
+</download>

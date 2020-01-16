@@ -1,0 +1,16 @@
+
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="1" GlowAmount="1" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="Tpath_SleepGlo" Opacity="0.49000001" Shader="Illum" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_Metal_Thick_Medium" vertModifType="3">
+   <Textures>
+    <Texture File="textures/defaults/white.dds" Map="Diffuse"/>
+   </Textures>
+   <VertexDeform DividerW="0.2" DividerX="0.0099999998" DividerY="0.30000001" DividerZ="0.2" NoiseScale="1,1,1" Type="3"/>
+   <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Diffuse="0.5,0.5,0.5" Emissive="0,0,0" GenMask="0" LayerAct="1" MatTemplate="" MtlFlags="525440" Name="Tpathangerprox" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0.5,0.5,0.5" StringGenMask="" SurfaceType="mat_Metal_Thick_Medium">
+   <Textures/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelBias="1" FresnelScale="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseContrast="1" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

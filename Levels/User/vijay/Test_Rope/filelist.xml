@@ -1,0 +1,6 @@
+<download name="test_rope" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="44430" md5="8e6ded401e6a89809016bd0ebf4e95b5"/>
+ </files>
+</download>
