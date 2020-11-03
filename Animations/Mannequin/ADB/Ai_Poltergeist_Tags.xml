@@ -1,0 +1,15 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Stance">
+   <Tag name="Combat"/>
+   <Tag name="Relaxed"/>
+   <Tag name="InvestigateAnomaly"/>
+   <Tag name="InvestigateDanger"/>
+   <Tag name="InvestigateVision"/>
+   <Tag name="Hunt"/>
+  </Group>
+  <Tag name="Disable"/>
+  <Tag name="LookPose"/>
+ </Tags>
+</TagDefinition>

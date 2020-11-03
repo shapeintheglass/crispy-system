@@ -1,0 +1,7 @@
+
+<History StartTime="0" EndTime="101">
+ <Item Time="0" TagState="pistol"/>
+ <Item Time="0" ScopeMask="FullBody1P" FragmentID="Motion_Idle" OptionIdx="4294967294"/>
+ <Item Time="0" ScopeMask="IdlePose1P" FragmentID="Pose_IdlePose" OptionIdx="4294967294"/>
+ <Item Time="0.1" ScopeMask="Torso1P" FragmentID="Wpn_Reload" OptionIdx="4294967294"/>
+</History>

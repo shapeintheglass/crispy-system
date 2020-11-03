@@ -1,0 +1,16 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$TracksDatabase" path="Animations/Characters/Player/*.dba"/>
+  <Animation name="#filepath" path="Animations/Characters/Player"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="#filepath" path="animations/Cutscenes"/>
+  <Animation name="*" path="*/*/*_Player.caf"/>
+  <Animation name="*" path="*/*/*_PlayerMaleAlien.caf"/>
+  <Animation name="#filepath" path="Animations/MarketingPoses"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+ </AnimationList>
+</Params>

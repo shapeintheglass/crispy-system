@@ -1,0 +1,9 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Position">
+   <Tag name="Extended"/>
+   <Tag name="Attacking"/>
+  </Group>
+ </Tags>
+</TagDefinition>

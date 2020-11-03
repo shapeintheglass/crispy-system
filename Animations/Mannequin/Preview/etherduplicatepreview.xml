@@ -1,0 +1,8 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/etherDuplicate.xml"/>
+ <contexts>
+  <contextData name="Main" enabled="1" database="Animations/Mannequin/ADB/EtherDuplicateDB.adb" context="Main" model="Objects/characters/Player/EtherDuplicate.cdf"/>
+ </contexts>
+ <History StartTime="0" EndTime="0"/>
+</MannequinPreview>

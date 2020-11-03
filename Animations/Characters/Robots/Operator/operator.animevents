@@ -1,0 +1,52 @@
+
+<anim_event_list>
+ <animation name="animations/cutscenes/vs/sq01/cs_vs_sq01_prepareforextract_grabsphere_operator.caf">
+  <event name="sound" time="0.036499999" endTime="0.036499999" parameter="Play_PodBot_TakeOff_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.056699999" endTime="0.056699999" parameter="Play_PodBot_TakeOff_Telem" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1156" endTime="0.1156" parameter="Play_PodBot_MoveForward_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1236" endTime="0.1236" parameter="Play_PodBot_FlyAway_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20479999" endTime="0.20479999" parameter="Play_PodBot_FlyAway_Telem" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2818" endTime="0.2818" parameter="Play_PodBot_MoveDown_Droid" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35679999" endTime="0.35679999" parameter="Play_PodBot_Push_Droid" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3691" endTime="0.3691" parameter="Play_PodBot_FlyAway_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.062899999" endTime="0.062899999" parameter="Play_OperatorBot_Mechanics_01" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.072999999" endTime="0.072999999" parameter="Play_OperatorBot_FlyTowardsGoal" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28546536" endTime="0.28546536" parameter="Play_OperatorBot_Clasp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3116" endTime="0.3116" parameter="Play_OperatorBot_Mechanics_02" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6593942" endTime="0.6593942" parameter="Play_OperatorBot_Clasp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70550001" endTime="0.70550001" parameter="Play_OperatorBot_Mechanics_03" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.96450305" endTime="0.96450305" parameter="Play_OperatorBot_Mechanics_01" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1188" endTime="0.1188" parameter="Play_OperatorBot_Move_1ShotA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.035" endTime="0.035" parameter="Play_OperatorBot_TurnOn" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.375" endTime="0.375" parameter="Play_OperatorBot_Move_1ShotB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4188641" endTime="0.4188641" parameter="Play_OperatorBot_Move_1ShotB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61449999" endTime="0.61449999" parameter="Play_OperatorBot_Load_Sample" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7403" endTime="0.7403" parameter="Play_OperatorBot_Move_1ShotA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.84579998" endTime="0.84579998" parameter="Play_OperatorBot_Move_1ShotB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.85789996" endTime="0.85789996" parameter="Play_OperatorBot_Move_1ShotA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.068599999" endTime="0.068599999" parameter="Play_Operator_DialogLine_1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/vs/sq01/cs_vs_sq01_sendtoexam_operator.caf">
+  <event name="sound" time="0.015999999" endTime="0.015999999" parameter="Play_PodBot_TakeOff_Droid" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.093199998" endTime="0.093199998" parameter="Play_PodBot_FlyAway_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2392" endTime="0.2392" parameter="Play_PodBot_FlyAway_Telem" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3407" endTime="0.3407" parameter="Play_PodBot_MoveBack_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37423936" endTime="0.37423936" parameter="Play_PodBot_Move_Short_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56693715" endTime="0.56693715" parameter="Play_PodBot_SlowDown_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69150001" endTime="0.69150001" parameter="Play_PodBot_Land_Telem" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73210001" endTime="0.73210001" parameter="Play_PodBot_Push_Droid" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78289998" endTime="0.78289998" parameter="Play_PodBot_Move_Medium_Energy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77069998" endTime="0.77069998" parameter="Play_PodBot_TakeOff_Telem" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0099999998" endTime="0.0099999998" parameter="Play_OperatorBot_Clasp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.083099999" endTime="0.083099999" parameter="Play_OperatorBot_Move_1ShotA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1823" endTime="0.1823" parameter="Play_OperatorBot_Move_1ShotB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2271" endTime="0.2271" parameter="Play_OperatorBot_Mechanics_01" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.294" endTime="0.294" parameter="Play_OperatorBot_Clasp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3529" endTime="0.3529" parameter="Play_OperatorBot_Move_1ShotB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4542" endTime="0.4542" parameter="Play_OperatorBot_Move_1ShotA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62720001" endTime="0.62720001" parameter="Play_OperatorBot_Move_1ShotA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68180001" endTime="0.68180001" parameter="Play_OperatorBot_Load_Sample" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79619998" endTime="0.79619998" parameter="Play_OperatorBot_Move_1ShotA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/crewfacilities/sq01/crewfacilities_sq01_cookintro_operator.caf"/>
+</anim_event_list>

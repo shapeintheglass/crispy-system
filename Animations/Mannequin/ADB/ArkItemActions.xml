@@ -1,0 +1,53 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Idle"/>
+  <Tag name="Idle_Break"/>
+  <Tag name="Interact"/>
+  <Tag name="Anim_FullBodyControlled"/>
+  <Tag name="Anim_ScriptedSequence"/>
+  <Tag name="Wpn_ChargeUp"/>
+  <Tag name="Wpn_ChargeDown"/>
+  <Tag name="Wpn_Fire"/>
+  <Tag name="Wpn_Reload"/>
+  <Tag name="Wpn_Reload_In"/>
+  <Tag name="Wpn_Reload_Out"/>
+  <Tag name="Wpn_Select"/>
+  <Tag name="Wpn_FireMode"/>
+  <Tag name="Wpn_LastBullet"/>
+  <Tag name="Wpn_OutOfAmmo"/>
+  <Tag name="Wpn_Melee"/>
+  <Tag name="Wpn_Throw"/>
+  <Tag name="Wpn_Unselect"/>
+  <Tag name="Motion_Land"/>
+  <Tag name="Motion_Slide"/>
+  <Tag name="Motion_Jump"/>
+  <Tag name="Reaction_Hit"/>
+  <Tag name="Reaction_Death"/>
+  <Tag name="Pose_AimPoses"/>
+  <Tag name="Pose_IdlePose"/>
+  <Tag name="Sfx_Zoom_In"/>
+  <Tag name="Sfx_Zoom_Out"/>
+  <Tag name="Sfx_Zoom_Lean"/>
+  <Tag name="Sfx_Pick"/>
+  <Tag name="Sfx_Pick_Ammo"/>
+  <Tag name="Sfx_Empty_Clip"/>
+  <Tag name="Fp_Bump"/>
+  <Tag name="Wpn_Modify"/>
+  <Tag name="Fp_Idle"/>
+  <Tag name="Fp_Land"/>
+  <Tag name="Fp_Movement"/>
+  <Tag name="Fp_None"/>
+  <Tag name="Fp_Sway"/>
+  <Tag name="Sfx_Hit"/>
+  <Tag name="Fp_Jump"/>
+  <Tag name="Ladder_Climb"/>
+  <Tag name="Ladder_In"/>
+  <Tag name="Ladder_Out"/>
+  <Tag name="Wpn_Modify_Out"/>
+  <Tag name="Ledge_Grab"/>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_InAir"/>
+  <Tag name="Motion_Movement"/>
+ </Tags>
+</TagDefinition>

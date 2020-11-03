@@ -1,0 +1,11 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/Ai_Phantom_ControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Ai_Phantom" enabled="1" database="Animations/Mannequin/ADB/Ai_Phantom_Database.adb" context="Char3P" model="objects/characters/aliens/phantom/phantom.cdf"/>
+  <contextData name="SlavePlayer" database="Animations/Mannequin/ADB/Ai_Phantom_Database.adb" context="SlaveChar" tags="context_slave_player" model="objects/characters/player/player.cdf"/>
+ </contexts>
+ <History StartTime="0" EndTime="0">
+  <FragmentID Time="0" FragmentID="Motion_Idle"/>
+ </History>
+</MannequinPreview>

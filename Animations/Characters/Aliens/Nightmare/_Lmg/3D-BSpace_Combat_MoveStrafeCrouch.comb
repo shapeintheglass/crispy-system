@@ -1,0 +1,15 @@
+
+<CombinedBlendSpace>
+ <Dimensions>
+  <Param Name="Height" ParaScale="1"/>
+  <Param Name="MoveSpeed" ParaScale="2"/>
+  <Param Name="TravelAngle" ParaScale="1"/>
+ </Dimensions>
+ <AdditionalExtraction/>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Aliens/Nightmare/_lmg/2D-BSpace_Combat_MoveStrafe.bspace"/>
+  <BlendSpace AName="animations/Characters/Aliens/Nightmare/_lmg/2D-BSpace_Combat_CrouchStrafe.bspace"/>
+ </BlendSpaces>
+ <MotionCombination/>
+ <JointList/>
+</CombinedBlendSpace>

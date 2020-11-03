@@ -1,0 +1,10 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/Ai_Nightmare_ControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Ai_Beta" enabled="1" database="Animations/Mannequin/ADB/Ai_Nightmare_Database.adb" context="Char3P" model="Objects/characters/Aliens/Nightmare/Nightmare.cdf"/>
+ </contexts>
+ <History StartTime="0" EndTime="0">
+  <FragmentID Time="0" FragmentID="Motion_Idle"/>
+ </History>
+</MannequinPreview>

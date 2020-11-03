@@ -1,0 +1,10 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/Ai_Human_ControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Female" database="Animations/Mannequin/ADB/Ai_Human_Database.adb" context="Char3P" model="objects/characters/humans/genfemale/genfemale.cdf"/>
+  <contextData name="Wpn_Pistol" database="Animations/Mannequin/ADB/Ai_Human_WeaponPistol.adb" context="Weapon" tags="Pistol" model="objects/weapons/pistol/3p/pistol3p_01.cgf" attachment="r_handProp"/>
+  <contextData name="SlavePlayer" database="Animations/Mannequin/ADB/Ai_Human_Database.adb" context="SlaveChar" tags="context_slave_player" model="objects/characters/player/player.cdf"/>
+ </contexts>
+ <History StartTime="0" EndTime="0"/>
+</MannequinPreview>

@@ -1,0 +1,43 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Poltergeist_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_Poltergeist_FragmentIds.xml"/>
+ <FragmentDefs>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Motion_IdleTurn scopes="FullBody3P"/>
+  <Motion_IdleTurnBig scopes="FullBody3P"/>
+  <Melee scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Death scopes="FullBody3P"/>
+  <Reaction_Death scopes="FullBody3P"/>
+  <BlendRagdoll scopes="FullBody3P"/>
+  <Blinded scopes="FullBody3P"/>
+  <BreakGloo scopes="FullBody3P"/>
+  <Hypnotized scopes="FullBody3P"/>
+  <Lifted scopes="FullBody3P"/>
+  <Fall scopes="FullBody3P"/>
+  <Land_Stumble scopes="FullBody3P"/>
+  <Lifted_BumpCeiling scopes="FullBody3P"/>
+  <Land_Bump scopes="FullBody3P"/>
+  <Stunned scopes="FullBody3P"/>
+  <Search scopes="FullBody3P+TorsoDetail"/>
+  <Power_Throw scopes="FullBody3P"/>
+  <Power_Lift scopes="FullBody3P"/>
+  <Goo_In scopes="FullBody3P"/>
+  <Goo_Out scopes="FullBody3P"/>
+  <PushObstacle scopes="FullBody3P"/>
+  <Nullwave_React scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Mind_Jack_In scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Mind_Jack_Out scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Force_Resist scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Glood_Pose scopes="Torso3P+FullBody3P+TorsoDetail"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Torso3P layer="3" numLayers="2" context="Char3P"/>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <TorsoDetail layer="5" numLayers="2" context="Char3P"/>
+ </ScopeDefs>
+</ControllerDef>

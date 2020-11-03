@@ -1,0 +1,6 @@
+
+<anim_event_list>
+ <animation name="animations/characters/robots/operatormilitary/death/death_explode.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Operator_Death_Spindown" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

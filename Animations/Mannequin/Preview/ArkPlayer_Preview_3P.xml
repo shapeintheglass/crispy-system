@@ -1,0 +1,14 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/ArkPlayerControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Char3P" enabled="1" database="Animations/Mannequin/ADB/ArkPlayerDatabase3P.adb" context="Char3P" model="objects/characters/player/player.cdf"/>
+  <contextData name="Audio" enabled="1" database="Animations/Mannequin/ADB/ArkPlayerSounds.adb" context="Audio"/>
+  <contextData name="Wpn_Laser" database="Animations/Mannequin/ADB/ArkLasergunWeapon.adb" context="Weapon" tags="laser" model="objects/weapons/laser/1p/laser1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Shotgun" database="Animations/Mannequin/ADB/ArkShotgunWeapon.adb" context="Weapon" tags="shotgun" model="objects/weapons/shotgun/1p/shotgun1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Googun" database="Animations/Mannequin/ADB/ArkGoogunWeapon.adb" context="Weapon" tags="goo" model="objects/weapons/googun/1p/googun1p.cdf" attachment="Weapon"/>
+  <contextData name="Wpn_Wrench" database="Animations/Mannequin/ADB/ArkWrenchWeapon.adb" context="Weapon" tags="wrench" model="objects/weapons/wrench/1p/wrench1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Grenade" database="Animations/Mannequin/ADB/ArkRecyclerGrenadeWeapon.adb" context="Weapon" model="objects/weapons/recyclergrenade/1p/recyclergrenade1p.cdf" attachment="weapon"/>
+ </contexts>
+ <History StartTime="-0.0013270393" EndTime="-0.0013270393"/>
+</MannequinPreview>

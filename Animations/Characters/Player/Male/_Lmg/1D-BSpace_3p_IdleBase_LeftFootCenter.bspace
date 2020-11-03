@@ -1,0 +1,42 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param Name="TravelAngle" Min="-3.1400001" Max="3.1400001" Cells="12" Scale="1" SKey="0" EKey="1"/>
+ </Dimensions>
+ <AdditionalExtraction/>
+ <ExampleList>
+  <Example AName="3p_IdleBase_LeftFootCenter_Backward" PlaybackScale="1" SetPara0="-3.141"/>
+  <Example AName="3p_IdleBase_LeftFootCenter_BackwardRight" PlaybackScale="1" SetPara0="-2.355"/>
+  <Example AName="3p_IdleBase_LeftFootCenter_Right" PlaybackScale="1" SetPara0="-1.57"/>
+  <Example AName="3p_IdleBase_LeftFootCenter_ForwardRight" PlaybackScale="1" SetPara0="-0.785"/>
+  <Example AName="3p_IdleBase_LeftFootCenter_Forward" PlaybackScale="1" SetPara0="0"/>
+  <Example AName="3p_IdleBase_LeftFootCenter_ForwardLeft" PlaybackScale="1" SetPara0="+0.785"/>
+  <Example AName="3p_IdleBase_LeftFootCenter_Left" PlaybackScale="1" SetPara0="+1.57"/>
+  <Example AName="3p_IdleBase_LeftFootCenter_BackwardLeft" PlaybackScale="1" SetPara0="+2.355"/>
+  <Example AName="3p_IdleBase_LeftFootCenter_Backward" PlaybackScale="1" SetPara0="+3.141"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0=" 0" p1=" 1"/>
+  <Face p0=" 1" p1=" 2"/>
+  <Face p0=" 2" p1=" 3"/>
+  <Face p0=" 3" p1=" 4"/>
+  <Face p0=" 4" p1=" 5"/>
+  <Face p0=" 5" p1=" 6"/>
+  <Face p0=" 6" p1=" 7"/>
+  <Face p0=" 7" p1=" 8"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="0" i1="1" w0="0.9987278" w1="0.0012721724"/>
+  <VExample i0="0" i1="1" w0="0.27238047" w1="0.72761953"/>
+  <VExample i0="1" i1="2" w0="0.54545462" w1="0.45454535"/>
+  <VExample i0="2" i1="3" w0="0.81818187" w1="0.18181816"/>
+  <VExample i0="2" i1="3" w0="0.090909243" w1="0.90909076"/>
+  <VExample i0="3" i1="4" w0="0.36363661" w1="0.63636339"/>
+  <VExample i0="4" i1="5" w0="0.63636369" w1="0.36363631"/>
+  <VExample i0="5" i1="6" w0="0.90909106" w1="0.090908922"/>
+  <VExample i0="5" i1="6" w0="0.18181849" w1="0.81818151"/>
+  <VExample i0="6" i1="7" w0="0.4545458" w1="0.5454542"/>
+  <VExample i0="7" i1="8" w0="0.72762012" w1="0.27237988"/>
+  <VExample i0="7" i1="8" w0="0.0012727976" w1="0.9987272"/>
+ </VGrid>
+</ParaGroup>

@@ -1,0 +1,159 @@
+
+<anim_event_list>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d254f.caf">
+  <event bone="" dir="0,0,0" endTime="0.0641116391951" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d254f" time="0.0641116391951"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d250f.caf">
+  <event bone="" dir="0,0,0" endTime="0.114338310493" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d250f" time="0.114338310493"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d269a.caf">
+  <event bone="" dir="0,0,0" endTime="0.106336883914" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d269a" time="0.106336883914"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2432.caf">
+  <event bone="" dir="0,0,0" endTime="0.0660849894975" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2432" time="0.0660849894975"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2791.caf">
+  <event bone="" dir="0,0,0" endTime="0.138699528055" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2791" time="0.138699528055"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d26cd.caf">
+  <event bone="" dir="0,0,0" endTime="0.321333687566" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d26cd" time="0.321333687566"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d25e6.caf">
+  <event bone="" dir="0,0,0" endTime="0.176868976296" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d25e6" time="0.176868976296"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d27bc.caf">
+  <event bone="" dir="0,0,0" endTime="0.146116616732" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d27bc" time="0.146116616732"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d269d.caf">
+  <event bone="" dir="0,0,0" endTime="0.129678870935" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d269d" time="0.129678870935"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d25d5.caf">
+  <event bone="" dir="0,0,0" endTime="0.243568428421" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d25d5" time="0.243568428421"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e558c9331.caf">
+  <event bone="" dir="0,0,0" endTime="0.15663604688" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e558c9331" time="0.15663604688"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d25d8.caf">
+  <event bone="" dir="0,0,0" endTime="0.156969546918" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d25d8" time="0.156969546918"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2431.caf">
+  <event bone="" dir="0,0,0" endTime="0.103413143148" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2431" time="0.103413143148"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d26ca.caf">
+  <event bone="" dir="0,0,0" endTime="0.141234127868" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d26ca" time="0.141234127868"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2755.caf">
+  <event bone="" dir="0,0,0" endTime="0.112431282142" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2755" time="0.112431282142"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d27bf.caf">
+  <event bone="" dir="0,0,0" endTime="0.0849918638127" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d27bf" time="0.0849918638127"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d269c.caf">
+  <event bone="" dir="0,0,0" endTime="0.0717275709922" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d269c" time="0.0717275709922"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e559304aa.caf">
+  <event bone="" dir="0,0,0" endTime="0.0448405120588" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e559304aa" time="0.0448405120588"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2659.caf">
+  <event bone="" dir="0,0,0" endTime="0.0630640794224" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2659" time="0.0630640794224"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2810.caf">
+  <event bone="" dir="0,0,0" endTime="0.281722933644" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2810" time="0.281722933644"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d27be.caf">
+  <event bone="" dir="0,0,0" endTime="0.164556962025" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d27be" time="0.164556962025"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d242e.caf">
+  <event bone="" dir="0,0,0" endTime="0.119353137634" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d242e" time="0.119353137634"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d27b6.caf">
+  <event bone="" dir="0,0,0" endTime="0.193079383542" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d27b6" time="0.193079383542"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d254e.caf">
+  <event bone="" dir="0,0,0" endTime="0.0615029156123" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d254e" time="0.0615029156123"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d254b.caf">
+  <event bone="" dir="0,0,0" endTime="0.0891593258313" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d254b" time="0.0891593258313"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2657.caf">
+  <event bone="" dir="0,0,0" endTime="0.0752874273705" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2657" time="0.0752874273705"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e558c9524.caf">
+  <event bone="" dir="0,0,0" endTime="0.170291067247" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e558c9524" time="0.170291067247"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d25d7.caf">
+  <event bone="" dir="0,0,0" endTime="0.104755570336" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d25d7" time="0.104755570336"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e558c9304.caf">
+  <event bone="" dir="0,0,0" endTime="0.14976599064" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e558c9304" time="0.14976599064"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d26c9.caf">
+  <event bone="" dir="0,0,0" endTime="0.123492952963" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d26c9" time="0.123492952963"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d26cc.caf">
+  <event bone="" dir="0,0,0" endTime="0.187075833579" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d26cc" time="0.187075833579"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d25d9.caf">
+  <event bone="" dir="0,0,0" endTime="0.0878846686998" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d25d9" time="0.0878846686998"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2658.caf">
+  <event bone="" dir="0,0,0" endTime="0.0526121605667" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2658" time="0.0526121605667"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d27f3.caf">
+  <event bone="" dir="0,0,0" endTime="0.102135980746" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d27f3" time="0.102135980746"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d254d.caf">
+  <event bone="" dir="0,0,0" endTime="0.186452513966" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d254d" time="0.186452513966"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e558c941a.caf">
+  <event bone="" dir="0,0,0" endTime="0.107203246534" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e558c941a" time="0.107203246534"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d25d6.caf">
+  <event bone="" dir="0,0,0" endTime="0.039384536552" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d25d6" time="0.039384536552"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d26ce.caf">
+  <event bone="" dir="0,0,0" endTime="0.0426991686173" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d26ce" time="0.0426991686173"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e5530210c.caf">
+  <event bone="" dir="0,0,0" endTime="0.264870931538" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e5530210c" time="0.264870931538"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d24b9.caf">
+  <event bone="" dir="0,0,0" endTime="0.107435058294" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d24b9" time="0.107435058294"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2758.caf">
+  <event bone="" dir="0,0,0" endTime="0.0123639960435" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2758" time="0.0123639960435"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2729.caf">
+  <event bone="" dir="0,0,0" endTime="0.0447532552796" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2729" time="0.0447532552796"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d26cb.caf">
+  <event bone="" dir="0,0,0" endTime="0.249542403905" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d26cb" time="0.249542403905"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d2528.caf">
+  <event bone="" dir="0,0,0" endTime="0.0306244517107" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d2528" time="0.0306244517107"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e552d269b.caf">
+  <event bone="" dir="0,0,0" endTime="0.0910073497622" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e552d269b" time="0.0910073497622"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e571992f2.caf">
+  <event bone="" dir="0,0,0" endTime="0.0560780507397" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e571992f2" time="0.0560780507397"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e563cb565.caf">
+  <event bone="" dir="0,0,0" endTime="0.0733949369525" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e563cb565" time="0.0733949369525"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e563cb4a4.caf">
+  <event bone="" dir="0,0,0" endTime="0.0982597996133" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e563cb4a4" time="0.0982597996133"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e563cafa9.caf">
+  <event bone="" dir="0,0,0" endTime="0.17369343797" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e563cafa9" time="0.17369343797"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e563cb22a.caf">
+  <event bone="" dir="0,0,0" endTime="0.223480893715" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e563cb22a" time="0.223480893715"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e5720c5b5.caf">
+  <event bone="" dir="0,0,0" endTime="0.123973406336" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e5720c5b5" time="0.123973406336"/>
+ </animation>
+ <animation name="animations/characters/humans/dialogue/bddb548e55269525/play_bddb548e55269525bddb548e57575ac3.caf">
+  <event bone="" dir="0,0,0" endTime="0.146963375058" model="" name="dialog" offset="0,0,0" parameter="play_bddb548e55269525bddb548e57575ac3" time="0.146963375058"/>
+ </animation>
+</anim_event_list>

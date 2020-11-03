@@ -1,0 +1,7 @@
+
+<anim_event_list>
+ <animation name="animations/weapons/pistol/1p/wpn_1p_fire_pistol.caf"/>
+ <animation name="animations/weapons/pistol/1p/wpn_1p_malfunction_pistol.caf">
+  <event name="effect" time="0.04953333" endTime="0.73007894" parameter="PlayerWeapons.Pistol.ShellEject.Shell_00" bone="cog_jnt" offset="0,0.050000001,0" dir="0,0,50" model=""/>
+ </animation>
+</anim_event_list>

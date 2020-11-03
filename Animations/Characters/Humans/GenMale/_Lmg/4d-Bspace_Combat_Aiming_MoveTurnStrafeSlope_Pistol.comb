@@ -1,0 +1,15 @@
+
+<CombinedBlendSpace>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <Dimensions>
+  <Param name="MoveSpeed"/>
+  <Param name="TravelAngle"/>
+  <Param name="TurnSpeed" ParaScale="2.0"/>
+  <Param name="TravelSlope" ParaScale="2.0"/>
+ </Dimensions>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Humans/GenMale/_lmg/3d-Bspace_Combat_Aiming_MoveStrafeTurn_Pistol.bspace"/>
+  <BlendSpace AName="animations/Characters/Humans/GenMale/_lmg/3d-Bspace_Combat_Aiming_MoveStrafeSlope_Pistol.bspace"/>
+ </BlendSpaces>
+ <JointList/>
+</CombinedBlendSpace>

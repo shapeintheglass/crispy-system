@@ -1,0 +1,11 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/Ai_Operator_ControllerDefs.xml"/>
+ <contexts>
+  <contextData name="ScienceOperator" enabled="1" database="Animations/Mannequin/ADB/Ai_Operator_Database.adb" context="Char3P" model="Objects/characters/Robots/OperatorScience/OperatorScience.cdf"/>
+  <contextData name="MechanicOperator" enabled="1" database="Animations/Mannequin/ADB/Ai_Operator_Database.adb" context="Char3P" model="Objects/characters/Robots/OperatorMechanic/OperatorMechanic.cgf"/>
+  <contextData name="MedicalOperator" enabled="1" database="Animations/Mannequin/ADB/Ai_Operator_Database.adb" context="Char3P" model="Objects/characters/Robots/OperatorMedic/OperatorMedic.cgf"/>
+  <contextData name="EngineeringOperator" enabled="1" database="Animations/Mannequin/ADB/Ai_Operator_Database.adb" context="Char3P" model="Objects/characters/Robots/OperatorEngineer/OperatorEngineer.cdf"/>
+  <contextData name="BaseOperator" enabled="1" database="Animations/Mannequin/ADB/Ai_Operator_Database.adb" context="Char3P" model="Objects/characters/Robots/Operator/Operator.cdf"/>
+ </contexts>
+</MannequinPreview>

@@ -1,0 +1,65 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Nightmare_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_Nightmare_FragmentIds.xml"/>
+ <FragmentDefs>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Motion_IdleTurn scopes="FullBody3P"/>
+  <Melee scopes="FullBody3P"/>
+  <LookPose scopes="LookPose" flags="Persistent"/>
+  <LookPoseHead scopes="LookPoseHead"/>
+  <Looking scopes="Looking"/>
+  <LookAround scopes="LookAround" flags="Persistent"/>
+  <BlendRagdoll scopes="FullBody3P"/>
+  <Reaction_Death scopes="FullBody3P">
+   <Override tags="" fragTags="so_forward+hit+Small" scopes="Torso3P"/>
+   <Override tags="" fragTags="so_right+hit+Small" scopes="Torso3P"/>
+   <Override tags="" fragTags="so_back+hit+Small" scopes="Torso3P"/>
+   <Override tags="" fragTags="so_left+hit+Small" scopes="Torso3P"/>
+  </Reaction_Death>
+  <CombatReaction scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookPose"/>
+  <Stunned scopes="FullBody3P"/>
+  <CODE_MT_walkToIdle scopes="FullBody3P"/>
+  <CODE_MT_runToIdle scopes="FullBody3P"/>
+  <BreakGloo scopes="FullBody3P+Torso3P+AimPose"/>
+  <PushObstacle scopes="FullBody3P+Torso3P+AimPose"/>
+  <Taunt scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <Fear scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <Door scopes="FullBody3P+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <CODE_MT_idleToRun scopes="FullBody3P"/>
+  <PsiAttack scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <CODE_MT_idleToWalk2mLeft scopes="FullBody3P"/>
+  <CODE_MT_walkJukeTurnFwdLft scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <CODE_MT_runJukeTurnFwdLft scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <CODE_MT_walkJukeTurnFwdRgt scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <CODE_MT_runJukeTurnFwdRgt scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <CODE_MT_walkJukeTurnFwdLft180 scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <CODE_MT_walkJukeTurnFwdRgt180 scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <Dissipate scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <ForceResist scopes="FullBody3P"/>
+  <CODE_MT_idleToWalkStrafe scopes="FullBody3P"/>
+  <CODE_MT_idleToWalk4mLeft scopes="FullBody3P"/>
+  <CODE_MT_idleToWalk2mRight scopes="FullBody3P"/>
+  <CODE_MT_idleToWalk4mRight scopes="FullBody3P"/>
+  <CODE_MT_walkToIdleStrafe2m scopes="FullBody3P"/>
+  <ForceResistScrunch scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <Fall scopes="FullBody3P"/>
+  <Land_Bump scopes="FullBody3P"/>
+  <Land_Stumble scopes="FullBody3P"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <Torso3P layer="3" numLayers="2" context="Char3P"/>
+  <TorsoDetail layer="5" numLayers="2" context="Char3P"/>
+  <AimPose layer="13" numLayers="1" context="Char3P"/>
+  <Aiming layer="13" numLayers="0" context="Char3P"/>
+  <Looking layer="14" numLayers="0" context="Char3P"/>
+  <LookAround layer="11" numLayers="0" context="Char3P"/>
+  <LookPose layer="14" numLayers="1" context="Char3P"/>
+  <LookPoseHead layer="15" numLayers="1" context="Char3P"/>
+ </ScopeDefs>
+</ControllerDef>

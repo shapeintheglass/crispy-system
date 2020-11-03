@@ -1,0 +1,41 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Stance">
+   <Tag name="Combat" priority="1"/>
+   <Tag name="Relaxed" priority="1"/>
+   <Tag name="Corrupted" priority="1"/>
+   <Tag name="Investigate" priority="1"/>
+   <Tag name="Hunt" priority="1"/>
+   <Tag name="GunUp"/>
+   <Tag name="Charge"/>
+   <Tag name="zeroG"/>
+  </Group>
+  <Group name="Weapon">
+   <Tag name="Transcribe"/>
+   <Tag name="Empty"/>
+   <Tag name="Pistol"/>
+  </Group>
+  <Group name="State">
+   <Tag name="Fear"/>
+  </Group>
+  <Group name="LookPose">
+   <Tag name="SimulationLabs_Sq08_Alex_LookPose"/>
+  </Group>
+  <Group name="scope">
+   <Tag name="slave"/>
+  </Group>
+  <Group name="context">
+   <Tag name="context_slave_player"/>
+   <Tag name="context_slave_mimic"/>
+  </Group>
+  <Group name="Direction">
+   <Tag name="Forward"/>
+   <Tag name="Backward"/>
+   <Tag name="Left"/>
+   <Tag name="Right"/>
+  </Group>
+  <Tag name="Sprint"/>
+  <Tag name="Disable"/>
+ </Tags>
+</TagDefinition>

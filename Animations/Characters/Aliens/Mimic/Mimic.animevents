@@ -1,0 +1,1034 @@
+
+<anim_event_list>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpattack.bspace">
+  <event name="sound" time="0.0506" endTime="0.0506" parameter="Play_Mimic_Vox_JumpAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14999999" endTime="0.14999999" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38640973" endTime="0.38640973" parameter="Play_Mimic_mvmt_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_move.bspace">
+  <event name="footstep" time="0.12639405" endTime="0.12639405" parameter="Play_Mimic_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.26146221" endTime="0.26146221" parameter="Play_Mimic_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37360594" endTime="0.37360594" parameter="Play_Mimic_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50371748" endTime="0.50371748" parameter="Play_Mimic_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62949193" endTime="0.62949193" parameter="Play_Mimic_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75588602" endTime="0.75588602" parameter="Play_Mimic_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87918216" endTime="0.87918216" parameter="Play_Mimic_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98513013" endTime="0.98513013" parameter="Play_Mimic_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/2d-bspace_combat_mantle.bspace">
+  <event name="sound" time="0.062799998" endTime="0.062799998" parameter="Play_Mimic_Mvmt_Idle_Raise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/2d-bspace_combat_movestrafe.bspace">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.12825279" endTime="0.12825279" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25340769" endTime="0.25340769" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37856257" endTime="0.37856257" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50371748" endTime="0.50371748" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62701362" endTime="0.62701362" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75278813" endTime="0.75278813" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87484509" endTime="0.87484509" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/2d-bspace_combat_moveturn.bspace">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.12453531" endTime="0.12453531" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19649999" endTime="0.19649999" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25960347" endTime="0.25960347" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.38413879" endTime="0.38413879" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4481" endTime="0.4481" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50805449" endTime="0.50805449" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62205702" endTime="0.62205702" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68939996" endTime="0.68939996" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.74845105" endTime="0.74845105" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.86926889" endTime="0.86926889" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9228" endTime="0.9228" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/3d-bspace_combat_movestrafeturn.bspace">
+  <event name="footstep" time="0.12561984" endTime="0.13057852" parameter="" bone="tentacle13C_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13894524" endTime="0.13894524" parameter="Play_Mimic_Step_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.23719008" endTime="0.23719008" parameter="" bone="tentacle13D_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2565923" endTime="0.2565923" parameter="Play_Mimic_Step_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37024793" endTime="0.37024793" parameter="" bone="tentacle13A_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38235295" endTime="0.38235295" parameter="Play_Mimic_Step_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50413221" endTime="0.50413221" parameter="" bone="tentacle13D_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51419878" endTime="0.51419878" parameter="Play_Mimic_Step_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62396693" endTime="0.62396693" parameter="" bone="tentacle13C_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63995945" endTime="0.63995945" parameter="Play_Mimic_Step_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.74545455" endTime="0.74545455" parameter="" bone="tentacle13A_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.74545455" endTime="0.74545455" parameter="" bone="tentacle13D_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75963491" endTime="0.75963491" parameter="Play_Mimic_Step_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.86446279" endTime="0.86446279" parameter="" bone="tentacle13C_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87931037" endTime="0.87931037" parameter="Play_Mimic_Step_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98900002" endTime="1" parameter="" bone="tentacle13A_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/crazyidle/combat_crazyidle_a.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Mimic_Creep_Idle" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.048599999" endTime="0.048599999" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12337662" endTime="0.12337662" parameter="Play_Mimic_mvmt_darkRise" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3377282" endTime="0.3377282" parameter="Play_Mimic_Mvmt_Idle_Raise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7045455" endTime="0.78246754" parameter="Play_Mimic_mvmt_swish_aggressive" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/crazyidle/combat_crazyidle_b.caf">
+  <event name="sound" time="0.036499999" endTime="0.036499999" parameter="Play_Mimic_mvmt_darkRise" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67288959" endTime="0.67288959" parameter="Play_Mimic_Mvmt_Idle_Raise" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/crazyidle/combat_crazyidle_c.caf">
+  <event name="sound" time="0.0263" endTime="0.0263" parameter="Play_Mimic_Vox_Stretch_Leg_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12987013" endTime="0.12987013" parameter="Play_Mimic_mvmt_darkRise" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32429999" endTime="0.32429999" parameter="Play_Mimic_Mvmt_Idle_Raise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64772725" endTime="0.77597404" parameter="Play_Mimic_mvmt_MorphIn" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_back_a.caf">
+  <event name="sound" time="0.017999999" endTime="0.017999999" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.032400001" endTime="0.032400001" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_front_a.caf">
+  <event name="sound" time="0.0222" endTime="0.0222" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0363" endTime="0.0363" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_left_a.caf">
+  <event name="sound" time="0.030299999" endTime="0.030299999" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0425" endTime="0.0425" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_right_a.caf">
+  <event name="sound" time="0.0222" endTime="0.0222" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0385" endTime="0.0385" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/detect/combat_detect_player_front.caf">
+  <event name="sound" time="0.064800002" endTime="0.064800002" parameter="Play_Mimic_Mvmt_Idle_Raise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14956196" endTime="0.14956196" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24939999" endTime="0.24939999" parameter="Play_Mimic_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56379998" endTime="0.56379998" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63279998" endTime="0.63279998" parameter="Play_Mimic_Step_Run" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/fatality/combat_fatality_front_a_wrench.caf">
+  <event name="sound" time="0.22991508" endTime="0.22991508" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53886348" endTime="0.53886348" parameter="Play_Mimic_Transform_Growl" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_bighit_back_a.caf">
+  <event name="sound" time="0.032400001" endTime="0.032400001" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_bighit_front_a.caf">
+  <event name="sound" time="0.020099999" endTime="0.020099999" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_bighit_left_a.caf">
+  <event name="sound" time="0.034299999" endTime="0.034299999" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_bighit_right_a.caf">
+  <event name="sound" time="0.0222" endTime="0.0222" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_smallhit_back_a.caf">
+  <event name="sound" time="0.070542127" endTime="0.070542127" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_smallhit_front_a.caf">
+  <event name="sound" time="0.014369693" endTime="0.014369693" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_smallhit_left_a.caf">
+  <event name="sound" time="0.018941868" endTime="0.018941868" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_smallhit_right_a.caf">
+  <event name="sound" time="0.010450685" endTime="0.010450685" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_b.caf">
+  <event name="sound" time="0.15825687" endTime="0.15825687" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_c.caf">
+  <event name="sound" time="0.13256881" endTime="0.13256881" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_d.caf">
+  <event name="sound" time="0.29220185" endTime="0.29220185" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_bump_a.caf">
+  <event name="sound" time="0.034299999" endTime="0.034299999" parameter="Play_Mimic_Vox_Close2Face_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.020099999" endTime="0.020099999" parameter="Play_Mimic_Vox_Close2Face_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3143" endTime="0.3143" parameter="Play_Mimic_mvmt_electric_land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3669" endTime="0.3669" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_bump_b.caf">
+  <event name="sound" time="0.020099999" endTime="0.020099999" parameter="Play_Mimic_Vox_Close2Face_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.060699999" endTime="0.060699999" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.219" endTime="0.219" parameter="Play_Mimic_mvmt_electric_land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3062" endTime="0.3062" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43809998" endTime="0.43809998" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53130001" endTime="0.53130001" parameter="Play_Mimic_Mvmt_Idle_Raise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_bump_highheight.caf">
+  <event name="sound" time="0.0095328884" endTime="0.0095328884" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.063164897" endTime="0.063164897" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34032413" endTime="0.34032413" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_bump_mediumheight.caf">
+  <event name="sound" time="0.013461539" endTime="0.013461539" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.023271276" endTime="0.023271276" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44038463" endTime="0.44038463" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49335107" endTime="0.49335107" parameter="Play_Mimic_Movement_Flesh_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_bump_noheight.caf">
+  <event name="sound" time="0.020025032" endTime="0.020025032" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.035271686" endTime="0.035271686" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39378518" endTime="0.46051538" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_long.caf">
+  <event name="sound" time="0.032400001" endTime="0.032400001" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.074900001" endTime="0.074900001" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1195244" endTime="0.1195244" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4887" endTime="0.4887" parameter="Play_mimic_electric_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_short.caf">
+  <event name="sound" time="0.015999999" endTime="0.015999999" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0425" endTime="0.0425" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.062578224" endTime="0.062578224" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_in_highlong.caf">
+  <event name="sound" time="0.089423083" endTime="0.089423083" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19326924" endTime="0.19326924" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_in_highshort.caf">
+  <event name="sound" time="0.063461542" endTime="0.063461542" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17980769" endTime="0.17980769" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_in_lowlong.caf">
+  <event name="sound" time="0.2" endTime="0.2" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21346153" endTime="0.21346153" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_in_lowshort.caf">
+  <event name="sound" time="0.053846154" endTime="0.053846154" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21057692" endTime="0.21057692" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/land/combat_land_stumble.caf">
+  <event name="sound" time="0.021153847" endTime="0.021153847" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.045192309" endTime="0.045192309" parameter="Play_Mimic_Mvmt_Real_HitReact_Roll" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35961539" endTime="0.35961539" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/leap/combat_leap_forward.caf">
+  <event name="sound" time="0.062600002" endTime="0.062600002" parameter="Play_Mimic_Vox_JumpAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1054" endTime="0.1054" parameter="Play_Mimic_mvmt_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3872" endTime="0.3872" parameter="Play_Mimic_Step_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/leap/combat_leap_forward_long.caf">
+  <event name="sound" time="0.050000001" endTime="0.050000001" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.097115383" endTime="0.097115383" parameter="Play_Mimic_mvmt_Electric_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/leap/combat_leap_forward_medium.caf">
+  <event name="sound" time="0.060576923" endTime="0.060576923" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/leap/combat_leap_forward_short.caf">
+  <event name="sound" time="0.040384617" endTime="0.040384617" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.084615387" endTime="0.084615387" parameter="Play_Mimic_Vox_JumpAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_front_a.caf">
+  <event name="sound" time="0.012" endTime="0.012" parameter="Play_Mimic_mvmt_melee_telegraph" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46439999" endTime="0.46439999" parameter="Play_Mimic_mvmt_Electric_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48372966" endTime="0.48372966" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5029" endTime="0.5029" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52309996" endTime="0.52309996" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_front_b.caf">
+  <event name="sound" time="0.068700001" endTime="0.068700001" parameter="Play_Mimic_Mvmt_Idle_Raise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3860985" endTime="0.505" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41737884" endTime="0.45429999" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_left_a.caf">
+  <event name="sound" time="0.062799998" endTime="0.062799998" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27687627" endTime="0.27687627" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29540387" endTime="0.3123" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31476846" endTime="0.31476846" parameter="Play_Mimic_Swish_DistortB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_right_a.caf">
+  <event name="sound" time="0.22309999" endTime="0.22309999" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.058699999" endTime="0.058699999" parameter="Play_Mimic_Vox_Stretch_Leg_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27779999" endTime="0.27779999" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/run/combat_run_forward.caf">
+  <event name="sound" time="0.11663286" endTime="0.11663286" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24939999" endTime="0.24939999" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36300001" endTime="0.36300001" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49079999" endTime="0.49079999" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62576067" endTime="0.62576067" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75650001" endTime="0.75650001" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87619996" endTime="0.87619996" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.98569995" endTime="0.98569995" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_back_a.caf">
+  <event name="sound" time="0.11060802" endTime="0.11060802" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18803419" endTime="0.18803419" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27972466" endTime="0.27972466" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_front_a.caf">
+  <event name="sound" time="0.09142857" endTime="0.09142857" parameter="Play_Mimic_Vox_HissAndStatic" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44457144" endTime="0.44457144" parameter="Play_Mimic_mvmt_swish_aggressive" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5187735" endTime="0.5187735" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_left.caf">
+  <event name="sound" time="0.034299999" endTime="0.034299999" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.10075094" endTime="0.10075094" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_right.caf">
+  <event name="sound" time="0.085000001" endTime="0.085000001" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43599999" endTime="0.43599999" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/vs/sq01/cs_vs_sq01_experiment_mimic.caf">
+  <event name="sound" time="0.0385" endTime="0.0385" parameter="Play_Mimic_CS_Stretch" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28904665" endTime="0.28904665" parameter="Play_Mimic_CS_Exp_Jump" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3285" endTime="0.3285" parameter="Play_Evnt_Incubation_Mimic_Opening_Movement_05" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4290061" endTime="0.4290061" parameter="Play_Evnt_Incubation_Mimic_Opening_Movement_02" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4494487" endTime="0.4494487" parameter="Play_Mimic_CS_Exp_Jump" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44340858" endTime="0.44340858" parameter="Play_Mimic_Vox_HissAndStatic" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5" endTime="0.5" parameter="Play_Mimic_CS_Strangle" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.88429999" endTime="0.88429999" parameter="Play_Mimic_CS_Exp_Chatter" bone="cog_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81034482" endTime="0.81034482" parameter="Play_Mimic_CS_Unfold" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/vs/sq01/cs_vs_sq01_extract_attract_mimic.caf">
+  <event name="sound" time="0.030299999" endTime="0.030299999" parameter="Play_Mimic_CS_ApproachPod_01" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12880324" endTime="0.12880324" parameter="Play_Mimic_CS_ApproachPod_02" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.099299997" endTime="0.099299997" parameter="Sounds/Ark_Incubation:NPC:NPC_HandsOnGlass" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11629999" endTime="0.11629999" parameter="Sounds/Ark_Incubation:NPC:NPC_HandsOnGlass" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23109999" endTime="0.23109999" parameter="Play_Evnt_Incubation_Impact_Mimic_Wall_Hits" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2393" endTime="0.2393" parameter="Play_Evnt_Incubation_Impact_Mimic_Wall_Hits" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.331" endTime="0.331" parameter="Play_Mimic_Vox_mvmt_wierd_concept2" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44939998" endTime="0.44939998" parameter="Play_Mimic_Vox_mvmt_wierd_concept2" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57929999" endTime="0.57929999" parameter="Play_Mimic_Creep_Idle" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67241377" endTime="0.67241377" parameter="Play_Mimic_Creep_Idle" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64480001" endTime="0.64480001" parameter="Play_Mimic_Vox_Idle" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7058" endTime="0.7058" parameter="Play_Mimic_CS_ApproachPod_01" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7687" endTime="0.7687" parameter="Play_Mimic_Vox_subtle_hiss" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81739998" endTime="0.81739998" parameter="Play_Mimic_Vox_subtle_hiss" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89219999" endTime="0.89219999" parameter="Play_Mimic_Vox_subtle_hiss" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7863" endTime="0.7863" parameter="Play_Mimic_Creep_Idle" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87339997" endTime="0.87339997" parameter="Play_Mimic_Creep_Idle" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0506" endTime="0.0506" parameter="Play_Mimic_Stinger_ApprachPod" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/vs/sq01/cs_vs_sq01_loadexperiment_mimic.caf">
+  <event name="sound" time="0.060799997" endTime="0.060799997" parameter="Play_Mimic_Vox_mvmt_wierd_concept2" bone="cog_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2737" endTime="0.2737" parameter="Play_Mimic_Vox_mvmt_wierd_concept2" bone="cog_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/vs/sq01/cs_vs_sq01_mimicmultiply_mimic.caf">
+  <event name="sound" time="0.87819999" endTime="0.87819999" parameter="Play_Mimic_CS_Exp_Chatter" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.018099999" endTime="0.018099999" parameter="Play_Mimic_CS_MorphSplit" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/vs/sq01/cs_vs_sq01_mimicmultiply_second_mimic.caf">
+  <event name="sound" time="0.84169996" endTime="0.84169996" parameter="Play_Mimic_Vox_mvmt_wierd_concept2" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0263" endTime="0.0263" parameter="Play_Mimic_CS_MorphSplit" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/vs/sq02/cs_vs_sq02_mimiconglass.caf">
+  <event name="sound" time="0.91469997" endTime="0.91469997" parameter="Play_Evnt_Incubation_Mimic_Opening_Movement_06" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0403" endTime="0.0403" parameter="Play_Mimic_Appear" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.375" endTime="0.375" parameter="Play_Mimic_Vox_mvmt_wierd_concept2" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79299998" endTime="0.79299998" parameter="Play_Mimic_Vox_mvmt_wierd_concept2" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43103448" endTime="0.43103448" parameter="Play_Mimic_CS_ApproachPod_02" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/dodge/combat_dodge_right_a.caf">
+  <event name="sound" time="0.016233765" endTime="0.016233765" parameter="Play_Mimic_Dodge" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.052759741" endTime="0.10633117" parameter="Play_Mimic_mvmt_darkRise" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44967532" endTime="0.44967532" parameter="Play_Mimic_mvmt_swish" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58364314" endTime="0.58364314" parameter="Play_Mimic_mvmt_electric_land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78814936" endTime="0.78814936" parameter="Play_Mimic_Step_Walk" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/dodge/combat_dodge_left_a.caf">
+  <event name="sound" time="0.0081168832" endTime="0.0081168832" parameter="Play_Mimic_Dodge" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.041396104" endTime="0.041396104" parameter="Play_Mimic_Vox_Flip_Concept2" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/blinded/combat_blinded_medium.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Mimic_Vox_Notice" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35470778" endTime="0.35470778" parameter="Play_Mimic_mvmt_swish_aggressive" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walk/combat_walk_forward.caf">
+  <event name="sound" time="0.01146789" endTime="0.01146789" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.12706421" endTime="0.12706421" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.24908257" endTime="0.24908257" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.36284405" endTime="0.36284405" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.49954128" endTime="0.49954128" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63623852" endTime="0.63623852" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75550461" endTime="0.75550461" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87660551" endTime="0.87660551" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.98119265" endTime="0.98119265" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpattack_b.bspace">
+  <event name="sound" time="0.079333335" endTime="0.079333335" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.164" endTime="0.164" parameter="Play_Mimic_Vox_JumpAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.338" endTime="0.45266667" parameter="Play_Mimic_mvmt_swish_aggressive" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpattack_bump.bspace">
+  <event name="sound" time="0.030359356" endTime="0.030359356" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.081164807" endTime="0.47335812" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46220571" endTime="0.51610905" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpattack_bump_b.bspace">
+  <event name="sound" time="0.015489466" endTime="0.015489466" parameter="Play_Mimic_mvmt_quick_bite" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.078066908" endTime="0.16542751" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_mantle.bspace">
+  <event name="sound" time="0.072490707" endTime="0.072490707" parameter="Play_Mimic_Movement_Flesh_Creep" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/dodge/combat_dodge_back_a.caf">
+  <event name="sound" time="0.016728625" endTime="0.016728625" parameter="Play_Mimic_Dodge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/dodge/combat_dodge_back_b.caf">
+  <event name="sound" time="0.013011153" endTime="0.013011153" parameter="Play_Mimic_Dodge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/dodge/combat_dodge_back_c.caf">
+  <event name="sound" time="0.0099132592" endTime="0.0099132592" parameter="Play_Mimic_Dodge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/dodge/combat_dodgeattack_back_b.caf">
+  <event name="sound" time="0.038413879" endTime="0.038413879" parameter="Play_Mimic_Dodge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.091078065" endTime="0.091078065" parameter="Play_Mimic_mvmt_darkRise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/dodge/combat_dodgeattack_back_c.caf">
+  <event name="sound" time="0.046468403" endTime="0.046468403" parameter="Play_Mimic_Dodge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35997522" endTime="0.35997522" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39924905" endTime="0.39924905" parameter="Play_Mimic_Swish_DistortB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68215615" endTime="0.68215615" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_bump_highheight_b.caf">
+  <event name="sound" time="0.010638298" endTime="0.010638298" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.041223403" endTime="0.041223403" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19481383" endTime="0.19481383" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_bump_mediumheight_b.caf">
+  <event name="sound" time="0.037234042" endTime="0.037234042" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.061170213" endTime="0.061170213" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58244681" endTime="0.58244681" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_bump_noheight_b.caf">
+  <event name="sound" time="0.0059840428" endTime="0.0059840428" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.051196806" endTime="0.051196806" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14694148" endTime="0.14694148" parameter="Play_Mimic_Vox_Close2Face_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_long_b.caf">
+  <event name="sound" time="0.019281914" endTime="0.019281914" parameter="Play_Mimic_Vox_Close2Face_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.039893616" endTime="0.039893616" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_short_b.caf">
+  <event name="sound" time="0.019281914" endTime="0.019281914" parameter="Play_Mimic_Vox_JumpAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.083776593" endTime="0.083776593" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_b_front.caf">
+  <event name="sound" time="0.067584477" endTime="0.067584477" parameter="Play_Mimic_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_b_left.caf">
+  <event name="sound" time="0.083854817" endTime="0.083854817" parameter="Play_Mimic_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_b_right.caf">
+  <event name="sound" time="0.28097621" endTime="0.28097621" parameter="Play_Mimic_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_c_left.caf">
+  <event name="sound" time="0.39299124" endTime="0.39299124" parameter="Play_Mimic_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_c_right.caf">
+  <event name="sound" time="0.42177722" endTime="0.42177722" parameter="Play_Mimic_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_front_d.caf">
+  <event name="sound" time="0.094493121" endTime="0.094493121" parameter="Play_Mimic_Swish_DistortB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20337921" endTime="0.20337921" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42866087" endTime="0.42866087" parameter="Play_Mimic_Swish_DistortA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_front_e.caf">
+  <event name="sound" time="0.1126408" endTime="0.1126408" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26408011" endTime="0.26408011" parameter="Play_Mimic_Swish_DistortA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30913642" endTime="0.30913642" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52628285" endTime="0.52628285" parameter="Play_Mimic_mvmt_electric_land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54005009" endTime="0.54005009" parameter="Play_Mimic_Movement_Flesh_Fall" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_front_f.caf">
+  <event name="sound" time="0.068836048" endTime="0.068836048" parameter="Play_Mimic_mvmt_melee_telegraph" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22841051" endTime="0.30538172" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29411766" endTime="0.29411766" parameter="Play_Mimic_Swish_DistortB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31602001" endTime="0.31602001" parameter="Play_Mimic_Swish_Real_D" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38423029" endTime="0.38423029" parameter="Play_Mimic_Swish_DistortA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_front_c.caf">
+  <event name="sound" time="0.094493121" endTime="0.094493121" parameter="Play_Mimic_Vox_JumpAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20150188" endTime="0.20150188" parameter="Play_Mimic_Swish_DistortA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28410512" endTime="0.28410512" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_left_a.caf">
+  <event name="sound" time="0.04255319" endTime="0.04255319" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13204005" endTime="0.13204005" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_right_b.caf">
+  <event name="sound" time="0.19837296" endTime="0.19837296" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40988737" endTime="0.40988737" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_right_a.caf">
+  <event name="sound" time="0.37797245" endTime="0.37797245" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51188987" endTime="0.51188987" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_left_c.caf">
+  <event name="sound" time="0.24593242" endTime="0.24593242" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47434294" endTime="0.47434294" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_front_g.caf">
+  <event name="sound" time="0.078776047" endTime="0.078776047" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37174478" endTime="0.37174478" parameter="Play_Mimic_Swish_DistortB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40234375" endTime="0.40234375" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_front_h.caf">
+  <event name="sound" time="0.06640625" endTime="0.06640625" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13216145" endTime="0.13216145" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1998698" endTime="0.1998698" parameter="Play_Mimic_mvmt_Electric_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24283855" endTime="0.24283855" parameter="Play_Mimic_Swish_DistortA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30664063" endTime="0.30664063" parameter="Play_Mimic_Swish_Real_D" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_left_b.caf">
+  <event name="sound" time="0.065755211" endTime="0.065755211" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2220052" endTime="0.2220052" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23697917" endTime="0.23697917" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25585938" endTime="0.25585938" parameter="Play_Mimic_Swish_DistortB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/melee/combat_melee_right_b.caf">
+  <event name="sound" time="0.0859375" endTime="0.0859375" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25130209" endTime="0.25130209" parameter="Play_Mimic_Vox_Stretch_Leg_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31380209" endTime="0.31380209" parameter="Play_Mimic_Swish_Real_C" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_out_highlong.caf">
+  <event name="sound" time="0.034370475" endTime="0.034370475" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.10962372" endTime="0.10962372" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19934876" endTime="0.19934876" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_out_highshort.caf">
+  <event name="sound" time="0.02496382" endTime="0.02496382" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.056078147" endTime="0.056078147" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30137479" endTime="0.30137479" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_out_lowlong.caf">
+  <event name="sound" time="0.015557163" endTime="0.015557163" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.045947902" endTime="0.045947902" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17112879" endTime="0.17112879" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33248913" endTime="0.33248913" parameter="Play_mimic_electric_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_out_lowshort.caf">
+  <event name="sound" time="0.014109986" endTime="0.014109986" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.043777138" endTime="0.043777138" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14363241" endTime="0.14363241" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_out_mediumlong.caf">
+  <event name="sound" time="0.019898698" endTime="0.019898698" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20151953" endTime="0.20151953" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35130244" endTime="0.36287987" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_out_mediumshort.caf">
+  <event name="sound" time="0.021345876" endTime="0.021345876" parameter="Play_Mimic_mvmt_attack_distort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17112879" endTime="0.22250362" parameter="Play_Mimic_Vox_JumpAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40629521" endTime="0.40629521" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_a_back.caf">
+  <event name="sound" time="0.49312592" endTime="0.49312592" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_a_front.caf">
+  <event name="sound" time="0.60166425" endTime="0.60166425" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_a_left.caf">
+  <event name="sound" time="0.44464543" endTime="0.44464543" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_a_right.caf">
+  <event name="sound" time="0.49240229" endTime="0.58574528" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_b_back.caf">
+  <event name="sound" time="0.39761215" endTime="0.39761215" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_c_back.caf">
+  <event name="sound" time="0.48444283" endTime="0.48444283" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpattack/combat_jumpattack_telegraph_c_front.caf">
+  <event name="sound" time="0.47575977" endTime="0.47575977" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_effect/table/table_awake.caf">
+  <event name="sound" time="0.19972917" endTime="0.19972917" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23425864" endTime="0.23425864" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6377793" endTime="0.6377793" parameter="Play_Mimic_Vox_Stretch_Leg_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78063643" endTime="0.78063643" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/run/combat_run_backward.caf">
+  <event name="sound" time="0.11468886" endTime="0.11468886" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24565847" endTime="0.24565847" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36939219" endTime="0.36939219" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.50470334" endTime="0.50470334" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6262663" endTime="0.6262663" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76230103" endTime="0.76230103" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87879884" endTime="0.87879884" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/run/combat_run_backwardleft.caf">
+  <event name="sound" time="0.11903039" endTime="0.11903039" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35419682" endTime="0.35419682" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53219968" endTime="0.53219968" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75578868" endTime="0.75578868" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/run/combat_run_backwardright.caf">
+  <event name="sound" time="0.11685962" endTime="0.11685962" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33176556" endTime="0.33176556" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51700437" endTime="0.51700437" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74348772" endTime="0.74348772" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.92727929" endTime="0.92727929" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/run/combat_run_forwardleft.caf">
+  <event name="sound" time="0.11396527" endTime="0.11396527" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30426916" endTime="0.30426916" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49674386" endTime="0.49674386" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7514472" endTime="0.7514472" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/run/combat_run_forwardright.caf">
+  <event name="sound" time="0.1248191" endTime="0.1248191" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29558611" endTime="0.29558611" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56548482" endTime="0.56548482" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75723588" endTime="0.75723588" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/run/combat_run_left.caf">
+  <event name="sound" time="0.13567294" endTime="0.13567294" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38458756" endTime="0.38458756" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6508683" endTime="0.6508683" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/run/combat_run_right.caf">
+  <event name="sound" time="0.12409551" endTime="0.12409551" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37735167" endTime="0.37735167" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56548482" endTime="0.56548482" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76953691" endTime="0.76953691" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/runturn/combat_runturn_left.caf">
+  <event name="sound" time="0.037155963" endTime="0.037155963" parameter="Play_Mimic_Vox_subtle_hiss" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14082569" endTime="0.14082569" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31880733" endTime="0.31880733" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51788992" endTime="0.51788992" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75825685" endTime="0.75825685" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/runturn/combat_runturn_right.caf">
+  <event name="sound" time="0.016055046" endTime="0.016055046" parameter="Play_Mimic_Vox_subtle_hiss" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14357798" endTime="0.14357798" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27293578" endTime="0.27293578" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.50412846" endTime="0.50412846" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75733948" endTime="0.75733948" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_back_b.caf">
+  <event name="sound" time="0.050000001" endTime="0.050000001" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28119266" endTime="0.49036697" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_front_b.caf">
+  <event name="sound" time="0.063761465" endTime="0.063761465" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23623854" endTime="0.32981652" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sidestep/combat_sidestep_left_b.caf">
+  <event name="sound" time="0.196789" endTime="0.196789" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41788992" endTime="0.47477067" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sprint/combat_sprint_backward.caf">
+  <event name="sound" time="0.016055046" endTime="0.016055046" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.14999998" endTime="0.15642202" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.27110091" endTime="0.27110091" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.39587155" endTime="0.39587155" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.53899086" endTime="0.53899086" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.66743118" endTime="0.66743118" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.79036695" endTime="0.79036695" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sprint/combat_sprint_backwardleft.caf">
+  <event name="sound" time="0.017889908" endTime="0.017889908" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.21513762" endTime="0.21513762" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.2674312" endTime="0.2674312" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.46651375" endTime="0.46651375" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.52981651" endTime="0.52981651" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70963305" endTime="0.72522938" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7848624" endTime="0.7848624" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.93256879" endTime="0.93256879" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sprint/combat_sprint_backwardright.caf">
+  <event name="sound" time="0.012385321" endTime="0.012385321" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.08027523" endTime="0.08027523" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.13623853" endTime="0.13623853" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.29036698" endTime="0.29036698" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.38486239" endTime="0.38486239" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.54357797" endTime="0.54357797" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.6288991" endTime="0.6288991" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.79036695" endTime="0.79036695" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87752295" endTime="0.87752295" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sprint/combat_sprint_forward.caf">
+  <event name="sound" time="0.0096330279" endTime="0.0096330279" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.15000001" endTime="0.15000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.2527523" endTime="0.2527523" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.38486239" endTime="0.38486239" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50229359" endTime="0.50229359" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62981653" endTime="0.62981653" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.80321103" endTime="0.80321103" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sprint/combat_sprint_forwardleft.caf">
+  <event name="sound" time="0.0068807341" endTime="0.0068807341" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.11697248" endTime="0.11697248" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.26834863" endTime="0.26834863" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.3701835" endTime="0.3701835" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.52155966" endTime="0.52155966" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62522936" endTime="0.62522936" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.78394496" endTime="0.78394496" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87568808" endTime="0.87568808" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sprint/combat_sprint_forwardright.caf">
+  <event name="sound" time="0.0077981651" endTime="0.0077981651" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.16192661" endTime="0.16192661" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25458714" endTime="0.25458714" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.40045872" endTime="0.40045872" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50229359" endTime="0.50229359" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.65825689" endTime="0.65825689" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.76009172" endTime="0.76009172" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88669723" endTime="0.88669723" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.97935778" endTime="0.97935778" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sprint/combat_sprint_left.caf">
+  <event name="sound" time="0.0068807341" endTime="0.0068807341" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.16651376" endTime="0.16651376" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.29587156" endTime="0.29587156" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.41238531" endTime="0.41238531" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.53715599" endTime="0.53715599" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.66743118" endTime="0.66743118" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.78577983" endTime="0.78577983" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.90229356" endTime="0.90229356" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/sprint/combat_sprint_right.caf">
+  <event name="sound" time="0.01146789" endTime="0.01146789" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.15733945" endTime="0.15733945" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.24541284" endTime="0.24541284" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.39587155" endTime="0.39587155" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.48944953" endTime="0.48944953" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.6637615" endTime="0.6637615" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.76192659" endTime="0.76192659" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.903211" endTime="0.903211" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98119265" endTime="0.98119265" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/stunned/combat_stunned_in.caf">
+  <event name="sound" time="0.03348624" endTime="0.03348624" parameter="Play_Mimic_Vox_Idle" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/stunned/combat_stunned_out.caf">
+  <event name="sound" time="0.13440368" endTime="0.13440368" parameter="Play_Mimic_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/lifted/combat_lifted.caf">
+  <event name="sound" time="0.07385321" endTime="0.2821101" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.090366974" endTime="0.090366974" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39770642" endTime="0.39770642" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49587157" endTime="0.49587157" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/crazyidle/combat_crazyidle_e.caf">
+  <event name="sound" time="0.025229357" endTime="0.025229357" parameter="Play_Mimic_Vox_Stretch_Leg_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13256881" endTime="0.13256881" parameter="Play_Mimic_mvmt_darkRise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66834861" endTime="0.66834861" parameter="Play_Mimic_mvmt_MorphIn" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_front_rl_c.caf">
+  <event name="sound" time="0.027981652" endTime="0.027981652" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_front_rl_b.caf">
+  <event name="sound" time="0.022477064" endTime="0.022477064" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_front_lr_c.caf">
+  <event name="sound" time="0.015137615" endTime="0.015137615" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_front_lr_b.caf">
+  <event name="sound" time="0.024311926" endTime="0.024311926" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_front_b.caf">
+  <event name="sound" time="0.11788991" endTime="0.11788991" parameter="Play_Mimic_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_explode_b.caf">
+  <event name="sound" time="0.027064221" endTime="0.027064221" parameter="Play_Mimic_mvmt_darkRise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_explode_a.caf">
+  <event name="sound" time="0.013302753" endTime="0.013302753" parameter="Play_Mimic_mvmt_darkRise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/death/combat_death_explode.caf">
+  <event name="sound" time="0.036238533" endTime="0.036238533" parameter="Play_Mimic_mvmt_darkRise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/alerted/search/alerted_search_a.caf">
+  <event name="sound" time="0.045412842" endTime="0.072018348" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16284403" endTime="0.16284403" parameter="Play_Mimic_Movement_Flesh_Creep" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24724773" endTime="0.29036698" parameter="Play_Mimic_mvmt_Skitter" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33348623" endTime="0.33348623" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41146788" endTime="0.41146788" parameter="Play_Mimic_Movement_Flesh_Creep" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57110089" endTime="0.57110089" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71697247" endTime="0.71697247" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.84082568" endTime="0.86926603" parameter="Play_Mimic_Glitch" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/alerted/search/alerted_search_b.caf">
+  <event name="sound" time="0.0096330279" endTime="0.014220184" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16559634" endTime="0.16559634" parameter="Play_Mimic_Movement_Flesh_Creep" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27385321" endTime="0.27385321" parameter="Play_Mimic_mvmt_Skitter" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47752294" endTime="0.47752294" parameter="Play_Mimic_mvmt_flipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70045877" endTime="0.80137616" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81605506" endTime="0.81605506" parameter="Play_Mimic_Movement_Flesh_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/alerted/search/alerted_search_c.caf">
+  <event name="sound" time="0.025229357" endTime="0.025229357" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.089449525" endTime="0.37201834" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16559634" endTime="0.16559634" parameter="Play_Mimic_Movement_Flesh_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27477065" endTime="0.30688074" parameter="Play_Mimic_Movement_Flesh_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37477064" endTime="0.37477064" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48027521" endTime="0.48027521" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68944949" endTime="0.68944949" parameter="Play_Mimic_Movement_Flesh_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78577983" endTime="0.78577983" parameter="Play_Mimic_mvmt_MorphIn" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/fatality/combat_fatality_front_a_dualwrench.caf">
+  <event name="sound" time="0.39862385" endTime="0.39862385" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41422018" endTime="0.41422018" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/fatality/combat_fatality_front_lr_a_wrench.caf">
+  <event name="sound" time="0.44724771" endTime="0.44724771" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45458716" endTime="0.45458716" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/fatality/combat_fatality_front_lr_b_wrench.caf">
+  <event name="sound" time="0.48119265" endTime="0.48119265" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.50871563" endTime="0.50871563" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/fatality/combat_fatality_front_rl_a_wrench.caf">
+  <event name="sound" time="0.27201837" endTime="0.32431194" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28944957" endTime="0.35458717" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/fatality/combat_fatality_front_rl_b_wrench.caf">
+  <event name="sound" time="0.23807339" endTime="0.23807339" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25458717" endTime="0.25458717" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_a.caf">
+  <event name="sound" time="0.32247707" endTime="0.32247707" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_e.caf">
+  <event name="sound" time="0.20321101" endTime="0.20321101" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_nomove.caf">
+  <event name="sound" time="0.1646789" endTime="0.1646789" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_nomove_a.caf">
+  <event name="sound" time="0.27385321" endTime="0.27385321" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_nomove_b.caf">
+  <event name="sound" time="0.22522937" endTime="0.39311928" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70412844" endTime="0.70412844" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_nomove_c.caf">
+  <event name="sound" time="0.27110091" endTime="0.27110091" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_nomove_left.caf">
+  <event name="sound" time="0.31238532" endTime="0.31238532" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/idle/combat_idle_nomove_right.caf">
+  <event name="sound" time="0.31513762" endTime="0.31513762" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/land/combat_land_stumble_b.caf">
+  <event name="sound" time="0.045412842" endTime="0.045412842" parameter="Play_Mimic_Vox_Attack_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20137614" endTime="0.20137614" parameter="Play_Mimic_Mvmt_Real_HitReact_Roll" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68394494" endTime="0.68394494" parameter="Play_Mimic_Vox_Run_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_in_mediumshort.caf">
+  <event name="sound" time="0.2353211" endTime="0.2353211" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/jumpwall/combat_jumpwall_in_mediumlong.caf">
+  <event name="sound" time="0.15550458" endTime="0.15550458" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walk/combat_walk_backward.caf">
+  <event name="sound" time="0.025229357" endTime="0.025229357" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.12614679" endTime="0.12614679" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25550458" endTime="0.25550458" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37935778" endTime="0.37935778" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.49587157" endTime="0.49587157" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62247705" endTime="0.62247705" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64908254" endTime="0.64908254" parameter="Play_Mimic_Vox_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75" endTime="0.75" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87385321" endTime="0.87385321" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98302752" endTime="0.98302752" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walk/combat_walk_backwardleft.caf">
+  <event name="sound" time="0.016055046" endTime="0.016055046" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.12155963" endTime="0.12155963" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25458714" endTime="0.25458714" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.38211009" endTime="0.38211009" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.51422018" endTime="0.51422018" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.64908254" endTime="0.64908254" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75917429" endTime="0.75917429" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88486236" endTime="0.88486236" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walk/combat_walk_backwardright.caf">
+  <event name="sound" time="0.018807339" endTime="0.018807339" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.12247706" endTime="0.12247706" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25917432" endTime="0.25917432" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.36834863" endTime="0.36834863" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50412846" endTime="0.50412846" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62339449" endTime="0.62339449" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75366974" endTime="0.75366974" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87201834" endTime="0.87201834" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98211008" endTime="0.98211008" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walk/combat_walk_forwardleft.caf">
+  <event name="sound" time="0.010550459" endTime="0.010550459" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.11788991" endTime="0.11788991" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25642201" endTime="0.25642201" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37385321" endTime="0.37385321" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.51605505" endTime="0.51605505" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63073397" endTime="0.63073397" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.76100916" endTime="0.76100916" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87568808" endTime="0.87568808" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98230487" endTime="0.98230487" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walk/combat_walk_forwardright.caf">
+  <event name="sound" time="0.0095281303" endTime="0.0095281303" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.11025409" endTime="0.11025409" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.24818511" endTime="0.24818511" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.38520873" endTime="0.38520873" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50317603" endTime="0.50317603" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.64019966" endTime="0.64019966" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75907439" endTime="0.75907439" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87613428" endTime="0.87613428" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98139745" endTime="0.98139745" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walk/combat_walk_left.caf">
+  <event name="footstep" time="0.12271897" endTime="0.12271897" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25319344" endTime="0.25319344" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.38184306" endTime="0.38184306" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.417427" endTime="0.417427" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50045621" endTime="0.50045621" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63458031" endTime="0.63458031" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.73312044" endTime="0.73312044" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.86815691" endTime="0.86815691" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98312044" endTime="0.98312044" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walk/combat_walk_right.caf">
+  <event name="footstep" time="0.11815693" endTime="0.11815693" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25501823" endTime="0.25501823" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28512773" endTime="0.28512773" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37545621" endTime="0.37545621" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.51140511" endTime="0.51140511" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63458031" endTime="0.63458031" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75501823" endTime="0.75501823" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.86177009" endTime="0.86177009" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98220801" endTime="0.98220801" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walkturn/combat_walkturn_left.caf">
+  <event name="sound" time="0.10082117" endTime="0.10082117" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/walkturn/combat_walkturn_right.caf">
+  <event name="sound" time="0.11541971" endTime="0.11541971" parameter="Play_Mimic_Vox_ReachApex" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/psychotronics/sq03/psychotronics_sq03a_mimicextract_death_mimic.caf">
+  <event name="sound" time="0.18653491" endTime="0.18653491" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22977147" endTime="0.24768375" parameter="Play_Mimic_Glitch" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24088944" endTime="0.24088944" parameter="Play_Mimic_mvmt_Skitter" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27794936" endTime="0.27794936" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33662754" endTime="0.33662754" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34774551" endTime="0.34774551" parameter="Play_Mimic_Vox_Idle_Creep_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.431748" endTime="0.44286597" parameter="Play_Mimic_Vox_JumpAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43915999" endTime="0.43915999" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46942559" endTime="0.46942559" parameter="Play_Mimic_mvmt_darkRise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49425286" endTime="0.49425286" parameter="Trigger_Scare_Sting" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5256331" endTime="0.5256331" parameter="Play_Psychotronics_Mimic_Stab_SQ03" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpwall_in_high.bspace">
+  <event name="sound" time="0.026412325" endTime="0.026412325" parameter="Play_Mimic_Step_Run" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66324282" endTime="0.66324282" parameter="Play_Mimic_mvmt_electric_land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpwall_in_low.bspace">
+  <event name="sound" time="0.014673514" endTime="0.014673514" parameter="Play_Mimic_Step_Run" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67865002" endTime="0.67865002" parameter="Play_Mimic_mvmt_electric_land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpwall_in_medium.bspace">
+  <event name="sound" time="0.024944974" endTime="0.024944974" parameter="Play_Mimic_Step_Run" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60674983" endTime="0.60674983" parameter="Play_Mimic_mvmt_electric_land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpwall_out_high.bspace">
+  <event name="sound" time="0.041057758" endTime="0.041057758" parameter="Play_Mimic_CS_Exp_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59498954" endTime="0.59498954" parameter="Play_Mimic_Vox_JumpScream" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpwall_out_low.bspace">
+  <event name="sound" time="0.0083507309" endTime="0.0083507309" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60612386" endTime="0.60612386" parameter="Play_Mimic_mvmt_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_jumpwall_out_medium.bspace">
+  <event name="sound" time="0.013917885" endTime="0.013917885" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52887964" endTime="0.52887964" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/2d-bspace_combat_jumpwall_in.bspace">
+  <event name="sound" time="0.02783577" endTime="0.02783577" parameter="Play_Mimic_Step_Run" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65692413" endTime="0.65692413" parameter="Play_Mimic_Step_Run" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/climbdown/combat_climbdown_high.caf">
+  <event name="sound" time="0.062630482" endTime="0.062630482" parameter="Play_Mimic_CS_Exp_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38274181" endTime="0.38274181" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/climbdown/combat_climbdown_high_long.caf">
+  <event name="sound" time="0.014613778" endTime="0.014613778" parameter="Play_Mimic_CS_Exp_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3952679" endTime="0.3952679" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/_lmg/1d-bspace_combat_unmimic_attack.bspace">
+  <event name="sound" time="0.043841336" endTime="0.043841336" parameter="Play_Mimic_Vox_Flip_Concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/climbdown/combat_climbdown_low.caf">
+  <event name="sound" time="0.018789144" endTime="0.018789144" parameter="Play_Mimic_CS_Exp_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49826029" endTime="0.49826029" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/climbdown/combat_climbdown_low_long.caf">
+  <event name="sound" time="0.011830202" endTime="0.011830202" parameter="Play_Mimic_CS_Exp_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51913708" endTime="0.51913708" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/climbdown/combat_climbdown_medium.caf">
+  <event name="sound" time="0.014613778" endTime="0.014613778" parameter="Play_Mimic_CS_Exp_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47320807" endTime="0.47320807" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/climbdown/combat_climbdown_medium_long.caf">
+  <event name="sound" time="0.031315241" endTime="0.031315241" parameter="Play_Mimic_CS_Exp_Jump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42240778" endTime="0.42240778" parameter="Play_Mimic_Movement_Flesh_Land" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/fall/combat_fall.caf">
+  <event name="sound" time="0.0097425207" endTime="0.0097425207" parameter="Play_Mimic_CS_Stretch" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25539318" endTime="0.25539318" parameter="Play_Mimic_Movement_Flesh_Fall" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/grabplayer/combat_grabplayer_abort.caf">
+  <event name="sound" time="0.034098815" endTime="0.034098815" parameter="Play_Mimic_Dodge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/grabplayer/combat_grabplayer_in.caf">
+  <event name="sound" time="0.017397355" endTime="0.017397355" parameter="Play_Mimic_CS_WrapAround" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/grabplayer/combat_grabplayer_jump.caf">
+  <event name="sound" time="0.012526096" endTime="0.012526096" parameter="Play_Mimic_Grab_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.10716771" endTime="0.10716771" parameter="Play_Mimic_Vox_Bump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/grabplayer/combat_grabplayer_playerwin.caf">
+  <event name="sound" time="0.0083507309" endTime="0.0083507309" parameter="Play_Mimic_mvmt_swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20876828" endTime="0.20876828" parameter="Play_Mimic_Mvmt_Real_HitReact_Bodyfall" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24634656" endTime="0.24634656" parameter="Play_Mimic_Vox_mvmt_wierd_concept2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.50313151" endTime="0.50313151" parameter="Play_Mimic_Vox_HissAndStatic" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68336815" endTime="0.68336815" parameter="Play_Mimic_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/grabplayer/combat_grabplayer_wrestling.caf">
+  <event name="sound" time="0.013917886" endTime="0.013917886" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45093945" endTime="0.45093945" parameter="Play_Mimic_mvmt_AttackSwish_2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4926931" endTime="0.4926931" parameter="Play_Mimic_Transform_Growl" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51983297" endTime="0.51983297" parameter="Play_Mimic_Swish_DistortB" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_a.caf">
+  <event name="sound" time="0.033402923" endTime="0.033402923" parameter="Play_Mimic_Mvmt_Real_HitReact_Roll" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_c.caf">
+  <event name="sound" time="0.12247739" endTime="0.12247739" parameter="Play_Mimic_Mvmt_Real_HitReact_Roll" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_d.caf">
+  <event name="sound" time="0.014613778" endTime="0.014613778" parameter="Play_Mimic_synth_electric_movement" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_lr_a.caf">
+  <event name="sound" time="0.035490606" endTime="0.035490606" parameter="Play_Mimic_Mvmt_Real_HitReact_Roll" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_lr_b.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_lr_c.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_lr_d.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_lr_e.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_rl_a.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_rl_b.caf">
+  <event name="sound" time="0.082115524" endTime="0.082115524" parameter="Play_Mimic_Mvmt_Real_HitReact_Roll" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_rl_c.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_rl_d.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/mimic/combat/hit/combat_mediumhit_front_rl_e.caf">
+  <event name="sound" time="0.0605428" endTime="0.0605428" parameter="Play_Mimic_Mvmt_Real_HitReact_Roll" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

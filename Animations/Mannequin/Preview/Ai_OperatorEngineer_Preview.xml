@@ -1,0 +1,7 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/Ai_Operator_ControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Engineer" enabled="1" database="Animations/Mannequin/ADB/Ai_Operator_Database.adb" context="Char3P" model="Objects/characters/Robots/OperatorEngineer/OperatorEngineer.cdf"/>
+ </contexts>
+</MannequinPreview>

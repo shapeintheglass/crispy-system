@@ -1,0 +1,117 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param Name="MoveSpeed" Min="0" Max="3.16" Cells="9" Scale="1" SKey="0" EKey="1" locked="1"/>
+  <Param Name="StopLeg" Min="-1" Max="1" Cells="9" Scale="1" SKey="0" EKey="1" locked="1"/>
+ </Dimensions>
+ <AdditionalExtraction/>
+ <ExampleList>
+  <Example AName="Relaxed_WalkStop_RightFootUp_Empty" PlaybackScale="1" SetPara0="0" SetPara1="-1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_RightFootUp_Empty" PlaybackScale="1" SetPara0="0" SetPara1="-0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_RightFootUp_Empty" PlaybackScale="1" SetPara0="+1.00" SetPara1="-1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_RightFootUp_Empty" PlaybackScale="1" SetPara0="+1.00" SetPara1="-0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_LeftFootUp_Empty" PlaybackScale="1" SetPara0="0" SetPara1="0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_LeftFootUp_Empty" PlaybackScale="1" SetPara0="0" SetPara1="1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_LeftFootUp_Empty" PlaybackScale="1" SetPara0="+1.00" SetPara1="0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_LeftFootUp_Empty" PlaybackScale="1" SetPara0="+1.00" SetPara1="1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_RightFootUp_Empty" PlaybackScale="1" SetPara0="+1.00" SetPara1="-1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_RightFootUp_Empty" PlaybackScale="1" SetPara0="+1.00" SetPara1="-0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_RightFootUp_Empty" PlaybackScale="1" SetPara0="+3.16" SetPara1="-1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_RightFootUp_Empty" PlaybackScale="1" SetPara0="+3.16" SetPara1="-0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_LeftFootUp_Empty" PlaybackScale="1" SetPara0="+1.00" SetPara1="0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_LeftFootUp_Empty" PlaybackScale="1" SetPara0="+1.00" SetPara1="1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_LeftFootUp_Empty" PlaybackScale="1" SetPara0="+3.16" SetPara1="0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Relaxed_WalkStop_LeftFootUp_Empty" PlaybackScale="1" SetPara0="+3.16" SetPara1="1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+ </ExampleList>
+ <ExamplePseudo/>
+ <Blendable>
+  <Face p0="7" p1="5" p2="4" p3="6"/>
+  <Face p0="3" p1="1" p2="0" p3="2"/>
+  <Face p0="15" p1="13" p2="12" p3="14"/>
+  <Face p0="11" p1="9" p2="8" p3="10"/>
+ </Blendable>
+ <JointList/>
+ <VGrid>
+  <VExample i0="0" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.60500002" w1="0.39499998" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.20999998" w1="0.79000002" w2="0" w3="0"/>
+  <VExample i0="8" i1="10" i2="0" i3="0" w0="0.91435182" w1="0.085648179" w2="0" w3="0"/>
+  <VExample i0="8" i1="10" i2="0" i3="0" w0="0.73148149" w1="0.26851854" w2="0" w3="0"/>
+  <VExample i0="8" i1="10" i2="0" i3="0" w0="0.5486111" w1="0.4513889" w2="0" w3="0"/>
+  <VExample i0="8" i1="10" i2="0" i3="0" w0="0.36574072" w1="0.63425928" w2="0" w3="0"/>
+  <VExample i0="8" i1="10" i2="0" i3="0" w0="0.18287036" w1="0.81712967" w2="0" w3="0"/>
+  <VExample i0="10" i1="0" i2="0" i3="0" w0="0.99999994" w1="0" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="0" i3="0" w0="0.75" w1="0.25" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.48000002" w1="0.125" w2="0.26999998" w3="0.125"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.10499999" w1="0.10499999" w2="0.64499998" w3="0.14500001"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.70717591" w1="0.20717591" w2="0.04282409" w3="0.04282409"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.60648149" w1="0.12500001" w2="0.14351855" w3="0.12500001"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.42361107" w1="0.12499999" w2="0.32638887" w3="0.12499999"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.24074073" w1="0.125" w2="0.50925934" w3="0.125"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.091435179" w1="0.091435179" w2="0.65856487" w3="0.15856481"/>
+  <VExample i0="10" i1="11" i2="0" i3="0" w0="0.75000006" w1="0.24999999" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="0" i3="0" w0="0.5" w1="0.5" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.30250001" w1="0.30250001" w2="0.19750001" w3="0.19750001"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.10499999" w1="0.10499999" w2="0.39500001" w3="0.39500001"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.45717591" w1="0.45717591" w2="0.04282409" w3="0.04282409"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.36574075" w1="0.36574075" w2="0.13425927" w3="0.13425927"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.27430555" w1="0.27430555" w2="0.22569445" w3="0.22569445"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.18287036" w1="0.18287036" w2="0.31712964" w3="0.31712964"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.091435179" w1="0.091435179" w2="0.40856484" w3="0.40856484"/>
+  <VExample i0="10" i1="11" i2="0" i3="0" w0="0.5" w1="0.5" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="0" i3="0" w0="0.25" w1="0.75" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.125" w1="0.48000002" w2="0.125" w3="0.26999998"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.10499999" w1="0.10499999" w2="0.14500001" w3="0.64499998"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.20717591" w1="0.70717597" w2="0.04282409" w3="0.04282409"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.125" w1="0.60648149" w2="0.125" w3="0.14351854"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.125" w1="0.42361113" w2="0.125" w3="0.3263889"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.125" w1="0.24074073" w2="0.125" w3="0.50925934"/>
+  <VExample i0="8" i1="9" i2="10" i3="11" w0="0.091435179" w1="0.091435179" w2="0.15856481" w3="0.65856487"/>
+  <VExample i0="10" i1="11" i2="0" i3="0" w0="0.24999999" w1="0.75000006" w2="0" w3="0"/>
+  <VExample i0="4" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+  <VExample i0="4" i1="6" i2="0" i3="0" w0="0.60500002" w1="0.39499998" w2="0" w3="0"/>
+  <VExample i0="4" i1="6" i2="0" i3="0" w0="0.20999998" w1="0.79000002" w2="0" w3="0"/>
+  <VExample i0="12" i1="14" i2="0" i3="0" w0="0.91435182" w1="0.085648179" w2="0" w3="0"/>
+  <VExample i0="12" i1="14" i2="0" i3="0" w0="0.73148149" w1="0.26851854" w2="0" w3="0"/>
+  <VExample i0="12" i1="14" i2="0" i3="0" w0="0.5486111" w1="0.4513889" w2="0" w3="0"/>
+  <VExample i0="12" i1="14" i2="0" i3="0" w0="0.36574072" w1="0.63425928" w2="0" w3="0"/>
+  <VExample i0="12" i1="14" i2="0" i3="0" w0="0.18287036" w1="0.81712967" w2="0" w3="0"/>
+  <VExample i0="14" i1="0" i2="0" i3="0" w0="0.99999994" w1="0" w2="0" w3="0"/>
+  <VExample i0="4" i1="5" i2="0" i3="0" w0="0.75" w1="0.25" w2="0" w3="0"/>
+  <VExample i0="4" i1="5" i2="6" i3="7" w0="0.48000002" w1="0.125" w2="0.26999998" w3="0.125"/>
+  <VExample i0="4" i1="5" i2="6" i3="7" w0="0.10499999" w1="0.10499999" w2="0.64499998" w3="0.14500001"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.70717591" w1="0.20717591" w2="0.04282409" w3="0.04282409"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.60648149" w1="0.12500001" w2="0.14351855" w3="0.12500001"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.42361107" w1="0.12499999" w2="0.32638887" w3="0.12499999"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.24074073" w1="0.125" w2="0.50925934" w3="0.125"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.091435179" w1="0.091435179" w2="0.65856487" w3="0.15856481"/>
+  <VExample i0="14" i1="15" i2="0" i3="0" w0="0.75000006" w1="0.24999999" w2="0" w3="0"/>
+  <VExample i0="4" i1="5" i2="0" i3="0" w0="0.5" w1="0.5" w2="0" w3="0"/>
+  <VExample i0="4" i1="5" i2="6" i3="7" w0="0.30250001" w1="0.30250001" w2="0.19750001" w3="0.19750001"/>
+  <VExample i0="4" i1="5" i2="6" i3="7" w0="0.10499999" w1="0.10499999" w2="0.39500001" w3="0.39500001"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.45717591" w1="0.45717591" w2="0.04282409" w3="0.04282409"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.36574075" w1="0.36574075" w2="0.13425927" w3="0.13425927"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.27430555" w1="0.27430555" w2="0.22569445" w3="0.22569445"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.18287036" w1="0.18287036" w2="0.31712964" w3="0.31712964"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.091435179" w1="0.091435179" w2="0.40856484" w3="0.40856484"/>
+  <VExample i0="14" i1="15" i2="0" i3="0" w0="0.5" w1="0.5" w2="0" w3="0"/>
+  <VExample i0="4" i1="5" i2="0" i3="0" w0="0.25" w1="0.75" w2="0" w3="0"/>
+  <VExample i0="4" i1="5" i2="6" i3="7" w0="0.125" w1="0.48000002" w2="0.125" w3="0.26999998"/>
+  <VExample i0="4" i1="5" i2="6" i3="7" w0="0.10499999" w1="0.10499999" w2="0.14500001" w3="0.64499998"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.20717591" w1="0.70717597" w2="0.04282409" w3="0.04282409"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.125" w1="0.60648149" w2="0.125" w3="0.14351854"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.125" w1="0.42361113" w2="0.125" w3="0.3263889"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.125" w1="0.24074073" w2="0.125" w3="0.50925934"/>
+  <VExample i0="12" i1="13" i2="14" i3="15" w0="0.091435179" w1="0.091435179" w2="0.15856481" w3="0.65856487"/>
+  <VExample i0="14" i1="15" i2="0" i3="0" w0="0.24999999" w1="0.75000006" w2="0" w3="0"/>
+  <VExample i0="5" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+  <VExample i0="5" i1="7" i2="0" i3="0" w0="0.60500002" w1="0.39499998" w2="0" w3="0"/>
+  <VExample i0="5" i1="7" i2="0" i3="0" w0="0.20999998" w1="0.79000002" w2="0" w3="0"/>
+  <VExample i0="13" i1="15" i2="0" i3="0" w0="0.91435182" w1="0.085648179" w2="0" w3="0"/>
+  <VExample i0="13" i1="15" i2="0" i3="0" w0="0.73148149" w1="0.26851854" w2="0" w3="0"/>
+  <VExample i0="13" i1="15" i2="0" i3="0" w0="0.5486111" w1="0.4513889" w2="0" w3="0"/>
+  <VExample i0="13" i1="15" i2="0" i3="0" w0="0.36574072" w1="0.63425928" w2="0" w3="0"/>
+  <VExample i0="13" i1="15" i2="0" i3="0" w0="0.18287036" w1="0.81712967" w2="0" w3="0"/>
+  <VExample i0="15" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+ </VGrid>
+</ParaGroup>

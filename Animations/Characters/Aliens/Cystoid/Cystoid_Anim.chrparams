@@ -1,0 +1,10 @@
+
+<Params>
+ <AnimationList>
+  <Comment value="-------EVENT DATABASE-------"/>
+  <Animation name="$AnimEventDatabase" path="Animations\Characters\Aliens\Cystoid\Cystoid.animevents"/>
+  <Animation name="#filepath" path="Animations\Characters\Aliens\Cystoid"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="*" path="*.caf"/>
+ </AnimationList>
+</Params>

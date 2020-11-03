@@ -1,0 +1,17 @@
+
+<CombinedBlendSpace>
+ <VEGPARAMS Idle2Move="1"/>
+ <Dimensions>
+  <Param Name="TurnAngle" ParaScale="1" ChooseBlendSpace="1" Locked="1"/>
+  <Param Name="MoveSpeed" ParaScale="1"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param Name="TravelAngle"/>
+ </AdditionalExtraction>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Aliens/Phantom/_Lmg/2d-Bspace_Combat_MoveStart_Left.bspace"/>
+  <BlendSpace AName="animations/Characters/Aliens/Phantom/_Lmg/2d-Bspace_Combat_MoveStart_Right.bspace"/>
+ </BlendSpaces>
+ <MotionCombination/>
+ <JointList/>
+</CombinedBlendSpace>

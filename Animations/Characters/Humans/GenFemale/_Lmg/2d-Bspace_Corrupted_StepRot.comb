@@ -1,0 +1,16 @@
+
+<CombinedBlendSpace>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <Dimensions>
+  <Param name="TurnAngle" ChooseBlendSpace="1" locked="1"/>
+  <Param name="MoveSpeed"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="TravelAngle"/>
+ </AdditionalExtraction>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Humans/GenFemale/_lmg/2d-Bspace_Corrupted_StepRot_Left.bspace"/>
+  <BlendSpace AName="animations/Characters/Humans/GenFemale/_lmg/2d-Bspace_Corrupted_StepRot_Right.bspace"/>
+ </BlendSpaces>
+ <JointList/>
+</CombinedBlendSpace>

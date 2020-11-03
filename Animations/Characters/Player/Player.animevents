@@ -1,0 +1,505 @@
+
+<anim_event_list>
+ <animation name="animations/characters/player/default/1p/fire/1p_fire_shotgun.caf">
+  <event name="sound" time="0.0243" endTime="0.0243" parameter="Play_WPN_Shotgun_Fire" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71703851" endTime="0.71703851" parameter="Play_WPN_Shotgun_PumpOut" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47049999" endTime="0.47049999" parameter="Play_WPN_Shotgun_PumpIn" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_mimic_front_a_wrench.caf">
+  <event name="sound" time="0.18356998" endTime="0.18356998" parameter="Play_Player_Fatality_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37372363" endTime="0.37372363" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_phantom_front_a_dualwrench.caf">
+  <event name="sound" time="0.0526" endTime="0.0526" parameter="Play_Player_Fatality_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_phantom_front_a_wrench.caf">
+  <event name="sound" time="0.099299997" endTime="0.099299997" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/idlebreak/1p_idlebreak_a_wrench.caf">
+  <event name="sound" time="0.34178498" endTime="0.34178498" parameter="Play_Player_WrenchIdle" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57910752" endTime="0.57910752" parameter="Play_Player_WrenchIdle" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/ironsight/1p_ironsight_fire_shotgun.caf">
+  <event name="sound" time="0.0363" endTime="0.0363" parameter="Play_WPN_Shotgun_Fire" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/jump/1p_jump_ambergun.caf">
+  <event name="sound" time="0.015999999" endTime="0.015999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/jump/1p_jump_shotgun.caf"/>
+ <animation name="animations/characters/player/male/1p/power_ether/1p_power_ether_in_empty.caf">
+  <event name="effect" time="0.011111111" endTime="0.011111111" parameter="Player.Powers.EtherForm.SmokeHands_00" bone="r_handProp_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.014285715" endTime="0.014285715" parameter="Player.Powers.EtherForm.SmokeHands_00" bone="l_handProp_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/reload/1p_reload_in_shotgun.caf">
+  <event name="OnReloadStart" time="0" endTime="0.66079998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/reload/1p_reload_out_shotgun.caf">
+  <event name="sound" time="0.0363" endTime="0.0363" parameter="Play_WPN_Shotgun_PumpIn" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17748478" endTime="0.17748478" parameter="Play_WPN_Shotgun_PumpOut" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="OnReloadEnd" time="0.0099999998" endTime="0.83230001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/reload/1p_reload_shotgun.caf">
+  <event name="sound" time="0.19168358" endTime="0.19168358" parameter="Play_WPN_Shotgun_LoadBullet" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.2136538" endTime="0.2136538" parameter="WeaponReload" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/run/1p_run_ambergun.caf">
+  <event name="footstep" time="0.0010141988" endTime="0.0010141988" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50405681" endTime="0.50405681" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/run/1p_run_googun.caf">
+  <event name="footstep" time="0.0060000001" endTime="0.0060000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50080001" endTime="0.50080001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/run/1p_run_grenade.caf">
+  <event name="footstep" time="0.0038999999" endTime="0.0038999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/run/1p_run_laser.caf">
+  <event name="footstep" time="0.0121" endTime="0.0121" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.505" endTime="0.505" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/run/1p_run_shotgun.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.48267525" endTime="0.48267525" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/run/1p_run_wrench.caf">
+  <event name="footstep" time="0.0099999998" endTime="0.0099999998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50080001" endTime="0.50080001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/runbase/1p_runbase_backward.caf">
+  <event name="footstep" time="0.50405681" endTime="0.50405681" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.0121" endTime="0.0121" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/runbase/1p_runbase_backwardleft.caf">
+  <event name="footstep" time="0.0019" endTime="0.0019" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/runbase/1p_runbase_backwardright.caf">
+  <event name="footstep" time="0.0019" endTime="0.0019" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/runbase/1p_runbase_forward.caf">
+  <event name="footstep" time="0.0099999998" endTime="0.0099999998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50080001" endTime="0.50080001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/runbase/1p_runbase_forwardleft.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/runbase/1p_runbase_forwardright.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/runbase/1p_runbase_left.caf">
+  <event name="footstep" time="0.0019" endTime="0.0019" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/runbase/1p_runbase_right.caf">
+  <event name="footstep" time="0.0019" endTime="0.0019" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/select/1p_select_laser.caf">
+  <event name="sound" time="0.0162" endTime="0.0162" parameter="Sounds/Ark/ArkPlayer:Weapons:WPN_HeavyLaser_Equip" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/select/1p_select_male.caf">
+  <event name="sound" time="0.030299999" endTime="0.030299999" parameter="Play_switch_weapon" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/select/1p_select_pistol.caf">
+  <event name="sound" time="0.0242" endTime="0.0242" parameter="Play_switch_weapon" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/select/1p_select_shotgun.caf"/>
+ <animation name="animations/characters/player/male/1p/slide/1p_slide_in_googun.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Player_Slide_In_1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/slide/1p_slide_out_googun.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Player_Slide_Out_1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/slowwalkbase/1p_slowwalkbase_backward.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/slowwalkbase/1p_slowwalkbase_forward.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/sneak/1p_sneak_in_shotgun.caf">
+  <event name="sound" time="0.014099999" endTime="0.014099999" parameter="Play_Player_Sneak_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/sneak/1p_sneak_out_shotgun.caf">
+  <event name="sound" time="0.0243" endTime="0.0243" parameter="Play_Player_Sneak_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/sprint/1p_sprint_ambergun.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50080001" endTime="0.50080001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/sprint/1p_sprint_googun.caf"/>
+ <animation name="animations/characters/player/male/1p/sprint/1p_sprint_laser.caf"/>
+ <animation name="animations/characters/player/male/1p/sprint/1p_sprint_shotgun.caf"/>
+ <animation name="animations/characters/player/male/1p/sprint/1p_sprint_wrench.caf"/>
+ <animation name="animations/characters/player/male/1p/unselect/1p_unselect_ambergun.caf">
+  <event name="sound" time="0.0222" endTime="0.0222" parameter="Play_switch_weapon" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/unselect/1p_unselect_laser.caf">
+  <event name="sound" time="0.048599999" endTime="0.048599999" parameter="Play_switch_weapon" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/unselect/1p_unselect_male.caf">
+  <event name="sound" time="0.0243" endTime="0.0243" parameter="Play_switch_weapon" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/unselect/1p_unselect_shotgun.caf">
+  <event name="sound" time="0.0222" endTime="0.0222" parameter="Play_switch_weapon" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walk/1p_walk_googun.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50080001" endTime="0.50080001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walk/1p_walk_laser.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.5029" endTime="0.5029" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walk/1p_walk_shotgun.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50080001" endTime="0.50080001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walk/1p_walk_wrench.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50080001" endTime="0.50080001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walkbase/1p_walkbase_backward.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walkbase/1p_walkbase_backwardleft.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walkbase/1p_walkbase_backwardright.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walkbase/1p_walkbase_forward.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walkbase/1p_walkbase_forwardleft.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walkbase/1p_walkbase_forwardright.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walkbase/1p_walkbase_left.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/walkbase/1p_walkbase_right.caf">
+  <event name="stepstop" time="0.34" endTime="0.34" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="stepstop" time="0.81999999" endTime="0.81999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/jump/3p_jump_empty.caf"/>
+ <animation name="animations/characters/player/male/3p/jump/3p_jump_shotgun.caf"/>
+ <animation name="animations/characters/player/male/3p/run/3p_run_backward_empty.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.505" endTime="0.505" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/run/3p_run_backwardleft_empty.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4948" endTime="0.4948" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/run/3p_run_backwardright_empty.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.47459999" endTime="0.47459999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/run/3p_run_forward_empty.caf">
+  <event name="footstep_player" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep_player" time="0.4948" endTime="0.4948" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/run/3p_run_forwardleft_empty.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/run/3p_run_forwardright_empty.caf">
+  <event name="footstep" time="0.0078999996" endTime="0.0078999996" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/run/3p_run_left_empty.caf">
+  <event name="footstep_player" time="0.0038999999" endTime="0.0038999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/run/3p_run_right_empty.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4989" endTime="0.4989" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/select/3p_select_shotgun.caf">
+  <event name="sound" time="0.034299999" endTime="0.034299999" parameter="Sounds/Ark/ArkPlayer:UFI:UFI_Shotgun" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1582" endTime="0.1582" parameter="Sounds/Ark/ArkPlayer:Weapons:WPN_Shotgun_PumOut" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_backward_laser.caf">
+  <event name="footstep" time="0.17019999" endTime="0.17019999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70159996" endTime="0.70159996" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_backward_shotgun.caf">
+  <event name="footstep" time="0.2026" endTime="0.2026" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.6347" endTime="0.6347" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_backwardleft_laser.caf">
+  <event name="footstep" time="0.2595" endTime="0.2595" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.722" endTime="0.722" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_backwardleft_shotgun.caf">
+  <event name="footstep" time="0.29179999" endTime="0.29179999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7281" endTime="0.7281" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_backwardright_laser.caf">
+  <event name="footstep" time="0.292" endTime="0.292" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.77069998" endTime="0.77069998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_backwardright_shotgun.caf">
+  <event name="footstep" time="0.3346" endTime="0.3346" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.79089999" endTime="0.79089999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_forward_laser.caf">
+  <event name="footstep" time="0.30419999" endTime="0.30419999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.76049995" endTime="0.76049995" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_forwardleft_laser.caf">
+  <event name="footstep" time="0.294" endTime="0.294" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.77069998" endTime="0.77069998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_forwardleft_shotgun.caf">
+  <event name="footstep" time="0.3265" endTime="0.3265" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7626" endTime="0.7626" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_forwardright_laser.caf">
+  <event name="footstep" time="0.34459999" endTime="0.34459999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.81739998" endTime="0.81739998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sneak_walk/3p_sneak_walk_forwardright_shotgun.caf">
+  <event name="footstep" time="0.2879" endTime="0.2879" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7626" endTime="0.7626" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sprint/3p_sprint_forward_empty.caf">
+  <event name="footstep" time="0.0010141988" endTime="0.0010141988" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.49797159" endTime="0.49797159" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/sprint/3p_sprint_forward_pistol.caf">
+  <event name="footstep" time="0.0010141988" endTime="0.0010141988" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50202841" endTime="0.50202841" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/walk/3p_walk_backwardleft_empty.caf">
+  <event name="footstep" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4948" endTime="0.4948" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/3p/walk/3p_walk_forward_empty.caf">
+  <event name="footstep" time="0.0078999996" endTime="0.0078999996" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.509" endTime="0.509" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/2d-bspace_1p_movestrafe_base.bspace">
+  <event name="FootCenter" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="RightFootUp" time="0.1244527" endTime="0.13826367" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.30425903" endTime="0.30425903" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="FootCenter" time="0.34851912" endTime="0.41284898" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="LeftFootUp" time="0.64508557" endTime="0.64508557" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.78915077" endTime="0.78915077" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="FootCenter" time="0.84071016" endTime="0.9785552" parameter="stepstop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/2d-bspace_1p_sneak_movestrafe_base.bspace">
+  <event name="footstep" time="0.3499006" endTime="0.3499006" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.78815252" endTime="0.78815252" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/2d-bspace_3p_movestrafe_empty.bspace">
+  <event name="footstep" time="0.082150102" endTime="0.082150102" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.22008114" endTime="0.22008114" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7555781" endTime="0.7555781" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.35395539" endTime="0.35395539" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.47971603" endTime="0.47971603" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.61967546" endTime="0.61967546" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88133872" endTime="0.88133872" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.99898583" endTime="0.99898583" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/2d-bspace_3p_movestrafe_pistol.bspace">
+  <event name="footstep" time="0.33164302" endTime="0.33164302" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7827" endTime="0.7827" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/3d-bspace_3p_movestrafe_empty.bspace">
+  <event name="footstep" time="0.078093305" endTime="0.078093305" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.20182556" endTime="0.20182556" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.3356998" endTime="0.3356998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.45740366" endTime="0.45740366" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57707912" endTime="0.57707912" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.71501017" endTime="0.71501017" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.83265722" endTime="0.83265722" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.95841783" endTime="0.95841783" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/3d-bspace_3p_movestrafe_shotgun.bspace">
+  <event name="footstep" time="0.094320484" endTime="0.094320484" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.2129" endTime="0.2129" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.3407" endTime="0.3407" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.45629999" endTime="0.45629999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.58609998" endTime="0.58609998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7119" endTime="0.7119" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.83149999" endTime="0.83149999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.94919997" endTime="0.94919997" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/3d-bspace_3p_movestrafe_wrench.bspace">
+  <event name="footstep" time="0.093199998" endTime="0.093199998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.21689999" endTime="0.21689999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.33975658" endTime="0.33975658" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4542" endTime="0.4542" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57707912" endTime="0.57707912" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70569998" endTime="0.70569998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.84369999" endTime="0.84369999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.96247464" endTime="0.96247464" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/bspace_3p_crouchstrafe_laser.bspace">
+  <event name="footstep" time="0.3275862" endTime="0.3275862" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.80223125" endTime="0.80223125" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/bspace_3p_movestrafe_laser.bspace">
+  <event name="footstep" time="0.3458418" endTime="0.3458418" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.83874238" endTime="0.83874238" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/bspace_3p_movestrafe_shotgun.bspace">
+  <event name="footstep" time="0.0010141988" endTime="0.0010141988" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50202841" endTime="0.50202841" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/bspace_3p_sneakstrafe_laser.bspace">
+  <event name="footstep" time="0.32961461" endTime="0.32961461" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.79208922" endTime="0.79208922" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/_lmg/bspace_3p_sneakstrafe_shotgun.bspace">
+  <event name="footstep" time="0.3377282" endTime="0.3377282" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.79411763" endTime="0.79411763" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/melee/1p_melee_leftright_a_wrench_lhandclose.caf"/>
+ <animation name="animations/characters/player/male/1p/melee/1p_melee_rightleft_a_wrench_lhandclose.caf"/>
+ <animation name="animations/characters/player/male/1p/throw/1p_throw_out_grenade.caf">
+  <event name="sound" time="0.021333333" endTime="0.021333333" parameter="Play_Recycler_Grenade_Throw" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/malfunction/1p_malfunction_stungun.caf">
+  <event name="sound" time="0.11306703" endTime="0.11306703" parameter="Play_Player_WPN_StunGun_PostEMP" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_mimic_front_b_wrench.caf">
+  <event name="sound" time="0.09938734" endTime="0.09938734" parameter="Play_Player_Fatality_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37440437" endTime="0.37440437" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_mimic_front_lr_b_wrench.caf">
+  <event name="sound" time="0.01701838" endTime="0.01701838" parameter="Play_Player_Fatality_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31790334" endTime="0.31790334" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_mimic_front_lr_a_wrench.caf">
+  <event name="sound" time="0.12797822" endTime="0.12797822" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_mimic_front_rl_a_wrench.caf">
+  <event name="sound" time="0.00068073627" endTime="0.00068073627" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_mimic_front_rl_b_wrench.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32198775" endTime="0.32198775" parameter="Play_Player_Fatality_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_phantom_front_lr_a_wrench.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Player_Fatality_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28931245" endTime="0.28931245" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_phantom_front_lr_b_wrench.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Player_Fatality_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28046292" endTime="0.28046292" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_phantom_front_rl_b_wrench.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_phantom_front_rl_a_wrench.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fatality/1p_fatality_generic_a_wrench.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Player_Melee_Fatality" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/trauma/1p_trauma_hobbled_a.caf">
+  <event name="sound" time="0.033175353" endTime="0.041299932" parameter="Play_Player_Hobbled_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47257954" endTime="0.47257954" parameter="Play_Player_Hobbled_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fire/1p_fire_laser.caf">
+  <event name="ForceFeedback" time="0" endTime="0" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.1" endTime="0.1" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.2" endTime="0.2" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.3" endTime="0.3" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.4" endTime="0.4" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.5" endTime="0.5" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.6" endTime="0.6" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.7" endTime="0.7" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.8" endTime="0.8" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.9" endTime="0.9" parameter="LaserDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fire/1p_fire_googun.caf">
+  <event name="ForceFeedback" time="0" endTime="0" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.1" endTime="0.1" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.2" endTime="0.2" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.3" endTime="0.3" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.4" endTime="0.4" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.5" endTime="0.5" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.6" endTime="0.6" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.7" endTime="0.7" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.8" endTime="0.8" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.9" endTime="0.9" parameter="GooGunDefault" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/fire/1p_fire_stungun.caf">
+  <event name="ForceFeedback" time="0" endTime="0" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.1" endTime="0.1" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.2" endTime="0.2" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.3" endTime="0.3" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.4" endTime="0.4" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.5" endTime="0.5" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.6" endTime="0.6" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.7" endTime="0.7" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.8" endTime="0.8" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.9" endTime="0.9" parameter="StungunChargeLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/throw/1p_throw_idle_grenade.caf">
+  <event name="ForceFeedback" time="0" endTime="0" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.1" endTime="0.1" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.2" endTime="0.2" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.3" endTime="0.3" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.4" endTime="0.4" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.5" endTime="0.5" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.6" endTime="0.6" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.7" endTime="0.7" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.8" endTime="0.8" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.9" endTime="0.9" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/melee/1p_melee_loop_leftright_a_wrench.caf">
+  <event name="ForceFeedback" time="0" endTime="0" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.1" endTime="0.1" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.2" endTime="0.2" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.3" endTime="0.3" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.4" endTime="0.4" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.5" endTime="0.5" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.6" endTime="0.6" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.7" endTime="0.7" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.8" endTime="0.8" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.9" endTime="0.9" parameter="WrenchLeftLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/player/male/1p/melee/1p_melee_loop_rightleft_a_wrench.caf">
+  <event name="ForceFeedback" time="0" endTime="0" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.1" endTime="0.1" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.2" endTime="0.2" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.3" endTime="0.3" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.4" endTime="0.4" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.5" endTime="0.5" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.6" endTime="0.6" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.7" endTime="0.7" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.8" endTime="0.8" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="ForceFeedback" time="0.9" endTime="0.9" parameter="WrenchOrThrowLoop" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

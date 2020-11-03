@@ -1,0 +1,12 @@
+
+<Params>
+ <AnimationList>
+  <Comment value="-------EVENT DATABASE-------"/>
+  <Animation name="$TracksDatabase" path="Animations\NewCharacter\*\*.dba"/>
+  <Animation name="#filepath" path="Animations\NewCharacter\*"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="#filepath" path="Animations\NewCharacter\Lmg"/>
+  <Animation name="*" path="*\*.bspace"/>
+  <Animation name="*" path="*\*.comb"/>
+ </AnimationList>
+</Params>

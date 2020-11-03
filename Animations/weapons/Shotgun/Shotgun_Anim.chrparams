@@ -1,0 +1,10 @@
+
+<Params>
+ <AnimationList>
+  <Comment value="-------EVENT DATABASE-------"/>
+  <Animation name="$AnimEventDatabase" path="Animations\weapons\Shotgun\Shotgun.animevents"/>
+  <Animation name="#filepath" path="Animations\weapons\Shotgun"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="*" path="*.caf"/>
+ </AnimationList>
+</Params>

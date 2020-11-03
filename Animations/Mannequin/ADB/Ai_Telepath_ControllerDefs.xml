@@ -1,0 +1,33 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Telepath_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_Telepath_FragmentIds.xml"/>
+ <FragmentDefs>
+  <BreakGloo scopes="FullBody3P"/>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Melee scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Death scopes="FullBody3P"/>
+  <Reaction_Death scopes="FullBody3P"/>
+  <BlendRagdoll scopes="FullBody3P"/>
+  <Cs_Arboretum_Sq01_TelepathIntro_Telepath scopes="FullBody3P"/>
+  <PushObstacle scopes="FullBody3P"/>
+  <Stunned scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Lifted scopes="FullBody3P"/>
+  <Lifted_BumpCeiling scopes="FullBody3P"/>
+  <MindJack_In scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <MindJack_Out scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <CombatReaction scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <PsiAttack scopes="FullBody3P"/>
+  <ForceResist scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <ForceResistScrunch scopes="Torso3P+FullBody3P+TorsoDetail"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Torso3P layer="3" numLayers="2" context="Char3P"/>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <TorsoDetail layer="5" numLayers="2" context="Char3P"/>
+ </ScopeDefs>
+</ControllerDef>

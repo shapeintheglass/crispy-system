@@ -1,0 +1,18 @@
+
+<CombinedBlendSpace>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <VEGPARAMS Move2Idle="1"/>
+ <Dimensions>
+  <Param name="Height"/>
+  <Param Name="TravelAngle" Min="-3.14" Max="3.14"/>
+  <Param name="StopLeg" min="-1" max="1" ChooseBlendSpace="1" locked="1"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="MoveSpeed"/>
+ </AdditionalExtraction>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Aliens/Nightmare/_lmg/3D-BSpace_Crouch_StrafeStop_LeftFootUp_2m.bspace"/>
+  <BlendSpace AName="animations/Characters/Aliens/Nightmare/_lmg/3D-BSpace_Crouch_StrafeStop_RightFootUp_2m.bspace"/>
+ </BlendSpaces>
+ <JointList/>
+</CombinedBlendSpace>

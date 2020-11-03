@@ -1,0 +1,57 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="Cs_Lobby_Sq03_NeuromodDrop_Operator"/>
+  <Tag name="Cs_Lobby_Sq03_Keycard_Drop_Operator"/>
+  <Tag name="Distractor_Collision_Forward" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="ForceResist" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="Hypnotized"/>
+  <Tag name="Blinded"/>
+  <Tag name="GetUp" subTagDef="Animations/Mannequin/ADB/operatorGetUpTags.xml"/>
+  <Tag name="Dormant"/>
+  <Tag name="BreakGloo"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="Lifted"/>
+  <Tag name="Lifted_BumpCeiling"/>
+  <Tag name="Aiming"/>
+  <Tag name="AimPose"/>
+  <Tag name="Cs_Bridge_Sq01A_AlexJanuaryArgueMale_Operator"/>
+  <Tag name="Cs_Bridge_Sq01B_AlexJanuaryArgueFemale_Operator"/>
+  <Tag name="Cs_Bridge_Sq06A_AlexJanuaryArgueMale_Operator"/>
+  <Tag name="Cs_Bridge_Sq06B_AlexJanuaryArgueFemale_Operator"/>
+  <Tag name="Cs_Bridge_AlexShootsJanuary_Operator"/>
+  <Tag name="Cs_Bridge_JanuaryZapsAlex_Operator"/>
+  <Tag name="Cs_CrewFacilities_Sq01_CookIntro_Operator"/>
+  <Tag name="Cs_Bridge_AlexPullsGunGetsZapped_Operator"/>
+  <Tag name="Engineer_Torch" subTagDef="Animations/Mannequin/ADB/engineerOperatorTorchTags.xml"/>
+  <Tag name="Notice"/>
+  <Tag name="Cs_Lobby_Sq10C_AudioLogReact_Alternate_Operator"/>
+  <Tag name="ProbeExtend"/>
+  <Tag name="ProbeAttack"/>
+  <Tag name="Scan" subTagDef="Animations/Mannequin/ADB/Ai_Operator_Tags.xml"/>
+  <Tag name="Cs_EndGame_Sq01_LifeReview_Psycho_Igwe_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_LifeReview_Psycho_Danielle_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_LifeReview_Psycho_Mikhaila_Operator"/>
+  <Tag name="Dispenser_Pose"/>
+  <Tag name="Distractor_Inspect_A"/>
+  <Tag name="Distractor_Inspect_High_A"/>
+  <Tag name="Glood_Pose"/>
+  <Tag name="Cs_Bridge_JanuaryZapsAlex_Convo_Operator"/>
+  <Tag name="ArmsRetracted"/>
+  <Tag name="ProbeAttackFast"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Danielle_Idle_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Danielle_Move_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Danielle_ListenIdle_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Igwe_Idle_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Igwe_Move_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Igwe_ListenIdle_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Mikhaila_Idle_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Mikhaila_Move_Operator"/>
+  <Tag name="Cs_EndGame_Sq01_Main_Mikhaila_ListenIdle_Operator"/>
+  <Tag name="Cs_Bridge_sq01A_AlexJanuaryArgue_StartLoop_Operator"/>
+ </Tags>
+</TagDefinition>

@@ -1,0 +1,28 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param name="Height" min="+0" max="+100" cells="10"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="MoveSpeed" ParaScale="1.0"/>
+ </AdditionalExtraction>
+ <ExampleList>
+  <Example AName="Combat_MediumHit_Left_A" SetPara0="+100"/>
+  <Example AName="Crouch_MediumHit_Left_A" SetPara0="+0"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="1" p1="0"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="1" i1="0" w0="1" w1="0"/>
+  <VExample i0="0" i1="1" w0="0.1111111" w1="0.8888889"/>
+  <VExample i0="0" i1="1" w0="0.22222221" w1="0.77777779"/>
+  <VExample i0="0" i1="1" w0="0.33333331" w1="0.66666669"/>
+  <VExample i0="0" i1="1" w0="0.44444442" w1="0.55555558"/>
+  <VExample i0="0" i1="1" w0="0.55555552" w1="0.44444448"/>
+  <VExample i0="0" i1="1" w0="0.66666663" w1="0.33333337"/>
+  <VExample i0="0" i1="1" w0="0.77777773" w1="0.22222227"/>
+  <VExample i0="0" i1="1" w0="0.88888884" w1="0.11111116"/>
+  <VExample i0="0" i1="0" w0="1" w1="0"/>
+ </VGrid>
+</ParaGroup>

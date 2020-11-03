@@ -1,0 +1,6 @@
+
+<anim_event_list>
+ <animation name="animations/characters/humans/shared_animations/emotions/missinglipsyncanim.caf">
+  <event name="dialog" time="0.01" endTime="0.01" parameter="missinglipsyncanim" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

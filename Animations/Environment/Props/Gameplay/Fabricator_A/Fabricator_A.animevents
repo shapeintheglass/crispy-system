@@ -1,0 +1,33 @@
+
+<anim_event_list>
+ <animation name="animations/environment/props/gameplay/fabricator_a/fabricate.caf">
+  <event name="spawnMaterial" time="0" endTime="0.44999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.0111023" endTime="0.0111023" parameter="Interactables.Fabricator.BasePlate_00" bone="topTray_joint" offset="-0.081042707,0.082911134,-0.0044945478" dir="0,0,0" model=""/>
+  <event name="sound" time="0.018899621" endTime="0.018899621" parameter="Play_Fabricator_Scan_Mechanics_Pt1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.058574311" endTime="0.275592" parameter="Interactables.Fabricator.InnerRing_00" bone="innerRing_joint" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.065326631" endTime="0.065326631" parameter="Interactables.Fabricator.FirstRing_00" bone="mesh_inner_joint" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.069173902" endTime="0.31641555" parameter="Interactables.Fabricator.WeldingSmoke_00" bone="topTray_joint" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.14524786" endTime="0.22296396" parameter="Interactables.Fabricator.OuterRing_00" bone="outerRing_joint" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20385395" endTime="0.20385395" parameter="Play_Fabricator_Scan_Mechanics_Pt2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="spawnItem" time="0.25653261" endTime="0.60330582" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="release" time="0.62143582" endTime="0.68755156" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="jiggle" time="0.69" endTime="0.69" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/environment/props/gameplay/fabricator_a/test_001.caf">
+  <event name="spawnItem" time="0.68755156" endTime="0.68755156" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/environment/props/gameplay/fabricator_a/fabricateshorter.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="spawnMaterial" time="0" endTime="0.44999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.0111023" endTime="0.0111023" parameter="Interactables.Fabricator.BasePlate_00" bone="topTray_joint" offset="-0.081042707,0.082911134,-0.0044945478" dir="0,0,0" model=""/>
+  <event name="sound" time="0.018899621" endTime="0.018899621" parameter="Play_Fabricator_Scan_Mechanics_Pt1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.059297837" endTime="0.275592" parameter="Interactables.Fabricator.InnerRing_00" bone="innerRing_joint" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.065326631" endTime="0.065326631" parameter="Interactables.Fabricator.FirstRing_00" bone="mesh_inner_joint" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.069173902" endTime="0.31641555" parameter="Interactables.Fabricator.WeldingSmoke_00" bone="topTray_joint" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="effect" time="0.14524786" endTime="0.22296396" parameter="Interactables.Fabricator.OuterRing_00" bone="outerRing_joint" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20385395" endTime="0.20385395" parameter="Play_Fabricator_Scan_Mechanics_Pt2" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="spawnItem" time="0.25653261" endTime="0.60330582" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="release" time="0.62143582" endTime="0.68755156" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="jiggle" time="0.69" endTime="0.69" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

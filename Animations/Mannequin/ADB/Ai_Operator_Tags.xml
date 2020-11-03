@@ -1,0 +1,25 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Stance">
+   <Tag name="Combat"/>
+   <Tag name="Relaxed"/>
+   <Tag name="Corrupted"/>
+   <Tag name="InvestigateAnomaly"/>
+   <Tag name="InvestigateDanger"/>
+   <Tag name="InvestigateVision"/>
+   <Tag name="Hunt"/>
+  </Group>
+  <Group name="Operator">
+   <Tag name="Engineer"/>
+   <Tag name="Mechanic"/>
+   <Tag name="Science"/>
+   <Tag name="Security"/>
+  </Group>
+  <Tag name="Disable"/>
+  <Tag name="LookPose"/>
+  <Tag name="In"/>
+  <Tag name="Loop"/>
+  <Tag name="Out"/>
+ </Tags>
+</TagDefinition>

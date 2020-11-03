@@ -1,0 +1,761 @@
+
+<anim_event_list>
+ <animation name="animations/characters/humans/largemale/relaxed/walkstart/relaxed_walkstart_left180_empty.caf">
+  <event name="segment1" time="0.69112074" endTime="0.69112074" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/walkstart/relaxed_walkstart_right_empty.caf">
+  <event name="segment1" time="0.35286146" endTime="0.79036146" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35286146" endTime="0.35286146" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.74810201" endTime="0.97788143" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/walkstart/relaxed_walkstart_left90_empty.caf">
+  <event name="segment1" time="0.47697255" endTime="0.48469952" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48469952" endTime="0.48469952" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48985085" endTime="0.48985085" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/walkstart/relaxed_walkstart_left_empty.caf">
+  <event name="segment1" time="0.45460618" endTime="0.98289967" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/runstart/relaxed_runstart_left180_empty.caf">
+  <event name="segment1" time="0.58949745" endTime="0.58949745" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/runstart/relaxed_runstart_left90_empty.caf">
+  <event name="sound" time="0.42423308" endTime="0.42423308" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.56460655" endTime="0.70775795" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/runstart/relaxed_runstart_left_empty.caf">
+  <event name="segment1" time="0.61391222" endTime="0.61391222" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/walkstart/relaxed_walkstart_right180_empty.caf">
+  <event name="segment1" time="0.41062778" endTime="0.80595356" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.7759769" endTime="0.97695732" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/walkstart/relaxed_walkstart_right90_empty.caf">
+  <event name="segment1" time="0.32856682" endTime="0.76055211" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.75323313" endTime="0.97565961" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/runstart/relaxed_runstart_right180_empty.caf">
+  <event name="segment1" time="0.51877946" endTime="0.63339633" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.81912661" endTime="0.81912661" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/runstart/relaxed_runstart_right90_empty.caf">
+  <event name="segment1" time="0.47914177" endTime="0.58860731" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.79508555" endTime="0.79508555" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/runstart/relaxed_runstart_right_empty.caf">
+  <event name="segment1" time="0.44875407" endTime="0.62711853" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.78547102" endTime="0.78547102" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/_lmg/2d-bspace_relaxed_movestop_walk_empty.bspace">
+  <event name="animexit" time="0.69378698" endTime="0.69378698" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/_lmg/2d-bspace_relaxed_movestop_run_empty.bspace">
+  <event name="animexit" time="0.85872781" endTime="0.85872781" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/crewfacilities/sq02/crewfacilities_sq02_cookrevisit_a2_lukagolubkin.caf">
+  <event name="sound" time="0.031614784" endTime="0.031614784" parameter="Play_Foley_Luka_Stir" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.067607" endTime="0.067607" parameter="Play_Foley_Luka_Stir" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14737354" endTime="0.14737354" parameter="Play_Foley_Luka_Stir" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81760699" endTime="0.81760699" parameter="Play_Foley_Luka_Stir" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8642996" endTime="0.8642996" parameter="Play_Foley_Luka_Stir" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/crewfacilities/sq03/crewfacilities_sq03_cookrevisit_b2_lukagolubkin.caf">
+  <event name="sound" time="0.016019417" endTime="0.016019417" parameter="Play_Foley_Luka_Stir" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19368932" endTime="0.19368932" parameter="Play_Foley_Luka_Ladel_Down" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/crewfacilities/sq03/crewfacilities_sq03_cookrevisit_b3_lukagolubkin.caf">
+  <event name="sound" time="0.09970817" endTime="0.09970817" parameter="Play_Foley_Luka_Ladel_Down" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/crewfacilities/sq03/crewfacilities_sq03_cookrevisit_b_lukagolubkin.caf">
+  <event name="sound" time="0.013132296" endTime="0.013132296" parameter="Play_Foley_Luka_Stir" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.056906614" endTime="0.056906614" parameter="Play_Foley_Luka_Stir" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17071985" endTime="0.17071985" parameter="Play_Foley_Luka_Ladel_Down" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/runstop/relaxed_runstop_leftfootup_empty.caf">
+  <event name="animexit" time="0.72303921" endTime="0.72303921" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/runstop/relaxed_runstop_rightfootup_empty.caf">
+  <event name="animexit" time="0.83333331" endTime="0.83333331" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/walkstop/relaxed_walkstop_leftfootup_empty.caf">
+  <event name="animexit" time="0.80208331" endTime="0.80208331" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/largemale/relaxed/walkstop/relaxed_walkstop_rightfootup_empty.caf">
+  <event name="animexit" time="0.783701" endTime="0.783701" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/arboretum/sq04/arboretum_sq04_dahlexecutesalex_alex.caf">
+  <event name="sound" time="0.035642233" endTime="0.035642233" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.057162073" endTime="0.057162073" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.082044385" endTime="0.082044385" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.10423671" endTime="0.10423671" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1197041" endTime="0.1197041" parameter="Play_Evnt_Arboretum_Alex_Foley" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12911904" endTime="0.12911904" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14256893" endTime="0.14256893" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15332885" endTime="0.15332885" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16812374" endTime="0.16812374" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17686617" endTime="0.17686617" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1990585" endTime="0.1990585" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21250841" endTime="0.21250841" parameter="Play_Evnt_Arboretum_Alex_Foley" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24344318" endTime="0.24344318" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25756556" endTime="0.25756556" parameter="Play_Evnt_Arboretum_Alex_Foley" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28782785" endTime="0.28782785" parameter="Play_Evnt_Arboretum_Alex_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38399461" endTime="0.38399461" parameter="Play_Evnt_Arboretum_Alex_Foley" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41358441" endTime="0.41358441" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80363142" endTime="0.80363142" parameter="Play_Evnt_Arboretum_Alex_Bodyfall" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/oneoff/bridge_alexpullsgungetszapped_alex.caf">
+  <event name="sound" time="0.099774942" endTime="0.099774942" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22049469" endTime="0.22049469" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.91024733" endTime="0.91024733" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/oneoff/bridge_alexreactstojanuarydeath_alex.caf">
+  <event name="sound" time="0.19363958" endTime="0.19363958" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33498234" endTime="0.33498234" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55618376" endTime="0.55618376" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79787982" endTime="0.79787982" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq01a/bridge_sq01a_alexjanuaryargue_startloop_alex.caf">
+  <event name="sound" time="0.15324304" endTime="0.15324304" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16535994" endTime="0.16535994" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17890236" endTime="0.17890236" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19458303" endTime="0.19458303" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27868852" endTime="0.27868852" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37348539" endTime="0.37348539" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40413401" endTime="0.40413401" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42124021" endTime="0.42124021" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42908055" endTime="0.42908055" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48182464" endTime="0.48182464" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55024946" endTime="0.55024946" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57163221" endTime="0.57163221" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq01a/bridge_sq01a_alexjanuaryarguemale_alex.caf">
+  <event name="sound" time="0.036350675" endTime="0.036350675" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11831789" endTime="0.11831789" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12900926" endTime="0.12900926" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13827513" endTime="0.13827513" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15823236" endTime="0.15823236" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19957234" endTime="0.19957234" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24946544" endTime="0.24946544" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27512473" endTime="0.27512473" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34141123" endTime="0.34141123" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39130434" endTime="0.39130434" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40413401" endTime="0.40413401" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41411263" endTime="0.41411263" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42337847" endTime="0.42337847" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53813255" endTime="0.53813255" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5481112" endTime="0.5481112" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56022811" endTime="0.56022811" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57448322" endTime="0.57448322" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6143977" endTime="0.6143977" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63720602" endTime="0.63720602" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73770493" endTime="0.73770493" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74625802" endTime="0.74625802" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7540983" endTime="0.7540983" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76051319" endTime="0.76051319" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83250177" endTime="0.83250177" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.85388458" endTime="0.85388458" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89308625" endTime="0.89308625" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90591586" endTime="0.90591586" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9244476" endTime="0.9244476" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.92729867" endTime="0.92729867" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.93870276" endTime="0.93870276" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.94511759" endTime="0.94511759" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.94725591" endTime="0.94725591" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.95652175" endTime="0.95652175" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.96079826" endTime="0.96079826" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq01a/bridge_sq01a_alexjanuaryarguemale_convo_alex.caf">
+  <event name="sound" time="0.055123676" endTime="0.055123676" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.073498234" endTime="0.073498234" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21978799" endTime="0.21978799" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23816255" endTime="0.23816255" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60141343" endTime="0.60141343" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65795046" endTime="0.65795046" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq01a/bridge_sq01a_alexjanuaryarguemale_startloop_alex.caf">
+  <event name="sound" time="0.060584459" endTime="0.060584459" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14825374" endTime="0.14825374" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1610834" endTime="0.1610834" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18246615" endTime="0.18246615" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27726302" endTime="0.27726302" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35566646" endTime="0.35566646" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3713471" endTime="0.3713471" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42195293" endTime="0.42195293" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42551675" endTime="0.42551675" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47469708" endTime="0.47469708" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54953671" endTime="0.54953671" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56379187" endTime="0.56379187" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65146118" endTime="0.65146118" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74839628" endTime="0.74839628" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76051319" endTime="0.76051319" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq06a/bridge_alexshootsjanuary_alex.caf">
+  <event name="sound" time="0.0092658577" endTime="0.0092658577" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14754099" endTime="0.14754099" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1539558" endTime="0.1539558" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1660727" endTime="0.1660727" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17177477" endTime="0.17177477" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22024235" endTime="0.22024235" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24376336" endTime="0.24376336" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27868852" endTime="0.27868852" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28367785" endTime="0.28367785" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29365647" endTime="0.29365647" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3064861" endTime="0.3064861" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31575194" endTime="0.31575194" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32074127" endTime="0.32074127" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33642197" endTime="0.33642197" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33784747" endTime="0.33784747" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37063435" endTime="0.37063435" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38631505" endTime="0.38631505" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39843193" endTime="0.39843193" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40270847" endTime="0.40270847" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40627229" endTime="0.40627229" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41838917" endTime="0.41838917" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43905914" endTime="0.43905914" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44761226" endTime="0.44761226" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45117602" endTime="0.45117602" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46115467" endTime="0.46115467" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48396292" endTime="0.48396292" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49109051" endTime="0.49109051" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51746255" endTime="0.51746255" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51817536" endTime="0.51817536" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52672845" endTime="0.52672845" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55452603" endTime="0.55452603" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56949395" endTime="0.56949395" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58517462" endTime="0.58517462" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59444046" endTime="0.59444046" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59515327" endTime="0.59515327" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60513186" endTime="0.60513186" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60584462" endTime="0.60584462" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6129722" endTime="0.6129722" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61796153" endTime="0.61796153" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62865287" endTime="0.62865287" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63720602" endTime="0.63720602" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63934427" endTime="0.63934427" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64718461" endTime="0.64718461" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65003562" endTime="0.65003562" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65431219" endTime="0.65431219" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68638629" endTime="0.68638629" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69137555" endTime="0.69137555" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71632218" endTime="0.71632218" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72558802" endTime="0.72558802" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7298646" endTime="0.7298646" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73770493" endTime="0.73770493" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74126869" endTime="0.74126869" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75908768" endTime="0.75908768" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77120459" endTime="0.77120459" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7810508" endTime="0.7868852" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78524399" endTime="0.78524399" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79406285" endTime="0.80042762" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79622072" endTime="0.79622072" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.82466143" endTime="0.82466143" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.85602278" endTime="0.85602278" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.86671418" endTime="0.86671418" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89379907" endTime="0.89379907" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90163934" endTime="0.90163934" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9244476" endTime="0.9244476" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.95367068" endTime="0.95367068" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.96008551" endTime="0.96008551" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.96293658" endTime="0.96293658" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq06a/bridge_alexshootsjanuary_convo_alex.caf">
+  <event name="sound" time="0.042402826" endTime="0.042402826" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.10600707" endTime="0.10600707" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17879859" endTime="0.17879859" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32650179" endTime="0.32650179" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38303888" endTime="0.38303888" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56183743" endTime="0.56183743" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8070671" endTime="0.8070671" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87067133" endTime="0.87067133" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq06a/bridge_sq06a_alexjanuaryarguemale_startloop_alex.caf">
+  <event name="sound" time="0.075552389" endTime="0.075552389" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15965788" endTime="0.15965788" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1660727" endTime="0.1660727" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19743407" endTime="0.19743407" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27084818" endTime="0.27084818" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36065573" endTime="0.36065573" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37063435" endTime="0.37063435" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40057021" endTime="0.40057021" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41625088" endTime="0.41625088" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42836782" endTime="0.42836782" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4725588" endTime="0.4725588" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54739845" endTime="0.54739845" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56022811" endTime="0.56022811" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64005703" endTime="0.64005703" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq06a/bridge_sq06a_januaryalexargue_alex.caf">
+  <event name="sound" time="0.069850318" endTime="0.069850318" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1525303" endTime="0.1525303" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16037063" endTime="0.16037063" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18959373" endTime="0.18959373" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26728439" endTime="0.26728439" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34283677" endTime="0.34283677" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36421952" endTime="0.36421952" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38916606" endTime="0.38916606" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41981468" endTime="0.41981468" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4312188" endTime="0.4312188" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47184604" endTime="0.47184604" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55310053" endTime="0.55310053" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56307912" endTime="0.56307912" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64789736" endTime="0.64789736" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq10/bridge_sq10b_alexreadydistruct_finalspeech_alex.caf">
+  <event name="sound" time="0.019244475" endTime="0.019244475" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.049180329" endTime="0.049180329" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.061297223" endTime="0.061297223" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.077690661" endTime="0.077690661" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.094084106" endTime="0.094084106" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.09978617" endTime="0.09978617" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11617962" endTime="0.11617962" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14754099" endTime="0.14754099" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17106201" endTime="0.17106201" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20955096" endTime="0.20955096" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26443335" endTime="0.26443335" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33357093" endTime="0.33357093" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39700642" endTime="0.39700642" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41411263" endTime="0.41411263" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4568781" endTime="0.4568781" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53385603" endTime="0.53385603" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60228086" endTime="0.60228086" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61225939" endTime="0.61225939" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61796153" endTime="0.61796153" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62437636" endTime="0.62437636" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64504635" endTime="0.64504635" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68210977" endTime="0.68210977" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73627943" endTime="0.73627943" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77761942" endTime="0.77761942" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79686385" endTime="0.79686385" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.82181042" endTime="0.82181042" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.82679975" endTime="0.82679975" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.84889519" endTime="0.84889519" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq10/bridge_sq10d_alexreadydestruct_stepstochair_alex.caf">
+  <event name="sound" time="0.28904596" endTime="0.28904596" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48975265" endTime="0.48975265" parameter="Play_Evnt_Bridge_Alex_Footstep_Concrete" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58869255" endTime="0.58869255" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq14/bridge_sq14_lukaescapepod_lukagolubkin.caf">
+  <event name="sound" time="0.12116893" endTime="0.12116893" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18460442" endTime="0.18460442" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29579473" endTime="0.29579473" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43763363" endTime="0.43763363" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.784747" endTime="0.784747" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq14/bridge_sq14_lukaescapepod_waitidle_lukagolubkin.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54739839" endTime="0.54739839" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56593013" endTime="0.56593013" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58303636" endTime="0.58303636" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63079119" endTime="0.63079119" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72059876" endTime="0.72059876" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq14/bridge_sq14_lukaescapepod_waitidle_start_lukagolubkin.caf">
+  <event name="sound" time="0.065573767" endTime="0.065573767" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55096221" endTime="0.55096221" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56806839" endTime="0.56806839" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58446187" endTime="0.58446187" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71418387" endTime="0.71418387" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/bridge/sq15/bridge_sq15_lukadetonatesexplosives_lukagolubkin.caf">
+  <event name="sound" time="0.056307912" endTime="0.056307912" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.095509619" endTime="0.095509619" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17034926" endTime="0.17034926" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22238061" endTime="0.22238061" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27655023" endTime="0.27655023" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Lrg" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34568781" endTime="0.34568781" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45046329" endTime="0.45046329" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51532429" endTime="0.51532429" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55452597" endTime="0.55452597" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57875979" endTime="0.57875979" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60798287" endTime="0.60798287" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6350677" endTime="0.6350677" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77619386" endTime="0.77619386" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90662861" endTime="0.90662861" parameter="Play_Evnt_Bridge_Alex_Foley_Mvmnt_Sml" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/simulationlabs/sq08/simulationlabs_sq08_alexholdsplayer_alex.caf">
+  <event name="sound" time="0.61752433" endTime="0.61752433" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80041724" endTime="0.80041724" parameter="Play_NPC_Cine_Grab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/simulationlabs/sq08/simulationlabs_sq08_greeting_alex.caf">
+  <event name="sound" time="0.18441197" endTime="0.18441197" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2282533" endTime="0.2282533" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26791927" endTime="0.26791927" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35629782" endTime="0.35629782" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42379957" endTime="0.42379957" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53235912" endTime="0.53235912" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70424497" endTime="0.70424497" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/simulationlabs/sq08/simulationlabs_sq08_hold_alex.caf">
+  <event name="sound" time="0.10083449" endTime="0.10083449" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2503477" endTime="0.2503477" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29833102" endTime="0.29833102" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35952711" endTime="0.35952711" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.391516" endTime="0.391516" parameter="Play_NPC_Cine_Grab " bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39707929" endTime="0.39707929" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.95062584" endTime="0.95062584" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/simulationlabs/sq08/simulationlabs_sq08_testintro_alex.caf">
+  <event name="sound" time="0.10596491" endTime="0.10596491" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11157895" endTime="0.11157895" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14807017" endTime="0.14807017" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16561404" endTime="0.16561404" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18526316" endTime="0.18526316" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23368421" endTime="0.23368421" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26315787" endTime="0.26315787" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30903846" endTime="0.34903845" parameter="Play_NPC_Cine_Concrete_Step" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3420985" endTime="0.35192308" parameter="Play_NPC_Cine_Concrete_Step" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35508773" endTime="0.35508773" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37894738" endTime="0.37894738" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38245612" endTime="0.38245612" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39929825" endTime="0.39929825" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40771931" endTime="0.40771931" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44842106" endTime="0.44842106" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48912281" endTime="0.48912281" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54401821" endTime="0.5798077" parameter="Play_NPC_Cine_Concrete_Step" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5706073" endTime="0.57692307" parameter="Play_NPC_Cine_Concrete_Step" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57122803" endTime="0.57122803" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58245611" endTime="0.58245611" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60561401" endTime="0.60561401" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63789469" endTime="0.63789469" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67719299" endTime="0.67719299" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73333335" endTime="0.73333335" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77263159" endTime="0.77263159" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.86456138" endTime="0.86456138" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.92059028" endTime="0.92059028" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/simulationlabs/sq08/simulationlabs_sq08_testintro_loiter_a_alex.caf">
+  <event name="sound" time="0.054355402" endTime="0.054355402" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15121953" endTime="0.15121953" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34703833" endTime="0.34703833" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60418123" endTime="0.60418123" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/simulationlabs/sq08/simulationlabs_sq08_testintro_loiter_b_alex.caf">
+  <event name="sound" time="0.056445993" endTime="0.056445993" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19442509" endTime="0.19442509" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49616724" endTime="0.49616724" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/simulationlabs/sq08/simulationlabs_sq08_testintro_loiter_c_alex.caf">
+  <event name="sound" time="0.064808361" endTime="0.064808361" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23205575" endTime="0.23205575" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43972126" endTime="0.43972126" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_alexdeath_alex.caf">
+  <event name="sound" time="0.082220659" endTime="0.082220659" parameter="Play_NPC_Cine_Grab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17849614" endTime="0.17849614" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36120871" endTime="0.36120871" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41672522" endTime="0.41672522" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55165142" endTime="0.55165142" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64581871" endTime="0.64581871" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70414621" endTime="0.70414621" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77301472" endTime="0.77301472" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83063948" endTime="0.83063948" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.86015463" endTime="0.86015463" parameter="Play_NPC_Cine_Bodyfall_Thump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue02_alex.caf">
+  <event name="sound" time="0.48955432" endTime="0.48955432" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68523681" endTime="0.68523681" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue03_alex.caf">
+  <event name="sound" time="0.24599303" endTime="0.24599303" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43763065" endTime="0.43763065" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61184669" endTime="0.61184669" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7609756" endTime="0.7609756" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue05_alex.caf">
+  <event name="sound" time="0.36167246" endTime="0.36167246" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue07_alex.caf">
+  <event name="sound" time="0.43554005" endTime="0.43554005" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue08_alex.caf">
+  <event name="sound" time="0.076598741" endTime="0.076598741" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11665495" endTime="0.11665495" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18060435" endTime="0.18060435" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30780041" endTime="0.30780041" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43921292" endTime="0.43921292" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49824315" endTime="0.49824315" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.50878423" endTime="0.50878423" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52073085" endTime="0.52073085" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55375963" endTime="0.55375963" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58468026" endTime="0.58468026" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65987349" endTime="0.65987349" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue09_alex.caf">
+  <event name="sound" time="0.26202092" endTime="0.26202092" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41672474" endTime="0.41672474" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53728223" endTime="0.53728223" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue10_alex.caf">
+  <event name="sound" time="0.22090591" endTime="0.22090591" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue11_alex.caf">
+  <event name="sound" time="0.071679547" endTime="0.071679547" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11524947" endTime="0.11524947" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14617006" endTime="0.14617006" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18692902" endTime="0.18692902" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21082221" endTime="0.21082221" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2382291" endTime="0.2382291" parameter="Play_NPC_Cine_Metal_Scuff " bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2572031" endTime="0.2572031" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33520731" endTime="0.33520731" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37596628" endTime="0.37596628" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47013354" endTime="0.47013354" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5045678" endTime="0.5045678" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72733665" endTime="0.72733665" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74982435" endTime="0.74982435" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77863669" endTime="0.77863669" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.82712579" endTime="0.82712579" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.88193959" endTime="0.88193959" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_death_alex.caf">
+  <event name="sound" time="0.18341532" endTime="0.18341532" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23049894" endTime="0.23049894" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_dialogue12_alex.caf">
+  <event name="sound" time="0.039353479" endTime="0.039353479" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17990161" endTime="0.17990161" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20660576" endTime="0.20660576" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28460997" endTime="0.28460997" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30920592" endTime="0.30920592" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35066763" endTime="0.35066763" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37526354" endTime="0.37526354" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39423752" endTime="0.39423752" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44975403" endTime="0.44975403" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49262124" endTime="0.49262124" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56851727" endTime="0.56851727" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57624739" endTime="0.57624739" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63738585" endTime="0.63738585" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70765984" endTime="0.70765984" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72101194" endTime="0.72101194" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76879829" endTime="0.76879829" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77582574" endTime="0.77582574" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81588191" endTime="0.81588191" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83204496" endTime="0.83204496" parameter="Play_NPC_Cine_Metal_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_handshake_alex.caf">
+  <event name="sound" time="0.049261082" endTime="0.049261082" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17452499" endTime="0.17452499" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/endgame/sq01/endgame_sq01_lifereview_start_alex.caf">
+  <event name="sound" time="0.7065447" endTime="0.7065447" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80365938" endTime="0.80365938" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83391982" endTime="0.83391982" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87121749" endTime="0.87121749" parameter="Play_NPC_Cine_Metal_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/arboretum/sq03/arboretum_sq03_meetalex_alexmainspeech_alex.caf">
+  <event name="sound" time="0.010122615" endTime="0.010122615" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.017593244" endTime="0.017593244" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.028442865" endTime="0.028442865" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.036875241" endTime="0.036875241" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.041623708" endTime="0.041623708" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.06290482" endTime="0.06290482" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.096887894" endTime="0.096887894" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13737835" endTime="0.13737835" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15328531" endTime="0.15328531" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15747635" endTime="0.15747635" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17343211" endTime="0.17343211" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1778688" endTime="0.1778688" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18522549" endTime="0.18522549" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19701886" endTime="0.19701886" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2074248" endTime="0.2074248" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24872711" endTime="0.24872711" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26246497" endTime="0.26246497" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26986036" endTime="0.26986036" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2858161" endTime="0.2858161" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30177188" endTime="0.30177188" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31911507" endTime="0.31911507" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32609284" endTime="0.32609284" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33229592" endTime="0.33229592" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34547678" endTime="0.34547678" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36296806" endTime="0.36296806" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38972068" endTime="0.38972068" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41575027" endTime="0.41575027" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43774262" endTime="0.43774262" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44606736" endTime="0.44606736" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45045635" endTime="0.45045635" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45300469" endTime="0.45508587" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45786077" endTime="0.45786077" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47021639" endTime="0.47021639" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4953424" endTime="0.4953424" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5091967" endTime="0.5091967" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52237749" endTime="0.52237749" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54180187" endTime="0.5452705" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55636877" endTime="0.69025838" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56538874" endTime="0.56538874" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59010357" endTime="0.59010357" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62019318" endTime="0.62019318" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6331768" endTime="0.6331768" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63961762" endTime="0.63961762" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65418589" endTime="0.65418589" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65543139" endTime="0.65543139" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66835332" endTime="0.66835332" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67291659" endTime="0.67291659" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72506648" endTime="0.72506648" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72772115" endTime="0.72772115" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74090201" endTime="0.74090201" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78599435" endTime="0.78599435" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80056262" endTime="0.80056262" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81721205" endTime="0.81721205" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83108664" endTime="0.83108664" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.95263684" endTime="0.95263684" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.96843034" endTime="0.96843034" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.98637748" endTime="0.98637748" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/arboretum/sq03/arboretum_sq03_meetalex_apexarrives_armingkey_alex.caf">
+  <event name="sound" time="0.084710732" endTime="0.084710732" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14357752" endTime="0.14357752" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14644906" endTime="0.14644906" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15937103" endTime="0.15937103" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17444667" endTime="0.17444667" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.178754" endTime="0.178754" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1902402" endTime="0.1902402" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20172642" endTime="0.20172642" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22900614" endTime="0.22900614" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2476712" endTime="0.2476712" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26346475" endTime="0.26346475" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27495095" endTime="0.27495095" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27710459" endTime="0.27710459" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28859082" endTime="0.28859082" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29074448" endTime="0.29074448" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31874207" endTime="0.31874207" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35320067" endTime="0.35320067" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37689096" endTime="0.37689096" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38478771" endTime="0.38478771" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38909507" endTime="0.38909507" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39268449" endTime="0.39268449" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40201703" endTime="0.40201703" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41278535" endTime="0.41278535" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41422114" endTime="0.41422114" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42427155" endTime="0.42427155" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43934721" endTime="0.43934721" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45298705" endTime="0.45298705" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49606031" endTime="0.49606031" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.50036764" endTime="0.50036764" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51687908" endTime="0.51687908" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54559457" endTime="0.54559457" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57718158" endTime="0.57718158" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59153932" endTime="0.5944109" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61307597" endTime="0.61307597" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62240851" endTime="0.62240851" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62743378" endTime="0.62743378" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64538091" endTime="0.64538091" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65614921" endTime="0.65614921" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65902078" endTime="0.65902078" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66691756" endTime="0.66691756" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67337859" endTime="0.68486482" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68127531" endTime="0.68127531" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71429813" endTime="0.71429813" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72363067" endTime="0.72363067" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72722006" endTime="0.72722006" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7351169" endTime="0.7351169" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75019252" endTime="0.75019252" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76096082" endTime="0.76096082" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77029335" endTime="0.77029335" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78177953" endTime="0.78177953" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/arboretum/sq03/arboretum_sq03_meetalex_apexarrives_notakeplans_alex.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0" endTime="0" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0" endTime="0" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0" endTime="0" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.076096073" endTime="0.076096073" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13496287" endTime="0.13496287" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13998809" endTime="0.13998809" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16583203" endTime="0.16583203" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17803611" endTime="0.17803611" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18377921" endTime="0.18377921" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19382966" endTime="0.19382966" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21751992" endTime="0.21751992" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24264599" endTime="0.24264599" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24551755" endTime="0.24551755" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25628588" endTime="0.25628588" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26992571" endTime="0.26992571" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27925825" endTime="0.27925825" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28212982" endTime="0.28212982" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29218024" endTime="0.29218024" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31587052" endTime="0.31587052" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3460218" endTime="0.3460218" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37401944" endTime="0.37401944" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3819162" endTime="0.3819162" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38981295" endTime="0.38981295" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39268452" endTime="0.39268452" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41206744" endTime="0.41206744" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41422111" endTime="0.41422111" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42211789" endTime="0.42211789" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43145043" endTime="0.43145043" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44580817" endTime="0.44580817" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49318874" endTime="0.49318874" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51472551" endTime="0.51472551" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54344094" endTime="0.54344094" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57215637" endTime="0.57215637" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59153932" endTime="0.59153932" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60948658" endTime="0.60948658" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6245622" endTime="0.6245622" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64609885" endTime="0.64609885" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64968824" endTime="0.64968824" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66261017" endTime="0.66261017" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66404599" endTime="0.66404599" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67840379" endTime="0.67840379" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68701839" endTime="0.68701839" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71645182" endTime="0.71645182" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7171697" endTime="0.7171697" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73009169" endTime="0.73009169" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7365526" endTime="0.7365526" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74444938" endTime="0.74444938" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76670396" endTime="0.76670396" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78106165" endTime="0.78106165" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79541939" endTime="0.79541939" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/arboretum/sq03/arboretum_sq03_meetalex_apexarrives_takesplans_alex.caf">
+  <event name="sound" time="0.01794719" endTime="0.01794719" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.061020441" endTime="0.061020441" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.095479041" endTime="0.095479041" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11342624" endTime="0.11342624" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12706611" endTime="0.12706611" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13496286" endTime="0.13496286" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14860274" endTime="0.14860274" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16583203" endTime="0.16583203" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18018979" endTime="0.18018979" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21751995" endTime="0.21751995" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24767122" endTime="0.24767122" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26490051" endTime="0.26490051" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27925825" endTime="0.27925825" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28141195" endTime="0.28141195" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29505178" endTime="0.29505178" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30653799" endTime="0.30653799" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33956084" endTime="0.33956084" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38048041" endTime="0.38048041" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41781056" endTime="0.41781056" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42929676" endTime="0.42929676" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43719354" endTime="0.43719354" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44509029" endTime="0.44509029" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45514071" endTime="0.45514071" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46375537" endTime="0.46375537" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48529202" endTime="0.48529202" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.50036764" endTime="0.50036764" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52262217" endTime="0.52262217" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57287431" endTime="0.57287431" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60087186" endTime="0.60087186" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61379391" endTime="0.61379391" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64035577" endTime="0.64035577" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68271106" endTime="0.68271106" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70352972" endTime="0.70352972" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73224533" endTime="0.73224533" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75162828" endTime="0.75162828" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76957548" endTime="0.76957548" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78321534" endTime="0.78321534" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79829097" endTime="0.79829097" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80259836" endTime="0.80259836" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81767392" endTime="0.81767392" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.82916009" endTime="0.82916009" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83921057" endTime="0.83921057" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.86505455" endTime="0.86505455" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8700797" endTime="0.8700797" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.88730901" endTime="0.88730901" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89879525" endTime="0.89879525" parameter="Play_NPC_Cine_Concrete_Step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90453833" endTime="0.90453833" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.92033184" endTime="0.92033184" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.94474006" endTime="0.94474006" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9590978" endTime="0.9590978" parameter="Play_NPC_Cine_Concrete_Scuff" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

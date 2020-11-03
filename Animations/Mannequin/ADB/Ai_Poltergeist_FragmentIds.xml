@@ -1,0 +1,33 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Motion_IdleTurn"/>
+  <Tag name="Motion_IdleTurnBig"/>
+  <Tag name="Melee"/>
+  <Tag name="Death"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="Blinded" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="BreakGloo"/>
+  <Tag name="Hypnotized" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Lifted"/>
+  <Tag name="Fall"/>
+  <Tag name="Land_Stumble"/>
+  <Tag name="Lifted_BumpCeiling"/>
+  <Tag name="Land_Bump"/>
+  <Tag name="Stunned" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Search"/>
+  <Tag name="Power_Throw"/>
+  <Tag name="Power_Lift"/>
+  <Tag name="Goo_In"/>
+  <Tag name="Goo_Out"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="Nullwave_React"/>
+  <Tag name="Mind_Jack_In"/>
+  <Tag name="Mind_Jack_Out"/>
+  <Tag name="Force_Resist" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="Glood_Pose"/>
+ </Tags>
+</TagDefinition>

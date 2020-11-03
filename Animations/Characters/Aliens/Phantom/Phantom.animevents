@@ -1,0 +1,716 @@
+
+<anim_event_list>
+ <animation name="animations/characters/aliens/phantom/_lmg/1d-bspace_combat_move.bspace">
+  <event name="sound" time="0.14989999" endTime="0.14989999" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58609998" endTime="0.58609998" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/1d-bspace_i2m_right.bspace">
+  <event name="sound" time="0.089199997" endTime="0.089199997" parameter="Play_Phantom_Vox_Effort_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_combat_moveturn.bspace">
+  <event name="sound" time="0.078899994" endTime="0.078899994" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27579999" endTime="0.27579999" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48879999" endTime="0.48879999" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75650001" endTime="0.75650001" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/3d-bspace_combat_movestrafeturn.bspace">
+  <event name="sound" time="0.13078225" endTime="0.25253549" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.29058442" endTime="0.29058442" parameter="Footstep_Phantom" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49474299" endTime="0.49474299" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.83360392" endTime="0.83360392" parameter="Footstep_Phantom" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/blinded/combat_blinded_in_medium.caf">
+  <event name="New Event" time="0.0263" endTime="0.0263" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/death/combat_death_back_a.caf">
+  <event name="sound" time="0.0383" endTime="0.0383" parameter="Play_Phantom_DamageImpact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_back_a.caf">
+  <event name="sound" time="0.018099999" endTime="0.018099999" parameter="Play_Phantom_DamageImpact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_front_a.caf">
+  <event name="sound" time="0.046599999" endTime="0.046599999" parameter="Play_Phantom_DamageImpact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_front_b.caf">
+  <event name="sound" time="0.064800002" endTime="0.064800002" parameter="Play_Phantom_DamageImpact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_left_a.caf">
+  <event name="sound" time="0.014099999" endTime="0.014099999" parameter="Play_Phantom_DamageImpact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_right_a.caf">
+  <event name="sound" time="0.0099999998" endTime="0.0099999998" parameter="Play_Phantom_DamageImpact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_torso_back_a_in.caf">
+  <event name="sound" time="0.044500001" endTime="0.044500001" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_torso_front_a.caf">
+  <event name="sound" time="0.0425" endTime="0.0425" parameter="Play_Phantom_Movement_Search_Mid" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_torso_front_a_in.caf">
+  <event name="sound" time="0.022299999" endTime="0.022299999" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.055780932" endTime="0.055780932" parameter="Play_Phantom_Movement_BigHitTorso_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_bighit_torso_front_a_out.caf">
+  <event name="sound" time="0.065922923" endTime="0.065922923" parameter="Play_Phantom_Movement_BigHitTorso_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27890468" endTime="0.27890468" parameter="Play_Phantom_Vox_Effort_Slow" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_back_a.caf">
+  <event name="New Event" time="0.064800002" endTime="0.064800002" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_back_lr_a.caf">
+  <event name="New Event" time="0.030300001" endTime="0.030300001" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_back_rl_a.caf">
+  <event name="New Event" time="0.0385" endTime="0.0385" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_front_a.caf">
+  <event name="New Event" time="0.0283" endTime="0.0283" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_front_lr_a.caf">
+  <event name="New Event" time="0.030400001" endTime="0.030400001" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_front_rl_a.caf">
+  <event name="New Event" time="0.0283" endTime="0.0283" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_left_a.caf">
+  <event name="New Event" time="0.032400001" endTime="0.032400001" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_left_lr_a.caf">
+  <event name="New Event" time="0.0405" endTime="0.0405" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_left_rl_a.caf">
+  <event name="New Event" time="0.0243" endTime="0.0243" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_right_a.caf">
+  <event name="New Event" time="0.0283" endTime="0.0283" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_right_lr_a.caf">
+  <event name="New Event" time="0.020099999" endTime="0.020099999" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_mediumhit_torso_right_rl_a.caf">
+  <event name="New Event" time="0.0162" endTime="0.0162" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_back_a.caf">
+  <event name="sound" time="0.015999999" endTime="0.015999999" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_back_b.caf">
+  <event name="New Event" time="0.0425" endTime="0.0425" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_front_a.caf">
+  <event name="New Event" time="0.020099999" endTime="0.020099999" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_front_b.caf">
+  <event name="New Event" time="0.029411765" endTime="0.029411765" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_front_c.caf">
+  <event name="New Event" time="0.034400001" endTime="0.034400001" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_head_back_add.caf">
+  <event name="New Event" time="0.0222" endTime="0.0222" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_head_front_add.caf">
+  <event name="New Event" time="0.030300001" endTime="0.030300001" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_head_left_add.caf">
+  <event name="New Event" time="0.0283" endTime="0.0283" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_head_right_add.caf">
+  <event name="New Event" time="0.0283" endTime="0.0283" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_left_a.caf">
+  <event name="New Event" time="0.030400001" endTime="0.030400001" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_right_a.caf">
+  <event name="New Event" time="0.064000003" endTime="0.064000003" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_torso_back_add.caf">
+  <event name="New Event" time="0.046599999" endTime="0.046599999" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_torso_front_add.caf">
+  <event name="New Event" time="0.032299999" endTime="0.032299999" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_torso_left_add.caf">
+  <event name="New Event" time="0.062700003" endTime="0.062700003" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hit/combat_smallhit_torso_right_add.caf">
+  <event name="New Event" time="0.0263" endTime="0.0263" parameter="Play_Phantom_Vox_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_forward_lft_a.caf">
+  <event name="sound" time="0.034299999" endTime="0.034299999" parameter="Play_Phantom_Vox_FastAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.074900001" endTime="0.074900001" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_forward_lft_c.caf">
+  <event name="sound" time="0.1013" endTime="0.1013" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_forward_lft_c_add.caf">
+  <event name="sound" time="0.077" endTime="0.077" parameter="Play_Phantom_Vox_FastAttack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_front_a.caf">
+  <event name="sound" time="0" endTime="0" parameter="Trigger_Enemy_Move" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1277" endTime="0.1277" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14379999" endTime="0.14379999" parameter="Play_Phantom_MeleeWhip_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30127531" endTime="0.30127531" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_front_a_add.caf">
+  <event name="sound" time="0.068799995" endTime="0.068799995" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14989999" endTime="0.14989999" parameter="Play_Phantom_MeleeWhip_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1926" endTime="0.1926" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_front_b.caf">
+  <event name="sound" time="0" endTime="0" parameter="Trigger_Enemy_Move" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12159999" endTime="0.12159999" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1338" endTime="0.1338" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1541" endTime="0.1541" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_left90_a.caf">
+  <event name="sound" time="0.0526" endTime="0.0526" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1358" endTime="0.1358" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1582" endTime="0.1582" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1987" endTime="0.1987" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_right90_a.caf">
+  <event name="sound" time="0.056699999" endTime="0.056699999" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13789999" endTime="0.13789999" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1601" endTime="0.1601" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18239999" endTime="0.18239999" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/power/combat_power_psiblast.caf">
+  <event name="effect" time="0.68661255" endTime="0.68661255" parameter="ArkAlienss.Phantom.KineticProjectile.Launch" bone="headEnd_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63870001" endTime="0.63870001" parameter="Play_Phantom_Psi_Blast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.046399999" endTime="0.046399999" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/power/combat_power_psiblast_add.caf">
+  <event name="effect" time="0.68052739" endTime="0.68052739" parameter="ArkAlienss.Phantom.KineticProjectile.Launch" bone="head_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20791075" endTime="0.20791075" parameter="Play_Phantom_Vox_Effort_Slow" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69760001" endTime="0.69760001" parameter="Play_Phantom_Psi_Blast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/power/combat_power_psyblast_fiire.caf">
+  <event name="sound" time="0.1135" endTime="0.1135" parameter="Play_Phantom_Psi_Blast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.060799997" endTime="0.060799997" parameter="Play_Phantom_Vox_Effort_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/power/combat_power_psyblast_in.caf">
+  <event name="sound" time="0.062799998" endTime="0.062799998" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/psiblast/combat_psiblast.caf">
+  <event name="sound" time="0.221" endTime="0.221" parameter="Play_Phantom_Psi_Blast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.146" endTime="0.146" parameter="Play_Phantom_Vox_GetAway_01" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/psiblast/combat_psiblast_add.caf">
+  <event name="sound" time="0.1621" endTime="0.1621" parameter="Play_Phantom_Psi_Blast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0" endTime="0" parameter="Play_Phantom_Vox_Effort_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/psiblast/combat_psiblast_b.caf">
+  <event name="sound" time="0.046399999" endTime="0.046399999" parameter="Play_Phantom_Vox_Effort" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.078899994" endTime="0.078899994" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.148" endTime="0.148" parameter="Play_Phantom_MeleeWhip_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.221" endTime="0.221" parameter="Play_Phantom_Psi_Blast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/psiblast/combat_psiblast_b_add.caf">
+  <event name="sound" time="0.3204" endTime="0.3204" parameter="Play_Phantom_Psi_Blast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.044599999" endTime="0.044599999" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/run/combat_run_forward.caf">
+  <event name="sound" time="0.15429173" endTime="0.72653198" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60432792" endTime="0.86082143" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/run/combat_runturn_left.caf">
+  <event name="sound" time="0.1094" endTime="0.1094" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/runstart/combat_runstart_left.caf">
+  <event name="sound" time="0.058901388" endTime="0.058901388" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.33289212" endTime="0.33289212" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.41978911" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.64923894" endTime="0.64923894" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.89808077" endTime="0.89808077" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/runstart/combat_runstart_left180.caf">
+  <event name="sound" time="0.046988748" endTime="0.046988748" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.092653871" endTime="0.092653871" parameter="Play_Phantom_Swish_Warbly" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.41467527" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/runstart/combat_runstart_left90.caf">
+  <event name="sound" time="0.039708801" endTime="0.039708801" parameter="Play_Phantom_Swish_Warbly" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.049636003" endTime="0.049636003" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.43006966" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/runstart/combat_runstart_right.caf">
+  <event name="sound" time="0.018530775" endTime="0.018530775" parameter="Play_Phantom_Swish_Whispers" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.32091638" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.70387393" endTime="0.73676354" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/runstart/combat_runstart_right180.caf">
+  <event name="sound" time="0.0099272002" endTime="0.0099272002" parameter="Play_Phantom_Swish_Whispers" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.032428853" endTime="0.032428853" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.27796161" endTime="0.27796161" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.30773658" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.60225016" endTime="0.60225016" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.69609654" endTime="0.76344186" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87954998" endTime="0.87954998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/runstart/combat_runstart_right90.caf">
+  <event name="segment1" time="0.32335371" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.69767553" endTime="0.77911639" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walk/combat_walk_forward.caf">
+  <event name="footstep" time="0.125" endTime="0.125" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24626385" endTime="0.45943204" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.6875" endTime="0.6875" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7428292" endTime="0.7428292" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walkstart/combat_walkstart_left.caf">
+  <event name="segment1" time="0.3277314" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walkstart/combat_walkstart_left180.caf">
+  <event name="segment1" time="0.33612511" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walkstart/combat_walkstart_left90.caf">
+  <event name="segment1" time="0.32710207" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walkstart/combat_walkstart_right.caf">
+  <event name="segment1" time="0.22110403" endTime="0.98084289" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.67790556" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walkstart/combat_walkstart_right180.caf">
+  <event name="segment1" time="0.20568773" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.66909003" endTime="0.99000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walkstart/combat_walkstart_right90.caf">
+  <event name="segment1" time="0.22290899" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.69149703" endTime="0.99000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/death/death_backwards.caf">
+  <event name="sound" time="0.0363" endTime="0.0363" parameter="Sounds/Ark_Incubation:Phantom:Phantom_Vox_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="New Event" time="0.066799998" endTime="0.066799998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/death/death_forward.caf">
+  <event name="sound" time="0.0425" endTime="0.0425" parameter="Sounds/Ark_Incubation:Phantom:Phantom_Vox_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/relaxed/idle/relaxed_idle_lookaround.caf">
+  <event name="sound" time="0.1135" endTime="0.1135" parameter="Play_Phantom_Vox_Effort_Idle" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/relaxed/walk/relaxed_walkstart_forward_lft.caf">
+  <event name="segment1" time="0.12648" endTime="0.12648" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.43092" endTime="0.43092" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment3" time="0.70769227" endTime="0.70769227" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/shiftposes/shiftposes_a.caf">
+  <event name="sound" time="0.028299998" endTime="0.028299998" parameter="Play_Phantom_Vox_Effort_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_combat_movestop_walk.bspace">
+  <event name="footstep" time="0.26461041" endTime="0.26461041" parameter="Footstep_Phantom" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.59090906" endTime="0.59090906" parameter="Footstep_Phantom" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63068181" endTime="0.63068181" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.81245947" endTime="0.81245947" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_combat_movestop_run.bspace">
+  <event name="footstep" time="0.24640657" endTime="0.24640657" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52840519" endTime="0.52840519" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.60027379" endTime="0.60027379" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.80856586" endTime="0.80856586" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/walkstart/alerted_walkstart_left.caf">
+  <event name="segment1" time="0.41170001" endTime="0.71512008" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/walkstart/alerted_walkstart_left180.caf">
+  <event name="segment1" time="0.41170001" endTime="0.73848152" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/walkstart/alerted_walkstart_left90.caf">
+  <event name="segment1" time="0.41170001" endTime="0.73458791" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/walkstart/alerted_walkstart_right.caf">
+  <event name="segment1" time="0.54704738" endTime="0.54704738" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.78487998" endTime="0.78487998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/walkstart/alerted_walkstart_right180.caf">
+  <event name="segment1" time="0.58623296" endTime="0.58623296" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.80794215" endTime="0.80794215" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/walkstart/alerted_walkstart_right90.caf">
+  <event name="segment1" time="0.57819599" endTime="0.57819599" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.78487998" endTime="0.78487998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runstart/alerted_runstart_left.caf">
+  <event name="footstep" time="0.29089665" endTime="0.29089665" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.51006353" endTime="0.76054507" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62696785" endTime="0.62696785" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.91033536" endTime="0.91033536" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runstart/alerted_runstart_left180.caf">
+  <event name="sound" time="0.090349078" endTime="0.090349078" parameter="Play_Phantom_mvmt_bass" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.42505133" endTime="0.42505133" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.5094229" endTime="0.76054507" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.64887065" endTime="0.64887065" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.92607802" endTime="0.92607802" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runstart/alerted_runstart_left90.caf">
+  <event name="segment1" time="0.47363275" endTime="0.76703441" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runstart/alerted_runstart_right.caf">
+  <event name="segment1" time="0.5983128" endTime="0.5983128" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.81875998" endTime="0.81875998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runstart/alerted_runstart_right180.caf">
+  <event name="segment1" time="0.63622546" endTime="0.63622546" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.83733779" endTime="0.83733779" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runstart/alerted_runstart_right90.caf">
+  <event name="segment1" time="0.60220635" endTime="0.60220635" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.81875998" endTime="0.81875998" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runjuketurn/alerted_runjuketurn_left180.caf">
+  <event name="sound" time="0.21697468" endTime="0.21697468" parameter="Play_Phantom_mvmt_bass" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.47999999" endTime="0.47999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/walkstop/alerted_walkstop_leftfootup.caf">
+  <event name="animexit" time="0.93007916" endTime="0.93007916" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/walkstop/alerted_walkstop_rightfootup.caf">
+  <event name="animexit" time="0.93007916" endTime="0.93007916" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runstop/alerted_runstop_rightfootup.caf">
+  <event name="animexit" time="0.92282319" endTime="0.92282319" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runstop/alerted_runstop_leftfootup.caf">
+  <event name="animexit" time="0.92941952" endTime="0.92941952" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walkstop/combat_walkstop_leftfootup.caf">
+  <event name="footstep" time="0.25943083" endTime="0.25943083" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.54665786" endTime="0.54665786" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.87269127" endTime="0.87269127" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walkstop/combat_walkstop_rightfootup.caf">
+  <event name="footstep" time="0.25744539" endTime="0.25744539" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62541366" endTime="0.62541366" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.90303433" endTime="0.90303433" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/runstop/combat_runstop_rightfootup.caf">
+  <event name="sound" time="0.90171504" endTime="0.90171504" parameter="animexit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/runstop/combat_runstop_leftfootup.caf">
+  <event name="animexit" time="0.89973617" endTime="0.89973617" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/run/combat_run_backward.caf">
+  <event name="footstep" time="0.32061687" endTime="0.32061687" parameter="" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8043831" endTime="0.8043831" parameter="" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walk/combat_walk_backward.caf">
+  <event name="footstep" time="0.3125" endTime="0.3125" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8125" endTime="0.8125" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walk/combat_walk_backwardleft.caf">
+  <event name="footstep" time="0.34659091" endTime="0.34659091" parameter="" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.81574672" endTime="0.81574672" parameter="" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/3d-bspace_alerted_movestrafeturn.bspace">
+  <event name="footstep" time="0.29870129" endTime="0.29870129" parameter="Footstep_Phantom" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.78977275" endTime="0.78977275" parameter="Footstep_Phantom" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/walk/combat_walk_backwardright.caf">
+  <event name="footstep" time="0.32061687" endTime="0.32061687" parameter="" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.80194807" endTime="0.80194807" parameter="" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_alerted_movestart_left.bspace">
+  <event name="sound" time="0.071525887" endTime="0.071525887" parameter="Play_Phantom_Vox_Notice_Danger" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.25649351" endTime="0.25649351" parameter="Footstep_Phantom" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.56574672" endTime="0.56574672" parameter="Footstep_Phantom" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88068181" endTime="0.88068181" parameter="Footstep_Phantom" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_alerted_movestop_walk.bspace">
+  <event name="footstep" time="0.23214285" endTime="0.23214285" parameter="Footstep_Phantom" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63717532" endTime="0.63717532" parameter="Footstep_Phantom" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67694807" endTime="0.67694807" parameter="Play_Phantom_Synth_MvmtA" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_front_c.caf">
+  <event name="sound" time="0.1521014" endTime="0.1521014" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38555193" endTime="0.38555193" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39492995" endTime="0.39492995" parameter="Play_Phantom_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_front_d.caf">
+  <event name="sound" time="0.094729818" endTime="0.094729818" parameter="Play_Phantom_Movement_Search_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35551947" endTime="0.35551947" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38358906" endTime="0.38358906" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40226817" endTime="0.40226817" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/psiblast/combat_psiblast_a.caf">
+  <event name="sound" time="0.067370132" endTime="0.067370132" parameter="Play_Phantom_mvmt_bass" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16233766" endTime="0.16233766" parameter="Play_Phantom_Blast_Telegraph" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shift/combat_shift_backward_in.caf">
+  <event name="sound" time="0" endTime="0" parameter="Trigger_Enemy_Move" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.038149349" endTime="0.038149349" parameter="Play_Phantom_Shift" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shift/combat_shift_forward_out.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Phantom_Shift_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shift/combat_shift_left_out.caf">
+  <event name="sound" time="0.0097402595" endTime="0.0097402595" parameter="Play_Phantom_Shift_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shiftattack/combat_shiftattack_in.caf">
+  <event name="sound" time="0.27512887" endTime="0.27512887" parameter="Play_Phantom_Invisible" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shiftattack/combat_shiftattack_out.caf">
+  <event name="sound" time="0.016835017" endTime="0.016835017" parameter="Play_Phantom_Shift_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.086724482" endTime="0.086724482" parameter="Play_Phantom_Vox_Effort_Slow" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13275518" endTime="0.13275518" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shift/combat_shift_right_out.caf">
+  <event name="sound" time="0.019333333" endTime="0.019333333" parameter="Play_Phantom_Shift_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shift/combat_shift_forward_in.caf">
+  <event name="sound" time="0" endTime="0" parameter="Trigger_Enemy_Move" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0" endTime="0" parameter="Play_Phantom_Shift" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shift/combat_shift_left_in.caf">
+  <event name="sound" time="0" endTime="0" parameter="Trigger_Enemy_Move" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0060000001" endTime="0.0060000001" parameter="Play_Phantom_Shift" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/shift/combat_shift_right_in.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Phantom_Shift" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/noticed/noticed_danger_front.caf">
+  <event name="sound" time="0.029999999" endTime="0.029999999" parameter="Play_Phantom_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11807872" endTime="0.11807872" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/noticed/noticed_danger_left.caf">
+  <event name="sound" time="0.066958696" endTime="0.066958696" parameter="Play_Phantom_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14676452" endTime="0.14676452" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/noticed/noticed_danger_right.caf">
+  <event name="sound" time="0.088235296" endTime="0.088235296" parameter="Play_Phantom_Vox_Notice" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_alerted_movestart.comb">
+  <event name="footstep" time="0.25136238" endTime="0.25136238" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.53950953" endTime="0.53950953" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.89713895" endTime="0.89713895" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_alerted_movestart_right.bspace">
+  <event name="sound" time="0.058583107" endTime="0.058583107" parameter="Play_Phantom_Vox_Notice_Anomaly" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.29904631" endTime="0.29904631" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42711172" endTime="0.42711172" parameter="Play_Phantom_mvmt_bass" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.58446866" endTime="0.58446866" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88828337" endTime="0.88828337" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_alerted_movestop_run.bspace">
+  <event name="footstep" time="0.27520436" endTime="0.27520436" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.61239785" endTime="0.61239785" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_alerted_movestrafe.bspace">
+  <event name="footstep" time="0.30116358" endTime="0.30116358" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8288843" endTime="0.8288843" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_combat_movestart.comb">
+  <event name="sound" time="0.14099932" endTime="0.14099932" parameter="Play_Phantom_Vox_Effort_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.34976044" endTime="0.34976044" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.58247775" endTime="0.58247775" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.91101986" endTime="0.91101986" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_combat_movestart_left.bspace">
+  <event name="sound" time="0.12936345" endTime="0.12936345" parameter="Play_Phantom_Vox_Start_Combat" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.34496921" endTime="0.34496921" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.58110881" endTime="0.58110881" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_combat_movestrafe.bspace">
+  <event name="footstep" time="0.2477755" endTime="0.2477755" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.81519508" endTime="0.81519508" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/_lmg/2d-bspace_combat_movestart_right.bspace">
+  <event name="footstep" time="0.28542095" endTime="0.28542095" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.61670089" endTime="0.61670089" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88158798" endTime="0.88158798" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/patrolidle/alerted_patrolidle_a.caf">
+  <event name="sound" time="0.017111562" endTime="0.017111562" parameter="Play_Phantom_Vox_Notice_Anomaly" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.078713208" endTime="0.078713208" parameter="Play_Phantom_Movement_Search_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12457221" endTime="0.12457221" parameter="Play_Phantom_Swish_Whispers" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53456533" endTime="0.53456533" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63655031" endTime="0.63655031" parameter="Play_Phantom_Movement_Search_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/run/alerted_run_backwardleft.caf">
+  <event name="footstep" time="0.31211498" endTime="0.31211498" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8015058" endTime="0.8015058" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/run/alerted_run_backward.caf">
+  <event name="footstep" time="0.28199863" endTime="0.28199863" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7850787" endTime="0.7850787" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/run/alerted_run_backwardright.caf">
+  <event name="footstep" time="0.31485283" endTime="0.31485283" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76659822" endTime="0.76659822" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/run/alerted_run_forward.caf">
+  <event name="sound" time="0.1101985" endTime="0.1101985" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.30527037" endTime="0.30527037" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.77275836" endTime="0.77275836" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/run/alerted_run_forwardleft.caf">
+  <event name="sound" time="0.13073237" endTime="0.13073237" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.31690621" endTime="0.31690621" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.76728266" endTime="0.76728266" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/run/alerted_run_forwardright.caf">
+  <event name="sound" time="0.11225189" endTime="0.11225189" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.28610539" endTime="0.28610539" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.82135522" endTime="0.82135522" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/run/alerted_run_left.caf">
+  <event name="footstep" time="0.30116358" endTime="0.30116358" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.77754962" endTime="0.77754962" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/run/alerted_run_right.caf">
+  <event name="footstep" time="0.24093087" endTime="0.24093087" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7912389" endTime="0.7912389" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runjuketurn/alerted_runjuketurn_left45.caf">
+  <event name="footstep" time="0.15263519" endTime="0.15263519" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.31895962" endTime="0.31895962" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.52087611" endTime="0.52087611" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8350445" endTime="0.8350445" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runjuketurn/alerted_runjuketurn_left90.caf">
+  <event name="sound" time="0.15058179" endTime="0.15058179" parameter="Play_Phantom_mvmt_bass" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.28199863" endTime="0.28199863" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.50581795" endTime="0.50581795" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8569473" endTime="0.8569473" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runjuketurn/alerted_runjuketurn_right180.caf">
+  <event name="footstep" time="0.15947981" endTime="0.15947981" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37234771" endTime="0.37234771" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51129365" endTime="0.51129365" parameter="Play_Phantom_mvmt_bass" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.85763174" endTime="0.85763174" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runjuketurn/alerted_runjuketurn_right45.caf">
+  <event name="footstep" time="0.091033541" endTime="0.091033541" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.3593429" endTime="0.3593429" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.53319645" endTime="0.53319645" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8733744" endTime="0.8733744" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/runjuketurn/alerted_runjuketurn_right90.caf">
+  <event name="footstep" time="0.069815196" endTime="0.069815196" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.30253252" endTime="0.30253252" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.51745379" endTime="0.51745379" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88295686" endTime="0.88295686" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/distractor/alerted_distractor_hitobject_low_a.caf">
+  <event name="sound" time="0.071868584" endTime="0.071868584" parameter="Play_Phantom_Swish_Warbly" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.096509241" endTime="0.096509241" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/distractor/alerted_distractor_hitobject_mid_a.caf">
+  <event name="sound" time="0.073237509" endTime="0.073237509" parameter="Play_Phantom_Swish_Warbly" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.093086928" endTime="0.093086928" parameter="Play_Phantom_Vox_Effort_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26557153" endTime="0.26557153" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40177959" endTime="0.40177959" parameter="Play_Phantom_Vox_Danger" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/distractor/alerted_distractor_investigate_forward_a.caf">
+  <event name="sound" time="0.039014373" endTime="0.039014373" parameter="Play_Phantom_Vox_Search" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.059548255" endTime="0.059548255" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/distractor/alerted_distractor_investigate_right_a.caf">
+  <event name="sound" time="0.046543464" endTime="0.046543464" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/distractor/alerted_distractor_investigate_right_b.caf">
+  <event name="sound" time="0.050650239" endTime="0.050650239" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.10746064" endTime="0.10746064" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.21629021" endTime="0.21629021" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/steprot/alerted_steprot_left90.caf">
+  <event name="sound" time="0.069130734" endTime="0.069130734" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/steprot/alerted_steprot_left180.caf">
+  <event name="sound" time="0.099931553" endTime="0.099931553" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/steprot/alerted_steprot_right180.caf">
+  <event name="sound" time="0.14236824" endTime="0.14236824" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/alerted/steprot/alerted_steprot_right90.caf">
+  <event name="sound" time="0.077344283" endTime="0.077344283" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/incapsulepose/incapsulethrash.caf">
+  <event name="sound" time="0.027210884" endTime="0.027210884" parameter="Play_Evnt_Psychotronics_Contained" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.037724189" endTime="0.46134818" parameter="Play_Evnt_Psychotronics_Phantom" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13667285" endTime="0.13667285" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19789734" endTime="0.23933209" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30612245" endTime="0.30612245" parameter="Play_Phantom_Vox_Effort_Slow" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37353119" endTime="0.37353119" parameter="Play_Evnt_Psychotronics_PhantomScare_InCapsule" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70439088" endTime="0.72479904" parameter="Play_Evnt_Psychotronics_PhantomScare_Capsule_Hit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71304888" endTime="0.71304888" parameter="Play_Evnt_Psychotronics_Contained" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/noticed/noticed_anomaly_back.caf">
+  <event name="sound" time="0.078719147" endTime="0.078719147" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/noticed/noticed_danger_back.caf">
+  <event name="sound" time="0.1634423" endTime="0.1634423" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22615077" endTime="0.22615077" parameter="Play_Phantom_Swish_Warbly" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/wanderidle/wanderidle_a.caf">
+  <event name="sound" time="0.20613742" endTime="0.20613742" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42094728" endTime="0.42094728" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4389593" endTime="0.4389593" parameter="Play_Phantom_Movement_Search_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.85323548" endTime="0.85323548" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/wanderidle/wanderidle_b.caf">
+  <event name="sound" time="0.1227485" endTime="0.1227485" parameter="Play_Phantom_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34089392" endTime="0.34089392" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54236156" endTime="0.54236156" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5903936" endTime="0.5903936" parameter="Play_Phantom_Movement_Search_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/wanderidle/wanderidle_c.caf">
+  <event name="sound" time="0.030687125" endTime="0.030687125" parameter="Play_Phantom_Synth_MvmtA" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31554368" endTime="0.31554368" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57571715" endTime="0.57571715" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/resurrect/combat_resurrect_a.caf">
+  <event name="sound" time="0.029352902" endTime="0.029352902" parameter="Play_Phantom_Vox_Effort_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.070713811" endTime="0.070713811" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31621081" endTime="0.31621081" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51367581" endTime="0.51367581" parameter="Play_Phantom_Swish_EMF_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53902602" endTime="0.53902602" parameter="Play_Phantom_Movement_Search_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/push/combat_push_obstacles.caf">
+  <event name="sound" time="0.26150766" endTime="0.26150766" parameter="Play_Phantom_Swish_Warbly" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2741828" endTime="0.2741828" parameter="Play_Phantom_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_front_b_add.caf">
+  <event name="sound" time="0.029352903" endTime="0.029352903" parameter="Trigger_Enemy_Move" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.092728488" endTime="0.092728488" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20413609" endTime="0.20413609" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_front_c_add.caf">
+  <event name="sound" time="0.074716479" endTime="0.074716479" parameter="Play_Phantom_Movement_Search_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34022683" endTime="0.34022683" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35823882" endTime="0.35823882" parameter="Play_Phantom_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/melee/combat_melee_front_d_add.caf">
+  <event name="sound" time="0.094729818" endTime="0.094729818" parameter="Play_Phantom_Movement_Search_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35551947" endTime="0.35551947" parameter="Play_Phantom_Melee_Swipe" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38358906" endTime="0.38358906" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40226817" endTime="0.40226817" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/mindjack/combat_mindjack_in.caf">
+  <event name="sound" time="0.020576119" endTime="0.020576119" parameter="Play_Phantom_Hypnotize_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21056241" endTime="0.21056241" parameter="Play_Phantom_Hypnotize_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/mindjack/combat_mindjack_out.caf">
+  <event name="sound" time="0.0082304524" endTime="0.0082304524" parameter="Play_Phantom_Hypnotize_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/lifted/combat_lifted_bumpceiling.caf">
+  <event name="sound" time="0.078875169" endTime="0.078875169" parameter="Play_Phantom_Lift_Impact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/lurk/combat_lurk_attack_a.caf">
+  <event name="sound" time="0.03360768" endTime="0.03360768" parameter="Play_Phantom_MeleeWhip_Out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.058299039" endTime="0.058299039" parameter="Play_Phantom_Swish" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.070644721" endTime="0.070644721" parameter="Play_Phantom_Vox_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/lurk/combat_lurk_out.caf">
+  <event name="sound" time="0.01303155" endTime="0.01303155" parameter="Play_Phantom_Swish_EMF_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.028806584" endTime="0.028806584" parameter="Play_Phantom_Vox_Effort_Slow" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/hypnotized/combat_hypnotized_in_medium.caf">
+  <event name="sound" time="0.0086035738" endTime="0.0086035738" parameter="Play_Phantom_Hypnotize_In" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/phantom/combat/lifted/combat_lifted.caf">
+  <event name="sound" time="0.012574454" endTime="0.012574454" parameter="Play_Phantom_Vox_Lift" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18530774" endTime="0.18530774" parameter="Play_Phantom_Vox_Lift" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42157513" endTime="0.42157513" parameter="Play_Phantom_Vox_Lift" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65718067" endTime="0.65718067" parameter="Play_Phantom_Vox_Lift" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

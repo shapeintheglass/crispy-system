@@ -1,0 +1,17 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Direction">
+   <Tag name="Front"/>
+   <Tag name="Left"/>
+   <Tag name="Right"/>
+   <Tag name="Vertical"/>
+  </Group>
+  <Group name="Distance">
+   <Tag name="Long"/>
+   <Tag name="Medium"/>
+   <Tag name="Short"/>
+   <Tag name="VeryShort"/>
+  </Group>
+ </Tags>
+</TagDefinition>

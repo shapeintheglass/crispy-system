@@ -1,0 +1,7 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Idle" subTagDef="Animations/Mannequin/ADB/etherDuplicateTags.xml"/>
+  <Tag name="Move"/>
+ </Tags>
+</TagDefinition>

@@ -1,0 +1,31 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$AnimEventDatabase" path="Animations/Characters/Humans/GenFemale/GenFemale.animevents"/>
+  <Animation name="$AnimEventDatabase" path="Animations/Characters/Humans/Dialogue/Default.animevents"/>
+  <Animation name="#filepath" path="Animations/Characters/Humans/GenFemale"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+  <Animation name="#filepath" path="animations/Cutscenes"/>
+  <Animation name="*" path="*/*/*_GenFemale.caf"/>
+  <Animation name="*" path="*/*/*_Anita.caf"/>
+  <Animation name="*" path="*/*/*_MorganFemale.caf"/>
+  <Animation name="*" path="*/*/*_EkaterinaMulsaev.caf"/>
+  <Animation name="*" path="*/*/*_TamikoHayashi.caf"/>
+  <Animation name="*" path="*/*/*_SarahElazar.caf"/>
+  <Animation name="*" path="*/*/*_DarcyMaddox.caf"/>
+  <Animation name="*" path="*/*/*_Croft.caf"/>
+  <Animation name="*" path="*/*/*_MikhailaIlyushin.caf"/>
+  <Animation name="*" path="*/*/*_DanielleSho.caf"/>
+  <Animation name="*" path="*/*/*_PatriciaVarma.caf"/>
+  <Animation name="*" path="*/*/*_Mechanic.caf"/>
+  <Animation name="*" path="*/*/*_Sato.caf"/>
+  <Animation name="#filepath" path="animations/Characters/Humans/Shared_Animations"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="#filepath" path="Animations/MarketingPoses"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+ </AnimationList>
+</Params>

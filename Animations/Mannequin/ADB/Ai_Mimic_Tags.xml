@@ -1,0 +1,33 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Stance">
+   <Tag name="Combat"/>
+   <Tag name="Relaxed"/>
+   <Tag name="InvestigateAnomaly"/>
+   <Tag name="InvestigateDanger"/>
+   <Tag name="InvestigateVision"/>
+  </Group>
+  <Group name="RestrictZ">
+   <Tag name="Motion_RestrictZ"/>
+  </Group>
+  <Group name="RestrictXY">
+   <Tag name="Motion_RestrictXY"/>
+  </Group>
+  <Group name="scope">
+   <Tag name="slave"/>
+  </Group>
+  <Group name="context">
+   <Tag name="context_slave_player"/>
+   <Tag name="context_slave_mimic"/>
+  </Group>
+  <Group name="TransitionState">
+   <Tag name="Unmimicking"/>
+  </Group>
+  <Tag name="Right"/>
+  <Tag name="Left"/>
+  <Tag name="Front"/>
+  <Tag name="LookPose"/>
+  <Tag name="Disable"/>
+ </Tags>
+</TagDefinition>

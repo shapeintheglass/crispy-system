@@ -1,0 +1,12 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Deploying"/>
+  <Tag name="UnDeploying"/>
+  <Tag name="Searching"/>
+  <Tag name="Recoil"/>
+  <Tag name="Idle_Deployed"/>
+  <Tag name="Idle_Closed"/>
+  <Tag name="Broken"/>
+ </Tags>
+</TagDefinition>

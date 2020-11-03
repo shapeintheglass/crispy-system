@@ -1,0 +1,8 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/BDDB548E559556CC/BDDB548E559556CC.animevents"/>
+  <Animation name="#filepath" path="animations/characters/humans/dialogue/BDDB548E559556CC"/>
+  <Animation name="*" path="*/*.caf"/>
+ </AnimationList>
+</Params>

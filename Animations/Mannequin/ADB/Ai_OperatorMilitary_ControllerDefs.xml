@@ -1,0 +1,48 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Operator_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_OperatorMilitary_FragmentIds.xml"/>
+ <FragmentDefs>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Melee scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Death scopes="FullBody3P"/>
+  <Reaction_Death scopes="FullBody3P"/>
+  <Distractor_Collision_Forward scopes="FullBody3P"/>
+  <BlendRagdoll scopes="Torso3P"/>
+  <ForceResist scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Hypnotized scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Blinded scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <GetUp scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <AimPose scopes="AimPose" flags="Persistent"/>
+  <Aiming scopes="Aiming"/>
+  <Dormant scopes="FullBody3P"/>
+  <BreakGloo scopes="Torso3P+FullBody3P+AimPose"/>
+  <PushObstacle scopes="Torso3P+FullBody3P+AimPose"/>
+  <Lifted_BumpCeiling scopes="FullBody3P"/>
+  <Lifted scopes="FullBody3P"/>
+  <Hacking scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_LifeReview_Psycho_Sarah_Operator scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+  <Dispenser_Pose scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+  <Distractor_Inspect_A scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+  <Distractor_Inspect_B scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+  <Glood_Pose scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_Arboretum_Sq07_DahlAmbush_01_Operator scopes="FullBody3P"/>
+  <Cs_Arboretum_Sq07_DahlAmbush_02_Operator scopes="FullBody3P"/>
+  <Cs_Arboretum_Sq07_DahlAmbush_03_Operator scopes="FullBody3P"/>
+  <Cs_Arboretum_Sq07_DahlAmbush_04_Operator scopes="FullBody3P"/>
+  <Cs_EndGame_Sq01_Main_Sarah_Idle_Operator scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Sarah_Move_Operator scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Sarah_ListenIdle_Operator scopes="Torso3P+FullBody3P+TorsoDetail+AimPose+Aiming"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Torso3P layer="3" numLayers="2" context="Char3P"/>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <TorsoDetail layer="5" numLayers="2" context="Char3P"/>
+  <AimPose layer="14" numLayers="1" context="Char3P"/>
+  <Aiming layer="14" numLayers="0" context="Char3P"/>
+ </ScopeDefs>
+</ControllerDef>

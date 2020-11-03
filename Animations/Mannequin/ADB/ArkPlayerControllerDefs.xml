@@ -1,0 +1,268 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/ArkPlayerTags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/ArkPlayerFragments.xml"/>
+ <FragmentDefs>
+  <Anim_FullBodyControlled scopes="FullBody1P+Torso1P+Additive1P_A+FullBody3P+AimPose+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Anim_ScriptedSequence scopes="FullBody1P+Torso1P+FullBody3P+Torso3P"/>
+  <Wpn_Fire scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_Reload scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_Reload_In scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_Reload_Out scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_Select scopes="Torso1P+Torso3P+Weapon" flags="AutoReinstall"/>
+  <Wpn_FireMode scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_LastBullet scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_OutOfAmmo scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_Throw scopes="Torso1P+Torso3P"/>
+  <Wpn_Unselect scopes="Torso1P+Additive1P_A+Torso3P+SlaveChar+SlaveObject">
+   <Override tags="pistol+broken" scopes="Torso1P+Additive1P_A+Torso3P+Weapon+SlaveChar+SlaveObject"/>
+   <Override tags="shotgun+broken" scopes="Torso1P+Additive1P_A+Torso3P+Weapon+SlaveChar+SlaveObject"/>
+   <Override tags="laser+broken" scopes="Torso1P+Additive1P_A+Torso3P+Weapon+SlaveChar+SlaveObject"/>
+   <Override tags="goo+broken" scopes="Torso1P+Additive1P_A+Torso3P+Weapon+SlaveChar+SlaveObject"/>
+   <Override tags="stungun+broken" scopes="Torso1P+Additive1P_A+Torso3P+Weapon+SlaveChar+SlaveObject"/>
+   <Override tags="toygun+broken" scopes="Torso1P+Additive1P_A+Torso3P+Weapon+SlaveChar+SlaveObject"/>
+  </Wpn_Unselect>
+  <Motion_Slide scopes="FullBody1P+FullBody3P+AimPose+SlaveChar+SlaveObject"/>
+  <Reaction_Hit scopes="Torso1P+Torso3P"/>
+  <Reaction_Death scopes="FullBody1P+FullBody3P"/>
+  <Pose_IdlePose scopes="IdlePose1P+IdlePose3P" flags="Persistent+AutoReinstall"/>
+  <Sfx_Zoom_In scopes="Audio2"/>
+  <Sfx_Zoom_Out scopes="Audio2"/>
+  <Sfx_Zoom_Lean scopes="Audio2"/>
+  <Sfx_Pick scopes="Audio2"/>
+  <Sfx_Pick_Ammo scopes="Audio2"/>
+  <Sfx_Empty_Clip scopes="Audio2"/>
+  <Fp_Bump scopes="Additive1P_A+Additive3P_A"/>
+  <Fp_Hit scopes="Additive1P_A+Additive3P_A"/>
+  <Wpn_Modify scopes="Torso1P+Torso3P"/>
+  <Fp_Movement scopes="Torso1P+Torso3P"/>
+  <Sfx_Hit scopes="Audio2"/>
+  <Ladder_Climb scopes="FullBody1P+Torso1P+Additive1P_A+FullBody3P+AimPose+Torso3P+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Wpn_Modify_Out scopes="Torso1P+Torso3P"/>
+  <Motion_Idle scopes="FullBody1P+FullBody3P"/>
+  <Motion_InAir scopes="FullBody1P+FullBody3P"/>
+  <Motion_Movement scopes="FullBody1P+FullBody3P"/>
+  <Motion_Turn scopes="FullBody3P"/>
+  <Wpn_Fire_In scopes="Torso1P+Torso3P+Weapon"/>
+  <Idle scopes="Torso1P+Torso3P" flags="Persistent+AutoReinstall"/>
+  <Idle_Break scopes="Torso1P+Torso3P"/>
+  <Climb scopes="Torso1P+Torso3P">
+   <Override tags="MediumClimb" scopes="Additive1P_A"/>
+  </Climb>
+  <Wpn_Fire_Out scopes="Torso1P+Torso3P+Weapon">
+   <Override tags="laser" scopes="Torso1P+Torso3P+Weapon"/>
+  </Wpn_Fire_Out>
+  <Wpn_Melee_LeftRight scopes="Torso1P+Torso3P" flags="AutoReinstall">
+   <Override tags="wrench" scopes="Torso1P+Torso3P+Weapon"/>
+  </Wpn_Melee_LeftRight>
+  <Wpn_Melee_RightLeft scopes="Torso1P+Torso3P" flags="AutoReinstall">
+   <Override tags="wrench" scopes="Torso1P+Torso3P+Weapon"/>
+  </Wpn_Melee_RightLeft>
+  <Wpn_Melee_In_LeftRight scopes="Torso1P+Torso3P"/>
+  <Wpn_Melee_In_RightLeft scopes="Torso1P+Torso3P"/>
+  <Wpn_Melee_BigHit_Enemy_RightLeft scopes="Torso1P+Torso3P"/>
+  <Wpn_Melee_BigHit_Enemy_LeftRight scopes="Torso1P+Torso3P"/>
+  <Wpn_Melee_Out_LeftRight scopes="Torso1P+Torso3P" flags="AutoReinstall"/>
+  <Wpn_Melee_Out_RightLeft scopes="Torso1P+Torso3P" flags="AutoReinstall"/>
+  <TestSequence scopes="FullBody1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+AimPose+Torso3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <HelicopterIn scopes="FullBody1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+AimPose+Torso3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq05_HelicopterIn_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq05_HelicopterLoop_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq07_HelicopterOut_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq02_PlayerSuit scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq10_TestD_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq01_PlayerWakeUp_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq10_TestD_SitIdle_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq10_TestD_Sit_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Wpn_Melee_BigHit_LeftRight scopes="Torso1P+Torso3P"/>
+  <Wpn_Melee_BigHit_RightLeft scopes="Torso1P+Torso3P"/>
+  <Wpn_Deploy scopes="Torso1P+Torso3P+Weapon"/>
+  <Power_Mimic_In scopes="Torso1P+AimPose"/>
+  <Power_Mimic_Out scopes="Torso1P+AimPose"/>
+  <Power_Ether_In scopes="Torso1P+Torso3P"/>
+  <Power_Ether_Out scopes="Torso1P+Torso3P"/>
+  <Cs_SimulationLabs_Sq08_Hold_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq11_MimicAttack_Faint_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Simulationlabs_Sq06_HelicopterRide_PlayerBendsDown_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Prototype_Sq06_InstallsNeuromod_Start_Player scopes="Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Prototype_Sq06_installsNeuromod_Loop_Player scopes="Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Prototype_Sq06_InstallsNeuromod_End_Player scopes="Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq01_PlayerWakeUp_StartIdle_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq11_MimicAttack_GetUp_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq08_TestIntro_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <GrabPlayer_Mimic_Wrestling scopes="FullBody1P"/>
+  <GrabPlayer_Mimic_PlayerWin scopes="FullBody1P"/>
+  <Knockdown_In scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+Weapon"/>
+  <Knockdown scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+Weapon"/>
+  <Knockdown_Out scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+Weapon"/>
+  <Trauma_Vomit scopes="Additive1P_A+Additive3P_A"/>
+  <Wpn_Malfunction scopes="Torso1P+Torso3P+Weapon"/>
+  <Acc_Hack scopes="Torso1P+Torso3P+Weapon"/>
+  <Acc_Hack_In scopes="Torso1P+Torso3P+Weapon"/>
+  <Acc_Hack_Out scopes="Torso1P+Torso3P+Weapon"/>
+  <Acc_Select scopes="Torso1P+Torso3P+Weapon"/>
+  <Acc_Idle scopes="Weapon"/>
+  <Acc_Unselect scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_DualWrench_Attack_A scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_Attack_B scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_Attack_C scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_Attack_D scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_Attack_E scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_A scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_B scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_C scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_D scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_E scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_A scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_B scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_C scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_D scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_E scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_A2B scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_B2C scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_C2D scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_D2E scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_E2F scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_A2B scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_B2C scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_C2D scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_D2E scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_E2F scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_Attack_F scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_Attack_G scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_F scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_G scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_F scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_G scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_F2G scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_F2G scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_G2A scopes="Torso1P+Torso3P"/>
+  <Wpn_DualWrench_BigHit_Enemy_G2A scopes="Torso1P+Torso3P"/>
+  <PlayerCondition scopes="Additive1P_B">
+   <Override tags="hobbled" scopes="Additive1P_B+HeadBobbing1P"/>
+  </PlayerCondition>
+  <Trauma_Hobbled scopes="Additive1P_B+HeadBobbing1P"/>
+  <Wpn_Fatality_Mimic_Front_Wrench scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Wpn_Fatality_Phantom_Front_Wrench scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <ZeroGTransitionOut scopes="Additive1P_C"/>
+  <AimPose scopes="AimPose" flags="Persistent"/>
+  <Wpn_Fire_Cancel scopes="Torso1P+Torso3P+Additive3P_C+Weapon"/>
+  <GrabPlayer_Corrupted scopes="FullBody1P"/>
+  <Cs_Lobby_Sq06_SpaceReveal_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Psychotronics_Sq_CosmonautDeath_Player scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Lobby_Sq12_ElevatorEnterAndExit_Player scopes="FullBody1P+FullBody3P"/>
+  <GripAdjust scopes="GripAdjust1P+GripAdjust3P"/>
+  <Wpn_Emp scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_Throw_In scopes="Torso1P+Torso3P"/>
+  <Wpn_Throw_Idle scopes="Torso1P+Torso3P"/>
+  <Wpn_Throw_Out scopes="Torso1P+Torso3P"/>
+  <Wpn_Throw_Cancel scopes="Torso1P+Torso3P"/>
+  <Door_PryIn scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Door_PryLoop scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Door_PryOut scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Door_PryCancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Wpn_PickUp scopes="Torso1P+Torso3P+Weapon"/>
+  <Wpn_DualWrench_Fatality_Generic scopes="Torso1P+Torso3P"/>
+  <Wpn_Melee_Fatality_Generic scopes="Torso1P+Torso3P"/>
+  <Acc_PickUp scopes="Torso1P+Torso3P"/>
+  <DoorLeverage_Center_D_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Center_D_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Center_D_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Greenhouse_A_Front_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Greenhouse_A_Front_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Greenhouse_A_Front_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Decontamination_A_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Decontamination_A_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Decontamination_A_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Airlock_A_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Airlock_A_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Airlock_A_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <HeadBobbing scopes="HeadBobbing1P+HeadBobbing3P"/>
+  <DoorLeverage_Standard_A_Large_Front_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Standard_A_Large_Front_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Standard_A_Large_Front_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Transstar_A_Front_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Transstar_A_Front_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Transstar_A_Front_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Death_Crawl scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_SecurityBooth_A_Front_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_SecurityBooth_A_Front_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_SecurityBooth_A_Front_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Kitchen_A_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Kitchen_A_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Kitchen_A_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Blastdoor_A_Small_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Blastdoor_A_Small_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Blastdoor_A_Small_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Standard_A_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Standard_A_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Standard_A_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <BigBump scopes="Torso1P+HeadBobbing1P+Torso3P+HeadBobbing3P+SlaveChar+SlaveObject"/>
+  <Cs_SimulationLabs_Sq02_PlayerSuitDay2 scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+GroundAlignment1P+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_DeepStorage_Sq03_PlayerJettisoned_Player scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Bridge_Sq10F_ApexReadyDestruct_PlayerSits_Player scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Bridge_Sq10F_AlesReadyDestruct_SitLoop_Player scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Arboretum_Sq06_AlexEscapePodMale_Morgan scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Arboretum_Sq06_AlexEscapePodLoopMale_Morgan scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_PowerSource_Sq02A_GiveMikhailaMedicine_Player scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <AnimTest scopes="Torso1P"/>
+  <Cs_ShuttleBay_Sq04_ShuttleEscape_Player scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_ShuttleBay_Sq04_ShuttleEscape_Loop_Player scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Wpn_Idle scopes="Weapon"/>
+  <DoorLeverage_Transtar_A_Interior_Cancel scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Transtar_A_Interior_In scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <DoorLeverage_Transtar_A_Interior_Out scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <ClicksTranscribe scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_EndGame_Sq01_LifeReview_AlexDeath_PlayerMaleAlien scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_EndGame_Sq01_LifeReview_ChairIdle_PlayerMaleAlien scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_EndGame_Sq01_LifeReview_HandShake_PlayerMaleAlien scopes="FullBody1P+IdlePose1P+Lean1P+GripAdjust1P+Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+FullBody3P+IdlePose3P+Lean3P+GripAdjust3P+AimPose+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Power_Shift scopes="FullBody3P"/>
+  <Cs_Prototype_Sq06_InstallsNeuromod_Start_Crouch_Player scopes="Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Prototype_Sq06_InstallsNeuromod_Loop_Crouch_Player scopes="Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <Cs_Prototype_Sq06_InstallsNeuromod_End_Crouch_Player scopes="Torso1P+Additive1P_A+Additive1P_B+Additive1P_C+HeadBobbing1P+GroundAlignment1P+Torso3P+Additive3P_A+Additive3P_B+Additive3P_C+HeadBobbing3P+GroundAlignment3P+WeaponForceFeedback+Weapon+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <PassOut scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+Weapon"/>
+  <PassOut_Idle scopes="FullBody1P+IdlePose1P+Torso1P+Additive1P_A+FullBody3P+IdlePose3P+AimPose+Torso3P+Additive3P_A+Weapon"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char1P/>
+  <Char3P SyncOptionPickingWithContext="Char1P"/>
+  <Weapon/>
+  <Accessory/>
+  <Audio/>
+  <attachment_top/>
+  <attachment_bottom/>
+  <SlaveChar/>
+  <SlaveObject/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody1P layer="0" numLayers="1" context="Char1P"/>
+  <IdlePose1P layer="1" numLayers="1" context="Char1P"/>
+  <Lean1P layer="2" numLayers="1" context="Char1P"/>
+  <GripAdjust1P layer="3" numLayers="1" context="Char1P"/>
+  <Torso1P layer="6" numLayers="3" context="Char1P"/>
+  <Additive1P_A layer="9" numLayers="1" context="Char1P"/>
+  <Additive1P_B layer="10" numLayers="1" context="Char1P"/>
+  <Additive1P_C layer="11" numLayers="1" context="Char1P"/>
+  <HeadBobbing1P layer="12" numLayers="1" context="Char1P"/>
+  <GroundAlignment1P layer="13" numLayers="1" context="Char1P"/>
+  <FullBody3P layer="0" numLayers="1" context="Char3P"/>
+  <IdlePose3P layer="1" numLayers="1" context="Char3P"/>
+  <Lean3P layer="2" numLayers="1" context="Char3P"/>
+  <GripAdjust3P layer="3" numLayers="1" context="Char3P"/>
+  <AimPose layer="4" numLayers="2" context="Char3P"/>
+  <Torso3P layer="6" numLayers="3" context="Char3P"/>
+  <Additive3P_A layer="9" numLayers="1" context="Char3P"/>
+  <Additive3P_B layer="10" numLayers="1" context="Char3P"/>
+  <Additive3P_C layer="11" numLayers="1" context="Char3P"/>
+  <HeadBobbing3P layer="12" numLayers="1" context="Char3P"/>
+  <GroundAlignment3P layer="13" numLayers="1" context="Char3P"/>
+  <WeaponForceFeedback layer="0" numLayers="0" context="Weapon" Tags="forceFeedback"/>
+  <Weapon layer="0" numLayers="3" context="Weapon"/>
+  <Audio1 layer="0" numLayers="0" context="Audio"/>
+  <Audio2 layer="0" numLayers="0" context="Audio"/>
+  <AttachmentTop layer="0" numLayers="3" context="attachment_top"/>
+  <AttachmentBottom layer="0" numLayers="3" context="attachment_bottom"/>
+  <SlaveChar layer="0" numLayers="3" context="SlaveChar" Tags="slave"/>
+  <SlaveObject layer="0" numLayers="3" context="SlaveObject" Tags="slave"/>
+ </ScopeDefs>
+</ControllerDef>

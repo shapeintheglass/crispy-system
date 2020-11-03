@@ -1,0 +1,69 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Operator_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_Operator_FragmentIds.xml"/>
+ <FragmentDefs>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Reaction_Death scopes="FullBody3P"/>
+  <Cs_Lobby_Sq03_NeuromodDrop_Operator scopes="FullBody3P"/>
+  <Cs_Lobby_Sq03_Keycard_Drop_Operator scopes="FullBody3P"/>
+  <Distractor_Collision_Forward scopes="FullBody3P"/>
+  <BlendRagdoll scopes="FullBody3P"/>
+  <ForceResist scopes="FullBody3P+Torso3P+TorsoDetail"/>
+  <Hypnotized scopes="FullBody3P+Torso3P+TorsoDetail"/>
+  <Blinded scopes="FullBody3P+Torso3P+TorsoDetail"/>
+  <GetUp scopes="FullBody3P+Torso3P+TorsoDetail"/>
+  <Dormant scopes="FullBody3P"/>
+  <BreakGloo scopes="FullBody3P+Torso3P"/>
+  <PushObstacle scopes="FullBody3P+Torso3P"/>
+  <Lifted scopes="FullBody3P"/>
+  <Lifted_BumpCeiling scopes="FullBody3P"/>
+  <Aiming scopes="Aiming"/>
+  <AimPose scopes="AimPose" flags="Persistent"/>
+  <Cs_Bridge_Sq01A_AlexJanuaryArgueMale_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_Bridge_Sq01B_AlexJanuaryArgueFemale_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_Bridge_Sq06A_AlexJanuaryArgueMale_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_Bridge_Sq06B_AlexJanuaryArgueFemale_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_Bridge_AlexShootsJanuary_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_Bridge_JanuaryZapsAlex_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_CrewFacilities_Sq01_CookIntro_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_Bridge_AlexPullsGunGetsZapped_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Engineer_Torch scopes="Torso3P+AimPose+Aiming"/>
+  <Notice scopes="FullBody3P"/>
+  <Cs_Lobby_Sq10C_AudioLogReact_Alternate_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <ProbeExtend scopes="Torso3P+AimPose+Aiming"/>
+  <ProbeAttack scopes="Torso3P+AimPose+Aiming"/>
+  <Scan scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_LifeReview_Psycho_Igwe_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_LifeReview_Psycho_Danielle_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_LifeReview_Psycho_Mikhaila_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Dispenser_Pose scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Distractor_Inspect_A scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Distractor_Inspect_High_A scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Glood_Pose scopes="FullBody3P"/>
+  <Cs_Bridge_JanuaryZapsAlex_Convo_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <ArmsRetracted scopes="TorsoDetail+AimPose+Aiming"/>
+  <ProbeAttackFast scopes="Torso3P+TorsoDetail"/>
+  <Cs_EndGame_Sq01_Main_Danielle_Idle_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Danielle_Move_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Danielle_ListenIdle_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Igwe_Idle_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Igwe_Move_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Igwe_ListenIdle_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Mikhaila_Idle_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Mikhaila_Move_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_EndGame_Sq01_Main_Mikhaila_ListenIdle_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Cs_Bridge_sq01A_AlexJanuaryArgue_StartLoop_Operator scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <Torso3P layer="3" numLayers="2" context="Char3P"/>
+  <TorsoDetail layer="5" numLayers="2" context="Char3P"/>
+  <AimPose layer="14" numLayers="1" context="Char3P"/>
+  <Aiming layer="14" numLayers="0" context="Char3P"/>
+ </ScopeDefs>
+</ControllerDef>
