@@ -1,0 +1,6 @@
+
+<anim_event_list>
+ <animation name="animations/environment/props/coldwar/containment_human_a/open.caf">
+  <event name="effect" time="0.015075374" endTime="0.036611628" parameter="LevelSpecific.Psychotronics.ContainmentChamber.AirLockRelease_00" bone="effects_jnt" offset="0,0,5.9604645e-008" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

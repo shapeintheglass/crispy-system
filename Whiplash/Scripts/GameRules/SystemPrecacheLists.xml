@@ -1,0 +1,17 @@
+
+<PrecacheLists>
+ <Always>
+  <Textures>
+   <Texture name="textures/arkeffects/aliens/probe/environmentprobe_alien_probe_cm.dds" noStreaming="true"/>
+   <Texture name="textures/arkeffects/aliens/probe/environmentprobe_alien_probe_cm_diff.dds" noStreaming="true"/>
+  </Textures>
+ </Always>
+ <GameMode name="SinglePlayer">
+  <CDFs/>
+  <CGFs/>
+  <Particles/>
+  <ADBs/>
+  <FlashTexs/>
+  <GFXs/>
+ </GameMode>
+</PrecacheLists>

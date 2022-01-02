@@ -1,0 +1,36 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param name="MoveSpeed" min="+0.1" max="+4.6" cells="19"/>
+ </Dimensions>
+ <ExampleList>
+  <Example AName="1p_Run_Shotgun" SetPara0="0.1" PlaybackScale="0.025"/>
+  <Example AName="1p_Run_Shotgun" SetPara0="0.46" PlaybackScale="0.1"/>
+  <Example AName="1p_Run_Shotgun" SetPara0="4.6" PlaybackScale="1.0"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+  <Face p0="1" p1="2"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="0" i1="0" w0="1" w1="0"/>
+  <VExample i0="0" i1="1" w0="0.30555558" w1="0.69444442"/>
+  <VExample i0="1" i1="2" w0="0.96618354" w1="0.033816431"/>
+  <VExample i0="1" i1="2" w0="0.90579712" w1="0.094202906"/>
+  <VExample i0="1" i1="2" w0="0.84541065" w1="0.15458937"/>
+  <VExample i0="1" i1="2" w0="0.78502417" w1="0.21497585"/>
+  <VExample i0="1" i1="2" w0="0.72463769" w1="0.27536231"/>
+  <VExample i0="1" i1="2" w0="0.66425121" w1="0.33574879"/>
+  <VExample i0="1" i1="2" w0="0.60386479" w1="0.39613524"/>
+  <VExample i0="1" i1="2" w0="0.54347825" w1="0.45652172"/>
+  <VExample i0="1" i1="2" w0="0.48309183" w1="0.51690817"/>
+  <VExample i0="1" i1="2" w0="0.42270535" w1="0.57729465"/>
+  <VExample i0="1" i1="2" w0="0.36231887" w1="0.63768113"/>
+  <VExample i0="1" i1="2" w0="0.30193239" w1="0.69806761"/>
+  <VExample i0="1" i1="2" w0="0.24154592" w1="0.75845408"/>
+  <VExample i0="1" i1="2" w0="0.18115944" w1="0.81884056"/>
+  <VExample i0="1" i1="2" w0="0.12077296" w1="0.87922704"/>
+  <VExample i0="1" i1="2" w0="0.060386479" w1="0.93961352"/>
+  <VExample i0="2" i1="0" w0="1" w1="0"/>
+ </VGrid>
+</ParaGroup>

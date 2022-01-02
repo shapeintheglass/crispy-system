@@ -1,0 +1,11 @@
+local L0_4278, L1_4279
+L0_4278 = {}
+L1_4279 = {}
+L1_4279.metaTags_ArkMetaTags = ""
+L1_4279.scanningDisplayName = ""
+L0_4278.Properties = L1_4279
+L1_4279 = {}
+L1_4279.Icon = "TagPoint.bmp"
+L1_4279.IconOnTop = 1
+L0_4278.Editor = L1_4279
+ArkMarker = L0_4278

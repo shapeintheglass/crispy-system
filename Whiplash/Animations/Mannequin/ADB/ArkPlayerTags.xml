@@ -1,0 +1,69 @@
+
+<TagDefinition version="2">
+ <Imports>
+  <Import filename="Animations/Mannequin/ADB/ArkItemTags.xml"/>
+ </Imports>
+ <Tags>
+  <Group name="stance">
+   <Tag name="crawl" priority="1"/>
+   <Tag name="jump" priority="1"/>
+   <Tag name="swim" priority="1"/>
+   <Tag name="underwater" priority="1"/>
+   <Tag name="zeroG" priority="1"/>
+   <Tag name="sneak" priority="1"/>
+  </Group>
+  <Group name="zoom">
+   <Tag name="shoulder"/>
+   <Tag name="iron"/>
+   <Tag name="reflex"/>
+   <Tag name="assault"/>
+   <Tag name="sniper"/>
+  </Group>
+  <Group name="gamemode">
+   <Tag name="tick" priority="1"/>
+   <Tag name="flag" priority="1"/>
+  </Group>
+  <Group name="moveDir">
+   <Tag name="forward"/>
+   <Tag name="backward"/>
+   <Tag name="left"/>
+   <Tag name="right"/>
+  </Group>
+  <Group name="currentAction">
+   <Tag name="isFiring"/>
+  </Group>
+  <Group name="moveSpeed">
+   <Tag name="move"/>
+   <Tag name="sprint"/>
+  </Group>
+  <Group name="scope">
+   <Tag name="slave"/>
+  </Group>
+  <Group name="context">
+   <Tag name="context_slave_player"/>
+   <Tag name="context_slave_mimic"/>
+  </Group>
+  <Group name="climb">
+   <Tag name="MediumClimb"/>
+   <Tag name="HighClimb"/>
+  </Group>
+  <Tag name="disable"/>
+  <Tag name="aiming"/>
+  <Tag name="throwing"/>
+  <Tag name="outOfAmmo" priority="1"/>
+  <Tag name="slaveHuman"/>
+  <Tag name="localClient"/>
+  <Tag name="forceFeedback" priority="2"/>
+  <Tag name="inCombat"/>
+  <Tag name="hobbled"/>
+  <Tag name="deploy"/>
+  <Tag name="broken"/>
+  <Tag name="inAir"/>
+  <Tag name="Carry"/>
+  <Tag name="FootCentered"/>
+  <Tag name="exhausted"/>
+  <Tag name="dramatic"/>
+  <Tag name="slide"/>
+  <Tag name="disarm"/>
+ </Tags>
+</TagDefinition>

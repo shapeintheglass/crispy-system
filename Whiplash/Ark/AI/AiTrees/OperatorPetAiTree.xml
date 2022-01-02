@@ -1,0 +1,14 @@
+
+<ArkAiTree>
+ <Root>
+  <ArkAiTreeStackNode>
+   <Children>
+    <ArkAiTreeScriptMoveNode/>
+    <ArkAiTreeDistractedNode>
+     <config distractionCloseArrivalDistance="1.75" distractionCloseFailTimerDuration="10.0" distractionStopArrivalDistance="0.25" distractionMoveDistanceFail="4.0"/>
+    </ArkAiTreeDistractedNode>
+    <ArkAiTreeFollowLeaderNode bCanShift="false" allowShiftDistance="16.0" stopDistance="5.0" resumeDistance="6.0" timeUnreachableBeforeWander="18.0" distanceRequiredForWander="22.0" followMovementSpeed="2" bUseAvoidanceField="true" avoidanceFieldRadius="0.7" bUseLeaderAvoidanceMovement="true" moveOutOfLeaderWayCheckDistance="0.7" timeBeforeMovingOutOfLeaderWay="3.0" minMoveOutOfLeaderWaySearchDist="0.35" maxMoveOutOfLeaderWaySearchDist="1.5" moveOutOfLeaderWaySearchHeight="3.0" moveOutOfLeaderWaySearchAngle="60.0" bCanShiftWhenMovingOutOfLeaderWay="false" moveOutOfLeaderWayStopDistance="0.5" leaderMovingIntoMeAngle="75.0" maxNumberOfMoveNavTraceChecks="15" bAllowDistraction="true" allowDistractionTime="5.0" bShouldFacePlayerLeader="false"/>
+   </Children>
+  </ArkAiTreeStackNode>
+ </Root>
+</ArkAiTree>

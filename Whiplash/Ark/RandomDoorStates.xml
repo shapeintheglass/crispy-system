@@ -1,0 +1,48 @@
+
+<ArkRandomDoorStates>
+ <RandomDoorStates>
+  <ArkRandomDoorState name="ft_metricszoo/Door.Door_Sliding_Double_Default1" id="5345056487493151361" LinkId="5345056487493151363"/>
+  <ArkRandomDoorState name="wl_hardwarelabs_admin/Door.Door_Sliding_Double_Large7" id="13856881013246799952" LinkId="13856881013246799954"/>
+  <ArkRandomDoorState name="transtarlabs/Door.Door_Sliding_Double_Default15" id="12889009725075618789" LinkId="12889009725075618791"/>
+  <ArkRandomDoorState name="TranstarLabs/Door.Door_Sliding_Double_Default3" id="12889009725075618871" LinkId="12889009725075618873"/>
+  <ArkRandomDoorState name="TranstarLabs/Door.Door_Sliding_Double_Default16" id="12889009725075618967" LinkId="12889009725075618969"/>
+  <ArkRandomDoorState name="TranstarLabs/Door.Door_Sliding_Double_Default1" id="12889009725075619061" LinkId="12889009725075619063"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default20" id="1713490239469753957" LinkId="1713490239469753959"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default23" id="1713490239469754266" LinkId="1713490239469754268"/>
+  <ArkRandomDoorState name="Crater/Door.Door_Sliding_Double_Default5" id="761057048031315592" LinkId="761057048031315594"/>
+  <ArkRandomDoorState name="Crater/Door.Door_Sliding_Double_Default10" id="761057048031316189" LinkId="761057048031316191"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default10" id="761057048032004366" LinkId="761057048032004368"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default30" id="761057048032537201" LinkId="761057048032537203"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default31" id="761057048032540060" LinkId="761057048032540062"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default24" id="761057048032619690" LinkId="761057048032619692"/>
+  <ArkRandomDoorState name="crater/Door.DoorFrame_NavMesh1" id="6732635291259683908" LinkId="6732635291259683910"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default1" id="4349723564980231456" LinkId="4349723564980231458"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default2" id="4349723564980231593" LinkId="4349723564980231595"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default3" id="4349723564980231633" LinkId="4349723564980231635"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default11" id="4349723564980231743" LinkId="4349723564980231745"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Large5" id="4349723564980231771" LinkId="4349723564980231773"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default7" id="4349723564980231801" LinkId="4349723564980231803"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default12" id="4349723564980231828" LinkId="4349723564980231830"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default5" id="4349723564980231867" LinkId="4349723564980231869"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default4" id="4349723564980231887" LinkId="4349723564980231889"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default9" id="4349723564980231912" LinkId="4349723564980231914"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Large4" id="4349723564980231949" LinkId="4349723564980231951"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default15" id="4349723564980231997" LinkId="4349723564980231999"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default10" id="4349723564980232070" LinkId="4349723564980232072"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default14" id="4349723564980232117" LinkId="4349723564980232119"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default13" id="4349723564980232143" LinkId="4349723564980232145"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Default6" id="4349723564980235037" LinkId="4349723564980235039"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default18" id="761057048032692466" LinkId="761057048032692468"/>
+  <ArkRandomDoorState name="TranstarLabs/Door.Door_Sliding_Double_Default9" id="12889009725078130242" LinkId="12889009725078130244"/>
+  <ArkRandomDoorState name="TranstarLabs/Door.Door_Sliding_Double_RANDOM4" id="12889009725078580048" LinkId="12889009725078580050"/>
+  <ArkRandomDoorState name="Crater/Door.Door_Sliding_Double_Default7" id="6732635291261660800" LinkId="6732635291261660802"/>
+  <ArkRandomDoorState name="crater/Door.Door_Sliding_Double_Default7" id="6732635291261662198" LinkId="6732635291261662200"/>
+  <ArkRandomDoorState name="moonworks/Door.Door_Sliding_Double_Default21" id="761057048034609417" LinkId="761057048034609419"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_RileyYu" id="4349723564982301984" LinkId="4349723564982301986"/>
+  <ArkRandomDoorState name="CrewAnnex/Door.Door_Sliding_Double_Modules25_2" id="6732635291263481982" LinkId="6732635291263481984"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Large6" id="761057048039200149" LinkId="761057048039200151"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default29" id="761057048039282207" LinkId="761057048039282209"/>
+  <ArkRandomDoorState name="MoonWorks/Door.Door_Sliding_Double_Default32" id="761057048044015235" LinkId="761057048044015237"/>
+  <ArkRandomDoorState name="TranstarLabs/Door.Door_Sliding_Double_Default15" id="12889009725089589366" LinkId="12889009725089589368"/>
+ </RandomDoorStates>
+</ArkRandomDoorStates>

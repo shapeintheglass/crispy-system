@@ -1,0 +1,34 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="Distractor_Collision_Forward" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="ForceResist" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="Hypnotized"/>
+  <Tag name="Blinded"/>
+  <Tag name="GetUp" subTagDef="Animations/Mannequin/ADB/operatorGetUpTags.xml"/>
+  <Tag name="Dormant"/>
+  <Tag name="BreakGloo"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="Lifted"/>
+  <Tag name="Lifted_BumpCeiling"/>
+  <Tag name="Aiming"/>
+  <Tag name="AimPose"/>
+  <Tag name="Engineer_Torch" subTagDef="Animations/Mannequin/ADB/engineerOperatorTorchTags.xml"/>
+  <Tag name="Notice"/>
+  <Tag name="ProbeExtend"/>
+  <Tag name="ProbeAttack"/>
+  <Tag name="Scan" subTagDef="Animations/Mannequin/ADB/Ai_Operator_Tags.xml"/>
+  <Tag name="Dispenser_Pose"/>
+  <Tag name="Distractor_Inspect_A"/>
+  <Tag name="Distractor_Inspect_High_A"/>
+  <Tag name="Glood_Pose"/>
+  <Tag name="ArmsRetracted"/>
+  <Tag name="ProbeAttackFast"/>
+  <Tag name="GetCorrupted"/>
+  <Tag name="Distractor_Inspect_Low_A"/>
+ </Tags>
+</TagDefinition>

@@ -1,0 +1,90 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Motion_IdleTurn"/>
+  <Tag name="Face"/>
+  <Tag name="AimPose"/>
+  <Tag name="Aiming"/>
+  <Tag name="LookPose"/>
+  <Tag name="Looking"/>
+  <Tag name="LookPoseHead"/>
+  <Tag name="LookBlink"/>
+  <Tag name="LookSaccade"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="CODE_MT_idleToMove"/>
+  <Tag name="CODE_MT_walkToIdle"/>
+  <Tag name="CODE_MT_runToIdle"/>
+  <Tag name="Land_Bump"/>
+  <Tag name="Lifted_BumpCeiling"/>
+  <Tag name="Fall"/>
+  <Tag name="Lifted"/>
+  <Tag name="Land_Stumble"/>
+  <Tag name="WanderIdle"/>
+  <Tag name="LookPoseEyes"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="Cowering"/>
+  <Tag name="Stunned" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Detect_Player"/>
+  <Tag name="Wpn_Fire"/>
+  <Tag name="ForceResist" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="ForceResistScrunch" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="Blinded" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Hypnotized" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Wpn_Reload"/>
+  <Tag name="GrabPlayer"/>
+  <Tag name="Explode"/>
+  <Tag name="GetCorrupted"/>
+  <Tag name="Fidget_A"/>
+  <Tag name="Fidget_No"/>
+  <Tag name="Fidget_ThatWay_Left"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdLft"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdLft180"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdRgt"/>
+  <Tag name="CODE_MT_runJukeTurnFwdLft"/>
+  <Tag name="CODE_MT_runJukeTurnFwdLft180"/>
+  <Tag name="CODE_MT_runJukeTurnFwdRgt"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="CODE_MT_runJukeTurnFwdRt180"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdRt180"/>
+  <Tag name="Distractor_Desk"/>
+  <Tag name="BreakGloo"/>
+  <Tag name="BreakOutOfGloo"/>
+  <Tag name="MindJack_In"/>
+  <Tag name="ShiftPose"/>
+  <Tag name="MindJack_Out"/>
+  <Tag name="LookEyesClosed"/>
+  <Tag name="Distractor_AroundTheRoom"/>
+  <Tag name="Distractor_ArmsCrossed" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Distractor_ArmsCrossed_EyesDown" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Distractor_ArmsDown" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Distractor_ArmsDown_EyesDown" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="CODE_MT_Charge_IdleToMove_Front"/>
+  <Tag name="CODE_MT_Charge_IdleToMove_Left"/>
+  <Tag name="CODE_MT_Charge_IdleToMove_Back"/>
+  <Tag name="CODE_MT_Charge_IdleToMove_Right"/>
+  <Tag name="Cs_UI_GenderSelect_MorganKarlMale"/>
+  <Tag name="Distractor_InspectCorpse"/>
+  <Tag name="Cs_UI_GenderSelect_MorganFemale"/>
+  <Tag name="Glood_Pose"/>
+  <Tag name="test"/>
+  <Tag name="TelepathActivate"/>
+  <Tag name="Cs_TownHall_GenFemale"/>
+  <Tag name="Cs_UI_CharacterSelect_MaleVolunteer"/>
+  <Tag name="Cs_UI_CharacterSelect_FemaleDirector"/>
+  <Tag name="Cs_UI_CharacterSelect_FemaleEngineer"/>
+  <Tag name="Cs_UI_CharacterSelect_FemaleJanitor"/>
+  <Tag name="Cs_UI_CharacterSelect_MaleSecurity"/>
+  <Tag name="Cs_TranstarLabs_Sq02_RileyYuSideQuest_GenMale"/>
+  <Tag name="CODE_MT_ActivateCharge_IdleToMove_Back"/>
+  <Tag name="CODE_MT_ActivateCharge_IdleToMove_Front"/>
+  <Tag name="CODE_MT_ActivateCharge_IdleToMove_Left"/>
+  <Tag name="CODE_MT_ActivateCharge_IdleToMove_Right"/>
+  <Tag name="Cs_CrewAnnex_Sq03_EngineerIntro_KenMizuki"/>
+  <Tag name="Cs_CrewAnnex_Sq03_EngineerIntro_DeathPose_GenMale"/>
+  <Tag name="Cs_MoonWorks_Sq01_SpySideQuest_GenMale"/>
+  <Tag name="Cs_TranstarLabs_Sq03_RileyYuEscape_GlitchOut_GenFemale"/>
+  <Tag name="Cs_Crater_Sq02_RileyYuSideQuest_NoelleBenson"/>
+ </Tags>
+</TagDefinition>

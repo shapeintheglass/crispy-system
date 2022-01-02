@@ -1,0 +1,47 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="item">
+   <Tag name="noItem"/>
+   <Tag name="pick1h"/>
+   <Tag name="pick2h"/>
+  </Group>
+  <Group name="weaponType">
+   <Tag name="pistol"/>
+   <Tag name="laser"/>
+   <Tag name="shotgun"/>
+   <Tag name="goo"/>
+   <Tag name="recycler"/>
+   <Tag name="wrench"/>
+   <Tag name="dualwrench"/>
+   <Tag name="empty"/>
+   <Tag name="transcribe"/>
+   <Tag name="stungun"/>
+   <Tag name="toygun"/>
+   <Tag name="emp"/>
+   <Tag name="rapid"/>
+   <Tag name="discrifle"/>
+   <Tag name="nullwave"/>
+   <Tag name="lure"/>
+   <Tag name="sword"/>
+   <Tag name="typhongrenade"/>
+   <Tag name="gloogrenade"/>
+  </Group>
+  <Group name="accessories">
+   <Tag name="neuromod"/>
+   <Tag name="propulsionpack"/>
+   <Tag name="psychoscope"/>
+   <Tag name="AlexNullWave"/>
+   <Tag name="SelfDestructKey"/>
+   <Tag name="antidote"/>
+  </Group>
+  <Group name="Enchantments">
+   <Tag name="electric"/>
+   <Tag name="fire"/>
+   <Tag name="psi"/>
+   <Tag name="armor"/>
+   <Tag name="durable"/>
+  </Group>
+  <Tag name="FP"/>
+ </Tags>
+</TagDefinition>

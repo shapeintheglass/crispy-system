@@ -1,0 +1,30 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/ArkPlayerControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Char1P" enabled="1" database="Animations/Mannequin/ADB/ArkPlayerDatabase1P.adb" context="Char1P" model="objects/characters/player/player.cdf"/>
+  <contextData name="Wpn_Laser" database="Animations/Mannequin/ADB/ArkLasergunWeapon.adb" context="Weapon" tags="laser" model="objects/weapons/laser/1p/laser1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Shotgun" database="animations/mannequin/adb/arkshotgunweapon.adb" context="Weapon" tags="shotgun" model="objects/weapons/shotgun/1p/shotgun1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Googun" database="animations/mannequin/adb/arkgoogunweapon.adb" context="Weapon" tags="goo" model="objects/weapons/googun/1p/googun1p.cdf" attachment="Weapon"/>
+  <contextData name="Wpn_Wrench" database="animations/mannequin/adb/arkwrenchweapon.adb" context="Weapon" tags="wrench" model="objects/weapons/wrench/1p/wrench1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Recycler" database="Animations/Mannequin/ADB/ArkRecyclerGrenadeWeapon.adb" context="Weapon" tags="recycler" model="objects/weapons/recyclergrenade/1p/recyclergrenade1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Pistol" database="animations/mannequin/adb/arkpistolweapon.adb" context="Weapon" tags="pistol" model="objects/weapons/pistol/1p/pistol1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Transcribe" database="Animations/Mannequin/ADB/ArkTranscribeWeapon.adb" context="Weapon" tags="transcribe" model="objects/accessories/transcribe/transcribe1p.cdf" attachment="l_hand_prop"/>
+  <contextData name="Wpn_DualWrench" database="Animations/Mannequin/ADB/ArkDualWrenchWeapon.adb" context="Weapon" tags="dualwrench" model="objects/weapons/wrench/1p/wrench1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Stungun" database="Animations/Mannequin/ADB/ArkStungunWeapon.adb" context="Weapon" tags="stungun" model="objects/weapons/stungun/1p/stungun1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Toygun" database="animations/mannequin/adb/arktoygunweapon.adb" context="Weapon" tags="toygun" model="objects/weapons/toygun/1p/toygun1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Nullwave" database="Animations/Mannequin/ADB/ArkNullwaveWeapon.adb" context="Weapon" tags="nullwave" model="objects/weapons/nullwave_transmitter/1p/nullwave1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Lure" database="Animations/Mannequin/ADB/ArkLureWeapon.adb" context="Weapon" tags="lure" model="objects/weapons/alienlure/1p/alienlure1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Emp" database="Animations/Mannequin/ADB/ArkEmpWeapon.adb" context="Weapon" tags="emp" model="objects/weapons/empgrenade/1p/empgrenade1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Rapid" database="Animations/Mannequin/ADB/ArkRapidWeapon.adb" context="Weapon" tags="rapid" model="objects/weapons/rapid/rapid1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_Sword" database="animations/mannequin/adb/arkwrenchweapon.adb" context="Weapon" tags="sword" model="objects/weapons/PsyCutter/1p/PsyCutter.cdf" attachment="weapon"/>
+  <contextData name="Wpn_TyphonGrenade" database="Animations/Mannequin/ADB/ArkTyphonGrenadeWeapon.adb" context="Weapon" tags="typhongrenade" model="objects/weapons/typhon_grenade/1p/typhongrenade_1p.cdf" attachment="weapon"/>
+  <contextData name="Wpn_GlooGrenade" database="Animations/Mannequin/ADB/ArkRecyclerGrenadeWeapon.adb" context="Weapon" tags="gloogrenade" model="Objects/weapons/GooCharge/1P/goocharge1p.cdf" attachment="weapon"/>
+ </contexts>
+ <History StartTime="0" EndTime="0">
+  <FragmentID Time="0" FragmentID="Pose_IdlePose"/>
+  <FragmentID Time="0" FragmentID="Motion_Idle"/>
+  <FragmentID Time="0" FragmentID="Idle"/>
+  <FragmentID Time="0" FragmentID="GripAdjust"/>
+ </History>
+</MannequinPreview>

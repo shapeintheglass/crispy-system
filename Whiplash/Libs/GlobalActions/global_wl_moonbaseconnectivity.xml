@@ -1,0 +1,132 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="16842" Class="Mission:GameTokenCheck" pos="-340,-140,0">
+   <Inputs gametokenid_Token="2081212705" CheckValue="true"/>
+  </Node>
+  <Node Id="16843" Class="Mission:GameTokenUpdated" pos="-1030,-140,0">
+   <Inputs gametokenid_Token="199278460" compare_Value="true"/>
+  </Node>
+  <Node Id="16844" Class="Game:Start" pos="-1680,130,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="16846" Class="Ark:PDA:SetStationAccessState" pos="910,-190,0">
+   <Inputs stationAccess_Access="15659330456350048832"/>
+  </Node>
+  <Node Id="16848" Class="Mission:GameTokenCheck" pos="-320,150,0">
+   <Inputs gametokenid_Token="1366156877" CheckValue="true"/>
+  </Node>
+  <Node Id="16850" Class="Mission:GameTokenUpdated" pos="-1040,200,0">
+   <Inputs gametokenid_Token="1366156877" compare_Value="true"/>
+  </Node>
+  <Node Id="16851" Class="Mission:GameTokenUpdated" pos="-1070,20,0">
+   <Inputs gametokenid_Token="2081212705" compare_Value="true"/>
+  </Node>
+  <Node Id="16852" Class="Ark:PDA:SetStationAccessState" pos="930,200,0">
+   <Inputs stationAccess_Access="15659330456350048830"/>
+  </Node>
+  <Node Id="16853" Class="Ark:PDA:SetStationAccessState" pos="920,0,0">
+   <Inputs stationAccess_Access="15659330456350048831"/>
+  </Node>
+  <Node Id="16857" Class="Mission:GameTokenCheck" pos="310,-220,0">
+   <Inputs gametokenid_Token="199278460" CheckValue="true"/>
+  </Node>
+  <Node Id="16859" Class="Mission:GameTokenCheck" pos="320,190,0">
+   <Inputs gametokenid_Token="199278460" CheckValue="true"/>
+  </Node>
+  <Node Id="16861" Class="Mission:GameTokenCheck" pos="320,-20,0">
+   <Inputs gametokenid_Token="1366156877" CheckValue="true"/>
+  </Node>
+  <Node Id="16863" Name="Set_Connectivity_For_Tram_Transitions" Class="_commentbox" pos="-1840,-500,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="3450" Height="2300"/>
+  </Node>
+  <Node Id="16865" Class="Ark:Debug:ConsoleEvent" pos="-1680,370,0">
+   <Inputs Command="unlockcrewtram"/>
+  </Node>
+  <Node Id="16867" Class="Mission:GameTokenSet" pos="-1270,370,0">
+   <Inputs gametokenid_Token="199278460" Value="true"/>
+  </Node>
+  <Node Id="16870" Class="Ark:Debug:ConsoleEvent" pos="-1669.3704,462.26715,0">
+   <Inputs Command="unlocklabstram"/>
+  </Node>
+  <Node Id="16871" Class="Mission:GameTokenSet" pos="-1259.3704,462.26715,0">
+   <Inputs gametokenid_Token="1366156877" Value="true"/>
+  </Node>
+  <Node Id="16872" Class="Ark:Debug:ConsoleEvent" pos="-1665.4639,576.8573,0">
+   <Inputs Command="unlockmoontram"/>
+  </Node>
+  <Node Id="16873" Class="Mission:GameTokenSet" pos="-1255.4639,576.8573,0">
+   <Inputs gametokenid_Token="2081212705" Value="true"/>
+  </Node>
+  <Node Id="16884" Name="This_sections_is_largely_just_for_the_moonbase_map" Class="_comment" pos="-1630,-70,0"/>
+  <Node Id="16886" Class="Logic:Gate" pos="-1300.6755,166.8131,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="16888" Class="Ark:RemoteEvent" pos="-1690,230,0">
+   <Inputs remoteEvent_Event="844024417350736024"/>
+  </Node>
+  <Node Id="16890" Class="Ark:Debug:ConsoleEvent" pos="-1551.7107,1130.2928,0">
+   <Inputs Command="testLevelTaskLocations"/>
+  </Node>
+  <Node Id="16894" Class="Ark:Objectives:TaskState" pos="-970,850,0">
+   <Inputs task_Task="761057048033396176" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="16895" Class="Ark:Objectives:TaskState" pos="-960,1090,0">
+   <Inputs task_Task="844024417339153844" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="16897" Name="Crew" Class="_comment" pos="-960,1050,0"/>
+  <Node Id="16898" Name="MoonWorks" Class="_comment" pos="-970,810,0"/>
+  <Node Id="16899" Class="Ark:Objectives:TaskState" pos="-966.76294,1325.6274,0">
+   <Inputs task_Task="12889009725078574429" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="16900" Class="Ark:Objectives:TaskState" pos="-950.16071,1526.1317,0">
+   <Inputs task_Task="844024417358612594" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="16901" Class="Ark:Debug:ConsoleEvent" pos="-1670,660,0">
+   <Inputs Command="unlockalltrams"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="16846" nodeOut="16842" portIn="Disable" portOut="False" enabled="1"/>
+  <Edge nodeIn="16853" nodeOut="16842" portIn="Disable" portOut="False" enabled="1"/>
+  <Edge nodeIn="16857" nodeOut="16842" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="16861" nodeOut="16842" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="16842" nodeOut="16843" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="16846" nodeOut="16843" portIn="Disable" portOut="Equal False" enabled="1"/>
+  <Edge nodeIn="16848" nodeOut="16843" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="16852" nodeOut="16843" portIn="Disable" portOut="Equal False" enabled="1"/>
+  <Edge nodeIn="16886" nodeOut="16844" portIn="In" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="16886" nodeOut="16844" portIn="In" portOut="output" enabled="1"/>
+  <Edge nodeIn="16852" nodeOut="16848" portIn="Disable" portOut="False" enabled="1"/>
+  <Edge nodeIn="16853" nodeOut="16848" portIn="Disable" portOut="False" enabled="1"/>
+  <Edge nodeIn="16859" nodeOut="16848" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="16842" nodeOut="16850" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="16848" nodeOut="16850" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="16852" nodeOut="16850" portIn="Disable" portOut="Equal False" enabled="1"/>
+  <Edge nodeIn="16853" nodeOut="16850" portIn="Disable" portOut="Equal False" enabled="1"/>
+  <Edge nodeIn="16842" nodeOut="16851" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="16846" nodeOut="16851" portIn="Disable" portOut="Equal False" enabled="1"/>
+  <Edge nodeIn="16853" nodeOut="16851" portIn="Disable" portOut="Equal False" enabled="1"/>
+  <Edge nodeIn="16846" nodeOut="16857" portIn="Disable" portOut="False" enabled="1"/>
+  <Edge nodeIn="16846" nodeOut="16857" portIn="Enable" portOut="True" enabled="1"/>
+  <Edge nodeIn="16852" nodeOut="16859" portIn="Disable" portOut="False" enabled="1"/>
+  <Edge nodeIn="16852" nodeOut="16859" portIn="Enable" portOut="True" enabled="1"/>
+  <Edge nodeIn="16853" nodeOut="16861" portIn="Disable" portOut="False" enabled="1"/>
+  <Edge nodeIn="16853" nodeOut="16861" portIn="Enable" portOut="True" enabled="1"/>
+  <Edge nodeIn="16867" nodeOut="16865" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16871" nodeOut="16870" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16873" nodeOut="16872" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16842" nodeOut="16886" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="16848" nodeOut="16886" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="16886" nodeOut="16888" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="16894" nodeOut="16890" portIn="Activate" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16895" nodeOut="16890" portIn="Activate" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16899" nodeOut="16890" portIn="Activate" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16900" nodeOut="16890" portIn="Activate" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16867" nodeOut="16901" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16871" nodeOut="16901" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="16873" nodeOut="16901" portIn="Trigger" portOut="Triggered" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

@@ -1,0 +1,23 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$AnimEventDatabase" path="Animations\Characters\Robots\OperatorMedic\OperatorMedic.animevents"/>
+  <Animation name="$TracksDatabase" path="Animations\Characters\Robots\OperatorMedic\*\*\*\*.dba"/>
+  <Animation name="#filepath" path="Animations\Characters\Robots\OperatorMedic"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="*" path="*\*.bspace"/>
+  <Animation name="*" path="*\*.comb"/>
+  <Animation name="#filepath" path="animations\Cutscenes"/>
+  <Animation name="*" path="*\*\*_Operator.caf"/>
+  <Animation name="#filepath" path="Animations\Characters\Robots\Operator"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="#filepath" path="Animations\Characters\Robots\Operator"/>
+  <Animation name="*" path="*\*_operator.caf"/>
+  <Animation name="*" path="*\*.bspace"/>
+  <Animation name="*" path="*\*.comb"/>
+  <Animation name="#filepath" path="animations\Cutscenes"/>
+  <Animation name="*" path="*\*\*_Medic.caf"/>
+  <Animation name="#filepath" path="Animations\Characters\Robots\Operator"/>
+  <Animation name="*" path="*\*_Medic.caf"/>
+ </AnimationList>
+</Params>

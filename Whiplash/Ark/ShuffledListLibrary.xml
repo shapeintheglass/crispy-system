@@ -1,0 +1,11 @@
+
+<ArkShuffledListLibrary>
+ <ShuffledLists>
+  <ArkShuffledList ID="10739735956177269577" Name="TestList" MinValue="0" MaxValue="10" StepSize="1"/>
+  <ArkShuffledList ID="844024417343389488" Name="EscapePodLocations" MinValue="1" MaxValue="3" StepSize="1"/>
+  <ArkShuffledList ID="844024417348142449" Name="SupplyClosetIndices" MinValue="0" MaxValue="3" StepSize="1"/>
+  <ArkShuffledList ID="844024417348212064" Name="NoO2LevelIndices" MinValue="1" MaxValue="3" StepSize="1"/>
+  <ArkShuffledList ID="844024417348290223" Name="LevelHazardIndices" MinValue="0" MaxValue="3" StepSize="1"/>
+  <ArkShuffledList ID="844024417349350657" Name="UnpoweredLevelIndices" MinValue="1" MaxValue="3" StepSize="1"/>
+ </ShuffledLists>
+</ArkShuffledListLibrary>

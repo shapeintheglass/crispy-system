@@ -1,0 +1,20 @@
+local L0_4412, L1_4413, L2_4414
+L0_4412 = {}
+L1_4413 = {}
+L1_4413.model = "Objects/weapons/pistol/3P/Pistol3P.cdf"
+L1_4413.bUsable = 0
+L1_4413.fInteractDelay = 1
+L2_4414 = {}
+L2_4414.bPhysicalize = 1
+L2_4414.bRigidBody = 1
+L2_4414.bPushableByPlayers = 1
+L2_4414.bPushableByAI = 1
+L2_4414.signalpackage_collisionDamagePackage = "3149325216948552760"
+L2_4414.bResting = 1
+L2_4414.bRigidBodyActive = 0
+L2_4414.Density = -1
+L2_4414.mass = 5
+L2_4414.damping = 0.35
+L1_4413.Physics = L2_4414
+L0_4412.Properties = L1_4413
+ArkNpcWeaponPistol = L0_4412

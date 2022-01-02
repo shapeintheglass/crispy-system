@@ -1,0 +1,29 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param name="MoveSpeed" min="+0.1" max="+4.6" cells="12"/>
+ </Dimensions>
+ <ExampleList>
+  <Example AName="3p_Walk_Grenade" SetPara0="0.1" PlaybackScale="0.1"/>
+  <Example AName="3p_Walk_Grenade" SetPara0="1.0" PlaybackScale="1.0"/>
+  <Example AName="3p_Run_Grenade" SetPara0="4.0" PlaybackScale="1.4"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+  <Face p0="1" p1="2"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="0" i1="0" w0="1" w1="0"/>
+  <VExample i0="0" i1="1" w0="0.5454545" w1="0.45454547"/>
+  <VExample i0="0" i1="1" w0="0.090909064" w1="0.90909094"/>
+  <VExample i0="1" i1="2" w0="0.89090908" w1="0.10909092"/>
+  <VExample i0="1" i1="2" w0="0.75454545" w1="0.24545455"/>
+  <VExample i0="1" i1="2" w0="0.61818182" w1="0.38181815"/>
+  <VExample i0="1" i1="2" w0="0.4818182" w1="0.5181818"/>
+  <VExample i0="1" i1="2" w0="0.34545463" w1="0.65454537"/>
+  <VExample i0="1" i1="2" w0="0.20909095" w1="0.79090905"/>
+  <VExample i0="1" i1="2" w0="0.072727263" w1="0.92727274"/>
+  <VExample i0="1" i1="2" w0="-0.063636303" w1="1.0636363"/>
+  <VExample i0="1" i1="2" w0="-0.19999993" w1="1.1999999"/>
+ </VGrid>
+</ParaGroup>

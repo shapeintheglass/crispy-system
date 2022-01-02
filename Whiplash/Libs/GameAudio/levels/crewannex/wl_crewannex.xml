@@ -1,0 +1,103 @@
+
+<ATLConfig atl_name="WL_CrewAnnex">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_WL_Jukebox_EverythingOk" path="Jukebox">
+   <WwiseEvent wwise_name="Play_WL_Jukebox_EverythingOk"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Jukebox_MindGames" path="Jukebox">
+   <WwiseEvent wwise_name="Play_WL_Jukebox_MindGames"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Jukebox_Realization" path="Jukebox">
+   <WwiseEvent wwise_name="Play_WL_Jukebox_Realization"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Jukebox_SSGeometry" path="Jukebox">
+   <WwiseEvent wwise_name="Play_WL_Jukebox_SSGeometry"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_WL_Jukebox_EverythingOk" path="Jukebox">
+   <WwiseEvent wwise_name="Stop_WL_Jukebox_EverythingOk"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_WL_Jukebox_MindGames" path="Jukebox">
+   <WwiseEvent wwise_name="Stop_WL_Jukebox_MindGames"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_WL_Jukebox_Realization" path="Jukebox">
+   <WwiseEvent wwise_name="Stop_WL_Jukebox_Realization"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_WL_Jukebox_SSGeometry" path="Jukebox">
+   <WwiseEvent wwise_name="Stop_WL_Jukebox_SSGeometry"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EscapePodCrash_1stCrash" path="Events/EscapePodCrash">
+   <WwiseEvent wwise_name="Play_EscapePodCrash_1stCrash"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EscapePodCrash_2ndCrash" path="Events/EscapePodCrash">
+   <WwiseEvent wwise_name="Play_EscapePodCrash_2ndCrash"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EscapePodCrash_FlyBy" path="Events/EscapePodCrash">
+   <WwiseEvent wwise_name="Play_EscapePodCrash_FlyBy"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EscapePodCrash_Pod_Launch" path="Events/EscapePodCrash">
+   <WwiseEvent wwise_name="Play_EscapePodCrash_Pod_Launch"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EscapePodCrash_Shutdown_Sweetener" path="Events/EscapePodCrash">
+   <WwiseEvent wwise_name="Play_EscapePodCrash_Shutdown_Sweetener"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EngineerIntro_Pt1_FirstHit" path="WL_EngineerIntro">
+   <WwiseEvent wwise_name="Play_EngineerIntro_Pt1_FirstHit"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EngineerIntro_Pt2_Whoosh" path="WL_EngineerIntro">
+   <WwiseEvent wwise_name="Play_EngineerIntro_Pt2_Whoosh"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EngineerIntro_Pt3_KillShot" path="WL_EngineerIntro">
+   <WwiseEvent wwise_name="Play_EngineerIntro_Pt3_KillShot"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EngineerIntro_Pt4_Tension" path="WL_EngineerIntro">
+   <WwiseEvent wwise_name="Play_EngineerIntro_Pt4_Tension"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EngineerIntro_Pt5_HeadMove" path="WL_EngineerIntro">
+   <WwiseEvent wwise_name="Play_EngineerIntro_Pt5_HeadMove"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EngineerIntro_Pt6_Remove" path="WL_EngineerIntro">
+   <WwiseEvent wwise_name="Play_EngineerIntro_Pt6_Remove"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Basketball_Point">
+   <WwiseEvent wwise_name="Play_Basketball_Point"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_CrewAnnex_Treadmill_On">
+   <WwiseEvent wwise_name="Play_WL_CrewAnnex_Treadmill_On"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_WL_CrewAnnex_Treadmill_Off">
+   <WwiseEvent wwise_name="Stop_WL_CrewAnnex_Treadmill_Off"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_ShuttleEsc_Pt1_Dash" path="Events/ShuttleEsc">
+   <WwiseEvent wwise_name="Play_ShuttleEsc_Pt1_Dash"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_ShuttleEsc_Pt2_Console" path="Events/ShuttleEsc">
+   <WwiseEvent wwise_name="Play_ShuttleEsc_Pt2_Console"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_ShuttleEsc_Pt3_Button" path="Events/ShuttleEsc">
+   <WwiseEvent wwise_name="Play_ShuttleEsc_Pt3_Button"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_ShuttleEsc_Pt4_Clutch" path="Events/ShuttleEsc">
+   <WwiseEvent wwise_name="Play_ShuttleEsc_Pt4_Clutch"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_ShuttleEsc_Pt5_BlastOff" path="Events/ShuttleEsc">
+   <WwiseEvent wwise_name="Play_ShuttleEsc_Pt5_BlastOff"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Mute_ShuttleEsc_extras" path="Events/ShuttleEsc">
+   <WwiseEvent wwise_name="Mute_ShuttleEsc_extras"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="WL_CrewAnnex.bnk" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="WL_CrewAnnex.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

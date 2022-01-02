@@ -1,0 +1,42 @@
+
+<FlarePowerProperties>
+ <Common DisplayName="@rpg_PsychoRadName" PsiCost="40" Description="@rpg_FlareName1" NoiseId="9469288860501649125" LoudnessId="9469288860501649210" PickerLabel="Flare" TargetHighlightColorAlpha="1.0" TargetHighlightColor="0.0,0.75,0.75" InterruptsMimicGrabSequence="false"/>
+ <Levels>
+  <ArkPsiFlareProperties DisplayName="@rpg_PsychoRadName" Description="@rpg_FlareShort1">
+   <TargetingProperties MinRange="0" MaxRange="15">
+    <ValidTargetMetaTags>
+     <MetaTag value="9469288860498988665"/>
+    </ValidTargetMetaTags>
+   </TargetingProperties>
+   <BlastTypeProperties MaxLights="1" MaxAttractRadius="15.0" AttractDurationSec="5.5" MaxBlindingViewAngleDeg="90" MaxPlayerBlindingDistance="10.0">
+    <BlastProperties Radius="10" Force="0" DelaySec="5.5" UpdateIntervalSec="0.2" DurationSec="0.0" StopDelayAudioTrigger="Play_Player_Power_Flare_End" StopPersistentAudioTrigger="" StartDelayAudioTrigger="Play_Player_Power_Flare_Start" PreExplosionParticleEffect="Player.Powers.Flare.Flare_00" ExplosionParticleEffect="Player.Powers.KineticBlast.KenticBlast_00" SignalPackageId="9469288860544424503" MaxBlastCount="1"/>
+    <LightProperties DiffuseCoeff="50.0" SpecularCoeff="1.0" MinFrustumAngleDeg="5.0" MaxFrustumAngleDeg="15.0" TargetAttachmentName="FocusTarget_Attachment" MaterialPath="Materials/ArkEffects/Player/Flare/LightbeamShader_00" LightTexturePath="textures/arkeffects/glows/projection_light_glow_00.tif" Color="0.74,0.86,0.99"/>
+    <PointLightProperties Radius="4.0" DiffuseCoeff="10.0" SpecularCoeff="10.0" Color="1.0, 1.0, 1.0" LensFlareName="ArkFlares.props.horizontal_blue_flare_0"/>
+   </BlastTypeProperties>
+  </ArkPsiFlareProperties>
+  <ArkPsiFlareProperties DisplayName="@rpg_FlareName2" Description="@rpg_FlareShort1">
+   <TargetingProperties MinRange="0" MaxRange="22">
+    <ValidTargetMetaTags>
+     <MetaTag value="9469288860498988665"/>
+    </ValidTargetMetaTags>
+   </TargetingProperties>
+   <BlastTypeProperties MaxLights="2" MaxAttractRadius="19.0" AttractDurationSec="5.5" MaxBlindingViewAngleDeg="90" MaxPlayerBlindingDistance="10.0">
+    <BlastProperties Radius="17" Force="0.0" DelaySec="5.5" UpdateIntervalSec="0.2" DurationSec="0.0" StopDelayAudioTrigger="Play_Player_Power_Flare_End" StopPersistentAudioTrigger="" StartDelayAudioTrigger="Play_Player_Power_Flare_Start" PreExplosionParticleEffect="Player.Powers.Flare.Flare_00" ExplosionParticleEffect="Player.Powers.KineticBlast.KenticBlast_00" SignalPackageId="2524450536770073426" MaxBlastCount="1"/>
+    <LightProperties DiffuseCoeff="50.0" SpecularCoeff="1.0" MinFrustumAngleDeg="5.0" MaxFrustumAngleDeg="15.0" TargetAttachmentName="FocusTarget_Attachment" MaterialPath="Materials/ArkEffects/Player/Flare/LightbeamShader_00" LightTexturePath="textures/arkeffects/glows/projection_light_glow_00.tif" Color="0.74,0.86,0.99"/>
+    <PointLightProperties Radius="4.0" DiffuseCoeff="10.0" SpecularCoeff="10.0" Color="1.0, 1.0, 1.0" LensFlareName="ArkFlares.props.horizontal_blue_flare_0"/>
+   </BlastTypeProperties>
+  </ArkPsiFlareProperties>
+  <ArkPsiFlareProperties DisplayName="@rpg_FlareName3" Description="@rpg_FlareShort1">
+   <TargetingProperties MinRange="0" MaxRange="30">
+    <ValidTargetMetaTags>
+     <MetaTag value="9469288860498988665"/>
+    </ValidTargetMetaTags>
+   </TargetingProperties>
+   <BlastTypeProperties MaxLights="3" MaxAttractRadius="25.0" AttractDurationSec="5.5" MaxBlindingViewAngleDeg="90" MaxPlayerBlindingDistance="10.0">
+    <BlastProperties Radius="20" Force="0" DelaySec="5.5" UpdateIntervalSec="0.2" DurationSec="0.0" StopDelayAudioTrigger="Play_Player_Power_Flare_End" StopPersistentAudioTrigger="" StartDelayAudioTrigger="Play_Player_Power_Flare_Start" PreExplosionParticleEffect="Player.Powers.Flare.Flare_00" ExplosionParticleEffect="Player.Powers.KineticBlast.KineticBlast_Exp_lv_01" MaxBlastCount="1" ExplosionSignalPackageId="2524450536770073426"/>
+    <LightProperties DiffuseCoeff="50.0" SpecularCoeff="1.0" MinFrustumAngleDeg="5.0" MaxFrustumAngleDeg="15.0" TargetAttachmentName="FocusTarget_Attachment" MaterialPath="Materials/ArkEffects/Player/Flare/LightbeamShader_00" LightTexturePath="textures/arkeffects/glows/projection_light_glow_00.tif" Color="0.74,0.86,0.99"/>
+    <PointLightProperties Radius="4.0" DiffuseCoeff="10.0" SpecularCoeff="10.0" Color="1.0, 1.0, 1.0" LensFlareName="ArkFlares.props.horizontal_blue_flare_0"/>
+   </BlastTypeProperties>
+  </ArkPsiFlareProperties>
+ </Levels>
+</FlarePowerProperties>

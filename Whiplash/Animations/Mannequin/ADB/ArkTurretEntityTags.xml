@@ -1,0 +1,10 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="TurretClass">
+   <Tag name="LaserTurret"/>
+   <Tag name="GlooTurret"/>
+  </Group>
+  <Tag name="TechnopathHeld"/>
+ </Tags>
+</TagDefinition>

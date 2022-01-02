@@ -1,0 +1,9 @@
+
+<CastMatterPowerProperties>
+ <Common DisplayName="@rpg_CastMatterName1" PsiCost="10" Description="@rpg_CastMatterShort1" PickerLabel="Cast Matter" InterruptsMimicGrabSequence="false" PostProcessVFX="" PersistentPostProcessVFX="" TargetHighlightColorAlpha="1.0" TargetHighlightColor="0.71,0.32,0.58" ExecutionAudioTrigger="Play_Power_Psychoshock" ExecutionPlayerEffect="" CostReductionStat="psiCostScaleTelepathic"/>
+ <Levels>
+  <ArkPsiCastMatterProperties DisplayName="@rpg_CastMatterName1" Description="@rpg_CastMatterShort1" CooldownDurationSec="0" MaxProjectiles="5" TargetAreaRadius="3.0" ProjectileMinSpawnDelay="0.5" ProjectileMaxSpawnDelay="1.0" ProjectileArchetype="ArkProjectiles.AlienPowers.ArkProjectileMatter" GroundParticleEffect="Player.Powers.CastMatter.ImpactAreaDynamic">
+   <TargetingProperties MaxRange="15" MinRange="1" TargetParticleEffect="Player.Powers.CastMatter.TargetingArea"/>
+  </ArkPsiCastMatterProperties>
+ </Levels>
+</CastMatterPowerProperties>

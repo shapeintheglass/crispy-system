@@ -1,0 +1,23 @@
+
+<Dialog>
+ <Dialog id="13680621263438965055" text="Howzit Officer Bhatia." modified="10/24/2017 04:24:31 PM"/>
+ <Dialog id="13680621263438965081" text="You&apos;re too late, I&apos;m afraid. By the time you hear this, I should be sitting nice and comfy on an escape pod headed home." modified="10/24/2017 04:24:57 PM"/>
+ <Dialog id="13680621263438965094" text="I knew Riley would send you." modified="10/24/2017 04:25:10 PM" notes="emphasis on you. claire respects bhatia. under different circumstances they might have been good friends."/>
+ <Dialog id="13680621263438965154" text="Anybody else and they&apos;d be dead already. You want to stay not dead... then listen up, my chommie." modified="10/24/2017 04:26:10 PM" notes=""/>
+ <Dialog id="13680621263438965219" text="That little puff of air you just heard? Neurotoxin. Kill you chop-chop, but... I&apos;m giving you the location of the antidote." modified="10/24/2017 04:27:15 PM"/>
+ <Dialog id="13680621263438965273" text="I realize you have the means to scuttle my pod. So now you get to decide... self-preservation... or duty to your employer." modified="10/24/2017 04:28:09 PM"/>
+ <Dialog id="13680621263438965288" text="What&apos;s it going to be, Vijay?" modified="10/24/2017 04:28:24 PM"/>
+ <Dialog id="13680621263438965293" text="Tick tock." modified="10/24/2017 04:28:29 PM"/>
+ <Dialog id="13680621263438966156" text="Vijay... don&apos;t." modified="10/24/2017 06:32:01 PM"/>
+ <Dialog id="13680621263438966166" text="Good boy. You made the right choice, Vijay." modified="10/24/2017 06:27:18 PM"/>
+ <Dialog id="13680621263438972459" text="You manage to get off the moon alive, I&apos;ll look you up. I&apos;ll make you another offer you can&apos;t refuse." modified="10/24/2017 06:27:55 PM"/>
+ <Dialog id="13680621263438972547" text="KASMA&apos;s always on the prowl for solid men. The pay is shit but the work is loads more fun." modified="10/24/2017 06:29:23 PM"/>
+ <Dialog id="13680621263438972573" text="Best of luck to you." modified="10/24/2017 06:29:49 PM"/>
+ <Dialog id="13680621263438972582" text="Sorry about your men." modified="10/24/2017 06:29:58 PM"/>
+ <Dialog id="13680621263438972754" text="You don&apos;t owe Riley a thing. Sticking around like a good little boy to mop the mess she made?" modified="10/24/2017 06:32:50 PM"/>
+ <Dialog id="13680621263438972765" text="You should be on a pod. Like me. Like she is." modified="10/24/2017 06:33:01 PM"/>
+ <Dialog id="13680621263438972779" text="What? You cross at me for clapping your men?" modified="10/24/2017 06:33:15 PM"/>
+ <Dialog id="13680621263438972796" text="Maybe I&apos;m not the only one on this pod, ay? You think about that?" modified="10/24/2017 06:33:32 PM"/>
+ <Dialog id="13680621263438972815" text="You push that button and you got innocent blood on your conscience." modified="11/28/2017 10:42:46 PM"/>
+ <Dialog id="13680621263438972856" text="I don&apos;t believe it. You--[explosion]" modified="03/06/2018 09:06:48 PM" notes="SFX The escape pod Claire is in detonates."/>
+</Dialog>

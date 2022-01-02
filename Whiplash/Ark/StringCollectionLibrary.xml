@@ -1,0 +1,93 @@
+
+<ArkStringCollectionLibrary>
+ <Collections>
+  <ArkStringCollection id="10739735956180472821" name="Gun Moll Names">
+   <Strings>
+    <String value="@loc_10739735956180472919"/>
+    <String value="@loc_10739735956180472994"/>
+    <String value="@loc_13680621263440788121"/>
+    <String value="@loc_13680621263440788123"/>
+    <String value="@loc_13680621263440788125"/>
+    <String value="@loc_13680621263440788127"/>
+    <String value="@loc_13680621263440788132"/>
+    <String value="@loc_13680621263440788134"/>
+    <String value="@loc_13680621263440788135"/>
+    <String value="@loc_13680621263440788136"/>
+    <String value="@loc_13680621263440788137"/>
+    <String value="@loc_13680621263440788138"/>
+    <String value="@loc_13680621263440788139"/>
+    <String value="@loc_13680621263440788140"/>
+    <String value="@loc_13680621263440788141"/>
+    <String value="@loc_13680621263440788142"/>
+    <String value="@loc_13680621263440788143"/>
+    <String value="@loc_13680621263440788144"/>
+    <String value="@loc_13680621263440788527"/>
+    <String value="@loc_13680621263440788650"/>
+    <String value="@loc_13680621263440788719"/>
+    <String value="@loc_13680621263440788772"/>
+    <String value="@loc_13680621263440788850"/>
+    <String value="@loc_13680621263440788895"/>
+    <String value="@loc_13680621263440788908"/>
+    <String value="@loc_577514305007747426"/>
+   </Strings>
+  </ArkStringCollection>
+  <ArkStringCollection id="10739735956180472834" name="Bird Names">
+   <Strings>
+    <String value="@loc_10739735956180472901"/>
+    <String value="@loc_10739735956180473003"/>
+    <String value="@loc_13680621263440796656"/>
+    <String value="@loc_13680621263440796657"/>
+    <String value="@loc_13680621263440796658"/>
+    <String value="@loc_13680621263440796660"/>
+    <String value="@loc_13680621263440796661"/>
+    <String value="@loc_13680621263440796662"/>
+    <String value="@loc_13680621263440796663"/>
+    <String value="@loc_13680621263440796668"/>
+    <String value="@loc_13680621263440796669"/>
+    <String value="@loc_13680621263440796670"/>
+    <String value="@loc_13680621263440796671"/>
+    <String value="@loc_13680621263440796672"/>
+    <String value="@loc_13680621263440796673"/>
+    <String value="@loc_13680621263440796674"/>
+    <String value="@loc_13680621263440796675"/>
+    <String value="@loc_13680621263440796676"/>
+    <String value="@loc_13680621263440796677"/>
+    <String value="@loc_13680621263440796678"/>
+    <String value="@loc_13680621263440797408"/>
+    <String value="@loc_13680621263440797473"/>
+    <String value="@loc_13680621263446734774"/>
+    <String value="@loc_13680621263446734801"/>
+    <String value="@loc_13680621263446734802"/>
+    <String value="@loc_13680621263446734839"/>
+    <String value="@loc_13680621263446734852"/>
+    <String value="@loc_13680621263446734887"/>
+    <String value="@loc_13680621263451576001"/>
+   </Strings>
+  </ArkStringCollection>
+  <ArkStringCollection id="10739735956180472845" name="Food Names">
+   <Strings>
+    <String value="@loc_10739735956180472878"/>
+    <String value="@loc_10739735956180473012"/>
+    <String value="@loc_13680621263440793270"/>
+    <String value="@loc_13680621263440793284"/>
+    <String value="@loc_13680621263440793311"/>
+    <String value="@loc_13680621263440793367"/>
+    <String value="@loc_13680621263440793424"/>
+    <String value="@loc_13680621263440793438"/>
+    <String value="@loc_13680621263440793551"/>
+    <String value="@loc_13680621263440793918"/>
+    <String value="@loc_13680621263440793962"/>
+    <String value="@loc_13680621263440794062"/>
+    <String value="@loc_13680621263440794086"/>
+    <String value="@loc_13680621263440794119"/>
+    <String value="@loc_13680621263440794183"/>
+    <String value="@loc_13680621263440794308"/>
+    <String value="@loc_13680621263440794406"/>
+    <String value="@loc_13680621263440797081"/>
+    <String value="@loc_13680621263440797517"/>
+    <String value="@loc_13680621263440797623"/>
+    <String value="@loc_13680621263440797678"/>
+   </Strings>
+  </ArkStringCollection>
+ </Collections>
+</ArkStringCollectionLibrary>

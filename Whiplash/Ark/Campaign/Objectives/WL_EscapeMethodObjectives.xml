@@ -1,0 +1,97 @@
+
+<Objectives>
+ <Objective id="844024417339153817" title="@loc_844024417339153818" optional="false" crypto="1000">
+  <Clues>
+   <Clue id="844024417347520125" displayName="Pilot Clue" text="@loc_844024417347520126"/>
+  </Clues>
+  <Descriptions>
+   <Desc id="844024417348919685" displayName="Shuttle Blocked Roster" text="@loc_844024417348919686"/>
+   <Desc id="844024417339153819" displayName="Initial" text="@loc_844024417339153820"/>
+   <Desc id="844024417347520047" displayName="Get to Shuttle" text="@loc_844024417347520048"/>
+   <Desc id="844024417347520077" displayName="Shuttle Blocked" text="@loc_844024417347520078"/>
+   <Desc id="6732635291260443231" displayName="Kill Mimics" text="@loc_6732635291260443232"/>
+   <Desc id="6732635291261569654" displayName="ReachTheCrater" text="@loc_6732635291261569655"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="761057048029684433" displayName="ReachTheCrater" optional="false" text="@loc_761057048029684434" markerLabel="@loc_761057048029684447" Location="844024417334136241" description="6732635291261569654"/>
+   <Task id="844024417339153844" displayName="GetToShuttle" optional="false" text="@loc_844024417339153845" markerLabel="@loc_844024417339153861" Location="844024417334136321" description="844024417347520047"/>
+   <Task id="844024417339153867" displayName="LearnPiloting" optional="false" text="@loc_844024417339153868" description="844024417347520077"/>
+   <Task id="844024417339153882" displayName="PilotTheShuttle" optional="false" text="@loc_844024417339153883" markerLabel="@loc_844024417339153896" description="844024417347520077" Location="844024417334136321"/>
+   <Task id="6732635291260443167" displayName="Kill Mimics" optional="false" text="@loc_6732635291260443168" Location="844024417334136241" markerLabel="@loc_6732635291260443217" description="6732635291260443231"/>
+   <Task id="844024417348919709" displayName="Use Roster" optional="false" text="@loc_844024417348919710" markerLabel="@loc_844024417348919727" description="844024417348919685"/>
+   <Task id="13680621263448134909" displayName="Install Neuromod" optional="false" text="@loc_13680621263448134910" description="844024417347520077"/>
+  </Tasks>
+ </Objective>
+ <Objective id="844024417339153905" title="@loc_844024417339153906" optional="false" crypto="1000">
+  <Clues>
+   <Clue id="844024417339155450" displayName="PodLocation - Labs" text="@loc_844024417339155451"/>
+   <Clue id="844024417339155454" displayName="PodLocation - Crater" text="@loc_844024417339155455"/>
+   <Clue id="844024417339155456" displayName="PodLocation - Engineering" text="@loc_844024417339155457"/>
+   <Clue id="844024417358612551" displayName="InvestigatePods" text="@loc_844024417358612552"/>
+   <Clue id="13680621263451570278" displayName="Extra Chips" text="@loc_13680621263451570279"/>
+  </Clues>
+  <Descriptions>
+   <Desc id="844024417339153907" displayName="Find Pod" text="@loc_844024417339153908"/>
+   <Desc id="844024417339155344" displayName="Get to pod" text="@loc_844024417339155345"/>
+   <Desc id="844024417339155393" displayName="Pod blocked" text="@loc_844024417339155394"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417339154905" displayName="FindPod" optional="false" text="@loc_844024417339154906" description="844024417339153907" markerLabel="@loc_1713490239485822486"/>
+   <Task id="844024417339153934" displayName="GetToPod" optional="false" text="@loc_844024417339153935" Location="844024417334136241" markerLabel="@loc_12889009725070632257" description="844024417339155344"/>
+   <Task id="844024417343375050" displayName="Find Part" optional="false" text="@loc_844024417343375051" description="844024417339155393" markerLabel="@loc_1713490239485822511"/>
+   <Task id="844024417343375135" displayName="Fix pod" optional="false" text="@loc_844024417343375136" Location="844024417334136241" description="844024417339155393" markerLabel="@loc_1713490239485822530"/>
+   <Task id="844024417343376229" displayName="Use pod" optional="false" text="@loc_844024417343376230" Location="844024417334136241" description="844024417339155393" markerLabel="@loc_1713490239485822535"/>
+  </Tasks>
+ </Objective>
+ <Objective id="844024417339309243" title="@loc_844024417339309244" optional="false" crypto="1000">
+  <Clues>
+   <Clue id="761057048035562498" displayName="Food" text="@loc_761057048035562499"/>
+   <Clue id="761057048035562595" displayName="Water" text="@loc_761057048035562596"/>
+   <Clue id="761057048035562639" displayName="AntiRad" text="@loc_761057048035562640"/>
+   <Clue id="761057048035648659" displayName="CrateLoaded" text="@loc_761057048035648660"/>
+   <Clue id="761057048042915879" displayName="No Power" text="@loc_761057048042915880"/>
+  </Clues>
+  <Descriptions>
+   <Desc id="844024417339309245" displayName="Description" text="@loc_844024417339309246"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="761057048036841809" displayName="PostEscapeTrailhead" optional="false" text="@loc_761057048036841810" markerLabel="@loc_761057048036841834"/>
+   <Task id="761057048033123993" displayName="FindKeycode" optional="true" text="@loc_761057048033123994" markerLabel="@loc_761057048033124068" description="844024417339309245"/>
+   <Task id="761057048033124079" displayName="Food" optional="true" text="@loc_761057048033124080" markerLabel="@loc_761057048033142005" Location="844024417334136487" description="844024417339309245"/>
+   <Task id="761057048033124240" displayName="Anti-Rad" optional="true" text="@loc_761057048033124241" markerLabel="@loc_761057048033142011" Location="844024417334136487" description="844024417339309245"/>
+   <Task id="761057048033124932" displayName="Water" optional="true" text="@loc_761057048033124933" markerLabel="@loc_761057048033142017" Location="844024417334136487" description="844024417339309245"/>
+   <Task id="761057048033124269" displayName="Oxygen" optional="true" text="@loc_761057048033124270" markerLabel="@loc_761057048033141989" Location="844024417334136487" description="844024417339309245"/>
+   <Task id="761057048033124439" displayName="Escape - sequence" optional="true" text="@loc_761057048033124440" Location="844024417334136487" markerLabel="@loc_761057048033142039" description="844024417339309245"/>
+   <Task id="761057048033396176" displayName="Escape - Final" optional="true" text="@loc_761057048033396177" markerLabel="@loc_761057048033396203" Location="844024417334136487" description="844024417339309245" timerLabel="@loc_761057048033396279"/>
+  </Tasks>
+ </Objective>
+ <Objective id="12889009725078574174" title="@loc_12889009725078574175" optional="false" owner="0" crypto="1000">
+  <Descriptions>
+   <Desc id="12889009725078574176" displayName="InitialDescription" text="@loc_12889009725078574177"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="12889009725078574373" displayName="RepairMimicGate" optional="false" text="@loc_12889009725078574374" markerLabel="@loc_12889009725078574404" Location="844024417334136393" description="12889009725078574176"/>
+   <Task id="12889009725078574429" displayName="HackTheWorkstation" optional="false" text="@loc_12889009725078574430" markerLabel="@loc_12889009725078574440" Location="844024417334136393" description="12889009725078574176"/>
+   <Task id="12889009725078574463" displayName="StabilizeUpTheMimicGate" optional="false" text="@loc_12889009725078574466" markerLabel="@loc_12889009725078574465" Location="844024417334136393" description="12889009725078574176" targetCharacterId="12889009725078574464" timerLabel="@loc_12889009725078574467"/>
+   <Task id="12889009725078574529" displayName="Go Through the Mimic Gate" optional="false" text="@loc_12889009725078574532" markerLabel="@loc_12889009725078574531" Location="844024417334136393" description="12889009725078574176" targetCharacterId="12889009725078574530" timerLabel="@loc_12889009725078574533"/>
+  </Tasks>
+  <Clues>
+   <Clue id="12889009725078574549" displayName="TyphonRequirement" text="@loc_12889009725078574550"/>
+  </Clues>
+ </Objective>
+ <Objective id="844024417358605951" title="@loc_844024417358605952" optional="false" owner="0" crypto="0">
+  <Descriptions>
+   <Desc id="844024417358605953" displayName="ReachCrater" text="@loc_844024417358605954"/>
+   <Desc id="844024417358608883" displayName="InvestigateEscapePods" text="@loc_844024417358608884"/>
+   <Desc id="844024417358612812" displayName="EscapeInPod" text="@loc_844024417358612813"/>
+   <Desc id="844024417358615060" displayName="Kill Mimics" text="@loc_844024417358615061"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417358609171" displayName="ReachCrater" optional="false" text="@loc_844024417358609172" Location="844024417334136241" description="844024417358605953" markerLabel="@loc_844024417358613759"/>
+   <Task id="844024417358612594" displayName="InvestigatePods" optional="false" text="@loc_844024417358612595" Location="844024417334136241" description="844024417358608883" markerLabel="@loc_844024417358612776"/>
+   <Task id="844024417358612746" displayName="EscapeInPod" optional="false" text="@loc_844024417358612747" Location="844024417334136241" markerLabel="@loc_844024417358612770"/>
+   <Task id="844024417358615021" displayName="KillMimics" optional="false" text="@loc_844024417358615022" markerLabel="@loc_844024417358615028" Location="844024417334136241"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+</Objectives>

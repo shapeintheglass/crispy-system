@@ -1,0 +1,46 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Operator_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_Operator_FragmentIds.xml"/>
+ <FragmentDefs>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Reaction_Death scopes="FullBody3P"/>
+  <Distractor_Collision_Forward scopes="FullBody3P"/>
+  <BlendRagdoll scopes="FullBody3P"/>
+  <ForceResist scopes="FullBody3P+Torso3P+TorsoDetail"/>
+  <Hypnotized scopes="FullBody3P+Torso3P+TorsoDetail"/>
+  <Blinded scopes="FullBody3P+Torso3P+TorsoDetail"/>
+  <GetUp scopes="FullBody3P+Torso3P+TorsoDetail"/>
+  <Dormant scopes="FullBody3P"/>
+  <BreakGloo scopes="FullBody3P+Torso3P"/>
+  <PushObstacle scopes="FullBody3P+Torso3P"/>
+  <Lifted scopes="FullBody3P"/>
+  <Lifted_BumpCeiling scopes="FullBody3P"/>
+  <Aiming scopes="Aiming"/>
+  <AimPose scopes="AimPose" flags="Persistent"/>
+  <Engineer_Torch scopes="Torso3P+AimPose+Aiming"/>
+  <Notice scopes="FullBody3P"/>
+  <ProbeExtend scopes="Torso3P+AimPose+Aiming"/>
+  <ProbeAttack scopes="Torso3P+AimPose+Aiming"/>
+  <Scan scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Dispenser_Pose scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Distractor_Inspect_A scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Distractor_Inspect_High_A scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Glood_Pose scopes="FullBody3P"/>
+  <ArmsRetracted scopes="TorsoDetail+AimPose+Aiming"/>
+  <ProbeAttackFast scopes="Torso3P+TorsoDetail"/>
+  <GetCorrupted scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+  <Distractor_Inspect_Low_A scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <Torso3P layer="3" numLayers="2" context="Char3P"/>
+  <TorsoDetail layer="5" numLayers="2" context="Char3P"/>
+  <AimPose layer="14" numLayers="1" context="Char3P"/>
+  <Aiming layer="14" numLayers="0" context="Char3P"/>
+ </ScopeDefs>
+</ControllerDef>

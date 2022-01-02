@@ -1,0 +1,147 @@
+
+<ATLConfig atl_name="Survival_Patch">
+ <AudioSwitches>
+  <ATLSwitch atl_name="Trauma_Bleeding">
+   <ATLSwitchState atl_name="Bleeding_On">
+    <WwiseState wwise_name="Trauma_Bleeding">
+     <WwiseValue wwise_name="Bleeding_On"/>
+    </WwiseState>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="Bleeding_Off">
+    <WwiseState wwise_name="Trauma_Bleeding">
+     <WwiseValue wwise_name="Bleeding_Off"/>
+    </WwiseState>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="Trauma_Hobbled">
+   <ATLSwitchState atl_name="Hobbled_Off">
+    <WwiseState wwise_name="Trauma_Hobbled">
+     <WwiseValue wwise_name="Hobbled_Off"/>
+    </WwiseState>
+   </ATLSwitchState>
+   <ATLSwitchState atl_name="Hobbled_On">
+    <WwiseState wwise_name="Trauma_Hobbled">
+     <WwiseValue wwise_name="Hobbled_On"/>
+    </WwiseState>
+   </ATLSwitchState>
+  </ATLSwitch>
+ </AudioSwitches>
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_Player_Bleeding_Step">
+   <WwiseEvent wwise_name="Play_Player_Bleeding_Step"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Player_Hobbled_Step">
+   <WwiseEvent wwise_name="Play_Player_Hobbled_Step"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Shotgun_Pump_Stuck">
+   <WwiseEvent wwise_name="Play_WPN_Shotgun_Pump_Stuck"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_StunGun_EMPed">
+   <WwiseEvent wwise_name="Play_WPN_StunGun_EMPed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Taser_Fire_Broken">
+   <WwiseEvent wwise_name="Play_Taser_Fire_Broken"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_GooGun_EMPed">
+   <WwiseEvent wwise_name="Play_WPN_GooGun_EMPed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Laser_EMPed">
+   <WwiseEvent wwise_name="Play_WPN_Laser_EMPed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Trauma_Bleed_Damage">
+   <WwiseEvent wwise_name="Play_Trauma_Bleed_Damage"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Trauma_Bleed_Increase">
+   <WwiseEvent wwise_name="Play_Trauma_Bleed_Increase"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Set_State_Bleeding_Off">
+   <WwiseEvent wwise_name="Set_State_Bleeding_Off"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Set_State_Bleeding_On">
+   <WwiseEvent wwise_name="Set_State_Bleeding_On"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_GooGun_SP_Malfunction_pt1">
+   <WwiseEvent wwise_name="Play_WPN_GooGun_SP_Malfunction_pt1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_GooGun_SP_Malfunction_pt2">
+   <WwiseEvent wwise_name="Play_WPN_GooGun_SP_Malfunction_pt2"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Laser_SP_Malfunction_pt1">
+   <WwiseEvent wwise_name="Play_WPN_Laser_SP_Malfunction_pt1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Player_Trauma_Broken_Bone">
+   <WwiseEvent wwise_name="Play_Player_Trauma_Broken_Bone"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Player_Blood_Drop_Step">
+   <WwiseEvent wwise_name="Play_Player_Blood_Drop_Step"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Trauma_Concussion_Ring">
+   <WwiseEvent wwise_name="Play_Trauma_Concussion_Ring"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Pistol_SP_Malfunction_pt1">
+   <WwiseEvent wwise_name="Play_WPN_Pistol_SP_Malfunction_pt1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_StunGun_SP_Malfunction_Spark">
+   <WwiseEvent wwise_name="Play_WPN_StunGun_SP_Malfunction_Spark"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_StunGun_SP_Malfunction_pt1">
+   <WwiseEvent wwise_name="Play_WPN_StunGun_SP_Malfunction_pt1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UI_Survival_Pharma_Bleed">
+   <WwiseEvent wwise_name="Play_UI_Survival_Pharma_Bleed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UI_Survival_Pharma_Burn">
+   <WwiseEvent wwise_name="Play_UI_Survival_Pharma_Burn"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UI_Survival_Pharma_Concussion">
+   <WwiseEvent wwise_name="Play_UI_Survival_Pharma_Concussion"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UI_Survival_Pharma_Hobbled">
+   <WwiseEvent wwise_name="Play_UI_Survival_Pharma_Hobbled"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UI_Survival_WPN_Repair">
+   <WwiseEvent wwise_name="Play_UI_Survival_WPN_Repair"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Set_State_Hobbled_Off">
+   <WwiseEvent wwise_name="Set_State_Hobbled_Off"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Set_State_Hobbled_On">
+   <WwiseEvent wwise_name="Set_State_Hobbled_On"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Pistol_SP_Malfunction_Fire">
+   <WwiseEvent wwise_name="Play_WPN_Pistol_SP_Malfunction_Fire"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Pistol_SP_ShellDrop">
+   <WwiseEvent wwise_name="Play_WPN_Pistol_SP_ShellDrop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Player_Survival_Vox_Asphyxiation">
+   <WwiseEvent wwise_name="Play_Player_Survival_Vox_Asphyxiation"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Player_Survival_Vox_Asphyxiation">
+   <WwiseEvent wwise_name="Stop_Player_Survival_Vox_Asphyxiation"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Laser_SP_Malfunction_Hit">
+   <WwiseEvent wwise_name="Play_WPN_Laser_SP_Malfunction_Hit"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Laser_SP_Malfunction_Zap">
+   <WwiseEvent wwise_name="Play_WPN_Laser_SP_Malfunction_Zap"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WPN_Laser_SP_Malfunction_Reboot">
+   <WwiseEvent wwise_name="Play_WPN_Laser_SP_Malfunction_Reboot"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="Survival_Patch.bnk" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="Survival_Patch.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

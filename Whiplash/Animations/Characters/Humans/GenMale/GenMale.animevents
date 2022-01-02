@@ -1,0 +1,1312 @@
+
+<anim_event_list>
+ <animation name="animations/cutscenes/simulationlabs/sq04/simulationlabs_sq04_mechanic_working_mechanic.caf">
+  <event name="audio_trigger" time="0.039894007" endTime="0.039894007" parameter="Play_Evnt_SimLab_Worker_Work" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.17121178" endTime="0.17121178" parameter="Play_Evnt_SimLab_Worker_Work" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.60505909" endTime="0.60505909" parameter="Play_Evnt_SimLab_Worker_Work" bone="root_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/walkstart/relaxed_walkstart_left180_empty.caf">
+  <event name="segment1" time="0.53909296" endTime="0.55254585" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/walkstart/relaxed_walkstart_right_empty.caf">
+  <event name="segment1" time="0.35782748" endTime="0.35782748" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.74655378" endTime="0.75613844" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/walkstart/relaxed_walkstart_left90_empty.caf">
+  <event name="sound" time="0.38499588" endTime="0.38499588" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.53874767" endTime="0.55155575" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/walkstart/relaxed_walkstart_left_empty.caf">
+  <event name="segment1" time="0.48647738" endTime="0.51459241" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/runstart/relaxed_runstart_left180_empty.caf">
+  <event name="segment1" time="0.4727537" endTime="0.5302617" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/runstart/relaxed_runstart_left90_empty.caf">
+  <event name="sound" time="0.45255801" endTime="0.45255801" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.51134396" endTime="0.51134396" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/runstart/relaxed_runstart_left_empty.caf">
+  <event name="segment1" time="0.64349276" endTime="0.74505967" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/walkstart/relaxed_walkstart_right180_empty.caf">
+  <event name="segment1" time="0.3974441" endTime="0.3974441" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62461555" endTime="0.62461555" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.76838553" endTime="0.76838553" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/walkstart/relaxed_walkstart_right90_empty.caf">
+  <event name="sound" time="0.21738058" endTime="0.21738058" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21738058" endTime="0.21738058" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.29648563" endTime="0.29648563" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.73376942" endTime="0.73376942" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75876355" endTime="0.75876355" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/runstart/relaxed_runstart_right180_empty.caf">
+  <event name="segment1" time="0.46803868" endTime="0.63339633" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.80769229" endTime="0.80769229" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/runstart/relaxed_runstart_right90_empty.caf">
+  <event name="segment1" time="0.42631602" endTime="0.62309003" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.79510492" endTime="0.79510492" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/runstart/relaxed_runstart_right_empty.caf">
+  <event name="segment1" time="0.43253052" endTime="0.62711853" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.7958042" endTime="0.7958042" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_relaxed_movestop_walk_empty.bspace">
+  <event name="footstep" time="0.26378226" endTime="0.26378226" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62805301" endTime="0.62805301" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63642704" endTime="0.63642704" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.92137313" endTime="0.92137313" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_relaxed_movestop_run_empty.bspace">
+  <event name="footstep" time="0.12770411" endTime="0.12770411" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.26866713" endTime="0.26866713" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.43265876" endTime="0.43265876" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57990229" endTime="0.57990229" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.85872781" endTime="0.85872781" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/walkstop/relaxed_walkstop_rightfootup_empty.caf">
+  <event name="animexit" time="0.89313984" endTime="0.89313984" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/walkstop/relaxed_walkstop_leftfootup_empty.caf">
+  <event name="animexit" time="0.89182061" endTime="0.89182061" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/runstop/relaxed_runstop_leftfootup_empty.caf">
+  <event name="animexit" time="0.84366757" endTime="0.84366757" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/runstop/relaxed_runstop_rightfootup_empty.caf">
+  <event name="animexit" time="0.84762537" endTime="0.84762537" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargeexplode/corrupted_chargeexplode.caf"/>
+ <animation name="animations/characters/humans/genmale/corrupted/chargestop/corrupted_chargestop_leftfootup.caf">
+  <event name="sound" time="0.076442309" endTime="0.076442309" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1717961" endTime="0.1717961" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40631008" endTime="0.41015625" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43028846" endTime="0.43028846" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69634414" endTime="0.74153644" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.86298078" endTime="0.86298078" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargestop/corrupted_chargestop_rightfootup.caf">
+  <event name="sound" time="0.16073717" endTime="0.17708333" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20048077" endTime="0.20048077" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42531049" endTime="0.43684897" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43701923" endTime="0.43701923" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72371793" endTime="0.72371793" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9168269" endTime="0.9168269" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/charge/corrupted_charge.caf">
+  <event name="sound" time="0.0035536604" endTime="0.0035536604" parameter="Trigger_Corrupted_Human" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.037822112" endTime="0.037822112" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.08203125" endTime="0.08203125" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.111885" endTime="0.17838542" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27140483" endTime="0.27140483" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33268228" endTime="0.33268228" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42503119" endTime="0.4375" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48836243" endTime="0.48836243" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55169201" endTime="0.65559894" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56119794" endTime="0.56119794" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6321696" endTime="0.6321696" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71646726" endTime="0.94921875" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8125" endTime="0.8125" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87988365" endTime="0.87988365" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/detect/corrupted_detect_player.caf">
+  <event name="sound" time="0.005859375" endTime="0.005859375" parameter="Play_NPC_Corrupted_Detect_Start" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.083333336" endTime="0.083333336" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.1484375" endTime="0.1484375" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17252605" endTime="0.17252605" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.27148438" endTime="0.27148438" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37630209" endTime="0.37630209" parameter="Play_NPC_Corrupted_Human_Detect_Player" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90098161" endTime="0.90098161" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/detect/corrupted_detect_player_b.caf">
+  <event name="sound" time="0.030598959" endTime="0.030598959" parameter="Play_NPC_Corrupted_Detect_Start" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.076822914" endTime="0.076822914" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1360677" endTime="0.1360677" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24804688" endTime="0.24804688" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34636417" endTime="0.34636417" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59114581" endTime="0.59114581" parameter="Play_NPC_Corrupted_Human_Detect_Player" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runstop/corrupted_runstop_rightfootup.caf">
+  <event name="sound" time="0.025390625" endTime="0.025390625" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.052403845" endTime="0.052403845" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17069311" endTime="0.17838542" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4296875" endTime="0.4296875" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75355566" endTime="0.77278644" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runstop/corrupted_runstop_leftfootup.caf">
+  <event name="sound" time="0.012369792" endTime="0.012369792" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.041826922" endTime="0.041826922" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16276042" endTime="0.16276042" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4453125" endTime="0.4453125" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72652245" endTime="0.74479169" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runstart/corrupted_runstart_left.caf">
+  <event name="sound" time="0.045673076" endTime="0.045673076" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2311198" endTime="0.2311198" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3247596" endTime="0.3247596" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53450519" endTime="0.53450519" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63949317" endTime="0.67122394" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75325519" endTime="0.75325519" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89442104" endTime="0.92903644" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runstart/corrupted_runstart_left180.caf">
+  <event name="sound" time="0.12044271" endTime="0.12044271" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43229166" endTime="0.43229166" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63802081" endTime="0.63802081" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.91276044" endTime="0.91276044" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runstart/corrupted_runstart_left90.caf">
+  <event name="sound" time="0.10611979" endTime="0.10611979" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41601563" endTime="0.41601563" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65075117" endTime="0.67382813" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89126599" endTime="0.91145831" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runstart/corrupted_runstart_right.caf">
+  <event name="sound" time="0.25585938" endTime="0.25585938" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33854166" endTime="0.33854166" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63932288" endTime="0.63932288" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90546876" endTime="0.91796875" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runstart/corrupted_runstart_right180.caf">
+  <event name="sound" time="0.071614586" endTime="0.071614586" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13124999" endTime="0.13124999" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63085938" endTime="0.63085938" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90433693" endTime="0.90433693" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runstart/corrupted_runstart_right90.caf">
+  <event name="sound" time="0.097005211" endTime="0.097005211" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31315103" endTime="0.31315103" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60825324" endTime="0.61979169" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.92317706" endTime="0.92317706" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/painful/corrupted_painful_a.caf">
+  <event name="sound" time="0.0071614585" endTime="0.0071614585" parameter="Play_NPC_Human_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15721154" endTime="0.15721154" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49471155" endTime="0.49471155" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59182698" endTime="0.59182698" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/painful/corrupted_painful_b.caf">
+  <event name="sound" time="0.021484375" endTime="0.021484375" parameter="Play_NPC_Human_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14169069" endTime="0.14169069" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20028819" endTime="0.20028819" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21085495" endTime="0.21085495" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29442844" endTime="0.29442844" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37031701" endTime="0.37031701" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44140249" endTime="0.44140249" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57012486" endTime="0.57012486" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68924111" endTime="0.68924111" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/painful/corrupted_painful_c.caf">
+  <event name="sound" time="0.024739584" endTime="0.024739584" parameter="Play_NPC_Human_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.10240385" endTime="0.10240385" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22163461" endTime="0.22163461" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35913461" endTime="0.35913461" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41009617" endTime="0.41009617" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47932693" endTime="0.47932693" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61778843" endTime="0.61778843" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77932692" endTime="0.77932692" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/painful/corrupted_painful_d.caf">
+  <event name="sound" time="0.03125" endTime="0.03125" parameter="Play_NPC_Human_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2057393" endTime="0.2057393" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.239786" endTime="0.239786" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33706224" endTime="0.33706224" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46254867" endTime="0.46254867" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65515566" endTime="0.65515566" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walk/corrupted_walk_forward.caf">
+  <event name="sound" time="0.18256108" endTime="0.18256108" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39349294" endTime="0.39349294" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6982826" endTime="0.6982826" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75746369" endTime="0.75746369" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_corrupted_movestrafeturn.bspace">
+  <event name="sound" time="0.1493987" endTime="0.1493987" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17740877" endTime="0.45144358" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.18060958" endTime="0.59317583" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.67139208" endTime="0.67139208" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/aiming_walkstart/combat_aiming_walkstart_left180_pistol.caf">
+  <event name="segment1" time="0.61056799" endTime="0.84324086" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/aiming_walkstart/combat_aiming_walkstart_right_pistol.caf">
+  <event name="segment1" time="0.33321732" endTime="0.33321732" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.77618098" endTime="0.77618098" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/aiming_walkstart/combat_aiming_walkstart_right90_pistol.caf">
+  <event name="segment1" time="0.28523606" endTime="0.28523606" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.78322631" endTime="0.78322631" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/aiming_walkstart/combat_aiming_walkstart_right180_pistol.caf">
+  <event name="segment1" time="0.26155877" endTime="0.26155877" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.80030024" endTime="0.80030024" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/aiming_walkstart/combat_aiming_walkstart_left_pistol.caf">
+  <event name="segment1" time="0.46763605" endTime="0.82474679" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/aiming_walkstart/combat_aiming_walkstart_left90_pistol.caf">
+  <event name="segment1" time="0.58638" endTime="0.84368122" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/walkstart/combat_walkstart_right90_pistol.caf">
+  <event name="segment1" time="0.3263492" endTime="0.3263492" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.78857142" endTime="0.78857142" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/walkstart/combat_walkstart_right180_pistol.caf">
+  <event name="segment1" time="0.41333336" endTime="0.41333336" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.82666665" endTime="0.82666665" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/walkstart/combat_walkstart_left_pistol.caf">
+  <event name="segment1" time="0.44063494" endTime="0.44063494" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/walkstart/combat_walkstart_left90_pistol.caf">
+  <event name="segment1" time="0.53777778" endTime="0.53777778" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/walkstart/combat_walkstart_left180_pistol.caf">
+  <event name="segment1" time="0.58666664" endTime="0.58666664" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/walkstart/combat_walkstart_right_pistol.caf">
+  <event name="segment1" time="0.37650794" endTime="0.37650794" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.77079368" endTime="0.77079368" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/runstart/combat_runstart_right_pistol.caf">
+  <event name="segment1" time="0.46285716" endTime="0.46285716" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.81134993" endTime="0.81460315" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/runstart/combat_runstart_right90_pistol.caf">
+  <event name="segment1" time="0.35935903" endTime="0.37887833" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.83171457" endTime="0.83301586" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/runstart/combat_runstart_right180_pistol.caf">
+  <event name="segment1" time="0.41714287" endTime="0.41714287" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.81587303" endTime="0.81587303" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/runstart/combat_runstart_left_pistol.caf">
+  <event name="segment1" time="0.56439728" endTime="0.56634921" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/runstart/combat_runstart_left90_pistol.caf">
+  <event name="segment1" time="0.58839846" endTime="0.59555554" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/runstart/combat_runstart_left180_pistol.caf">
+  <event name="segment1" time="0.6054762" endTime="0.60825396" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60825396" endTime="0.60825396" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/walkstop/combat_walkstop_rightfootup_pistol.caf">
+  <event name="animexit" time="0.73904765" endTime="0.76190478" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/walkstop/combat_walkstop_leftfootup_pistol.caf">
+  <event name="animexit" time="0.69206351" endTime="0.84380955" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/runstop/combat_runstop_leftfootup_pistol.caf">
+  <event name="animexit" time="0.84986836" endTime="0.97396827" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/runstop/combat_runstop_rightfootup_pistol.caf">
+  <event name="animexit" time="0.85397661" endTime="0.97336113" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/aiming_walkstop/combat_aiming_walkstop_rightfootup_pistol.caf">
+  <event name="animexit" time="0.83364958" endTime="0.83364958" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/aiming_walkstop/combat_aiming_walkstop_leftfootup_pistol.caf">
+  <event name="animexit" time="0.8526755" endTime="0.8526755" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargestart/corrupted_chargestart_left.caf">
+  <event name="sound" time="0.0052884617" endTime="0.0052884617" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2235577" endTime="0.2235577" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53509617" endTime="0.53509617" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57740384" endTime="0.57740384" parameter="Trigger_Corrupted_Human" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64663464" endTime="0.64663464" parameter="Play_NPC_Corrupted_Charge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69855767" endTime="0.69855767" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.73561037" endTime="0.73561037" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80144233" endTime="0.80144233" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9341346" endTime="0.9341346" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargestart/corrupted_chargestart_front.caf">
+  <event name="sound" time="0.012980769" endTime="0.012980769" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.07163462" endTime="0.07163462" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49375001" endTime="0.49375001" parameter="Play_NPC_Corrupted_Charge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52548075" endTime="0.52548075" parameter="Trigger_Corrupted_Human" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56971157" endTime="0.56971157" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61914063" endTime="0.61914063" parameter="Trigger_Corrupted_Human" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68605769" endTime="0.68605769" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8091346" endTime="0.8091346" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.85958254" endTime="0.85958254" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.95048076" endTime="0.95048076" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargestart/corrupted_chargestart_right.caf">
+  <event name="sound" time="0.0091346158" endTime="0.0091346158" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.095673077" endTime="0.095673077" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17067307" endTime="0.17067307" parameter="Trigger_Corrupted_Human" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51009613" endTime="0.51009613" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60624999" endTime="0.60624999" parameter="Play_NPC_Corrupted_Charge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64192706" endTime="0.64192706" parameter="Trigger_Corrupted_Human" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75432694" endTime="0.75432694" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.86274511" endTime="0.86274511" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8889423" endTime="0.8889423" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargestart/corrupted_chargestart_back.caf">
+  <event name="sound" time="0.038942307" endTime="0.038942307" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11845387" endTime="0.11845387" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3661679" endTime="0.3661679" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39951923" endTime="0.39951923" parameter="Trigger_Corrupted_Human" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48509616" endTime="0.48509616" parameter="Play_NPC_Corrupted_Charge" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51105767" endTime="0.51105767" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57836539" endTime="0.57836539" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.61227071" endTime="0.61227071" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68317306" endTime="0.68317306" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70625001" endTime="0.70625001" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76875001" endTime="0.76875001" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.86009616" endTime="0.86009616" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.95336539" endTime="0.95336539" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walk/corrupted_walk_backward.caf">
+  <event name="sound" time="0.019711539" endTime="0.019711539" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.050637659" endTime="0.050637659" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.055888973" endTime="0.055888973" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17891973" endTime="0.17891973" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31620404" endTime="0.31620404" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43773443" endTime="0.43773443" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47548077" endTime="0.47548077" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56226557" endTime="0.56226557" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69429857" endTime="0.69429857" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81132782" endTime="0.81132782" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.95386344" endTime="0.95386344" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walk/corrupted_walk_backwardleft.caf">
+  <event name="sound" time="0.064141035" endTime="0.064141035" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.076144032" endTime="0.076144032" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.17966992" endTime="0.17966992" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30420104" endTime="0.30420104" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42648163" endTime="0.42648163" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55626404" endTime="0.55626404" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.59375" endTime="0.59375" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67929482" endTime="0.67929482" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80832708" endTime="0.80832708" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.93210804" endTime="0.93210804" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walk/corrupted_walk_backwardright.caf">
+  <event name="sound" time="0.052138034" endTime="0.052138034" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11298077" endTime="0.11298077" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18717179" endTime="0.18717179" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21042761" endTime="0.21042761" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.30345085" endTime="0.30345085" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46099025" endTime="0.46099025" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55776447" endTime="0.55776447" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6216346" endTime="0.6216346" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71455365" endTime="0.71455365" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81882972" endTime="0.81882972" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.96286571" endTime="0.96286571" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/blinded/corrupted_blinded_in.caf">
+  <event name="sound" time="0.13424772" endTime="0.13424772" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/blinded/corrupted_blinded_loop_a.caf">
+  <event name="sound" time="0.19144519" endTime="0.19144519" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51121265" endTime="0.51121265" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8351329" endTime="0.8351329" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/blinded/corrupted_blinded_out.caf">
+  <event name="sound" time="0.15004155" endTime="0.15004155" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79758936" endTime="0.79758936" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargeturn/corrupted_chargeturn_left.caf">
+  <event name="sound" time="0.0072115385" endTime="0.0072115385" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.041826922" endTime="0.041826922" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12259615" endTime="0.12259615" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25240386" endTime="0.25240386" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31971154" endTime="0.31971154" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42740384" endTime="0.42740384" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56201923" endTime="0.56201923" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71971154" endTime="0.71971154" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79471153" endTime="0.79471153" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.88317311" endTime="0.88317311" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargeturn/corrupted_chargeturn_right.caf">
+  <event name="sound" time="0.012980769" endTime="0.012980769" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.044711538" endTime="0.044711538" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11586539" endTime="0.11586539" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28131834" endTime="0.28605768" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32067308" endTime="0.32067308" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42163461" endTime="0.42163461" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56298077" endTime="0.56298077" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58509618" endTime="0.58509618" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73509616" endTime="0.73509616" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90240383" endTime="0.90240383" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/death/corrupted_death_back_a.caf">
+  <event name="sound" time="0.04951923" endTime="0.04951923" parameter="Stop_NPC_HumanPossessed_Exist_LP" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14471154" endTime="0.14471154" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/death/corrupted_death_front_a.caf">
+  <event name="sound" time="0.022596154" endTime="0.022596154" parameter="Stop_NPC_HumanPossessed_Exist_LP" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23701924" endTime="0.23701924" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/death/corrupted_death_left_a.caf">
+  <event name="sound" time="0.026442308" endTime="0.026442308" parameter="Stop_NPC_HumanPossessed_Exist_LP" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34855768" endTime="0.34855768" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/death/corrupted_death_right_a.caf">
+  <event name="sound" time="0.017788462" endTime="0.017788462" parameter="Stop_NPC_HumanPossessed_Exist_LP" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38221154" endTime="0.38221154" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_back_in.caf">
+  <event name="sound" time="0.026442308" endTime="0.026442308" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.059134614" endTime="0.059134614" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19663462" endTime="0.19663462" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5591346" endTime="0.5591346" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_back_out.caf">
+  <event name="sound" time="0.0072115385" endTime="0.0072115385" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15913461" endTime="0.15913461" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.18125001" endTime="0.18125001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39182693" endTime="0.39182693" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61874998" endTime="0.61874998" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_front_in.caf">
+  <event name="sound" time="0.036057692" endTime="0.036057692" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15817308" endTime="0.15817308" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18509614" endTime="0.18509614" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46682692" endTime="0.46682692" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47740385" endTime="0.47740385" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_front_out.caf">
+  <event name="sound" time="0.046634614" endTime="0.046634614" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16394231" endTime="0.16394231" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.18798077" endTime="0.18798077" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3889423" endTime="0.3889423" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6043269" endTime="0.6043269" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_left.caf">
+  <event name="sound" time="0.17259616" endTime="0.17259616" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4860577" endTime="0.4860577" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_left_in.caf">
+  <event name="sound" time="0.069711536" endTime="0.069711536" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6283654" endTime="0.6283654" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71778846" endTime="0.71778846" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_left_out.caf">
+  <event name="sound" time="0.025480768" endTime="0.025480768" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.21298076" endTime="0.21298076" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31490386" endTime="0.31490386" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42932692" endTime="0.42932692" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66105771" endTime="0.66105771" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_right_in.caf">
+  <event name="sound" time="0.044711538" endTime="0.044711538" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15817307" endTime="0.15817307" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42836538" endTime="0.42836538" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/forceresist/corrupted_forceresist_right_out.caf">
+  <event name="sound" time="0.029326923" endTime="0.029326923" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.077403843" endTime="0.077403843" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15817308" endTime="0.15817308" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.18413462" endTime="0.18413462" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29374999" endTime="0.29374999" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3889423" endTime="0.3889423" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58894229" endTime="0.58894229" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.85913461" endTime="0.85913461" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/death/corrupted_death_explode.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.043749999" endTime="0.043749999" parameter="Stop_NPC_HumanPossessed_Exist_LP" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/getcorrupted/corrupted_getcorrupted.caf">
+  <event name="sound" time="0.019711539" endTime="0.019711539" parameter="Play_NPC_Corrupted_Detect_Start" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.033173077" endTime="0.033173077" parameter="Play_NPC_HumanPossessed_Exist_LP" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.075480767" endTime="0.075480767" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14951923" endTime="0.14951923" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25432691" endTime="0.25432691" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37548077" endTime="0.37548077" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41201922" endTime="0.41201922" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52355766" endTime="0.52355766" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53990382" endTime="0.53990382" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6908654" endTime="0.6908654" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89375001" endTime="0.91778845" parameter="Stop_NPC_HumanPossessed_Exist_LP" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/grabplayer/corrupted_grabplayer.caf">
+  <event name="sound" time="0.0081730774" endTime="0.0081730774" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12836538" endTime="0.12836538" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36875001" endTime="0.36875001" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_bighit_torso_back_a_in.caf">
+  <event name="sound" time="0.018749997" endTime="0.018749997" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.058173075" endTime="0.058173075" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23990384" endTime="0.23990384" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36586538" endTime="0.36586538" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41586539" endTime="0.41586539" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80144233" endTime="0.80144233" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_bighit_torso_back_a_out.caf">
+  <event name="sound" time="0.089903846" endTime="0.089903846" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37067309" endTime="0.37067309" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43798077" endTime="0.43798077" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56778848" endTime="0.56778848" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7360577" endTime="0.7360577" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_bighit_torso_front_a_in.caf">
+  <event name="sound" time="0.080288462" endTime="0.080288462" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.14278845" endTime="0.14278845" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23894231" endTime="0.23894231" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3610577" endTime="0.3610577" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38798076" endTime="0.38798076" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61009616" endTime="0.61009616" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_bighit_torso_front_a_out.caf">
+  <event name="sound" time="0.047596153" endTime="0.047596153" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14182693" endTime="0.14182693" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22836539" endTime="0.22836539" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24278846" endTime="0.24278846" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35048077" endTime="0.35048077" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42836538" endTime="0.42836538" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54759616" endTime="0.54759616" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_back_a.caf">
+  <event name="sound" time="0.017788462" endTime="0.017788462" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.14855769" endTime="0.14855769" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.16744496" endTime="0.16744496" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32067308" endTime="0.32067308" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.32555038" endTime="0.32555038" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.49499667" endTime="0.49499667" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_back_lr_a.caf">
+  <event name="sound" time="0.026442308" endTime="0.026442308" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.15336539" endTime="0.15336539" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1735577" endTime="0.1735577" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5139423" endTime="0.5139423" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.51567715" endTime="0.51567715" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_back_rl_a.caf">
+  <event name="sound" time="0.027403846" endTime="0.027403846" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.18125001" endTime="0.18125001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19086538" endTime="0.19086538" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42740384" endTime="0.42740384" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_front_a.caf">
+  <event name="sound" time="0.077403843" endTime="0.077403843" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.13605769" endTime="0.13605769" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2639423" endTime="0.2639423" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48990384" endTime="0.48990384" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_front_lr_a.caf">
+  <event name="sound" time="0.048557691" endTime="0.048557691" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.20013343" endTime="0.20013343" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20625" endTime="0.20625" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.44563043" endTime="0.44563043" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44663462" endTime="0.44663462" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_front_rl_a.caf">
+  <event name="sound" time="0.04951923" endTime="0.04951923" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.1139423" endTime="0.1139423" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28125" endTime="0.28125" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51682693" endTime="0.51682693" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_left_a.caf">
+  <event name="sound" time="0.048557691" endTime="0.048557691" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.12644231" endTime="0.12644231" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24375001" endTime="0.24375001" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44567308" endTime="0.44567308" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_left_lr_a.caf">
+  <event name="sound" time="0.060096152" endTime="0.060096152" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24855769" endTime="0.24855769" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38798076" endTime="0.38798076" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_left_rl_a.caf">
+  <event name="sound" time="0.039903846" endTime="0.039903846" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.26298076" endTime="0.26298076" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42836538" endTime="0.42836538" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68894231" endTime="0.68894231" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_right_a.caf">
+  <event name="sound" time="0.057211537" endTime="0.057211537" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.12740384" endTime="0.12740384" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24471153" endTime="0.24471153" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53798079" endTime="0.53798079" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_right_lr_a.caf">
+  <event name="sound" time="0.022596154" endTime="0.022596154" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.093750007" endTime="0.093750007" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28894231" endTime="0.28894231" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.41298079" endTime="0.41298079" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hit/corrupted_mediumhit_torso_right_rl_a.caf">
+  <event name="sound" time="0.077403843" endTime="0.077403843" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.28701922" endTime="0.28701922" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31298077" endTime="0.31298077" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40913463" endTime="0.40913463" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/hypnotized/corrupted_hypnotized_in.caf">
+  <event name="sound" time="0.027403846" endTime="0.027403846" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/idle/corrupted_idle_a.caf">
+  <event name="sound" time="0.013132296" endTime="0.013132296" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.081225678" endTime="0.081225678" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19406614" endTime="0.19406614" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28647861" endTime="0.28647861" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38667315" endTime="0.38667315" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58803505" endTime="0.58803505" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65710115" endTime="0.65710115" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81079769" endTime="0.81079769" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.84746587" endTime="0.84746587" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/idle/corrupted_idle_b.caf">
+  <event name="sound" time="0.0072957198" endTime="0.0072957198" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.10068093" endTime="0.10068093" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20671207" endTime="0.20671207" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37110895" endTime="0.37110895" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58900779" endTime="0.58900779" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77869648" endTime="0.77869648" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80009729" endTime="0.80009729" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/idle/corrupted_idle_c.caf">
+  <event name="sound" time="0.0081730774" endTime="0.0081730774" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.098557696" endTime="0.098557696" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23028846" endTime="0.23028846" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45240384" endTime="0.45240384" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52548075" endTime="0.52548075" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/idle/corrupted_idle_d.caf">
+  <event name="sound" time="0.026416907" endTime="0.026416907" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22622478" endTime="0.22622478" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38280499" endTime="0.38280499" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/idle/corrupted_idle_e.caf">
+  <event name="sound" time="0.033141211" endTime="0.033141211" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46926033" endTime="0.46926033" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/land/corrupted_land_bump.caf">
+  <event name="sound" time="0.05528846" endTime="0.05528846" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/land/corrupted_land_stumble.caf">
+  <event name="sound" time="0.013942307" endTime="0.013942307" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.023557693" endTime="0.023557693" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.04951923" endTime="0.04951923" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/mindjack/corrupted_mindjack_in_empty.caf">
+  <event name="sound" time="0.017788462" endTime="0.017788462" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1610577" endTime="0.1610577" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24471153" endTime="0.24471153" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52451921" endTime="0.52451921" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53701925" endTime="0.53701925" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69471157" endTime="0.69471157" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/mindjack/corrupted_mindjack_out_empty.caf">
+  <event name="sound" time="0.070673078" endTime="0.070673078" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71490383" endTime="0.71490383" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/painful/corrupted_painful_e.caf">
+  <event name="sound" time="0.012980769" endTime="0.012980769" parameter="Play_NPC_Human_Pain" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13701923" endTime="0.13701923" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31778845" endTime="0.31778845" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35336539" endTime="0.35336539" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47067308" endTime="0.47067308" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74855769" endTime="0.74855769" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/run/corrupted_run_forward.caf">
+  <event name="sound" time="0.015865386" endTime="0.015865386" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.046634614" endTime="0.046634614" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.11105769" endTime="0.11105769" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.18125001" endTime="0.18125001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.2610577" endTime="0.2610577" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.33317307" endTime="0.33317307" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34855768" endTime="0.34855768" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.40144232" endTime="0.40144232" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.47259617" endTime="0.47259617" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.5485577" endTime="0.5485577" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.61682695" endTime="0.61682695" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.68894231" endTime="0.68894231" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70625001" endTime="0.70625001" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75817305" endTime="0.75817305" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.83125001" endTime="0.83125001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.89759618" endTime="0.89759618" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.96971154" endTime="0.96971154" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runtowalk/corrupted_runtowalk_forward.caf">
+  <event name="sound" time="0.015865386" endTime="0.015865386" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.15432692" endTime="0.15432692" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.41201922" endTime="0.41201922" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70528847" endTime="0.70528847" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runturn/corrupted_runturn_left.caf">
+  <event name="sound" time="0.011057693" endTime="0.011057693" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.046634614" endTime="0.046634614" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11875" endTime="0.11875" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18990384" endTime="0.18990384" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2610577" endTime="0.2610577" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27451923" endTime="0.27451923" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32932693" endTime="0.32932693" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40144232" endTime="0.40144232" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47836539" endTime="0.47836539" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55048078" endTime="0.55048078" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61971152" endTime="0.61971152" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68990386" endTime="0.68990386" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.76009613" endTime="0.76009613" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83221155" endTime="0.83221155" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89759618" endTime="0.89759618" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.96971154" endTime="0.96971154" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/runturn/corrupted_runturn_right.caf">
+  <event name="sound" time="0.015865386" endTime="0.015865386" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.048557691" endTime="0.048557691" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11778846" endTime="0.11778846" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18317309" endTime="0.18317309" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2610577" endTime="0.2610577" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3331731" endTime="0.3331731" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40240383" endTime="0.40240383" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42259616" endTime="0.42259616" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47548077" endTime="0.47548077" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5485577" endTime="0.5485577" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61394233" endTime="0.61394233" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68990386" endTime="0.68990386" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75817305" endTime="0.75817305" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83413464" endTime="0.83413464" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.84951925" endTime="0.84951925" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.90336537" endTime="0.90336537" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.97355771" endTime="0.97355771" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/steprot/corrupted_steprot_left.caf">
+  <event name="sound" time="0.31490386" endTime="0.31490386" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/steprot/corrupted_steprot_left180.caf">
+  <event name="sound" time="0.1514423" endTime="0.1514423" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69375002" endTime="0.69375002" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/steprot/corrupted_steprot_left90.caf">
+  <event name="sound" time="0.38028845" endTime="0.38028845" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69663459" endTime="0.69663459" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/steprot/corrupted_steprot_right.caf">
+  <event name="sound" time="0.61298078" endTime="0.61298078" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/steprot/corrupted_steprot_right180.caf">
+  <event name="sound" time="0.18990384" endTime="0.18990384" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60913461" endTime="0.60913461" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/steprot/corrupted_steprot_right90.caf">
+  <event name="sound" time="0.37355769" endTime="0.37355769" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74374998" endTime="0.74374998" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/stunned/corrupted_stunned_in.caf">
+  <event name="sound" time="0.077403843" endTime="0.077403843" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/stunned/corrupted_stunned_out.caf">
+  <event name="sound" time="0.039903846" endTime="0.039903846" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/stunned/corrupted_stunned_out_ragdoll.caf">
+  <event name="sound" time="0.041826922" endTime="0.041826922" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walk/corrupted_walk_forwardleft.caf">
+  <event name="sound" time="0.0052884617" endTime="0.0052884617" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.07355769" endTime="0.07355769" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19086538" endTime="0.19086538" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31778845" endTime="0.31778845" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44374999" endTime="0.44374999" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56875002" endTime="0.56875002" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5831731" endTime="0.5831731" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.7014423" endTime="0.7014423" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81394231" endTime="0.81394231" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.94855767" endTime="0.94855767" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walk/corrupted_walk_forwardright.caf">
+  <event name="sound" time="0.0052884617" endTime="0.0052884617" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.069711536" endTime="0.069711536" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19567308" endTime="0.19567308" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3235577" endTime="0.3235577" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.45432693" endTime="0.45432693" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57451922" endTime="0.57451922" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63413459" endTime="0.63413459" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69855767" endTime="0.69855767" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.82355767" endTime="0.82355767" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9408654" endTime="0.9408654" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walk/corrupted_walk_left.caf">
+  <event name="sound" time="0.012019231" endTime="0.012019231" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.072596155" endTime="0.072596155" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19567308" endTime="0.19567308" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.32259616" endTime="0.32259616" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4514423" endTime="0.4514423" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.50144231" endTime="0.50144231" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56682694" endTime="0.56682694" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69663459" endTime="0.69663459" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81394231" endTime="0.81394231" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.94375002" endTime="0.94375002" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walk/corrupted_walk_right.caf">
+  <event name="sound" time="0.0091346158" endTime="0.0091346158" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.058173075" endTime="0.058173075" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20048077" endTime="0.20048077" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31682691" endTime="0.31682691" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44759616" endTime="0.44759616" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57451922" endTime="0.57451922" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62740386" endTime="0.62740386" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70048076" endTime="0.70048076" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81778848" endTime="0.81778848" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.94759613" endTime="0.94759613" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkstart/corrupted_walkstart_left.caf">
+  <event name="sound" time="0.013942308" endTime="0.013942308" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24278846" endTime="0.24278846" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.40968347" endTime="0.93730605" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55721152" endTime="0.55721152" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8543269" endTime="0.8543269" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkstart/corrupted_walkstart_left180.caf">
+  <event name="sound" time="0.21490385" endTime="0.21490385" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.57107383" endTime="0.93668526" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60144234" endTime="0.60144234" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8716346" endTime="0.8716346" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkstart/corrupted_walkstart_left90.caf">
+  <event name="sound" time="0.11778846" endTime="0.11778846" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33509615" endTime="0.33509615" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.56300437" endTime="0.93668532" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60817307" endTime="0.60817307" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.86778843" endTime="0.86778843" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkstart/corrupted_walkstart_right.caf">
+  <event name="sound" time="0.21875" endTime="0.21875" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.26008692" endTime="0.42085662" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54663461" endTime="0.54663461" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.81129736" endTime="0.81129736" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.84855771" endTime="0.84855771" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkstart/corrupted_walkstart_right180.caf">
+  <event name="sound" time="0.13701923" endTime="0.13701923" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34567308" endTime="0.34567308" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.3463687" endTime="0.61452514" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60913461" endTime="0.60913461" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.72687769" endTime="0.72687769" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.85721153" endTime="0.85721153" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkstart/corrupted_walkstart_right90.caf">
+  <event name="sound" time="0.16778846" endTime="0.16778846" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.29298574" endTime="0.65114838" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35336539" endTime="0.35336539" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61201924" endTime="0.61201924" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.74425822" endTime="0.74425822" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87259614" endTime="0.87259614" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkstop/corrupted_walkstop_leftfootup.caf">
+  <event name="sound" time="0.18509616" endTime="0.18509616" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52163464" endTime="0.52163464" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkstop/corrupted_walkstop_rightfootup.caf">
+  <event name="sound" time="0.18112364" endTime="0.27451923" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46430954" endTime="0.46430954" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkturn/corrupted_walkturn_left.caf">
+  <event name="sound" time="0.019711539" endTime="0.019711539" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.077403843" endTime="0.077403843" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53221154" endTime="0.53221154" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58798075" endTime="0.58798075" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkturn/corrupted_walkturn_right.caf">
+  <event name="sound" time="0.012980769" endTime="0.012980769" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.069711536" endTime="0.069711536" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.31971154" endTime="0.31971154" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57355767" endTime="0.57355767" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.82163459" endTime="0.82163459" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/ragdoll/corrupted_ragdoll_recovery_back.caf">
+  <event name="sound" time="0.034134615" endTime="0.034134615" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.13701923" endTime="0.13701923" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47355768" endTime="0.47355768" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69855767" endTime="0.69855767" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/ragdoll/corrupted_ragdoll_recovery_front.caf">
+  <event name="sound" time="0.019711539" endTime="0.019711539" parameter="Play_NPC_HumanPosessed_OneShots" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2360577" endTime="0.2360577" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31778845" endTime="0.31778845" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44278845" endTime="0.44278845" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.60048079" endTime="0.60048079" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/1d-bspace_corrupted_moveturn.bspace">
+  <event name="footstep" time="0.1394719" endTime="0.1394719" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.66553825" endTime="0.66553825" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_corrupted_charge.bspace">
+  <event name="footstep" time="0.12119" endTime="0.12119" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.31076506" endTime="0.31076506" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.43060258" endTime="0.43060258" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57481384" endTime="0.57481384" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.72444141" endTime="0.72444141" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88354772" endTime="0.88354772" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_corrupted_movestop_walk.bspace">
+  <event name="footstep" time="0.14150305" endTime="0.14150305" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62220716" endTime="0.62220716" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/arboretum/sq04/arboretum_sq04_dahlexecutesalex_dahl.caf">
+  <event name="sound" time="0.096166782" endTime="0.096166782" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.11903161" endTime="0.11903161" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.18762609" endTime="0.18762609" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21788837" endTime="0.21788837" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25420308" endTime="0.25420308" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28984532" endTime="0.28984532" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31943509" endTime="0.31943509" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35776731" endTime="0.35776731" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.39542705" endTime="0.39542705" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42568931" endTime="0.42568931" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.46334901" endTime="0.46334901" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5077337" endTime="0.5077337" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.52051109" endTime="0.52051109" parameter="Play_Evnt_Arboretum_Alex_Foley" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83792871" endTime="0.83792871" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.89307332" endTime="0.89307332" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/arboretum/sq04/arboretum_sq04_dahlposthack_dahl.caf">
+  <event name="sound" time="0.28446537" endTime="0.28446537" parameter="Play_Evnt_Arboretum_Alex_Foley" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.466039" endTime="0.466039" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.53463352" endTime="0.53463352" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57229322" endTime="0.57229322" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.63012779" endTime="0.63012779" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67989242" endTime="0.67989242" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73705447" endTime="0.73705447" parameter="Play_Evnt_Arboretum_Alex_Foley" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8130464" endTime="0.8130464" parameter="Play_Evnt_Arboretum_Dahl_Death_Footsteps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/simulationlabs/sq11/simulationlabs_sq11_mimicattack_securityguard.caf">
+  <event name="effect" time="0.77257389" endTime="0.77257389" parameter="Characters.Humans.Cinematic.Weapon.ShotgunMuzzleBlast_00" bone="r_handProp_jnt" offset="-3.5762787e-007,0.61539,0.069119997" dir="0,0,0" model=""/>
+  <event name="effect" time="0.79080307" endTime="0.79080307" parameter="Characters.Humans.Cinematic.Weapon.ShotgunMuzzleBlast_00" bone="r_handProp_jnt" offset="0,0.61539,0.069119997" dir="0,0,0" model=""/>
+  <event name="effect" time="0.81684476" endTime="0.81684476" parameter="Characters.Humans.Cinematic.Weapon.ShotgunMuzzleBlast_00" bone="r_handProp_jnt" offset="0,0.61539,0.069119997" dir="0,0,0" model=""/>
+  <event name="effect" time="0.91000003" endTime="0.91000003" parameter="Characters.Humans.Cinematic.Weapon.ShotgunMuzzleBlast_00" bone="r_handProp_jnt" offset="0,0.61539,0.069119997" dir="0,0,0" model=""/>
+  <event name="effect" time="0.93000001" endTime="0.93000001" parameter="Characters.Humans.Cinematic.Weapon.ShotgunMuzzleBlast_00" bone="r_handProp_jnt" offset="0,0.61539,0.069119997" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_corrupted_movestart.comb">
+  <event name="footstep" time="0.22148098" endTime="0.22148098" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.53835893" endTime="0.53835893" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargedown/corrupted_chargedown.caf">
+  <event name="sound" time="0.10473649" endTime="0.10473649" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.28819212" endTime="0.28819212" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40026686" endTime="0.40026686" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.58305538" endTime="0.58305538" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72381586" endTime="0.72381586" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.92728484" endTime="0.92728484" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargeup/corrupted_chargeup.caf">
+  <event name="footstep" time="0.19079386" endTime="0.19079386" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.35957304" endTime="0.35957304" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.49566376" endTime="0.49566376" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63442296" endTime="0.63442296" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.76917946" endTime="0.76917946" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.98465645" endTime="0.98465645" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkup/corrupted_walkup.caf">
+  <event name="footstep" time="0.11407605" endTime="0.11407605" parameter="Play_NPC_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.58572382" endTime="0.58572382" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/arboretum/sq01/arboretum_sq01_getcorrupted_genmale.caf">
+  <event name="sound" time="0.030687116" endTime="0.030687116" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.080720477" endTime="0.080720477" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19946632" endTime="0.19946632" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.21480988" endTime="0.21480988" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.22148098" endTime="0.22148098" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.26350901" endTime="0.26350901" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.37024683" endTime="0.37024683" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.38492328" endTime="0.38492328" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49566376" endTime="0.49566376" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.54569715" endTime="0.54569715" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.57905269" endTime="0.57905269" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.58772516" endTime="0.58772516" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71180785" endTime="0.71180785" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.79252833" endTime="0.79252833" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.9239493" endTime="0.9239493" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.97198135" endTime="0.97198135" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/chargestop/corrupted_chargetowalk.caf">
+  <event name="sound" time="0.14405344" endTime="0.2857143" parameter="Play_NPC_Steps" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29852459" endTime="0.35714287" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40476191" endTime="0.40476191" parameter="Play_NPC_Steps" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.47619048" endTime="0.47619048" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.64285713" endTime="0.64285713" parameter="Play_NPC_Steps" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.71428573" endTime="0.71428573" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.97619051" endTime="0.97619051" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="1" endTime="1" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/corrupted/walkdown/corrupted_walkdown.caf">
+  <event name="sound" time="0.33333334" endTime="0.33333334" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="foley" time="0.42424244" endTime="0.42424244" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72727275" endTime="0.72727275" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="foley" time="0.81818187" endTime="0.81818187" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_corrupted_moveturnslope.bspace">
+  <event name="footstep" time="0.18981159" endTime="0.18981159" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.19818562" endTime="0.19818562" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.66154921" endTime="0.66154921" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6671319" endTime="0.6671319" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_corrupted_chargeturnslope.bspace">
+  <event name="sound" time="0.018841591" endTime="0.018841591" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.037668798" endTime="0.037668798" parameter="Trigger_Corrupted_Human" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.099790648" endTime="0.099790648" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.27076066" endTime="0.27076066" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.41730636" endTime="0.41730636" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42707607" endTime="0.42707607" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.54501045" endTime="0.54501045" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70830429" endTime="0.70830429" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.87438941" endTime="0.87438941" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.88904399" endTime="0.88904399" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_relaxed_movestrafeslope_empty.bspace">
+  <event name="sound" time="0.29030007" endTime="0.29030007" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.30146545" endTime="0.30146545" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72923934" endTime="0.72923934" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.73900908" endTime="0.73900908" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/4d-bspace_combat_aiming_moveturnstrafeslope_pistol.comb">
+  <event name="footstep" time="0.21842289" endTime="0.21842289" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70830429" endTime="0.70830429" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/4d-bspace_combat_moveturnstrafeslope_pistol.comb">
+  <event name="footstep" time="0.28611305" endTime="0.28611305" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.69993019" endTime="0.69993019" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/4d-bspace_relaxed_moveturnstrafeslope_empty.comb">
+  <event name="footstep" time="0.27285415" endTime="0.27285415" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.73621774" endTime="0.73621774" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_combat_aiming_movestrafeslope_pistol.bspace">
+  <event name="footstep" time="0.27145848" endTime="0.27145848" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.69993019" endTime="0.69993019" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_combat_movestrafeslope_pistol.bspace">
+  <event name="footstep" time="0.27424982" endTime="0.27424982" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.66922539" endTime="0.66922539" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_aiming_movestart_left_pistol.bspace">
+  <event name="footstep" time="0.346127" endTime="0.346127" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63572925" endTime="0.63572925" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.9071877" endTime="0.9071877" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_aiming_movestart_right_pistol.bspace">
+  <event name="footstep" time="0.39078856" endTime="0.39078856" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.64619678" endTime="0.64619678" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.91905093" endTime="0.91905093" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_aiming_movestop_run_pistol.bspace">
+  <event name="footstep" time="0.19469644" endTime="0.19469644" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.4849965" endTime="0.4849965" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73621768" endTime="0.73621768" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_aiming_movestop_walk_pistol.bspace">
+  <event name="footstep" time="0.20725749" endTime="0.20725749" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.48220515" endTime="0.48220515" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74389392" endTime="0.74389392" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_aiming_steprot_left_pistol.bspace">
+  <event name="sound" time="0.38171667" endTime="0.38171667" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66015351" endTime="0.66015351" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_aiming_movestart_pistol.comb">
+  <event name="footstep" time="0.34403351" endTime="0.34403351" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.61060715" endTime="0.61060715" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.90090716" endTime="0.90090716" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_aiming_steprot_pistol.comb">
+  <event name="sound" time="0.30076763" endTime="0.30076763" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65387297" endTime="0.65387297" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_aiming_steprot_right_pistol.bspace">
+  <event name="sound" time="0.3042568" endTime="0.3042568" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.62526166" endTime="0.62526166" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_movestart_left_pistol.bspace">
+  <event name="footstep" time="0.37752965" endTime="0.37752965" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63154221" endTime="0.63154221" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.92393577" endTime="0.92393577" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_movestart_right_pistol.bspace">
+  <event name="footstep" time="0.43126309" endTime="0.43126309" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70062804" endTime="0.70062804" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.93161201" endTime="0.93161201" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_movestop_run_pistol.bspace">
+  <event name="footstep" time="0.22191207" endTime="0.22191207" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.44731334" endTime="0.44731334" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65526867" endTime="0.65526867" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_movestart_pistol.comb">
+  <event name="footstep" time="0.31263083" endTime="0.31263083" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62526166" endTime="0.62526166" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87299371" endTime="0.87299371" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_movestop_walk_pistol.bspace">
+  <event name="footstep" time="0.17515701" endTime="0.17515701" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.46406141" endTime="0.46406141" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67271459" endTime="0.67271459" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_steprot_left_pistol.bspace">
+  <event name="sound" time="0.26308444" endTime="0.26308444" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.66782975" endTime="0.66782975" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_steprot_right_pistol.bspace">
+  <event name="sound" time="0.20237264" endTime="0.20237264" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61758548" endTime="0.61758548" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_combat_steprot_pistol.comb">
+  <event name="sound" time="0.22400558" endTime="0.22400558" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.67620379" endTime="0.67620379" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_corrupted_movestart_left.bspace">
+  <event name="sound" time="0.29099792" endTime="0.29099792" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55408233" endTime="0.55408233" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_corrupted_movestart_right.bspace">
+  <event name="sound" time="0.28681087" endTime="0.28681087" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.6657362" endTime="0.6657362" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9106769" endTime="0.9106769" parameter="Play_NPC_Human_Foley_Worksuit_Steps" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_corrupted_steprot_left.bspace">
+  <event name="sound" time="0.18283321" endTime="0.18283321" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69295186" endTime="0.69295186" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_corrupted_steprot_right.bspace">
+  <event name="sound" time="0.20027913" endTime="0.20027913" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.61549199" endTime="0.61549199" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_corrupted_steprot.comb">
+  <event name="sound" time="0.40614095" endTime="0.40614095" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.77320307" endTime="0.77320307" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_relaxed_movestart_empty.comb">
+  <event name="footstep" time="0.4375436" endTime="0.4375436" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.67620379" endTime="0.67620379" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.90648991" endTime="0.90648991" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_relaxed_movestart_left_empty.bspace">
+  <event name="footstep" time="0.41242149" endTime="0.41242149" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.66224706" endTime="0.66224706" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.90788555" endTime="0.90788555" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_relaxed_movestart_right_empty.bspace">
+  <event name="footstep" time="0.35101187" endTime="0.35101187" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.65177947" endTime="0.65177947" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87020236" endTime="0.87020236" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_relaxed_steprot_left_empty.bspace">
+  <event name="sound" time="0.41381717" endTime="0.41381717" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72156316" endTime="0.72156316" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_relaxed_steprot_right_empty.bspace">
+  <event name="sound" time="0.25191906" endTime="0.25191906" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65457082" endTime="0.65457082" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_combat_aiming_movestrafeturn_pistol.bspace">
+  <event name="footstep" time="0.2205164" endTime="0.2205164" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.71877182" endTime="0.71877182" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_combat_movestrafeturn_pistol.bspace">
+  <event name="footstep" time="0.29239357" endTime="0.29239357" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.74249828" endTime="0.74249828" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/3d-bspace_relaxed_movestrafeturn_empty.bspace">
+  <event name="footstep" time="0.33356595" endTime="0.33356595" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.80809492" endTime="0.80809492" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/_lmg/2d-bspace_relaxed_steprot_empty.comb">
+  <event name="sound" time="0.30006978" endTime="0.30006978" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69853455" endTime="0.69853455" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/land/combat_land_bump_empty.caf">
+  <event name="sound" time="0.12281927" endTime="0.12281927" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/land/combat_land_stumble_empty.caf">
+  <event name="sound" time="0.044661555" endTime="0.044661555" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/lifted/combat_lifted_bumpceiling_empty.caf">
+  <event name="sound" time="0.20795535" endTime="0.20795535" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80390787" endTime="0.80390787" parameter="Play_NPC_Cine_Bodyfall_Thump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/lifted/combat_lifted_empty.caf">
+  <event name="sound" time="0.11584089" endTime="0.11584089" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44033498" endTime="0.44033498" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81437546" endTime="0.81437546" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/stunned/combat_stunned_empty.caf">
+  <event name="sound" time="0.039776694" endTime="0.039776694" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/stunned/combat_stunned_in_empty.caf">
+  <event name="sound" time="0.054431263" endTime="0.054431263" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/stunned/combat_stunned_out_empty.caf">
+  <event name="sound" time="0.93021631" endTime="0.93021631" parameter="Play_NPC_Cine_Bodyfall_Thump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/fear/runturn/fear_runturn_left_empty.caf">
+  <event name="footstep" time="0.11165387" endTime="0.11165387" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.22470342" endTime="0.22470342" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.34333566" endTime="0.34333566" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.45498952" endTime="0.45498952" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.59106767" endTime="0.59106767" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.7229588" endTime="0.7229588" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.83949751" endTime="0.83949751" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.96022332" endTime="0.96022332" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/fear/runturn/fear_runturn_right_empty.caf">
+  <event name="footstep" time="0.083042569" endTime="0.083042569" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.23866016" endTime="0.23866016" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.34822053" endTime="0.34822053" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.46824843" endTime="0.46824843" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57013261" endTime="0.57013261" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70481509" endTime="0.70481509" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.84159106" endTime="0.84159106" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.96301466" endTime="0.96301466" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/breakgloo/relaxed_breakgloo_a_empty.caf">
+  <event name="sound" time="0.099092811" endTime="0.099092811" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40544313" endTime="0.40544313" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42358688" endTime="0.42358688" parameter="Play_NPC_Cine_Bodyfall_Thump" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/mindjack/relaxed_mindjack_in_empty.caf">
+  <event name="sound" time="0.074668527" endTime="0.074668527" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.611305" endTime="0.611305" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/relaxed/mindjack/relaxed_mindjack_out_empty.caf">
+  <event name="sound" time="0.050942078" endTime="0.050942078" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72784358" endTime="0.72784358" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/fear/cower/fear_cower_b_empty.caf">
+  <event name="sound" time="0.087229587" endTime="0.087229587" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.70481509" endTime="0.70481509" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/fear/cower/fear_cower_c_empty.caf">
+  <event name="sound" time="0.23237963" endTime="0.23237963" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.68667132" endTime="0.68667132" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/fear/cower/fear_cower_d_empty.caf">
+  <event name="sound" time="0.16817865" endTime="0.16817865" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.43893927" endTime="0.43893927" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/fear/cower/fear_cower_e_empty.caf">
+  <event name="sound" time="0.073891632" endTime="0.073891632" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33004928" endTime="0.33004928" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49612948" endTime="0.49612948" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.69880366" endTime="0.69880366" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/breakgloo/combat_breakgloo_a_pistol.caf">
+  <event name="sound" time="0.11025821" endTime="0.11025821" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/breakgloo/combat_breakgloo_b_pistol.caf">
+  <event name="sound" time="0.15352407" endTime="0.15352407" parameter="Play_NPC_Human_Foley_Worksuit_Fast" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/lifted/combat_lifted.caf">
+  <event name="sound" time="0.1444522" endTime="0.1444522" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.48150733" endTime="0.48150733" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83182138" endTime="0.83182138" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/lifted/combat_lifted_bumpceiling.caf">
+  <event name="sound" time="0.064898811" endTime="0.064898811" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.81995815" endTime="0.81995815" parameter="Play_NPC_Damage_Impact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/lifted/combat_lifted_bumpceiling_pistol.caf">
+  <event name="sound" time="0.10188416" endTime="0.10188416" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79832518" endTime="0.79832518" parameter="Play_NPC_Damage_Impact" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/humans/genmale/combat/lifted/combat_lifted_pistol.caf">
+  <event name="sound" time="0.097697139" endTime="0.097697139" parameter="Play_NPC_Human_Foley_Worksuit_Acc_Heavy" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.51291001" endTime="0.51291001" parameter="Play_NPC_Human_Foley_Worksuit_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80879277" endTime="0.80879277" parameter="Play_NPC_Human_Foley_Worksuit_High" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/ui/ui_chracterselect_ready_malevolunteer.caf"/>
+ <animation name="animations/cutscenes/ui/ui_characterselect_readyintro_malevolunteer.caf"/>
+ <animation name="animations/cutscenes/ui/ui_characterselect_ready_malevolunteer.caf"/>
+</anim_event_list>

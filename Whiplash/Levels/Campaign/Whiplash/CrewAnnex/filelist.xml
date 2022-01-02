@@ -1,0 +1,6 @@
+<download name="crewannex" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="17998468" md5="207bb88fc8299d3a82c25363d6a191c5"/>
+ </files>
+</download>

@@ -1,0 +1,88 @@
+
+<ArkNotes>
+ <Notes>
+  <ArkNote ID="4349723564947721392" Name="Bk_CQ_TheEvacuationPart1" Subject="@loc_4349723564947721393" Content="@loc_4349723564947721394"/>
+  <ArkNote ID="418270515533359246" Name="Bk_CA_MizukiDiary" Subject="@loc_418270515533359247" Content="@loc_418270515533359248"/>
+  <ArkNote ID="4349723564947721389" Name="Bk_CQ_TheEvacuationPart2" Subject="@loc_4349723564947721390" Content="@loc_4349723564947721391"/>
+  <ArkNote ID="4349723564945769783" Name="Bk_CQ_TheEvacuationPart3" Subject="@loc_4349723564945769784" Content="@loc_4349723564945769785"/>
+  <ArkNote ID="418270515486085255" Name="Bk_CQ_FatalFortressRulebook" Subject="@loc_418270515486085256" Content="@loc_418270515486085257"/>
+  <ArkNote ID="4349723564947498604" Name="Bk_CQ_HarleyGrangerJournal" Subject="@loc_4349723564947498605" Content="@loc_4349723564947498606"/>
+  <ArkNote ID="4349723564947729775" Name="Bk_CQ_CookBook3" Subject="@loc_4349723564947729776" Content="@loc_4349723564947729777"/>
+  <ArkNote ID="4349723564945770254" Name="Bk_CQ_Interrogation" Subject="@loc_4349723564945770255" Content="@loc_4349723564945770256"/>
+  <ArkNote ID="4349723564945769432" Name="Bk_CQ_OritSacredText" Subject="@loc_4349723564945769433" Content="@loc_4349723564945769434"/>
+  <ArkNote ID="4349723564947730192" Name="Bk_PT_TyphonMimicry1" Subject="@loc_4349723564947730193" Content="@loc_4349723564947730194"/>
+  <ArkNote ID="4349723564947730189" Name="Bk_PT_TyphonMimicry2" Subject="@loc_4349723564947730190" Content="@loc_4349723564947730191"/>
+  <ArkNote ID="4349723564947730186" Name="Bk_PT_TyphonMimicry3" Subject="@loc_4349723564947730187" Content="@loc_4349723564947730188"/>
+  <ArkNote ID="6732635291224755173" Name="Bk_PT_ExoticMaterialExtractionManual" Subject="@loc_6732635291224755174" Content="@loc_6732635291224755175"/>
+  <ArkNote ID="6732635291226918090" Name="Bk_PP_RebootInitialization" Subject="@loc_6732635291226918091" Content="@loc_6732635291226918092"/>
+  <ArkNote ID="418270515485989453" Name="MAG_TimeMagazineCover" Subject="@loc_418270515485989454" Content="@loc_418270515485989455"/>
+  <ArkNote ID="418270515486086276" Name="Bk_SL_TheFly" Subject="@loc_418270515486086277" Content="@loc_418270515486086278"/>
+  <ArkNote ID="418270515486086241" Name="Bk_SL_NeuromodInstall" Subject="@loc_418270515486086242" Content="@loc_418270515486086243"/>
+  <ArkNote ID="418270515485989228" Name="Bk_SL_NoeticUniverse" Subject="@loc_418270515485989229" Content="@loc_418270515485989230"/>
+  <ArkNote ID="418270515485988845" Name="Bk_SL_FermiParadox" Subject="@loc_418270515485988846" Content="@loc_418270515485988847"/>
+  <ArkNote ID="418270515485987916" Name="Bk_SL_Apt_MidnightSongs" Subject="@loc_418270515485987917" Content="@loc_418270515485987918" ImageName="chinese_poem"/>
+  <ArkNote ID="418270515485987794" Name="Bk_SL_Apt_PrinciplesNeuroscience" Subject="@loc_418270515485987795" Content="@loc_418270515485987796"/>
+  <ArkNote ID="418270515485987736" Name="Bk_SL_Apt_Consciousness" Subject="@loc_418270515485987737" Content="@loc_418270515485987738"/>
+  <ArkNote ID="418270515485987712" Name="Bk_SL_Apt_Parapsychological" Subject="@loc_418270515485987713" Content="@loc_418270515485987714"/>
+  <ArkNote ID="418270515485987691" Name="Bk_SL_Apt_Electronics" Subject="@loc_418270515485987692" Content="@loc_418270515485987693"/>
+  <ArkNote ID="418270515485987651" Name="Bk_SL_Apt_SpeechSynthesis" Subject="@loc_418270515485987652" Content="@loc_418270515485987653"/>
+  <ArkNote ID="418270515485986445" Name="Bk_SL_Apt_ControlSystems" Subject="@loc_418270515485986446" Content="@loc_418270515485986447"/>
+  <ArkNote ID="418270515485986120" Name="Bk_SL_Apt_CookBook2" Subject="@loc_418270515485986121" Content="@loc_418270515485986122"/>
+  <ArkNote ID="418270515485985883" Name="Bk_SL_Apt_CookBook1" Subject="@loc_418270515485985884" Content="@loc_418270515485985885"/>
+  <ArkNote ID="418270515485994167" Name="Bk_TC_BehavioralIssuesInSpace" Subject="@loc_418270515485994168" Content="@loc_418270515485994169"/>
+  <ArkNote ID="4349723564947729669" Name="BK_UniformManual" Subject="@loc_4349723564947729670" Content="@loc_4349723564947729671"/>
+  <ArkNote ID="13680621263405378235" Name="BK_BonusNeuroMods" Subject="@loc_13680621263405378236" Content="@loc_13680621263405378237"/>
+  <ArkNote ID="4349723564947721840" Name="Bk_DLC_Hook1_SecretSpaceStation" Subject="@loc_4349723564947721841" Content="@loc_4349723564947721842"/>
+  <ArkNote ID="4349723564947721850" Name="Bk_DLC_Hook4_MoonBase" Subject="@loc_4349723564947721851" Content="@loc_4349723564947721852"/>
+  <ArkNote ID="4349723564947729138" Name="Mag_ArtOnTalos" Subject="@loc_4349723564947729139" Content="@loc_4349723564947729140"/>
+  <ArkNote ID="4349723564947729068" Name="Mag_RobotSports" Subject="@loc_4349723564947729069" Content="@loc_4349723564947729070"/>
+  <ArkNote ID="4349723564947499648" Name="Mag_TranStarLife" Subject="@loc_4349723564947499649" Content="@loc_4349723564947499650"/>
+  <ArkNote ID="4349723564947499645" Name="Mag_Determinist_Mars" Subject="@loc_4349723564947499646" Content="@loc_4349723564947499647"/>
+  <ArkNote ID="4349723564947499642" Name="Mag_GlobalUnityGames" Subject="@loc_4349723564947499643" Content="@loc_4349723564947499644"/>
+  <ArkNote ID="4349723564947499639" Name="Mag_RisingStars" Subject="@loc_4349723564947499640" Content="@loc_4349723564947499641"/>
+  <ArkNote ID="4349723564947499631" Name="Mag_GlobalBusiness" Subject="@loc_4349723564947499632" Content="@loc_4349723564947499633"/>
+  <ArkNote ID="844024417315995563" Name="Bk_Starbender1" Subject="@loc_844024417315995564" Content="@loc_844024417315995565"/>
+  <ArkNote ID="844024417315995656" Name="Bk_Starbender2" Subject="@loc_844024417315995657" Content="@loc_844024417315995658"/>
+  <ArkNote ID="844024417315995653" Name="Bk_Starbender3" Subject="@loc_844024417315995654" Content="@loc_844024417315995655"/>
+  <ArkNote ID="844024417315995650" Name="Bk_Starbender4" Subject="@loc_844024417315995651" Content="@loc_844024417315995652"/>
+  <ArkNote ID="844024417315995647" Name="Bk_Starbender5" Subject="@loc_844024417315995648" Content="@loc_844024417315995649"/>
+  <ArkNote ID="844024417315995947" Name="Bk_Starbender6" Subject="@loc_844024417315995948" Content="@loc_844024417315995949"/>
+  <ArkNote ID="13680621263404490903" Name="Bk_WhiteNoise" Subject="@loc_13680621263404490904" Content="@loc_13680621263404490905"/>
+  <ArkNote ID="13680621263404490196" Name="Bk_TooFarTooFast1" Subject="@loc_13680621263404490197" Content="@loc_13680621263404490198"/>
+  <ArkNote ID="13680621263404490313" Name="Bk_TooFarTooFast2" Subject="@loc_13680621263404490314" Content="@loc_13680621263404490315"/>
+  <ArkNote ID="13680621263404490685" Name="Bk_TooFarTooFast3" Subject="@loc_13680621263404490686" Content="@loc_13680621263404490687"/>
+  <ArkNote ID="13680621263404489847" Name="Bk_CellularSociety" Subject="@loc_13680621263404489848" Content="@loc_13680621263404489849"/>
+  <ArkNote ID="13680621263404489126" Name="Bk_NeuralHorizon1" Subject="@loc_13680621263404489127" Content="@loc_13680621263404489128"/>
+  <ArkNote ID="13680621263404489313" Name="Bk_NeuralHorizon2" Subject="@loc_13680621263404489314" Content="@loc_13680621263404489315"/>
+  <ArkNote ID="13680621263404489347" Name="Bk_NeuralHorizon3" Subject="@loc_13680621263404489348" Content="@loc_13680621263404489349"/>
+  <ArkNote ID="13680621263404488062" Name="Bk_SpaceRush" Subject="@loc_13680621263404488063" Content="@loc_13680621263404488064"/>
+  <ArkNote ID="13680621263405391838" Name="Bk_EmulatedEntities" PlotCritical="false" Subject="@loc_13680621263405391839" Content="@loc_13680621263405391840"/>
+  <ArkNote ID="13680621263405393883" Name="Bk_VolunteerInitiative" PlotCritical="false" Subject="@loc_13680621263405393884" Content="@loc_13680621263405393885"/>
+  <ArkNote ID="13680621263405394440" Name="Bk_SalesFolder" PlotCritical="false" Subject="@loc_13680621263405394441" Content="@loc_13680621263405394442"/>
+  <ArkNote ID="13680621263405394639" Name="Bk_Mensheviks" PlotCritical="false" Subject="@loc_13680621263405394640" Content="@loc_13680621263405394641"/>
+  <ArkNote ID="13680621263405395591" Name="Bk_NarfJournal" PlotCritical="false" Subject="@loc_13680621263405395592" Content="@loc_13680621263405395593"/>
+  <ArkNote ID="844024417316085697" Name="Bk_Vietnam" Subject="@loc_844024417316085698" Content="@loc_844024417316085699"/>
+  <ArkNote ID="844024417317220177" Name="Bk_CQ_Yoga" PlotCritical="false" Subject="@loc_844024417317220178" Content="@loc_844024417317220179"/>
+  <ArkNote ID="13680621263410469654" Name="Bk_ReyesFieldTheorem" Subject="@loc_13680621263410469655" Content="@loc_13680621263410469656"/>
+  <ArkNote ID="4349723564991785582" Name="WLMAG_SpaceElevator" PlotCritical="false" Subject="@loc_4349723564991785583" Content="@loc_4349723564991785584"/>
+  <ArkNote ID="1713490239481658705" Name="WLBK_EurasianWaterfowl" PlotCritical="false" Subject="@loc_1713490239481658706" Content="@loc_1713490239481658707"/>
+  <ArkNote ID="1713490239481659039" Name="WLBK_PieceOfParadise" PlotCritical="false" Subject="@loc_1713490239481659040" Content="@loc_1713490239481659041"/>
+  <ArkNote ID="1713490239481659187" Name="WLBK_Starbender2.1" PlotCritical="false" Subject="@loc_1713490239481659188" Content="@loc_1713490239481659189"/>
+  <ArkNote ID="1713490239481659315" Name="WLBK_Starbender2.2" PlotCritical="false" Subject="@loc_1713490239481659316" Content="@loc_1713490239481659317"/>
+  <ArkNote ID="1713490239481659550" Name="WLBK_Starbender2.3" PlotCritical="false" Subject="@loc_1713490239481659551" Content="@loc_1713490239481659552"/>
+  <ArkNote ID="1713490239481659660" Name="WLBK_Starbender2.4" PlotCritical="false" Subject="@loc_1713490239481659661" Content="@loc_1713490239481659662"/>
+  <ArkNote ID="1713490239481659748" Name="WLBK_Starbender2.5" PlotCritical="false" Subject="@loc_1713490239481659749" Content="@loc_1713490239481659750"/>
+  <ArkNote ID="1713490239481659848" Name="WLBK_Starbender2.6" PlotCritical="false" Subject="@loc_1713490239481659849" Content="@loc_1713490239481659850"/>
+  <ArkNote ID="1713490239481660060" Name="WLBK_RareBirds" PlotCritical="false" Subject="@loc_1713490239481660061" Content="@loc_1713490239481660062"/>
+  <ArkNote ID="1713490239481660253" Name="WLBK_CookingWithTranstar" PlotCritical="false" Subject="@loc_1713490239481660254" Content="@loc_1713490239481660255"/>
+  <ArkNote ID="1713490239481660368" Name="WLBK_MemoirOfLunarMiner" PlotCritical="false" Subject="@loc_1713490239481660369" Content="@loc_1713490239481660370"/>
+  <ArkNote ID="1713490239481660538" Name="WLBK_NewPharaohs" PlotCritical="false" Subject="@loc_1713490239481660539" Content="@loc_1713490239481660540"/>
+  <ArkNote ID="1713490239481660653" Name="WLBK_RaisingPytheas" PlotCritical="false" Subject="@loc_1713490239481660654" Content="@loc_1713490239481660655"/>
+  <ArkNote ID="1713490239481660851" Name="WLBK_VolunteerTestNotes" PlotCritical="false" Subject="@loc_1713490239481660852" Content="@loc_1713490239481660853"/>
+  <ArkNote ID="1713490239481660938" Name="WLBK_TyphonLunarAdaptation" PlotCritical="false" Subject="@loc_1713490239481660939" Content="@loc_1713490239481660940"/>
+  <ArkNote ID="1713490239481661024" Name="WLBK_BigBadWolf" PlotCritical="false" Subject="@loc_1713490239481661025" Content="@loc_1713490239481661026"/>
+  <ArkNote ID="1713490239481661312" Name="WLBK_EmergencyProcedures" PlotCritical="false" Subject="@loc_1713490239481661313" Content="@loc_1713490239481661314"/>
+  <ArkNote ID="1713490239481661164" Name="WLBK_TheKrane" PlotCritical="false" Subject="@loc_1713490239481661165" Content="@loc_1713490239481661166"/>
+  <ArkNote ID="13680621263446850923" Name="WLBK_Journal177" PlotCritical="false" Subject="@loc_13680621263446850924" Content="@loc_13680621263446850925"/>
+ </Notes>
+</ArkNotes>

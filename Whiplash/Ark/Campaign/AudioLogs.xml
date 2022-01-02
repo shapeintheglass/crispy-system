@@ -1,0 +1,113 @@
+
+<ArkAudioLogLibrary>
+ <AudioLogs>
+  <ArkAudioLog ID="6732635291259151805" Name="Crater_TyphonGate" Label="@loc_6732635291259151806" Conversation="13680621263436026844" From="844024417336895033">
+   <To>
+    <Recipient value="4349723564977374847"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="844024417347623929" Name="ShuttlePilotConnectomeLog" Label="@loc_844024417347623930" Conversation="13680621263436025219" From="4349723564977364537">
+   <To>
+    <Recipient value="4349723564977364534"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="761057048034423317" Name="CrateEscape" Label="@loc_761057048034423318" Conversation="13680621263438299124" From="4349723564977378322">
+   <To>
+    <Recipient value="4349723564977378313"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="6732635291261584851" Name="JoanWinslowInitial" Label="@loc_6732635291261584852" Conversation="13680621263438456921" From="844024417336894988">
+   <To>
+    <Recipient value="4349723564977375640"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="12889009725079438488" Name="UniverseOfShoes" Label="@loc_12889009725079438489" Conversation="13680621263438470162" From="4349723564977375733">
+   <To>
+    <Recipient value="4349723564977375736"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="6732635291263379700" Name="Guess what I named him" Label="@loc_6732635291263379701" Conversation="13680621263440189558" From="844024417336894988">
+   <To>
+    <Recipient value="4349723564977378325"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="6732635291263380166" Name="Turret update diary" Label="@loc_6732635291263380167" Conversation="13680621263440190004" From="844024417336894988">
+   <To>
+    <Recipient value="844024417336894988"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="4349723564983949387" Name="RileyYu_SideQuest" Label="@loc_4349723564983949388" Conversation="13680621263438447493" From="4349723564978498537">
+   <To>
+    <Recipient value="844024417336895061"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="12889009725087224839" Name="WelcomeToThunderdome" Label="@loc_12889009725087224840" Conversation="13680621263440614887" From="4349723564977378307">
+   <To>
+    <Recipient value="4349723564977367003"/>
+   </To>
+  </ArkAudioLog>
+  <ArkAudioLog ID="12889009725087225036" Name="YouWantedToSeeMe" Label="@loc_12889009725087225037" Conversation="13680621263440608054">
+   <To/>
+  </ArkAudioLog>
+ </AudioLogs>
+ <AudioLogCollections>
+  <ArkAudioLogCollection ID="6732635291259155034" Name="WL_Player_Security" Owner="4349723564977374847" PlotCritical="true">
+   <LinkedAudioLogs>
+    <AudioLog value="6732635291259151805"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="761057048034423408" Name="WL_KerryStafford" Owner="4349723564977378322" PlotCritical="false">
+   <LinkedAudioLogs>
+    <AudioLog value="761057048034423317"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="844024417347623894" Name="WL_ShuttlePilotTranscribe" Owner="4349723564977364537" PlotCritical="true">
+   <LinkedAudioLogs>
+    <AudioLog value="844024417347623929"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="6732635291259234316" Name="WL_LiPhang" Owner="4349723564977378307" PlotCritical="true">
+   <LinkedAudioLogs/>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="761057048034423371" Name="WL_JordanWalton" Owner="4349723564977378313" PlotCritical="false">
+   <LinkedAudioLogs>
+    <AudioLog value="761057048034423317"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="6732635291261584989" Name="WL_JoanWinslow" Owner="4349723564977375640" PlotCritical="true">
+   <LinkedAudioLogs>
+    <AudioLog value="6732635291261584851"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="12889009725079438460" Name="WL_ChaoWei" Owner="4349723564977375733" PlotCritical="true">
+   <LinkedAudioLogs>
+    <AudioLog value="12889009725079438488"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="6732635291263379417" Name="WL_BrianChung" Owner="4349723564977378325" PlotCritical="false">
+   <LinkedAudioLogs>
+    <AudioLog value="6732635291263379700"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="6732635291263380136" Name="WL_WinslowTurretUpdate" Owner="844024417336894988" PlotCritical="false">
+   <LinkedAudioLogs>
+    <AudioLog value="6732635291263380166"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="4349723564983949561" Name="WL_Typhonower_Subquest" Owner="4349723564978498537" PlotCritical="false">
+   <LinkedAudioLogs>
+    <AudioLog value="4349723564983949387"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="12889009725087225327" Name="WL_ListeningDevice1" Owner="844024417336894552" PlotCritical="false">
+   <LinkedAudioLogs>
+    <AudioLog value="12889009725087225036"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+  <ArkAudioLogCollection ID="12889009725087225002" Name="WL_ListeningDevice2" Owner="844024417336894552" PlotCritical="false">
+   <LinkedAudioLogs>
+    <AudioLog value="12889009725087224839"/>
+   </LinkedAudioLogs>
+  </ArkAudioLogCollection>
+ </AudioLogCollections>
+</ArkAudioLogLibrary>

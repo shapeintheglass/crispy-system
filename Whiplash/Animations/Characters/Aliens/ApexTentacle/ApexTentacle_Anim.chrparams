@@ -1,0 +1,9 @@
+
+<Params>
+ <AnimationList>
+  <Comment value="-------EVENT DATABASE-------"/>
+  <Animation name="#filepath" path="Animations\Characters\Aliens\ApexTentacle"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="*" path="*.caf"/>
+ </AnimationList>
+</Params>

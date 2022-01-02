@@ -1,0 +1,10 @@
+
+<ArkEventDrivenAchievementLibrary>
+ <EventDrivenAchievements>
+  <ArkEventDrivenAchievement ID="10739735956153095935" Name="Cryptomancer" RewardID="4">
+   <MetricComparisons>
+    <ArkMetricComparison Metric="10739735956195595105" ComparisonType="GreaterThanOrEqualTo" Value="50000"/>
+   </MetricComparisons>
+  </ArkEventDrivenAchievement>
+ </EventDrivenAchievements>
+</ArkEventDrivenAchievementLibrary>

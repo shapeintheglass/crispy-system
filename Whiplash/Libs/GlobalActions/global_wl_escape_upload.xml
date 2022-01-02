@@ -1,0 +1,316 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="14903" Class="Ark:RemoteEvent" pos="-910,1620,0">
+   <Inputs remoteEvent_Event="12889009725091347282"/>
+  </Node>
+  <Node Id="14947" Class="ArkPlayer:AlienScanEvent" pos="3050,150,0">
+   <Inputs Enable="0" researchTopic_ResearchTopic="9469288860578975476"/>
+  </Node>
+  <Node Id="14949" Class="Ark:Objectives:TaskState" pos="4630,150,0">
+   <Inputs task_Task="-5557734348633402290" ShowOnHUD="0" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="14950" Class="Ark:Objectives:TaskState" pos="5210,150,0">
+   <Inputs task_Task="-5557734348633402285" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="15009" Class="Ark:Objectives:TaskState" pos="420,3880,0">
+   <Inputs task_Task="-5557734348633402116" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="15012" Class="Mission:GameTokenSet" pos="3950,190,0">
+   <Inputs gametokenid_Token="543820500" Value="true"/>
+  </Node>
+  <Node Id="15808" Class="String:Compare" pos="3710,180,0">
+   <Inputs A="" B="Director" IgnoreCase="1"/>
+  </Node>
+  <Node Id="16970" Class="Ark:Objectives:TaskState" pos="800,-2490,0">
+   <Inputs task_Task="-5557734348633402390" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17051" Class="Ark:Debug:ConsoleEvent" pos="450,-2280,0">
+   <Inputs Command="PlaceOperator"/>
+  </Node>
+  <Node Id="17054" Class="Ark:Objectives:TaskState" pos="-70,140,0">
+   <Inputs task_Task="-5557734348633402290" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17055" Name="Alien_Scan_Event" Class="_commentbox" pos="-600,-306,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="2"/>
+   <CommentBox Width="7150" Height="1100"/>
+  </Node>
+  <Node Id="17059" Class="Logic:DeMultiplexer" pos="1920,150,0" InHideMask="15" OutHideMask="2047">
+   <Inputs Index="0" Mode="0" WrapAround="1"/>
+  </Node>
+  <Node Id="17066" Class="Ark:Debug:ConsoleEvent" pos="-430,60,0">
+   <Inputs Command="StartScanTask"/>
+  </Node>
+  <Node Id="17067" Name="This_is_a_listener" Class="_comment" pos="100,100,0"/>
+  <Node Id="17069" Class="Ark:Objectives:TaskState" pos="2800,-940,0">
+   <Inputs task_Task="-5557734348633402290" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17072" Class="Ark:Objectives:TaskState" pos="1680,-930,0">
+   <Inputs task_Task="12889009725083319628" ShowOnHUD="0" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17073" Name="Get_Phantom_Genesis" Class="_commentbox" pos="-590,-1252,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="4"/>
+   <CommentBox Width="3960" Height="660"/>
+  </Node>
+  <Node Id="17076" Class="ArkPlayer:HasAbility" pos="580,-940,0">
+   <Inputs ability_Ability="3149325216929348928"/>
+  </Node>
+  <Node Id="17078" Name="This_is_a_listener" Class="_comment" pos="-340,-1000,0"/>
+  <Node Id="17082" Class="Ark:Objectives:TaskState" pos="-570,-960,0">
+   <Inputs task_Task="12889009725083319628" ShowOnHUD="0" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17086" Class="Ark:RemoteEvent" pos="-860,2100,0">
+   <Inputs remoteEvent_Event="12889009725088850236"/>
+  </Node>
+  <Node Id="17088" Class="Ark:Objectives:GetTaskState" pos="10,2080,0">
+   <Inputs task_Task="12889009725076149326"/>
+  </Node>
+  <Node Id="17090" Class="Ark:Objectives:TaskState" pos="840,1780,0">
+   <Inputs task_Task="-5557734348633402290" ShowOnHUD="0" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17092" Name="Quest_Fail" Class="_commentbox" pos="-1100,1333,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="4"/>
+   <CommentBox Width="3600" Height="1070"/>
+  </Node>
+  <Node Id="17096" Class="Ark:Objectives:ObjectiveState" pos="1420,1780,0">
+   <Inputs objective_Objective="12889009725076149171" SetTracked="0" ShowOnHUD="1"/>
+  </Node>
+  <Node Id="17211" Class="Logic:All" pos="260,3900,0" InHideMask="127" OutHideMask="1">
+   <Inputs/>
+  </Node>
+  <Node Id="17214" Class="Logic:Any" pos="110,3900,0" InHideMask="1023" OutHideMask="1">
+   <Inputs/>
+  </Node>
+  <Node Id="17244" Class="Ark:Objectives:GetTaskState" pos="160,-2510,0">
+   <Inputs task_Task="-5557734348633402390"/>
+  </Node>
+  <Node Id="17245" Name="Only_give_the_next_task_if_the_player_\nhasn&apos;t_already_completed_it_in_the_meantime" Class="_comment" pos="300,-2560,0"/>
+  <Node Id="17247" Class="Ark:Dialog:ConversationEvent" pos="-320,-2540,0">
+   <Inputs conversation_Conversation="13680621263436047245"/>
+  </Node>
+  <Node Id="17263" Class="Ark:Dialog:ConversationEvent" pos="-290,3900,0">
+   <Inputs conversation_Conversation="13680621263438270895"/>
+  </Node>
+  <Node Id="17267" Class="Ark:RemoteEvent" pos="-270,4040,0">
+   <Inputs remoteEvent_Event="12889009725091190874"/>
+  </Node>
+  <Node Id="17268" Name="Alex_Calls" Class="_commentbox" pos="-310,3853,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="310"/>
+  </Node>
+  <Node Id="17303" Class="Ark:Debug:ConsoleEvent" pos="730,-3310,0">
+   <Inputs Command="OlegCorpseLocation"/>
+  </Node>
+  <Node Id="17304" Class="Mission:GameTokenGet" pos="1080,-3310,0">
+   <Inputs gametokenid_Token="1876226561"/>
+  </Node>
+  <Node Id="17305" Class="Debug:DisplayMessage" pos="1940,-3230,0">
+   <Inputs entityId="0" message="CRATER" DisplayTime="5" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="17306" Class="Logic:DeMultiplexer" pos="1650,-3330,0">
+   <Inputs Index="0" Mode="0" WrapAround="1"/>
+  </Node>
+  <Node Id="17307" Class="Debug:DisplayMessage" pos="1940,-3460,0">
+   <Inputs entityId="0" message="MOONWORKS" DisplayTime="5" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="17308" Name="DEBUG" Class="_commentbox" pos="730,-3473,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1460" Height="464"/>
+  </Node>
+  <Node Id="17495" Class="Ark:Objectives:ShowClue" pos="40,-940,0">
+   <Inputs objectiveclue_Clue="13680621263451329900"/>
+  </Node>
+  <Node Id="17498" Name="Kick_off_upload_escape_quest" Class="_commentbox" pos="-700,2993,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="3090" Height="690"/>
+  </Node>
+  <Node Id="17500" Class="Game:Start" pos="-640,3300,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17502" Class="Logic:Gate" pos="-290,3300,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="17503" Class="Logic:Gate" pos="860,3250,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17507" Class="Ark:Player:GetPlayableCharacter" pos="3450,190,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17509" Class="Ark:Locations:CheckLocation" pos="80,3360,0">
+   <Inputs location_Location="844024417336902480"/>
+  </Node>
+  <Node Id="17511" Class="Time:Delay" pos="1120,3250,0">
+   <Inputs delay="3" resetOnInput="0"/>
+  </Node>
+  <Node Id="17513" Class="Ark:Objectives:ObjectiveState" pos="1350,3230,0">
+   <Inputs objective_Objective="12889009725076149171" SetTracked="1" ShowOnHUD="1"/>
+  </Node>
+  <Node Id="17514" Class="Ark:Objectives:TaskState" pos="1880,3220,0">
+   <Inputs task_Task="12889009725084182693" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17532" Class="Ark:Roster:SetLocation" pos="2150,110,0">
+   <Inputs character_Character="4349723564986865364" location_Location="844024417334136487"/>
+  </Node>
+  <Node Id="17533" Class="Ark:Roster:SetLocation" pos="2150,200,0">
+   <Inputs character_Character="4349723564986865364" location_Location="844024417334136321"/>
+  </Node>
+  <Node Id="17536" Class="String:Compare" pos="-250,2090,0">
+   <Inputs A="" B="Director" IgnoreCase="1"/>
+  </Node>
+  <Node Id="17543" Class="Ark:Player:GetPlayableCharacter" pos="-500,2100,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17544" Class="String:Compare" pos="610,3370,0">
+   <Inputs A="" B="Director" IgnoreCase="1"/>
+  </Node>
+  <Node Id="17545" Class="Ark:Player:GetPlayableCharacter" pos="350,3370,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17546" Class="Ark:Objectives:ObjectiveState" pos="1030,3460,0">
+   <Inputs objective_Objective="12889009725076149171" SetTracked="1" ShowOnHUD="0"/>
+  </Node>
+  <Node Id="17548" Class="Ark:RemoteEvent" pos="570,3220,0">
+   <Inputs remoteEvent_Event="13856881013246883099"/>
+  </Node>
+  <Node Id="17550" Class="Ark:RemoteEvent" pos="-670,3410,0">
+   <Inputs remoteEvent_Event="844024417350736024"/>
+  </Node>
+  <Node Id="17551" Name="Alex_Call" Class="_commentbox" pos="-390,-2583,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1870" Height="390"/>
+  </Node>
+  <Node Id="17553" Class="Game:Start" pos="-2210,2240,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17555" Class="Ark:Debug:ConsoleEvent" pos="-610,3230,0">
+   <Inputs Command="CheckEmail"/>
+  </Node>
+  <Node Id="17561" Class="Ark:Objectives:GetTaskState" pos="30,1600,0">
+   <Inputs task_Task="12889009725076149326"/>
+  </Node>
+  <Node Id="17562" Name="Killed_Phantom_before_scan" Class="_commentbox" pos="-980,1973,0">
+   <Inputs TextSize="1" Color="1,1,1" DisplayFilled="1" DisplayBox="1" SortPriority="6"/>
+   <CommentBox Width="1620" Height="320"/>
+  </Node>
+  <Node Id="17563" Name="Recycled_corpse_before_scan" Class="_commentbox" pos="-990,1513,0">
+   <Inputs TextSize="1" Color="1,1,1" DisplayFilled="1" DisplayBox="1" SortPriority="6"/>
+   <CommentBox Width="1650" Height="240"/>
+  </Node>
+  <Node Id="17564" Class="String:Compare" pos="-270,1610,0">
+   <Inputs A="" B="Director" IgnoreCase="1"/>
+  </Node>
+  <Node Id="17565" Class="Ark:Player:GetPlayableCharacter" pos="-550,1620,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17569" Class="Mission:GameTokenGet" pos="1270,160,0">
+   <Inputs gametokenid_Token="1876226561"/>
+  </Node>
+  <Node Id="17570" Class="Ark:Roster:SetIsAlive" pos="2760,150,0">
+   <Inputs character_Character="4349723564986865364"/>
+  </Node>
+  <Node Id="17571" Class="Ark:Roster:SetVitalSigns" pos="2490,150,0">
+   <Inputs character_Character="4349723564986865364"/>
+  </Node>
+  <Node Id="17575" Class="Time:FrameDelay" pos="250,4090,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17578" Class="Ark:Objectives:ObjectiveState" pos="1360,3030,0">
+   <Inputs objective_Objective="12889009725076149171" SetTracked="1" ShowOnHUD="1"/>
+  </Node>
+  <Node Id="17580" Class="Ark:Objectives:SetTrackedObjective" pos="1890,3420,0">
+   <Inputs objective_Objective="12889009725076149171"/>
+  </Node>
+  <Node Id="17585" Name="Complete" Class="_commentbox" pos="550,-1095,0">
+   <Inputs TextSize="1" Color="1,1,1" DisplayFilled="1" DisplayBox="1" SortPriority="14"/>
+   <CommentBox Width="2790" Height="420"/>
+  </Node>
+  <Node Id="17586" Name="Prep_Alien_Scan_Event" Class="_commentbox" pos="930,-11,0">
+   <Inputs TextSize="1" Color="1,1,1" DisplayFilled="1" DisplayBox="1" SortPriority="4"/>
+   <CommentBox Width="4940" Height="430"/>
+  </Node>
+  <Node Id="17587" Name="Listener_Enabled" Class="_commentbox" pos="3030,109,0">
+   <Inputs TextSize="1" Color="0.250158,0.250158,0.679543" DisplayFilled="1" DisplayBox="1" SortPriority="14"/>
+   <CommentBox Width="400" Height="200"/>
+  </Node>
+  <Node Id="17595" Class="Ark:Objectives:GetTaskState" pos="990,-920,0">
+   <Inputs task_Task="12889009725083319628"/>
+  </Node>
+  <Node Id="17596" Class="Ark:Objectives:ShowClue" pos="2280,-930,0">
+   <Inputs objectiveclue_Clue="13680621263451329900"/>
+  </Node>
+  <Node Id="17597" Class="Mission:GameTokenSet" pos="3950,50,0">
+   <Inputs gametokenid_Token="543820500" Value="true"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="17565" nodeOut="14903" portIn="Get" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17507" nodeOut="14947" portIn="Get" portOut="ScanCompleted" enabled="1"/>
+  <Edge nodeIn="14950" nodeOut="14949" portIn="Activate" portOut="Out" enabled="1"/>
+  <Edge nodeIn="14949" nodeOut="15012" portIn="Complete" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="15012" nodeOut="15808" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="17597" nodeOut="15808" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="16970" nodeOut="17051" portIn="Activate" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="17569" nodeOut="17054" portIn="Trigger" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17532" nodeOut="17059" portIn="Trigger" portOut="Port0" enabled="1"/>
+  <Edge nodeIn="17533" nodeOut="17059" portIn="Trigger" portOut="Port1" enabled="1"/>
+  <Edge nodeIn="17054" nodeOut="17066" portIn="Activate" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="17596" nodeOut="17072" portIn="Hide" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17595" nodeOut="17076" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="17495" nodeOut="17082" portIn="Show" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17543" nodeOut="17086" portIn="Get" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17090" nodeOut="17088" portIn="Fail" portOut="Active" enabled="1"/>
+  <Edge nodeIn="17090" nodeOut="17088" portIn="Fail" portOut="Inactive" enabled="1"/>
+  <Edge nodeIn="17096" nodeOut="17090" portIn="Fail" portOut="Failed" enabled="1"/>
+  <Edge nodeIn="15009" nodeOut="17211" portIn="Activate" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17575" nodeOut="17211" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17211" nodeOut="17214" portIn="in1" portOut="out" enabled="1"/>
+  <Edge nodeIn="16970" nodeOut="17244" portIn="Activate" portOut="Inactive" enabled="1"/>
+  <Edge nodeIn="17244" nodeOut="17247" portIn="Trigger" portOut="OnComplete" enabled="1"/>
+  <Edge nodeIn="17244" nodeOut="17247" portIn="Trigger" portOut="OnInterrupt" enabled="1"/>
+  <Edge nodeIn="17214" nodeOut="17263" portIn="in2" portOut="OnComplete" enabled="1"/>
+  <Edge nodeIn="17214" nodeOut="17263" portIn="in1" portOut="OnInterrupt" enabled="1"/>
+  <Edge nodeIn="17211" nodeOut="17267" portIn="in2" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17304" nodeOut="17303" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="17306" nodeOut="17304" portIn="Index" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="17306" nodeOut="17304" portIn="Input" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="17305" nodeOut="17306" portIn="Show" portOut="Port1" enabled="1"/>
+  <Edge nodeIn="17307" nodeOut="17306" portIn="Show" portOut="Port0" enabled="1"/>
+  <Edge nodeIn="17076" nodeOut="17495" portIn="Active" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17502" nodeOut="17500" portIn="In" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17502" nodeOut="17500" portIn="In" portOut="output" enabled="1"/>
+  <Edge nodeIn="17509" nodeOut="17502" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17511" nodeOut="17503" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15808" nodeOut="17507" portIn="A" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="15808" nodeOut="17507" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17545" nodeOut="17509" portIn="Get" portOut="False" enabled="1"/>
+  <Edge nodeIn="17578" nodeOut="17511" portIn="Reset" portOut="out" enabled="1"/>
+  <Edge nodeIn="17514" nodeOut="17513" portIn="Activate" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17580" nodeOut="17513" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17571" nodeOut="17532" portIn="NoLifeSigns" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17571" nodeOut="17533" portIn="NoLifeSigns" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17088" nodeOut="17536" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="17536" nodeOut="17543" portIn="A" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17536" nodeOut="17543" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17503" nodeOut="17544" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17546" nodeOut="17544" portIn="Remove" portOut="False" enabled="1"/>
+  <Edge nodeIn="17544" nodeOut="17545" portIn="A" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17544" nodeOut="17545" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17503" nodeOut="17548" portIn="Open" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17502" nodeOut="17550" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17502" nodeOut="17555" portIn="In" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="17090" nodeOut="17561" portIn="Fail" portOut="Active" enabled="1"/>
+  <Edge nodeIn="17090" nodeOut="17561" portIn="Fail" portOut="Inactive" enabled="1"/>
+  <Edge nodeIn="17561" nodeOut="17564" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="17564" nodeOut="17565" portIn="A" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17564" nodeOut="17565" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17059" nodeOut="17569" portIn="Index" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="17059" nodeOut="17569" portIn="Input" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14947" nodeOut="17570" portIn="Enable" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17570" nodeOut="17571" portIn="Dead" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17211" nodeOut="17575" portIn="Reset" portOut="out" enabled="1"/>
+  <Edge nodeIn="17513" nodeOut="17578" portIn="Add" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17072" nodeOut="17595" portIn="Complete" portOut="Active" enabled="1"/>
+  <Edge nodeIn="17069" nodeOut="17596" portIn="Activate" portOut="Out" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

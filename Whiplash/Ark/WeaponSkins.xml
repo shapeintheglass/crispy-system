@@ -1,0 +1,54 @@
+
+<ArkWeaponSkins>
+ <WeaponSkins>
+  <ArkWeaponSkin ID="13856881013253630098" Name="PistolSkin1" Label="@loc_13856881013253630099" Material1P="Objects/weapons/pistol/DLC_Pack_01/Moon_Camo_pistol" Description="@loc_13680621263450480368" Icon="DLC_Pack_01\skin_weapon_moon_pistol" Group="15659330456409405040"/>
+  <ArkWeaponSkin ID="13856881013253630153" Name="ShotgunSkin1" Label="@loc_13856881013253630154" Material1P="Objects/weapons/Shotgun/DLC_Pack_01/Moon_Camo_shotgun" Description="@loc_13680621263450481066" Icon="DLC_Pack_01\skin_weapon_moon_shotgun" Group="15659330456409404947"/>
+  <ArkWeaponSkin ID="13856881013253630328" Name="StungunSkin1" Label="@loc_13856881013253630329" Material1P="Objects/weapons/StunGun/DLC_Pack_01/Moon_Camo_StunGun" Description="@loc_13680621263450481101" Icon="DLC_Pack_01\skin_weapon_moon_stungun" Group="15659330456409405195"/>
+  <ArkWeaponSkin ID="13856881013253630616" Name="ToyGunSkin1" Label="@loc_13856881013253630617" Material1P="Objects/weapons/ToyGun/DLC_Pack_01/Moon_Camo_ToyGun" Description="@loc_13680621263450481113" Icon="DLC_Pack_01\skin_weapon_moon_toygun" Group="15659330456409405407"/>
+ </WeaponSkins>
+ <Groups>
+  <ArkWeaponSkinGroup ID="15659330456409404947" Name="Shotguns">
+   <Weapons>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.Shotgun"/>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.Unique.Shotgun_SecurityCharacter"/>
+   </Weapons>
+  </ArkWeaponSkinGroup>
+  <ArkWeaponSkinGroup ID="15659330456409405040" Name="Pistols">
+   <Weapons>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.Pistol"/>
+   </Weapons>
+  </ArkWeaponSkinGroup>
+  <ArkWeaponSkinGroup ID="15659330456409405119" Name="Wrenches">
+   <Weapons>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.Wrench"/>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.Unique.Wrench_EngineerCharacter"/>
+   </Weapons>
+  </ArkWeaponSkinGroup>
+  <ArkWeaponSkinGroup ID="15659330456409405195" Name="Stunguns">
+   <Weapons>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.StunGun"/>
+   </Weapons>
+  </ArkWeaponSkinGroup>
+  <ArkWeaponSkinGroup ID="15659330456409405234" Name="Instalaser">
+   <Weapons>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.Instalaser"/>
+   </Weapons>
+  </ArkWeaponSkinGroup>
+  <ArkWeaponSkinGroup ID="15659330456409405266" Name="GlooGun">
+   <Weapons>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.GooGun"/>
+   </Weapons>
+  </ArkWeaponSkinGroup>
+  <ArkWeaponSkinGroup ID="15659330456409405319" Name="PsiSword">
+   <Weapons>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.Sword"/>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.Unique.Sword_SpyCharacter"/>
+   </Weapons>
+  </ArkWeaponSkinGroup>
+  <ArkWeaponSkinGroup ID="15659330456409405407" Name="ToyGun">
+   <Weapons>
+    <ArkWeaponSkinArchetypes Weapon="ArkPickups.Weapons.ToyGun"/>
+   </Weapons>
+  </ArkWeaponSkinGroup>
+ </Groups>
+</ArkWeaponSkins>

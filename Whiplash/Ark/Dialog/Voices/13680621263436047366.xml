@@ -1,0 +1,37 @@
+
+<Dialog>
+ <Dialog id="13680621263436047489" text="Riley. Things on Talos I are becoming... untenable. It&apos;s time to set contingencies we&apos;ve discussed into motion. " modified="10/16/2017 03:30:17 PM"/>
+ <Dialog id="13680621263436047538" text="I need you to copy everything you&apos;ve got onto the Vault Operator I sent you. The research. Connectomes. Everything." modified="10/16/2017 03:30:51 PM"/>
+ <Dialog id="13680621263438270700" text="Morgan was right. The Typhon are all linked. Which means whatever&apos;s happening up here will likely spread to you - if it hasn&apos;t already. " modified="10/16/2017 03:31:59 PM"/>
+ <Dialog id="13680621263438270803" text="And it should go without saying that we keep the board out of the loop on this. They&apos;ll find out soon enough anyway." modified="10/16/2017 03:33:44 PM"/>
+ <Dialog id="13680621263438270815" text="Get it done." modified="10/16/2017 03:33:51 PM"/>
+ <Dialog id="13680621263438270834" text="We&apos;ll talk again soon." modified="10/16/2017 03:34:10 PM"/>
+ <Dialog id="13680621263438270874" text="Oh - and Riley - be careful. I&apos;m fairly certain you&apos;ve got at least one KASMA mole working for you." modified="03/02/2018 08:56:06 PM"/>
+ <Dialog id="13680621263438270959" text="Before you launch that operator I need you to take one last precaution." modified="10/16/2017 03:36:15 PM"/>
+ <Dialog id="13680621263438270967" text="You have the emulation tech Morgan was tinkering with. Use it. Copy yourself." modified="10/16/2017 03:36:23 PM"/>
+ <Dialog id="13680621263438272921" text="I know it seems morbid, but we can&apos;t shrink from the reality that you might not make it off the moon. This will ensure at least something is left of our family." modified="10/16/2017 04:09:34 PM"/>
+ <Dialog id="13680621263438272971" text="No one else is equipped to deal with what&apos;s coming." modified="10/16/2017 04:09:47 PM"/>
+ <Dialog id="13680621263438272987" text="I&apos;m putting Talos I in the dark after this. You won&apos;t be able to reach me. " modified="10/16/2017 04:10:03 PM"/>
+ <Dialog id="13680621263438272999" text="Hopefully, we&apos;ll see each other Earthside." modified="10/16/2017 04:10:15 PM"/>
+ <Dialog id="13680621263438273022" text="Goodbye, cousin." modified="01/17/2018 11:53:50 PM"/>
+ <Dialog id="13680621263439673261" text="This is Alex Yu, CEO of TranStar and co-director of research aboard Talos I." modified="11/01/2017 09:08:25 PM"/>
+ <Dialog id="13680621263439673377" text="When you look up, take pride and remember we are looking down on you with appreciation." modified="03/02/2018 11:36:45 PM"/>
+ <Dialog id="13680621263439673494" text="As I sit here, comfortably aboard the greatest technological marvel humanity has ever achieved, I recognize that this station wouldn&apos;t exist without the sustaining efforts of our sibling facility on the surface of the moon." modified="02/23/2018 11:01:44 PM"/>
+ <Dialog id="13680621263439673568" text="Our Helium 3 refinery alone is the lifeblood of this company, not to mention the exciting R&amp;D taking place down there." modified="11/01/2017 09:13:04 PM"/>
+ <Dialog id="13680621263439673587" text="So, I want to offer my thanks and support to our employees hard at work at the Pytheas Moonbase." modified="11/01/2017 09:13:23 PM"/>
+ <Dialog id="13680621263440608138" text="Ah, yes. Officer Bhatia. Come in." modified="11/12/2017 04:49:14 PM"/>
+ <Dialog id="13680621263440609131" text="You have a son in the AIL, is that right?" modified="11/12/2017 05:05:47 PM"/>
+ <Dialog id="13680621263440609167" text="You must be proud of him." modified="11/12/2017 05:06:23 PM"/>
+ <Dialog id="13680621263440609201" text="Maybe we can find a place for him on the TranStar Security team one day, hmm?" modified="03/02/2018 11:47:53 PM"/>
+ <Dialog id="13680621263440609235" text="Straight to it. I like that about you, Vijay." modified="11/12/2017 05:18:16 PM"/>
+ <Dialog id="13680621263440609295" text="Here. What would you make of this?" modified="11/12/2017 05:08:45 PM"/>
+ <Dialog id="13680621263440609333" text="And?" modified="11/12/2017 05:09:09 PM"/>
+ <Dialog id="13680621263440609394" text="No. I found it here. In my room." modified="11/12/2017 05:18:41 PM"/>
+ <Dialog id="13680621263440609509" text="No, Vijay. I don&apos;t suspect you. I wouldn&apos;t have called you in if I did." modified="11/12/2017 05:12:05 PM"/>
+ <Dialog id="13680621263440609546" text="But  maybe... another member of your team? Perhaps acting on someone else&apos;s orders." modified="11/12/2017 05:12:42 PM" notes="Anyone come to mind?"/>
+ <Dialog id="13680621263440609615" text="That&apos;s the problem, isn&apos;t it?" modified="11/12/2017 05:13:51 PM"/>
+ <Dialog id="13680621263440609641" text="We imagine too little." modified="11/12/2017 05:17:27 PM"/>
+ <Dialog id="13680621263440609700" text="Picture what it would take for one of your men to betray you. How they would do it. Why. Imagine if you failed to detect them." modified="11/13/2017 08:08:44 PM"/>
+ <Dialog id="13680621263440609705" text="Then imagine my disappointment." modified="11/12/2017 05:15:21 PM" notes="Threat."/>
+ <Dialog id="13680621263440609754" text="I&apos;m sure you will. That&apos;s all, Officer Bhatia. You can leave that here with me." modified="11/12/2017 05:16:10 PM"/>
+</Dialog>

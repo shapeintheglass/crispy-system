@@ -1,0 +1,10 @@
+
+<ArkEscapeMethodLibrary>
+ <Methods>
+  <ArkEscapeMethod id="10739735956192395193" Name="Shuttle" Label="@loc_10739735956192395194"/>
+  <ArkEscapeMethod id="10739735956192395206" Name="Pod" Label="@loc_10739735956192395207"/>
+  <ArkEscapeMethod id="10739735956192395210" Name="Crate" Label="@loc_10739735956192395211"/>
+  <ArkEscapeMethod id="10739735956192395214" Name="MimicGate" Label="@loc_10739735956192395215"/>
+  <ArkEscapeMethod id="10739735956192395218" Name="Upload" Label="@loc_10739735956192395219"/>
+ </Methods>
+</ArkEscapeMethodLibrary>

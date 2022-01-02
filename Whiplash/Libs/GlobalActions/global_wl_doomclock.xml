@@ -1,0 +1,482 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="53" Class="Image:ScreenFader" pos="-330,-720,0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="1" FadeOutTime="0" color_FadeColor="0,0,0" tex_TextureName="" UpdateAlways="0"/>
+  </Node>
+  <Node Id="472" Class="Ark:RemoteEvent" pos="-2200,-930,0">
+   <Inputs remoteEvent_Event="844024417360320059"/>
+  </Node>
+  <Node Id="590" Class="Logic:Gate" pos="-1440,-260,0">
+   <Inputs SetClosed="1" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="594" Class="Ark:Debug:ConsoleEvent" pos="-2320,-150,0">
+   <Inputs Command="startdc"/>
+  </Node>
+  <Node Id="596" Class="Time:FrameDelay" pos="-1940,-160,0">
+   <Inputs/>
+  </Node>
+  <Node Id="1545" Class="String:Compare" pos="1080,-600,0">
+   <Inputs A="Volunteer" B="" IgnoreCase="1"/>
+  </Node>
+  <Node Id="1546" Class="String:Compare" pos="1080,-400,0">
+   <Inputs A="Engineer" B="" IgnoreCase="1"/>
+  </Node>
+  <Node Id="1547" Class="String:Compare" pos="1080,-200,0">
+   <Inputs A="Janitor" B="" IgnoreCase="1"/>
+  </Node>
+  <Node Id="1548" Class="String:Compare" pos="1080,-500,0">
+   <Inputs A="Security" B="" IgnoreCase="1"/>
+  </Node>
+  <Node Id="1549" Class="String:Compare" pos="1080,-300,0">
+   <Inputs A="Director" B="" IgnoreCase="1"/>
+  </Node>
+  <Node Id="1583" Class="Ark:ReadyRoom:ReadyRoomEvent" pos="-1960,-760,0"/>
+  <Node Id="15021" Class="Ark:Objectives:TaskState" pos="-2200,-1100,0">
+   <Inputs task_Task="-5557734348633402116" ShowOnHUD="0" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="15111" Class="Actor:PlayMannequinFragment" pos="1120,1260,0">
+   <Inputs entityId="0" Fragment="PassOut" Tags="" Priority="10"/>
+  </Node>
+  <Node Id="15112" Class="Actor:LocalPlayer" pos="870,1270,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15120" Class="Actor:PlayerStaging" pos="1120,1110,0">
+   <Inputs ViewLimitDir="0,0,0" InLocalSpace="1" ViewLimitYaw="0" ViewLimitPitch="0" LockPlayer="1" TryStance="-1"/>
+  </Node>
+  <Node Id="15121" Class="Actor:PlayMannequinFragment" pos="1430,1260,0">
+   <Inputs entityId="0" Fragment="PassOut_Idle" Tags="" Priority="10"/>
+  </Node>
+  <Node Id="15122" Class="Time:Delay" pos="1770,1260,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="15123" Class="Image:ScreenFader" pos="2030,1260,0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="0" FadeOutTime="0.95" color_FadeColor="1,1,1" tex_TextureName="" UpdateAlways="1"/>
+  </Node>
+  <Node Id="15126" Class="Image:ScreenFader" pos="2750,1290,0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="1" FadeOutTime="0.5" color_FadeColor="1,1,1" tex_TextureName="" UpdateAlways="1"/>
+  </Node>
+  <Node Id="15127" Class="Time:Delay" pos="2430,1260,0">
+   <Inputs delay="0.5" resetOnInput="0"/>
+  </Node>
+  <Node Id="15128" Class="Ark:PostEffect" pos="2750,1160,0">
+   <Inputs posteffect_PostEffect="2428940965289903671"/>
+  </Node>
+  <Node Id="15129" Class="Actor:PlayerStaging" pos="3070,1280,0">
+   <Inputs ViewLimitDir="0,0,0" InLocalSpace="1" ViewLimitYaw="0" ViewLimitPitch="0" LockPlayer="0" TryStance="-1"/>
+  </Node>
+  <Node Id="15132" Class="Ark:Debug:ConsoleEvent" pos="-2200,620,0">
+   <Inputs Command="incdc"/>
+  </Node>
+  <Node Id="15134" Class="Audio:Trigger" pos="-420,-210,0">
+   <Inputs entityId="0" audioTrigger_PlayTrigger="Play_UI_WL_DoomClock_Next_Level" audioTrigger_StopTrigger="" ForceStopOnTriggerChange="1"/>
+  </Node>
+  <Node Id="15139" Class="Actor:LocalPlayer" pos="-870,0,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15145" Name="Doom_Clock_Manager" Class="_commentbox" pos="-2350,-1297,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="4720" Height="1620"/>
+  </Node>
+  <Node Id="15148" Class="Ark:DoomClock:EnableDoomClock" pos="-970,-260,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15153" Class="Ark:DoomClock:DoomClockListener" pos="-970,-200,0"/>
+  <Node Id="15155" Class="Ark:DoomClock:DoomClock" pos="-1750,830,0">
+   <Inputs Level="1"/>
+  </Node>
+  <Node Id="15169" Class="Ark:Debug:ConsoleEvent" pos="-2200,830,0">
+   <Inputs Command="dc1"/>
+  </Node>
+  <Node Id="15174" Class="Ark:Debug:ConsoleEvent" pos="-2200,870,0">
+   <Inputs Command="dc1refresh"/>
+  </Node>
+  <Node Id="15177" Class="Ark:DoomClock:DoomClock" pos="-1750,970,0">
+   <Inputs Level="2"/>
+  </Node>
+  <Node Id="15178" Class="Ark:Debug:ConsoleEvent" pos="-2200,970,0">
+   <Inputs Command="dc2"/>
+  </Node>
+  <Node Id="15179" Class="Ark:Debug:ConsoleEvent" pos="-2200,1010,0">
+   <Inputs Command="dc2refresh"/>
+  </Node>
+  <Node Id="15181" Class="Ark:DoomClock:DoomClock" pos="-1750,1110,0">
+   <Inputs Level="3"/>
+  </Node>
+  <Node Id="15182" Class="Ark:Debug:ConsoleEvent" pos="-2200,1110,0">
+   <Inputs Command="dc3"/>
+  </Node>
+  <Node Id="15183" Class="Ark:Debug:ConsoleEvent" pos="-2200,1150,0">
+   <Inputs Command="dc3refresh"/>
+  </Node>
+  <Node Id="15185" Class="Ark:DoomClock:DoomClock" pos="-1750,1250,0">
+   <Inputs Level="4"/>
+  </Node>
+  <Node Id="15186" Class="Ark:Debug:ConsoleEvent" pos="-2200,1250,0">
+   <Inputs Command="dc4"/>
+  </Node>
+  <Node Id="15187" Class="Ark:Debug:ConsoleEvent" pos="-2200,1290,0">
+   <Inputs Command="dc4refresh"/>
+  </Node>
+  <Node Id="15189" Class="Ark:DoomClock:DoomClock" pos="-1750,1390,0">
+   <Inputs Level="5"/>
+  </Node>
+  <Node Id="15190" Class="Ark:Debug:ConsoleEvent" pos="-2200,1390,0">
+   <Inputs Command="dc5"/>
+  </Node>
+  <Node Id="15191" Class="Ark:Debug:ConsoleEvent" pos="-2200,1430,0">
+   <Inputs Command="dc5refresh"/>
+  </Node>
+  <Node Id="15193" Class="Ark:DoomClock:DoomClock" pos="-1750,1530,0">
+   <Inputs Level="6"/>
+  </Node>
+  <Node Id="15194" Class="Ark:Debug:ConsoleEvent" pos="-2200,1530,0">
+   <Inputs Command="dc6"/>
+  </Node>
+  <Node Id="15195" Class="Ark:Debug:ConsoleEvent" pos="-2200,1570,0">
+   <Inputs Command="dc6refresh"/>
+  </Node>
+  <Node Id="15197" Class="Ark:DoomClock:DoomClock" pos="-1750,1670,0">
+   <Inputs Level="7"/>
+  </Node>
+  <Node Id="15198" Class="Ark:Debug:ConsoleEvent" pos="-2200,1670,0">
+   <Inputs Command="dc7"/>
+  </Node>
+  <Node Id="15199" Class="Ark:Debug:ConsoleEvent" pos="-2200,1710,0">
+   <Inputs Command="dc7refresh"/>
+  </Node>
+  <Node Id="15201" Class="Ark:DoomClock:DoomClock" pos="-1750,1810,0">
+   <Inputs Level="8"/>
+  </Node>
+  <Node Id="15202" Class="Ark:Debug:ConsoleEvent" pos="-2200,1810,0">
+   <Inputs Command="dc8"/>
+  </Node>
+  <Node Id="15203" Class="Ark:Debug:ConsoleEvent" pos="-2200,1850,0">
+   <Inputs Command="dc8refresh"/>
+  </Node>
+  <Node Id="15205" Class="Ark:DoomClock:DoomClock" pos="-1750,1950,0">
+   <Inputs Level="9"/>
+  </Node>
+  <Node Id="15206" Class="Ark:Debug:ConsoleEvent" pos="-2200,1950,0">
+   <Inputs Command="dc9"/>
+  </Node>
+  <Node Id="15207" Class="Ark:Debug:ConsoleEvent" pos="-2200,1990,0">
+   <Inputs Command="dc9refresh"/>
+  </Node>
+  <Node Id="15209" Class="Ark:DoomClock:DoomClock" pos="-1750,2090,0">
+   <Inputs Level="10"/>
+  </Node>
+  <Node Id="15210" Class="Ark:Debug:ConsoleEvent" pos="-2200,2090,0">
+   <Inputs Command="dc10"/>
+  </Node>
+  <Node Id="15211" Class="Ark:Debug:ConsoleEvent" pos="-2200,2130,0">
+   <Inputs Command="dc10refresh"/>
+  </Node>
+  <Node Id="15215" Class="Ark:DoomClock:DoomClock" pos="-1700,720,0">
+   <Inputs Level="0"/>
+  </Node>
+  <Node Id="15216" Class="Ark:Debug:ConsoleEvent" pos="-2200,700,0">
+   <Inputs Command="decdc"/>
+  </Node>
+  <Node Id="15218" Class="Ark:Debug:ConsoleEvent" pos="-2200,660,0">
+   <Inputs Command="spawnincdc"/>
+  </Node>
+  <Node Id="15219" Class="Ark:Debug:ConsoleEvent" pos="-2200,740,0">
+   <Inputs Command="spawndecdc"/>
+  </Node>
+  <Node Id="15226" Class="Logic:Gate" pos="800,1330,0">
+   <Inputs SetClosed="1" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="15662" Class="Ark:RemoteEvent" pos="-1890,-300,0">
+   <Inputs remoteEvent_Event="13856881013246819138"/>
+  </Node>
+  <Node Id="15665" Name="SFX_when_the_Doom_Clock_is_about_to_level_up" Class="_comment" pos="-420,-240,0"/>
+  <Node Id="15666" Name="DISABLED_-_Screen_FX_and_Player_Anims_TEST_ONLY" Class="_commentbox" pos="720,962,0">
+   <Inputs TextSize="1" Color="1,0,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2620" Height="1080"/>
+  </Node>
+  <Node Id="15667" Name="Debug_" Class="_commentbox" pos="-2350,501,0">
+   <Inputs TextSize="1" Color="0.0368895,0.814847,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2620" Height="1790"/>
+  </Node>
+  <Node Id="15670" Class="Ark:RemoteEvent" pos="-2330,-520,0">
+   <Inputs remoteEvent_Event="13856881013246883099"/>
+  </Node>
+  <Node Id="15673" Class="Ark:DoomClock:DoomClock" pos="-1940,-570,0">
+   <Inputs Level="0"/>
+  </Node>
+  <Node Id="15688" Class="Ark:BinkMovie" pos="40,-710,0">
+   <Inputs file_Movie="videos/simulation_corrupted.bk2" InstanceId="0" AutoPlay="0" Loop="0" Fullscreen="1" PauseGame="0" Skippable="0"/>
+  </Node>
+  <Node Id="15690" Class="Ark:RemoteEvent" pos="-1850,-220,0">
+   <Inputs remoteEvent_Event="13856881013246905865"/>
+  </Node>
+  <Node Id="15695" Class="Time:Delay" pos="-1130,-260,0" InHideMask="7" OutHideMask="1">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="15696" Class="Ark:Debug:ConsoleEvent" pos="-2320,-100,0">
+   <Inputs Command="stopdc"/>
+  </Node>
+  <Node Id="15697" Class="Ark:Signal:SendPackage" pos="1320,-760,0">
+   <Inputs entityId="0" Sender="0" signalPackage_Package="3149325216985714840" Value="1" NumRepeats="0" RepeatTime="0"/>
+  </Node>
+  <Node Id="15699" Class="Actor:LocalPlayer" pos="1090,-750,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15723" Class="Mission:GameTokenSet" pos="500,-730,0">
+   <Inputs gametokenid_Token="318475337" Value="true"/>
+  </Node>
+  <Node Id="15765" Class="Ark:Player:UpdatePlayableCharacterStatus" pos="1320,-610,0">
+   <Inputs playableCharacter_PlayableCharacter="10739735956175282099" EscapeMethod=""/>
+  </Node>
+  <Node Id="15768" Class="Ark:Player:UpdatePlayableCharacterStatus" pos="1320,-510,0">
+   <Inputs playableCharacter_PlayableCharacter="10739735956174775251" EscapeMethod=""/>
+  </Node>
+  <Node Id="15794" Class="Ark:Player:UpdatePlayableCharacterStatus" pos="1320,-410,0">
+   <Inputs playableCharacter_PlayableCharacter="10739735956174775230" EscapeMethod=""/>
+  </Node>
+  <Node Id="15795" Class="Ark:Player:UpdatePlayableCharacterStatus" pos="1320,-310,0">
+   <Inputs playableCharacter_PlayableCharacter="10739735956174775260" EscapeMethod=""/>
+  </Node>
+  <Node Id="15796" Class="Ark:Player:UpdatePlayableCharacterStatus" pos="1320,-210,0">
+   <Inputs playableCharacter_PlayableCharacter="10739735956174775241" EscapeMethod=""/>
+  </Node>
+  <Node Id="17078" Class="Ark:RemoteEvent" pos="-2330,-380,0">
+   <Inputs remoteEvent_Event="761057048031916385"/>
+  </Node>
+  <Node Id="17080" Class="Time:Delay" pos="-1940,-390,0">
+   <Inputs delay="0.1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17083" Class="Math:EqualCheck" pos="-640,-650,0">
+   <Inputs A="0" B="6"/>
+  </Node>
+  <Node Id="17093" Name="If_we_get_to_Level_6_the_sim_run_is_over" Class="_comment" pos="-710,-700,0"/>
+  <Node Id="17094" Name="AUDIO" Class="_commentbox" pos="-430,-265,0">
+   <Inputs TextSize="1" Color="0.863157,0.138432,1" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="720" Height="570"/>
+  </Node>
+  <Node Id="17095" Class="Audio:Trigger" pos="-140,-50,0">
+   <Inputs entityId="0" audioTrigger_PlayTrigger="Play_UI_WL_DoomClock_Transition" audioTrigger_StopTrigger="" ForceStopOnTriggerChange="1"/>
+  </Node>
+  <Node Id="17097" Class="Time:Delay" pos="-370,-50,0">
+   <Inputs delay="4.5" resetOnInput="0"/>
+  </Node>
+  <Node Id="17099" Class="Audio:Trigger" pos="-140,130,0">
+   <Inputs entityId="0" audioTrigger_PlayTrigger="Play_UI_WL_DoomClock_New_Level" audioTrigger_StopTrigger="" ForceStopOnTriggerChange="1"/>
+  </Node>
+  <Node Id="17100" Name="Transition_to_next_Doom_level" Class="_comment" pos="-140,-80,0"/>
+  <Node Id="17101" Name="SFX_for_clock_hitting_level_2,_3,_4,_etc." Class="_comment" pos="-140,100,0"/>
+  <Node Id="17102" Class="Audio:Trigger" pos="-989.31036,175.65645,0">
+   <Inputs entityId="0" audioTrigger_PlayTrigger="Play_UI_WL_DoomClock_Start_First_Level" audioTrigger_StopTrigger="" ForceStopOnTriggerChange="1"/>
+  </Node>
+  <Node Id="17103" Class="Game:Start" pos="-2320,-670,0">
+   <Inputs InGame="1" InEditor="0" InEditorPlayFromHere="0"/>
+  </Node>
+  <Node Id="17105" Class="Ark:Locations:CheckLocation" pos="-1940,-670,0">
+   <Inputs location_Location="844024417336902480"/>
+  </Node>
+  <Node Id="17111" Class="Game:Start" pos="-2320,-40,0">
+   <Inputs InGame="0" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17112" Class="Ark:DoomClock:DoomClockProfile" pos="-1940,-450,0">
+   <Inputs dcProfileName_DoomClockProfileName="Default"/>
+  </Node>
+  <Node Id="17114" Class="Ark:Player:SkipNextDeathDelay" pos="500,-590,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17125" Class="Ark:Player:GetPlayableCharacter" pos="750,-590,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17127" Class="Time:FrameDelay" pos="1090,-690,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17137" Class="Ark:RemoteEvent" pos="-1640,-710,0">
+   <Inputs remoteEvent_Event="13856881013261937973"/>
+  </Node>
+  <Node Id="17138" Class="Ark:RemoteEvent" pos="-1650,-560,0">
+   <Inputs remoteEvent_Event="13856881013261938056"/>
+  </Node>
+  <Node Id="17155" Class="Mission:GameTokenUpdated" pos="749.10577,2162.676,0">
+   <Inputs gametokenid_Token="814784498" compare_Value="3"/>
+  </Node>
+  <Node Id="17157" Class="Ark:DoomClock:DoomClockProfile" pos="1310,2160,0">
+   <Inputs dcProfileName_DoomClockProfileName="NarrativePhase3"/>
+  </Node>
+  <Node Id="17158" Class="Mission:GameTokenUpdated" pos="748.47382,2268.334,0">
+   <Inputs gametokenid_Token="814784498" compare_Value="4"/>
+  </Node>
+  <Node Id="17159" Class="Mission:GameTokenUpdated" pos="744.10956,2370.8945,0">
+   <Inputs gametokenid_Token="814784498" compare_Value="5"/>
+  </Node>
+  <Node Id="17160" Class="Mission:GameTokenUpdated" pos="746.29169,2484.3657,0">
+   <Inputs gametokenid_Token="814784498" compare_Value="6"/>
+  </Node>
+  <Node Id="17161" Class="Ark:DoomClock:DoomClockProfile" pos="1307.1014,2280.3357,0">
+   <Inputs dcProfileName_DoomClockProfileName="NarrativePhase4"/>
+  </Node>
+  <Node Id="17162" Class="Ark:DoomClock:DoomClockProfile" pos="1308.1926,2387.2605,0">
+   <Inputs dcProfileName_DoomClockProfileName="NarrativePhase5"/>
+  </Node>
+  <Node Id="17163" Class="Ark:DoomClock:DoomClockProfile" pos="1310.3748,2509.4602,0">
+   <Inputs dcProfileName_DoomClockProfileName="NarrativePhase6"/>
+  </Node>
+  <Node Id="17164" Name="Update_the_doom_clock_profile_based_on_narrative_phase" Class="_commentbox" pos="720,2124,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="890" Height="500"/>
+  </Node>
+  <Node Id="17170" Class="Logic:Gate" pos="-1250,-710,0">
+   <Inputs SetClosed="1" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="17171" Class="Logic:Gate" pos="-1250,-570,0">
+   <Inputs SetClosed="1" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="17175" Class="ArkPlayer:Cinematic" pos="-330,-530,0">
+   <Inputs AllowLook="1"/>
+  </Node>
+  <Node Id="17176" Class="Game:SaveGame" pos="-330,-450,0">
+   <Inputs Name="quicksave" Desc="" DelaySaveIfPlayerInAir="0"/>
+  </Node>
+  <Node Id="17177" Class="Logic:Any" pos="-1640,-980,0" InHideMask="1023" OutHideMask="1">
+   <Inputs/>
+  </Node>
+  <Node Id="17178" Name="Turn_off_Doom_Clock_when_escape_sequences_start" Class="_commentbox" pos="-2230,-1117,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="740" Height="280"/>
+  </Node>
+  <Node Id="17185" Class="Logic:Any" pos="180,-500,0" InHideMask="1023" OutHideMask="1">
+   <Inputs/>
+  </Node>
+  <Node Id="17187" Class="Ark:ReadyRoom:ReadyRoomEvent" pos="180,-1000,0"/>
+  <Node Id="17188" Class="Mission:GameTokenSet" pos="480,-1000,0">
+   <Inputs gametokenid_Token="318475337" Value="false"/>
+  </Node>
+  <Node Id="17189" Class="Audio:Trigger" pos="60,-430,0">
+   <Inputs entityId="0" audioTrigger_PlayTrigger="Play_WL_Simulation_Corrupted" audioTrigger_StopTrigger="null" ForceStopOnTriggerChange="1"/>
+  </Node>
+  <Node Id="17191" Class="Ark:Signal:AddModifier" pos="-330,-820,0">
+   <Inputs entityId="0" signalModifier_Modifier="3149325216984838961"/>
+  </Node>
+  <Node Id="17193" Class="Actor:LocalPlayer" pos="-570,-830,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17195" Class="Ark:Signal:RemoveModifier" pos="500,-840,0">
+   <Inputs entityId="0" signalModifier_Modifier="3149325216984838961"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="15688" nodeOut="53" portIn="Prepare" portOut="FadedOut" enabled="1"/>
+  <Edge nodeIn="17177" nodeOut="472" portIn="in2" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15695" nodeOut="590" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="590" nodeOut="594" portIn="Open" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="596" nodeOut="594" portIn="in" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="590" nodeOut="596" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="15765" nodeOut="1545" portIn="Dead" portOut="False" enabled="1"/>
+  <Edge nodeIn="15794" nodeOut="1546" portIn="Dead" portOut="False" enabled="1"/>
+  <Edge nodeIn="15796" nodeOut="1547" portIn="Dead" portOut="False" enabled="1"/>
+  <Edge nodeIn="15768" nodeOut="1548" portIn="Dead" portOut="False" enabled="1"/>
+  <Edge nodeIn="15795" nodeOut="1549" portIn="Dead" portOut="False" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="1583" portIn="Disable" portOut="OnReturnToSatellite" enabled="1"/>
+  <Edge nodeIn="17177" nodeOut="15021" portIn="in1" portOut="Completed" enabled="1"/>
+  <Edge nodeIn="15111" nodeOut="15112" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="15121" nodeOut="15112" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="15123" nodeOut="15122" portIn="FadeOut" portOut="out" enabled="1"/>
+  <Edge nodeIn="15127" nodeOut="15123" portIn="in" portOut="FadedOut" enabled="1"/>
+  <Edge nodeIn="15128" nodeOut="15126" portIn="Disable" portOut="FadedIn" enabled="1"/>
+  <Edge nodeIn="15121" nodeOut="15127" portIn="ForceFinishLastQueued" portOut="out" enabled="1"/>
+  <Edge nodeIn="15126" nodeOut="15127" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="15128" nodeOut="15127" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="15129" nodeOut="15127" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="15215" nodeOut="15132" portIn="Increment" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15134" nodeOut="15139" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17095" nodeOut="15139" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17099" nodeOut="15139" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17102" nodeOut="15139" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="15134" nodeOut="15153" portIn="Play" portOut="Preincrement" enabled="1"/>
+  <Edge nodeIn="17083" nodeOut="15153" portIn="A" portOut="Increment" enabled="1"/>
+  <Edge nodeIn="17083" nodeOut="15153" portIn="Check" portOut="Increment" enabled="1"/>
+  <Edge nodeIn="17097" nodeOut="15153" portIn="in" portOut="Preincrement" enabled="1"/>
+  <Edge nodeIn="17099" nodeOut="15153" portIn="Play" portOut="Increment" enabled="1"/>
+  <Edge nodeIn="15155" nodeOut="15169" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15155" nodeOut="15174" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15177" nodeOut="15178" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15177" nodeOut="15179" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15181" nodeOut="15182" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15181" nodeOut="15183" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15185" nodeOut="15186" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15185" nodeOut="15187" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15189" nodeOut="15190" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15189" nodeOut="15191" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15193" nodeOut="15194" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15193" nodeOut="15195" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15197" nodeOut="15198" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15197" nodeOut="15199" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15201" nodeOut="15202" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15201" nodeOut="15203" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15205" nodeOut="15206" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15205" nodeOut="15207" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15209" nodeOut="15210" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15209" nodeOut="15211" portIn="SetLevel" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15215" nodeOut="15216" portIn="Decrement" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15215" nodeOut="15218" portIn="Increment" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15215" nodeOut="15219" portIn="Decrement" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15111" nodeOut="15226" portIn="Play" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15120" nodeOut="15226" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15122" nodeOut="15226" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="15662" portIn="Disable" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15673" nodeOut="15670" portIn="Reset" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17185" nodeOut="15688" portIn="in1" portOut="Prepared" enabled="1"/>
+  <Edge nodeIn="17195" nodeOut="15688" portIn="Trigger" portOut="Finished" enabled="1"/>
+  <Edge nodeIn="590" nodeOut="15690" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="15695" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="17102" nodeOut="15695" portIn="Play" portOut="out" enabled="1"/>
+  <Edge nodeIn="17170" nodeOut="15695" portIn="Open" portOut="out" enabled="1"/>
+  <Edge nodeIn="17171" nodeOut="15695" portIn="Open" portOut="out" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="15696" portIn="Disable" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="17175" nodeOut="15697" portIn="Exit" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17176" nodeOut="15697" portIn="EnableSave" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15697" nodeOut="15699" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17114" nodeOut="15723" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="15673" nodeOut="17078" portIn="Reset" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17080" nodeOut="17078" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17112" nodeOut="17078" portIn="set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="590" nodeOut="17080" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="590" nodeOut="17080" portIn="Open" portOut="out" enabled="1"/>
+  <Edge nodeIn="53" nodeOut="17083" portIn="FadeOut" portOut="true" enabled="1"/>
+  <Edge nodeIn="17175" nodeOut="17083" portIn="Enter" portOut="true" enabled="1"/>
+  <Edge nodeIn="17176" nodeOut="17083" portIn="DisableSave" portOut="true" enabled="1"/>
+  <Edge nodeIn="17191" nodeOut="17083" portIn="Trigger" portOut="true" enabled="1"/>
+  <Edge nodeIn="17095" nodeOut="17097" portIn="Play" portOut="out" enabled="1"/>
+  <Edge nodeIn="17105" nodeOut="17103" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17105" nodeOut="17103" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="17105" portIn="Disable" portOut="True" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="17111" portIn="Disable" portOut="output" enabled="1"/>
+  <Edge nodeIn="17125" nodeOut="17114" portIn="Get" portOut="Output" enabled="1"/>
+  <Edge nodeIn="1545" nodeOut="17125" portIn="B" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1545" nodeOut="17125" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1546" nodeOut="17125" portIn="B" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1546" nodeOut="17125" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1547" nodeOut="17125" portIn="B" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1547" nodeOut="17125" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1548" nodeOut="17125" portIn="B" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1548" nodeOut="17125" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1549" nodeOut="17125" portIn="B" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="1549" nodeOut="17125" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17127" nodeOut="17125" portIn="in" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="15697" nodeOut="17127" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17170" nodeOut="17137" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17171" nodeOut="17138" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17157" nodeOut="17155" portIn="set" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="17161" nodeOut="17158" portIn="set" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="17162" nodeOut="17159" portIn="set" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="17163" nodeOut="17160" portIn="set" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="17170" portIn="Disable" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="17171" portIn="Enable" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15148" nodeOut="17177" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="15688" nodeOut="17185" portIn="Play" portOut="out" enabled="1"/>
+  <Edge nodeIn="17188" nodeOut="17187" portIn="Trigger" portOut="OnResetSimulation" enabled="1"/>
+  <Edge nodeIn="17191" nodeOut="17193" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17195" nodeOut="17193" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="15723" nodeOut="17195" portIn="Trigger" portOut="Out" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

@@ -1,0 +1,29 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Melee" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Death"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="Distractor_Collision_Forward" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="ForceResist" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Hypnotized"/>
+  <Tag name="Blinded"/>
+  <Tag name="GetUp"/>
+  <Tag name="AimPose"/>
+  <Tag name="Aiming"/>
+  <Tag name="Dormant"/>
+  <Tag name="BreakGloo"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="Lifted_BumpCeiling"/>
+  <Tag name="Lifted"/>
+  <Tag name="Hacking" subTagDef="Animations/Mannequin/ADB/Ai_Operator_Tags.xml"/>
+  <Tag name="Dispenser_Pose"/>
+  <Tag name="Distractor_Inspect_A"/>
+  <Tag name="Distractor_Inspect_B"/>
+  <Tag name="Glood_Pose"/>
+  <Tag name="Get_Corrupted"/>
+ </Tags>
+</TagDefinition>

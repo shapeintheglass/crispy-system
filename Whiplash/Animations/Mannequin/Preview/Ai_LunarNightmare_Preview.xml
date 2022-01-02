@@ -1,0 +1,10 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/Ai_LunarNightmare_ControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Ai_LunarNightmare" enabled="1" database="Animations/Mannequin/ADB/Ai_LunarNightmare_Database.adb" context="Char3P" model="Objects/characters/Aliens/LunarNightmare/LunarNightmare.cdf"/>
+ </contexts>
+ <History StartTime="0" EndTime="0">
+  <FragmentID Time="0" FragmentID="Motion_Idle"/>
+ </History>
+</MannequinPreview>

@@ -1,0 +1,175 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="12" Class="Ark:UnlockTips" pos="210,-130,0">
+   <Inputs tiplock_Lock="13680621263451080446"/>
+  </Node>
+  <Node Id="16" Class="Inventory:ItemListener" pos="-1890,410,0">
+   <Inputs entityId="0" archetype="ArkPickups.Player.Psychoscope"/>
+  </Node>
+  <Node Id="18" Class="Ark:UnlockTips" pos="-1470,430,0">
+   <Inputs tiplock_Lock="3149325216969953688"/>
+  </Node>
+  <Node Id="20" Class="Ark:UnlockTips" pos="220,10,0">
+   <Inputs tiplock_Lock="13680621263451080467"/>
+  </Node>
+  <Node Id="22" Class="Ark:UnlockTips" pos="240,230,0">
+   <Inputs tiplock_Lock="13680621263451080479"/>
+  </Node>
+  <Node Id="25" Class="Inventory:ItemListener" pos="-1140,-140,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.GooGun"/>
+  </Node>
+  <Node Id="26" Class="Ark:UnlockTips" pos="-720,-120,0">
+   <Inputs tiplock_Lock="418270515491423551"/>
+  </Node>
+  <Node Id="27" Class="Inventory:ItemListener" pos="-1140,-50,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Pistol"/>
+  </Node>
+  <Node Id="28" Class="Ark:UnlockTips" pos="-720,-30,0">
+   <Inputs tiplock_Lock="418270515491424504"/>
+  </Node>
+  <Node Id="29" Class="Inventory:ItemListener" pos="-1140,40,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Shotgun"/>
+  </Node>
+  <Node Id="30" Class="Ark:UnlockTips" pos="-720,60,0">
+   <Inputs tiplock_Lock="418270515491432855"/>
+  </Node>
+  <Node Id="31" Class="Inventory:ItemListener" pos="-1140,130,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.StunGun"/>
+  </Node>
+  <Node Id="32" Class="Ark:UnlockTips" pos="-720,150,0">
+   <Inputs tiplock_Lock="418270515491433314"/>
+  </Node>
+  <Node Id="34" Class="Ark:UnlockTips" pos="260,680,0">
+   <Inputs tiplock_Lock="418270515491433836"/>
+  </Node>
+  <Node Id="35" Class="Inventory:ItemListener" pos="-1890,-140,0">
+   <Inputs entityId="0" archetype="ArkPickups.Ammo.EMPGrenades"/>
+  </Node>
+  <Node Id="38" Class="Ark:UnlockTips" pos="-1460,-120,0">
+   <Inputs tiplock_Lock="418270515491434472"/>
+  </Node>
+  <Node Id="39" Class="Inventory:ItemListener" pos="-1890,-60,0">
+   <Inputs entityId="0" archetype="ArkPickups.Ammo.LureGrenades"/>
+  </Node>
+  <Node Id="40" Class="Ark:UnlockTips" pos="-1460,-40,0">
+   <Inputs tiplock_Lock="3149325216969953946"/>
+  </Node>
+  <Node Id="41" Class="Inventory:ItemListener" pos="-1890,30,0">
+   <Inputs entityId="0" archetype="ArkPickups.Ammo.NullwaveTransmitter"/>
+  </Node>
+  <Node Id="42" Class="Ark:UnlockTips" pos="-1460,50,0">
+   <Inputs tiplock_Lock="3149325216969953953"/>
+  </Node>
+  <Node Id="43" Class="Inventory:ItemListener" pos="-1140,230,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Instalaser"/>
+  </Node>
+  <Node Id="44" Class="Ark:UnlockTips" pos="-720,250,0">
+   <Inputs tiplock_Lock="418270515491433314"/>
+  </Node>
+  <Node Id="45" Class="Inventory:ItemListener" pos="-1890,120,0">
+   <Inputs entityId="0" archetype="ArkPickups.Ammo.RecyclerGrenades"/>
+  </Node>
+  <Node Id="46" Class="Ark:UnlockTips" pos="-1460,140,0">
+   <Inputs tiplock_Lock="3149325216969953960"/>
+  </Node>
+  <Node Id="47" Class="Inventory:ItemListener" pos="-1140,320,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Wrench"/>
+  </Node>
+  <Node Id="48" Class="Ark:UnlockTips" pos="-720,340,0">
+   <Inputs tiplock_Lock="418270515491435910"/>
+  </Node>
+  <Node Id="51" Class="Inventory:ItemListener" pos="-1140,420,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.ToyGun"/>
+  </Node>
+  <Node Id="52" Class="Ark:UnlockTips" pos="-720,440,0">
+   <Inputs tiplock_Lock="418270515491436464"/>
+  </Node>
+  <Node Id="53" Class="Inventory:ItemListener" pos="-1890,220,0">
+   <Inputs entityId="0" archetype="ArkPickups.Mods.Weapon.WeaponUpgradeKit"/>
+  </Node>
+  <Node Id="54" Class="Ark:UnlockTips" pos="-1410,240,0">
+   <Inputs tiplock_Lock="418270515491436720"/>
+  </Node>
+  <Node Id="55" Class="Inventory:ItemListener" pos="-1890,320,0">
+   <Inputs entityId="0" archetype="ArkPickups.Player.Neuromod"/>
+  </Node>
+  <Node Id="56" Class="Ark:UnlockTips" pos="-1410,340,0">
+   <Inputs tiplock_Lock="418270515491418094"/>
+  </Node>
+  <Node Id="65" Class="Logic:Once" pos="20,-20,0">
+   <Inputs/>
+  </Node>
+  <Node Id="66" Class="Mission:GameTokenUpdated" pos="-450,-160,0">
+   <Inputs gametokenid_Token="814784498" compare_Value="2"/>
+  </Node>
+  <Node Id="67" Class="Logic:Once" pos="20,-180,0">
+   <Inputs/>
+  </Node>
+  <Node Id="69" Class="Logic:Once" pos="20,220,0">
+   <Inputs/>
+  </Node>
+  <Node Id="70" Class="Mission:GameTokenUpdated" pos="-500,680,0">
+   <Inputs gametokenid_Token="1899756249" compare_Value="true"/>
+  </Node>
+  <Node Id="71" Class="Logic:Once" pos="110,670,0">
+   <Inputs/>
+  </Node>
+  <Node Id="75" Class="Mission:GameTokenUpdated" pos="-430,-320,0">
+   <Inputs gametokenid_Token="692968307" compare_Value="true"/>
+  </Node>
+  <Node Id="76" Class="Ark:UnlockTips" pos="240,-300,0">
+   <Inputs tiplock_Lock="13680621263451079132"/>
+  </Node>
+  <Node Id="77" Class="Mission:GameTokenUpdated" pos="-480,10,0">
+   <Inputs gametokenid_Token="814784498" compare_Value="3"/>
+  </Node>
+  <Node Id="78" Class="Mission:GameTokenUpdated" pos="-480,230,0">
+   <Inputs gametokenid_Token="814784498" compare_Value="4"/>
+  </Node>
+  <Node Id="79" Class="Ark:UnlockTips" pos="269.20612,467.36523,0">
+   <Inputs tiplock_Lock="13680621263451080929"/>
+  </Node>
+  <Node Id="80" Class="Logic:Once" pos="49.206116,457.36523,0">
+   <Inputs/>
+  </Node>
+  <Node Id="81" Class="Mission:GameTokenUpdated" pos="-450.79388,467.36523,0">
+   <Inputs gametokenid_Token="814784498" compare_Value="5"/>
+  </Node>
+  <Node Id="82" Class="Inventory:ItemListener" pos="-1900,530,0">
+   <Inputs entityId="0" archetype="ArkPickups.Player.ZeroGSuit"/>
+  </Node>
+  <Node Id="83" Class="Ark:UnlockTips" pos="-1470,550,0">
+   <Inputs tiplock_Lock="13680621263451081424"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="18" nodeOut="16" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="26" nodeOut="25" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="28" nodeOut="27" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="29" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="32" nodeOut="31" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="35" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="40" nodeOut="39" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="42" nodeOut="41" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="44" nodeOut="43" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="46" nodeOut="45" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="48" nodeOut="47" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="52" nodeOut="51" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="54" nodeOut="53" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="55" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="65" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="67" nodeOut="66" portIn="Input1" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="67" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="69" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="71" nodeOut="70" portIn="Input1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="34" nodeOut="71" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="76" nodeOut="75" portIn="Trigger" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="65" nodeOut="77" portIn="Input1" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="69" nodeOut="78" portIn="Input1" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="79" nodeOut="80" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="80" nodeOut="81" portIn="Input1" portOut="Equal True" enabled="1"/>
+  <Edge nodeIn="83" nodeOut="82" portIn="Trigger" portOut="onAdded" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

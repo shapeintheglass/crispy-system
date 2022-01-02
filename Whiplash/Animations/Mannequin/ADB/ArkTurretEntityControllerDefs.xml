@@ -1,0 +1,23 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/ArkTurretEntityTags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/ArkTurretEntityActions.xml"/>
+ <FragmentDefs>
+  <Searching scopes="Turret"/>
+  <Recoil scopes="TurretAdditive"/>
+  <Idle_Deployed scopes="Turret">
+   <Override tags="TechnopathHeld" scopes="Turret"/>
+  </Idle_Deployed>
+  <Idle_Closed scopes="Turret"/>
+  <Broken scopes="Turret"/>
+  <Recoil_Laser scopes="TurretAdditive"/>
+  <Recoil_Gloo scopes="TurretAdditive"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <TurretCharacter/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Turret layer="0" numLayers="3" context="TurretCharacter"/>
+  <TurretAdditive layer="3" numLayers="3" context="TurretCharacter"/>
+ </ScopeDefs>
+</ControllerDef>

@@ -1,0 +1,81 @@
+
+<UIElements name="DanielleTyphonGate">
+ <UIElement name="DanielleTyphonGate" render_lockless="1">
+  <WorldUI enable="1" distance="3" cursorEvents="true" poolSize="1"/>
+  <GFx file="GFX/danielle_typhongate.gfx" layer="0">
+   <Constraints>
+    <Align mode="dynamic" valign="center" halign="center" scale="0" max="0"/>
+   </Constraints>
+  </GFx>
+  <functions>
+   <function name="initPowerState" funcname="pc.initOn">
+    <param name="isPowerOn" desc="false if powered off" type="bool"/>
+   </function>
+   <function name="powerOn" funcname="pc.powerOn"/>
+   <function name="powerOff" funcname="pc.powerOff"/>
+   <function name="wakeUp" funcname="pc.wakeUp"/>
+   <function name="setBrokenIcon" funcname="pc.setBrokenIcon">
+    <param name="isBroken" desc="true=Broken, false=Powered Off" type="bool"/>
+   </function>
+   <function name="workstationInteract" funcname="pc.terminalInteract"/>
+   <function name="workstationBack" funcname="pc.terminalBack"/>
+   <function name="setTrackerNumber" funcname="pc.setTrackerNumber">
+    <param name="Count" desc="" type="int"/>
+   </function>
+   <function name="setInteractScreen" funcname="pc.setInteractScreen">
+    <param name="Title" desc="" type="string"/>
+    <param name="CountText" desc="" type="string"/>
+    <param name="isEnabled" desc="" type="bool"/>
+    <param name="BtnText" desc="" type="string"/>
+    <param name="DescTitle" desc="" type="string"/>
+    <param name="DescBody" desc="" type="string"/>
+   </function>
+   <function name="processingState" funcname="pc.processingState">
+    <param name="isWorking" desc="" type="bool"/>
+   </function>
+   <function name="setClock" funcname="pc.setClock">
+    <param name="time" desc="" type="string"/>
+   </function>
+   <function name="pauseUI" funcname="togglePause">
+    <param name="PauseBoolean" desc="true=pause, false=play" type="bool"/>
+   </function>
+   <function name="openError" funcname="error.openError">
+    <param name="Text" type="string"/>
+    <param name="Body" type="string"/>
+   </function>
+   <function name="closeError" funcname="error.closeError"/>
+   <function name="clearErrorButtons" funcname="error.clearButtons"/>
+   <function name="updateErrorButton" funcname="error.updateButton">
+    <param name="id" type="string"/>
+    <param name="Text" type="string"/>
+    <param name="isEnabled" type="bool"/>
+   </function>
+   <function name="formatErrorButtons" funcname="error.formatButtons"/>
+   <function name="removeErrorButton" funcname="error.removeButton">
+    <param name="id" type="string"/>
+   </function>
+  </functions>
+  <Events>
+   <event name="mouseBtnPress" fscommand="mouseBtnPress" desc="returns unique ID">
+    <param name="Button" desc="Button Name" type="string"/>
+   </event>
+   <event name="workstationReady" fscommand="workstationReady"/>
+   <event name="UISoundManager" fscommand="UISoundPlay" desc="Sound.########">
+    <param name="SoundEvent" desc="Sound Path" type="string"/>
+   </event>
+   <event name="PlayForceFeedback" fscommand="playForceFeedback">
+    <param name="ID" type="string"/>
+    <param name="intensity" type="float"/>
+    <param name="delay" type="float"/>
+   </event>
+   <event name="btnRollOver" fscommand="btnRollOver">
+    <param name="whatButton" type="string"/>
+   </event>
+   <event name="btnRollOut" fscommand="btnRollOut">
+    <param name="whatButton" type="string"/>
+   </event>
+  </Events>
+  <Arrays/>
+  <variables/>
+ </UIElement>
+</UIElements>

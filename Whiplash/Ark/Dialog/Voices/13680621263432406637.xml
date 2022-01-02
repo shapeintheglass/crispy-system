@@ -1,0 +1,106 @@
+
+<Dialog>
+ <Dialog id="13680621263432408695" text="This is Basilisk. Hello?" modified="09/28/2017 07:33:03 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432408718" text="This is Basilisk to KASMA Module Thirteen. We are sending two classified pieces of technology we recovered from TranStar&apos;s moonbase." modified="03/02/2018 09:51:59 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432408761" text="They should be arriving in a few moments." modified="09/28/2017 07:34:50 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432408855" text="We could reassign you to a new post." modified="08/09/2017 07:14:46 PM" notes="First Incoming Transmission NOT USED"/>
+ <Dialog id="13680621263432408873" text="Or... I could give you a mission that would have you out of that blackbox in under week." modified="08/11/2017 09:23:57 PM" notes="First Incoming Transmission NOT USED"/>
+ <Dialog id="13680621263432408907" text="I have your attention?" modified="08/09/2017 07:15:23 PM" notes="First Incoming Transmission NOT USED"/>
+ <Dialog id="13680621263432408944" text="There&apos;s a transport set to rendezvous with your position. It&apos;s carrying two pieces of technology that originated from the TranStar moonbase before it went dark." modified="08/11/2017 09:41:06 PM" notes="First Incoming Transmission NOT USED"/>
+ <Dialog id="13680621263432408950" text="One is an operator containing a backup of the base. It&apos;s a simulation of all the research data, company secrets and connectomes from employee brains." modified="10/13/2017 03:32:51 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432408980" text="We picked you because it&apos;s protected by a *lot* of encryption." modified="10/13/2017 03:33:46 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432408990" text="Fortunately, it comes with a Looking Glass Visor so you&apos;ll be able to search the sim visually." modified="09/28/2017 10:03:21 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432408999" text="You&apos;ll be plugging into the moonbase as it was...seeing it through the personnel that were stationed there." modified="03/02/2018 09:52:08 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432409021" text="Oh, and, congratulations. I am pleased to inform you that executing these orders will fulfill your contract." modified="11/12/2017 03:31:58 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432409026" text="After you recover the data, we&apos;re going to pick you up. So, great news. You&apos;ll be with family soon." modified="09/28/2017 10:03:38 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432409078" text="[people talking in the background]" modified="03/06/2018 08:57:57 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263432409096" text="Basilisk to KASMA Module Thirteen. Copy please." modified="09/28/2017 07:49:07 PM" notes=""/>
+ <Dialog id="13680621263432409109" text="Good hunting, Interceptor." modified="08/09/2017 07:27:58 PM" notes="First Incoming Transmission NOT USED"/>
+ <Dialog id="13680621263432409126" text="Ok, M-13, you&apos;re the expert... the delivery is docking now so, I&apos;ll leave you to it.  " modified="09/28/2017 10:03:51 PM" notes="First Incoming Transmission"/>
+ <Dialog id="13680621263435606522" text="Module Thirteen?  Hello - I&apos;m very sorry you&apos;re waking up to this." modified="09/28/2017 10:01:59 PM"/>
+ <Dialog id="13680621263435606572" text="This is Basilisk to Module Thirteen." modified="11/12/2017 04:03:15 PM"/>
+ <Dialog id="13680621263435606605" text="M-13, this is Basilisk." modified="09/28/2017 07:58:02 PM"/>
+ <Dialog id="13680621263435847173" text="Repeating: Basilisk to KASMA Module Thirteen. Copy please." modified="09/28/2017 07:49:27 PM" notes=""/>
+ <Dialog id="13680621263435863906" text="[background noises]" modified="03/06/2018 08:58:09 PM" notes="SFX - sound of coms opening, garbled static, background voices. From the background din, one voice floats to the surface, becoming clearer"/>
+ <Dialog id="13680621263435864158" text="Peter, are you there?" modified="09/28/2017 10:17:09 PM"/>
+ <Dialog id="13680621263435864183" text="Basilisk to Module Thirteen..." modified="09/28/2017 10:21:18 PM"/>
+ <Dialog id="13680621263435864207" text="I&apos;m just checking the oxygen levels since the impact.  Can you please run a diagnostic on the scrubbers? There should be a workstation. I&apos;m powering it up now." modified="11/28/2017 07:54:07 PM"/>
+ <Dialog id="13680621263435871581" text="It&apos;s self-explanatory." modified="09/28/2017 10:21:48 PM"/>
+ <Dialog id="13680621263435873618" text="Peter, this has to be short." modified="09/28/2017 10:22:25 PM"/>
+ <Dialog id="13680621263435951831" text="Ah, you&apos;re ok. Congratulations. It seems the simulation is significantly corrupted but scans of your brain tomography indicate no damage. " modified="09/28/2017 10:04:05 PM"/>
+ <Dialog id="13680621263435951841" text="The corruption appears to be limited to the host Operator...no externalization - so you should be fine. " modified="09/28/2017 10:04:37 PM"/>
+ <Dialog id="13680621263435951847" text="We&apos;ve transmitted an app that should help track the simulation&apos;s instability." modified="11/13/2017 10:34:07 PM"/>
+ <Dialog id="13680621263436043047" text="This is Basilisk. Orbital intercept M-13 tells us there is elevated activity on all TranStar security channels." modified="10/16/2017 04:39:03 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263436043060" text="We think you&apos;ve been compromised." modified="10/14/2017 04:36:37 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263436043146" text="We need you to destroy all evidence of your operations." modified="10/16/2017 04:39:18 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263436043156" text="I&apos;ll contact you soon with further instructions." modified="10/14/2017 01:36:44 AM" notes="TS to Claire"/>
+ <Dialog id="13680621263436043174" text="Good hunting." modified="09/20/2017 08:47:44 PM"/>
+ <Dialog id="13680621263436043586" text="Alright, Claire." modified="10/16/2017 04:39:47 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263436731023" text="Please install it immediately so you are not caught unaware again." modified="09/28/2017 07:50:39 PM"/>
+ <Dialog id="13680621263436731031" text="Basilisk out." modified="09/28/2017 07:50:47 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263436731497" text="Don&apos;t let those virtual deaths get you down." modified="09/28/2017 10:00:47 PM"/>
+ <Dialog id="13680621263436731509" text="Everyone here is very happy with your progress so, O.C. thought it appropriate to authorize some mail from home." modified="09/28/2017 07:58:45 PM"/>
+ <Dialog id="13680621263436731551" text="I sent it to your workstation." modified="09/28/2017 07:59:32 PM"/>
+ <Dialog id="13680621263436731643" text="I have engineering here. They say not to worry. Damage to oxygen systems is minor. And it is going to hold longer than you&apos;ll need." modified="09/28/2017 10:02:09 PM"/>
+ <Dialog id="13680621263436731662" text="So, gravity loss is probably the more annoying bit at the moment. But I&apos;m told you can run a diagnostic that will re-calibrate the stabilizers." modified="09/28/2017 10:02:18 PM"/>
+ <Dialog id="13680621263436731670" text="You&apos;ll find the interface behind a hatch in the ceiling." modified="10/14/2017 05:05:44 PM"/>
+ <Dialog id="13680621263436731676" text="[background voices]" modified="03/06/2018 08:58:18 PM"/>
+ <Dialog id="13680621263436731692" text="Also, yes, the cause was &apos;small-debris impact&apos;. Much less than a centimeter. You&apos;re going to be fine." modified="09/28/2017 10:02:53 PM"/>
+ <Dialog id="13680621263436731699" text="Basilisk out." modified="09/28/2017 08:01:55 PM"/>
+ <Dialog id="13680621263436739177" text="...ok, Teddy. Well, it&apos;s just *a bit* cold!" modified="02/23/2018 11:25:31 PM" notes="Explaining. Emphasis on &apos;a bit&apos;. "/>
+ <Dialog id="13680621263436739287" text="I suppose." modified="09/28/2017 10:08:23 PM" notes="Thoughtful pause."/>
+ <Dialog id="13680621263436739313" text="He has a family, yes? At least their future will be decent." modified="09/28/2017 10:08:49 PM" notes="Convincing herself."/>
+ <Dialog id="13680621263436739508" text="I suppose. You&apos;re probably right." modified="09/28/2017 10:12:04 PM" notes="Unsure"/>
+ <Dialog id="13680621263436739550" text="Yes. I&apos;m good. You&apos;re right." modified="09/28/2017 10:12:46 PM" notes="Resolved"/>
+ <Dialog id="13680621263436739585" text="Yes, right. Ok. Thanks." modified="09/28/2017 10:13:21 PM" notes="Decidedly upbeat."/>
+ <Dialog id="13680621263436739645" text="What is... ? [sound of fumbling with controls, beeps]" modified="03/06/2018 08:58:25 PM" notes="Talking to herself. SFX"/>
+ <Dialog id="13680621263436739691" text="Test. Test. Is this on? Module Thirteen? Hello? [fumbling noises]" modified="03/06/2018 08:58:38 PM" notes="SFX - &lt;sound of additional fumbling and beeps, then the connection goes dead.&gt;"/>
+ <Dialog id="13680621263436739824" text="Look, I need to talk to you. Everything passing between the module and KASMA is logged, so I know the channel was open. And I know what you heard. Right now, I&apos;m the only one who knows." modified="10/14/2017 05:07:17 PM"/>
+ <Dialog id="13680621263436739850" text="I need to say I&apos;m sorry. You&apos;re not the only one who signed a penalty contract with KASMA and many of us are obligated to the company now in difficult ways." modified="10/14/2017 05:07:26 PM"/>
+ <Dialog id="13680621263436739885" text="I can&apos;t paint this a different color for you. But if you help me, if you finish what the company is asking you to do, I will personally provide you with an out." modified="10/14/2017 05:07:31 PM"/>
+ <Dialog id="13680621263436739898" text="If you don&apos;t trust me, I don&apos;t blame you. But if you don&apos;t trust me now, both of us will be in the same shit." modified="09/28/2017 10:18:50 PM"/>
+ <Dialog id="13680621263436739921" text="I leave it to you to decide. I have to go now." modified="09/28/2017 10:18:57 PM"/>
+ <Dialog id="13680621263436739942" text="Please consider what I&apos;ve said, Peter. For you... and me... and your family." modified="09/28/2017 10:19:18 PM"/>
+ <Dialog id="13680621263436739951" text="Goodbye." modified="09/28/2017 10:19:27 PM"/>
+ <Dialog id="13680621263436740099" text="Basilisk out." modified="09/28/2017 10:21:55 PM"/>
+ <Dialog id="13680621263436740152" text="I&apos;ve unlocked a utility on your workstation per our agreement." modified="10/11/2017 08:39:34 PM"/>
+ <Dialog id="13680621263436740160" text="I want to thank you for all you&apos;ve done." modified="10/11/2017 08:39:40 PM"/>
+ <Dialog id="13680621263436740168" text="You don&apos;t have much time so, good luck to you." modified="10/11/2017 08:39:44 PM"/>
+ <Dialog id="13680621263438102050" text="Claire?" modified="10/14/2017 04:41:06 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106149" text="Good luck." modified="10/14/2017 05:49:25 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106409" text="Claire." modified="10/14/2017 05:53:45 PM" notes="I&apos;ve got something terrible to say. TS to Cl"/>
+ <Dialog id="13680621263438106483" text="I&apos;m very sorry. O.C. is... they&apos;re saying they can&apos;t dedicate any assets for a dustoff. And I... there&apos;s just nothing I can do. I&apos;m sorry." modified="10/16/2017 04:45:40 PM" notes="Trying to explain. Frustrated.  Angry at her superiors. TS to Claire"/>
+ <Dialog id="13680621263438106524" text="You&apos;re on your own." modified="10/14/2017 05:55:40 PM" notes="Sad. TS to Claire"/>
+ <Dialog id="13680621263438106537" text="This is the last time I&apos;m allowed to contact you." modified="10/14/2017 05:55:53 PM" notes="Pissed."/>
+ <Dialog id="13680621263438106543" text="Basilisk out." modified="10/14/2017 05:55:59 PM" notes="Angry sign off. TS to Cl"/>
+ <Dialog id="13680621263438106625" text="We&apos;ve learned that Director Yu is planning to duplicate her personality onto an Operator using TranStar&apos;s emulation tech." modified="11/14/2017 12:13:25 AM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106746" text="We need you to install a program on her workstation so that when she does this it will be... terminal. It&apos;ll look like an accident." modified="11/14/2017 12:13:46 AM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106778" text="Your command key has all the necessary functions." modified="10/14/2017 05:59:54 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106800" text="We&apos;re still working on an exit strategy for you. I&apos;m sorry - everyone is scrambling up here. We&apos;ve lost contact with our assets on Talos I." modified="10/16/2017 04:42:54 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106834" text="I&apos;m sure things aren&apos;t much better on the moon." modified="10/16/2017 04:43:02 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106957" text="Good job, Claire." modified="11/14/2017 12:28:51 AM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106976" text="Okay, last step - when Riley launches the Operator, we plan on scooping it up. We need a way to track it, so O.C. wants you to hide your command key inside the Operator." modified="11/06/2017 08:47:38 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263438106996" text="It should have a compartment." modified="10/14/2017 06:03:32 PM" notes="Extra line just in case."/>
+ <Dialog id="13680621263438107013" text="That&apos;s it. We&apos;re going to get you out of there." modified="11/14/2017 12:15:16 AM" notes="Straining to convince Claire... herself? TS to Cl"/>
+ <Dialog id="13680621263438107033" text="Basilisk out." modified="10/14/2017 06:04:09 PM" notes="Tired. TS to Claire"/>
+ <Dialog id="13680621263440104369" text="O.C. is fairly certain she&apos;ll launch the operator as an emergency measure, afterwards." modified="11/06/2017 08:53:05 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263440104387" text="We need you to hide your command key on that operator. " modified="11/06/2017 08:53:23 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263440104419" text="Your key has a few programs that will hijack the emulation process and make the experience... terminal." modified="11/06/2017 08:54:29 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263440104456" text="It&apos;ll look like an accident." modified="11/06/2017 08:54:32 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263440104515" text="And then, when the operator launches we&apos;ll scoop it up." modified="11/06/2017 08:57:17 PM" notes="TS to Claire"/>
+ <Dialog id="13680621263440603553" text="There&apos;s a lot to do. I&apos;m sending your orders along so you can check them off as you go." modified="11/12/2017 03:32:49 PM"/>
+ <Dialog id="13680621263440603982" text="It looks like you&apos;re just about a quarter of the way through the orders we sent you." modified="11/12/2017 03:39:58 PM"/>
+ <Dialog id="13680621263440604026" text="Don&apos;t forget to keep checking them. You can see your orders from the ready room or from within the simulation itself." modified="11/12/2017 04:32:16 PM"/>
+ <Dialog id="13680621263440605401" text="Just checking in." modified="11/12/2017 04:03:37 PM"/>
+ <Dialog id="13680621263440605443" text="You have only one order remaining. What you&apos;ve accomplished...  it&apos;s incredible. This last one is going to be tough." modified="11/12/2017 04:04:19 PM"/>
+ <Dialog id="13680621263440605470" text="But once it&apos;s done, your contract is fulfilled. You&apos;ll have no further obligation to KASMA... nor will KASMA have any to you. " modified="11/12/2017 04:06:27 PM"/>
+ <Dialog id="13680621263440605495" text="You understand? Just be sure... I - just make sure you&apos;re ready. For your last order, I mean.  " modified="11/13/2017 11:53:00 PM"/>
+ <Dialog id="13680621263440605508" text="That&apos;s all I wanted to say.   " modified="11/12/2017 04:05:24 PM"/>
+ <Dialog id="13680621263440605513" text="Basilisk out.  " modified="11/12/2017 04:05:29 PM"/>
+ <Dialog id="13680621263440605730" facefx="0" sync="0" notes="" text="Oh and good work." modified="11/12/2017 04:09:11 PM"/>
+ <Dialog id="13680621263440605737" facefx="0" sync="0" notes="" text="You&apos;re over half-way done now." modified="11/12/2017 04:09:28 PM"/>
+ <Dialog id="13680621263440605754" facefx="0" sync="0" notes="" text="You&apos;re nearly half-way done now." modified="11/12/2017 04:09:36 PM"/>
+ <Dialog id="13680621263440605761" facefx="0" sync="0" notes="" text="Keep knocking those orders out and you&apos;ll be with your family in no time." modified="11/12/2017 04:09:53 PM"/>
+ <Dialog id="13680621263440605805" facefx="0" sync="0" notes="" text="You making great progress with your orders." modified="11/12/2017 04:10:30 PM"/>
+ <Dialog id="13680621263440605821" facefx="0" sync="0" notes="" text="It looks like you&apos;re just over a quarter of the way through the orders we sent you." modified="11/12/2017 04:12:22 PM"/>
+</Dialog>

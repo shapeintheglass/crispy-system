@@ -1,0 +1,148 @@
+
+<Dialog>
+ <Dialog id="15659330456391356888" text="A Phantom killed you." modified="09/20/2017 10:36:44 PM"/>
+ <Dialog id="15659330456391713365" text="A phantom&apos;s kinetic blast destroyed you." modified="09/20/2017 10:42:17 PM"/>
+ <Dialog id="13680621263436049586" text="You died." modified="09/20/2017 10:33:22 PM"/>
+ <Dialog id="13680621263436049891" text="A phantom&apos;s kinetic blast ruptured your organs." modified="09/20/2017 10:38:27 PM"/>
+ <Dialog id="13680621263436050011" text="A phantom&apos;s kinetic blast concussed you to death." modified="09/20/2017 10:40:27 PM"/>
+ <Dialog id="13680621263436050162" text="A phantom&apos;s arms whipped you into oblivion." modified="09/20/2017 10:42:58 PM"/>
+ <Dialog id="13680621263436050173" text="A phantom pummeled you to death." modified="09/20/2017 10:43:09 PM"/>
+ <Dialog id="13680621263436050177" text="A phantom battered you." modified="09/20/2017 10:44:42 PM"/>
+ <Dialog id="13680621263436051059" text="A mimic killed you." modified="09/20/2017 10:57:55 PM"/>
+ <Dialog id="13680621263436051602" text="A mimic lashed you to death." modified="09/20/2017 11:06:58 PM"/>
+ <Dialog id="13680621263436051689" text="A greater mimic chocked you to death." modified="09/20/2017 11:08:25 PM"/>
+ <Dialog id="13680621263436051699" text="A greater mimic strangled you." modified="09/20/2017 11:08:35 PM"/>
+ <Dialog id="13680621263436051708" text="A greater mimic took your breath away." modified="09/20/2017 11:08:44 PM"/>
+ <Dialog id="13680621263436051786" text="A greater mimic killed you." modified="09/20/2017 11:10:02 PM"/>
+ <Dialog id="13680621263436051841" text="A greater mimic thrashed you." modified="09/20/2017 11:10:57 PM"/>
+ <Dialog id="13680621263436052571" text="A mimic ripped out your spleen. " modified="09/20/2017 11:23:07 PM"/>
+ <Dialog id="13680621263436052649" text="Cause of death: Multiple contusions delivered by mimic appendages." modified="09/20/2017 11:24:35 PM"/>
+ <Dialog id="13680621263436052787" text="A voltaic phantom killed you." modified="09/20/2017 11:26:43 PM"/>
+ <Dialog id="13680621263436052910" text="A voltaic phantom electrocuted you." modified="09/20/2017 11:28:46 PM"/>
+ <Dialog id="13680621263436053005" text="A voltaic phantom shocked you to death." modified="09/20/2017 11:30:21 PM"/>
+ <Dialog id="13680621263436053034" text="A voltaic phantom fried your organs." modified="09/20/2017 11:30:50 PM"/>
+ <Dialog id="13680621263436053066" text="A voltaic phantom stopped your heart." modified="09/20/2017 11:31:22 PM"/>
+ <Dialog id="13680621263436053119" text="A voltaic phatom smashed you to a pulp." modified="09/20/2017 11:32:15 PM"/>
+ <Dialog id="13680621263436053130" text="A voltaic phantom bludgeoned you to death." modified="09/20/2017 11:32:26 PM"/>
+ <Dialog id="13680621263436053168" text="A voltaic phantom bashed your skull." modified="09/20/2017 11:33:04 PM"/>
+ <Dialog id="13680621263436053500" text="A corrupt engineering operator killed you." modified="09/20/2017 11:38:36 PM"/>
+ <Dialog id="13680621263436053512" text="A corrupt engineering operator burned you to death." modified="09/20/2017 11:38:48 PM"/>
+ <Dialog id="13680621263436053538" text="You&apos;ve been incinerated by corrupt engineering operator." modified="09/20/2017 11:39:14 PM"/>
+ <Dialog id="13680621263436053550" text="A corrupt egineering operator torched you." modified="09/20/2017 11:39:26 PM"/>
+ <Dialog id="13680621263436053628" text="A corrupt engineering operator roasted your flesh." modified="09/20/2017 11:41:28 PM"/>
+ <Dialog id="13680621263436053763" text="An operator exploded and took you with it." modified="09/20/2017 11:42:59 PM"/>
+ <Dialog id="13680621263436053779" text="You were too close to an operator when it exploded." modified="09/20/2017 11:43:15 PM"/>
+ <Dialog id="13680621263436053812" text="An operator detonated, causing you to die." modified="09/20/2017 11:43:48 PM"/>
+ <Dialog id="13680621263436053822" text="You were caught in the blast radius of a dying operator." modified="09/20/2017 11:43:58 PM"/>
+ <Dialog id="13680621263436054052" text="A corrupt science operator killed you." modified="09/20/2017 11:47:48 PM"/>
+ <Dialog id="13680621263436054121" text="A corrupt science operator gave your system a shock." modified="01/05/2018 01:39:58 AM"/>
+ <Dialog id="13680621263436054463" text="A corrupt science operator delivered 20,000 amperes of electrical current to your body." modified="09/21/2017 12:08:58 AM"/>
+ <Dialog id="13680621263436055522" text="A corrupt science operator caused your heart to fibrillate." modified="09/21/2017 12:12:18 AM"/>
+ <Dialog id="13680621263436195176" text="Simulation host fatal error 1032932-SSR01. Exiting." modified="10/25/2017 08:37:28 PM"/>
+ <Dialog id="13680621263439049023" text="You starved while in orbit around the Earth." modified="10/25/2017 03:43:59 PM"/>
+ <Dialog id="13680621263439049043" text="You died from lack of water while in orbit around the Earth." modified="10/25/2017 03:44:19 PM"/>
+ <Dialog id="13680621263439049067" text="You died from overexposure to cosmic radiation. Bring Anti-rads next time." modified="10/25/2017 08:35:31 PM"/>
+ <Dialog id="13680621263439066766" text="You burned to death." modified="10/25/2017 08:39:42 PM"/>
+ <Dialog id="13680621263439066772" text="You were immolated." modified="10/25/2017 08:39:48 PM"/>
+ <Dialog id="13680621263439066779" text="Flames took your life." modified="10/25/2017 08:39:55 PM"/>
+ <Dialog id="13680621263439066829" text="You suffocated." modified="10/25/2017 08:40:45 PM"/>
+ <Dialog id="13856881013259159917" text="Falling" modified="12/08/2017 05:18:37 PM"/>
+ <Dialog id="13856881013259160052" text="You fell to your death." modified="12/08/2017 05:20:52 PM"/>
+ <Dialog id="13856881013259431720" text="test1" modified="12/11/2017 08:48:40 PM"/>
+ <Dialog id="13680621263443213486" text="Claire Whitten poisoned you." modified="12/12/2017 08:31:42 PM"/>
+ <Dialog id="13680621263445212808" text="A thermal phantom killed you." modified="01/04/2018 11:53:44 PM"/>
+ <Dialog id="13680621263445214221" text="A telepath killed you." modified="01/05/2018 12:17:17 AM"/>
+ <Dialog id="13680621263445216354" text="You bled to death." modified="01/05/2018 12:52:50 AM"/>
+ <Dialog id="13680621263445216442" text="You were irradiated to death." modified="01/05/2018 12:54:18 AM"/>
+ <Dialog id="13680621263445216457" text="Radiation cooked your insides." modified="01/05/2018 12:54:33 AM"/>
+ <Dialog id="13680621263445216967" text="You died in an explosion." modified="01/05/2018 01:03:03 AM"/>
+ <Dialog id="13680621263445217158" text="You were electrocuted." modified="01/05/2018 01:06:14 AM"/>
+ <Dialog id="13680621263445217168" text="You were shocked to death." modified="01/05/2018 01:06:24 AM"/>
+ <Dialog id="13680621263445217187" text="Corrosive gas killed you." modified="01/05/2018 01:06:43 AM"/>
+ <Dialog id="13680621263445217843" text="A thermal phantom lashed you to death." modified="01/05/2018 01:17:39 AM"/>
+ <Dialog id="13680621263445217863" text="A thermal phantom whipped your ass." modified="01/05/2018 01:17:59 AM"/>
+ <Dialog id="13680621263445217880" text="A thermal phantom thrashed you." modified="01/05/2018 01:18:16 AM"/>
+ <Dialog id="13680621263445218601" text="A thermal phantom burned you to death." modified="01/05/2018 01:30:17 AM"/>
+ <Dialog id="13680621263445218633" text="A thermal phantom roasted you alive." modified="01/05/2018 01:30:49 AM"/>
+ <Dialog id="13680621263445218648" text="A thermal phantom incinerated you." modified="01/05/2018 01:31:04 AM"/>
+ <Dialog id="13680621263445218678" text="A thermal phantom killed you in a fiery blaze." modified="01/05/2018 01:31:34 AM"/>
+ <Dialog id="13680621263445218779" text="An etheric phantom killed you." modified="01/05/2018 01:33:15 AM"/>
+ <Dialog id="13680621263445218827" text="An etheric phantom whipped you until you died." modified="01/05/2018 01:34:03 AM"/>
+ <Dialog id="13680621263445218955" text="An etheric phantom struck you down." modified="01/05/2018 01:36:11 AM"/>
+ <Dialog id="13680621263445218970" text="An etheric phantom lashed you to death." modified="01/05/2018 01:36:26 AM"/>
+ <Dialog id="13680621263445219032" text="An etheric phantom&apos;s toxic remains disintegrated you. " modified="01/05/2018 01:37:28 AM"/>
+ <Dialog id="13680621263445219122" text="A corrupt medical operator killed you." modified="01/05/2018 01:38:58 AM"/>
+ <Dialog id="13680621263445219210" text="A corrupt medical operator zapped you to death." modified="01/05/2018 01:40:26 AM"/>
+ <Dialog id="13680621263445219222" text="A corrupt medical operator electrocuted you." modified="01/05/2018 01:40:38 AM"/>
+ <Dialog id="13680621263445219251" text="A corrupted medical operator used lethal shock therapy on you." modified="01/05/2018 01:41:07 AM"/>
+ <Dialog id="13680621263445219285" text="A corrupt security operator killed you." modified="01/05/2018 01:41:41 AM"/>
+ <Dialog id="13680621263445219320" text="A corrupt security operator lasered you to death." modified="01/05/2018 01:42:57 AM"/>
+ <Dialog id="13680621263445219353" text="You fell beneath a corrupt security operator&apos;s burning hot lasers." modified="01/05/2018 01:43:29 AM"/>
+ <Dialog id="13680621263445219371" text="A security operator cooked you with its laser." modified="01/05/2018 01:43:20 AM"/>
+ <Dialog id="13680621263445219419" text="A harvester killed you." modified="01/05/2018 01:43:55 AM"/>
+ <Dialog id="13680621263445219834" text="A harvester exploded, taking you with it." modified="01/05/2018 01:50:50 AM"/>
+ <Dialog id="13680621263445219843" text="You died in the blast radius of a harvester." modified="01/09/2018 08:24:07 PM"/>
+ <Dialog id="13680621263445219898" text="You died inside the blast radius of a telepath&apos;s psychic attack." modified="01/05/2018 01:52:22 AM"/>
+ <Dialog id="13680621263445219914" text="A telepath nuked the area with a massive psychic blast. " modified="01/05/2018 01:57:37 AM"/>
+ <Dialog id="13680621263445219943" text="A telepath killed you with it&apos;s psychic shockwave." modified="01/05/2018 01:52:39 AM"/>
+ <Dialog id="13680621263445220142" text="A telepath bombarded you with a psychic projectile." modified="01/05/2018 01:57:01 AM"/>
+ <Dialog id="13680621263445220186" text="A telepath shattered your mind with its psychic projectile." modified="03/23/2018 10:36:24 PM"/>
+ <Dialog id="13680621263445220302" text="A technopath killed you." modified="01/05/2018 01:58:38 AM"/>
+ <Dialog id="13680621263445220346" text="A harvester sucked you up and disintegrated you." modified="01/05/2018 01:59:22 AM"/>
+ <Dialog id="13680621263445220361" text="A harvester recycled you into useful materials." modified="04/02/2018 04:21:11 PM"/>
+ <Dialog id="13680621263445220420" text="A harvester converted your body into approximately .1 mineral, .5 organic, and .05 synthetic material." modified="02/09/2018 09:15:52 PM"/>
+ <Dialog id="13680621263445221292" text="A moon shark killed you." modified="02/07/2018 10:54:17 PM"/>
+ <Dialog id="13680621263445221347" text="A moon shark skewered you." modified="02/07/2018 10:54:24 PM"/>
+ <Dialog id="13680621263445221361" text="A moon shark pounded you into the lunar regolith." modified="02/07/2018 10:54:31 PM"/>
+ <Dialog id="13680621263445221397" text="A moon shark savaged you with its claws." modified="02/07/2018 10:54:36 PM"/>
+ <Dialog id="13680621263445221639" text="A moon shark crushed you." modified="02/07/2018 10:54:42 PM"/>
+ <Dialog id="13680621263445221652" text="A moon shark bombarded you with rocks." modified="02/07/2018 10:54:45 PM"/>
+ <Dialog id="13680621263445221667" text="A moon shark pulverized you with boulders." modified="02/07/2018 10:54:50 PM"/>
+ <Dialog id="13680621263445631654" text="A technopath shocked you to death." modified="01/09/2018 08:14:30 PM"/>
+ <Dialog id="13680621263445631687" text="You were electrocuted by a technopath." modified="01/09/2018 08:15:03 PM"/>
+ <Dialog id="13680621263445631741" text="A technopath struck you with lightning." modified="01/09/2018 08:16:05 PM"/>
+ <Dialog id="13680621263445631795" text="A nightmare killed you." modified="01/09/2018 08:16:51 PM"/>
+ <Dialog id="13680621263445631935" text="A nightmare stabbed you to death." modified="01/09/2018 08:23:08 PM"/>
+ <Dialog id="13680621263445631947" text="A nightmare perferated your body." modified="01/09/2018 08:19:23 PM"/>
+ <Dialog id="13680621263445632063" text="A nightmare speared you like a fish." modified="01/09/2018 08:21:19 PM"/>
+ <Dialog id="13680621263445632279" text="A nightmare&apos;s kinetic projectiles found you." modified="01/09/2018 08:24:55 PM"/>
+ <Dialog id="13680621263445632328" text="You were caught by the blast of a nightmare&apos;s kinetic projectile." modified="01/09/2018 08:25:44 PM"/>
+ <Dialog id="13680621263445635272" text="A poltergeist killed you." modified="01/09/2018 09:14:48 PM"/>
+ <Dialog id="13680621263445635389" text="A poltergeist smashed objects against you until you died." modified="01/09/2018 09:16:45 PM"/>
+ <Dialog id="13680621263445635417" text="A poltergeist used its telekinetic abilities to kill you." modified="01/09/2018 09:18:15 PM"/>
+ <Dialog id="13680621263445635464" text="A poltergeist battered you to death with miscellaneous set dressing." modified="01/09/2018 09:18:32 PM"/>
+ <Dialog id="13680621263445635793" text="You were too close to a poltergiest when it released a concussive shockwave." modified="01/09/2018 09:24:01 PM"/>
+ <Dialog id="13680621263445636957" text="A cystoid killed you." modified="01/09/2018 09:42:53 PM"/>
+ <Dialog id="13680621263445640775" text="A cystoid exploded, killing you." modified="01/09/2018 10:46:31 PM"/>
+ <Dialog id="13680621263445640826" text="An exploding cystoid ended your life." modified="01/09/2018 10:47:22 PM"/>
+ <Dialog id="13680621263445640839" text="You were caught in the blast of an exploding cystoid." modified="01/09/2018 10:47:35 PM"/>
+ <Dialog id="13680621263445640906" text="A typhon tentacle killed you." modified="01/09/2018 10:48:42 PM"/>
+ <Dialog id="13680621263445640956" text="You were disintegrated by a typhon tentacle." modified="01/09/2018 10:49:32 PM"/>
+ <Dialog id="13680621263445641009" text="A typhon tentacle broke down your atomic bonds." modified="01/09/2018 10:50:25 PM"/>
+ <Dialog id="13680621263445641038" text="A typhon tentacle absorbed your consciousness. " modified="02/07/2018 10:55:59 PM"/>
+ <Dialog id="13680621263445641074" text="A weaver killed you." modified="01/09/2018 10:51:30 PM"/>
+ <Dialog id="13680621263445641118" text="A mind-controlled crew member killed you." modified="01/09/2018 10:52:14 PM"/>
+ <Dialog id="13680621263445641529" text="A mind controlled human exploded, killing you." modified="01/09/2018 10:59:05 PM"/>
+ <Dialog id="13680621263445641584" text="A crew member under the control of a telepath killed you by exploding." modified="01/09/2018 11:00:00 PM"/>
+ <Dialog id="13680621263445641611" text="A crew member&apos;s head detonated near you." modified="01/09/2018 11:00:27 PM"/>
+ <Dialog id="13680621263445642828" text="You recycled yourself." modified="01/09/2018 11:20:44 PM"/>
+ <Dialog id="13680621263445642984" text="You blew yourself up." modified="01/09/2018 11:23:20 PM"/>
+ <Dialog id="13680621263445643080" text="You incinerated yourself." modified="01/09/2018 11:24:56 PM"/>
+ <Dialog id="13680621263445643285" text="A turret lasered you to death." modified="01/09/2018 11:28:21 PM"/>
+ <Dialog id="13680621263445643296" text="A turrest shot you full of holes." modified="01/09/2018 11:28:32 PM"/>
+ <Dialog id="13680621263445643308" text="A turret shot you to death." modified="01/09/2018 11:28:44 PM"/>
+ <Dialog id="13680621263445643331" text="You were burned to death by a laser turret." modified="01/09/2018 11:29:07 PM"/>
+ <Dialog id="13680621263445643627" text="A thermal mimic killed you." modified="01/09/2018 11:34:03 PM"/>
+ <Dialog id="13680621263445643655" text="The warm embrace of a thermal mimic killed you." modified="01/09/2018 11:34:31 PM"/>
+ <Dialog id="13680621263445643709" text="A voltaic mimic killed you." modified="01/09/2018 11:35:25 PM"/>
+ <Dialog id="13680621263445643729" text="The shocking embrace of a voltaic mimic killed you." modified="01/09/2018 11:35:45 PM"/>
+ <Dialog id="13680621263445643751" text="An etheric mimic killed you." modified="01/09/2018 11:36:07 PM"/>
+ <Dialog id="13680621263445643761" text="An etheric mimic took your breath away." modified="01/09/2018 11:36:17 PM"/>
+ <Dialog id="13680621263445643770" text="An etheric mimic strangled you." modified="01/09/2018 11:36:26 PM"/>
+ <Dialog id="13680621263446417422" text="A Typhon Tower vaporized you." modified="01/18/2018 10:30:38 PM"/>
+ <Dialog id="13680621263446417440" text="You were caught in the crater when a Typhon Tower fired." modified="01/18/2018 10:30:56 PM"/>
+ <Dialog id="13680621263449367606" text="The telepath controlling you exploded your head." modified="02/22/2018 02:00:22 AM"/>
+ <Dialog id="13680621263449449879" text="The moonbase sim is too corrupt to continue. Please reset." modified="02/23/2018 12:51:35 AM"/>
+ <Dialog id="13680621263450390754" text="What you just did to yourself defies explanation." modified="03/05/2018 10:27:46 PM"/>
+ <Dialog id="13680621263450995297" text="Claire Whitten erased your mind." modified="03/12/2018 10:08:33 PM"/>
+</Dialog>

@@ -1,0 +1,17 @@
+
+<CombinedBlendSpace>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <VEGPARAMS Idle2Move="1"/>
+ <Dimensions>
+  <Param name="TurnAngle" ChooseBlendSpace="1" locked="1"/>
+  <Param name="MoveSpeed"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="TravelAngle"/>
+ </AdditionalExtraction>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Humans/LargeMale/_lmg/2d-Bspace_Relaxed_MoveStart_Left_Empty.bspace"/>
+  <BlendSpace AName="animations/Characters/Humans/LargeMale/_lmg/2d-Bspace_Relaxed_MoveStart_Right_Empty.bspace"/>
+ </BlendSpaces>
+ <JointList/>
+</CombinedBlendSpace>

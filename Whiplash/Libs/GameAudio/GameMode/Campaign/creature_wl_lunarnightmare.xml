@@ -1,0 +1,73 @@
+
+<ATLConfig atl_name="Creature_WL_LunarNightmare">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_LunarNightmare_BurstGround">
+   <WwiseEvent wwise_name="Play_LunarNightmare_BurstGround"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_Death">
+   <WwiseEvent wwise_name="Play_LunarNightmare_Death"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_GroundPound_Impact">
+   <WwiseEvent wwise_name="Play_LunarNightmare_GroundPound_Impact"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_GroundPound_Swipe">
+   <WwiseEvent wwise_name="Play_LunarNightmare_GroundPound_Swipe"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_State_Combat">
+   <WwiseEvent wwise_name="Play_LunarNightmare_State_Combat"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_State_Idle">
+   <WwiseEvent wwise_name="Play_LunarNightmare_State_Idle"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_State_Notice">
+   <WwiseEvent wwise_name="Play_LunarNightmare_State_Notice"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_State_Search">
+   <WwiseEvent wwise_name="Play_LunarNightmare_State_Search"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_State_Stare">
+   <WwiseEvent wwise_name="Play_LunarNightmare_State_Stare"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_State_Underground">
+   <WwiseEvent wwise_name="Play_LunarNightmare_State_Underground"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_Telekinesis_Fire">
+   <WwiseEvent wwise_name="Play_LunarNightmare_Telekinesis_Fire"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_Telekinesis_Telegraph">
+   <WwiseEvent wwise_name="Play_LunarNightmare_Telekinesis_Telegraph"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_Exist">
+   <WwiseEvent wwise_name="Play_LunarNightmare_Exist"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_LunarNightmare_Exist">
+   <WwiseEvent wwise_name="Stop_LunarNightmare_Exist"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_Underground_Move">
+   <WwiseEvent wwise_name="Play_LunarNightmare_Underground_Move"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_VOX_Attack_Claw">
+   <WwiseEvent wwise_name="Play_LunarNightmare_VOX_Attack_Claw"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_VOX_Death">
+   <WwiseEvent wwise_name="Play_LunarNightmare_VOX_Death"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_LunarNightmare_VOX_Pain">
+   <WwiseEvent wwise_name="Play_LunarNightmare_VOX_Pain"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="WL_LunarNightmare.bnk" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="WL_LunarNightmare.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

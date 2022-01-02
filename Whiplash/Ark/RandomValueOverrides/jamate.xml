@@ -1,0 +1,18 @@
+
+<overrides>
+ <override id="5345056487485636760" value="11"/>
+ <override id="5345056487485638465" value="2"/>
+ <shuffledListOverride id="10739735956177269577">
+  <overrideValue value="0"/>
+  <overrideValue value="1"/>
+  <overrideValue value="6"/>
+  <overrideValue value="2"/>
+  <overrideValue value="3"/>
+  <overrideValue value="4"/>
+  <overrideValue value="5"/>
+  <overrideValue value="7"/>
+  <overrideValue value="9"/>
+  <overrideValue value="10"/>
+  <overrideValue value="8"/>
+ </shuffledListOverride>
+</overrides>

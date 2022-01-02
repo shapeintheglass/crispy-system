@@ -1,0 +1,61 @@
+
+<ArkPlayableCharacterLibrary>
+ <PlayableCharacters>
+  <ArkPlayableCharacter ID="10739735956174766565" Name="Morgan" Model="objects/characters/Player/Player.cdf" AbilityLayout="3149325216966331257" Corpse="ArkHumans.Player.Morgan Karl Male" ArmsSkin="arms" LegsSkin="legs" Label="@loc_10739735956175444100" ClassLabel="@loc_13680621263433627978" Description="@loc_13680621263433628032" SkeletonKey="false">
+   <StartingAbilities/>
+   <StartingItems/>
+  </ArkPlayableCharacter>
+  <ArkPlayableCharacter ID="10739735956174775198" Name="Meta" Model="objects/characters/Player/Player.cdf" AbilityLayout="3149325216966331257" ArmsSkin="skin_satellite_arms" LegsSkin="skin_satellite_legs" SkeletonKey="false" SwitchState="Satellite">
+   <StartingAbilities/>
+   <StartingItems/>
+  </ArkPlayableCharacter>
+  <ArkPlayableCharacter ID="10739735956175282099" Name="Volunteer" Model="objects/characters/Player/Player.cdf" AbilityLayout="3149325216997539852" Corpse="ArkHumans.Player.Volunteer_Player_AndriusAlekna" Label="@loc_3149325216997614213" StatModifier="3149325216997617620" ArmsSkin="skin_volunteer_arms" LegsSkin="skin_volunteer_body" StartsUnlocked="true" ClassLabel="@loc_13680621263433628269" Description="@loc_13680621263433628282" SkeletonKey="false" PortraitImage="volunteer" SwitchState="Volunteer" InitialObjectiveDescription="@loc_13856881013258898566">
+   <StartingAbilities/>
+   <StartingItems>
+    <ArkStartingItem Archetype="ArkPickups.Food.FuD" Quantity="2" ShowOnCharacterSelect="true"/>
+    <ArkStartingItem Archetype="ArkPickups.Medical.PsiHypo" Quantity="2" ShowOnCharacterSelect="true"/>
+   </StartingItems>
+   <ReadyRoomCharacter UnlockedModel="objects/characters/humansfinal/andriusalekna.cdf" ADB="Animations\Mannequin\ADB\Ai_Human_Database.adb" ControllerDef="Animations\Mannequin\ADB\Ai_Human_ControllerDefs.xml" Fragment="Cs_UI_CharacterSelect_MaleVolunteer" IdleTag="introidle" LockedTag="unavailable" DeadTag="dead"/>
+  </ArkPlayableCharacter>
+  <ArkPlayableCharacter ID="10739735956174775260" Name="Director" Model="objects/characters/Player/playerFemale.cdf" AbilityLayout="3149325216997539850" Corpse="ArkHumans.Player.Main_Player_RileyYu" Label="@loc_3149325216997614202" StatModifier="3149325216997617570" ArmsSkin="arms" LegsSkin="legs" ClassLabel="@loc_13680621263433628235" Description="@loc_13680621263433628247" SkeletonKey="false" PortraitImage="director" LockedDescription="" SwitchState="Director" InitialObjectiveDescription="@loc_13856881013258896939" UnlockMethod="@loc_10739735956192567722">
+   <StartingAbilities/>
+   <StartingItems>
+    <ArkStartingItem Archetype="ArkPickups.Medical.PsiHypo" Quantity="2" ShowOnCharacterSelect="true"/>
+    <ArkStartingItem Archetype="ArkPickups.AutoSpawn.GrantPsychoschope" Quantity="1" ShowOnCharacterSelect="true"/>
+   </StartingItems>
+   <ReadyRoomHandProp UnlockedModel="objects/accessories/transcribe/transcribe1p_01.cgf" LockedModel="objects/accessories/transcribe/transcribe3p_01.cgf"/>
+   <ReadyRoomCharacter UnlockedModel="objects/characters/humansfinal/rileyyu.cdf" ADB="Animations\Mannequin\ADB\Ai_Human_Database.adb" ControllerDef="Animations\Mannequin\ADB\Ai_Human_ControllerDefs.xml" Fragment="Cs_UI_CharacterSelect_FemaleDirector" IdleTag="introidle" LockedTag="unavailable" DeadTag="dead"/>
+  </ArkPlayableCharacter>
+  <ArkPlayableCharacter ID="10739735956174775251" Name="Security" Model="objects/characters/Player/Player.cdf" AbilityLayout="3149325216997539719" Corpse="ArkHumans.Player.Security_Player_VijayBhatia" Label="@loc_3149325216997538406" StatModifier="3149325216997617606" ArmsSkin="skin_security_arms" LegsSkin="skin_security_body" StartsUnlocked="false" ClassLabel="@loc_13680621263433628181" Description="@loc_13680621263433628189" SkeletonKey="false" PortraitImage="security" LockedDescription="" SwitchState="Security" InitialObjectiveDescription="@loc_13856881013258896937" UnlockMethod="@loc_10739735956192567818">
+   <StartingAbilities/>
+   <StartingItems>
+    <ArkStartingItem Archetype="ArkPickups.Weapons.Unique.Shotgun_SecurityCharacter" Quantity="1" ShowOnCharacterSelect="true"/>
+    <ArkStartingItem Archetype="ArkPickups.Ammo.ShotgunShells" Quantity="12" ShowOnCharacterSelect="true"/>
+    <ArkStartingItem Archetype="ArkPickups.AutoSpawn.GrantPropulsionSuit" Quantity="1" ShowOnCharacterSelect="true"/>
+   </StartingItems>
+   <ReadyRoomCharacter UnlockedModel="objects/characters/humansfinal/vijaybhatia.cdf" ADB="Animations\Mannequin\ADB\Ai_Human_Database.adb" ControllerDef="Animations\Mannequin\ADB\Ai_Human_ControllerDefs.xml" Fragment="Cs_UI_CharacterSelect_MaleSecurity" IdleTag="introidle" LockedTag="unavailable" DeadTag="dead"/>
+   <ReadyRoomHandProp UnlockedModel="objects/weapons/shotgun/1p/shotgun1p.cdf" IdleIntroAnim="UI_CharacterSelect_ReadyIntro_Security_Shotgun"/>
+  </ArkPlayableCharacter>
+  <ArkPlayableCharacter ID="10739735956174775241" Name="Janitor" Model="objects/characters/Player/playerFemale.cdf" AbilityLayout="3149325216997539060" Corpse="ArkHumans.Player.Admin_Player_ClaireWhitten" Label="@loc_3149325216997538530" StatModifier="3149325216997617585" ArmsSkin="arms" LegsSkin="legs" ClassLabel="@loc_13680621263433628151" Description="@loc_13680621263433628164" SkeletonKey="true" PortraitImage="janitor" LockedDescription="@loc_13680621263437680795" SwitchState="Custodian" InitialObjectiveDescription="@loc_13856881013258896933" UnlockMethod="@loc_10739735956192567845">
+   <StartingAbilities/>
+   <StartingItems>
+    <ArkStartingItem Archetype="ArkPickups.Weapons.Unique.Sword_SpyCharacter" Quantity="1" ShowOnCharacterSelect="true"/>
+    <ArkStartingItem Archetype="ArkPickups.MissionItems.WL_CommandKey" Quantity="1" ShowOnCharacterSelect="true"/>
+   </StartingItems>
+   <ReadyRoomCharacter UnlockedModel="objects/characters/humansfinal/clairewhitten.cdf" ADB="Animations\Mannequin\ADB\Ai_Human_Database.adb" ControllerDef="Animations\Mannequin\ADB\Ai_Human_ControllerDefs.xml" Fragment="Cs_UI_CharacterSelect_FemaleJanitor" IdleTag="introidle" LockedTag="unavailable" DeadTag="dead" LockedModel="objects/characters/humansfinal/clairewhittencinematic.cdf"/>
+   <ReadyRoomHandProp UnlockedModel="objects/weapons/psycutter/1p/psycutter1p_01.cgf" LockedModel="objects/accessories/mophandle/mop_handle.cgf"/>
+  </ArkPlayableCharacter>
+  <ArkPlayableCharacter ID="10739735956174775230" Name="Engineer" Model="objects/characters/Player/playerFemale.cdf" AbilityLayout="3149325216997535971" Corpse="ArkHumans.Player.Engineer_Player_JoanWinslow" Label="@loc_3149325216997538410" StatModifier="3149325216997617438" ArmsSkin="arms_mechanic" LegsSkin="body_mechanic" ClassLabel="@loc_13680621263433628090" Description="@loc_13680621263433628116" SkeletonKey="false" PortraitImage="engineer" LockedDescription="" SwitchState="Engineer" InitialObjectiveDescription="@loc_13856881013258896716" UnlockMethod="@loc_10739735956192567928">
+   <StartingAbilities>
+    <Ability Value="13680621263446823611"/>
+   </StartingAbilities>
+   <StartingItems>
+    <ArkStartingItem Archetype="ArkPickups.Weapons.Unique.Wrench_EngineerCharacter" Quantity="1" ShowOnCharacterSelect="true"/>
+    <ArkStartingItem Archetype="ArkPickups.Misc.SpareParts" Quantity="6" ShowOnCharacterSelect="true"/>
+    <ArkStartingItem Archetype="ArkPickups.Player.PetTurretSpawner" Quantity="1" ShowOnCharacterSelect="false"/>
+   </StartingItems>
+   <ReadyRoomHandProp UnlockedModel="objects/weapons/wrench/1p/wrench1p.cdf"/>
+   <ReadyRoomCharacter UnlockedModel="objects/characters/humansfinal/joanwinslow.cdf" ADB="Animations\Mannequin\ADB\Ai_Human_Database.adb" ControllerDef="Animations\Mannequin\ADB\Ai_Human_ControllerDefs.xml" Fragment="Cs_UI_CharacterSelect_FemaleEngineer" IdleTag="introidle" LockedTag="unavailable" DeadTag="dead"/>
+  </ArkPlayableCharacter>
+ </PlayableCharacters>
+</ArkPlayableCharacterLibrary>

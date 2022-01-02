@@ -1,0 +1,136 @@
+
+<ATLConfig atl_name="WL_TranstarLabs">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_DimensionalGate_Door_Lock_Start" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Door_Lock_Start"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Door_Lock_Stop" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Door_Lock_Stop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Door_Unlock_Start" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Door_Unlock_Start"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Door_Unlock_Stop" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Door_Unlock_Stop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Stabilize" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Stabilize"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Unstabilize" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Unstabilize"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_DimensionalGate_Door_Move_LP" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Stop_DimensionalGate_Door_Move_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_DimensionalGate_Stable_LP" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Stop_DimensionalGate_Stable_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_DimensionalGate_Unstable_LP" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Stop_DimensionalGate_Unstable_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Unstable_LP" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Unstable_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UploadConscious_CeilingRig_Door" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_UploadConscious_CeilingRig_Door"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UploadConscious_CeilingRig_LP" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_UploadConscious_CeilingRig_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UploadConscious_Operator_Desk_Attach" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_UploadConscious_Operator_Desk_Attach"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UploadConscious_Operator_Desk_Detach" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_UploadConscious_Operator_Desk_Detach"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UploadConscious_Operator_Rig_Attach" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_UploadConscious_Operator_Rig_Attach"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_UploadConscious_CeilingRig_LP" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Stop_UploadConscious_CeilingRig_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UploadConscious_Transfer_Chair" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_UploadConscious_Transfer_Chair"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_UploadConscious_Software_Transfer" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_UploadConscious_Software_Transfer"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Transtar_Cell_Unlock" path="Events/PrisonLocks">
+   <WwiseEvent wwise_name="Play_WL_Transtar_Cell_Unlock"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Transtar_Cell_Lock" path="Events/PrisonLocks">
+   <WwiseEvent wwise_name="Play_WL_Transtar_Cell_Lock"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Psicutter_Unlock" path="Events/PrisonLocks">
+   <WwiseEvent wwise_name="Play_Psicutter_Unlock"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_RepairBox" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_RepairBox"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Escape" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Escape"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Rejected" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Rejected"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DimensionalGate_Stabilize_Build" path="Events/DimensionalGate">
+   <WwiseEvent wwise_name="Play_DimensionalGate_Stabilize_Build"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_SpyQuest_Alarm" path="Events/PrisonLocks">
+   <WwiseEvent wwise_name="Play_SpyQuest_Alarm"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_BrainUp_Beam_2D" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_BrainUp_Beam_2D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_BrainUp_BecomeBot_2D" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_BrainUp_BecomeBot_2D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_BrainUp_Clamps_2D" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_BrainUp_Clamps_2D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_BrainUp_ConsoleTransfer_3D_01" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_BrainUp_ConsoleTransfer_3D_01"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_BrainUp_KillRiley_2D" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_BrainUp_KillRiley_2D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_BrainUp_Launch_2D" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_BrainUp_Launch_2D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_BrainUp_Lock_2D" path="Events/UploadConscious">
+   <WwiseEvent wwise_name="Play_BrainUp_Lock_2D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_TeleEnd_Appear" path="Events/TelepathEncounters">
+   <WwiseEvent wwise_name="Play_TeleEnd_Appear"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_TeleEnd_Explode" path="Events/TelepathEncounters">
+   <WwiseEvent wwise_name="Play_TeleEnd_Explode"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_TeleEnd_Influence" path="Events/TelepathEncounters">
+   <WwiseEvent wwise_name="Play_TeleEnd_Influence"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_TeleStart_Influence" path="Events/TelepathEncounters">
+   <WwiseEvent wwise_name="Play_TeleStart_Influence"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_TeleStart_Influence" path="Events/TelepathEncounters">
+   <WwiseEvent wwise_name="Stop_TeleStart_Influence"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_TeleEnd_Mimic" path="Events/TelepathEncounters">
+   <WwiseEvent wwise_name="Play_TeleEnd_Mimic"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="WL_TranstarLabs.bnk" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="WL_TranstarLabs.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

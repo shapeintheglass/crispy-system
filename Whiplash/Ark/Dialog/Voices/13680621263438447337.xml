@@ -1,0 +1,32 @@
+
+<Dialog>
+ <Dialog id="13680621263438447838" text="Ah - Benson. You&apos;re new, aren&apos;t you?" modified="11/28/2017 10:44:16 PM" notes="Says his name as if searching her mind."/>
+ <Dialog id="13680621263438447916" text="Of course you are. Your shuttle arrived on December third. A transfer from our North office. Before that you worked as an adjunct on various unremarkable grant projects." modified="10/18/2017 04:45:32 PM"/>
+ <Dialog id="13680621263438447974" text="None of which entitles you to address me in such a familiar way." modified="10/18/2017 04:46:30 PM" notes=""/>
+ <Dialog id="13680621263438448021" text="It&apos;s Madame Director or Doctor Yu. Choose one." modified="10/18/2017 04:47:17 PM"/>
+ <Dialog id="13680621263438448072" text="Now. What do you have for me?" modified="10/18/2017 04:48:11 PM"/>
+ <Dialog id="13680621263438448168" text="Did you solve the power supply?" modified="10/18/2017 04:49:44 PM"/>
+ <Dialog id="13680621263438448310" text="What about human subjects with Typhon-based Neuromods?" modified="03/02/2018 10:20:50 PM"/>
+ <Dialog id="13680621263438448536" text="Good work Dr. Benson. I want to activate the towers myself for the full scale test." modified="10/18/2017 04:55:52 PM"/>
+ <Dialog id="13680621263439153085" text="Officer Bhatia. This is Director Yu." modified="10/26/2017 08:38:21 PM" notes="Urgent."/>
+ <Dialog id="13680621263439153138" text="It&apos;s not the Typhon - it&apos;s Claire Whitten. She&apos;s a KASMA spy." modified="10/26/2017 08:39:14 PM"/>
+ <Dialog id="13680621263439153306" text="She&apos;s been here long enough to have her hooks into everything by now." modified="10/26/2017 08:59:15 PM" notes="Disgusted.  Betrayed."/>
+ <Dialog id="13680621263439153346" text="You have to track her down. Do not let her get off the base, do you understand?" modified="10/26/2017 08:42:42 PM" notes="Do NOT"/>
+ <Dialog id="13680621263439153356" text="I can&apos;t be distracted by this right now." modified="10/26/2017 08:42:52 PM"/>
+ <Dialog id="13680621263439153363" text="Handle it Bhatia." modified="10/26/2017 08:42:59 PM"/>
+ <Dialog id="13680621263439153367" text="I&apos;m counting on you." modified="10/26/2017 08:43:03 PM"/>
+ <Dialog id="13680621263439153692" text="Your men are being slaughtered. Where are you?" modified="10/26/2017 08:48:28 PM" notes="Almost an accustion. You were supposed to be on duty - what happened?"/>
+ <Dialog id="13680621263439657163" text="This is Director Riley Yu." modified="11/01/2017 04:39:39 PM"/>
+ <Dialog id="13680621263439657177" text="We&apos;ll soon begin testing of the new Typhon Towers in the Crater. Our specialists assure me the burst energy is harmless to humans. " modified="11/01/2017 04:39:53 PM"/>
+ <Dialog id="13680621263439657181" text="Nonetheless, make sure you are behind graded-z shielding when the announcement comes." modified="11/28/2017 08:15:43 PM"/>
+ <Dialog id="13680621263439657227" text="I&apos;m pleased to authorize our new skill sharing initiative. If you&apos;re selected, it means you have an important ability we&apos;d like to capture and share with your coworkers." modified="11/01/2017 04:40:43 PM"/>
+ <Dialog id="13680621263439657246" text="The first participant will be... our veteran pilot, Captain Ramon Delgado, who will be sharing his aviation skills." modified="11/01/2017 04:41:02 PM"/>
+ <Dialog id="13680621263439657256" text="Captain Delgado, please report to the Labs for a connectome update. And congratulations." modified="11/01/2017 04:41:12 PM"/>
+ <Dialog id="13680621263439671076" text="This is Director Riley Yu. I want to officially welcome our newest arrivals." modified="11/13/2017 07:12:09 PM"/>
+ <Dialog id="13680621263439671114" text="I&apos;ll be blunt - the moon is a harsh mistress. Your time here at Pytheas is limited. And the longer you&apos;re here, the harder things are going to get for you." modified="11/01/2017 08:33:48 PM"/>
+ <Dialog id="13680621263439671131" text="But... the rewards are there for those who are able to rise to the occasion." modified="11/01/2017 08:33:55 PM"/>
+ <Dialog id="13680621263439671164" text="So... let&apos;s get to work." modified="11/01/2017 08:34:04 PM"/>
+ <Dialog id="13680621263439672236" text="Following her participation in our new skill sharing initiative, Engineer Angela Wagner has been promoted to Operations Pilot I, effective at the end of this cycle." modified="11/01/2017 08:50:52 PM"/>
+ <Dialog id="13680621263439672243" text="Congratulations, Ms. Wagner." modified="11/01/2017 08:50:59 PM"/>
+ <Dialog id="13680621263440698171" text="And before that you completed your graduate&apos;s work in particle physics at UT of A." modified="11/13/2017 05:49:47 PM"/>
+</Dialog>

@@ -1,0 +1,61 @@
+
+<ArkWeaponQuality>
+ <QualityTiers>
+  <ArkWeaponQualityTier InstallWeapon="ArkWeaponPistol">
+   <DefaultTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+   <CommonTier NumModsToInstall="4" MaxModsPerStat="2" ChanceForEnchantment="15"/>
+   <RareTier NumModsToInstall="9" MaxModsPerStat="3" ChanceForEnchantment="25"/>
+   <LegendaryTier NumModsToInstall="13" MaxModsPerStat="5" ChanceForEnchantment="35"/>
+   <SpecialTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+  </ArkWeaponQualityTier>
+  <ArkWeaponQualityTier InstallWeapon="ArkWeaponShotgun">
+   <DefaultTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+   <CommonTier NumModsToInstall="4" MaxModsPerStat="2" ChanceForEnchantment="15"/>
+   <RareTier NumModsToInstall="9" MaxModsPerStat="3" ChanceForEnchantment="25"/>
+   <LegendaryTier NumModsToInstall="13" MaxModsPerStat="5" ChanceForEnchantment="35"/>
+   <SpecialTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+  </ArkWeaponQualityTier>
+  <ArkWeaponQualityTier InstallWeapon="ArkWeaponWrench">
+   <DefaultTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+   <CommonTier NumModsToInstall="4" MaxModsPerStat="2" ChanceForEnchantment="15"/>
+   <RareTier NumModsToInstall="9" MaxModsPerStat="3" ChanceForEnchantment="25"/>
+   <LegendaryTier NumModsToInstall="13" MaxModsPerStat="5" ChanceForEnchantment="35"/>
+   <SpecialTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+  </ArkWeaponQualityTier>
+  <ArkWeaponQualityTier InstallWeapon="ArkWeaponGooGun">
+   <DefaultTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+   <CommonTier NumModsToInstall="4" MaxModsPerStat="2" ChanceForEnchantment="15"/>
+   <RareTier NumModsToInstall="9" MaxModsPerStat="3" ChanceForEnchantment="25"/>
+   <LegendaryTier NumModsToInstall="13" MaxModsPerStat="5" ChanceForEnchantment="35"/>
+   <SpecialTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+  </ArkWeaponQualityTier>
+  <ArkWeaponQualityTier InstallWeapon="ArkWeaponInstalaser">
+   <DefaultTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+   <CommonTier NumModsToInstall="3" MaxModsPerStat="2" ChanceForEnchantment="15"/>
+   <RareTier NumModsToInstall="7" MaxModsPerStat="3" ChanceForEnchantment="25"/>
+   <LegendaryTier NumModsToInstall="12" MaxModsPerStat="5" ChanceForEnchantment="35"/>
+   <SpecialTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+  </ArkWeaponQualityTier>
+  <ArkWeaponQualityTier InstallWeapon="ArkWeaponStunGun">
+   <DefaultTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+   <CommonTier NumModsToInstall="5" MaxModsPerStat="2" ChanceForEnchantment="15"/>
+   <RareTier NumModsToInstall="10" MaxModsPerStat="3" ChanceForEnchantment="25"/>
+   <LegendaryTier NumModsToInstall="14" MaxModsPerStat="5" ChanceForEnchantment="35"/>
+   <SpecialTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+  </ArkWeaponQualityTier>
+  <ArkWeaponQualityTier InstallWeapon="ArkWeaponSword">
+   <DefaultTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+   <CommonTier NumModsToInstall="5" MaxModsPerStat="2" ChanceForEnchantment="15"/>
+   <RareTier NumModsToInstall="9" MaxModsPerStat="3" ChanceForEnchantment="25"/>
+   <LegendaryTier NumModsToInstall="13" MaxModsPerStat="5" ChanceForEnchantment="35"/>
+   <SpecialTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="100"/>
+  </ArkWeaponQualityTier>
+  <ArkWeaponQualityTier InstallWeapon="ArkWeaponToyGun">
+   <DefaultTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="0"/>
+   <CommonTier NumModsToInstall="1" MaxModsPerStat="1" ChanceForEnchantment="15"/>
+   <RareTier NumModsToInstall="3" MaxModsPerStat="3" ChanceForEnchantment="35"/>
+   <LegendaryTier NumModsToInstall="5" MaxModsPerStat="5" ChanceForEnchantment="50"/>
+   <SpecialTier NumModsToInstall="0" MaxModsPerStat="0" ChanceForEnchantment="100"/>
+  </ArkWeaponQualityTier>
+ </QualityTiers>
+</ArkWeaponQuality>

@@ -1,0 +1,4 @@
+
+<ArkSeismicPerceptionManager>
+ <Debug simpleSeismicEventLifetime="9.0" simpleSeismicEventRadius="8.0" simpleSeismicEventColorR="200" simpleSeismicEventColorG="200" simpleSeismicEventColorB="0" bDrawSimpleSeismicEventShaded="true" complexSeismicEventLifetime="9.0" complexSeismicEventRadius="0.3" complexSeismicEventColorR="255" complexSeismicEventColorG="0" complexSeismicEventColorB="255" bDrawComplexSeismicEventShaded="false" simpleTremorLifetime="12.0" simpleTremorRadius=".1" simpleTremorColorR="255" simpleTremorColorG="0" simpleTremorColorB="255" bDrawSimpleTremorShaded="true" complexTremorLifetime="0.2" complexTremorRadius=".1" complexTremorColorR="255" complexTremorColorG="0" complexTremorColorB="255" bDrawComplexTremorShaded="true"/>
+</ArkSeismicPerceptionManager>

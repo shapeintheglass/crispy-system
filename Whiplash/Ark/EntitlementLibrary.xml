@@ -1,0 +1,7 @@
+
+<ArkEntitlementLibrary>
+ <Entitlements>
+  <ArkEntitlement ID="10739735956152474538" Name="Pre-Ordered" SteamDlcID="1" XboxDlcID="1" PlaystationDlcID="1"/>
+  <ArkEntitlement ID="6062853811677279813" Name="Whiplash" SteamDlcID="2" XboxDlcID="2" PlaystationDlcID="2"/>
+ </Entitlements>
+</ArkEntitlementLibrary>

@@ -1,0 +1,269 @@
+
+<ATLConfig atl_name="ArkGlobal">
+ <AudioSwitches>
+  <ATLSwitch atl_name="">
+   <ATLSwitchState atl_name="MoonRock_Large">
+    <WwiseSwitch wwise_name="PhysType">
+     <WwiseValue wwise_name="MoonRock_Large"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+  </ATLSwitch>
+  <ATLSwitch atl_name="PhysType">
+   <ATLSwitchState atl_name="MoonRock_Small">
+    <WwiseSwitch wwise_name="PhysType">
+     <WwiseValue wwise_name="MoonRock_Small"/>
+    </WwiseSwitch>
+   </ATLSwitchState>
+  </ATLSwitch>
+ </AudioSwitches>
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_Debug_7_3D" path="PLACEHOLDER/Debug">
+   <WwiseEvent wwise_name="Play_Debug_7_3D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Debug_8_3D" path="PLACEHOLDER/Debug">
+   <WwiseEvent wwise_name="Play_Debug_8_3D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Obj_Piano" path="GlobalObjects/Ark_Interactive_Props">
+   <WwiseEvent wwise_name="Play_Obj_Piano"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Obj_Recycler_Trap_Beep_LP" path="GlobalObjects">
+   <WwiseEvent wwise_name="Stop_Obj_Recycler_Trap_Beep_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Obj_Recycler_Trap_Beep_LP" path="GlobalObjects">
+   <WwiseEvent wwise_name="Play_Obj_Recycler_Trap_Beep_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Obj_Projector_Screen_LP" path="GlobalObjects/Ark_Interactive_Props">
+   <WwiseEvent wwise_name="Play_Obj_Projector_Screen_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Obj_Projector_Screen_LP" path="GlobalObjects/Ark_Interactive_Props">
+   <WwiseEvent wwise_name="Stop_Obj_Projector_Screen_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Recycler_Repaired" path="GlobalObjects/Recycler">
+   <WwiseEvent wwise_name="Play_OBJ_Recycler_Repaired"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Fabricator_Repaired" path="GlobalObjects/Fabricator">
+   <WwiseEvent wwise_name="Play_Fabricator_Repaired"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Debug_7_3D" path="PLACEHOLDER/Debug">
+   <WwiseEvent wwise_name="Stop_Debug_7_3D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Decontamination_WhiteNoise" path="GlobalObjects">
+   <WwiseEvent wwise_name="Play_Decontamination_WhiteNoise"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Decontamination_WhiteNoise" path="GlobalObjects">
+   <WwiseEvent wwise_name="Stop_Decontamination_WhiteNoise"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Obj_Transcribe_Repair_Complete" path="GlobalObjects/Transcribe_Repair">
+   <WwiseEvent wwise_name="Play_Obj_Transcribe_Repair_Complete"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Obj_Transcribe_Repair_Start" path="GlobalObjects/Transcribe_Repair">
+   <WwiseEvent wwise_name="Play_Obj_Transcribe_Repair_Start"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Obj_Transcribe_Repair" path="GlobalObjects/Transcribe_Repair">
+   <WwiseEvent wwise_name="Stop_Obj_Transcribe_Repair"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Turret_Stunned_LP" path="GlobalObjects/Turret">
+   <WwiseEvent wwise_name="Play_Turret_Stunned_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Turret_Stunned_LP" path="GlobalObjects/Turret">
+   <WwiseEvent wwise_name="Stop_Turret_Stunned_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Enemy_Electrified_LP" path="GlobalObjects/Enemy_Shared">
+   <WwiseEvent wwise_name="Play_Enemy_Electrified_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Enemy_Electrified_LP" path="GlobalObjects/Enemy_Shared">
+   <WwiseEvent wwise_name="Stop_Enemy_Electrified_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_Off" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_Off"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_On" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_On"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_Radar_Detect" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_Radar_Detect"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_Radar_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_Radar_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_Reflect" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_Reflect"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_OBJ_Typhon_Gate_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Stop_OBJ_Typhon_Gate_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_OBJ_Typhon_Gate_Radar_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Stop_OBJ_Typhon_Gate_Radar_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_Inactive_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_Inactive_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_PowerOff" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_PowerOff"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_Radar_PowerOff" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_Radar_PowerOff"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_Radar_Active_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_Radar_Active_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_Radar_Servo" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_Radar_Servo"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_DustStorm_Area_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_DustStorm_Area_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_DustStorm_Area_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Stop_DustStorm_Area_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Condenser_Insert" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Condenser_Insert"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Condenser_Remove" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Condenser_Remove"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Condenser_Blow_Fuse" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Condenser_Blow_Fuse"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Condenser_Cell_Explode" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Condenser_Cell_Explode"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Condenser_Power_Down" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Condenser_Power_Down"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Condenser_Power_Up" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Condenser_Power_Up"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Tram_Announce_Arrival" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Tram_Announce_Arrival"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Tram_Approach_and_Cooldown" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Tram_Approach_and_Cooldown"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Tram_Exist_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Tram_Exist_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Tram_Stop" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Tram_Stop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Tram_Exist_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Stop_Tram_Exist_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EscapePod_Battery_Insert" path="WL_Global">
+   <WwiseEvent wwise_name="Play_EscapePod_Battery_Insert"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EscapePod_Battery_PickUp" path="WL_Global">
+   <WwiseEvent wwise_name="Play_EscapePod_Battery_PickUp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EscapePod_Battery_Remove" path="WL_Global">
+   <WwiseEvent wwise_name="Play_EscapePod_Battery_Remove"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MindBlock_Switch_On" path="WL_Global">
+   <WwiseEvent wwise_name="Play_MindBlock_Switch_On"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Simulation_IN_BNK" path="WL_Global">
+   <WwiseEvent wwise_name="Play_WL_Simulation_IN_BNK"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Simulation_OUT_BNK" path="WL_Global">
+   <WwiseEvent wwise_name="Play_WL_Simulation_OUT_BNK"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Player_Gassed_Poison_Status">
+   <WwiseEvent wwise_name="Play_Player_Gassed_Poison_Status"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Simulation_RESET_BNK" path="WL_Global">
+   <WwiseEvent wwise_name="Play_WL_Simulation_RESET_BNK"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Mute_Tram" path="WL_Global">
+   <WwiseEvent wwise_name="Mute_Tram"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="UnMute_Tram" path="WL_Global">
+   <WwiseEvent wwise_name="UnMute_Tram"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Power_Tram_Disable" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Power_Tram_Disable"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Power_Tram_Restore" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Power_Tram_Restore"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Turret_Gloo_Fire" path="GlobalObjects/Turret">
+   <WwiseEvent wwise_name="Play_WL_Turret_Gloo_Fire"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Turret_Laser_Fire_LP" path="GlobalObjects/Turret">
+   <WwiseEvent wwise_name="Play_WL_Turret_Laser_Fire_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_WL_Turret_Laser_Fire_LP" path="GlobalObjects/Turret">
+   <WwiseEvent wwise_name="Stop_WL_Turret_Laser_Fire_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_OBJ_Typhon_Gate_IMP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_OBJ_Typhon_Gate_IMP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_OBJ_Typhon_Gate_IMP" path="WL_Global">
+   <WwiseEvent wwise_name="Stop_OBJ_Typhon_Gate_IMP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Typhon_Containment_Cells" path="Env_3D_Emitters">
+   <WwiseEvent wwise_name="Play_Typhon_Containment_Cells"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Typhon_Containment_Cells" path="Env_3D_Emitters">
+   <WwiseEvent wwise_name="Stop_Typhon_Containment_Cells"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Turret_Laser_WarmUp" path="GlobalObjects/Turret">
+   <WwiseEvent wwise_name="Play_WL_Turret_Laser_WarmUp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Turret_Laser_CoolDown" path="GlobalObjects/Turret">
+   <WwiseEvent wwise_name="Play_WL_Turret_Laser_CoolDown"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_WL_Simulation_Corrupted" path="WL_Global">
+   <WwiseEvent wwise_name="Play_WL_Simulation_Corrupted"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Pause_WL_Card" path="required_events">
+   <WwiseEvent wwise_name="Pause_WL_Card"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Hazard_Fire_Sm_Crackle_LP" path="Hazards">
+   <WwiseEvent wwise_name="Play_Hazard_Fire_Sm_Crackle_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Hazard_Fire_Sm_Crackle_LP" path="Hazards">
+   <WwiseEvent wwise_name="Stop_Hazard_Fire_Sm_Crackle_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Hazard_Fire_Alarm_LP" path="Hazards">
+   <WwiseEvent wwise_name="Play_Hazard_Fire_Alarm_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Hazard_Fire_Alarm_LP" path="Hazards">
+   <WwiseEvent wwise_name="Stop_Hazard_Fire_Alarm_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Hazard_WL_BustedPipe_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Hazard_WL_BustedPipe_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Hazard_WL_BustedPipe_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Stop_Hazard_WL_BustedPipe_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Hazard_WL_Water_Heavy_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Stop_Hazard_WL_Water_Heavy_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Hazard_WL_Water_Med_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Stop_Hazard_WL_Water_Med_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Hazard_WL_Water_Heavy_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Hazard_WL_Water_Heavy_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Hazard_WL_Water_Med_LP" path="WL_Global">
+   <WwiseEvent wwise_name="Play_Hazard_WL_Water_Med_LP"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="Physics.bnk" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="Physics.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

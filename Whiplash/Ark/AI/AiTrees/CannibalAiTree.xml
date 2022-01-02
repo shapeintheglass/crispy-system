@@ -1,0 +1,12 @@
+
+<ArkAiTree>
+ <Root>
+  <ArkAiTreeStackNode>
+   <Children>
+    <ArkAiTreeHypnotizedNode/>
+    <ArkAiTreeScriptMoveNode/>
+    <ArkAiTreeGuardNode/>
+   </Children>
+  </ArkAiTreeStackNode>
+ </Root>
+</ArkAiTree>

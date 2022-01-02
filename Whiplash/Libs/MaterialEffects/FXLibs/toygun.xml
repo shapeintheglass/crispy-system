@@ -1,0 +1,351 @@
+
+<FXLib>
+ <Effect name="mat_toygun_enchant_fire">
+  <Particle>
+   <Name particleName="MaterialEffects.Bullet.Enchanted.Fire.Hit_Generic.A" minscale=".7" maxscale="1" maxscaledist="80" attach="false" scale="2"/>
+  </Particle>
+  <Decal minscale=".041" maxscale=".051" rotation="-1" growTime="0" assembledecals="false" forceedge="false" lifetime="10" projDepth="3" decaltrans="false" manual="false">
+   <Material materialPath="Materials/ArkDecals/Enchanted/Fire/fire_01"/>
+  </Decal>
+ </Effect>
+ <Effect name="mat_null">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Null.Null"/>
+  </Particle>
+ </Effect>
+ <Effect name="mat_default">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.SurfaceMaterials.Default_00"/>
+  </Particle>
+  <Decal minscale="0.15" maxscale="0.15" lifetime="4.0">
+   <Material materialPath="Materials/ArkEffects/Utilities/SurfaceMaterials/MatDefault_00"/>
+  </Decal>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_cardboard">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_carpet">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_concrete" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_dirt">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_electrical">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_typhongate">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="LevelShared.TyphonGate.TyphonGate_Impacts.TyphonGate_Hit_Small"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_leather">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_metal_thin" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_metal_thick" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_moonsurface_loose">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+  <SeismicEvent magnitude="1.0"/>
+ </Effect>
+ <Effect name="mat_toygun_oil">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_paper">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_plastic" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_porcelain">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_rock">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_rubber">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_water">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_wood">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_canopy">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_vegetation">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_flesh_human" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+ </Effect>
+ <Effect name="mat_toygun_flesh_mech">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+ </Effect>
+ <Effect name="mat_toygun_flesh_mech_armor">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+ </Effect>
+ <Effect name="mat_toygun_flesh_mimic">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+ </Effect>
+ <Effect name="mat_toygun_flesh_nightmare">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+ </Effect>
+ <Effect name="mat_toygun_flesh_lunarnightmare">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+ </Effect>
+ <Effect name="mat_toygun_flesh_phantom">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+ </Effect>
+ <Effect name="mat_toygun_flesh_apex">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="flesh_phantom"/>
+  </Audio>
+ </Effect>
+ <Effect name="mat_toygun_flesh_cystoid">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+ </Effect>
+ <Effect name="mat_toygun_flesh_weaver">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+ </Effect>
+ <Effect name="mat_toygun_glass" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_glass_dynamic" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_glass_unbreakable" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_glass_looking" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_glass_healing" delay="0.05">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_gloo_hard">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_gloo_soft">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_ice">
+  <Particle>
+   <Name minscale="1" maxscale="1" maxscaledist="50" particleName="MaterialEffects.Ammo.Null.Null"/>
+  </Particle>
+  <Audio trigger="Play_Impact_NarfProjectile">
+   <Switch name="SurfaceType" state="concrete"/>
+  </Audio>
+  <GameNoise type="9469288860501998057" loudness="9469288860501649210"/>
+ </Effect>
+ <Effect name="mat_toygun_enchant_electric">
+  <Particle>
+   <Name particleName="MaterialEffects.Bullet.Enchanted.Electric.Hit_Generic.A" minscale=".7" maxscale="1" maxscaledist="80" attach="false" scale="2"/>
+  </Particle>
+  <Decal minscale=".041" maxscale=".051" rotation="-1" growTime="0" assembledecals="false" forceedge="false" lifetime="10" projDepth="3" decaltrans="false" manual="false">
+   <Material materialPath="Materials/ArkDecals/Enchanted/Electric/electric_01"/>
+  </Decal>
+ </Effect>
+</FXLib>

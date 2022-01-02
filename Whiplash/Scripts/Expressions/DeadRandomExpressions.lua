@@ -1,0 +1,12 @@
+local L0_9475, L1_9476
+L0_9475 = {}
+L1_9476 = {}
+L1_9476.Interval = 2
+L1_9476.IntervalRandom = 2
+L1_9476.Amp = 1
+L1_9476.AmpRandom = 0
+L1_9476.BlendIn = 0.1
+L1_9476.Hold = 0
+L1_9476.BlendOut = 0.1
+L0_9475.rndexpr_closed_eyes = L1_9476
+DeadRandomExpressions = L0_9475

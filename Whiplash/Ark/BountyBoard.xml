@@ -1,0 +1,109 @@
+
+<ArkBountyBoard>
+ <Bounties>
+  <ArkBounty ID="10739735956177713478" Name="Shotgun" Weapon="ArkPickups.Weapons.Shotgun" Verb="@loc_10739735956177713479" Lethal="true">
+   <TargetBlackList/>
+   <TargetWhiteList/>
+   <AlternateWeapons>
+    <ArkBountyWeapon Weapon="ArkPickups.Weapons.Unique.Shotgun_SecurityCharacter"/>
+   </AlternateWeapons>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177799995" Name="Pistol" Weapon="ArkPickups.Weapons.Pistol" Verb="@loc_10739735956177799996" Lethal="true">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177863141" Name="Sword" Weapon="ArkPickups.Weapons.Sword" Verb="@loc_10739735956177863142" Lethal="true">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+   <AlternateWeapons>
+    <ArkBountyWeapon Weapon="ArkPickups.Weapons.Unique.Sword_SpyCharacter"/>
+   </AlternateWeapons>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177800021" Name="Instalaser" Weapon="ArkPickups.Weapons.Instalaser" Verb="@loc_10739735956177800022" Lethal="true">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177795244" Name="Stungun" Weapon="ArkPickups.Weapons.StunGun" Verb="@loc_10739735956177795245" Lethal="false">
+   <TargetWhiteList/>
+   <TargetBlackList>
+    <Target Value="10739735956187731050"/>
+    <Target Value="10739735956187731189"/>
+    <Target Value="10739735956187731257"/>
+   </TargetBlackList>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177800050" Name="Gloogun" Weapon="ArkPickups.Weapons.GooGun" Verb="@loc_10739735956177800051" Lethal="false">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177800075" Name="Toygun" Weapon="ArkPickups.Weapons.ToyGun" Verb="@loc_10739735956177800076" Lethal="false">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177800108" Name="Wrench" Weapon="ArkPickups.Weapons.Wrench" Verb="@loc_10739735956177800109" Lethal="true">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+   <AlternateWeapons>
+    <ArkBountyWeapon Weapon="ArkPickups.Weapons.Unique.Wrench_EngineerCharacter"/>
+   </AlternateWeapons>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177795984" Name="RecyclerGrenade" Weapon="ArkSpecialWeapons.RecyclerGrenadeWeapon" Verb="@loc_10739735956177795985" Lethal="true">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177800350" Name="LureGrenade" Weapon="ArkSpecialWeapons.LureGrenadeWeapon" Verb="@loc_10739735956177800351" Lethal="false">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177800397" Name="EMPGrenade" Weapon="ArkSpecialWeapons.EMPGrenadeWeapon" Verb="@loc_10739735956177800398" Lethal="false">
+   <TargetWhiteList>
+    <Target Value="10739735956187731354"/>
+    <Target Value="10739735956187731488"/>
+    <Target Value="10739735956187731472"/>
+    <Target Value="10739735956187731525"/>
+    <Target Value="10739735956187731506"/>
+    <Target Value="10739735956187731284"/>
+    <Target Value="10739735956187731257"/>
+    <Target Value="10739735956187731189"/>
+   </TargetWhiteList>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177861345" Name="ApexSpore" Weapon="ArkSpecialWeapons.ApexSporeWeapon" Verb="@loc_10739735956177861346" Lethal="true">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177863162" Name="GlooGrenade" Weapon="ArkSpecialWeapons.GooGrenadeWeapon" Verb="@loc_10739735956177863163" Lethal="false">
+   <TargetWhiteList/>
+   <TargetBlackList/>
+  </ArkBounty>
+  <ArkBounty ID="10739735956177863189" Name="Nullwave" Weapon="ArkSpecialWeapons.NullwaveTransmitterWeapon" Verb="@loc_10739735956177863190" Lethal="false">
+   <TargetWhiteList/>
+   <TargetBlackList>
+    <Target Value="10739735956187731354"/>
+    <Target Value="10739735956187731488"/>
+    <Target Value="10739735956187731472"/>
+    <Target Value="10739735956187731525"/>
+    <Target Value="10739735956187731506"/>
+   </TargetBlackList>
+  </ArkBounty>
+ </Bounties>
+ <Targets>
+  <ArkBountyTarget ID="10739735956187731050" Name="Lunar Nightmare" Label="@loc_10739735956187731051" MetaTags="13856881013251314462"/>
+  <ArkBountyTarget ID="10739735956187731096" Name="Poltergeist" Label="@loc_10739735956187731097" MetaTags="3149325216945014930"/>
+  <ArkBountyTarget ID="10739735956187731114" Name="Phantom" Label="@loc_10739735956187731115" MetaTags="9469288860498988679"/>
+  <ArkBountyTarget ID="10739735956187731133" Name="Etheric Phantom" Label="@loc_10739735956187731134" MetaTags="9469288860501638642"/>
+  <ArkBountyTarget ID="10739735956187731163" Name="Thermal Phantom" Label="@loc_10739735956187731164" MetaTags="9469288860501638616"/>
+  <ArkBountyTarget ID="10739735956187731189" Name="Voltaic Phantom" Label="@loc_10739735956187731190" MetaTags="3149325216938884708"/>
+  <ArkBountyTarget ID="10739735956187731202" Name="Mimic" Label="@loc_10739735956187731203" MetaTags="9469288860498988674"/>
+  <ArkBountyTarget ID="10739735956187731218" Name="Etheric Mimic" Label="@loc_10739735956187731219" MetaTags="9469288860566207186"/>
+  <ArkBountyTarget ID="10739735956187731243" Name="Thermal Mimic" Label="@loc_10739735956187731244" MetaTags="9469288860566207169"/>
+  <ArkBountyTarget ID="10739735956187731257" Name="Voltaic Mimic" Label="@loc_10739735956187731258" MetaTags="9469288860566207151"/>
+  <ArkBountyTarget ID="10739735956187731270" Name="Weaver" Label="@loc_10739735956187731271" MetaTags="3149325216945014919"/>
+  <ArkBountyTarget ID="10739735956187731284" Name="Technopath" Label="@loc_10739735956187731285" MetaTags="3149325216938884677"/>
+  <ArkBountyTarget ID="10739735956187731296" Name="Telepath" Label="@loc_10739735956187731297" MetaTags="9469288860498988731"/>
+  <ArkBountyTarget ID="10739735956187731354" Name="Engineering Operator" Label="@loc_10739735956187731355" MetaTags="9469288860517748098"/>
+  <ArkBountyTarget ID="10739735956187731472" Name="Security Operator" Label="@loc_10739735956187731473" MetaTags="9469288860517748113"/>
+  <ArkBountyTarget ID="10739735956187731488" Name="Medical Operator" Label="@loc_10739735956187731489" MetaTags="9469288860517748104"/>
+  <ArkBountyTarget ID="10739735956187731506" Name="Science Operator" Label="@loc_10739735956187731507" MetaTags="9469288860517748082"/>
+  <ArkBountyTarget ID="10739735956187731525" Name="Harvester" Label="@loc_10739735956187731526" MetaTags="13856881013254772494"/>
+ </Targets>
+</ArkBountyBoard>

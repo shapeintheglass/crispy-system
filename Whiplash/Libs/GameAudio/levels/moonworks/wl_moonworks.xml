@@ -1,0 +1,151 @@
+
+<ATLConfig atl_name="WL_MoonWorks">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_MassDriver_AuxMachine_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_AuxMachine_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Boot_Pt1" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Boot_Pt1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Conveyor_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Conveyor_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Elevator_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Elevator_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Power_On_Pt1_2D" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Power_On_Pt1_2D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_MassDriver_Alarm_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Stop_MassDriver_Alarm_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_MassDriver_AuxMachine_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Stop_MassDriver_AuxMachine_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_MassDriver_Conveyor_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Stop_MassDriver_Conveyor_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_MassDriver_Elevator_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Stop_MassDriver_Elevator_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Alarm_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Alarm_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Crate_Door_Close" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Crate_Door_Close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Crate_Door_Lock" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Crate_Door_Lock"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Crate_Door_Unlock" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Crate_Door_Unlock"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_ObservationLevel_Pt1" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_ObservationLevel_Pt1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Fire_External" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Fire_External"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_ObservationLevel_Pt2" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_ObservationLevel_Pt2"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Building_2D_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_Building_2D_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_MassDriver_LoadingCrate_ObservationLevel_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Stop_MassDriver_LoadingCrate_ObservationLevel_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadingCrate_ObservationLevel_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadingCrate_ObservationLevel_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_MassDriver_Building_2D_LP" path="MassDriver">
+   <WwiseEvent wwise_name="Stop_MassDriver_Building_2D_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_PoisonQuest_Gas_Spray" path="PoisonQuest">
+   <WwiseEvent wwise_name="Play_PoisonQuest_Gas_Spray"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Mute_CrateEscape_Extras" path="MassDriver">
+   <WwiseEvent wwise_name="Mute_CrateEscape_Extras"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="UnMute_CrateEscape_Extras" path="MassDriver">
+   <WwiseEvent wwise_name="UnMute_CrateEscape_Extras"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MD_CrateEscape_Interior_pt1" path="MassDriver_Interior">
+   <WwiseEvent wwise_name="Play_MD_CrateEscape_Interior_pt1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MD_CrateEscape_Interior_pt2" path="MassDriver_Interior">
+   <WwiseEvent wwise_name="Play_MD_CrateEscape_Interior_pt2"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MD_CrateEscape_Interior_pt3" path="MassDriver_Interior">
+   <WwiseEvent wwise_name="Play_MD_CrateEscape_Interior_pt3"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MD_CrateEscape_Interior_pt4" path="MassDriver_Interior">
+   <WwiseEvent wwise_name="Play_MD_CrateEscape_Interior_pt4"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MD_CrateEscape_Interior_pt5" path="MassDriver_Interior">
+   <WwiseEvent wwise_name="Play_MD_CrateEscape_Interior_pt5"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MD_CrateEscape_Interior_pt6" path="MassDriver_Interior">
+   <WwiseEvent wwise_name="Play_MD_CrateEscape_Interior_pt6"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_Canon_Pt1_Open" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_Canon_Pt1_Open"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_Canon_Pt2_ElevUp" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_Canon_Pt2_ElevUp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_Canon_Pt3_Rotate" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_Canon_Pt3_Rotate"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_Canon_Pt4_Cannon_Close" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_Canon_Pt4_Cannon_Close"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_Canon_Pt5_WarmUp" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_Canon_Pt5_WarmUp"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_ObservationLevel_Pt3" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_ObservationLevel_Pt3"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_ObservationLevel_Pt4" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_ObservationLevel_Pt4"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_Structure_Hit_2D" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_Structure_Hit_2D"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_LoadCrate_Canon_WindDown" path="MassDriver">
+   <WwiseEvent wwise_name="Play_MassDriver_LoadCrate_Canon_WindDown"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_MassDriver_Foley_MetalRattle" path="MassDriver_Interior">
+   <WwiseEvent wwise_name="Play_MassDriver_Foley_MetalRattle"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_SpyIntro_Pt1_Stab" path="SpyIntro">
+   <WwiseEvent wwise_name="Play_SpyIntro_Pt1_Stab"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_SpyIntro_Pt2_Build" path="SpyIntro">
+   <WwiseEvent wwise_name="Play_SpyIntro_Pt2_Build"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_SpyIntro_Pt3_PullOut" path="SpyIntro">
+   <WwiseEvent wwise_name="Play_SpyIntro_Pt3_PullOut"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_SpyIntro_Pt4_Drop" path="SpyIntro">
+   <WwiseEvent wwise_name="Play_SpyIntro_Pt4_Drop"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Player_MD_Death" path="MassDriver_Interior">
+   <WwiseEvent wwise_name="Play_Player_MD_Death"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="WL_MoonWorks.bnk" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="WL_MoonWorks.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

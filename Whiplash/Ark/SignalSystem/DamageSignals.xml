@@ -1,0 +1,16 @@
+
+<DamageSignals>
+ <signal name="crush" id="3149325216911145914" notes="Slower more inevitable collision like getting squished under an elevator, recycler, and self-damage from collisions. Also mimic grab attack."/>
+ <signal name="electric" id="3149325216913727228" notes=""/>
+ <signal name="ether" id="3149325216938445621" notes=""/>
+ <signal name="explosion" id="3149325216913726733" notes=""/>
+ <signal name="fire" id="7745561656291547931" notes=""/>
+ <signal name="impact" id="3149325216915554009" notes="Fast moving collisions that generate damage: projectiles, thrown objects."/>
+ <signal name="laser" id="3149325216973146201" notes="This is comes from the military operator weapon. Typically pure damage."/>
+ <signal name="lifesteal" id="3149325216915549119" notes=""/>
+ <signal name="psychic" id="3149325216914689633" notes=""/>
+ <signal name="self-immolation" id="9469288860524043070" notes=""/>
+ <signal name="melee" id="3149325216914689654" notes=""/>
+ <signal name="corrosive" id="3149325216913727213" notes="Damages suit integrity."/>
+ <signal name="recycle explosion" id="10641886185820022055" notes=""/>
+</DamageSignals>

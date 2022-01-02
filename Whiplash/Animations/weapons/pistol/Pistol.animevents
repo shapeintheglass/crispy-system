@@ -1,0 +1,5 @@
+
+<anim_event_list>
+ <animation name="animations/weapons/pistol/1p/wpn_1p_fire_pistol.caf"/>
+ <animation name="animations/weapons/pistol/1p/wpn_1p_malfunction_pistol.caf"/>
+</anim_event_list>

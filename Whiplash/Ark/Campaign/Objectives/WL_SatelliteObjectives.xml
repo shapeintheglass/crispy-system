@@ -1,0 +1,43 @@
+
+<Objectives>
+ <Objective id="13856881013249239766" title="@loc_13856881013249239767" optional="false" owner="0">
+  <Descriptions>
+   <Desc id="13856881013249239768" displayName="No Description" text="@loc_13856881013249239769"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="13856881013249239865" displayName="ConnectOperator" optional="false" text="@loc_13856881013249239866"/>
+   <Task id="13856881013249239926" displayName="ConnectGoggles" optional="false" text="@loc_13856881013249239927"/>
+   <Task id="761057048029600113" displayName="ReachCrater" optional="false" text="@loc_761057048029600114" Location="844024417334136241" markerLabel="@loc_761057048029600199"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+ <Objective id="1713490239483043960" title="@loc_1713490239483043961" optional="false" owner="0">
+  <Descriptions>
+   <Desc id="1713490239483043962" displayName="Install Stabilitytrack" text="@loc_1713490239483043963"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="1713490239483044200" displayName="Install Stabilitytrack" optional="false" text="@loc_1713490239483044201" markerLabel="@loc_1713490239483044288"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+ <Objective id="761057048031334719" title="@loc_761057048031334720" optional="false" owner="0">
+  <Descriptions>
+   <Desc id="761057048031334721" displayName="Fix Gravity" text="@loc_761057048031334722"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="761057048031334740" displayName="Fix Gravity" optional="false" text="@loc_761057048031334741" markerLabel="@loc_761057048031334769" Location="844024417336902480" description="761057048031334721"/>
+   <Task id="761057048031335023" displayName="Restore Gravity" optional="false" text="@loc_761057048031335024" markerLabel="@loc_761057048031335051" Location="844024417336902480" description="761057048031334721"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+ <Objective id="1713490239473987263" title="@loc_1713490239473987264" optional="false" owner="0">
+  <Descriptions>
+   <Desc id="1713490239473987265" displayName="No Description" text="@loc_1713490239473987266"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="1713490239473987291" displayName="Chair" optional="false" text="@loc_1713490239473987292" markerLabel="@loc_1713490239473987308"/>
+   <Task id="1713490239473987863" displayName="FirstChair" optional="false" text="@loc_1713490239473987864" markerLabel="@loc_1713490239473987876"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+</Objectives>

@@ -1,0 +1,38 @@
+
+<ArkChecklist>
+ <Categories>
+  <ArkChecklistCategory id="10739735956189199003" Name="Unlocked Characters" Label="@loc_10739735956189199004"/>
+  <ArkChecklistCategory id="10739735956189199016" Name="Escape Attempts" Label="@loc_10739735956189199017"/>
+  <ArkChecklistCategory id="10739735956189199042" Name="Story Objectives" Label="@loc_10739735956189199043"/>
+  <ArkChecklistCategory id="10739735956189199030" Name="Discovery" Label="@loc_10739735956189199031"/>
+ </Categories>
+ <Entries>
+  <ArkChecklistEntry id="13680621263435530742" Name="Unlocked Volunteer" Label="@loc_13680621263435530743" Crypto="100" SuppressNotification="true" Category="10739735956189199003" StartsDisabled="false"/>
+  <ArkChecklistEntry id="10739735956181664865" Name="Unlocked Security Officer" Label="@loc_10739735956181664866" Crypto="5000" Category="10739735956189199003" StartsDisabled="false"/>
+  <ArkChecklistEntry id="10739735956181664886" Name="Unlocked Custodian" Label="@loc_10739735956181664887" Crypto="5000" Category="10739735956189199003" StartsDisabled="false"/>
+  <ArkChecklistEntry id="10739735956181664923" Name="Unlocked Director" Label="@loc_10739735956181664924" Crypto="5000" Category="10739735956189199003" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435530229" Name="Unlocked Engineer" Label="@loc_13680621263435530230" Crypto="1000" Category="10739735956189199003" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531050" Name="Discovered All 4 Maps" Label="@loc_13680621263435531051" Crypto="5000" Category="10739735956189199030" MetricTotal="4" GameMetric="844024417357803412" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531159" Name="Discovered All 5 Escape Routes" Label="@loc_13680621263435531160" Crypto="5000" Category="10739735956189199030" MetricTotal="5" GameMetric="844024417357889138" StartsDisabled="false"/>
+  <ArkChecklistEntry id="844024417352274546" Name="Escaped on Shuttle" Label="@loc_844024417352274547" Crypto="1000" Category="10739735956189199016" StartsDisabled="false"/>
+  <ArkChecklistEntry id="844024417352274572" Name="Escaped in crate" Label="@loc_844024417352274573" Crypto="2000" Category="10739735956189199016" StartsDisabled="false"/>
+  <ArkChecklistEntry id="844024417352274628" Name="Escaped in pod" Label="@loc_844024417352274629" Crypto="2000" Category="10739735956189199016" StartsDisabled="false"/>
+  <ArkChecklistEntry id="844024417352274642" Name="Escaped in portal" Label="@loc_844024417352274643" Crypto="5000" Category="10739735956189199016" StartsDisabled="false"/>
+  <ArkChecklistEntry id="844024417352274658" Name="Escaped in upload" Label="@loc_844024417352274659" Crypto="2000" Category="10739735956189199016" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263449959604" Name="EscapeWithVolunteer" Label="@loc_13680621263449959605" Category="10739735956189199016" StartsDisabled="false" Crypto="1000"/>
+  <ArkChecklistEntry id="13680621263449960057" Name="EscapeWithSecOfficer" Label="@loc_13680621263449960058" Category="10739735956189199016" StartsDisabled="false" Crypto="1000"/>
+  <ArkChecklistEntry id="13680621263449960073" Name="EscapeWithEngineer" Label="@loc_13680621263449960074" Category="10739735956189199016" StartsDisabled="false" Crypto="1000"/>
+  <ArkChecklistEntry id="13680621263449960151" Name="EscapeWithSpy" Label="@loc_13680621263449960152" Category="10739735956189199016" StartsDisabled="false" Crypto="1000"/>
+  <ArkChecklistEntry id="13680621263449960269" Name="EscapeWithDirector" Label="@loc_13680621263449960270" Category="10739735956189199016" StartsDisabled="false" Crypto="1000"/>
+  <ArkChecklistEntry id="13680621263435531320" Name="Escaped, 5 Chars" Label="@loc_13680621263435531321" Crypto="10000" Category="10739735956189199016" MetricTotal="5" GameMetric="844024417357803449" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531613" Name="Scanned 5 Typhon" Label="@loc_13680621263435531614" Crypto="3000" Category="10739735956189199030" GameMetric="844024417354975622" MetricTotal="5" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531662" Name="Found 10 Fabrication Plans" Label="@loc_13680621263435531663" Crypto="1000" Category="10739735956189199030" MetricTotal="10" GameMetric="10739735956176847356" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531692" Name="Found 10 Suit Chipsets" Label="@loc_13680621263435531693" Crypto="1000" Category="10739735956189199030" MetricTotal="10" GameMetric="10641886185849157992" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531817" Name="Installed 50 Neuromods" Label="@loc_13680621263435531818" Crypto="5000" MetricTotal="50" Category="10739735956189199030" GameMetric="7293080054628709712" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531886" Name="Completed Engineer Special Objective" Label="@loc_13680621263435531887" Crypto="5000" Category="10739735956189199042" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531936" Name="Completed Security Officer Special Objective" Label="@loc_13680621263435531937" Crypto="5000" Category="10739735956189199042" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435531988" Name="Completed Director Special Objective" Label="@loc_13680621263435531989" Crypto="5000" Category="10739735956189199042" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435532017" Name="Completed Volunteer Special Objective" Label="@loc_13680621263435532018" Crypto="5000" Category="10739735956189199042" StartsDisabled="false"/>
+  <ArkChecklistEntry id="13680621263435532064" Name="Completed Custodian Special Objective" Label="@loc_13680621263435532065" Crypto="5000" Category="10739735956189199042" StartsDisabled="false"/>
+ </Entries>
+</ArkChecklist>

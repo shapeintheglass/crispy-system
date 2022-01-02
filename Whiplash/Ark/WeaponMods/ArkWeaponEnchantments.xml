@@ -1,0 +1,155 @@
+
+<ArkWeaponEnchantments>
+ <WeaponEnchantments>
+  <ArkWeaponEnchantment ID="2524450536773520331" Name="Electric" Label="@loc_2524450536773520332" Description="@loc_2524450536773520333" IconNameSmall="enchantment_electric_sml" IconNameLarge="enchantment_electric" Keyword="%enchantmentdamage%" KeywordSignalID="3149325216913727228">
+   <WeaponsAllowed>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponShotgun" TagState="electric" ProjectileOverride="" AOERadius="0" AOESignalPackage="10641886185895552139">
+     <SignalPackageIds>
+      <package value="10641886185881026309"/>
+     </SignalPackageIds>
+     <AdditionalArt AttachmentModel="electric_enchantment" VFXEffectName="mat_pistol_enchant_electric" VFXLibraryName="pistol" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentPointNameAdd="fx_enchantment_attach_02"/>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponWrench" TagState="electric" AOESignalPackage="10641886185895552139">
+     <SignalPackageIds>
+      <package value="10641886185881026309"/>
+     </SignalPackageIds>
+     <AdditionalArt AttachmentModel="electric_enchantment" VFXEffectName="mat_pistol_enchant_electric" VFXLibraryName="pistol" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentPointNameAdd="fx_enchantment_attach_02"/>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponSword" AOERadius="0" AOESignalPackage="10641886185895552139">
+     <SignalPackageIds>
+      <package value="10641886185881026309"/>
+     </SignalPackageIds>
+     <AdditionalArt AttachmentModel="electric_enchantment" VFXEffectName="mat_pistol_enchant_electric" VFXLibraryName="pistol" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentPointNameAdd="fx_enchantment_attach_02"/>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponPistol" TagState="electric" ProjectileOverride="" AOERadius=".05" AOESignalPackage="10641886185895552139">
+     <SignalPackageIds>
+      <package value="10641886185881026309"/>
+     </SignalPackageIds>
+     <ReplacementArt TracerEffect="objects/arkeffects/weapons/generic/electric/arkbullet_gentracermesh.cgf"/>
+     <AdditionalArt AttachmentPointName="fx_enchantment_attach_01" VFXLibraryName="pistol" VFXEffectName="mat_pistol_enchant_electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentModel="electric_enchantment" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentPointNameAdd="fx_enchantment_attach_02" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00"/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponToyGun" TagState="electric" ProjectileOverride="" AOERadius=".05" AOESignalPackage="10641886185895552139">
+     <SignalPackageIds>
+      <package value="10641886185881026309"/>
+     </SignalPackageIds>
+     <ReplacementArt/>
+     <AdditionalArt VFXEffectName="mat_toygun_enchant_electric" VFXLibraryName="toygun" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentPointNameAdd="fx_enchantment_attach_02" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Electric.Attachment.Electric_00" AttachmentModel="electric_enchantment" AttachmentAnim="Wpn_1p_Idle_Electric"/>
+    </WeaponEnchantmentInfo>
+   </WeaponsAllowed>
+  </ArkWeaponEnchantment>
+  <ArkWeaponEnchantment ID="10641886185881042003" Name="Fire" Label="@loc_10641886185881042004" Description="@loc_10641886185881042005" IconNameSmall="enchantment_fire_sml" IconNameLarge="enchantment_fire" Keyword="%enchantmentdamage%" KeywordSignalID="7745561656291547931">
+   <WeaponsAllowed>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponShotgun" TagState="fire" ProjectileOverride="">
+     <SignalPackageIds>
+      <package value="10641886185881042151"/>
+     </SignalPackageIds>
+     <AdditionalArt AttachmentModel="electric_enchantment" VFXEffectName="mat_pistol_enchant_fire" VFXLibraryName="pistol" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Fire.Attachment.Fire_00" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Fire.Attachment.Fire_00" AttachmentPointNameAdd="fx_enchantment_attach_02"/>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponWrench" TagState="fire">
+     <SignalPackageIds>
+      <package value="10641886185881042151"/>
+     </SignalPackageIds>
+     <AdditionalArt AttachmentModel="electric_enchantment" VFXEffectName="mat_pistol_enchant_fire" VFXLibraryName="pistol" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Fire.Attachment.Fire_00" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Fire.Attachment.Fire_00" AttachmentPointNameAdd="fx_enchantment_attach_02"/>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponPistol" TagState="fire" ProjectileOverride="">
+     <SignalPackageIds>
+      <package value="10641886185881042151"/>
+     </SignalPackageIds>
+     <ReplacementArt TracerEffect="objects/arkeffects/weapons/generic/fire/arkbullet_gentracermesh.cgf"/>
+     <AdditionalArt AttachmentPointName="fx_enchantment_attach_01" VFXLibraryName="pistol" VFXEffectName="mat_pistol_enchant_fire" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Fire.Attachment.Fire_00" AttachmentModel="electric_enchantment" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentPointNameAdd="fx_enchantment_attach_02" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Fire.Attachment.Fire_00"/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponToyGun" TagState="fire" ProjectileOverride="">
+     <SignalPackageIds>
+      <package value="10641886185881042151"/>
+     </SignalPackageIds>
+     <ReplacementArt/>
+     <AdditionalArt VFXEffectName="mat_toygun_enchant_fire" VFXLibraryName="toygun" AttachmentModel="electric_enchantment" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Fire.Attachment.Fire_00" AttachmentPointNameAdd="fx_enchantment_attach_02" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Fire.Attachment.Fire_00"/>
+    </WeaponEnchantmentInfo>
+   </WeaponsAllowed>
+  </ArkWeaponEnchantment>
+  <ArkWeaponEnchantment ID="10641886185881102955" Name="Psi" Label="@loc_10641886185881102956" Description="@loc_10641886185881102957" IconNameSmall="enchantment_psi_sml" IconNameLarge="enchantment_psi" Keyword="" KeywordSignalID="">
+   <WeaponsAllowed>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponWrench" TagState="psi">
+     <SignalPackageIds>
+      <package value="10641886185881103029"/>
+     </SignalPackageIds>
+     <AdditionalArt AttachmentModel="electric_enchantment" VFXEffectName="mat_pistol_enchant_psi" VFXLibraryName="pistol" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Psi.Attachment.Psi_00" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Psi.Attachment.Psi_00" AttachmentPointNameAdd="fx_enchantment_attach_02"/>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponShotgun" TagState="psi" ProjectileOverride="">
+     <SignalPackageIds>
+      <package value="10641886185881103029"/>
+     </SignalPackageIds>
+     <AdditionalArt AttachmentModel="electric_enchantment" VFXEffectName="mat_pistol_enchant_psi" VFXLibraryName="pistol" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Psi.Attachment.Psi_00" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Psi.Attachment.Psi_00" AttachmentPointNameAdd="fx_enchantment_attach_02"/>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponPistol" TagState="psi" ProjectileOverride="">
+     <SignalPackageIds>
+      <package value="10641886185881103029"/>
+     </SignalPackageIds>
+     <ReplacementArt TracerEffect="objects/arkeffects/weapons/generic/psi/arkbullet_gentracermesh.cgf"/>
+     <AdditionalArt AttachmentPointName="fx_enchantment_attach_01" VFXLibraryName="pistol" VFXEffectName="mat_pistol_enchant_psi" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Psi.Attachment.Psi_00" AttachmentModel="electric_enchantment" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentPointNameAdd="fx_enchantment_attach_02" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Psi.Attachment.Psi_00"/>
+    </WeaponEnchantmentInfo>
+   </WeaponsAllowed>
+  </ArkWeaponEnchantment>
+  <ArkWeaponEnchantment ID="10641886185881104065" Name="ArmorPiercing" Label="@loc_10641886185881104066" Description="@loc_10641886185881104067" IconNameSmall="enchantment_piercing_sml" IconNameLarge="enchantment_piercing" Keyword="%enchantmentdamage%" KeywordSignalID="3149325216913727213">
+   <WeaponsAllowed>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponShotgun" TagState="armor" ProjectileOverride="">
+     <SignalPackageIds>
+      <package value="10641886185881103973"/>
+     </SignalPackageIds>
+     <AdditionalArt AttachmentModel="electric_enchantment" VFXEffectName="mat_pistol_enchant_armor" VFXLibraryName="pistol" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Armor.Attachment.Armor_00" AttachmentPointName="fx_enchantment_attach_01" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Armor.Attachment.Armor_00" AttachmentPointNameAdd="fx_enchantment_attach_02"/>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponPistol" TagState="armor" ProjectileOverride="">
+     <SignalPackageIds>
+      <package value="10641886185881103973"/>
+     </SignalPackageIds>
+     <ReplacementArt TracerEffect="objects/arkeffects/weapons/generic/armor/arkbullet_gentracermesh.cgf"/>
+     <AdditionalArt AttachmentPointName="fx_enchantment_attach_01" VFXLibraryName="pistol" VFXEffectName="mat_pistol_enchant_armor" AttachmentEffect="PlayerWeapons.Pistol.Enchantment.Armor.Attachment.Armor_00" AttachmentModel="electric_enchantment" AttachmentAnim="Wpn_1p_Idle_Electric" AttachmentPointNameAdd="fx_enchantment_attach_02" AttachmentEffectAdd="PlayerWeapons.Pistol.Enchantment.Armor.Attachment.Armor_00"/>
+    </WeaponEnchantmentInfo>
+   </WeaponsAllowed>
+  </ArkWeaponEnchantment>
+  <ArkWeaponEnchantment ID="10641886185881116886" Name="DurabilityBuff" Label="@loc_10641886185881116887" Description="@loc_10641886185881116888" IconNameSmall="enchantment_durability_sml" IconNameLarge="enchantment_durability" Keyword="" KeywordSignalID="">
+   <WeaponsAllowed>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponShotgun" TagState="durable" ProjectileOverride="">
+     <AdditionalArt/>
+     <StatModifiers>
+      <StatModifier StatName="weaponDurability" Modifier="50"/>
+     </StatModifiers>
+     <ReplacementArt/>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponPistol" TagState="durable" ProjectileOverride="">
+     <ReplacementArt TracerEffect="objects/arkeffects/weapons/generic/durable/arkbullet_gentracermesh.cgf"/>
+     <AdditionalArt/>
+     <StatModifiers>
+      <StatModifier StatName="weaponDurability" Modifier="50"/>
+     </StatModifiers>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponInstalaser">
+     <AdditionalArt AttachmentEffectAdd="" AttachmentPointNameAdd=""/>
+     <StatModifiers>
+      <StatModifier StatName="weaponDurability" Modifier="50"/>
+     </StatModifiers>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponGooGun">
+     <AdditionalArt AttachmentEffectAdd="" AttachmentPointNameAdd=""/>
+     <StatModifiers>
+      <StatModifier StatName="weaponDurability" Modifier="50"/>
+     </StatModifiers>
+    </WeaponEnchantmentInfo>
+    <WeaponEnchantmentInfo InstallWeapon="ArkWeaponStunGun">
+     <AdditionalArt AttachmentEffectAdd="" AttachmentPointNameAdd=""/>
+     <StatModifiers>
+      <StatModifier StatName="weaponDurability" Modifier="50"/>
+     </StatModifiers>
+    </WeaponEnchantmentInfo>
+   </WeaponsAllowed>
+  </ArkWeaponEnchantment>
+ </WeaponEnchantments>
+</ArkWeaponEnchantments>

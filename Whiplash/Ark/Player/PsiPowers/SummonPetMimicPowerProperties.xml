@@ -1,0 +1,9 @@
+
+<SummonPetMimicPowerProperties>
+ <Common DisplayName="@rpg_SummonPetMimicName" PsiCost="0" Description="@rpg_SummonPetMimic" NoiseId="9469288860501998057" LoudnessId="9469288860501649190" PickerLabel="SummonPetMimic" ExecutionAudioTrigger="" InterruptsMimicGrabSequence="false"/>
+ <Levels>
+  <ArkPsiPowerSummonPetMimicProperties DisplayName="@rpg_SummonPetMimicName" Description="@rpg_SummonPetMimic" Icon="ui_icon_ability_summon_mimic" Archetype="ArkNpcs.Mimics\DO_NOT_PLACE.PetMimic" SearchCooldownSec="10.0" MinBounds="-0.419,-0.482,-0.1" MaxBounds="0.501,0.617,0.653" SummonFX="Player.Powers.SummonPet.Pet_Mimic_Summon" UnsummonFX="Player.Powers.SummonPet.Pet_Mimic_Unsummon" SummonFXAttachment="PsiTarget_Attachment">
+   <TargetingProperties MaxRange="7" MinRange="2" TargetParticleEffect="Player.Powers.SummonPet.Targeting_mimic"/>
+  </ArkPsiPowerSummonPetMimicProperties>
+ </Levels>
+</SummonPetMimicPowerProperties>

@@ -1,0 +1,34 @@
+
+<ArkNotes>
+ <Notes>
+  <ArkNote ID="6732635291256652916" Name="WL_TyphonGateProTip" PlotCritical="false" Subject="@loc_6732635291256652917" Content="@loc_6732635291256652918" Location="844024417334136241"/>
+  <ArkNote ID="6732635291246290918" Name="WL_ControlModules" PlotCritical="false" Subject="@loc_6732635291246290919" Content="@loc_6732635291246290920"/>
+  <ArkNote ID="12889009725067676458" Name="TL_Password_LabAccess" PlotCritical="false" Subject="@loc_12889009725067676459" Content="@loc_12889009725067676460" KeyCode="12889009725067674610" Location="844024417334136393"/>
+  <ArkNote ID="12889009725067676479" Name="TL_Password_WeaponLocker" PlotCritical="false" Subject="@loc_12889009725067676480" Content="@loc_12889009725067676481" KeyCode="12889009725067674476" Location="844024417334136393"/>
+  <ArkNote ID="12889009725088949744" Name="TL_PSiHypoProtocol" PlotCritical="false" Subject="@loc_12889009725088949745" Content="@loc_12889009725088949746" Location="844024417334136393"/>
+  <ArkNote ID="12889009725088949469" Name="TL_VolunteerSchedule" PlotCritical="false" Subject="@loc_12889009725088949470" Content="@loc_12889009725088949471" Location="844024417334136393"/>
+  <ArkNote ID="12889009725088949807" Name="TL_EscapeNote" PlotCritical="false" Subject="@loc_12889009725088949808" Content="@loc_12889009725088949809" Location="844024417334136393"/>
+  <ArkNote ID="6732635291256652843" Name="WL_TyphonLureHint" PlotCritical="false" Subject="@loc_6732635291256652844" Content="@loc_6732635291256652845" Location="844024417334136241"/>
+  <ArkNote ID="844024417347442054" Name="WL_PilotPilotingSkill" PlotCritical="false" Subject="@loc_844024417347442055" Content="@loc_844024417347442056"/>
+  <ArkNote ID="761057048033136775" Name="WL_MW_SafeCode" PlotCritical="false" Subject="@loc_761057048033136776" Content="@loc_761057048033136777" KeyCode="761057048033136297" Location="844024417334136487"/>
+  <ArkNote ID="761057048033309571" Name="WL_MW_CrateTrailhead" PlotCritical="false" Subject="@loc_761057048033309572" Content="@loc_761057048033309573" KeyCode="844024417338621290" Location="844024417334136487"/>
+  <ArkNote ID="6732635291262013308" Name="CA_BrianChungNote" PlotCritical="true" Subject="@loc_6732635291262013309" Content="@loc_6732635291262013310"/>
+  <ArkNote ID="418270515533343119" Name="CA_MizukiFavor" PlotCritical="true" Subject="@loc_418270515533343120" Content="@loc_418270515533343121" Location="844024417334136321"/>
+  <ArkNote ID="418270515533591407" Name="CA_NoteToMizku" PlotCritical="false" Subject="@loc_418270515533591408" Content="@loc_418270515533591409" Location="844024417334136321"/>
+  <ArkNote ID="418270515533345709" Name="CA_MizukiPassword" PlotCritical="true" Subject="@loc_418270515533345710" Content="@loc_418270515533345711" Location="844024417334136321" Password="4349723564977375640"/>
+  <ArkNote ID="761057048035306367" Name="WL_VijayBadNews" PlotCritical="false" Subject="@loc_761057048035306368" Content="@loc_761057048035306369" Location="844024417334136321"/>
+  <ArkNote ID="761057048039262622" Name="WL_ShoppingList" PlotCritical="false" Subject="@loc_761057048039262623" Content="@loc_761057048039262624" Location="844024417334136487"/>
+  <ArkNote ID="13680621263446317293" Name="TL_BrianToDo" PlotCritical="false" Subject="@loc_13680621263446317294" Content="@loc_13680621263446317295"/>
+  <ArkNote ID="4349723564990402189" Name="WL_ControlModuleReminder" PlotCritical="false" Subject="@loc_4349723564990402190" Content="@loc_4349723564990402191"/>
+  <ArkNote ID="761057048042470826" Name="WL_SteveReployer" PlotCritical="false" Subject="@loc_761057048042470827" Content="@loc_761057048042470828" Location="844024417334136487"/>
+  <ArkNote ID="844024417358938991" Name="WL_SimStateNarrative1" PlotCritical="false" Subject="@loc_844024417358938992" Content="@loc_844024417358938993"/>
+  <ArkNote ID="844024417358938851" Name="WL_SimStateNarrative2" PlotCritical="false" Subject="@loc_844024417358938852" Content="@loc_844024417358938853"/>
+  <ArkNote ID="844024417358938954" Name="WL_SimStateNarrative3" PlotCritical="false" Subject="@loc_844024417358938955" Content="@loc_844024417358938956"/>
+  <ArkNote ID="844024417358939019" Name="WL_SimStateNarrative4" PlotCritical="false" Subject="@loc_844024417358939020" Content="@loc_844024417358939021"/>
+  <ArkNote ID="844024417358939044" Name="WL_SimStateNarrative5" PlotCritical="false" Subject="@loc_844024417358939045" Content="@loc_844024417358939046"/>
+  <ArkNote ID="844024417358939064" Name="WL_SimStateNarrative6" PlotCritical="false" Subject="@loc_844024417358939065" Content="@loc_844024417358939066"/>
+  <ArkNote ID="844024417358939073" Name="WL_SimStateNarrative7" PlotCritical="false" Subject="@loc_844024417358939074" Content="@loc_844024417358939075"/>
+  <ArkNote ID="4349723564991114269" Name="CA_AlexSafeCode" PlotCritical="false" Subject="@loc_4349723564991114270" Content="@loc_4349723564991114271" KeyCode="4349723564991113958" Location="844024417334136321"/>
+  <ArkNote ID="4349723564991371047" Name="WL_Shuttle_Manifest" PlotCritical="false" Subject="@loc_4349723564991371048" Content="@loc_4349723564991371049" Location="844024417334136321"/>
+ </Notes>
+</ArkNotes>

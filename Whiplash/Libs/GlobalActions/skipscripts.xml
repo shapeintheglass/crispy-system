@@ -1,0 +1,368 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="275" Class="Ark:Debug:ConsoleEvent" pos="14090,5420,0">
+   <Inputs Command="LvlTrans_CraterA_to_TranstarLabs"/>
+  </Node>
+  <Node Id="276" Class="Mission:LoadNextLevel" pos="15100,5420,0">
+   <Inputs NextLevel="TranstarLabs"/>
+  </Node>
+  <Node Id="277" Name="TranstarLabs_from_CraterA" Class="_commentbox" pos="14070,5325,0">
+   <Inputs TextSize="1" Color="0.982251,1,0.138432" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1290" Height="210"/>
+  </Node>
+  <Node Id="278" Class="Mission:GameTokenSet" pos="14550,5420,0">
+   <Inputs gametokenid_Token="101193842" Value="From_CraterA"/>
+  </Node>
+  <Node Id="279" Class="Ark:Debug:ConsoleEvent" pos="14100,5760,0">
+   <Inputs Command="LvlTrans_CraterB_to_TranstarLabs"/>
+  </Node>
+  <Node Id="280" Class="Mission:LoadNextLevel" pos="15110,5760,0">
+   <Inputs NextLevel="TranstarLabs"/>
+  </Node>
+  <Node Id="281" Name="TranstarLabs_from_CraterB" Class="_commentbox" pos="14070,5645,0">
+   <Inputs TextSize="1" Color="0.991102,1,0.138432" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="282" Class="Mission:GameTokenSet" pos="14570,5760,0">
+   <Inputs gametokenid_Token="101193842" Value="From_CraterB"/>
+  </Node>
+  <Node Id="283" Class="Ark:Debug:ConsoleEvent" pos="14090,6110,0">
+   <Inputs Command="LvlTrans_Tram_to_TranstarLabs"/>
+  </Node>
+  <Node Id="284" Class="Mission:LoadNextLevel" pos="15090,6110,0">
+   <Inputs NextLevel="TranstarLabs"/>
+  </Node>
+  <Node Id="285" Name="TranstarLabs_from_Tram" Class="_commentbox" pos="14080,6005,0">
+   <Inputs TextSize="1" Color="0.991102,1,0.138432" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="286" Class="Mission:GameTokenSet" pos="14560,6110,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Tram"/>
+  </Node>
+  <Node Id="287" Class="Ark:Debug:ConsoleEvent" pos="14110,6450,0">
+   <Inputs Command="LvlTrans_Engineering_to_TranstarLabs"/>
+  </Node>
+  <Node Id="288" Class="Mission:LoadNextLevel" pos="15120,6450,0">
+   <Inputs NextLevel="TranstarLabs"/>
+  </Node>
+  <Node Id="289" Name="TranstarLabs_from_Engineering" Class="_commentbox" pos="14060,6335,0">
+   <Inputs TextSize="1" Color="0.991102,1,0.138432" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="290" Class="Mission:GameTokenSet" pos="14580,6450,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Engineering"/>
+  </Node>
+  <Node Id="883" Class="Ark:Debug:ConsoleEvent" pos="12050,9650,0">
+   <Inputs Command="EnableTouristMode"/>
+  </Node>
+  <Node Id="885" Class="Mission:GameTokenSet" pos="12420,9650,0">
+   <Inputs gametokenid_Token="597364167" Value="true"/>
+  </Node>
+  <Node Id="888" Class="Ark:Debug:ConsoleEvent" pos="12050,9740,0">
+   <Inputs Command="DisableTouristMode"/>
+  </Node>
+  <Node Id="889" Class="Mission:GameTokenSet" pos="12420,9740,0">
+   <Inputs gametokenid_Token="597364167" Value="false"/>
+  </Node>
+  <Node Id="890" Name="Tourist_Mode" Class="_commentbox" pos="12000,9575,0">
+   <Inputs TextSize="1" Color="0.0202886,0.0262412,0.752942" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="880" Height="280"/>
+  </Node>
+  <Node Id="1236" Class="Ark:Debug:ConsoleEvent" pos="12030,8880,0">
+   <Inputs Command="getDestination"/>
+  </Node>
+  <Node Id="1237" Class="Mission:GameTokenCheck" pos="12350,8880,0">
+   <Inputs gametokenid_Token="101193842" CheckValue=""/>
+  </Node>
+  <Node Id="1238" Class="Debug:DisplayMessage" pos="12890,8870,0">
+   <Inputs entityId="0" message="Checking bay contents..." DisplayTime="5" posX="50" posY="25" fontSize="2" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="14666" Class="Ark:PDA:ClearMapFog" pos="12376.344,10185.237,0">
+   <Inputs/>
+  </Node>
+  <Node Id="14668" Class="Ark:Debug:ConsoleEvent" pos="12096.344,10185.237,0">
+   <Inputs Command="ClearMapFog"/>
+  </Node>
+  <Node Id="14671" Class="Ark:PDA:OpenPDAPage" pos="12620,10180,0">
+   <Inputs Page="LevelMap"/>
+  </Node>
+  <Node Id="14731" Class="Debug:DisplayMessage" pos="12860,9450,0">
+   <Inputs entityId="0" message="tourist mode enabled" DisplayTime="5" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="14732" Class="Debug:DisplayMessage" pos="12860,9700,0">
+   <Inputs entityId="0" message="tourist mode disabled" DisplayTime="5" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="14940" Class="Ark:Debug:ConsoleEvent" pos="12060,9230,0">
+   <Inputs Command="isCampaign"/>
+  </Node>
+  <Node Id="14942" Class="Mission:GameTokenSet" pos="12470,9230,0">
+   <Inputs gametokenid_Token="828536512" Value="true"/>
+  </Node>
+  <Node Id="14943" Class="Ark:Debug:ConsoleEvent" pos="14170,3220,0">
+   <Inputs Command="LvlTrans_TranstarA_to_Crater"/>
+  </Node>
+  <Node Id="14944" Class="Mission:LoadNextLevel" pos="15180,3220,0">
+   <Inputs NextLevel="Crater"/>
+  </Node>
+  <Node Id="14945" Name="Crater_from_Transtar_A" Class="_commentbox" pos="14140,3125,0">
+   <Inputs TextSize="1" Color="0.991102,0.991102,0.571125" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1290" Height="210"/>
+  </Node>
+  <Node Id="14946" Class="Mission:GameTokenSet" pos="14630,3220,0">
+   <Inputs gametokenid_Token="101193842" Value="From_TranstarA"/>
+  </Node>
+  <Node Id="14947" Class="Ark:Debug:ConsoleEvent" pos="14180,3560,0">
+   <Inputs Command="LvlTrans_TranstarB_to_Crater"/>
+  </Node>
+  <Node Id="14948" Class="Mission:LoadNextLevel" pos="15190,3560,0">
+   <Inputs NextLevel="Crater"/>
+  </Node>
+  <Node Id="14950" Class="Mission:GameTokenSet" pos="14640,3560,0">
+   <Inputs gametokenid_Token="101193842" Value="From_TranstarB"/>
+  </Node>
+  <Node Id="14951" Class="Ark:Debug:ConsoleEvent" pos="14170,3910,0">
+   <Inputs Command="LvlTrans_Engineering_to_Crater"/>
+  </Node>
+  <Node Id="14952" Class="Mission:LoadNextLevel" pos="15170,3910,0">
+   <Inputs NextLevel="Crater"/>
+  </Node>
+  <Node Id="14953" Name="Crater_from_Engineering" Class="_commentbox" pos="14070,3845,0">
+   <Inputs TextSize="1" Color="0.991102,0.991102,0.571125" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="14954" Class="Mission:GameTokenSet" pos="14640,3910,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Engineering"/>
+  </Node>
+  <Node Id="14955" Class="Ark:Debug:ConsoleEvent" pos="14190,4250,0">
+   <Inputs Command="LvlTrans_CrewAnnex_to_Crater"/>
+  </Node>
+  <Node Id="14956" Class="Mission:LoadNextLevel" pos="15200,4250,0">
+   <Inputs NextLevel="Crater"/>
+  </Node>
+  <Node Id="14957" Name="Crater_from_Crew_Annex" Class="_commentbox" pos="14060,4165,0">
+   <Inputs TextSize="1" Color="0.991102,0.991102,0.571125" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="14958" Class="Mission:GameTokenSet" pos="14660,4250,0">
+   <Inputs gametokenid_Token="101193842" Value="From_CrewAnnex"/>
+  </Node>
+  <Node Id="14963" Name="Crater_from_Transtar_B" Class="_commentbox" pos="14140,3465,0">
+   <Inputs TextSize="1" Color="0.991102,0.991102,0.571125" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1290" Height="210"/>
+  </Node>
+  <Node Id="14964" Class="Ark:Debug:ConsoleEvent" pos="14200,4610,0">
+   <Inputs Command="LvlTrans_Moonworks_to_Crater"/>
+  </Node>
+  <Node Id="14965" Class="Mission:LoadNextLevel" pos="15190,4610,0">
+   <Inputs NextLevel="Crater"/>
+  </Node>
+  <Node Id="14966" Name="Crater_from_Moonworks" Class="_commentbox" pos="14060,4535,0">
+   <Inputs TextSize="1" Color="0.991102,0.991102,0.571125" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="14967" Class="Mission:GameTokenSet" pos="14660,4610,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Moonworks"/>
+  </Node>
+  <Node Id="14969" Class="Ark:Debug:ConsoleEvent" pos="14100,10350,0">
+   <Inputs Command="LvlTrans_TranstarLabs_to_Engineering"/>
+  </Node>
+  <Node Id="14970" Class="Mission:LoadNextLevel" pos="15110,10350,0">
+   <Inputs NextLevel="Engineering"/>
+  </Node>
+  <Node Id="14971" Name="Engineering_from_Transtar_Labs" Class="_commentbox" pos="14070,10255,0">
+   <Inputs TextSize="1" Color="0.428691,0.445201,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1290" Height="210"/>
+  </Node>
+  <Node Id="14972" Class="Mission:GameTokenSet" pos="14560,10350,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Transtar"/>
+  </Node>
+  <Node Id="14976" Class="Ark:Debug:ConsoleEvent" pos="14080,10730,0">
+   <Inputs Command="LvlTrans_Crater_to_Engineering"/>
+  </Node>
+  <Node Id="14977" Class="Mission:LoadNextLevel" pos="15080,10730,0">
+   <Inputs NextLevel="Engineering"/>
+  </Node>
+  <Node Id="14978" Name="Engineering_from_Crater" Class="_commentbox" pos="14060,10649,0">
+   <Inputs TextSize="1" Color="0.428691,0.445201,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="14979" Class="Mission:GameTokenSet" pos="14550,10730,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Crater"/>
+  </Node>
+  <Node Id="14980" Class="Ark:Debug:ConsoleEvent" pos="14100,11070,0">
+   <Inputs Command="LvlTrans_CrewAnnex_to_Engineering"/>
+  </Node>
+  <Node Id="14981" Class="Mission:LoadNextLevel" pos="15110,11070,0">
+   <Inputs NextLevel="Engineering"/>
+  </Node>
+  <Node Id="14982" Name="Engineering_from_Crew_Annex" Class="_commentbox" pos="14050,10959,0">
+   <Inputs TextSize="1" Color="0.428691,0.445201,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="14983" Class="Mission:GameTokenSet" pos="14570,11070,0">
+   <Inputs gametokenid_Token="101193842" Value="From_CrewAnnex"/>
+  </Node>
+  <Node Id="14989" Class="Ark:Debug:ConsoleEvent" pos="14100,11430,0">
+   <Inputs Command="LvlTrans_Moonworks_to_Engineering"/>
+  </Node>
+  <Node Id="14990" Class="Mission:LoadNextLevel" pos="15100,11430,0">
+   <Inputs NextLevel="Engineering"/>
+  </Node>
+  <Node Id="14991" Name="Engineering_from_Moonworks" Class="_commentbox" pos="14050,11329,0">
+   <Inputs TextSize="1" Color="0.428691,0.445201,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="210"/>
+  </Node>
+  <Node Id="14992" Class="Mission:GameTokenSet" pos="14570,11430,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Moonworks"/>
+  </Node>
+  <Node Id="14994" Class="Ark:Debug:ConsoleEvent" pos="14130,7260,0">
+   <Inputs Command="LvlTrans_Tram_to_CrewAnnex"/>
+  </Node>
+  <Node Id="14995" Class="Mission:LoadNextLevel" pos="15140,7260,0">
+   <Inputs NextLevel="CrewAnnex"/>
+  </Node>
+  <Node Id="14996" Name="Crew_Annex_from_Tram" Class="_commentbox" pos="14100,7163,0">
+   <Inputs TextSize="1" Color="0.863157,0.887923,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1290" Height="210"/>
+  </Node>
+  <Node Id="14997" Class="Mission:GameTokenSet" pos="14590,7260,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Tram"/>
+  </Node>
+  <Node Id="14998" Class="Ark:Debug:ConsoleEvent" pos="14140,7600,0">
+   <Inputs Command="LvlTrans_Engineering_to_CrewAnnex"/>
+  </Node>
+  <Node Id="14999" Class="Mission:LoadNextLevel" pos="15150,7600,0">
+   <Inputs NextLevel="CrewAnnex"/>
+  </Node>
+  <Node Id="15000" Name="Crew_Annex_from_Engineering" Class="_commentbox" pos="14090,7506,0">
+   <Inputs TextSize="1" Color="0.863157,0.887923,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="190"/>
+  </Node>
+  <Node Id="15001" Class="Mission:GameTokenSet" pos="14610,7600,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Engineering"/>
+  </Node>
+  <Node Id="15002" Class="Ark:Debug:ConsoleEvent" pos="14160,7950,0">
+   <Inputs Command="LvlTrans_Crater_to_CrewAnnex"/>
+  </Node>
+  <Node Id="15003" Class="Mission:LoadNextLevel" pos="15130,7950,0">
+   <Inputs NextLevel="CrewAnnex"/>
+  </Node>
+  <Node Id="15004" Name="Crew_Annex_from_Crater" Class="_commentbox" pos="14110,7857,0">
+   <Inputs TextSize="1" Color="0.863157,0.887923,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="180"/>
+  </Node>
+  <Node Id="15005" Class="Mission:GameTokenSet" pos="14600,7950,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Crater"/>
+  </Node>
+  <Node Id="15038" Class="Ark:Debug:ConsoleEvent" pos="14120,8790,0">
+   <Inputs Command="LvlTrans_Tram_to_MoonWorks"/>
+  </Node>
+  <Node Id="15039" Class="Mission:LoadNextLevel" pos="15130,8790,0">
+   <Inputs NextLevel="MoonWorks"/>
+  </Node>
+  <Node Id="15040" Name="Moonworks_from_Tram" Class="_commentbox" pos="14090,8695,0">
+   <Inputs TextSize="1" Color="0.637597,0.658375,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1290" Height="210"/>
+  </Node>
+  <Node Id="15041" Class="Mission:GameTokenSet" pos="14580,8790,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Tram"/>
+  </Node>
+  <Node Id="15042" Class="Ark:Debug:ConsoleEvent" pos="14130,9130,0">
+   <Inputs Command="LvlTrans_Engineering_to_MoonWorks"/>
+  </Node>
+  <Node Id="15043" Class="Mission:LoadNextLevel" pos="15140,9130,0">
+   <Inputs NextLevel="MoonWorks"/>
+  </Node>
+  <Node Id="15044" Name="Moonworks_from_Engineering" Class="_commentbox" pos="14110,9045,0">
+   <Inputs TextSize="1" Color="0.637597,0.658375,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="190"/>
+  </Node>
+  <Node Id="15045" Class="Mission:GameTokenSet" pos="14600,9130,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Engineering"/>
+  </Node>
+  <Node Id="15046" Class="Ark:Debug:ConsoleEvent" pos="14150,9480,0">
+   <Inputs Command="LvlTrans_Crater_to_MoonWorks"/>
+  </Node>
+  <Node Id="15047" Class="Mission:LoadNextLevel" pos="15120,9480,0">
+   <Inputs NextLevel="MoonWorks"/>
+  </Node>
+  <Node Id="15048" Name="Moonworks_from_Crater" Class="_commentbox" pos="14100,9395,0">
+   <Inputs TextSize="1" Color="0.637597,0.658375,0" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1280" Height="180"/>
+  </Node>
+  <Node Id="15049" Class="Mission:GameTokenSet" pos="14590,9480,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Crater"/>
+  </Node>
+  <Node Id="15050" Class="Ark:Debug:ConsoleEvent" pos="15730,3200,0">
+   <Inputs Command="LvlTrans_Satellite"/>
+  </Node>
+  <Node Id="15051" Class="Mission:LoadNextLevel" pos="16740,3200,0">
+   <Inputs NextLevel="Satellite"/>
+  </Node>
+  <Node Id="15052" Name="To_Satellite" Class="_commentbox" pos="15700,3104,0">
+   <Inputs TextSize="1" Color="0.991102,0.991102,0.571125" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1290" Height="210"/>
+  </Node>
+  <Node Id="15053" Class="Mission:GameTokenSet" pos="16190,3200,0">
+   <Inputs gametokenid_Token="101193842" Value="From_Nowhere"/>
+  </Node>
+  <Node Id="15054" Name="Map_reveal" Class="_commentbox" pos="12090,10174,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="740" Height="110"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="278" nodeOut="275" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="276" nodeOut="278" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="282" nodeOut="279" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="280" nodeOut="282" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="286" nodeOut="283" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="284" nodeOut="286" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="290" nodeOut="287" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="288" nodeOut="290" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="885" nodeOut="883" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14731" nodeOut="885" portIn="Show" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="889" nodeOut="888" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14732" nodeOut="889" portIn="Show" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="1237" nodeOut="1236" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="1238" nodeOut="1237" portIn="Show" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="1238" nodeOut="1237" portIn="message" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14671" nodeOut="14666" portIn="Trigger" portOut="Output" enabled="1"/>
+  <Edge nodeIn="14666" nodeOut="14668" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14942" nodeOut="14940" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14946" nodeOut="14943" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14944" nodeOut="14946" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14950" nodeOut="14947" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14948" nodeOut="14950" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14954" nodeOut="14951" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14952" nodeOut="14954" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14958" nodeOut="14955" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14956" nodeOut="14958" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14967" nodeOut="14964" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14965" nodeOut="14967" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14972" nodeOut="14969" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14970" nodeOut="14972" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14979" nodeOut="14976" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14977" nodeOut="14979" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14983" nodeOut="14980" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14981" nodeOut="14983" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14992" nodeOut="14989" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14990" nodeOut="14992" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="14997" nodeOut="14994" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14995" nodeOut="14997" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="15001" nodeOut="14998" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14999" nodeOut="15001" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="15005" nodeOut="15002" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15003" nodeOut="15005" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="15041" nodeOut="15038" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15039" nodeOut="15041" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="15045" nodeOut="15042" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15043" nodeOut="15045" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="15049" nodeOut="15046" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15047" nodeOut="15049" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="15053" nodeOut="15050" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="15051" nodeOut="15053" portIn="Trigger" portOut="OutValue" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

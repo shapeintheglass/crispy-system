@@ -1,0 +1,453 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="97" Class="Ark:Debug:ConsoleEvent" pos="-5320,970,0">
+   <Inputs Command="UnlockVolunteer"/>
+  </Node>
+  <Node Id="98" Class="Ark:Debug:ConsoleEvent" pos="-5310,1100,0">
+   <Inputs Command="UnlockEngineer"/>
+  </Node>
+  <Node Id="99" Class="Ark:Debug:ConsoleEvent" pos="-5310,1210,0">
+   <Inputs Command="UnlockScientist"/>
+  </Node>
+  <Node Id="100" Class="Ark:Debug:ConsoleEvent" pos="-5310,1320,0">
+   <Inputs Command="UnlockSecurity"/>
+  </Node>
+  <Node Id="101" Class="Ark:Debug:ConsoleEvent" pos="-5300,1440,0">
+   <Inputs Command="UnlockMercenary"/>
+  </Node>
+  <Node Id="102" Class="Ark:Debug:ConsoleEvent" pos="-5290,1990,0">
+   <Inputs Command="UnlockYu"/>
+  </Node>
+  <Node Id="104" Class="Mission:GameTokenSet" pos="-4870,970,0">
+   <Inputs gametokenid_Token="42440688" Value="true"/>
+  </Node>
+  <Node Id="105" Class="Mission:GameTokenSet" pos="-4880,1100,0">
+   <Inputs gametokenid_Token="487793300" Value="true"/>
+  </Node>
+  <Node Id="106" Class="Mission:GameTokenSet" pos="-4870,1210,0">
+   <Inputs gametokenid_Token="1468936369" Value="true"/>
+  </Node>
+  <Node Id="107" Class="Mission:GameTokenSet" pos="-4870,1320,0">
+   <Inputs gametokenid_Token="141624731" Value="true"/>
+  </Node>
+  <Node Id="108" Class="Mission:GameTokenSet" pos="-4870,1440,0">
+   <Inputs gametokenid_Token="362192299" Value="true"/>
+  </Node>
+  <Node Id="109" Class="Mission:GameTokenSet" pos="-4870,1990,0">
+   <Inputs gametokenid_Token="1449796818" Value="true"/>
+  </Node>
+  <Node Id="110" Name="Debug_Unlock" Class="_commentbox" pos="-5340,941,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1050" Height="1770"/>
+  </Node>
+  <Node Id="113" Class="Inventory:ItemAdd" pos="-4030,-10,0">
+   <Inputs entityId="0" archetype="ArkPickups.Player.Psychoscope" quantity="1" qualityTier_quality="" playfanfare="0"/>
+  </Node>
+  <Node Id="115" Class="Game:Start" pos="-4750,10,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="129" Name="Give_Player_Items" Class="_commentbox" pos="-4790,-104,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1270" Height="290"/>
+  </Node>
+  <Node Id="133" Class="Debug:DisplayMessage" pos="-2080,3530,0">
+   <Inputs entityId="0" message="PLAYER IS DEAD" DisplayTime="5" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0" ShowInLauncher="0"/>
+  </Node>
+  <Node Id="134" Class="Game:Start" pos="-3220,4270,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="139" Class="Actor:HealthGet" pos="-2810,4170,0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="143" Class="Logic:Gate" pos="-2610,3930,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="145" Class="Actor:LocalPlayer" pos="-3060,4170,0">
+   <Inputs/>
+  </Node>
+  <Node Id="147" Class="Mission:LoadNextLevel" pos="-3780,5200,0">
+   <Inputs NextLevel="Satellite"/>
+  </Node>
+  <Node Id="152" Class="Debug:ExecuteString" pos="-3890,-370,0">
+   <Inputs String="g_godmode 1" NextFrame="0"/>
+  </Node>
+  <Node Id="154" Class="Math:LessCheck" pos="-2510,4170,0">
+   <Inputs A="0" B="1"/>
+  </Node>
+  <Node Id="156" Class="Logic:Gate" pos="-4350,10,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="158" Class="Time:FrameDelay" pos="-2810,3930,0">
+   <Inputs/>
+  </Node>
+  <Node Id="164" Class="Ark:Roster:CharacterLocatedEvent" pos="-5320,650,0">
+   <Inputs character_Character="844024417273151090"/>
+  </Node>
+  <Node Id="170" Class="Ark:Objectives:LocateCharacterEvent" pos="-5330,710,0">
+   <Inputs character_Character="844024417273151090"/>
+  </Node>
+  <Node Id="172" Class="Mission:GameTokenCheck" pos="-1830,1160,0">
+   <Inputs gametokenid_Token="487793300" CheckValue="true"/>
+  </Node>
+  <Node Id="182" Class="Debug:DisplayMessage" pos="-1290,1000,0">
+   <Inputs entityId="0" message="YES" DisplayTime="5" posX="50" posY="50" fontSize="5" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="184" Class="Ark:Debug:ConsoleEvent" pos="-2180,1160,0">
+   <Inputs Command="CheckEngineerUnlock"/>
+  </Node>
+  <Node Id="185" Class="Debug:DisplayMessage" pos="-1290,1240,0">
+   <Inputs entityId="0" message="NO" DisplayTime="5" posX="50" posY="50" fontSize="5" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="201" Class="Actor:Sensor" pos="-3470,3630,0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="202" Class="Game:Start" pos="-3840,3670,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="204" Class="Actor:LocalPlayer" pos="-3670,3510,0">
+   <Inputs/>
+  </Node>
+  <Node Id="205" Class="Actor:HealthGet" pos="-3190,3820,0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="206" Class="Math:LessCheck" pos="-2990,3820,0">
+   <Inputs A="0" B="5"/>
+  </Node>
+  <Node Id="207" Class="Debug:DisplayMessage" pos="-2710,3600,0">
+   <Inputs entityId="0" message="PLAYER IS DEAD" DisplayTime="5" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0" ShowInLauncher="0"/>
+  </Node>
+  <Node Id="208" Class="Ark:Debug:ConsoleEvent" pos="-2280,-390,0">
+   <Inputs Command="forcesave"/>
+  </Node>
+  <Node Id="210" Class="Time:Delay" pos="-4320,370,0">
+   <Inputs delay="3" resetOnInput="0"/>
+  </Node>
+  <Node Id="212" Class="Mission:GameTokenSet" pos="-4040,370,0">
+   <Inputs gametokenid_Token="2067707504" Value="true"/>
+  </Node>
+  <Node Id="214" Class="Game:SaveGame" pos="-1460,-390,0">
+   <Inputs Name="quicksave" Desc="" DelaySaveIfPlayerInAir="0"/>
+  </Node>
+  <Node Id="215" Class="Mission:GameTokenSet" pos="-1940,-390,0">
+   <Inputs gametokenid_Token="2067707504" Value="true"/>
+  </Node>
+  <Node Id="216" Class="Game:SaveGame" pos="-1080,-400,0">
+   <Inputs Name="quicksave" Desc="" DelaySaveIfPlayerInAir="0"/>
+  </Node>
+  <Node Id="217" Class="Ark:Debug:ConsoleEvent" pos="-3090,-80,0">
+   <Inputs Command="forcesave2"/>
+  </Node>
+  <Node Id="218" Class="Game:SaveGame" pos="-1200,-80,0">
+   <Inputs Name="quicksave" Desc="" DelaySaveIfPlayerInAir="0"/>
+  </Node>
+  <Node Id="219" Class="Mission:GameTokenSet" pos="-2780,-80,0">
+   <Inputs gametokenid_Token="2067707504" Value="false"/>
+  </Node>
+  <Node Id="221" Class="Mission:GameTokenSet" pos="-2050,-80,0">
+   <Inputs gametokenid_Token="2067707504" Value="true"/>
+  </Node>
+  <Node Id="223" Class="Debug:DisplayMessage" pos="-1930,-640,0">
+   <Inputs entityId="0" message="ATTEMPTING FORCE SAVE" DisplayTime="5" posX="50" posY="50" fontSize="5" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="224" Class="Debug:DisplayMessage" pos="-2720,-1150,0">
+   <Inputs entityId="0" message="ATTEMPTING FORCE SAVE" DisplayTime="5" posX="50" posY="50" fontSize="5" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="225" Class="Ark:Debug:ConsoleEvent" pos="-3070,-1140,0">
+   <Inputs Command="displaymessage"/>
+  </Node>
+  <Node Id="226" Class="Ark:Debug:ConsoleEvent" pos="-4400,480,0">
+   <Inputs Command="forcesave3"/>
+  </Node>
+  <Node Id="227" Class="Time:Delay" pos="-2310,-80,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="228" Class="Game:SaveGame" pos="-1550,-80,0">
+   <Inputs Name="quicksave" Desc="" DelaySaveIfPlayerInAir="0"/>
+  </Node>
+  <Node Id="229" Class="Ark:Debug:ConsoleEvent" pos="-3490,2050,0">
+   <Inputs Command="KillPlayer"/>
+  </Node>
+  <Node Id="231" Class="Ark:Signal:SendPackage" pos="-3200,2030,0">
+   <Inputs entityId="0" Sender="0" signalPackage_Package="3149325216930480894" Value="9999" NumRepeats="0" RepeatTime="0"/>
+  </Node>
+  <Node Id="233" Class="Actor:LocalPlayer" pos="-3470,1930,0">
+   <Inputs/>
+  </Node>
+  <Node Id="234" Name="Load_Back_Into_Staging_Hack" Class="_commentbox" pos="-4350,5176,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="780" Height="110"/>
+  </Node>
+  <Node Id="237" Class="Mission:GameTokenCheck" pos="-1780,1860,0">
+   <Inputs gametokenid_Token="1468936369" CheckValue="true"/>
+  </Node>
+  <Node Id="238" Class="Debug:DisplayMessage" pos="-1220,1720,0">
+   <Inputs entityId="0" message="YES" DisplayTime="5" posX="50" posY="50" fontSize="5" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="239" Class="Ark:Debug:ConsoleEvent" pos="-2130,1860,0">
+   <Inputs Command="CheckScientistUnlock"/>
+  </Node>
+  <Node Id="240" Class="Debug:DisplayMessage" pos="-1220,1960,0">
+   <Inputs entityId="0" message="NO" DisplayTime="5" posX="50" posY="50" fontSize="5" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="241" Name="Check_Unlock_State" Class="_commentbox" pos="-2310,937,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1561" Height="1290"/>
+  </Node>
+  <Node Id="242" Class="Ark:Debug:ConsoleEvent" pos="-5290,1580,0">
+   <Inputs Command="UnlockProtean"/>
+  </Node>
+  <Node Id="243" Class="Mission:GameTokenSet" pos="-4870,1580,0">
+   <Inputs gametokenid_Token="1568909360" Value="true"/>
+  </Node>
+  <Node Id="244" Class="Ark:Debug:ConsoleEvent" pos="-2420,2720,0">
+   <Inputs Command="CheckCurrentCharacter"/>
+  </Node>
+  <Node Id="246" Class="String:Concat" pos="-1620,2710,0">
+   <Inputs String1="CURRENT CLASS: " String2=""/>
+  </Node>
+  <Node Id="247" Class="Mission:GameTokenGet" pos="-2010,2720,0">
+   <Inputs gametokenid_Token="1769841898"/>
+  </Node>
+  <Node Id="248" Class="Debug:DisplayMessage" pos="-1310,2670,0">
+   <Inputs entityId="0" message="NO" DisplayTime="5" posX="50" posY="50" fontSize="5" clr_Color="1,1,1" centered="0" ShowInLauncher="1"/>
+  </Node>
+  <Node Id="249" Name="Check_Current_Character" Class="_commentbox" pos="-2480,2614,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1450" Height="330"/>
+  </Node>
+  <Node Id="250" Class="Ark:Debug:ConsoleEvent" pos="-7710,1110,0">
+   <Inputs Command="DiscoverA"/>
+  </Node>
+  <Node Id="251" Class="Ark:Debug:ConsoleEvent" pos="-7700,1240,0">
+   <Inputs Command="DiscoverB"/>
+  </Node>
+  <Node Id="252" Class="Ark:Debug:ConsoleEvent" pos="-7700,1350,0">
+   <Inputs Command="DiscoverC"/>
+  </Node>
+  <Node Id="253" Class="Ark:Debug:ConsoleEvent" pos="-7700,1460,0">
+   <Inputs Command="DiscoverD"/>
+  </Node>
+  <Node Id="254" Class="Ark:Debug:ConsoleEvent" pos="-7700,1580,0">
+   <Inputs Command="DiscoverE"/>
+  </Node>
+  <Node Id="256" Class="Mission:GameTokenSet" pos="-7390,1110,0">
+   <Inputs gametokenid_Token="1719427363" Value="true"/>
+  </Node>
+  <Node Id="257" Class="Mission:GameTokenSet" pos="-7390,1240,0">
+   <Inputs gametokenid_Token="2138386585" Value="true"/>
+  </Node>
+  <Node Id="258" Class="Mission:GameTokenSet" pos="-7390,1350,0">
+   <Inputs gametokenid_Token="141688847" Value="true"/>
+  </Node>
+  <Node Id="259" Class="Mission:GameTokenSet" pos="-7390,1460,0">
+   <Inputs gametokenid_Token="370578860" Value="true"/>
+  </Node>
+  <Node Id="260" Class="Mission:GameTokenSet" pos="-7390,1580,0">
+   <Inputs gametokenid_Token="1628546362" Value="true"/>
+  </Node>
+  <Node Id="262" Name="Discover\n" Class="_commentbox" pos="-7850,908,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="980" Height="760"/>
+  </Node>
+  <Node Id="268" Name="Death_Loop" Class="_commentbox" pos="-3980,3456,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2240" Height="930"/>
+  </Node>
+  <Node Id="269" Class="Ark:Debug:ConsoleEvent" pos="-5270,2090,0">
+   <Inputs Command="UnlockA"/>
+  </Node>
+  <Node Id="270" Class="Ark:Debug:ConsoleEvent" pos="-5270,2210,0">
+   <Inputs Command="UnlockB"/>
+  </Node>
+  <Node Id="271" Class="Ark:Debug:ConsoleEvent" pos="-5260,2350,0">
+   <Inputs Command="UnlockC"/>
+  </Node>
+  <Node Id="272" Class="Mission:GameTokenSet" pos="-4860,2090,0">
+   <Inputs gametokenid_Token="1856932467" Value="true"/>
+  </Node>
+  <Node Id="273" Class="Mission:GameTokenSet" pos="-4860,2210,0">
+   <Inputs gametokenid_Token="2007489481" Value="true"/>
+  </Node>
+  <Node Id="274" Class="Mission:GameTokenSet" pos="-4860,2350,0">
+   <Inputs gametokenid_Token="10546015" Value="true"/>
+  </Node>
+  <Node Id="276" Class="Ark:Debug:ConsoleEvent" pos="-5270,2540,0">
+   <Inputs Command="UnlockD"/>
+  </Node>
+  <Node Id="277" Class="Mission:GameTokenSet" pos="-4870,2540,0">
+   <Inputs gametokenid_Token="516194044" Value="true"/>
+  </Node>
+  <Node Id="278" Class="Ark:Email:EmailAcquired" pos="-7760,1160,0">
+   <Inputs email_Email="12889009725062942580"/>
+  </Node>
+  <Node Id="279" Class="Ark:Email:EmailAcquired" pos="-7750,1290,0">
+   <Inputs email_Email="12889009725062942828"/>
+  </Node>
+  <Node Id="280" Class="Ark:Email:EmailAcquired" pos="-7750,1400,0">
+   <Inputs email_Email="12889009725062942832"/>
+  </Node>
+  <Node Id="281" Class="Ark:Email:EmailAcquired" pos="-7750,1510,0">
+   <Inputs email_Email="12889009725062942836"/>
+  </Node>
+  <Node Id="282" Class="Ark:Email:EmailAcquired" pos="-7740,1630,0">
+   <Inputs email_Email="12889009725062942840"/>
+  </Node>
+  <Node Id="283" Name="Objective" Class="_commentbox" pos="-7780,2551,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1610" Height="680"/>
+  </Node>
+  <Node Id="284" Class="Ark:Email:EmailAcquired" pos="-7710,2680,0">
+   <Inputs email_Email="12889009725062942840"/>
+  </Node>
+  <Node Id="285" Class="Ark:Objectives:ObjectiveState" pos="-6760,2630,0">
+   <Inputs objective_Objective="-5557734348646192601" SetTracked="0" ShowOnHUD="1"/>
+  </Node>
+  <Node Id="286" Class="Ark:Objectives:TaskState" pos="-7370,2630,0">
+   <Inputs task_Task="-5557734348646192515" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="287" Class="Ark:Objectives:ObjectiveState" pos="-7240,2960,0">
+   <Inputs objective_Objective="-5557734348646518692" SetTracked="0" ShowOnHUD="1"/>
+  </Node>
+  <Node Id="288" Class="Ark:Objectives:TaskState" pos="-6800,2940,0">
+   <Inputs task_Task="-5557734348646518666" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="291" Class="Ark:Debug:ConsoleEvent" pos="-6040,1810,0">
+   <Inputs Command="UnlockAllCharacters"/>
+  </Node>
+  <Node Id="293" Class="Logic:Any" pos="-5680,1810,0" InHideMask="1023" OutHideMask="1">
+   <Inputs/>
+  </Node>
+  <Node Id="294" Class="Ark:Debug:ConsoleEvent" pos="-8440,1340,0">
+   <Inputs Command="DiscoverAllCharacters"/>
+  </Node>
+  <Node Id="295" Class="Logic:Any" pos="-8100,1340,0" InHideMask="1023" OutHideMask="1">
+   <Inputs/>
+  </Node>
+  <Node Id="296" Class="Ark:Debug:ConsoleEvent" pos="-7700,940,0">
+   <Inputs Command="DiscoverA"/>
+  </Node>
+  <Node Id="297" Class="Mission:GameTokenSet" pos="-7340,940,0">
+   <Inputs gametokenid_Token="616232646" Value="true"/>
+  </Node>
+  <Node Id="298" Class="Ark:Email:EmailAcquired" pos="-7750,990,0">
+   <Inputs email_Email="12889009725062942580"/>
+  </Node>
+  <Node Id="299" Class="Ark:Debug:ConsoleEvent" pos="-5300,1720,0">
+   <Inputs Command="UnlockDirector"/>
+  </Node>
+  <Node Id="300" Class="Mission:GameTokenSet" pos="-4870,1720,0">
+   <Inputs gametokenid_Token="1636014390" Value="true"/>
+  </Node>
+  <Node Id="303" Class="Debug:ConsoleVariable" pos="-3320,3500,0">
+   <Inputs CVar="g_godmode" Value="1"/>
+  </Node>
+  <Node Id="312" Class="Ark:Debug:ConsoleEvent" pos="-4320,5200,0">
+   <Inputs Command="rekt"/>
+  </Node>
+  <Node Id="314" Class="Mission:GameTokenCheck" pos="-4010,5310,0">
+   <Inputs gametokenid_Token="1769841898" CheckValue=""/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="104" nodeOut="97" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="105" nodeOut="98" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="106" nodeOut="99" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="107" nodeOut="100" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="108" nodeOut="101" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="109" nodeOut="102" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="156" nodeOut="115" portIn="In" portOut="output" enabled="1"/>
+  <Edge nodeIn="210" nodeOut="115" portIn="in" portOut="output" enabled="1"/>
+  <Edge nodeIn="139" nodeOut="134" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="139" nodeOut="134" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="154" nodeOut="139" portIn="A" portOut="Health" enabled="1"/>
+  <Edge nodeIn="154" nodeOut="139" portIn="Check" portOut="Health" enabled="1"/>
+  <Edge nodeIn="158" nodeOut="139" portIn="in" portOut="Health" enabled="1"/>
+  <Edge nodeIn="139" nodeOut="143" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="139" nodeOut="145" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="133" nodeOut="154" portIn="Show" portOut="true" enabled="1"/>
+  <Edge nodeIn="143" nodeOut="154" portIn="Close" portOut="true" enabled="1"/>
+  <Edge nodeIn="113" nodeOut="156" portIn="add" portOut="Out" enabled="0"/>
+  <Edge nodeIn="152" nodeOut="156" portIn="Set" portOut="Out" enabled="0"/>
+  <Edge nodeIn="143" nodeOut="158" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="182" nodeOut="172" portIn="Show" portOut="True" enabled="1"/>
+  <Edge nodeIn="185" nodeOut="172" portIn="Show" portOut="False" enabled="1"/>
+  <Edge nodeIn="172" nodeOut="184" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="205" nodeOut="201" portIn="Trigger" portOut="OnHealthChange" enabled="1"/>
+  <Edge nodeIn="201" nodeOut="202" portIn="Enable" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="201" nodeOut="202" portIn="Enable" portOut="output" enabled="1"/>
+  <Edge nodeIn="303" nodeOut="202" portIn="Set" portOut="output" enabled="0"/>
+  <Edge nodeIn="201" nodeOut="204" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="205" nodeOut="204" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="206" nodeOut="205" portIn="A" portOut="Health" enabled="1"/>
+  <Edge nodeIn="206" nodeOut="205" portIn="Check" portOut="Health" enabled="1"/>
+  <Edge nodeIn="207" nodeOut="206" portIn="Show" portOut="true" enabled="1"/>
+  <Edge nodeIn="215" nodeOut="208" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="223" nodeOut="208" portIn="Show" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="212" nodeOut="210" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="216" nodeOut="214" portIn="Save" portOut="Enabled" enabled="1"/>
+  <Edge nodeIn="214" nodeOut="215" portIn="EnableSave" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="219" nodeOut="217" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="223" nodeOut="217" portIn="Show" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="227" nodeOut="219" portIn="in" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="228" nodeOut="221" portIn="EnableSave" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="224" nodeOut="225" portIn="Show" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="212" nodeOut="226" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="221" nodeOut="227" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="218" nodeOut="228" portIn="Save" portOut="Enabled" enabled="1"/>
+  <Edge nodeIn="231" nodeOut="229" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="231" nodeOut="233" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="238" nodeOut="237" portIn="Show" portOut="True" enabled="1"/>
+  <Edge nodeIn="240" nodeOut="237" portIn="Show" portOut="False" enabled="1"/>
+  <Edge nodeIn="237" nodeOut="239" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="243" nodeOut="242" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="247" nodeOut="244" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="248" nodeOut="246" portIn="Show" portOut="Out" enabled="1"/>
+  <Edge nodeIn="248" nodeOut="246" portIn="message" portOut="Out" enabled="1"/>
+  <Edge nodeIn="246" nodeOut="247" portIn="Set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="246" nodeOut="247" portIn="String2" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="256" nodeOut="250" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="257" nodeOut="251" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="258" nodeOut="252" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="259" nodeOut="253" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="260" nodeOut="254" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="272" nodeOut="269" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="273" nodeOut="270" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="274" nodeOut="271" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="277" nodeOut="276" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="256" nodeOut="278" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="257" nodeOut="279" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="258" nodeOut="280" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="259" nodeOut="281" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="260" nodeOut="282" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="286" nodeOut="284" portIn="Complete" portOut="Out" enabled="1"/>
+  <Edge nodeIn="287" nodeOut="285" portIn="Add" portOut="Out" enabled="1"/>
+  <Edge nodeIn="285" nodeOut="286" portIn="Complete" portOut="Out" enabled="1"/>
+  <Edge nodeIn="288" nodeOut="287" portIn="Activate" portOut="Out" enabled="1"/>
+  <Edge nodeIn="293" nodeOut="291" portIn="in1" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="104" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="105" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="106" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="107" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="108" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="109" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="243" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="272" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="273" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="274" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="277" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="300" nodeOut="293" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="295" nodeOut="294" portIn="in1" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="256" nodeOut="295" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="257" nodeOut="295" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="258" nodeOut="295" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="259" nodeOut="295" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="260" nodeOut="295" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="297" nodeOut="295" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="297" nodeOut="296" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="297" nodeOut="298" portIn="Trigger" portOut="Out" enabled="0"/>
+  <Edge nodeIn="300" nodeOut="299" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="147" nodeOut="312" portIn="Trigger" portOut="Triggered" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

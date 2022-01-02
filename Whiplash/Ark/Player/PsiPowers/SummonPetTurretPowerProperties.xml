@@ -1,0 +1,15 @@
+
+<SummonPetTurretPowerProperties>
+ <Common DisplayName="@rpg_SummonPetTurretName" PsiCost="0" Description="@rpg_SummonPetTurret" NoiseId="9469288860501998057" LoudnessId="9469288860501649190" PickerLabel="SummonPetTurret" ExecutionAudioTrigger="" InterruptsMimicGrabSequence="false" ExecutionPlayerEffect=""/>
+ <Levels>
+  <ArkPsiPowerSummonPetTurretProperties DisplayName="@rpg_SummonPetTurretName" Description="@rpg_SummonPetTurret" Icon="ui_icon_ability_summon_turret" CooldownDurationSec="60" Archetype="ArkRobots.Turrets.DO_NOT_PLACE.Turret_Pet" MinBounds="-0.8,-1.011,0.0" MaxBounds="0.754,0.795,1.398" RandomNameStringCollection="10739735956180472834" SummonFX="Player.Powers.SummonPet.Pet_Turret_Summon" UnsummonFX="Player.Powers.SummonPet.Pet_Turret_Unsummon" SummonFXAttachment="fx_attachBase">
+   <TargetingProperties MaxRange="7" MinRange="2" TargetParticleEffect="Player.Powers.SummonPet.Targeting_Turret"/>
+  </ArkPsiPowerSummonPetTurretProperties>
+  <ArkPsiPowerSummonPetTurretProperties DisplayName="@rpg_SummonPetTurretName" Description="@rpg_SummonPetTurret" Icon="ui_icon_ability_summon_turret" CooldownDurationSec="60" Archetype="ArkRobots.Turrets.DO_NOT_PLACE.Turret_PetLevel2" MinBounds="-0.8,-1.011,0.0" MaxBounds="0.754,0.795,1.398" RandomNameStringCollection="10739735956180472834" SummonFX="Player.Powers.SummonPet.Pet_Turret_Summon" UnsummonFX="Player.Powers.SummonPet.Pet_Turret_Unsummon" SummonFXAttachment="fx_attachBase">
+   <TargetingProperties MaxRange="7" MinRange="2" TargetParticleEffect="Player.Powers.SummonPet.Targeting_Turret"/>
+  </ArkPsiPowerSummonPetTurretProperties>
+  <ArkPsiPowerSummonPetTurretProperties DisplayName="@rpg_SummonPetTurretName" Description="@rpg_SummonPetTurret" Icon="ui_icon_ability_summon_turret" CooldownDurationSec="60" Archetype="ArkRobots.Turrets.DO_NOT_PLACE.Turret_PetLevel3" MinBounds="-0.8,-1.011,0.0" MaxBounds="0.754,0.795,1.398" RandomNameStringCollection="10739735956180472834" SummonFX="Player.Powers.SummonPet.Pet_Turret_Summon" UnsummonFX="Player.Powers.SummonPet.Pet_Turret_Unsummon" SummonFXAttachment="fx_attachBase">
+   <TargetingProperties MaxRange="7" MinRange="2" TargetParticleEffect="Player.Powers.SummonPet.Targeting_Turret"/>
+  </ArkPsiPowerSummonPetTurretProperties>
+ </Levels>
+</SummonPetTurretPowerProperties>

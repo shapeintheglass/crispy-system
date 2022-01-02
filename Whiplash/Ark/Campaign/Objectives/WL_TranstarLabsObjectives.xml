@@ -1,0 +1,28 @@
+
+<Objectives>
+ <Objective id="12889009725076149171" title="@loc_12889009725076149172" optional="false" crypto="2000">
+  <Descriptions>
+   <Desc id="12889009725084182713" displayName="CheckEmail" text="@loc_12889009725084182714"/>
+   <Desc id="12889009725076149173" displayName="UploadYourBrain" text="@loc_12889009725076149174"/>
+   <Desc id="13680621263446313459" displayName="CopyInterrupted" text="@loc_13680621263446313460"/>
+   <Desc id="13680621263446313578" displayName="Resume" text="@loc_13680621263446313579"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="12889009725084182693" displayName="CheckEmails" optional="false" text="@loc_12889009725084182694" markerLabel="@loc_12889009725084182811" Location="844024417334136393" description="12889009725084182713"/>
+   <Task id="12889009725079163957" displayName="OpenCommunicationChannel" optional="false" text="@loc_12889009725079163958" markerLabel="@loc_12889009725079163973" Location="844024417334136393" description="12889009725084182713"/>
+   <Task id="12889009725076149289" displayName="PickUpDataOperator" optional="false" text="@loc_12889009725076149290" markerLabel="@loc_12889009725076149301" Location="844024417334136393" description="12889009725076149173"/>
+   <Task id="12889009725076149226" displayName="PlaceOperatorOnTable1" optional="false" text="@loc_12889009725076149227" Location="844024417334136393" description="12889009725076149173"/>
+   <Task id="12889009725076149321" displayName="CopyDataToOperator" optional="false" text="@loc_12889009725076149324" markerLabel="@loc_12889009725076149323" Location="844024417334136393" description="12889009725076149173" targetCharacterId="12889009725076149322" timerLabel="@loc_12889009725076149325"/>
+   <Task id="12889009725083319628" displayName="UpgradePhantomGenesis" optional="false" text="@loc_12889009725083319629" description="13680621263446313459"/>
+   <Task id="12889009725076149326" displayName="FindDataMcGuffin" optional="false" text="@loc_12889009725076149329" Location="844024417334136487" description="13680621263446313459" targetCharacterId="12889009725076149327" timerLabel="@loc_12889009725076149330" markerLabel="@loc_12889009725091287989"/>
+   <Task id="12889009725076149331" displayName="FinishDataCopy" optional="false" text="@loc_12889009725076149334" markerLabel="@loc_12889009725076149333" Location="844024417334136393" description="13680621263446313578" targetCharacterId="12889009725076149332" timerLabel="@loc_12889009725076149335"/>
+   <Task id="12889009725076149595" displayName="PickUpDataOperator2" optional="false" text="@loc_12889009725076149598" markerLabel="@loc_12889009725076149597" Location="844024417334136393" description="13680621263446313578" targetCharacterId="12889009725076149596" timerLabel="@loc_12889009725076149599"/>
+   <Task id="12889009725076149460" displayName="PlaceOperatorInLauncher" optional="false" text="@loc_12889009725076149463" Location="844024417334136393" description="13680621263446313578" targetCharacterId="12889009725076149461" timerLabel="@loc_12889009725076149464"/>
+   <Task id="12889009725076149500" displayName="SitInChair" optional="false" text="@loc_12889009725076149503" markerLabel="@loc_12889009725076149502" Location="844024417334136393" description="13680621263446313578" targetCharacterId="12889009725076149501" timerLabel="@loc_12889009725076149504"/>
+   <Task id="12889009725076149549" displayName="UploadConsciousness" optional="false" text="@loc_12889009725076149552" markerLabel="@loc_12889009725076149551" Location="844024417334136393" description="13680621263446313578" targetCharacterId="12889009725076149550" timerLabel="@loc_12889009725076149553"/>
+  </Tasks>
+  <Clues>
+   <Clue id="13680621263451329900" displayName="ContainmentWeavers" text="@loc_13680621263451329901"/>
+  </Clues>
+ </Objective>
+</Objectives>

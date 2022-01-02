@@ -1,0 +1,1257 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="2" Class="ArkPlayer:HasAbility" pos="-240,-530,0">
+   <Inputs ability_Ability="12348086275133481755"/>
+  </Node>
+  <Node Id="4" Class="Ark:DisplayTutorial" pos="390,-530,0">
+   <Inputs tutorial_Tutorial="15373294129872175791"/>
+  </Node>
+  <Node Id="9" Class="Game:Start" pos="-590,-530,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="10" Name="Hacking_Tutorial_Card\n" Class="_commentbox" pos="-610,-558,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2410" Height="330"/>
+  </Node>
+  <Node Id="12" Class="Ark:RemoteEvent" pos="140,-4300,0">
+   <Inputs remoteEvent_Event="3149325216938423078"/>
+  </Node>
+  <Node Id="20" Name="Psi_Mode_Tutorial_Card" Class="_commentbox" pos="-630,-7365,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2790" Height="1630"/>
+  </Node>
+  <Node Id="27" Name="Deadly_Combos_(Disabled)" Class="_commentbox" pos="-600,-1422,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2550" Height="750"/>
+  </Node>
+  <Node Id="28" Class="Game:Start" pos="-520,-1330,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="29" Class="Actor:Sensor" pos="-50,-1330,0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="31" Class="Actor:LocalPlayer" pos="-340,-1220,0">
+   <Inputs/>
+  </Node>
+  <Node Id="33" Class="Logic:Gate" pos="860,-960,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="35" Class="Math:Equal" pos="230,-1060,0">
+   <Inputs A="0" B="0"/>
+  </Node>
+  <Node Id="36" Name="Play_Bink" Class="_commentbox" pos="5090,-3979,0">
+   <Inputs TextSize="1" Color="0.144129,0.982251,0.205079" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="390" Height="260"/>
+  </Node>
+  <Node Id="37" Name="First_Time_Dead_After_Psycho,_Teach_About_Deadly_Combos" Class="_comment" pos="-530,-750,0"/>
+  <Node Id="41" Class="Ark:Objectives:GetTaskState" pos="380,-920,0">
+   <Inputs task_Task="844024417283495692"/>
+  </Node>
+  <Node Id="42" Class="Ark:Debug:ConsoleEvent" pos="3290,-4730,0">
+   <Inputs Command="firstneuromod"/>
+  </Node>
+  <Node Id="43" Class="Ark:DisplayTutorial" pos="1390,-1010,0">
+   <Inputs tutorial_Tutorial="15373294129902599710"/>
+  </Node>
+  <Node Id="44" Class="Ark:Objectives:GetTaskState" pos="380,-1070,0">
+   <Inputs task_Task="844024417268905996"/>
+  </Node>
+  <Node Id="46" Class="Time:Delay" pos="1160,-940,0">
+   <Inputs delay="2" resetOnInput="0"/>
+  </Node>
+  <Node Id="53" Class="Ark:CollectTutorialCard" pos="-50,-970,0">
+   <Inputs tutorial_Tutorial="15373294129902599710"/>
+  </Node>
+  <Node Id="60" Class="Ark:DisplayTutorial" pos="729.13403,11353.718,0">
+   <Inputs tutorial_Tutorial="3149325216937831755"/>
+  </Node>
+  <Node Id="62" Class="Ark:FabricationPlan:FabricationPlanAcquired" pos="-320.86597,11353.718,0">
+   <Inputs fabricationPlan_Plan=""/>
+  </Node>
+  <Node Id="63" Class="Ark:PDA:OpenPDAPage" pos="1129.134,11353.718,0">
+   <Inputs Page="FabricationPlans"/>
+  </Node>
+  <Node Id="64" Class="ArkPlayer:HasAbility" pos="-100,500,0">
+   <Inputs ability_Ability="3149325216951898868"/>
+  </Node>
+  <Node Id="65" Class="Ark:DisplayTutorial" pos="1116.5187,622.71533,0">
+   <Inputs tutorial_Tutorial="15373294129890081855"/>
+  </Node>
+  <Node Id="66" Class="Logic:Gate" pos="236.51871,502.71533,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="67" Class="Game:Start" pos="-500,500,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="68" Class="Mission:GameTokenCheck" pos="526.51868,502.71533,0">
+   <Inputs gametokenid_Token="1437407988" CheckValue="true"/>
+  </Node>
+  <Node Id="69" Class="Mission:GameTokenSet" pos="1116.5187,462.71533,0">
+   <Inputs gametokenid_Token="1653246854" Value="true"/>
+  </Node>
+  <Node Id="70" Name="Check_to_See_if_Neuromod_Installation_Needs_to_Play" Class="_comment" pos="556.51868,462.71533,0"/>
+  <Node Id="71" Name="If_not,_go_ahead_and_show_card" Class="_comment" pos="1116.5187,592.71533,0"/>
+  <Node Id="72" Name="If_so,_remember_the_player_got_hacking_so_we_can_play_the_card_later" Class="_comment" pos="1116.5187,422.71533,0"/>
+  <Node Id="73" Name="Combat_Focus_Tutorial_Card_(Disabled)" Class="_commentbox" pos="-550,376,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2380" Height="390"/>
+  </Node>
+  <Node Id="74" Name="Electric_Junctions\n" Class="_commentbox" pos="-570,-2409,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2550" Height="750"/>
+  </Node>
+  <Node Id="76" Class="Ark:Signal:SignalPackageReceiver" pos="-340,-2200,0">
+   <Inputs entityId="0" signalPackage_Package="10641886185795235236"/>
+  </Node>
+  <Node Id="78" Class="Actor:LocalPlayer" pos="-340,-2260,0">
+   <Inputs/>
+  </Node>
+  <Node Id="80" Class="Ark:CollectTutorialCard" pos="100,-2090,0">
+   <Inputs tutorial_Tutorial="13680621263415316908"/>
+  </Node>
+  <Node Id="82" Class="Ark:DisplayTutorial" pos="50,-2190,0">
+   <Inputs tutorial_Tutorial="13856881013264015821"/>
+  </Node>
+  <Node Id="84" Class="Logic:Gate" pos="-250,-2030,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="85" Class="UI:Events:DanielleHUD:spiralWheelOpen" pos="-600,-2780,0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="86" Class="Logic:Gate" pos="-290,-2770,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="87" Class="Logic:Sequentializer" pos="19.230906,-2783.4646,0">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="88" Class="Logic:Any" pos="220,-2920,0">
+   <Inputs/>
+  </Node>
+  <Node Id="89" Class="Mission:GameTokenSet" pos="320,-2760,0">
+   <Inputs gametokenid_Token="1539999206" Value=""/>
+  </Node>
+  <Node Id="90" Name="Focus_Wheel_Token_Delivery\n" Class="_commentbox" pos="-620,-2964,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1330" Height="420"/>
+  </Node>
+  <Node Id="91" Name="Player_Movement_Tutorial_Card" Class="_commentbox" pos="-560,982,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1200" Height="390"/>
+  </Node>
+  <Node Id="93" Class="Ark:RemoteEvent" pos="-497.04471,1139.2522,0">
+   <Inputs remoteEvent_Event="761057048030900977"/>
+  </Node>
+  <Node Id="1547" Class="Ark:DisplayTutorial" pos="40,1140,0">
+   <Inputs tutorial_Tutorial="15373294129891465151"/>
+  </Node>
+  <Node Id="1548" Class="Logic:Once" pos="-120,1140,0" InHideMask="126">
+   <Inputs/>
+  </Node>
+  <Node Id="1549" Name="Player_Finds_Fabrication_Plans" Class="_commentbox" pos="-560,1525,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1200" Height="390"/>
+  </Node>
+  <Node Id="1551" Class="Ark:DisplayTutorial" pos="300,1750,0">
+   <Inputs tutorial_Tutorial="13680621263435848173"/>
+  </Node>
+  <Node Id="1552" Class="Logic:Once" pos="-120,1690,0" InHideMask="126">
+   <Inputs/>
+  </Node>
+  <Node Id="1554" Class="Ark:FabricationPlan:FabricationPlanAcquired" pos="-480,1710,0">
+   <Inputs fabricationPlan_Plan="10641886185833266345"/>
+  </Node>
+  <Node Id="1555" Class="Ark:FabricationPlan:FabricationPlanAcquired" pos="-480,1670,0">
+   <Inputs fabricationPlan_Plan="10641886185833266784"/>
+  </Node>
+  <Node Id="1556" Class="Time:Delay" pos="80,1750,0">
+   <Inputs delay="3" resetOnInput="0"/>
+  </Node>
+  <Node Id="1557" Name="Typhon_Gates_(Disabled)" Class="_commentbox" pos="-560,2022,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1300" Height="390"/>
+  </Node>
+  <Node Id="1558" Class="Ark:DisplayTutorial" pos="20,2190,0">
+   <Inputs tutorial_Tutorial="13680621263435848621"/>
+  </Node>
+  <Node Id="1559" Class="Logic:Once" pos="-120,2190,0" InHideMask="126">
+   <Inputs/>
+  </Node>
+  <Node Id="2450" Class="Ark:SendRemoteEvent" pos="8720,-3960,0">
+   <Inputs remoteEvent_Event="12889009725035876419"/>
+  </Node>
+  <Node Id="2453" Class="Actor:PlayMannequinFragment" pos="6930,-4470,0">
+   <Inputs entityId="0" Fragment="Cs_Prototype_Sq06_InstallsNeuromod_End_Player" Tags="" Priority="10"/>
+  </Node>
+  <Node Id="2454" Class="Actor:PlayMannequinFragment" pos="5870,-4550,0">
+   <Inputs entityId="0" Fragment="Cs_Prototype_Sq06_installsNeuromod_Loop_Player" Tags="" Priority="10"/>
+  </Node>
+  <Node Id="2456" Class="Entity:SpawnArchetype" pos="3320,-4330,0">
+   <Inputs Archetype="ArkPickups.Player.Neuromod_Cinematic" Name="" Pos="0,0,0" Rot="0,0,0" Scale="1,1,1"/>
+  </Node>
+  <Node Id="2457" Class="Entity:Attachment" pos="4030,-4490,0">
+   <Inputs entityId="0" Item="0" BoneName="r_hand_prop" CharacterSlot="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+  </Node>
+  <Node Id="2459" Class="Time:Delay" pos="4560,-3920,0">
+   <Inputs delay="7.4" resetOnInput="0"/>
+  </Node>
+  <Node Id="2461" Class="Image:ScreenFader" pos="4790,-3930,0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="0.5" FadeOutTime="0.01" color_FadeColor="0,0,0" tex_TextureName="" UpdateAlways="1"/>
+  </Node>
+  <Node Id="2463" Class="Image:ScreenFader" pos="5690,-3970,0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="0.5" FadeOutTime="0.5" color_FadeColor="1,1,1" tex_TextureName="" UpdateAlways="1"/>
+  </Node>
+  <Node Id="2469" Class="Actor:LocalPlayer" pos="3780,-4540,0">
+   <Inputs/>
+  </Node>
+  <Node Id="2476" Class="Logic:Any" pos="4350,-4490,0">
+   <Inputs/>
+  </Node>
+  <Node Id="2480" Class="Physics:PhysicsEnable" pos="3800,-4270,0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="2481" Class="Time:FrameDelay" pos="3830,-4410,0">
+   <Inputs/>
+  </Node>
+  <Node Id="2482" Class="Animations:PlayAnimation" pos="4540,-4310,0">
+   <Inputs entityId="0" anim_Animation="Prototype_Sq06_InstallsNeuromod_Start_Neuromod" BlendInTime="0.2" Layer="0" Loop="0" ForceUpdate="1" PauseAnimGraph="0" ControlMovement="0"/>
+  </Node>
+  <Node Id="2492" Class="Ark:EntityControl" pos="7820,-4450,0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="2493" Class="Time:Delay" pos="7510,-4440,0">
+   <Inputs delay="5.3" resetOnInput="0"/>
+  </Node>
+  <Node Id="2495" Class="UI:Display:Display" pos="7760,-4320,0">
+   <Inputs uiElements_Element="DanielleHUD" instanceID="-1"/>
+  </Node>
+  <Node Id="2512" Name="If_player_chose_hacking_as_their_ability_we_still_need_to_play_a_tutorial_card" Class="_comment" pos="8180,-4100,0"/>
+  <Node Id="2513" Class="Time:Delay" pos="8520,-3960,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="2515" Class="Ark:QueueTutorials" pos="2880,-4410,0">
+   <Inputs/>
+  </Node>
+  <Node Id="2516" Class="Ark:QueueTutorials" pos="7740,-4560,0">
+   <Inputs/>
+  </Node>
+  <Node Id="2664" Class="Mission:GameTokenUpdated" pos="-440,8040,0">
+   <Inputs gametokenid_Token="27997929" compare_Value="true"/>
+  </Node>
+  <Node Id="2677" Class="Time:Delay" pos="5490,-3880,0">
+   <Inputs delay="0.2" resetOnInput="0"/>
+  </Node>
+  <Node Id="2766" Class="Inventory:ItemCheck" pos="-727.46344,9067.8633,0">
+   <Inputs entityId="0" Active="1" archetype="ArkPickups.MissionItems.WL_KasmaListeningDevice1" itemClass=""/>
+  </Node>
+  <Node Id="14929" Class="Mission:GameTokenCheck" pos="1680,-4310,0">
+   <Inputs gametokenid_Token="1437407988" CheckValue="true"/>
+  </Node>
+  <Node Id="14931" Class="Animations:PlayAnimation" pos="6930,-4280,0">
+   <Inputs entityId="0" anim_Animation="Prototype_Sq06_InstallsNeuromod_End_Neuromod" BlendInTime="0.2" Layer="0" Loop="0" ForceUpdate="1" PauseAnimGraph="0" ControlMovement="0"/>
+  </Node>
+  <Node Id="14934" Class="Actor:PlayMannequinFragment" pos="4880,-4490,0">
+   <Inputs entityId="0" Fragment="Cs_Prototype_Sq06_InstallsNeuromod_Start_Player" Tags="" Priority="10"/>
+  </Node>
+  <Node Id="14944" Class="Ark:Debug:ConsoleEvent" pos="2760,-3540,0">
+   <Inputs Command="testNMBink"/>
+  </Node>
+  <Node Id="14951" Class="Time:FrameDelay" pos="1330,-4320,0">
+   <Inputs/>
+  </Node>
+  <Node Id="14955" Class="Ark:GravShaftPlayerEvent" pos="1700,-4100,0">
+   <Inputs/>
+  </Node>
+  <Node Id="14964" Class="Game:Start" pos="1320,-4100,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="14969" Class="Math:SetNumber" pos="2010,-4120,0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="14970" Class="Math:SetNumber" pos="2010,-4030,0">
+   <Inputs in="1"/>
+  </Node>
+  <Node Id="14975" Class="Logic:DeMultiplexer" pos="2240,-4150,0">
+   <Inputs Index="0" Mode="1" WrapAround="1"/>
+  </Node>
+  <Node Id="14978" Class="ArkPlayer:GetPlayerCombatState" pos="2490,-4140,0">
+   <Inputs/>
+  </Node>
+  <Node Id="14980" Class="Logic:Gate" pos="2910,-3760,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="14981" Class="Ark:BinkMovie" pos="3590,-3690,0">
+   <Inputs file_Movie="videos/neuromod_install.bk2" InstanceId="0" AutoPlay="0" Loop="0" Fullscreen="1" PauseGame="1" Skippable="0"/>
+  </Node>
+  <Node Id="14982" Class="Image:ScreenFader" pos="3320,-3640,0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="0.5" FadeOutTime="0.01" color_FadeColor="0,0,0" tex_TextureName="" UpdateAlways="1"/>
+  </Node>
+  <Node Id="14983" Class="Image:ScreenFader" pos="4240,-3680,0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="0.5" FadeOutTime="0.5" color_FadeColor="1,1,1" tex_TextureName="" UpdateAlways="1"/>
+  </Node>
+  <Node Id="14984" Class="Time:Delay" pos="4050,-3630,0">
+   <Inputs delay="0.2" resetOnInput="0"/>
+  </Node>
+  <Node Id="14988" Class="Time:Delay" pos="3040,-3540,0">
+   <Inputs delay="0.25" resetOnInput="0"/>
+  </Node>
+  <Node Id="14992" Class="Actor:Sensor" pos="5130,-5010,0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="15003" Class="Ark:Signal:AddModifier" pos="3020,-4500,0">
+   <Inputs entityId="0" signalModifier_Modifier="3149325216984838961"/>
+  </Node>
+  <Node Id="15004" Class="Actor:LocalPlayer" pos="2670,-4510,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15005" Class="Actor:LocalPlayer" pos="7590,-4690,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15006" Class="Ark:Signal:RemoveModifier" pos="7920,-4680,0">
+   <Inputs entityId="0" signalModifier_Modifier="3149325216984838961"/>
+  </Node>
+  <Node Id="15025" Class="Ark:EnableScope" pos="2750,-4290,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15026" Class="Ark:EnableScope" pos="7920,-4770,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15028" Class="ArkPlayer:Cinematic" pos="5640,-4660,0">
+   <Inputs AllowLook="0"/>
+  </Node>
+  <Node Id="15050" Class="Logic:Gate" pos="1000,-4330,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="15055" Class="Actor:PlayerCinematicControl" pos="4610,-4660,0">
+   <Inputs/>
+  </Node>
+  <Node Id="15056" Class="Actor:PlayerCinematicControl" pos="7790,-4070,0">
+   <Inputs/>
+  </Node>
+  <Node Id="16802" Class="Ark:Locations:CheckLocation" pos="-130,10830,0">
+   <Inputs location_Location="844024417334136241"/>
+  </Node>
+  <Node Id="17063" Class="Ark:RemoteEvent" pos="-500,2190,0">
+   <Inputs remoteEvent_Event="761057048031915283"/>
+  </Node>
+  <Node Id="17078" Class="Ark:RemoteEvent" pos="-400,10660,0">
+   <Inputs remoteEvent_Event="761057048031916385"/>
+  </Node>
+  <Node Id="17084" Name="Player_Died_(Disabled)" Class="_commentbox" pos="-560,4133,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1650" Height="470"/>
+  </Node>
+  <Node Id="17085" Class="Ark:DisplayTutorial" pos="960,4320,0">
+   <Inputs tutorial_Tutorial="13680621263435848559"/>
+  </Node>
+  <Node Id="17086" Class="Logic:Once" pos="610,4310,0" InHideMask="126">
+   <Inputs/>
+  </Node>
+  <Node Id="17097" Class="Actor:Sensor" pos="-70,4250,0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="17098" Class="Actor:LocalPlayer" pos="-260,4260,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17099" Class="Game:Start" pos="-410,4160,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17101" Class="Logic:ArkCompare" pos="370,4300,0" OutHideMask="61">
+   <Inputs/>
+  </Node>
+  <Node Id="17102" Class="Time:FrameDelay" pos="180,4340,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17103" Class="Math:SetNumber" pos="40,4180,0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="17106" Class="Ark:ReadyRoom:RequestReadyRoom" pos="260,4440,0"/>
+  <Node Id="17109" Class="Mission:GameTokenSet" pos="40,1580,0">
+   <Inputs gametokenid_Token="1334252338" Value="true"/>
+  </Node>
+  <Node Id="17114" Class="Ark:DisplayTutorial" pos="940,4850,0">
+   <Inputs tutorial_Tutorial="3149325216937909406"/>
+  </Node>
+  <Node Id="17117" Name="Player_Picked_up_a_neuromod" Class="_commentbox" pos="-560,4714,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2130" Height="470"/>
+  </Node>
+  <Node Id="17119" Class="Inventory:ItemListener" pos="-220,4820,0">
+   <Inputs entityId="0" archetype="ArkPickups.Player.Neuromod"/>
+  </Node>
+  <Node Id="17121" Class="Actor:LocalPlayer" pos="-450,4810,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17122" Name="Power_State" Class="_commentbox" pos="-560,5329,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2640" Height="470"/>
+  </Node>
+  <Node Id="17123" Class="Game:Start" pos="-506.31415,5445.4604,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17126" Class="Mission:GameTokenCheck" pos="220,5360,0">
+   <Inputs gametokenid_Token="405716497" CheckValue="true"/>
+  </Node>
+  <Node Id="17128" Class="Ark:Locations:CheckLocation" pos="-80,5360,0">
+   <Inputs location_Location="844024417334136321"/>
+  </Node>
+  <Node Id="17129" Class="Logic:Gate" pos="900,5480,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17130" Class="Mission:GameTokenCheck" pos="220,5490,0">
+   <Inputs gametokenid_Token="1631525841" CheckValue="true"/>
+  </Node>
+  <Node Id="17131" Class="Ark:Locations:CheckLocation" pos="-80,5490,0">
+   <Inputs location_Location="844024417334136393"/>
+  </Node>
+  <Node Id="17132" Class="Mission:GameTokenCheck" pos="230,5630,0">
+   <Inputs gametokenid_Token="565256086" CheckValue="true"/>
+  </Node>
+  <Node Id="17133" Class="Ark:Locations:CheckLocation" pos="-70,5630,0">
+   <Inputs location_Location="844024417334136487"/>
+  </Node>
+  <Node Id="17134" Class="Ark:DisplayTutorial" pos="1360,5480,0">
+   <Inputs tutorial_Tutorial="13856881013264441353"/>
+  </Node>
+  <Node Id="17135" Class="Ark:Debug:ConsoleEvent" pos="828.74945,5655.4189,0">
+   <Inputs Command="powertutorial"/>
+  </Node>
+  <Node Id="17136" Class="Time:Delay" pos="1160,5480,0">
+   <Inputs delay="3" resetOnInput="0"/>
+  </Node>
+  <Node Id="17143" Class="Ark:DisplayTutorial" pos="370,2190,0">
+   <Inputs tutorial_Tutorial="13680621263435850861"/>
+  </Node>
+  <Node Id="17162" Class="Mission:GameTokenSet" pos="4600,-4750,0">
+   <Inputs gametokenid_Token="1437407988" Value="false"/>
+  </Node>
+  <Node Id="17163" Name="Player_installs_first_neuromod" Class="_commentbox" pos="-630,-5106,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="10520" Height="1740"/>
+  </Node>
+  <Node Id="17165" Class="UI:Display:Display" pos="3320,-4160,0">
+   <Inputs uiElements_Element="DanielleHUD" instanceID="-1"/>
+  </Node>
+  <Node Id="17166" Class="Ark:BinkMovie" pos="5120,-3960,0">
+   <Inputs file_Movie="videos/neuromod_install.bk2" InstanceId="0" AutoPlay="0" Loop="0" Fullscreen="1" PauseGame="0" Skippable="0"/>
+  </Node>
+  <Node Id="17167" Class="Math:Equal" pos="5410,-4790,0">
+   <Inputs A="0" B="0"/>
+  </Node>
+  <Node Id="17169" Class="Mission:GameTokenSet" pos="3630,-4760,0">
+   <Inputs gametokenid_Token="1437407988" Value="true"/>
+  </Node>
+  <Node Id="17170" Class="Mission:GameTokenSet" pos="3630,-4680,0">
+   <Inputs gametokenid_Token="828536512" Value="true"/>
+  </Node>
+  <Node Id="17171" Class="Logic:Gate" pos="300,10650,0">
+   <Inputs SetClosed="1" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17177" Class="Ark:PDA:OpenPDAPage" pos="1260,4850,0">
+   <Inputs Page="Abilities"/>
+  </Node>
+  <Node Id="17178" Class="Logic:Gate" pos="8180,-3960,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="17182" Class="Mission:GameTokenCheck" pos="520,-4310,0">
+   <Inputs gametokenid_Token="828536512" CheckValue="true"/>
+  </Node>
+  <Node Id="17183" Name="ARTX_Suit_(DISABLED_/_Handled_in_cinematic_pickup)" Class="_commentbox" pos="-550,7956,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2620" Height="470"/>
+  </Node>
+  <Node Id="17185" Class="Ark:DisplayTutorial" pos="1440,8050,0">
+   <Inputs tutorial_Tutorial="3149325216937909203"/>
+  </Node>
+  <Node Id="17189" Class="Game:Start" pos="-440,8150,0">
+   <Inputs InGame="1" InEditor="0" InEditorPlayFromHere="0"/>
+  </Node>
+  <Node Id="17190" Class="Ark:DisplayTutorial" pos="1440,8120,0">
+   <Inputs tutorial_Tutorial="13856881013255444942"/>
+  </Node>
+  <Node Id="17191" Class="Ark:Player:GetPlayableCharacter" pos="-40,8150,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17193" Class="Logic:Gate" pos="830,8040,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17197" Class="String:Compare" pos="230,8150,0">
+   <Inputs A="" B="security" IgnoreCase="1"/>
+  </Node>
+  <Node Id="17200" Class="Time:Delay" pos="560,8130,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17201" Class="Time:Delay" pos="1150,8080,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17202" Class="Game:Start" pos="4170,-4750,0">
+   <Inputs InGame="0" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17203" Class="Mission:GameTokenCheck" pos="200,4820,0">
+   <Inputs gametokenid_Token="828536512" CheckValue="true"/>
+  </Node>
+  <Node Id="17205" Class="Logic:Gate" pos="640,4820,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17208" Class="Ark:CollectTutorialCard" pos="1440,8220,0">
+   <Inputs tutorial_Tutorial="13856881013256743942"/>
+  </Node>
+  <Node Id="17212" Class="Ark:DisplayTutorial" pos="1780,8120,0">
+   <Inputs tutorial_Tutorial="13856881013256743942"/>
+  </Node>
+  <Node Id="17213" Class="Ark:CollectTutorialCard" pos="20,2260,0">
+   <Inputs tutorial_Tutorial="13680621263435850861"/>
+  </Node>
+  <Node Id="17214" Name="No_longer_triggerin_fab_plan_tutorial_card_here_/_handled_on_fabricators" Class="_comment" pos="80,1720,0"/>
+  <Node Id="17270" Name="Psychoscope" Class="_commentbox" pos="-970,8636,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2780" Height="470"/>
+  </Node>
+  <Node Id="17271" Class="Ark:RemoteEvent" pos="-450,8710,0">
+   <Inputs remoteEvent_Event="844024417347082748"/>
+  </Node>
+  <Node Id="17273" Class="Logic:Gate" pos="-110,8710,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17274" Class="Ark:DisplayTutorial" pos="400,8710,0">
+   <Inputs tutorial_Tutorial="15373294129871669530"/>
+  </Node>
+  <Node Id="17275" Class="Time:Delay" pos="180,8710,0">
+   <Inputs delay="2" resetOnInput="0"/>
+  </Node>
+  <Node Id="17276" Class="Ark:DisplayTutorial" pos="400,8790,0">
+   <Inputs tutorial_Tutorial="3149325216937918683"/>
+  </Node>
+  <Node Id="17278" Name="TranScribe" Class="_commentbox" pos="-520,9297,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2320" Height="470"/>
+  </Node>
+  <Node Id="17282" Class="Ark:RemoteEvent" pos="-431.7963,9456.3389,0">
+   <Inputs remoteEvent_Event="761057048039448214"/>
+  </Node>
+  <Node Id="17285" Class="Ark:DisplayTutorial" pos="40,9440,0">
+   <Inputs tutorial_Tutorial="3149325216937758416"/>
+  </Node>
+  <Node Id="17295" Class="Ark:SendRemoteEvent" pos="3150,-3950,0">
+   <Inputs remoteEvent_Event="13856881013261937973"/>
+  </Node>
+  <Node Id="17296" Class="Ark:SendRemoteEvent" pos="8710,-4490,0">
+   <Inputs remoteEvent_Event="13856881013261938056"/>
+  </Node>
+  <Node Id="17298" Class="Logic:Gate" pos="2870,-3960,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="17300" Class="Logic:Gate" pos="8430,-4480,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="17301" Name="Kasma_Orders" Class="_commentbox" pos="-560,3398,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2550" Height="470"/>
+  </Node>
+  <Node Id="17302" Class="Game:Start" pos="-520,3530,0">
+   <Inputs InGame="1" InEditor="0" InEditorPlayFromHere="0"/>
+  </Node>
+  <Node Id="17304" Class="Mission:GameTokenCheck" pos="200,3540,0">
+   <Inputs gametokenid_Token="692968307" CheckValue="true"/>
+  </Node>
+  <Node Id="17305" Class="Ark:Locations:CheckLocation" pos="-100,3530,0">
+   <Inputs location_Location="844024417336902480"/>
+  </Node>
+  <Node Id="17310" Class="Logic:Once" pos="1110,3540,0" InHideMask="127" OutHideMask="1">
+   <Inputs/>
+  </Node>
+  <Node Id="17311" Class="Ark:DisplayTutorial" pos="1280,3540,0">
+   <Inputs tutorial_Tutorial="761057048042397783"/>
+  </Node>
+  <Node Id="17314" Class="Ark:PDA:OpenPDAPage" pos="1640,3540,0">
+   <Inputs Page="Progress"/>
+  </Node>
+  <Node Id="17317" Class="Time:Delay" pos="850,3540,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17318" Class="ArkPlayer:HasAbility" pos="30,9950,0">
+   <Inputs ability_Ability="7293080054672318548"/>
+  </Node>
+  <Node Id="17320" Class="Logic:Gate" pos="550,10010,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17321" Class="ArkPlayer:HasAbility" pos="30,10040,0">
+   <Inputs ability_Ability="13856881013262786602"/>
+  </Node>
+  <Node Id="17322" Class="ArkPlayer:HasAbility" pos="30,10130,0">
+   <Inputs ability_Ability="13680621263446823611"/>
+  </Node>
+  <Node Id="17323" Name="Pets" Class="_commentbox" pos="-510,9856,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2320" Height="470"/>
+  </Node>
+  <Node Id="17324" Class="Game:Start" pos="-430,10030,0">
+   <Inputs InGame="1" InEditor="0" InEditorPlayFromHere="0"/>
+  </Node>
+  <Node Id="17325" Class="Ark:DisplayTutorial" pos="1100,10010,0">
+   <Inputs tutorial_Tutorial="13856881013264521211"/>
+  </Node>
+  <Node Id="17326" Class="Time:Delay" pos="850,10010,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17334" Name="Time_Shard" Class="_commentbox" pos="-477,2723,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1300" Height="390"/>
+  </Node>
+  <Node Id="17335" Class="Ark:DisplayTutorial" pos="103.57996,2891.3066,0">
+   <Inputs tutorial_Tutorial="13856881013263242302"/>
+  </Node>
+  <Node Id="17336" Class="Logic:Once" pos="-36.420044,2891.3066,0" InHideMask="126">
+   <Inputs/>
+  </Node>
+  <Node Id="17338" Class="Ark:DisplayTutorial" pos="453.57996,2891.3066,0">
+   <Inputs tutorial_Tutorial="13856881013263242408"/>
+  </Node>
+  <Node Id="17339" Class="Ark:CollectTutorialCard" pos="103.57996,2961.3066,0">
+   <Inputs tutorial_Tutorial="13856881013263242408"/>
+  </Node>
+  <Node Id="17340" Class="Inventory:ItemListener" pos="-420,2880,0">
+   <Inputs entityId="0" archetype="ArkPickups.Misc.TimeShard"/>
+  </Node>
+  <Node Id="17342" Class="Actor:LocalPlayer" pos="-420,2820,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17343" Class="Ark:DisplayTutorial" pos="850,10660,0">
+   <Inputs tutorial_Tutorial="13856881013264521446"/>
+  </Node>
+  <Node Id="17344" Name="Doom_Clock\n" Class="_commentbox" pos="-500,10554,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2290" Height="450"/>
+  </Node>
+  <Node Id="17345" Class="Time:Delay" pos="590,10660,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17347" Class="Game:SaveGame" pos="2870,-4200,0">
+   <Inputs Name="quicksave" Desc="" DelaySaveIfPlayerInAir="0"/>
+  </Node>
+  <Node Id="17348" Class="Game:SaveGame" pos="8160,-4300,0">
+   <Inputs Name="quicksave" Desc="" DelaySaveIfPlayerInAir="0"/>
+  </Node>
+  <Node Id="17349" Class="Ark:DisplayTutorial" pos="400,-2200,0">
+   <Inputs tutorial_Tutorial="13680621263415316908"/>
+  </Node>
+  <Node Id="17352" Class="Ark:RemoteEvent" pos="-590,-430,0">
+   <Inputs remoteEvent_Event="12889009725035876419"/>
+  </Node>
+  <Node Id="17353" Class="Logic:Gate" pos="70,-530,0">
+   <Inputs SetClosed="1" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17354" Class="Ark:DisplayTutorial" pos="760,-530,0">
+   <Inputs tutorial_Tutorial="15373294129872175734"/>
+  </Node>
+  <Node Id="17355" Class="Ark:CollectTutorialCard" pos="390,-470,0">
+   <Inputs tutorial_Tutorial="15373294129872175734"/>
+  </Node>
+  <Node Id="17359" Class="Time:FrameDelay" pos="-190,-430,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17360" Class="Logic:Gate" pos="-230,-380,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="17362" Class="Math:BooleanTo" pos="20,-380,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17366" Class="Ark:DisplayTutorial" pos="770,8710,0">
+   <Inputs tutorial_Tutorial="3149325216937909431"/>
+  </Node>
+  <Node Id="17367" Class="Ark:CollectTutorialCard" pos="400,8880,0">
+   <Inputs tutorial_Tutorial="3149325216937909431"/>
+  </Node>
+  <Node Id="17368" Class="Mission:GameTokenCheck" pos="79.134033,11353.718,0">
+   <Inputs gametokenid_Token="692968307" CheckValue="true"/>
+  </Node>
+  <Node Id="17369" Name="Fabrication_Plans" Class="_commentbox" pos="-530,11204,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2320" Height="470"/>
+  </Node>
+  <Node Id="17373" Class="Ark:RemoteEvent" pos="-540,3630,0">
+   <Inputs remoteEvent_Event="844024417350736024"/>
+  </Node>
+  <Node Id="17374" Name="Traumas" Class="_commentbox" pos="-530,11898,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2320" Height="860"/>
+  </Node>
+  <Node Id="17375" Class="ArkPlayer:NotifyTraumaActive" pos="-450,12000,0">
+   <Inputs trauma_Trauma="12348086275151114879"/>
+  </Node>
+  <Node Id="17377" Class="Logic:Gate" pos="-180,12000,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17378" Class="Ark:DisplayTutorial" pos="330,12000,0">
+   <Inputs tutorial_Tutorial="15373294129871669680"/>
+  </Node>
+  <Node Id="17379" Class="Time:Delay" pos="100,12000,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17380" Class="Ark:DisplayTutorial" pos="690,12000,0">
+   <Inputs tutorial_Tutorial="15373294129865373144"/>
+  </Node>
+  <Node Id="17382" Class="ArkPlayer:NotifyTraumaActive" pos="-450,12070,0">
+   <Inputs trauma_Trauma="12348086275151114873"/>
+  </Node>
+  <Node Id="17383" Class="ArkPlayer:NotifyTraumaActive" pos="-446.80994,12138.049,0">
+   <Inputs trauma_Trauma="12348086275158537928"/>
+  </Node>
+  <Node Id="17384" Class="ArkPlayer:NotifyTraumaActive" pos="-445.94736,12213.955,0">
+   <Inputs trauma_Trauma="12348086275151114848"/>
+  </Node>
+  <Node Id="17385" Class="ArkPlayer:NotifyTraumaActive" pos="-446.80994,12288.136,0">
+   <Inputs trauma_Trauma="12348086275151114868"/>
+  </Node>
+  <Node Id="17386" Class="ArkPlayer:NotifyTraumaActive" pos="-445.08478,12358.866,0">
+   <Inputs trauma_Trauma="13856881013254943409"/>
+  </Node>
+  <Node Id="17387" Class="ArkPlayer:NotifyTraumaActive" pos="-445.94736,12429.597,0">
+   <Inputs trauma_Trauma="7293080054624820147"/>
+  </Node>
+  <Node Id="17388" Class="ArkPlayer:NotifyTraumaActive" pos="-446.80994,12505.503,0">
+   <Inputs trauma_Trauma="12348086275151114858"/>
+  </Node>
+  <Node Id="17389" Class="ArkPlayer:NotifyTraumaActive" pos="-443.35965,12572.783,0">
+   <Inputs trauma_Trauma="12348086275155884667"/>
+  </Node>
+  <Node Id="17390" Class="ArkPlayer:NotifyTraumaActive" pos="-440.77194,12643.514,0">
+   <Inputs trauma_Trauma="12348086275151114863"/>
+  </Node>
+  <Node Id="17391" Class="Ark:DisplayTutorial" pos="1730,5480,0">
+   <Inputs tutorial_Tutorial="761057048032607759"/>
+  </Node>
+  <Node Id="17395" Class="Logic:Gate" pos="960,-7280,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17396" Class="Ark:DisplayTutorial" pos="1490,-7280,0">
+   <Inputs tutorial_Tutorial="15373294129890223072"/>
+  </Node>
+  <Node Id="17403" Class="Time:Delay" pos="1250,-7280,0">
+   <Inputs delay="2" resetOnInput="0"/>
+  </Node>
+  <Node Id="17404" Class="ArkPlayer:HasAbility" pos="490,-7290,0">
+   <Inputs ability_Ability="12348086275133482358"/>
+  </Node>
+  <Node Id="17405" Class="Game:Start" pos="-590,-7270,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17406" Class="ArkPlayer:HasAbility" pos="490,-7200,0">
+   <Inputs ability_Ability="7293080054674578299"/>
+  </Node>
+  <Node Id="17408" Class="ArkPlayer:HasAbility" pos="480,-7100,0">
+   <Inputs ability_Ability="7293080054675683243"/>
+  </Node>
+  <Node Id="17409" Class="ArkPlayer:HasAbility" pos="480,-7010,0">
+   <Inputs ability_Ability="3149325216929348919"/>
+  </Node>
+  <Node Id="17410" Class="ArkPlayer:HasAbility" pos="480,-6920,0">
+   <Inputs ability_Ability="3149325216929348752"/>
+  </Node>
+  <Node Id="17411" Class="ArkPlayer:HasAbility" pos="480,-6830,0">
+   <Inputs ability_Ability="3149325216929348280"/>
+  </Node>
+  <Node Id="17413" Class="Mission:GameTokenCheck" pos="-160,-7270,0">
+   <Inputs gametokenid_Token="828536512" CheckValue="true"/>
+  </Node>
+  <Node Id="17414" Class="ArkPlayer:HasAbility" pos="490,-6730,0">
+   <Inputs ability_Ability="3149325216929349177"/>
+  </Node>
+  <Node Id="17415" Class="ArkPlayer:HasAbility" pos="490,-6620,0">
+   <Inputs ability_Ability="12348086275133482478"/>
+  </Node>
+  <Node Id="17416" Class="ArkPlayer:HasAbility" pos="500,-6520,0">
+   <Inputs ability_Ability="3149325216929348643"/>
+  </Node>
+  <Node Id="17417" Class="ArkPlayer:HasAbility" pos="500,-6420,0">
+   <Inputs ability_Ability="12348086275133481882"/>
+  </Node>
+  <Node Id="17418" Class="ArkPlayer:HasAbility" pos="500,-6330,0">
+   <Inputs ability_Ability="3149325216929349114"/>
+  </Node>
+  <Node Id="17419" Class="ArkPlayer:HasAbility" pos="510,-6220,0">
+   <Inputs ability_Ability="3149325216929348589"/>
+  </Node>
+  <Node Id="17420" Class="ArkPlayer:HasAbility" pos="510,-6110,0">
+   <Inputs ability_Ability="3149325216929348840"/>
+  </Node>
+  <Node Id="17421" Class="ArkPlayer:HasAbility" pos="520,-6000,0">
+   <Inputs ability_Ability="3149325216929348386"/>
+  </Node>
+  <Node Id="17422" Class="ArkPlayer:HasAbility" pos="500,-5910,0">
+   <Inputs ability_Ability="3149325216951898868"/>
+  </Node>
+  <Node Id="17430" Class="Ark:DisplayTutorial" pos="960,-8930,0">
+   <Inputs tutorial_Tutorial="15373294129871669503"/>
+  </Node>
+  <Node Id="17432" Class="Time:Delay" pos="720,-8930,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17433" Class="Ark:DisplayTutorial" pos="1300,-8930,0">
+   <Inputs tutorial_Tutorial="3149325216937909318"/>
+  </Node>
+  <Node Id="17438" Class="Inventory:ItemListener" pos="-380,-9010,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.GooGun"/>
+  </Node>
+  <Node Id="17439" Name="Favorites_Tutorial_Card" Class="_commentbox" pos="-610,-9155,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2790" Height="1250"/>
+  </Node>
+  <Node Id="17441" Class="Actor:LocalPlayer" pos="-580,-9050,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17442" Class="Logic:Sequentializer" pos="110,-9010,0" InHideMask="63" OutHideMask="1023">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="17443" Class="Logic:Any" pos="360,-9040,0" InHideMask="1023" OutHideMask="1">
+   <Inputs/>
+  </Node>
+  <Node Id="17462" Class="Logic:Gate" pos="410,-8930,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17463" Class="Inventory:ItemListener" pos="-374.15323,-8912.4141,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Instalaser"/>
+  </Node>
+  <Node Id="17464" Class="Logic:Sequentializer" pos="115.84677,-8912.4141,0" InHideMask="63" OutHideMask="1023">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="17465" Class="Inventory:ItemListener" pos="-367.14661,-8817.124,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Pistol"/>
+  </Node>
+  <Node Id="17466" Class="Logic:Sequentializer" pos="122.85339,-8817.124,0" InHideMask="63" OutHideMask="1023">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="17467" Class="Inventory:ItemListener" pos="-372.75192,-8716.2285,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Shotgun"/>
+  </Node>
+  <Node Id="17468" Class="Logic:Sequentializer" pos="117.24808,-8716.2285,0" InHideMask="63" OutHideMask="1023">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="17469" Class="Inventory:ItemListener" pos="-368.54794,-8626.5439,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.StunGun"/>
+  </Node>
+  <Node Id="17470" Class="Logic:Sequentializer" pos="121.45206,-8626.5439,0" InHideMask="63" OutHideMask="1023">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="17471" Class="Inventory:ItemListener" pos="-367.14661,-8532.6553,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Sword"/>
+  </Node>
+  <Node Id="17472" Class="Logic:Sequentializer" pos="122.85339,-8532.6553,0" InHideMask="63" OutHideMask="1023">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="17473" Class="Inventory:ItemListener" pos="-362.94266,-8445.7734,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.ToyGun"/>
+  </Node>
+  <Node Id="17474" Class="Logic:Sequentializer" pos="127.05734,-8445.7734,0" InHideMask="63" OutHideMask="1023">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="17475" Class="Inventory:ItemListener" pos="-360.14001,-8351.8848,0">
+   <Inputs entityId="0" archetype="ArkPickups.Weapons.Wrench"/>
+  </Node>
+  <Node Id="17476" Class="Logic:Sequentializer" pos="129.85999,-8351.8848,0" InHideMask="63" OutHideMask="1023">
+   <Inputs Closed="0" Reverse="0"/>
+  </Node>
+  <Node Id="17477" Class="Ark:DisplayTutorial" pos="1420,10010,0">
+   <Inputs tutorial_Tutorial="13856881013263131603"/>
+  </Node>
+  <Node Id="17480" Class="Ark:DisplayTutorial" pos="1210,10660,0">
+   <Inputs tutorial_Tutorial="13680621263435848819"/>
+  </Node>
+  <Node Id="17485" Class="Ark:PDA:OpenPDAPage" pos="410,9440,0">
+   <Inputs Page="Objectives"/>
+  </Node>
+  <Node Id="17487" Class="Ark:DisplayTutorial" pos="330,6110,0">
+   <Inputs tutorial_Tutorial="15373294129895072219"/>
+  </Node>
+  <Node Id="17488" Class="Ark:DisplayTutorial" pos="780,6110,0">
+   <Inputs tutorial_Tutorial="761057048032623637"/>
+  </Node>
+  <Node Id="17490" Name="Security_Roster" Class="_commentbox" pos="-570,6039,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2640" Height="320"/>
+  </Node>
+  <Node Id="17491" Name="Add_remote_event_here" Class="_comment" pos="-400,6120,0"/>
+  <Node Id="17492" Class="Logic:Gate" pos="-150,6110,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17493" Class="Time:Delay" pos="120,6110,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17494" Class="Ark:DoomClock:DoomClockListener" pos="-420,10730,0"/>
+  <Node Id="17496" Class="Math:EqualCheck" pos="-130,10730,0">
+   <Inputs A="0" B="2"/>
+  </Node>
+  <Node Id="17503" Class="Game:Start" pos="-480,10830,0">
+   <Inputs InGame="1" InEditor="0" InEditorPlayFromHere="0"/>
+  </Node>
+  <Node Id="17506" Name="Only_show_the_tutorial_when_either_(whichever_comes_first):\n1)_Doom_Clock_hits_Level_2\nor_\n2)_Player_resets_the_sim_having_having_one_run_w/_DC_on" Class="_comment" pos="-410,10570,0"/>
+  <Node Id="17508" Class="Time:Delay" pos="130,10700,0" InHideMask="7" OutHideMask="1">
+   <Inputs delay="0.5" resetOnInput="0"/>
+  </Node>
+  <Node Id="17509" Name="Tram" Class="_commentbox" pos="-510,12972,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2320" Height="430"/>
+  </Node>
+  <Node Id="17510" Class="Ark:DisplayTutorial" pos="370,13080,0">
+   <Inputs tutorial_Tutorial="13856881013265734466"/>
+  </Node>
+  <Node Id="17511" Class="Ark:DisplayTutorial" pos="820,13080,0">
+   <Inputs tutorial_Tutorial="13856881013265734406"/>
+  </Node>
+  <Node Id="17512" Class="Logic:Gate" pos="-110,13080,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="17513" Class="Time:Delay" pos="160,13080,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17515" Class="Ark:RemoteEvent" pos="-440,13090,0">
+   <Inputs remoteEvent_Event="13856881013265734640"/>
+  </Node>
+  <Node Id="17517" Class="Inventory:ItemCheck" pos="-690,8810,0">
+   <Inputs entityId="0" Active="1" archetype="ArkPickups.Player.Psychoscope" itemClass=""/>
+  </Node>
+  <Node Id="17518" Class="Time:Delay" pos="-310,8830,0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="17520" Class="Actor:LocalPlayer" pos="-892.52167,8815.5381,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17521" Class="Inventory:ItemListener" pos="-690,8960,0">
+   <Inputs entityId="0" archetype="ArkPickups.Player.Psychoscope"/>
+  </Node>
+  <Node Id="17523" Class="Ark:Debug:ConsoleEvent" pos="-929.36542,8906.8037,0">
+   <Inputs Command="check"/>
+  </Node>
+  <Node Id="17524" Class="UI:Display:Display" pos="3700,-4130,0">
+   <Inputs uiElements_Element="DanielleMarkers" instanceID="-1"/>
+  </Node>
+  <Node Id="17526" Class="UI:Display:Display" pos="7780,-3930,0">
+   <Inputs uiElements_Element="DanielleMarkers" instanceID="-1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="17353" nodeOut="2" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17359" nodeOut="2" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17354" nodeOut="4" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="9" portIn="Active" portOut="output" enabled="1"/>
+  <Edge nodeIn="17182" nodeOut="12" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="28" portIn="Enable" portOut="output" enabled="0"/>
+  <Edge nodeIn="35" nodeOut="29" portIn="A" portOut="OnHealthChange" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="31" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="33" portIn="Disable" portOut="Out" enabled="1"/>
+  <Edge nodeIn="46" nodeOut="33" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="41" portIn="In" portOut="Completed" enabled="1"/>
+  <Edge nodeIn="17169" nodeOut="42" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="17170" nodeOut="42" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="44" portIn="In" portOut="Completed" enabled="1"/>
+  <Edge nodeIn="41" nodeOut="44" portIn="Trigger" portOut="Inactive" enabled="1"/>
+  <Edge nodeIn="43" nodeOut="46" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="63" nodeOut="60" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17368" nodeOut="62" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="66" nodeOut="64" portIn="In" portOut="Out" enabled="0"/>
+  <Edge nodeIn="68" nodeOut="66" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="64" nodeOut="67" portIn="Active" portOut="output" enabled="0"/>
+  <Edge nodeIn="65" nodeOut="68" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="69" nodeOut="68" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="76" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="76" nodeOut="78" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17349" nodeOut="82" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="80" nodeOut="84" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="84" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="85" portIn="In" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="87" nodeOut="86" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="87" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="87" portIn="in2" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="87" portIn="in3" portOut="Out3" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="87" portIn="in4" portOut="Out4" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="87" portIn="in6" portOut="Out6" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="87" portIn="in7" portOut="Out7" enabled="1"/>
+  <Edge nodeIn="89" nodeOut="87" portIn="Trigger" portOut="Out5" enabled="1"/>
+  <Edge nodeIn="1548" nodeOut="93" portIn="Input1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="1547" nodeOut="1548" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="1556" nodeOut="1552" portIn="in" portOut="Out" enabled="0"/>
+  <Edge nodeIn="17109" nodeOut="1552" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="1552" nodeOut="1554" portIn="Input1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="1552" nodeOut="1555" portIn="Input1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="1551" nodeOut="1556" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17143" nodeOut="1558" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="1558" nodeOut="1559" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17213" nodeOut="1559" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2493" nodeOut="2453" portIn="in" portOut="Success" enabled="1"/>
+  <Edge nodeIn="2457" nodeOut="2456" portIn="Item" portOut="Succeeded" enabled="1"/>
+  <Edge nodeIn="2480" nodeOut="2456" portIn="Disable" portOut="Done" enabled="1"/>
+  <Edge nodeIn="2480" nodeOut="2456" portIn="entityId" portOut="Succeeded" enabled="1"/>
+  <Edge nodeIn="2481" nodeOut="2456" portIn="in" portOut="Done" enabled="1"/>
+  <Edge nodeIn="2482" nodeOut="2456" portIn="entityId" portOut="Succeeded" enabled="1"/>
+  <Edge nodeIn="2492" nodeOut="2456" portIn="entityId" portOut="Succeeded" enabled="1"/>
+  <Edge nodeIn="14931" nodeOut="2456" portIn="entityId" portOut="Succeeded" enabled="1"/>
+  <Edge nodeIn="14992" nodeOut="2456" portIn="Enable" portOut="Succeeded" enabled="1"/>
+  <Edge nodeIn="2476" nodeOut="2457" portIn="in1" portOut="Attached" enabled="1"/>
+  <Edge nodeIn="2492" nodeOut="2457" portIn="Remove" portOut="Detached" enabled="1"/>
+  <Edge nodeIn="2461" nodeOut="2459" portIn="FadeOut" portOut="out" enabled="1"/>
+  <Edge nodeIn="17166" nodeOut="2461" portIn="Play" portOut="FadedOut" enabled="1"/>
+  <Edge nodeIn="2453" nodeOut="2463" portIn="Play" portOut="FadedIn" enabled="1"/>
+  <Edge nodeIn="14931" nodeOut="2463" portIn="Start" portOut="FadedIn" enabled="1"/>
+  <Edge nodeIn="2453" nodeOut="2469" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="2454" nodeOut="2469" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="2457" nodeOut="2469" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="14934" nodeOut="2469" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="2459" nodeOut="2476" portIn="in" portOut="out" enabled="1"/>
+  <Edge nodeIn="2482" nodeOut="2476" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="14934" nodeOut="2476" portIn="Play" portOut="out" enabled="1"/>
+  <Edge nodeIn="15055" nodeOut="2476" portIn="RestrictMovement" portOut="out" enabled="1"/>
+  <Edge nodeIn="17162" nodeOut="2476" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17166" nodeOut="2476" portIn="Prepare" portOut="out" enabled="1"/>
+  <Edge nodeIn="2457" nodeOut="2481" portIn="Attach" portOut="out" enabled="1"/>
+  <Edge nodeIn="17178" nodeOut="2492" portIn="In" portOut="Removed" enabled="1"/>
+  <Edge nodeIn="2457" nodeOut="2493" portIn="Detach" portOut="out" enabled="1"/>
+  <Edge nodeIn="2495" nodeOut="2493" portIn="show" portOut="out" enabled="1"/>
+  <Edge nodeIn="2516" nodeOut="2493" portIn="Resume" portOut="out" enabled="1"/>
+  <Edge nodeIn="14955" nodeOut="2493" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="14992" nodeOut="2493" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="15006" nodeOut="2493" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="15026" nodeOut="2493" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="15028" nodeOut="2493" portIn="Exit" portOut="out" enabled="1"/>
+  <Edge nodeIn="15056" nodeOut="2493" portIn="ResetAll" portOut="out" enabled="1"/>
+  <Edge nodeIn="17300" nodeOut="2493" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="17348" nodeOut="2493" portIn="EnableSave" portOut="out" enabled="1"/>
+  <Edge nodeIn="17526" nodeOut="2493" portIn="show" portOut="out" enabled="1"/>
+  <Edge nodeIn="2450" nodeOut="2513" portIn="Send" portOut="out" enabled="1"/>
+  <Edge nodeIn="17193" nodeOut="2664" portIn="In" portOut="Equal True" enabled="0"/>
+  <Edge nodeIn="2463" nodeOut="2677" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="14975" nodeOut="14929" portIn="Input" portOut="True" enabled="1"/>
+  <Edge nodeIn="14981" nodeOut="14944" portIn="Prepare" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14988" nodeOut="14944" portIn="in" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="14929" nodeOut="14951" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="14969" nodeOut="14955" portIn="set" portOut="Leave" enabled="1"/>
+  <Edge nodeIn="14970" nodeOut="14955" portIn="set" portOut="Enter" enabled="1"/>
+  <Edge nodeIn="14955" nodeOut="14964" portIn="Enable" portOut="output" enabled="1"/>
+  <Edge nodeIn="14975" nodeOut="14969" portIn="Index" portOut="out" enabled="1"/>
+  <Edge nodeIn="14975" nodeOut="14970" portIn="Index" portOut="out" enabled="1"/>
+  <Edge nodeIn="14978" nodeOut="14975" portIn="Get" portOut="Port0" enabled="1"/>
+  <Edge nodeIn="14980" nodeOut="14975" portIn="In" portOut="Port1" enabled="1"/>
+  <Edge nodeIn="2456" nodeOut="14978" portIn="Spawn" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="2469" nodeOut="14978" portIn="update" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="2515" nodeOut="14978" portIn="Queue" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="14980" nodeOut="14978" portIn="In" portOut="Is in combat" enabled="1"/>
+  <Edge nodeIn="15003" nodeOut="14978" portIn="Trigger" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="15025" nodeOut="14978" portIn="Disable" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="15028" nodeOut="14978" portIn="Enter" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="17165" nodeOut="14978" portIn="hide" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="17298" nodeOut="14978" portIn="In" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="17347" nodeOut="14978" portIn="DisableSave" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="17524" nodeOut="14978" portIn="hide" portOut="Is not in combat" enabled="1"/>
+  <Edge nodeIn="14981" nodeOut="14980" portIn="Prepare" portOut="Out" enabled="1"/>
+  <Edge nodeIn="14982" nodeOut="14980" portIn="FadeOut" portOut="Out" enabled="1"/>
+  <Edge nodeIn="14984" nodeOut="14981" portIn="in" portOut="Finished" enabled="1"/>
+  <Edge nodeIn="14981" nodeOut="14982" portIn="Play" portOut="FadedOut" enabled="1"/>
+  <Edge nodeIn="17178" nodeOut="14983" portIn="In" portOut="FadedIn" enabled="1"/>
+  <Edge nodeIn="14983" nodeOut="14984" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="14982" nodeOut="14988" portIn="FadeOut" portOut="out" enabled="1"/>
+  <Edge nodeIn="17167" nodeOut="14992" portIn="A" portOut="OnHealthChange" enabled="1"/>
+  <Edge nodeIn="15003" nodeOut="15004" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="15006" nodeOut="15005" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="14951" nodeOut="15050" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17171" nodeOut="16802" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="1559" nodeOut="17063" portIn="Input1" portOut="Out" enabled="0"/>
+  <Edge nodeIn="17508" nodeOut="17078" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17085" nodeOut="17086" portIn="Trigger" portOut="Out" enabled="0"/>
+  <Edge nodeIn="17101" nodeOut="17097" portIn="B" portOut="OnHealthChange" enabled="1"/>
+  <Edge nodeIn="17102" nodeOut="17097" portIn="in" portOut="OnHealthChange" enabled="1"/>
+  <Edge nodeIn="17097" nodeOut="17098" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17103" nodeOut="17099" portIn="set" portOut="output" enabled="1"/>
+  <Edge nodeIn="17086" nodeOut="17101" portIn="Input1" portOut="GreaterEqual" enabled="1"/>
+  <Edge nodeIn="17101" nodeOut="17102" portIn="Check" portOut="out" enabled="1"/>
+  <Edge nodeIn="17101" nodeOut="17103" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="17086" nodeOut="17106" portIn="Input1" portOut="Request" enabled="1"/>
+  <Edge nodeIn="17177" nodeOut="17114" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17203" nodeOut="17119" portIn="Trigger" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17119" nodeOut="17121" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17128" nodeOut="17123" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17128" nodeOut="17123" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17131" nodeOut="17123" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17131" nodeOut="17123" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17133" nodeOut="17123" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17133" nodeOut="17123" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17129" nodeOut="17126" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17126" nodeOut="17128" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="17136" nodeOut="17129" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17129" nodeOut="17130" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17130" nodeOut="17131" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="17129" nodeOut="17132" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17132" nodeOut="17133" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="17391" nodeOut="17134" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17134" nodeOut="17135" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="17134" nodeOut="17136" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="2454" nodeOut="17166" portIn="ForceFinishLastQueued" portOut="Finished" enabled="1"/>
+  <Edge nodeIn="2454" nodeOut="17166" portIn="Play" portOut="Played" enabled="1"/>
+  <Edge nodeIn="2677" nodeOut="17166" portIn="in" portOut="Finished" enabled="1"/>
+  <Edge nodeIn="2495" nodeOut="17167" portIn="show" portOut="true" enabled="1"/>
+  <Edge nodeIn="15028" nodeOut="17167" portIn="Exit" portOut="true" enabled="1"/>
+  <Edge nodeIn="17526" nodeOut="17167" portIn="show" portOut="true" enabled="1"/>
+  <Edge nodeIn="17345" nodeOut="17171" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2513" nodeOut="17178" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="15050" nodeOut="17182" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17191" nodeOut="17189" portIn="Get" portOut="LevelStateRestored" enabled="0"/>
+  <Edge nodeIn="17191" nodeOut="17189" portIn="Get" portOut="output" enabled="0"/>
+  <Edge nodeIn="17212" nodeOut="17190" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17197" nodeOut="17191" portIn="A" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17197" nodeOut="17191" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17201" nodeOut="17193" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17200" nodeOut="17197" portIn="in" portOut="True" enabled="1"/>
+  <Edge nodeIn="17193" nodeOut="17200" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="17185" nodeOut="17201" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17190" nodeOut="17201" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17208" nodeOut="17201" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17162" nodeOut="17202" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17205" nodeOut="17203" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17114" nodeOut="17205" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17273" nodeOut="17271" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17275" nodeOut="17273" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17366" nodeOut="17274" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17274" nodeOut="17275" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17276" nodeOut="17275" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17367" nodeOut="17275" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17285" nodeOut="17282" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17485" nodeOut="17285" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17295" nodeOut="17298" portIn="Send" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17296" nodeOut="17300" portIn="Send" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17305" nodeOut="17302" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17305" nodeOut="17302" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17317" nodeOut="17304" portIn="in" portOut="True" enabled="1"/>
+  <Edge nodeIn="17304" nodeOut="17305" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="17311" nodeOut="17310" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17314" nodeOut="17311" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17310" nodeOut="17317" portIn="Input1" portOut="out" enabled="1"/>
+  <Edge nodeIn="17320" nodeOut="17318" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17326" nodeOut="17320" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17320" nodeOut="17321" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17320" nodeOut="17322" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17318" nodeOut="17324" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17318" nodeOut="17324" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17321" nodeOut="17324" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17321" nodeOut="17324" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17322" nodeOut="17324" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17322" nodeOut="17324" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17477" nodeOut="17325" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17325" nodeOut="17326" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17338" nodeOut="17335" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17335" nodeOut="17336" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17339" nodeOut="17336" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17336" nodeOut="17340" portIn="Input1" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17340" nodeOut="17342" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17480" nodeOut="17343" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17343" nodeOut="17345" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="17352" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17353" nodeOut="17352" portIn="Open" portOut="Out" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="17353" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17355" nodeOut="17353" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17360" nodeOut="17353" portIn="Close" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17362" nodeOut="17353" portIn="false" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17360" nodeOut="17359" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="17362" nodeOut="17360" portIn="true" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="17362" portIn="Active" portOut="out" enabled="1"/>
+  <Edge nodeIn="60" nodeOut="17368" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="17305" nodeOut="17373" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17375" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17379" nodeOut="17377" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17380" nodeOut="17378" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17378" nodeOut="17379" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17382" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17383" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17384" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17385" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17386" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17387" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17388" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17389" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17377" nodeOut="17390" portIn="In" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17403" nodeOut="17395" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17396" nodeOut="17403" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17404" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17413" nodeOut="17405" portIn="Trigger" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="17413" nodeOut="17405" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17406" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17408" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17409" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17410" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17411" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17404" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17406" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17408" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17409" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17410" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17411" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17414" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17415" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17416" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17417" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17418" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17419" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17420" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17421" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17422" nodeOut="17413" portIn="Active" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17414" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17415" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17416" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17417" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17418" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17419" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17420" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17421" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17395" nodeOut="17422" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="17433" nodeOut="17430" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17430" nodeOut="17432" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17442" nodeOut="17438" portIn="In" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17438" nodeOut="17441" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17463" nodeOut="17441" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17465" nodeOut="17441" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17467" nodeOut="17441" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17469" nodeOut="17441" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17471" nodeOut="17441" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17473" nodeOut="17441" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17475" nodeOut="17441" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17443" nodeOut="17442" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="17462" nodeOut="17442" portIn="In" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="17432" nodeOut="17462" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17464" nodeOut="17463" portIn="In" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17443" nodeOut="17464" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="17462" nodeOut="17464" portIn="In" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="17466" nodeOut="17465" portIn="In" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17443" nodeOut="17466" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="17462" nodeOut="17466" portIn="In" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="17468" nodeOut="17467" portIn="In" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17443" nodeOut="17468" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="17462" nodeOut="17468" portIn="In" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="17470" nodeOut="17469" portIn="In" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17443" nodeOut="17470" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="17462" nodeOut="17470" portIn="In" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="17472" nodeOut="17471" portIn="In" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17443" nodeOut="17472" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="17462" nodeOut="17472" portIn="In" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="17474" nodeOut="17473" portIn="In" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17443" nodeOut="17474" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="17462" nodeOut="17474" portIn="In" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="17476" nodeOut="17475" portIn="In" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17443" nodeOut="17476" portIn="in1" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="17462" nodeOut="17476" portIn="In" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="17488" nodeOut="17487" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17493" nodeOut="17492" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17487" nodeOut="17493" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17496" nodeOut="17494" portIn="A" portOut="Increment" enabled="1"/>
+  <Edge nodeIn="17496" nodeOut="17494" portIn="Check" portOut="Increment" enabled="1"/>
+  <Edge nodeIn="17171" nodeOut="17496" portIn="In" portOut="true" enabled="1"/>
+  <Edge nodeIn="16802" nodeOut="17503" portIn="Trigger" portOut="output" enabled="1"/>
+  <Edge nodeIn="17171" nodeOut="17508" portIn="Open" portOut="out" enabled="1"/>
+  <Edge nodeIn="17511" nodeOut="17510" portIn="Trigger" portOut="Callback" enabled="1"/>
+  <Edge nodeIn="17513" nodeOut="17512" portIn="in" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17510" nodeOut="17513" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17512" nodeOut="17515" portIn="In" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17518" nodeOut="17517" portIn="in" portOut="True" enabled="1"/>
+  <Edge nodeIn="17273" nodeOut="17518" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="17517" nodeOut="17520" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17518" nodeOut="17521" portIn="in" portOut="onAdded" enabled="1"/>
+  <Edge nodeIn="17517" nodeOut="17523" portIn="check" portOut="Triggered" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

@@ -1,0 +1,22 @@
+
+<anim_event_list>
+ <animation name="animations/characters/robots/operatorscience/combat/melee/combat_melee_probe_attack_a.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Operator_Combat_Melee_Probe_Attack_A" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.49708879" endTime="0.49708879" parameter="Play_Operator_Combat_Melee_Sharp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorscience/combat/melee/combat_melee_probe_extended.caf">
+  <event name="sound" time="0" endTime="0" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorscience/combat/melee/combat_melee_probe_in.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Operator_Loco_Mechanics_Med" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorscience/combat/melee/combat_melee_probe_retracted.caf">
+  <event name="sound" time="0.0014556041" endTime="0.0014556041" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorscience/death/death_explode.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Operator_Death_Spindown" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorscience/combat/melee/combat_melee_probe_attack_a_fast.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Operator_Combat_Melee_Sharp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

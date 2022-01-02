@@ -1,0 +1,9 @@
+
+<DeathHitReactionsParams>
+ <HitDeathReactionsConfig collisionBone="cog_jnt"/>
+ <HitReactionParams/>
+ <DeathReactionParams>
+  <DeathReactionParam reactionFunc="LaserDeath" validationFunc="LaserDeath" EHitReactionType="4"/>
+  <DeathReactionParam reactionFunc="Ragdoll" EHitReactionType="4"/>
+ </DeathReactionParams>
+</DeathHitReactionsParams>

@@ -1,0 +1,209 @@
+
+<Graph isModule="1" moduleName="WL_FormatAsDollars" isObjectList="0" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <ModuleInputsOutputs>
+  <Port Name="DollarAmount" Type="1" Input="1"/>
+  <Port Name="DollarString" Type="5" Input="0"/>
+ </ModuleInputsOutputs>
+ <Nodes>
+  <Node Id="1" Class="Module:Start_WL_FormatAsDollars" pos="-430,-10,0"/>
+  <Node Id="2" Class="Module:End_WL_FormatAsDollars" pos="7070,230,0">
+   <Inputs DollarString=""/>
+  </Node>
+  <Node Id="32" Class="Mission:GameTokenSet" pos="340,-90,0">
+   <Inputs gametokenid_Token="-1378318311" Value=""/>
+  </Node>
+  <Node Id="33" Class="Math:Calculate" pos="590,-80,0">
+   <Inputs Op="3" A="0" B="1000"/>
+  </Node>
+  <Node Id="34" Class="Mission:GameTokenSet" pos="790,-90,0">
+   <Inputs gametokenid_Token="-1323188531" Value=""/>
+  </Node>
+  <Node Id="37" Class="Math:Mod" pos="1250,-80,0">
+   <Inputs A="0" B="1000"/>
+  </Node>
+  <Node Id="39" Class="Math:SetNumber" pos="1060,-90,0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="40" Class="Mission:GameTokenSet" pos="1480,-30,0">
+   <Inputs gametokenid_Token="-1473712265" Value=""/>
+  </Node>
+  <Node Id="44" Class="Math:Round" pos="2140,-100,0">
+   <Inputs In="0"/>
+  </Node>
+  <Node Id="46" Class="Math:Sub" pos="1920,-100,0">
+   <Inputs A="0" B="0.5"/>
+  </Node>
+  <Node Id="47" Class="Math:SetNumber" pos="1760,-80,0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="48" Class="Mission:GameTokenSet" pos="2410,-110,0">
+   <Inputs gametokenid_Token="-550510623" Value=""/>
+  </Node>
+  <Node Id="50" Class="Logic:ArkCompare" pos="2850,-170,0">
+   <Inputs/>
+  </Node>
+  <Node Id="52" Class="Math:SetNumber" pos="2680,-70,0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="54" Class="Mission:GameTokenSet" pos="-100,-90,0">
+   <Inputs gametokenid_Token="-540388058" Value=""/>
+  </Node>
+  <Node Id="55" Class="Mission:GameTokenSet" pos="130,-90,0">
+   <Inputs gametokenid_Token="-960297828" Value=""/>
+  </Node>
+  <Node Id="56" Class="String:Concat" pos="4760,-220,0">
+   <Inputs String1="," String2=" dollars"/>
+  </Node>
+  <Node Id="57" Class="String:Concat" pos="5330,-80,0">
+   <Inputs String1="dollars" String2=" dollars"/>
+  </Node>
+  <Node Id="59" Class="Mission:GameTokenGet" pos="5770,70,0">
+   <Inputs gametokenid_Token="-550510623"/>
+  </Node>
+  <Node Id="62" Class="Mission:GameTokenSet" pos="5540,10,0">
+   <Inputs gametokenid_Token="-960297828" Value=""/>
+  </Node>
+  <Node Id="65" Class="Mission:GameTokenGet" pos="5070,-120,0">
+   <Inputs gametokenid_Token="-960297828"/>
+  </Node>
+  <Node Id="66" Class="Mission:GameTokenSet" pos="5980,170,0">
+   <Inputs gametokenid_Token="-1378318311" Value=""/>
+  </Node>
+  <Node Id="69" Class="Mission:GameTokenGet" pos="4860,-70,0">
+   <Inputs gametokenid_Token="-1378318311"/>
+  </Node>
+  <Node Id="70" Class="Logic:ArkCompare" pos="6410,200,0">
+   <Inputs/>
+  </Node>
+  <Node Id="71" Class="Math:SetNumber" pos="6240,300,0">
+   <Inputs in="1000"/>
+  </Node>
+  <Node Id="74" Class="Mission:GameTokenGet" pos="310,-200,0">
+   <Inputs gametokenid_Token="-1378318311"/>
+  </Node>
+  <Node Id="75" Class="String:Concat" pos="5300,50,0">
+   <Inputs String1="," String2=" dollars"/>
+  </Node>
+  <Node Id="77" Class="String:Concat" pos="6840,230,0">
+   <Inputs String1="" String2=""/>
+  </Node>
+  <Node Id="78" Class="Mission:GameTokenGet" pos="6640,240,0">
+   <Inputs gametokenid_Token="-960297828"/>
+  </Node>
+  <Node Id="79" Class="Logic:ArkCompare" pos="3220,-370,0">
+   <Inputs/>
+  </Node>
+  <Node Id="81" Class="Math:SetNumber" pos="3070,-320,0">
+   <Inputs in="10"/>
+  </Node>
+  <Node Id="82" Class="String:Concat" pos="3630,-410,0">
+   <Inputs String1="00" String2=" dollars"/>
+  </Node>
+  <Node Id="84" Class="Mission:GameTokenGet" pos="3390,-410,0">
+   <Inputs gametokenid_Token="-1473712265"/>
+  </Node>
+  <Node Id="85" Class="Mission:GameTokenGet" pos="4350,-170,0">
+   <Inputs gametokenid_Token="-1473712265"/>
+  </Node>
+  <Node Id="86" Class="Logic:ArkCompare" pos="3970,-250,0">
+   <Inputs/>
+  </Node>
+  <Node Id="87" Class="Math:SetNumber" pos="3590,-190,0">
+   <Inputs in="100"/>
+  </Node>
+  <Node Id="88" Class="Mission:GameTokenGet" pos="3740,-190,0">
+   <Inputs gametokenid_Token="-1473712265"/>
+  </Node>
+  <Node Id="89" Name="Leading_0s" Class="_commentbox" pos="3210,-425,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="906" Height="321"/>
+  </Node>
+  <Node Id="90" Class="String:Concat" pos="4490,-350,0">
+   <Inputs String1="0" String2=" dollars"/>
+  </Node>
+  <Node Id="91" Class="Mission:GameTokenGet" pos="4250,-350,0">
+   <Inputs gametokenid_Token="-1473712265"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="32" nodeOut="1" portIn="Value" portOut="DollarAmount" enabled="1"/>
+  <Edge nodeIn="54" nodeOut="1" portIn="Trigger" portOut="Start" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="32" portIn="A" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="32" portIn="DoCalc" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="39" nodeOut="32" portIn="in" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="34" nodeOut="33" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="34" nodeOut="33" portIn="Value" portOut="out" enabled="1"/>
+  <Edge nodeIn="39" nodeOut="34" portIn="set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="47" nodeOut="34" portIn="in" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="50" nodeOut="34" portIn="A" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="40" nodeOut="37" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="40" nodeOut="37" portIn="Value" portOut="out" enabled="1"/>
+  <Edge nodeIn="37" nodeOut="39" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="47" nodeOut="40" portIn="set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="79" nodeOut="40" portIn="A" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="48" nodeOut="44" portIn="Trigger" portOut="outRounded" enabled="1"/>
+  <Edge nodeIn="48" nodeOut="44" portIn="Value" portOut="outRounded" enabled="1"/>
+  <Edge nodeIn="44" nodeOut="46" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="46" nodeOut="47" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="52" nodeOut="48" portIn="set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="69" nodeOut="50" portIn="Trigger" portOut="LessEqual" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="50" portIn="set" portOut="Greater" enabled="1"/>
+  <Edge nodeIn="50" nodeOut="52" portIn="B" portOut="out" enabled="1"/>
+  <Edge nodeIn="50" nodeOut="52" portIn="Check" portOut="out" enabled="1"/>
+  <Edge nodeIn="55" nodeOut="54" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="32" nodeOut="55" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="57" nodeOut="56" portIn="String1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="65" nodeOut="56" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="62" nodeOut="57" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="62" nodeOut="57" portIn="Value" portOut="Out" enabled="1"/>
+  <Edge nodeIn="66" nodeOut="59" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="66" nodeOut="59" portIn="Value" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="59" nodeOut="62" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="57" nodeOut="65" portIn="Set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="57" nodeOut="65" portIn="String2" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="70" nodeOut="66" portIn="A" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="71" nodeOut="66" portIn="set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="77" nodeOut="66" portIn="String1" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="57" nodeOut="69" portIn="String1" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="65" nodeOut="69" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="70" portIn="Trigger" portOut="GreaterEqual" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="70" portIn="Trigger" portOut="Less" enabled="1"/>
+  <Edge nodeIn="70" nodeOut="71" portIn="B" portOut="out" enabled="1"/>
+  <Edge nodeIn="70" nodeOut="71" portIn="Check" portOut="out" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="74" portIn="A" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="74" portIn="DoCalc" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="39" nodeOut="74" portIn="in" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="77" portIn="DollarString" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="77" portIn="Success" portOut="Out" enabled="1"/>
+  <Edge nodeIn="77" nodeOut="78" portIn="Set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="77" nodeOut="78" portIn="String2" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="79" portIn="Trigger" portOut="Less" enabled="1"/>
+  <Edge nodeIn="87" nodeOut="79" portIn="set" portOut="GreaterEqual" enabled="1"/>
+  <Edge nodeIn="79" nodeOut="81" portIn="B" portOut="out" enabled="1"/>
+  <Edge nodeIn="79" nodeOut="81" portIn="Check" portOut="out" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="82" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="82" portIn="String2" portOut="Out" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="84" portIn="Set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="84" portIn="String2" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="85" portIn="Set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="85" portIn="String2" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="85" nodeOut="86" portIn="Trigger" portOut="GreaterEqual" enabled="1"/>
+  <Edge nodeIn="91" nodeOut="86" portIn="Trigger" portOut="Less" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="87" portIn="B" portOut="out" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="87" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="88" portIn="A" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="88" portIn="Check" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="90" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="90" portIn="String2" portOut="Out" enabled="1"/>
+  <Edge nodeIn="90" nodeOut="91" portIn="Set" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="90" nodeOut="91" portIn="String2" portOut="OutValue" enabled="1"/>
+ </Edges>
+ <GraphTokens>
+  <Token Id="-1378318311" Name="X" Type="1"/>
+  <Token Id="-540388058" Name="str1" Type="5"/>
+  <Token Id="-960297828" Name="str2" Type="5"/>
+  <Token Id="-1323188531" Name="num1" Type="1"/>
+  <Token Id="-1473712265" Name="num2" Type="1"/>
+  <Token Id="-550510623" Name="num3" Type="1"/>
+ </GraphTokens>
+</Graph>

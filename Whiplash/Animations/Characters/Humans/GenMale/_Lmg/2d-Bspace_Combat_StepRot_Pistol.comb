@@ -1,0 +1,16 @@
+
+<CombinedBlendSpace>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <Dimensions>
+  <Param name="TurnAngle" ChooseBlendSpace="1" locked="1"/>
+  <Param name="MoveSpeed"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="TravelAngle"/>
+ </AdditionalExtraction>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Humans/GenMale/_lmg/2d-Bspace_Combat_StepRot_Left_Pistol.bspace"/>
+  <BlendSpace AName="animations/Characters/Humans/GenMale/_lmg/2d-Bspace_Combat_StepRot_Right_Pistol.bspace"/>
+ </BlendSpaces>
+ <JointList/>
+</CombinedBlendSpace>

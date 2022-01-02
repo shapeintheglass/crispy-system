@@ -1,0 +1,9 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations\Mannequin\ADB\ArkTurretEntityControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Turret" enabled="1" context="TurretCharacter" model="objects/characters/Robots/Turret/turret.cdf" database="Animations/Mannequin/ADB/ArkTurretEntity.adb"/>
+  <contextData name="TurretLaser" context="TurretCharacter" model="objects/characters/Robots/TurretLaser/TurretLaser.cdf" database="Animations/Mannequin/ADB/ArkTurretEntity.adb"/>
+ </contexts>
+ <History StartTime="135.32835" EndTime="235.32835"/>
+</MannequinPreview>

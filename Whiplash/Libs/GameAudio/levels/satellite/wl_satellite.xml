@@ -1,0 +1,112 @@
+
+<ATLConfig atl_name="WL_Satellite">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_Install_Operator" path="Events">
+   <WwiseEvent wwise_name="Play_Install_Operator"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Install_Visor" path="Events">
+   <WwiseEvent wwise_name="Play_Install_Visor"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_External_Ship_Approach" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_External_Ship_Approach"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Internal_PreDock" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Internal_PreDock"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Internal_Ship_Approach_L" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Internal_Ship_Approach_L"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Internal_Ship_Approach_R" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Internal_Ship_Approach_R"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Ship_Dock" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Ship_Dock"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Screen_LP" path="Objects">
+   <WwiseEvent wwise_name="Play_Satellite_Screen_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Satellite_Screen_LP" path="Objects">
+   <WwiseEvent wwise_name="Stop_Satellite_Screen_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Screen_Switch" path="Objects">
+   <WwiseEvent wwise_name="Play_Satellite_Screen_Switch"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Oxygen_Restore" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Oxygen_Restore"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Oxygen_Structure_Vent_A" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Oxygen_Structure_Vent_A"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Oxygen_Structure_Vent_B" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Oxygen_Structure_Vent_B"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Oxygen_Vent" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Oxygen_Vent"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Gravity_Off" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Gravity_Off"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Gravity_On" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Gravity_On"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Gravity_Alarm_LP" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Gravity_Alarm_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Oxygen_Alarm_LP" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Oxygen_Alarm_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Oxygen_HelmetFill_LP" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Oxygen_HelmetFill_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Satellite_Gravity_Alarm_LP" path="Events">
+   <WwiseEvent wwise_name="Stop_Satellite_Gravity_Alarm_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Satellite_Oxygen_Alarm_LP" path="Events">
+   <WwiseEvent wwise_name="Stop_Satellite_Oxygen_Alarm_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Satellite_Oxygen_HelmetFill_LP" path="Events">
+   <WwiseEvent wwise_name="Stop_Satellite_Oxygen_HelmetFill_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Mail_Notify" path="Objects">
+   <WwiseEvent wwise_name="Play_Satellite_Mail_Notify"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Radio_pt1" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Radio_pt1"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Lighting_Change" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Lighting_Change"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Satellite_Oxygen_GetHelmet" path="Events">
+   <WwiseEvent wwise_name="Play_Satellite_Oxygen_GetHelmet"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Foley_Bed_Shuffle_01" path="WL_M13Intro">
+   <WwiseEvent wwise_name="Play_Foley_Bed_Shuffle_01"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Foley_Bed_Shuffle_02" path="WL_M13Intro">
+   <WwiseEvent wwise_name="Play_Foley_Bed_Shuffle_02"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Foley_Land" path="WL_M13Intro">
+   <WwiseEvent wwise_name="Play_Foley_Land"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Foley_Quick_Leap" path="WL_M13Intro">
+   <WwiseEvent wwise_name="Play_Foley_Quick_Leap"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Foley_SlideOut" path="WL_M13Intro">
+   <WwiseEvent wwise_name="Play_Foley_SlideOut"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="WL_Satellite.bnk" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="WL_Satellite.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

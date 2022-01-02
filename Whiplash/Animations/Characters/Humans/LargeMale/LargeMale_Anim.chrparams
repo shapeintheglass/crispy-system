@@ -1,0 +1,20 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$AnimEventDatabase" path="Animations/Characters/Humans/LargeMale/LargeMale.animevents"/>
+  <Animation name="$AnimEventDatabase" path="Animations/Characters/Humans/Dialogue/Default.animevents"/>
+  <Animation name="#filepath" path="Animations/Characters/Humans/LargeMale"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+  <Animation name="#filepath" path="animations/Cutscenes"/>
+  <Animation name="*" path="*/*/*_Alex.caf"/>
+  <Animation name="*" path="*/*/*_LukaGolubkin.caf"/>
+  <Animation name="#filepath" path="animations/Characters/Humans/Shared_Animations"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="#filepath" path="Animations/MarketingPoses"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+ </AnimationList>
+</Params>

@@ -1,0 +1,52 @@
+
+<ATLConfig atl_name="Creature_WL_TentacleNest">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_Destroyed">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_Destroyed"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_Exist_LP">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_Exist_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_Launch">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_Launch"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_TentacleHead_Attack_LP">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_TentacleHead_Attack_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_TentacleHead_Attack_Start">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_TentacleHead_Attack_Start"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_TentacleHead_Attack_Stop_VOX">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_TentacleHead_Attack_Stop_VOX"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_TentacleHead_Death">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_TentacleHead_Death"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_TentacleHead_Exist_LP">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_TentacleHead_Exist_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_EndGame_main_tentacle_stab">
+   <WwiseEvent wwise_name="Play_EndGame_main_tentacle_stab"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_Creature_TentacleNest_TentacleHead_Attack_LP">
+   <WwiseEvent wwise_name="Stop_Creature_TentacleNest_TentacleHead_Attack_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_Creature_TentacleNest_TentacleHead_Pain">
+   <WwiseEvent wwise_name="Play_Creature_TentacleNest_TentacleHead_Pain"/>
+  </ATLTrigger>
+ </AudioTriggers>
+ <AudioPreloads>
+  <ATLPreloadRequest atl_name="WL_TentacleNest.bnk" atl_type="AutoLoad">
+   <ATLPlatforms>
+    <Platform atl_name="pc" atl_config_group_name="default"/>
+    <Platform atl_name="ps4" atl_config_group_name="default"/>
+    <Platform atl_name="xboxone" atl_config_group_name="default"/>
+    <Platform atl_name="mac" atl_config_group_name="default"/>
+    <Platform atl_name="linux" atl_config_group_name="default"/>
+   </ATLPlatforms>
+   <ATLConfigGroup atl_name="default">
+    <WwiseFile wwise_name="WL_TentacleNest.bnk"/>
+   </ATLConfigGroup>
+  </ATLPreloadRequest>
+ </AudioPreloads>
+</ATLConfig>

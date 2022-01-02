@@ -1,0 +1,65 @@
+
+<TagDefinition version="2">
+ <Imports>
+  <Import filename="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+ </Imports>
+ <Tags>
+  <Group name="shotOrigin">
+   <Tag name="so_forward" priority="6"/>
+   <Tag name="so_back" priority="6"/>
+   <Tag name="so_right" priority="6"/>
+   <Tag name="so_left" priority="6"/>
+   <Tag name="so_ahead" priority="6"/>
+   <Tag name="so_behind" priority="6"/>
+   <Tag name="so_leftside" priority="6"/>
+   <Tag name="so_rightside" priority="6"/>
+  </Group>
+  <Group name="AllowedStances">
+   <Tag name="stance_Relaxed"/>
+   <Tag name="stance_Alerted"/>
+   <Tag name="stance_Combat"/>
+   <Tag name="stance_Sneak"/>
+   <Tag name="stance_ZeroG"/>
+  </Group>
+  <Group name="AllowedParts">
+   <Tag name="_tagRightLeg"/>
+   <Tag name="_tagLeftLeg"/>
+   <Tag name="_tagLeftArm"/>
+   <Tag name="_tagRightArm"/>
+   <Tag name="_tagHead"/>
+   <Tag name="_tagTorso"/>
+   <Tag name="_tagTentacles"/>
+  </Group>
+  <Group name="Damagetype">
+   <Tag name="wrenchDamage" priority="2"/>
+   <Tag name="bulletDamage" priority="2"/>
+   <Tag name="explosionDamage" priority="2"/>
+   <Tag name="fallDamage" priority="2"/>
+   <Tag name="fireDamage" priority="2"/>
+   <Tag name="electricityDamage" priority="2"/>
+   <Tag name="LaserExplosion" priority="2"/>
+   <Tag name="DiscHit" priority="2"/>
+   <Tag name="SolarFrenzyDeath" priority="2"/>
+  </Group>
+  <Group name="HitType">
+   <Tag name="hit" priority="5"/>
+   <Tag name="death" priority="5"/>
+   <Tag name="post_death" priority="5"/>
+  </Group>
+  <Group name="HitReactType">
+   <Tag name="Stagger" priority="4"/>
+   <Tag name="Knockdown" priority="4"/>
+   <Tag name="Small" priority="4"/>
+   <Tag name="Throw" priority="4"/>
+  </Group>
+  <Group name="SwipeDirection">
+   <Tag name="LeftRight" priority="1"/>
+   <Tag name="RightLeft" priority="1"/>
+  </Group>
+  <Group name="Impact">
+   <Tag name="Impact_Low"/>
+   <Tag name="Impact_High"/>
+  </Group>
+  <Tag name="targetFP"/>
+ </Tags>
+</TagDefinition>

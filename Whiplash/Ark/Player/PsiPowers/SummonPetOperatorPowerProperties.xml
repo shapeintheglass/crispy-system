@@ -1,0 +1,9 @@
+
+<SummonPetOperatorPowerProperties>
+ <Common DisplayName="@rpg_SummonPetOperatorName" PsiCost="0" Description="@rpg_SummonPetOperator" NoiseId="9469288860501998057" LoudnessId="9469288860501649190" PickerLabel="SummonPetOperator" ExecutionAudioTrigger="" InterruptsMimicGrabSequence="false" ExecutionPlayerEffect=""/>
+ <Levels>
+  <ArkPsiPowerSummonPetOperatorProperties DisplayName="@rpg_SummonPetOperatorName" Description="@rpg_SummonPetOperator" Icon="ui_icon_ability_summon_operator" CooldownDurationSec="0" Archetype="ArkRobots.Operators\Generic\DO_NOT_PLACE.ScienceOperatorPet" MinBounds="-0.1655,-0.393,-0.119" MaxBounds="0.1655,1.72,1.368" SummonFX="Player.Powers.SummonPet.Pet_Operator_Summon" UnsummonFX="Player.Powers.SummonPet.Pet_Operator_Unsummon" SummonFXAttachment="PsiTarget_Attachment">
+   <TargetingProperties MaxRange="7" MinRange="2" TargetParticleEffect="Player.Powers.SummonPet.Targeting_Operator"/>
+  </ArkPsiPowerSummonPetOperatorProperties>
+ </Levels>
+</SummonPetOperatorPowerProperties>

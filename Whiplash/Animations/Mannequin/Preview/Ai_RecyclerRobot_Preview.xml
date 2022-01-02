@@ -1,0 +1,10 @@
+
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/Ai_RecyclerRobot_ControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Ai_RecyclerRobot" enabled="1" database="Animations/Mannequin/ADB/Ai_RecyclerRobot_Database.adb" context="Char3P" model="Objects/characters/Robots/RecyclerRobot/RecyclerRobot.cdf"/>
+ </contexts>
+ <History StartTime="0" EndTime="0">
+  <FragmentID Time="0" FragmentID="Motion_Idle"/>
+ </History>
+</MannequinPreview>

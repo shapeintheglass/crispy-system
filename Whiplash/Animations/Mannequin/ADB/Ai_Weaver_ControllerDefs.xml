@@ -1,0 +1,44 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Weaver_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_Weaver_FragmentIds.xml"/>
+ <FragmentDefs>
+  <BreakGloo scopes="FullBody3P"/>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Melee scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Reaction_Death scopes="FullBody3P"/>
+  <BlendRagdoll scopes="FullBody3P"/>
+  <Alarm_Call scopes="FullBody3P"/>
+  <Create_Cystoid scopes="FullBody3P"/>
+  <Create_Phantom scopes="FullBody3P"/>
+  <Detect_Player scopes="FullBody3P"/>
+  <Distractor_TendCoral scopes="FullBody3P"/>
+  <Create_Coral scopes="FullBody3P"/>
+  <Blinded scopes="FullBody3P"/>
+  <Nullwave_React scopes="FullBody3P"/>
+  <Psychoshock_React scopes="FullBody3P"/>
+  <Hypnotized scopes="FullBody3P"/>
+  <PushObstacle scopes="FullBody3P"/>
+  <Stunned scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Lifted scopes="FullBody3P"/>
+  <Lifted_BumpCeiling scopes="FullBody3P"/>
+  <Notice scopes="FullBody3P"/>
+  <MindJack_In scopes="FullBody3P"/>
+  <MindJack_Out scopes="FullBody3P"/>
+  <hit scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <ForceResist scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Glood_Pose scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <ForceResistScrunch scopes="Torso3P+FullBody3P+TorsoDetail"/>
+  <Create_Trap scopes="FullBody3P"/>
+  <Consume scopes="FullBody3P"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Torso3P layer="3" numLayers="2" context="Char3P"/>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <TorsoDetail layer="5" numLayers="2" context="Char3P"/>
+ </ScopeDefs>
+</ControllerDef>

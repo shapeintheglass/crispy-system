@@ -1,0 +1,141 @@
+
+<ArkDialogVoices>
+ <Voices>
+  <ArkDialogVoice ID="13680621263365100016" Name="AlarmClock" Description="The alarm clock VO for Morgan&apos;s Apartment" Abstract="false" Audio="true" FaceFX="false" Sex="female">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263358634945" Name="Player" Description="Category for player voices" Abstract="true" Audio="true" FaceFX="true">
+   <Voices>
+    <ArkDialogVoice ID="13680621263353786377" Name="MorganMale" Description="Male voice of the player." Abstract="false" Audio="true" FaceFX="true" Sex="male">
+     <Voices/>
+    </ArkDialogVoice>
+    <ArkDialogVoice ID="13680621263358634988" Name="MorganFemale" Description="Female voice of the player" Abstract="false" Audio="true" FaceFX="true" Sex="female">
+     <Voices/>
+    </ArkDialogVoice>
+   </Voices>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263353094452" Name="Human" Description="The abstract voice for Humans" Abstract="true" Audio="true" FaceFX="true">
+   <Voices>
+    <ArkDialogVoice ID="13680621263353094480" Name="HumanGeneric" Description="The abstract voice for Generic Humans" Abstract="true" Audio="true" FaceFX="true">
+     <Voices>
+      <ArkDialogVoice ID="13680621263353094521" Name="MaleA" Description="Male A: African American, Late 20&apos;s to 40&apos;s" Abstract="false" Audio="true" FaceFX="true" Sex="male">
+       <Voices/>
+      </ArkDialogVoice>
+      <ArkDialogVoice ID="13680621263353786169" Name="MaleB" Description="Male B: Caucasian American, Late 20&apos;s to 30&apos;s" Abstract="false" Audio="true" FaceFX="true" Sex="male">
+       <Voices/>
+      </ArkDialogVoice>
+      <ArkDialogVoice ID="13680621263353786198" Name="MaleC" Description="Male C: Asian American, 20&apos;s to 40&apos;s" Abstract="false" Audio="true" FaceFX="true" Sex="male">
+       <Voices/>
+      </ArkDialogVoice>
+      <ArkDialogVoice ID="13680621263365953228" Name="MaleD" Description="Male D: Unspecified, older 50+" Abstract="false" Audio="true" FaceFX="true" Sex="male">
+       <Voices/>
+      </ArkDialogVoice>
+      <ArkDialogVoice ID="13680621263353786218" Name="FemaleA" Description="Female A: Hispanic American, late 20&apos;s to 40&apos;s" Abstract="false" Audio="true" FaceFX="true" Sex="female">
+       <Voices/>
+      </ArkDialogVoice>
+      <ArkDialogVoice ID="13680621263353786228" Name="FemaleB" Description="Female B: Asian American, late 20&apos;s to 40&apos;s" Abstract="false" Audio="true" FaceFX="true" Sex="female">
+       <Voices/>
+      </ArkDialogVoice>
+      <ArkDialogVoice ID="13680621263353786238" Name="FemaleC" Description="Female C: Indian 20&apos;s to 40&apos;s" Abstract="false" Audio="true" FaceFX="true" Sex="female">
+       <Voices/>
+      </ArkDialogVoice>
+      <ArkDialogVoice ID="4349723564911543122" Name="FemaleD" Description="Female D: Unspecified, older 50+" Abstract="false" Audio="true" FaceFX="true" Sex="female">
+       <Voices/>
+      </ArkDialogVoice>
+     </Voices>
+    </ArkDialogVoice>
+   </Voices>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263361476009" Name="Operator" Description="Station AI" Abstract="true" Audio="true" FaceFX="false" Sex="female">
+   <Voices>
+    <ArkDialogVoice ID="13680621263361476039" Name="Military Operator" Description="Military operators under Dahl&apos;s control" Abstract="false" Audio="true" FaceFX="false" Sex="female" Effect=" ">
+     <Voices/>
+    </ArkDialogVoice>
+    <ArkDialogVoice ID="13680621263361476350" Name="Medical Operator" Description="Fixes people" Abstract="false" Audio="true" FaceFX="false" Sex="male" Effect=" ">
+     <Voices/>
+    </ArkDialogVoice>
+    <ArkDialogVoice ID="13680621263375711419" Name="Engineering Operator" Description="Engineering Operator" Abstract="false" Audio="true" FaceFX="false" Sex="female" Effect=" ">
+     <Voices/>
+    </ArkDialogVoice>
+    <ArkDialogVoice ID="13680621263375711450" Name="Science Operator" Description="Science Operator" Abstract="false" Audio="true" FaceFX="false" Sex="male" Effect=" ">
+     <Voices/>
+    </ArkDialogVoice>
+   </Voices>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263361631753" Name="Suit" Description="Says lines based on player state" Abstract="false" Audio="true" FaceFX="false" Sex="male">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263369958846" Name="Computer Voice" Description="The voice of computers that spit out diagnostic or status messages." Abstract="false" Audio="true" FaceFX="false" Sex="male">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263372691444" Name="StationPA" Description="The voice that makes announcements in public spaces" Abstract="false" Audio="true" FaceFX="false" Sex="female">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263382368077" Name="Satellite" Description="Satellite" Abstract="false" Audio="true" FaceFX="false" Sex="male">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263383540281" Name="Turret" Description="Robovoice for Turrets" Abstract="false" Audio="true" FaceFX="false" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263384038792" Name="Piano" Description="For playing a TS of piano" Abstract="false" Audio="true" FaceFX="false" Sex="male">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263400262208" Name="Phantom" Description="Scary voice for the phantom" Abstract="false" Audio="true" FaceFX="false" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263402848188" Name="Poltergeist" Description="AI Barks for the Poltergeist" Abstract="false" Audio="true" FaceFX="false" Sex="female" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438298880" Name="WL_MaleE" Description="Male E: Caucasian American, 50&apos;s to mid 60&apos;s" Abstract="false" FaceFX="false" Audio="true" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438456806" Name="WL_MaleF" Description="Male F: Asian American, 20&apos;s to 40&apos;s" Abstract="false" FaceFX="false" Audio="true" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438014335" Name="WL_FemaleE" Description="Female E: Caucasian American, late 20&apos;s to 30&apos;s" Abstract="false" FaceFX="true" Audio="true" Sex="female" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263432406637" Name="WL_Basilisk" Description="The voice of Kasma&apos;s representative. The player&apos;s mission handler." Abstract="false" Audio="true" FaceFX="false" Sex="female" Effect="Operator">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263432410430" Name="WL_ComputerVoice" Description="The voice of computers that spit out diagnostic or status messages." Abstract="false" Audio="true" FaceFX="false" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="15659330456391353434" Name="WL_DeathSummary" Description="This is the voice for death summaries." Abstract="false" Audio="false" FaceFX="false" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263436024610" Name="WL_Pilot" Description="Hispanic Male, 30&apos;s. The voice of the pilot who&apos;s connectome provides players with piloting skill" Abstract="false" FaceFX="false" Audio="true" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263436026676" Name="WL_VijayBhatia" Description="Player character, security officer" Abstract="false" FaceFX="false" Audio="true" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263436731910" Name="WL_Teddy" Description="Basilisks boss, an officer in the Kasma espionage department." Abstract="false" FaceFX="false" Audio="true" Sex="female" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438460808" Name="WL_JoanWinslow" Description="Playable Engineer Character" Abstract="false" FaceFX="true" Audio="true" Sex="female" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438447337" Name="WL_RileyYu" Description="Asian-American, mid-late 30s. The voice of Riley Yu, Director of the Moonbase" Abstract="false" FaceFX="false" Audio="true" Sex="female" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263436047366" Name="WL_AlexYu" Description="The voice of Alex Yu lines unique to the moonbase game." Abstract="false" FaceFX="false" Audio="true" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438527900" Name="WL_CompanionOperator" Description="Player Companion Robot" Abstract="false" FaceFX="false" Audio="true" Sex="female" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438527809" Name="WL_ClaireWhitten" Description="South African, mid-40s" Abstract="false" FaceFX="false" Audio="true" Sex="female" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438527956" Name="WL_MoonHarvester" Description="recycler robot" Abstract="false" FaceFX="true" Audio="true" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263438024261" Name="WL_TelepathMasterMind" Description="A Typhon Telepath is using the voice of a child - boy 10 to 12 yrs old - to manipulate the Volunteer." Abstract="false" FaceFX="true" Audio="true" Sex="male" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+  <ArkDialogVoice ID="13680621263436740932" Name="WL_MoonBasePA" Description="The voice of the PA system on the moonbase." Abstract="false" FaceFX="false" Audio="true" Sex="female" Effect=" ">
+   <Voices/>
+  </ArkDialogVoice>
+ </Voices>
+</ArkDialogVoices>

@@ -1,0 +1,130 @@
+Script.ReloadScript("Scripts/Entities/Ark/Pickups/ArkItem.lua")
+ArkWeaponSword = {
+  Properties = {
+    object_GeometryFP = "Objects/weapons/Wrench/1P/Wrench1P.cdf",
+    object_GeometryTP = "Objects/weapons/Wrench/3P/Wrench3P_01.cgf",
+    bEquippable = 1,
+    fLerpSpeed = 10,
+    DmgFactorWhenCollidingAI = 0,
+    vector_SeededSpawnRotation = {
+      x = 0,
+      y = 90,
+      z = 0
+    },
+    Description = {
+      quickHitBaseKeyword = "",
+      quickHitFinalKeyword = "",
+      chargedHitBaseKeyword = "",
+      chargedHitFinalKeyword = "",
+      signal_damageSignal = "",
+      textFocusDescription = ""
+    },
+    Weapon = {
+      anim_Animation = "Animations/Mannequin/ADB/ArkWrenchWeapon.adb",
+      sAnimTag = "wrench",
+      sAttachmentName = "weapon",
+      archetype_ammo = "ArkProjectiles.Gloo.GlooShot",
+      sAmmoSpawnPointName = "muzzle",
+      fRateOfAttack = 0,
+      fWalkSpeedMultiplier = 1,
+      fCameraSpeedMultiplier = 1,
+      bAutoloadAmmo = 0,
+      nNumAmmoReloaded = 0,
+      fBaseAmmoCost = 0,
+      nClipSize = 0,
+      fZoomedHFOV = 70,
+      fZoomTime = 0.4,
+      bAffectedByDisruption = 0,
+      fCombatFocusAmount = 1,
+      fAimRange = 3.25,
+      fZoomedWalkSpeedMultiplier = 0.5,
+      fZoomedCameraSpeedMultiplier = 0.5,
+      fIdleBreakDelayTime = 8,
+      fIronsightsTargetWidth = 2,
+      fIronsightsTargetDistance = 3,
+      fIronsightsTargetSpeed = 10,
+      fIronsightsSuccessDistance = 0.1,
+      fIronsightsMaxAngularVelocity = 450,
+      fAimAssistRangeMax = 20,
+      sLeverageImpulseScaleBaseName = "Leverage Base",
+      sLeverageImpulseScale1Name = "Leverage I",
+      sLeverageImpulseScale2Name = "Leverage II",
+      sLeverageImpulseScale3Name = "Leverage III",
+      fLeverage0_ImpulseScale = 1,
+      fLeverage1_ImpulseScale = 0,
+      fLeverage2_ImpulseScale = 0,
+      fLeverage3_ImpulseScale = 0,
+      sBrokenIcon = "",
+      tutorial_firstTimePickup = "",
+      tutorial_weaponCard = "",
+      particleeffect_DisarmEffect = "Characters.Aliens.Poltergeist.Disarm.Disarm_Embers_Trail_00",
+      sDisarmAttachmentName = "muzzle",
+      metaTags_SneakAttackTargetTags = "9469288860498988665,9469288860498988629,9469288860517748071",
+      weaponEnchantment_WeaponEnchantmentOverride = "",
+      Light = {
+        sLightAttachmentName = "",
+        archetype_LightArchetype = "",
+        vector_DefaultLightColor = {
+          x = 1,
+          y = 1,
+          z = 1
+        },
+        vector_DamagedLightColor = {
+          x = 1,
+          y = 1,
+          z = 0
+        },
+        vector_BrokenLightColor = {
+          x = 1,
+          y = 0,
+          z = 0
+        }
+      }
+    },
+    Wrench = {
+      maxChargeTime = 1.5,
+      maxChargeDamageBonus = 1,
+      timeBeforeShowingCancelPrompt = 0.2,
+      rayRange = 2,
+      signalpackage_SignalPackageId = "",
+      signalPackage_CriticalPackageId = "",
+      signalpackage_ChargedPackageId = "",
+      signalPackage_ChargedCriticalPackageId = "",
+      hitType = "",
+      radius = 0.5,
+      force = 10,
+      hitOffset = 0.7,
+      ability_ChainRequirement = "",
+      maxForceMassScale = 50,
+      speedRangeFactor = 1,
+      speedRangeMax = 1,
+      fatalityChance = 0,
+      fFatigueGainedMultiplier = 1,
+      fallbackSideSwipeLength = 0.2
+    },
+    Sword = {
+      fPsiCost = 5,
+      fMinSpeed = 60,
+      fMaxSpeed = 75,
+      fMaxDamageMultiplier = 2,
+      fProjectileAimRange = 5,
+      fMinChargeTime = 0.46,
+      fMaxChargeTime = 1.5,
+      sEffectAttachment = "muzzle",
+      particleeffect_ChargingEffect = "PlayerWeapons.PsyCutter.ChargeProjectile.Charge_First",
+      particleeffect_MinChargedEffect = "PlayerWeapons.PsyCutter.ChargeProjectile.Charge_Second",
+      particleeffect_MaxChargedEffect = "PlayerWeapons.PsyCutter.ChargeProjectile.Charge_Max",
+      particleeffect_ExhaustedChargingEffect = "PlayerWeapons.PsyCutter.ChargeProjectile.Exh_Charge_Start",
+      particleeffect_ExhaustedMinChargedEffect = "PlayerWeapons.PsyCutter.ChargeProjectile.Exh_Charge_Min",
+      particleeffect_ExhaustedMaxChargedEffect = "PlayerWeapons.PsyCutter.ChargeProjectile.Exh_Charge_Max",
+      particleeffect_HitEffect = "PlayerWeapons.PsyCutter.Blade.MeleeHit",
+      particleeffect_NoPsiEffect = "PlayerWeapons.PsyCutter.ChargeProjectile.Nullified_Projectile",
+      sBladeEffectAttachment = "FX_Blade",
+      particleeffect_BladeEffect = "PlayerWeapons.PsyCutter.Blade.Idle",
+      signalModifier_NullifiedModifier = "",
+      audioTrigger_CancelEffects = "Stop_WPN_PsiCutter_Charging_Debug"
+    }
+  },
+  PropertiesInstance = {weaponEnchantment_WeaponEnchantmentOverride = ""}
+}
+ArkMakeDerivedEntityOverride(ArkWeaponSword, ArkItem, true)

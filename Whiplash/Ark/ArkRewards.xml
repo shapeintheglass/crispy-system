@@ -1,0 +1,44 @@
+
+<ArkRewards>
+ <Trackables>
+  <Trackable ID="0" Name="Starbender Books Read" AssociatedMetric="10739735956153077437" DefaultValue="0"/>
+  <Trackable ID="1" Name="Moonsharks Killed By Player" AssociatedMetric="13856881013249833298" DefaultValue="0"/>
+  <Trackable ID="2" Name="Neuromods Installed" AssociatedMetric="7293080054628709712" DefaultValue="0"/>
+  <Trackable ID="3" Name="Playable Characters Unlocked" AssociatedMetric="10739735956177168424" DefaultValue="0"/>
+  <Trackable ID="4" Name="Enemies Defeated With Single PsyCutter Projectile" AssociatedMetric="10739735956194889641" DefaultValue="0"/>
+  <Trackable ID="5" Name="Special Objectives Completed" AssociatedMetric="10739735956194889700" DefaultValue="0"/>
+  <Trackable ID="6" Name="Enemies Glooed With One Grenade" AssociatedMetric="10739735956194889703" DefaultValue="0"/>
+  <Trackable ID="7" Name="Kasma Orders Fulfilled" AssociatedMetric="10739735956194889705" DefaultValue="0"/>
+  <Trackable ID="8" Name="Escaped Characters" AssociatedMetric="844024417357803449" DefaultValue="0"/>
+ </Trackables>
+ <Rewards>
+  <Reward ID="0" Name="Prism Remaster" SteamID="53" PsnID="54" LiveID="54">
+   <LinkedTrackable ID="0" ValueEqualTo="6"/>
+  </Reward>
+  <Reward ID="1" Name="Apex Predator" SteamID="54" PsnID="55" LiveID="55">
+   <LinkedTrackable ID="1" ValueEqualTo="1"/>
+  </Reward>
+  <Reward ID="2" Name="Galaxy Brain" SteamID="48" PsnID="49" LiveID="49">
+   <LinkedTrackable ID="2" ValueEqualTo="418"/>
+  </Reward>
+  <Reward ID="3" Name="Squad Goals" SteamID="49" PsnID="50" LiveID="50">
+   <LinkedTrackable ID="3" ValueEqualTo="5"/>
+  </Reward>
+  <Reward ID="4" Name="Cryptomancer" SteamID="50" PsnID="51" LiveID="51"/>
+  <Reward ID="5" Name="Psychostatic Efficiency" SteamID="51" PsnID="52" LiveID="52">
+   <LinkedTrackable ID="4" ValueEqualTo="3"/>
+  </Reward>
+  <Reward ID="6" Name="Quantum Leap" SteamID="52" PsnID="53" LiveID="53">
+   <LinkedTrackable ID="5" ValueEqualTo="5"/>
+  </Reward>
+  <Reward ID="7" Name="Three-Body Problem" SteamID="55" PsnID="56" LiveID="56">
+   <LinkedTrackable ID="6" ValueEqualTo="3"/>
+  </Reward>
+  <Reward ID="8" Name="Contract Fulfilled" SteamID="56" PsnID="57" LiveID="57">
+   <LinkedTrackable ID="7" ValueEqualTo="27"/>
+  </Reward>
+  <Reward ID="9" Name="No One Left Behind" SteamID="57" PsnID="58" LiveID="58">
+   <LinkedTrackable ID="8" ValueEqualTo="5"/>
+  </Reward>
+ </Rewards>
+</ArkRewards>

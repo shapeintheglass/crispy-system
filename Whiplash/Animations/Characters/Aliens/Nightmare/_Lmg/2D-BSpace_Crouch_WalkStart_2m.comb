@@ -1,0 +1,18 @@
+
+<CombinedBlendSpace>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <VEGPARAMS Idle2Move="1"/>
+ <Dimensions>
+  <Param name="TurnAngle" ChooseBlendSpace="1" locked="1"/>
+  <Param name="Height"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="TravelAngle"/>
+  <Param name="MoveSpeed"/>
+ </AdditionalExtraction>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Aliens/Nightmare/_lmg/2D-BSpace_Crouch_WalkStart_2m_Left.bspace"/>
+  <BlendSpace AName="animations/Characters/Aliens/Nightmare/_lmg/2D-BSpace_Crouch_WalkStart_2m_Right.bspace"/>
+ </BlendSpaces>
+ <JointList/>
+</CombinedBlendSpace>

@@ -1,0 +1,42 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="104" Class="Mission:GameTokenSet" pos="1052,58.28125,0">
+   <Inputs gametokenid_Token="42440688" Value="true"/>
+  </Node>
+  <Node Id="105" Class="Mission:GameTokenSet" pos="1042,188.28125,0">
+   <Inputs gametokenid_Token="487793300" Value="true"/>
+  </Node>
+  <Node Id="106" Class="Mission:GameTokenSet" pos="1052,298.28125,0">
+   <Inputs gametokenid_Token="1468936369" Value="true"/>
+  </Node>
+  <Node Id="107" Class="Mission:GameTokenSet" pos="1052,408.28125,0">
+   <Inputs gametokenid_Token="141624731" Value="true"/>
+  </Node>
+  <Node Id="108" Class="Mission:GameTokenSet" pos="1052,528.28125,0">
+   <Inputs gametokenid_Token="362192299" Value="true"/>
+  </Node>
+  <Node Id="109" Class="Mission:GameTokenSet" pos="1052,668.28125,0">
+   <Inputs gametokenid_Token="1449796818" Value="true"/>
+  </Node>
+  <Node Id="110" Name="Debug_Unlock" Class="_commentbox" pos="-60,26,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1610" Height="740"/>
+  </Node>
+  <Node Id="116" Class="Ark:Debug:ConsoleEvent" pos="70,320,0">
+   <Inputs Command="SetArcadeMode"/>
+  </Node>
+  <Node Id="118" Class="Mission:GameTokenSet" pos="420,320,0">
+   <Inputs gametokenid_Token="2095793848" Value="true"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="118" nodeOut="116" portIn="Trigger" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="104" nodeOut="118" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="105" nodeOut="118" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="106" nodeOut="118" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="107" nodeOut="118" portIn="Trigger" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="108" nodeOut="118" portIn="Trigger" portOut="OutValue" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

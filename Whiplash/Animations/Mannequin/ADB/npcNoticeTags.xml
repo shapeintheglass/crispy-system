@@ -1,0 +1,16 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Direction">
+   <Tag name="Back"/>
+   <Tag name="Front"/>
+   <Tag name="Left"/>
+   <Tag name="Right"/>
+  </Group>
+  <Group name="Reason">
+   <Tag name="Anomaly"/>
+   <Tag name="Danger"/>
+   <Tag name="Vision"/>
+  </Group>
+ </Tags>
+</TagDefinition>

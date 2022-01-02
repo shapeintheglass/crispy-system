@@ -1,0 +1,26 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param Name="Height" Min="-3.4000001" Max="0" Cells="3" Scale="1" SKey="0" EKey="1"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="TravelDist"/>
+  <Param name="TravelSlope"/>
+ </AdditionalExtraction>
+ <ExampleList>
+  <Example AName="Combat_JumpAttack_Bump_HighHeight_B" PlaybackScale="1" SetPara0="-3.4000001" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_JumpAttack_Bump_MediumHeight_B" PlaybackScale="1" SetPara0="-1.7" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_JumpAttack_Bump_NoHeight_B" PlaybackScale="1" SetPara0="0" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+ </ExampleList>
+ <ExamplePseudo/>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+  <Face p0="1" p1="2"/>
+ </Blendable>
+ <JointList/>
+ <VGrid>
+  <VExample i0="0" i1="0" w0="1" w1="0"/>
+  <VExample i0="1" i1="0" w0="1" w1="0"/>
+  <VExample i0="2" i1="0" w0="1" w1="0"/>
+ </VGrid>
+</ParaGroup>

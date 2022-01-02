@@ -1,0 +1,36 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param name="MoveSpeed" min="+4.6875" max="+13.125" cells="20" JointName="root_jnt"/>
+ </Dimensions>
+ <AdditionalExtraction/>
+ <ExampleList>
+  <Example AName="Combat_Walk_Forward"/>
+  <Example AName="Combat_Run_Forward"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="0" i1="0" w0="1" w1="0"/>
+  <VExample i0="0" i1="1" w0="0.94736844" w1="0.052631576"/>
+  <VExample i0="0" i1="1" w0="0.89473683" w1="0.10526315"/>
+  <VExample i0="0" i1="1" w0="0.84210527" w1="0.15789473"/>
+  <VExample i0="0" i1="1" w0="0.78947371" w1="0.2105263"/>
+  <VExample i0="0" i1="1" w0="0.73684204" w1="0.26315793"/>
+  <VExample i0="0" i1="1" w0="0.68421054" w1="0.31578946"/>
+  <VExample i0="0" i1="1" w0="0.63157892" w1="0.36842108"/>
+  <VExample i0="0" i1="1" w0="0.57894742" w1="0.4210526"/>
+  <VExample i0="0" i1="1" w0="0.52631575" w1="0.47368425"/>
+  <VExample i0="0" i1="1" w0="0.47368413" w1="0.52631587"/>
+  <VExample i0="0" i1="1" w0="0.42105263" w1="0.57894737"/>
+  <VExample i0="0" i1="1" w0="0.36842108" w1="0.63157892"/>
+  <VExample i0="0" i1="1" w0="0.31578946" w1="0.68421054"/>
+  <VExample i0="0" i1="1" w0="0.26315784" w1="0.73684216"/>
+  <VExample i0="0" i1="1" w0="0.21052629" w1="0.78947371"/>
+  <VExample i0="0" i1="1" w0="0.15789479" w1="0.84210521"/>
+  <VExample i0="0" i1="1" w0="0.10526317" w1="0.89473683"/>
+  <VExample i0="0" i1="1" w0="0.052631497" w1="0.9473685"/>
+  <VExample i0="1" i1="0" w0="1" w1="0"/>
+ </VGrid>
+</ParaGroup>

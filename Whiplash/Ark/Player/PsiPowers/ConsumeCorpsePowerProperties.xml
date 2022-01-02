@@ -1,0 +1,19 @@
+
+<ConsumeCorpsePowerProperties>
+ <Common DisplayName="@rpg_ConsumeCorpseName" PsiCost="10" Description="@rpg_ConsumeCorpseShort" PickerLabel="Consume Corpse" InterruptsMimicGrabSequence="false" PostProcessVFX="" TargetHighlightColorAlpha="1.0" TargetHighlightColor="0.71,0.32,0.58" ExecutionAudioTrigger="" ExecutionPlayerEffect="" CostReductionStat="psiCostScaleTelepathic"/>
+ <Levels>
+  <ArkPsiConsumeCorpsePowerProperties DisplayName="@rpg_ConsumeCorpseName" Description="@rpg_ConsumeCorpseShort" CooldownDurationSec="0" LerpDuration="0.3" LerpTargetPositionOffset="0.0,0.2,1.4" ConsumeAudioTrigger="Play_Player_Damage_Crush" PlayerSignalPackageId="7293080054605612816">
+   <TargetingProperties MaxRange="2.0" MinRange="0" TargetParticleEffect="" TargetParticleLightEffect="">
+    <ValidTargetMetaTags/>
+    <ValidTargetClasses>
+     <Class value="ArkAlienGibletSmall"/>
+     <Class value="ArkAlienGibletMedium"/>
+     <Class value="ArkAlienGibletLarge"/>
+     <Class value="ArkAlienGibletXLarge"/>
+     <Class value="ArkAlienGibletPhantomLimb"/>
+     <Class value="ArkAlienGibletMimicLimb"/>
+    </ValidTargetClasses>
+   </TargetingProperties>
+  </ArkPsiConsumeCorpsePowerProperties>
+ </Levels>
+</ConsumeCorpsePowerProperties>

@@ -1,0 +1,114 @@
+
+<UIElements name="DanielleLeaderboards">
+ <UIElement name="DanielleLeaderboards" render_lockless="1" mouseevents="1" keyevents="0" cursor="1" controller_input="1" use_steam_menu="1">
+  <GFx file="GFX/danielle_leaderboards.gfx" layer="15">
+   <Constraints>
+    <Align mode="dynamic" valign="center" halign="center" scale="1" max="0"/>
+   </Constraints>
+  </GFx>
+  <functions>
+   <function name="boardsOpenPage" funcname="boards.openPage"/>
+   <function name="boardsExitPage" funcname="boards.exitPage"/>
+   <function name="boardsUpdateList" funcname="boards.updateList"/>
+   <function name="boardsSetTitle" funcname="boards.setTitle">
+    <param name="title" type="string"/>
+   </function>
+   <function name="boardsSetScrollbar" funcname="boards.setScrollbar">
+    <param name="CurrentPage" type="int"/>
+    <param name="MaxPages" type="int"/>
+    <param name="MaxEntries" type="int"/>
+   </function>
+   <function name="setProcessing" funcname="boards.setProcessing">
+    <param name="isVis" type="bool"/>
+   </function>
+   <function name="scoreOpenPage" funcname="score.openPage"/>
+   <function name="scoreExitPage" funcname="score.exitPage"/>
+   <function name="scoreUpdateStats" funcname="score.updateStats"/>
+   <function name="scoreSetStats" funcname="score.setStats">
+    <param name="DeathReason" desc="" type="string"/>
+    <param name="Time" desc="" type="string"/>
+    <param name="Currency" desc="" type="string"/>
+    <param name="Score" desc="" type="string"/>
+    <param name="isAlive" desc="" type="bool"/>
+    <param name="escapeMethod" type="string"/>
+   </function>
+   <function name="scoreUpdateEarned" funcname="score.updateEarned">
+    <param name="Earned" desc="" type="string"/>
+   </function>
+   <function name="scoreMoveCompleted" funcname="score.moveScoreCompleted">
+    <param name="Total" desc="" type="string"/>
+   </function>
+   <function name="highlightID" funcname="highlightID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </function>
+   <function name="HLUp" funcname="HLUp"/>
+   <function name="HLDown" funcname="HLDown"/>
+   <function name="HLLeft" funcname="HLLeft"/>
+   <function name="HLRight" funcname="HLRight"/>
+   <function name="btnSelect" funcname="btnSelect"/>
+   <function name="btnBack" funcname="btnBack"/>
+   <function name="openPage" funcname="openPage"/>
+   <function name="exitPage" funcname="exitPage"/>
+   <function name="scrollX" funcname="scrollX">
+    <param name="value" type="float"/>
+   </function>
+   <function name="scrollY" funcname="scrollY">
+    <param name="value" type="float"/>
+   </function>
+   <function name="showErrorText" funcname="global.showErrorText">
+    <param name="Body" desc="" type="String"/>
+   </function>
+   <function name="hideErrorText" funcname="global.hideErrorText"/>
+   <function name="SetControlScheme" funcname="setControlScheme">
+    <param name="controlScheme" type="int"/>
+   </function>
+   <function name="setPrompt" funcname="global.setPrompt">
+    <param name="Place" desc="1-8" type="int"/>
+    <param name="Visible" desc="" type="bool"/>
+    <param name="Prompt" desc="" type="string"/>
+    <param name="Text" desc="" type="string"/>
+    <param name="isEnabled" desc="" type="bool"/>
+    <param name="ID" desc="Returned onMouseClick" type="string"/>
+   </function>
+   <function name="formatPrompts" funcname="global.formatPrompts"/>
+   <function name="screenRotate" funcname="camera.rotateOffset">
+    <param name="xValue" desc="-1 to +1" type="float"/>
+    <param name="yValue" desc="-1 to +1" type="float"/>
+   </function>
+  </functions>
+  <Events>
+   <event name="listHL" fscommand="listHL" desc="returns unique ID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </event>
+   <event name="ListSelect" fscommand="ListSelect" desc="returns unique ID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </event>
+   <event name="backPressed" fscommand="backPressed"/>
+   <event name="buttonPress" fscommand="buttonPress">
+    <param name="name" desc="button name" type="string"/>
+   </event>
+   <event name="menuTransition" fscommand="menuTransition" desc="">
+    <param name="Page" desc="" type="string"/>
+   </event>
+   <event name="UISoundManager" fscommand="UISoundPlay" desc="Sound.########">
+    <param name="SoundEvent" desc="Sound Path" type="string"/>
+   </event>
+   <event name="promptSelect" fscommand="promptSelect">
+    <param name="promptIndex" desc="" type="int"/>
+   </event>
+   <event name="requestPrev" fscommand="requestPrev"/>
+   <event name="requestNext" fscommand="requestNext"/>
+   <event name="scoreEntryComplete" fscommand="scoreEntryComplete" desc="">
+    <param name="entryIndex" desc="" type="int"/>
+   </event>
+   <event name="scoreTotalCompleted" fscommand="scoreTotalCompleted" desc=""/>
+   <event name="scoreAnimComplete" fscommand="scoreAnimComplete" desc=""/>
+  </Events>
+  <Arrays>
+   <Array name="boardsArray" varname="boards.boardsArray" desc="ID, Rank, Name, Score"/>
+   <Array name="scorecardTimeArray" varname="score.timeArray" desc="Title, Time"/>
+   <Array name="scorecardArray" varname="score.statsArray" desc="Title, Score"/>
+  </Arrays>
+  <variables/>
+ </UIElement>
+</UIElements>

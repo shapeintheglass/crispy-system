@@ -1,0 +1,15 @@
+
+<CombinedBlendSpace>
+ <Dimensions>
+  <Param Name="Height" ParaScale="1"/>
+  <Param Name="MoveSpeed" ParaScale="2"/>
+  <Param Name="TurnAngle" ParaScale="1"/>
+ </Dimensions>
+ <AdditionalExtraction/>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Aliens/Nightmare/_lmg/2D-BSpace_Combat_MoveTurn.bspace"/>
+  <BlendSpace AName="animations/Characters/Aliens/Nightmare/_lmg/2D-BSpace_Combat_CrouchTurn.bspace"/>
+ </BlendSpaces>
+ <MotionCombination/>
+ <JointList/>
+</CombinedBlendSpace>

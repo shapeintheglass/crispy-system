@@ -1,0 +1,9 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Gravity">
+   <Tag name="LowG"/>
+   <Tag name="ZeroG"/>
+  </Group>
+ </Tags>
+</TagDefinition>

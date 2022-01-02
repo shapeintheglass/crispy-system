@@ -1,0 +1,113 @@
+
+<ResponseRules>
+ <WritebackKeys/>
+ <ResponseRule id="13680621263437859756" name="Typhon Gate Activated, Typhon Detected" cooldown="" response="13680621263437930056" priority="4">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onActivate" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263437860067" name="Typhon Gate DeActivated, No Typhon Detected" cooldown="" response="13680621263437930122" priority="4">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeactivate" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263437860079" name="Typhon Gate De-Activating, Bypassed" cooldown="" response="13680621263437930161" priority="4" description="NO LONGER BEING USED">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onConversationTrigger" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263437860102" name="Typhon Gate Activating, Bypass Over" cooldown="" response="13680621263437930308" priority="4">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onSuppressEnd" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263437860128" name="Typhon Gate, Collision Event" cooldown="30" response="13680621263437931941" priority="4">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onConversationTrigger" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263437930056">
+  <Response dialog="13680621263437930055" id="13680621263437930057" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263437930122">
+  <Response dialog="13680621263437930121" id="13680621263437930123" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263437930161">
+  <Response dialog="13680621263437930160" id="13680621263437930162" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263437930248" name="" cooldown="" response="13680621263437930249">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263437930162" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263437930249">
+  <Response dialog="13680621263437930247" id="13680621263437930250" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay=".5" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263437930260" name="" cooldown="" response="13680621263437930261">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263437930250" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263437930261">
+  <Response dialog="13680621263437930259" id="13680621263437930262" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay=".5" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263437930265" name="" cooldown="" response="13680621263437930266">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263437930262" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263437930266">
+  <Response dialog="13680621263437930264" id="13680621263437930267" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay=".5" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263437930308">
+  <Response dialog="13680621263437930307" id="13680621263437930309" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263437930326" name="" cooldown="" response="13680621263437930249">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263437930309" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263437931354" name="Typhon Gate, Loiter While Active" cooldown="60" response="13680621263437931423" priority="4">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onPlayerLoiterWhileActive" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263437931423">
+  <Response dialog="13680621263437931422" id="13680621263437931424" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263437931438" name="" cooldown="" response="13680621263437931439">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263437931424" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438869992"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263437931439">
+  <Response dialog="13680621263437930055" id="13680621263437931440" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1" cutoff="0"/>
+  <Response dialog="13680621263437931666" id="13680621263437931667" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1" cutoff="0"/>
+  <Response dialog="13680621263437931831" id="13680621263437931832" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263437931941">
+  <Response dialog="13680621263437931940" id="13680621263437931942" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+</ResponseRules>

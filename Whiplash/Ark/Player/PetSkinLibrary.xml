@@ -1,0 +1,11 @@
+
+<ArkPetSkinLibrary UnlockGameToken="366384268" Version="0">
+ <PetSkins>
+  <ArkPetSkin ID="13856881013268239655" Name="Operator - Default" Label="@loc_13856881013268239656" Ability="13856881013262786602" Material="objects/characters/robots/operatormilitary/operatormilitarypet.mtl" Icon="skin_operator_default"/>
+  <ArkPetSkin ID="10739735956193616755" Name="Operator - Doom" Label="@loc_10739735956193616756" Ability="13856881013262786602" Material="Objects/characters/Robots/OperatorPet/DLC_Pack_01/operatormilitarypet_doom.mtl" Description="@loc_13680621263450659912" Icon="DLC_Pack_01\skin_operator_doom"/>
+  <ArkPetSkin ID="10739735956193616816" Name="Operator - Dishonored" Label="@loc_10739735956193616817" Ability="13856881013262786602" Description="@loc_10739735956193616818" Material="Objects/characters/Robots/OperatorPet/DLC_Pack_01/operatormilitarypet_dishonored.mtl" Icon="DLC_Pack_01\skin_operator_dishonored2"/>
+  <ArkPetSkin ID="13856881013268239414" Name="Mimic - Default" Label="@loc_13856881013268239415" Ability="7293080054672318548" Icon="skin_mimic_default"/>
+  <ArkPetSkin ID="4214154696118235267" Name="Mimic - Top Hat" Label="@loc_4214154696118235268" Ability="7293080054672318548" Description="@loc_4214154696118236103" Icon="DLC_Pack_01\skin_mimic_tophat1" Material="Objects/characters/Aliens/MimicPet/DLC_Pack_01/MimicPet_TopHat" MeshAttachment="objects/characters/aliens/mimicpet/dlc_pack_01/mimic_hat_top_hat.cgf"/>
+  <ArkPetSkin ID="4214154696118236213" Name="Mimic - Sombrero" Label="@loc_4214154696118236214" Ability="7293080054672318548" Description="@loc_4214154696118236286" Icon="DLC_Pack_01\skin_mimic_sombrero" Material="Objects/characters/Aliens/MimicPet/DLC_Pack_01/Mimic_Hat_Sombrero" MeshAttachment="objects/characters/aliens/mimicpet/dlc_pack_01/mimic_hat_sombrero.cgf"/>
+ </PetSkins>
+</ArkPetSkinLibrary>

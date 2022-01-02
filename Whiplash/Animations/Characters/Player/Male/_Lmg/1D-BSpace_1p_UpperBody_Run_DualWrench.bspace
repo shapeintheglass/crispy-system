@@ -1,0 +1,34 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param name="MoveSpeed" min="+0.8" max="+4.0" cells="19"/>
+ </Dimensions>
+ <ExampleList>
+  <Example AName="1p_Run_DualWrench" SetPara0="0.8" PlaybackScale="0.2"/>
+  <Example AName="1p_Run_DualWrench" SetPara0="4.0" PlaybackScale="1.0"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="0" i1="0" w0="1" w1="0"/>
+  <VExample i0="0" i1="1" w0="0.94444442" w1="0.055555552"/>
+  <VExample i0="0" i1="1" w0="0.8888889" w1="0.11111112"/>
+  <VExample i0="0" i1="1" w0="0.83333331" w1="0.16666667"/>
+  <VExample i0="0" i1="1" w0="0.77777779" w1="0.22222222"/>
+  <VExample i0="0" i1="1" w0="0.72222221" w1="0.27777776"/>
+  <VExample i0="0" i1="1" w0="0.66666663" w1="0.33333337"/>
+  <VExample i0="0" i1="1" w0="0.61111104" w1="0.38888893"/>
+  <VExample i0="0" i1="1" w0="0.55555552" w1="0.44444448"/>
+  <VExample i0="0" i1="1" w0="0.49999994" w1="0.50000006"/>
+  <VExample i0="0" i1="1" w0="0.44444442" w1="0.55555558"/>
+  <VExample i0="0" i1="1" w0="0.38888884" w1="0.61111116"/>
+  <VExample i0="0" i1="1" w0="0.33333331" w1="0.66666669"/>
+  <VExample i0="0" i1="1" w0="0.27777773" w1="0.72222227"/>
+  <VExample i0="0" i1="1" w0="0.22222221" w1="0.77777779"/>
+  <VExample i0="0" i1="1" w0="0.16666663" w1="0.83333337"/>
+  <VExample i0="0" i1="1" w0="0.1111111" w1="0.8888889"/>
+  <VExample i0="0" i1="1" w0="0.055555522" w1="0.94444448"/>
+  <VExample i0="1" i1="0" w0="1" w1="0"/>
+ </VGrid>
+</ParaGroup>

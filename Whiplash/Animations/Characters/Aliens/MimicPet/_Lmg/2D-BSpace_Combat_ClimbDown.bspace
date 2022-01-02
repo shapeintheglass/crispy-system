@@ -1,0 +1,35 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param Name="Height" Min="0.3" Max="3" Cells="3" Scale="1" SKey="0" EKey="1"/>
+  <Param Name="TravelDist" Min="1.305" Max="2.5" Cells="3" Scale="1" SKey="0" EKey="1"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="TravelSlope"/>
+ </AdditionalExtraction>
+ <ExampleList>
+  <Example AName="Combat_ClimbDown_Low" PlaybackScale="1" SetPara0=".3" SetPara1="1.305" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_ClimbDown_Medium" PlaybackScale="1" SetPara0="1.5" SetPara1="1.305" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_ClimbDown_High" PlaybackScale="1" SetPara0="3" SetPara1="1.305" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_ClimbDown_Low_Long" PlaybackScale="1" SetPara0=".3" SetPara1="2.5" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_ClimbDown_Medium_Long" PlaybackScale="1" SetPara0="1.5" SetPara1="2.5" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_ClimbDown_High_Long" PlaybackScale="1" SetPara0="3" SetPara1="2.5" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+ </ExampleList>
+ <ExamplePseudo/>
+ <Blendable>
+  <Face p0="1" p1="4" p2="3" p3="0"/>
+  <Face p0="2" p1="5" p2="4" p3="1"/>
+ </Blendable>
+ <JointList/>
+ <VGrid>
+  <VExample i0="0" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+  <VExample i0="1" i1="2" i2="0" i3="0" w0="0.89999992" w1="0.10000007" w2="0" w3="0"/>
+  <VExample i0="2" i1="0" i2="0" i3="0" w0="0.99999994" w1="0" w2="0" w3="0"/>
+  <VExample i0="0" i1="3" i2="0" i3="0" w0="0.50000006" w1="0.49999997" w2="0" w3="0"/>
+  <VExample i0="1" i1="2" i2="4" i3="5" w0="0.44999999" w1="0.050000034" w2="0.44999993" w3="0.050000034"/>
+  <VExample i0="2" i1="5" i2="0" i3="0" w0="0.50000006" w1="0.49999994" w2="0" w3="0"/>
+  <VExample i0="3" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+  <VExample i0="4" i1="5" i2="0" i3="0" w0="0.89999992" w1="0.10000007" w2="0" w3="0"/>
+  <VExample i0="5" i1="0" i2="0" i3="0" w0="0.99999994" w1="0" w2="0" w3="0"/>
+ </VGrid>
+</ParaGroup>

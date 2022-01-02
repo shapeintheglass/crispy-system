@@ -1,0 +1,134 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Phantom_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_Phantom_FragmentIds.xml"/>
+ <FragmentDefs>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Motion_IdleTurn scopes="FullBody3P"/>
+  <Melee scopes="FullBody3P"/>
+  <Power_PsiBlast scopes="FullBody3P"/>
+  <Power_PsiBlast_Add scopes="Torso3P"/>
+  <Power_Shift scopes="FullBody3P"/>
+  <Aiming scopes="Aiming"/>
+  <LookPose scopes="LookPose" flags="Persistent"/>
+  <Looking scopes="Looking"/>
+  <Reaction_Death scopes="FullBody3P">
+   <Override tags="" fragTags="so_forward+hit+Small" scopes="Torso3P"/>
+   <Override tags="" fragTags="so_left+hit+Small" scopes="Torso3P"/>
+   <Override tags="" fragTags="so_back+hit+Small" scopes="Torso3P"/>
+   <Override tags="" fragTags="so_right+hit+Small" scopes="Torso3P"/>
+   <Override tags="" fragTags="so_forward+hit+Stagger" scopes="FullBody3P+Torso3P"/>
+   <Override tags="" fragTags="so_left+hit+Stagger" scopes="FullBody3P+Torso3P"/>
+   <Override tags="" fragTags="so_back+hit+Stagger" scopes="FullBody3P+Torso3P"/>
+   <Override tags="" fragTags="so_right+hit+Stagger" scopes="FullBody3P+Torso3P"/>
+  </Reaction_Death>
+  <BlendRagdoll scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead"/>
+  <Power_Shift_Out scopes="FullBody3P"/>
+  <Distractor_EnergyLeech scopes="FullBody3P"/>
+  <CombatReaction scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookPose+LookPoseHead"/>
+  <CODE_MT_idleToMove scopes="FullBody3P"/>
+  <Hypnotized scopes="FullBody3P"/>
+  <Blinded scopes="FullBody3P"/>
+  <Lifted scopes="FullBody3P"/>
+  <Fall scopes="FullBody3P"/>
+  <Land_Stumble scopes="FullBody3P"/>
+  <CallNPCs scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookPose+LookPoseHead"/>
+  <Lifted_BumpCeiling scopes="FullBody3P"/>
+  <Land_Bump scopes="FullBody3P"/>
+  <Distractor_DeskSwipe scopes="FullBody3P"/>
+  <Distractor_Investigate_Left scopes="FullBody3P"/>
+  <Distractor_Investigate_Right scopes="FullBody3P"/>
+  <Distractor_Investigate_Forward scopes="FullBody3P"/>
+  <RaiseFromCorpse scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookPose+LookPoseHead"/>
+  <Fatality_Front_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Stunned scopes="FullBody3P">
+   <Override tags="" fragTags="Start" scopes="FullBody3P+Torso3P"/>
+   <Override tags="" fragTags="Middle" scopes="FullBody3P+Torso3P"/>
+   <Override tags="" fragTags="End" scopes="FullBody3P+Torso3P"/>
+  </Stunned>
+  <Search scopes="FullBody3P+TorsoDetail+AimPose+Aiming+Looking+LookPose+LookPoseHead+SlaveChar"/>
+  <ForceResist scopes="FullBody3P"/>
+  <ForceResistScrunch scopes="FullBody3P"/>
+  <Cs_SimulationLabs_Sq15_PhantomKill_Phantom scopes="FullBody3P+Looking+LookPose+LookPoseHead"/>
+  <Cs_SimulationLabs_Sq15_PhantomInspect_Phantom scopes="FullBody3P+AimPose+Aiming+Looking+LookPose+LookPoseHead+SlaveChar"/>
+  <PushObstacle scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookPose+LookPoseHead"/>
+  <Notice scopes="FullBody3P"/>
+  <SearchGiveUp scopes="FullBody3P"/>
+  <CODE_MT_walkToIdle scopes="FullBody3P"/>
+  <CODE_MT_runToIdle scopes="FullBody3P"/>
+  <Dodge scopes="FullBody3P"/>
+  <CODE_MT_runJukeTurnFwdLft180 scopes="FullBody3P"/>
+  <CODE_MT_walkJukeTurnFwdLft180 scopes="FullBody3P"/>
+  <CODE_MT_runJukeTurnFwdRt180 scopes="FullBody3P"/>
+  <CODE_MT_walkJukeTurnFwdRt180 scopes="FullBody3P"/>
+  <LookPoseHead scopes="LookPoseHead"/>
+  <PsiAttack scopes="Torso3P"/>
+  <Fatality_Front_DualWrench scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookPose+LookPoseHead+SlaveChar"/>
+  <LookAround scopes="LookAround" flags="Persistent"/>
+  <BreakGloo scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookPose+LookPoseHead"/>
+  <BreakOutOfGloo scopes="FullBody3P"/>
+  <WanderIdle scopes="FullBody3P+LookAround"/>
+  <Lurk scopes="FullBody3P"/>
+  <PatrolIdle scopes="FullBody3P"/>
+  <MindJack_In scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <MindJack_Out scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Power_Shift_Attack scopes="FullBody3P"/>
+  <Power_Shift_Attack_Out scopes="FullBody3P"/>
+  <Distractor_HitObject_Mid scopes="FullBody3P"/>
+  <Distractor_HitObject_Low scopes="FullBody3P"/>
+  <CODE_MT_walkJukeTurnFwdLft scopes="FullBody3P"/>
+  <CODE_MT_walkJukeTurnFwdRgt scopes="FullBody3P"/>
+  <Distractor_LookAround scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Fatality_Front_A_Wrench scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Fatality_Front_B_Wrench scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Fatality_Front_C_Wrench scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Melee_Vertical scopes="FullBody3P+Torso3P"/>
+  <EMPLightningBallAttack scopes="Torso3P"/>
+  <Fatality_Front_LR_A_Wrench scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Fatality_Front_LR_B_Wrench scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Fatality_Front_RL_A_Wrench scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Fatality_Front_RL_B_Wrench scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Lurk_Out scopes="FullBody3P"/>
+  <Lurk_Attack_A scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InteractHazard_High scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_LookAt_High scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_LookAt_Mid scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_LookAt_Low scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InteractHazard_Mid scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InteractHazard_Low scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_LookUnderDesk scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InvestigateHatch_High scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InvestigateHatch_Low scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_SpeakerReact scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_LightReact scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InspectCorpse scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InspectWindow_High scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InspectWindow_Mid scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InspectObject_High scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InspectObject_Mid scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Distractor_InteractDoors_Mid scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <Glood_Pose scopes="FullBody3P+Torso3P+TorsoDetail+AimPose+Aiming+Looking+LookAround+LookPose+LookPoseHead+SlaveChar"/>
+  <SolarFlareAttack scopes="FullBody3P"/>
+  <Frenzy scopes="FullBody3P"/>
+  <Jump_Start scopes="FullBody3P"/>
+  <Jump_InAir scopes="FullBody3P"/>
+  <Jump_Land scopes="FullBody3P"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+  <SlaveChar/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <Torso3P layer="3" numLayers="2" context="Char3P"/>
+  <TorsoDetail layer="5" numLayers="2" context="Char3P"/>
+  <AimPose layer="13" numLayers="1" context="Char3P"/>
+  <Aiming layer="13" numLayers="0" context="Char3P"/>
+  <Looking layer="14" numLayers="0" context="Char3P"/>
+  <LookAround layer="11" numLayers="0" context="Char3P"/>
+  <LookPose layer="14" numLayers="1" context="Char3P"/>
+  <LookPoseHead layer="15" numLayers="1" context="Char3P"/>
+  <SlaveChar layer="0" numLayers="3" context="SlaveChar" Tags="slave"/>
+ </ScopeDefs>
+</ControllerDef>

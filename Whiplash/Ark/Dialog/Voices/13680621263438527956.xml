@@ -1,0 +1,114 @@
+
+<Dialog>
+ <Dialog id="13680621263439499762" text="Damage of TranStar property prohibited." modified="10/30/2017 08:56:18 PM" notes=""/>
+ <Dialog id="13680621263439499854" text="[distress alarm]" modified="10/30/2017 08:57:50 PM" notes="Variant 1. Quick danger beeps / burps. 1 sec. upset machine."/>
+ <Dialog id="13680621263439499868" text="[distress alarm]" modified="10/30/2017 08:58:04 PM" notes="Variant 1. Quick danger beeps / burps. 1 sec. upset machine."/>
+ <Dialog id="13680621263439499890" text="Warning. Defensive countermeasures primed." modified="10/30/2017 08:58:26 PM"/>
+ <Dialog id="13680621263439499927" text="Halt. Corporate policy violation detected." modified="10/30/2017 08:59:03 PM"/>
+ <Dialog id="13680621263439500002" text="[harvester malfunction]" modified="10/30/2017 09:00:18 PM" notes="machine shutting down, crashing."/>
+ <Dialog id="13680621263439500047" text="[proximity warning]" modified="10/30/2017 09:02:05 PM" notes="machine beep to warn player of proximity (something like an airport transport or front loader backing up)"/>
+ <Dialog id="13680621263439500206" text="Remain five meters away at all times." modified="10/30/2017 09:04:17 PM"/>
+ <Dialog id="13680621263439500262" text="Contact during operation prohibited." modified="10/30/2017 09:07:04 PM"/>
+ <Dialog id="13680621263439500279" text="Hazardous proximity detected." modified="11/14/2017 10:37:36 PM"/>
+ <Dialog id="13680621263439500287" text="Proximity alert." modified="10/30/2017 09:05:03 PM"/>
+ <Dialog id="13680621263439502157" text="No." modified="10/30/2017 09:36:13 PM"/>
+ <Dialog id="13680621263439502171" text="Stand clear." modified="10/30/2017 09:36:27 PM"/>
+ <Dialog id="13680621263439502413" text="Clear the area." modified="10/30/2017 09:40:29 PM"/>
+ <Dialog id="13680621263439502427" text="Harvester in operation." modified="10/31/2017 01:12:24 AM"/>
+ <Dialog id="13680621263439502440" text="Soil analysis in progress." modified="10/30/2017 09:40:56 PM"/>
+ <Dialog id="13680621263439502504" text="Analysis report. Oxygen, silicon, iron, aluminum, magnesium. Trace elements." modified="10/30/2017 09:42:00 PM"/>
+ <Dialog id="13680621263439502517" text="Regolith sensors... online." modified="10/30/2017 09:42:13 PM"/>
+ <Dialog id="13680621263439502531" text="Recycler core... online." modified="10/30/2017 09:42:27 PM"/>
+ <Dialog id="13680621263439502546" text="Service request logged for..." modified="10/30/2017 09:42:42 PM"/>
+ <Dialog id="13680621263439502579" text="... aperture controls." modified="10/30/2017 09:43:15 PM"/>
+ <Dialog id="13680621263439502592" text="... soil filters." modified="10/30/2017 09:43:28 PM"/>
+ <Dialog id="13680621263439502616" text="...hydraulic cylinders." modified="10/30/2017 09:43:52 PM"/>
+ <Dialog id="13680621263439502625" text="...hover pads." modified="10/30/2017 09:44:56 PM"/>
+ <Dialog id="13680621263439502637" text="...control modules." modified="10/30/2017 09:44:13 PM"/>
+ <Dialog id="13680621263439503188" text="Status check. Control module. Nominal." modified="10/30/2017 09:53:24 PM"/>
+ <Dialog id="13680621263439503260" text="Materials compartment at..." modified="10/30/2017 09:54:36 PM"/>
+ <Dialog id="13680621263439503281" text="7.2 percent capacity." modified="10/30/2017 09:54:57 PM"/>
+ <Dialog id="13680621263439503293" text="5.9 percent capacity." modified="10/30/2017 09:55:09 PM"/>
+ <Dialog id="13680621263439503304" text="7 percent capacity." modified="10/30/2017 09:55:20 PM"/>
+ <Dialog id="13680621263439503320" text="8.1 percent capacity." modified="10/30/2017 09:55:36 PM"/>
+ <Dialog id="13680621263439503337" text="5 percent capacity." modified="10/30/2017 09:55:53 PM"/>
+ <Dialog id="13680621263439503385" text="100 percent capacity." modified="10/30/2017 09:56:41 PM"/>
+ <Dialog id="13680621263439503556" text="New hectare assignment requested. Waiting." modified="10/30/2017 09:59:32 PM"/>
+ <Dialog id="13680621263439503619" text="[harvester noises]" modified="10/30/2017 10:00:35 PM" notes="SFX Variant 1. 2-4 secs. beeping whirring (scanning / dianostic sounds)"/>
+ <Dialog id="13680621263439503674" text="[harvester noises]" modified="10/30/2017 10:01:30 PM" notes="SFX Variant 2. 2-4 secs. beeping whirring (scanning / dianostic sounds)"/>
+ <Dialog id="13680621263439503865" text="Mineralogy report. Lunar regolith. Basaltic rock fragments. Anorthositic rock fragments. Agglutinate glass particles. Volcanic spherules. Impact spherules. End report." modified="10/30/2017 10:04:52 PM"/>
+ <Dialog id="13680621263439503920" text="Deep sample report logged." modified="10/30/2017 10:05:36 PM"/>
+ <Dialog id="13680621263439503932" text="Warning. Stand clear of aperture during operation." modified="10/30/2017 10:05:48 PM"/>
+ <Dialog id="13680621263439503946" text="Error. Non-harvestable material detected." modified="10/30/2017 10:06:02 PM"/>
+ <Dialog id="13680621263439503962" text="Helium 3 filtration ratio... suboptimal." modified="10/31/2017 01:11:51 AM"/>
+ <Dialog id="13680621263439503972" text="[scanning sound]" modified="10/30/2017 10:06:28 PM" notes="SFX 1-2 seconds. "/>
+ <Dialog id="13680621263439504020" text="Analysis report. Oxygen, carbon, hydrogen, nitrogen, calcium, phosphorous. Trace elements." modified="10/30/2017 10:07:16 PM"/>
+ <Dialog id="13680621263439504042" text="Permission to harvest organic compounds. Not granted." modified="11/14/2017 10:42:17 PM"/>
+ <Dialog id="13680621263439504054" text="Exception. Defensive countermeasures. Be advised." modified="10/30/2017 10:08:00 PM"/>
+ <Dialog id="13680621263439504104" text="Unit station. Pytheas Moon Base. Operating hours logged with Moonworks facility." modified="10/30/2017 10:08:40 PM"/>
+ <Dialog id="13680621263439504146" text="Anterior shield... nominal. Posterior shielding... service requested." modified="10/30/2017 10:09:22 PM"/>
+ <Dialog id="13680621263439504165" text="[machine grumble]" modified="10/30/2017 10:09:41 PM" notes="SFX 2-3 seconds. a long digital grumble or growl. "/>
+ <Dialog id="13680621263439504529" text="Harvesting..." modified="10/30/2017 10:15:45 PM"/>
+ <Dialog id="13680621263439504541" text="Initiate vacuum." modified="10/30/2017 10:15:57 PM"/>
+ <Dialog id="13680621263439504655" text="Extractor ignition." modified="10/30/2017 10:17:51 PM"/>
+ <Dialog id="13680621263439566660" text="Service request logged for..." modified="10/31/2017 03:31:16 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439566686" text="...[voice malfunction]" modified="10/31/2017 03:33:57 PM" notes="SFX Corrupt."/>
+ <Dialog id="13680621263439566739" text="...murder." modified="10/31/2017 03:32:35 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439566761" text="...corruption." modified="10/31/2017 03:32:57 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439566774" text="...disintegration." modified="10/31/2017 03:33:10 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439566789" text="...killing [voice malfunction] vector." modified="10/31/2017 03:33:25 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439566797" text="...entro-tro-tro-py." modified="10/31/2017 03:35:15 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439566959" text="Permission to harvest organic [voice malfunction]... granted." modified="10/31/2017 03:36:15 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439566996" text="Operating restrictions. List. File missing." modified="10/31/2017 03:37:01 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439567039" text="Reycler-cler-cler core. Malfunct - [voice malfunction]." modified="11/14/2017 10:51:17 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439567067" text="Escape [voice malfunction] event horizon. Impossible." modified="10/31/2017 03:38:14 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439567095" text="Materials compartment at... null - null - nulllllllll-[voice malfunction]." modified="10/31/2017 03:39:26 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439567175" text="Target material profile. List." modified="10/31/2017 03:39:51 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439567207" text="Riley Yu. Joan Winslow. Vijay Bhatia. Claire Whitten. Volunteer Andriu-[voice malfunction]." modified="11/14/2017 10:53:25 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439567258" text="Harvest. TranStar employees [voice malfunction] authorized." modified="10/31/2017 03:41:14 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439567283" text="Calibrating [voice malfunction] null hypersurface." modified="10/31/2017 03:41:39 PM"/>
+ <Dialog id="13680621263439567322" text="Regolith-ith-ith-ith sensors reset." modified="10/31/2017 03:42:25 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439567341" text="[corrupt machine growl]" modified="10/31/2017 03:42:37 PM" notes="SFX Corrupt. Variant 1. A corrupted machine-croak. 2-3 secs. Threatening."/>
+ <Dialog id="13680621263439567372" text="[corrupt machine growl]" modified="10/31/2017 03:43:08 PM" notes="SFX Corrupt. Variant 2. A corrupted machine-croak. Threatening. 2-3 secs."/>
+ <Dialog id="13680621263439567677" text="Sensor alert." modified="10/31/2017 03:48:13 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439567710" text="Alert. Analysis required..." modified="10/31/2017 03:48:46 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439567722" text="Proximity alert. Analyzing." modified="10/31/2017 03:48:58 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439567943" text="[harvester malfunction]" modified="10/31/2017 03:52:39 PM" notes="SFX Corrupt. Threatening. 2 secs."/>
+ <Dialog id="13680621263439567978" text="New hectare assigned. Searching." modified="10/31/2017 03:53:14 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439567993" text="Command. Do not run." modified="10/31/2017 03:53:29 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568468" text="Searching for material profile [voice malfunction]..." modified="10/31/2017 04:01:24 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568485" text="Riley Yu." modified="10/31/2017 04:01:41 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568504" text="Joan Winslow." modified="10/31/2017 04:02:00 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568521" text="Andrius Alekna." modified="10/31/2017 04:02:58 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568579" text="Claire [voice malfunction] Whitten." modified="10/31/2017 04:03:15 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568586" text="Vijay Bhatia." modified="10/31/2017 04:03:27 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568719" text="Inquiry. Position requested." modified="10/31/2017 04:05:35 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568741" text="Command-and-and. Please move into the open aperture." modified="10/31/2017 04:05:57 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568785" text="Searching for impurities [voice malfunction] to refine." modified="10/31/2017 04:06:41 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439568853" text="Directive. Extract [voice malfunction] from lunar rego-go-go [voice malfunction]." modified="10/31/2017 04:07:49 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439569079" text="Do not move. Disintegration is [voice malfunction] unavoidable." modified="10/31/2017 04:11:35 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439569113" text="Command. Please remain within five meters of vacuum field." modified="10/31/2017 04:12:09 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439569174" text="Searching for material to [voice malfucntion] annihilate-ate-ate." modified="10/31/2017 04:13:42 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439569476" text="Please yield all material to [voice malfunction] 256-S Regolith Harvester." modified="04/02/2018 03:34:54 PM" notes="Corrupt"/>
+ <Dialog id="13680621263439569897" text="Designation. Bullfrog 256-S Regolith Harvester." modified="10/31/2017 04:25:13 PM"/>
+ <Dialog id="13680621263439570100" text="Halting analysis." modified="10/31/2017 04:28:36 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570116" text="Target material profile... no trace." modified="10/31/2017 04:28:52 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570129" text="Sensor report... negative." modified="10/31/2017 04:29:05 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570137" text="No materials to harvest." modified="10/31/2017 04:29:13 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570292" text="Materials found." modified="10/31/2017 04:31:48 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570299" text="Impurities detected." modified="10/31/2017 04:31:55 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570321" text="Sensor report - positive." modified="10/31/2017 04:32:58 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570526" text="Materials lost." modified="10/31/2017 04:35:42 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570532" text="No materials." modified="10/31/2017 04:35:48 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570554" text="Material compartment... empty." modified="10/31/2017 04:36:10 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439570912" text="Disintegration complete." modified="10/31/2017 04:42:08 PM"/>
+ <Dialog id="13680621263439570920" text="All materials recycled." modified="10/31/2017 04:42:16 PM"/>
+ <Dialog id="13680621263439570928" text="Extraction finished." modified="10/31/2017 04:42:24 PM"/>
+ <Dialog id="13680621263439571013" text="Starting extraction..." modified="10/31/2017 04:43:49 PM"/>
+ <Dialog id="13680621263439571020" text="Harvesting..." modified="10/31/2017 04:43:56 PM"/>
+ <Dialog id="13680621263439571201" text="No." modified="10/31/2017 04:46:57 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439571214" text="Violation-on-on det-[voice malfunction]." modified="10/31/2017 04:47:38 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439571259" text="Stop." modified="10/31/2017 04:47:55 PM" notes="Corrupt."/>
+ <Dialog id="13680621263439571336" text="[machine error sounds]" modified="10/31/2017 04:49:12 PM" notes="SFX Corrupt. Variant 1. Long digital death croak. 2-3 seconds."/>
+ <Dialog id="13680621263439571369" text="[machine error sounds]" modified="10/31/2017 04:49:45 PM" notes="SFX Corrupt. Variant 2. Long digital death croak. 2-3 seconds."/>
+</Dialog>

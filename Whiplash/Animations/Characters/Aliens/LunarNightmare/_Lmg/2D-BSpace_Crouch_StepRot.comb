@@ -1,0 +1,17 @@
+
+<CombinedBlendSpace>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <Dimensions>
+  <Param name="TurnAngle" ChooseBlendSpace="1" locked="1"/>
+  <Param name="Height"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="MoveSpeed"/>
+ </AdditionalExtraction>
+ <BlendSpaces>
+  <BlendSpace AName="animations/Characters/Aliens/LunarNightmare/_Lmg/2d-Bspace_Crouch_StepRot_Left.bspace"/>
+  <BlendSpace AName="animations/Characters/Aliens/LunarNightmare/_Lmg/2d-Bspace_Crouch_StepRot_Right.bspace"/>
+ </BlendSpaces>
+ <JointList/>
+ <MotionCombination/>
+</CombinedBlendSpace>

@@ -1,0 +1,54 @@
+
+<ResponseRules>
+ <WritebackKeys/>
+ <ResponseRule id="13680621263432410500" name="Good Morning" cooldown="" description="The intial greeting as the interceptor player wakes from sleep aboard the spy satellite." response="13680621263432410591">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onAnnouncementTrigger" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263415497407"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263432410591">
+  <Response dialog="13680621263432410590" id="13680621263432410592" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263432410595" name="" cooldown="" response="13680621263432410596">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263432410592" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263415497407"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263432410596">
+  <Response dialog="13680621263432410594" id="13680621263432410597" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263432410614" name="" cooldown="" response="13680621263432410615">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263432410597" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263415497407"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263432410615">
+  <Response dialog="13680621263432410613" id="13680621263432410616" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263432410621" name="Docking Warning" cooldown="" response="13680621263432410686" description="Letting the player know that a transport is about to dock with their satellite to deliver something.">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onAnnouncementTrigger" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263415497407"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263432410686">
+  <Response dialog="13680621263432410685" id="13680621263432410687" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263432410697" name="" cooldown="" response="13680621263432410698">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263432410430" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263432410687" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263415497407"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263432410698">
+  <Response dialog="13680621263432410696" id="13680621263432410699" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1.5" cutoff="0"/>
+ </ResponseSet>
+</ResponseRules>

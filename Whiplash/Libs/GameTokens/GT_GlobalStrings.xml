@@ -1,0 +1,14 @@
+
+<GameTokensLibrary Name="GT_GlobalStrings">
+ <GameToken Id="1457006218" Name="Test.Test" Type="String" Value="@ui_test" Description="test string to test things"/>
+ <GameToken Id="1067123442" Name="SimLabTests.Response1" Type="String" Value="@ui_SimLabsTestQuestion1_Response1"/>
+ <GameToken Id="647123784" Name="SimLabTests.Response2" Type="String" Value="@ui_SimLabsTestQuestion2_Response1"/>
+ <GameToken Id="1368744926" Name="SimLabTests.Response3" Type="String" Value="@ui_SimLabsTestQuestion3_Response1"/>
+ <GameToken Id="1341257341" Name="SimLabTests.Response4" Type="String" Value="@ui_SimLabsTestQuestion4_Response1"/>
+ <GameToken Id="955696875" Name="SimLabTests.Question1" Type="String" Value="@ui_SimLabsTestQuestion1"/>
+ <GameToken Id="487692297" Name="SimLabTests.Question2" Type="String" Value="@ui_SimLabsTestQuestion2"/>
+ <GameToken Id="1779869855" Name="SimLabTests.Question3" Type="String" Value="@ui_SimLabsTestQuestion3"/>
+ <GameToken Id="1953643836" Name="SimLabTests.Question4" Type="String" Value="@ui_SimLabsTestQuestion4"/>
+ <GameToken Id="58002858" Name="SimLabTests.Question5" Type="String" Value="@ui_SimLabsTestQuestion5"/>
+ <GameToken Id="955696876" Name="SimLabTests.Response5" Type="String" Value="@ui_SimLabsTestQuestion5_Response1"/>
+</GameTokensLibrary>

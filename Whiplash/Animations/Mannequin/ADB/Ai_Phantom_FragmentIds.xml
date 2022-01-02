@@ -1,0 +1,103 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Motion_IdleTurn"/>
+  <Tag name="Melee" subTagDef="Animations/Mannequin/ADB/npcMeleeTags.xml"/>
+  <Tag name="Power_PsiBlast" subTagDef="Animations/Mannequin/ADB/npcMeleeTags.xml"/>
+  <Tag name="Power_PsiBlast_Add"/>
+  <Tag name="Power_Shift" subTagDef="Animations/Mannequin/ADB/phantomShiftTags.xml"/>
+  <Tag name="Aiming"/>
+  <Tag name="LookPose"/>
+  <Tag name="Looking"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="Power_Shift_Out" subTagDef="Animations/Mannequin/ADB/phantomShiftTags.xml"/>
+  <Tag name="Distractor_EnergyLeech"/>
+  <Tag name="CombatReaction"/>
+  <Tag name="CODE_MT_idleToMove"/>
+  <Tag name="Hypnotized" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Blinded" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Lifted"/>
+  <Tag name="Fall"/>
+  <Tag name="Land_Stumble"/>
+  <Tag name="CallNPCs" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Lifted_BumpCeiling"/>
+  <Tag name="Land_Bump"/>
+  <Tag name="Distractor_DeskSwipe"/>
+  <Tag name="Distractor_Investigate_Left"/>
+  <Tag name="Distractor_Investigate_Right"/>
+  <Tag name="Distractor_Investigate_Forward"/>
+  <Tag name="RaiseFromCorpse"/>
+  <Tag name="Fatality_Front_Wrench"/>
+  <Tag name="Stunned" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Search"/>
+  <Tag name="ForceResist" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="ForceResistScrunch" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="Cs_SimulationLabs_Sq15_PhantomKill_Phantom"/>
+  <Tag name="Cs_SimulationLabs_Sq15_PhantomInspect_Phantom"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="Notice" subTagDef="Animations/Mannequin/ADB/npcNoticeTags.xml"/>
+  <Tag name="SearchGiveUp"/>
+  <Tag name="CODE_MT_walkToIdle"/>
+  <Tag name="CODE_MT_runToIdle"/>
+  <Tag name="Dodge" subTagDef="Animations/Mannequin/ADB/npcDodgeTags.xml"/>
+  <Tag name="CODE_MT_runJukeTurnFwdLft180"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdLft180"/>
+  <Tag name="CODE_MT_runJukeTurnFwdRt180"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdRt180"/>
+  <Tag name="LookPoseHead"/>
+  <Tag name="PsiAttack"/>
+  <Tag name="Fatality_Front_DualWrench"/>
+  <Tag name="LookAround"/>
+  <Tag name="BreakGloo"/>
+  <Tag name="BreakOutOfGloo"/>
+  <Tag name="WanderIdle"/>
+  <Tag name="Lurk"/>
+  <Tag name="PatrolIdle"/>
+  <Tag name="MindJack_In"/>
+  <Tag name="MindJack_Out"/>
+  <Tag name="Power_Shift_Attack"/>
+  <Tag name="Power_Shift_Attack_Out"/>
+  <Tag name="Distractor_HitObject_Mid"/>
+  <Tag name="Distractor_HitObject_Low"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdLft"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdRgt"/>
+  <Tag name="Distractor_LookAround"/>
+  <Tag name="Fatality_Front_A_Wrench"/>
+  <Tag name="Fatality_Front_B_Wrench"/>
+  <Tag name="Fatality_Front_C_Wrench"/>
+  <Tag name="Melee_Vertical"/>
+  <Tag name="EMPLightningBallAttack"/>
+  <Tag name="Fatality_Front_LR_A_Wrench"/>
+  <Tag name="Fatality_Front_LR_B_Wrench"/>
+  <Tag name="Fatality_Front_RL_A_Wrench"/>
+  <Tag name="Fatality_Front_RL_B_Wrench"/>
+  <Tag name="Lurk_Out"/>
+  <Tag name="Lurk_Attack_A"/>
+  <Tag name="Distractor_InteractHazard_High"/>
+  <Tag name="Distractor_LookAt_High"/>
+  <Tag name="Distractor_LookAt_Mid"/>
+  <Tag name="Distractor_LookAt_Low"/>
+  <Tag name="Distractor_InteractHazard_Mid"/>
+  <Tag name="Distractor_InteractHazard_Low"/>
+  <Tag name="Distractor_LookUnderDesk"/>
+  <Tag name="Distractor_InvestigateHatch_High"/>
+  <Tag name="Distractor_InvestigateHatch_Low"/>
+  <Tag name="Distractor_SpeakerReact"/>
+  <Tag name="Distractor_LightReact"/>
+  <Tag name="Distractor_InspectCorpse"/>
+  <Tag name="Distractor_InspectWindow_High"/>
+  <Tag name="Distractor_InspectWindow_Mid"/>
+  <Tag name="Distractor_InspectObject_High"/>
+  <Tag name="Distractor_InspectObject_Mid"/>
+  <Tag name="Distractor_InteractDoors_Mid"/>
+  <Tag name="Glood_Pose"/>
+  <Tag name="SolarFlareAttack"/>
+  <Tag name="Frenzy"/>
+  <Tag name="Jump_Start"/>
+  <Tag name="Jump_InAir"/>
+  <Tag name="Jump_Land"/>
+ </Tags>
+</TagDefinition>

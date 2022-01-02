@@ -1,0 +1,21 @@
+
+<anim_event_list>
+ <animation name="animations/characters/aliens/weaver/create_phantom/create_phantom.caf">
+  <event name="sound" time="0.012789285" endTime="0.012789285" parameter="Play_Weaver_Create_Phantom" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/weaver/create_cystoid/create_cystoid.caf">
+  <event name="sound" time="0.0059920107" endTime="0.0059920107" parameter="Play_Weaver_Create_Cystoid" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12583226" endTime="0.81557924" parameter="Play_Weaver_Launch_Cystoid" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/weaver/alarm_call/alarm_call.caf">
+  <event name="sound" time="0.0086551262" endTime="0.0086551262" parameter="Play_Weaver_mvmt_Alarm" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/weaver/create_coral/create_coral.caf">
+  <event name="sound" time="0.0053262315" endTime="0.0053262315" parameter="Play_Weaver_Create_Coral" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/weaver/distractor_tendcoral_a/distractor_tendcoral_a.caf">
+  <event name="sound" time="0.0073235687" endTime="0.0073235687" parameter="Play_Weaver_Swish_Whispers" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.31358188" endTime="0.31358188" parameter="Play_Weaver_Movement_B" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55525964" endTime="0.55525964" parameter="Play_Weaver_Swish_Whispers" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

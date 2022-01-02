@@ -1,0 +1,13 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="state">
+   <Tag name="open"/>
+   <Tag name="closed"/>
+  </Group>
+  <Group name="type">
+   <Tag name="fireDoor"/>
+   <Tag name="SlidingDoor"/>
+  </Group>
+ </Tags>
+</TagDefinition>

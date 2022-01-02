@@ -1,0 +1,11 @@
+
+<ArkStationAccess>
+ <Paths>
+  <ArkStationPath ID="15659330456350048825" Name="Crater to Labs" FlashID="line_1" LocationA="844024417334136241" LocationB="844024417334136393"/>
+  <ArkStationPath ID="15659330456350048826" Name="Crater to Crew" FlashID="line_2" LocationA="844024417334136241" LocationB="844024417334136321"/>
+  <ArkStationPath ID="15659330456350048828" Name="Crater to Moonworks" FlashID="line_3" LocationA="844024417334136241" LocationB="844024417334136487"/>
+  <ArkStationPath ID="15659330456350048830" Name="Labs to Crew" FlashID="line_4" LocationA="844024417334136393" LocationB="844024417334136321" StartsLocked="true"/>
+  <ArkStationPath ID="15659330456350048831" Name="Labs to Moonworks" FlashID="line_5" LocationA="844024417334136393" LocationB="844024417334136487" StartsLocked="true"/>
+  <ArkStationPath ID="15659330456350048832" Name="Crew to Moonworks" FlashID="line_6" LocationA="844024417334136321" LocationB="844024417334136487" StartsLocked="true"/>
+ </Paths>
+</ArkStationAccess>

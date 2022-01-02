@@ -1,0 +1,227 @@
+
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="10" Class="Actor:LocalPlayer" pos="-790,-1460,0">
+   <Inputs/>
+  </Node>
+  <Node Id="16390" Class="Ark:Player:GetPlayableCharacter" pos="120,-220,0">
+   <Inputs/>
+  </Node>
+  <Node Id="16391" Class="Game:Start" pos="-240,-220,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="16393" Class="Logic:Gate" pos="770,-230,0">
+   <Inputs SetClosed="0" AutoCloseCount="1" Reset="0"/>
+  </Node>
+  <Node Id="16394" Class="String:Compare" pos="530,-230,0">
+   <Inputs A="" B="" IgnoreCase="1"/>
+  </Node>
+  <Node Id="16395" Class="String:SetString" pos="350,-160,0">
+   <Inputs In="Director"/>
+  </Node>
+  <Node Id="16396" Class="Ark:Debug:ConsoleEvent" pos="510,-290,0">
+   <Inputs Command="Riley"/>
+  </Node>
+  <Node Id="16405" Class="Ark:SendRemoteEvent" pos="1050,-230,0">
+   <Inputs remoteEvent_Event="6732635291261482194"/>
+  </Node>
+  <Node Id="16406" Name="Send_remote_event:_Player_spawned_as_Riley" Class="_commentbox" pos="-330,-393,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="1840" Height="330"/>
+  </Node>
+  <Node Id="16407" Class="Mission:GameTokenSet" pos="1050,-170,0">
+   <Inputs gametokenid_Token="1948229194" Value="true"/>
+  </Node>
+  <Node Id="16418" Class="Ark:Objectives:TaskState" pos="550,-1500,0">
+   <Inputs task_Task="4349723564981680512" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="16419" Class="Ark:Objectives:TaskState" pos="550,-1330,0">
+   <Inputs task_Task="844024417339311806" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="16420" Class="Inventory:ItemCheck" pos="-870,-1130,0">
+   <Inputs entityId="0" Active="1" archetype="ArkPickups.Misc.CondenserCell" itemClass=""/>
+  </Node>
+  <Node Id="16422" Class="Inventory:ItemGetQuantity" pos="-300,-820,0">
+   <Inputs entityId="0" archetype="ArkPickups.Misc.CondenserCell"/>
+  </Node>
+  <Node Id="16426" Class="Ark:Objectives:TaskState" pos="1200,-1680,0">
+   <Inputs task_Task="844024417339311806" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="16427" Class="Ark:Objectives:TaskState" pos="1200,-1860,0">
+   <Inputs task_Task="4349723564981680512" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17445" Class="Ark:Objectives:SetObjectiveDescription" pos="1590,-1680,0">
+   <Inputs objectiveDescription_Description="13680621263446241817"/>
+  </Node>
+  <Node Id="17446" Class="Ark:Objectives:SetObjectiveDescription" pos="1590,-1860,0">
+   <Inputs objectiveDescription_Description="844024417334828377"/>
+  </Node>
+  <Node Id="17447" Name="Objective_Descriptions" Class="_commentbox" pos="1110,-1903,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="800" Height="420"/>
+  </Node>
+  <Node Id="17452" Class="Inventory:ItemGetQuantity" pos="-290,-1020,0">
+   <Inputs entityId="0" archetype="ArkPickups.Misc.CondenserCell"/>
+  </Node>
+  <Node Id="17457" Class="Ark:Objectives:GetTaskState" pos="360,-1090,0">
+   <Inputs task_Task="4349723564981680512"/>
+  </Node>
+  <Node Id="17458" Class="Ark:Objectives:TaskState" pos="-870,-1630,0">
+   <Inputs task_Task="844024417349418822" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17459" Class="Inventory:ItemGetQuantity" pos="-290,-1350,0">
+   <Inputs entityId="0" archetype="ArkPickups.Misc.CondenserCell"/>
+  </Node>
+  <Node Id="17465" Class="Ark:Player:GetPlayableCharacter" pos="1000,-1410,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17466" Class="String:Compare" pos="1290,-1390,0">
+   <Inputs A="" B="" IgnoreCase="1"/>
+  </Node>
+  <Node Id="17467" Class="String:SetString" pos="1060,-1330,0">
+   <Inputs In="Director"/>
+  </Node>
+  <Node Id="17468" Class="Ark:Player:GetPlayableCharacter" pos="870,-1080,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17469" Class="String:Compare" pos="1130,-1080,0">
+   <Inputs A="" B="" IgnoreCase="1"/>
+  </Node>
+  <Node Id="17470" Class="String:SetString" pos="950,-1020,0">
+   <Inputs In="Director"/>
+  </Node>
+  <Node Id="17724" Class="Mission:GameTokenCheck" pos="560,-600,0">
+   <Inputs gametokenid_Token="459026194" CheckValue="true"/>
+  </Node>
+  <Node Id="17725" Class="Mission:GameTokenCheck" pos="560,-700,0">
+   <Inputs gametokenid_Token="1475751820" CheckValue="true"/>
+  </Node>
+  <Node Id="17726" Class="Mission:GameTokenCheck" pos="560,-800,0">
+   <Inputs gametokenid_Token="1501112431" CheckValue="true"/>
+  </Node>
+  <Node Id="17905" Class="Ark:Objectives:GetTaskState" pos="1020,-810,0">
+   <Inputs task_Task="844024417339311806"/>
+  </Node>
+  <Node Id="17906" Class="Ark:Objectives:TaskState" pos="1780,-820,0">
+   <Inputs task_Task="844024417339311806" ShowOnHUD="0" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17908" Class="Time:Delay" pos="330,-760,0">
+   <Inputs delay="0.5" resetOnInput="0"/>
+  </Node>
+  <Node Id="17921" Class="Ark:Objectives:TaskState" pos="1570,-1420,0">
+   <Inputs task_Task="844024417339311806" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17922" Name="Used_Memory_Block" Class="_commentbox" pos="-900,-1655,0">
+   <Inputs TextSize="1" Color="0.184475,0.871367,0.242281" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="350" Height="240"/>
+  </Node>
+  <Node Id="17923" Class="Logic:ArkCompare" pos="320,-1400,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17924" Class="Math:SetNumber" pos="130,-1420,0">
+   <Inputs in="2"/>
+  </Node>
+  <Node Id="17925" Class="Game:Start" pos="-260,-1440,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17926" Name="Player_needs_more_than_one_CM" Class="_commentbox" pos="-330,-1465,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2280" Height="220"/>
+  </Node>
+  <Node Id="17928" Class="Ark:Objectives:TaskState" pos="1550,-1100,0">
+   <Inputs task_Task="4349723564981680512" ShowOnHUD="1" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+  <Node Id="17929" Class="Logic:ArkCompare" pos="130,-800,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17930" Class="Logic:ArkCompare" pos="160,-1100,0">
+   <Inputs/>
+  </Node>
+  <Node Id="17931" Class="Math:SetNumber" pos="-40,-1100,0">
+   <Inputs in="1"/>
+  </Node>
+  <Node Id="17932" Class="Math:SetNumber" pos="-80,-730,0">
+   <Inputs in="2"/>
+  </Node>
+  <Node Id="17933" Class="Game:Start" pos="-810,-940,0">
+   <Inputs InGame="1" InEditor="1" InEditorPlayFromHere="1"/>
+  </Node>
+  <Node Id="17934" Class="Time:Delay" pos="-290,-730,0">
+   <Inputs delay="0.5" resetOnInput="0"/>
+  </Node>
+  <Node Id="17935" Class="Time:Delay" pos="-300,-1110,0">
+   <Inputs delay="0.5" resetOnInput="0"/>
+  </Node>
+  <Node Id="17939" Name="Drops_CM_from_inventory_-_Reset_tasks" Class="_commentbox" pos="-340,-864,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2290" Height="380"/>
+  </Node>
+  <Node Id="17940" Name="Adds_CM_to_inventory" Class="_commentbox" pos="-340,-1136,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <CommentBox Width="2280" Height="220"/>
+  </Node>
+  <Node Id="17941" Name="Here_because_adding_CM_to_receptacle_=_dropping_them" Class="_comment" pos="570,-840,0"/>
+  <Node Id="17952" Class="Ark:Objectives:TaskState" pos="1400,-750,0">
+   <Inputs task_Task="844024417339311821" ShowOnHUD="0" Timer="0" ShowTimerOnHUD="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="16420" nodeOut="10" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="16422" nodeOut="10" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17452" nodeOut="10" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="17459" nodeOut="10" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="16394" nodeOut="16390" portIn="A" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="16394" nodeOut="16390" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="16390" nodeOut="16391" portIn="Get" portOut="LevelStateRestored" enabled="1"/>
+  <Edge nodeIn="16390" nodeOut="16391" portIn="Get" portOut="output" enabled="1"/>
+  <Edge nodeIn="16395" nodeOut="16391" portIn="Set" portOut="output" enabled="1"/>
+  <Edge nodeIn="16405" nodeOut="16393" portIn="Send" portOut="Out" enabled="1"/>
+  <Edge nodeIn="16407" nodeOut="16393" portIn="Trigger" portOut="Out" enabled="1"/>
+  <Edge nodeIn="16393" nodeOut="16394" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="16394" nodeOut="16395" portIn="B" portOut="Out" enabled="1"/>
+  <Edge nodeIn="16393" nodeOut="16396" portIn="In" portOut="Triggered" enabled="1"/>
+  <Edge nodeIn="17465" nodeOut="16418" portIn="Get" portOut="Completed" enabled="1"/>
+  <Edge nodeIn="17467" nodeOut="16418" portIn="Set" portOut="Completed" enabled="1"/>
+  <Edge nodeIn="16422" nodeOut="16420" portIn="check" portOut="False" enabled="1"/>
+  <Edge nodeIn="17452" nodeOut="16420" portIn="check" portOut="True" enabled="1"/>
+  <Edge nodeIn="17934" nodeOut="16420" portIn="in" portOut="False" enabled="1"/>
+  <Edge nodeIn="17935" nodeOut="16420" portIn="in" portOut="True" enabled="1"/>
+  <Edge nodeIn="17929" nodeOut="16422" portIn="B" portOut="quantity" enabled="1"/>
+  <Edge nodeIn="17446" nodeOut="16427" portIn="Trigger" portOut="Activated" enabled="1"/>
+  <Edge nodeIn="17930" nodeOut="17452" portIn="B" portOut="quantity" enabled="1"/>
+  <Edge nodeIn="17468" nodeOut="17457" portIn="Get" portOut="Active" enabled="1"/>
+  <Edge nodeIn="17470" nodeOut="17457" portIn="Set" portOut="Active" enabled="1"/>
+  <Edge nodeIn="17459" nodeOut="17458" portIn="check" portOut="Completed" enabled="1"/>
+  <Edge nodeIn="17923" nodeOut="17459" portIn="B" portOut="quantity" enabled="1"/>
+  <Edge nodeIn="17923" nodeOut="17459" portIn="Check" portOut="quantity" enabled="1"/>
+  <Edge nodeIn="17466" nodeOut="17465" portIn="A" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17466" nodeOut="17465" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17921" nodeOut="17466" portIn="Activate" portOut="True" enabled="1"/>
+  <Edge nodeIn="17466" nodeOut="17467" portIn="B" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17469" nodeOut="17468" portIn="A" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17469" nodeOut="17468" portIn="Compare" portOut="PlayableCharacter" enabled="1"/>
+  <Edge nodeIn="17928" nodeOut="17469" portIn="Complete" portOut="True" enabled="1"/>
+  <Edge nodeIn="17469" nodeOut="17470" portIn="B" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17905" nodeOut="17724" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="17905" nodeOut="17725" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="17905" nodeOut="17726" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="17906" nodeOut="17905" portIn="Deactivate" portOut="Active" enabled="1"/>
+  <Edge nodeIn="17928" nodeOut="17906" portIn="Activate" portOut="Out" enabled="1"/>
+  <Edge nodeIn="17724" nodeOut="17908" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17725" nodeOut="17908" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="17726" nodeOut="17908" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="16418" nodeOut="17923" portIn="Activate" portOut="Greater" enabled="1"/>
+  <Edge nodeIn="16419" nodeOut="17923" portIn="Activate" portOut="LessEqual" enabled="1"/>
+  <Edge nodeIn="17923" nodeOut="17924" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="17924" nodeOut="17925" portIn="set" portOut="output" enabled="1"/>
+  <Edge nodeIn="17908" nodeOut="17929" portIn="in" portOut="Greater" enabled="1"/>
+  <Edge nodeIn="17457" nodeOut="17930" portIn="Trigger" portOut="Less" enabled="1"/>
+  <Edge nodeIn="17930" nodeOut="17931" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="17929" nodeOut="17932" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="17931" nodeOut="17933" portIn="set" portOut="output" enabled="1"/>
+  <Edge nodeIn="17932" nodeOut="17933" portIn="set" portOut="output" enabled="1"/>
+  <Edge nodeIn="17929" nodeOut="17934" portIn="Check" portOut="out" enabled="1"/>
+  <Edge nodeIn="17930" nodeOut="17935" portIn="Check" portOut="out" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

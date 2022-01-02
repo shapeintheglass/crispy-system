@@ -1,0 +1,15 @@
+
+<Params>
+ <AnimationList>
+  <Comment value="-------EVENT DATABASE-------"/>
+  <Animation name="$AnimEventDatabase" path="Animations\Characters\Aliens\MimicPet\MimicPet.animevents"/>
+  <Animation name="#filepath" path="animations\Cutscenes"/>
+  <Animation name="*" path="*\*\*_Mimic.caf"/>
+  <Animation name="#filepath" path="Animations\Characters\Aliens\MimicPet"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="*" path="*\*.bspace"/>
+  <Animation name="*" path="*\*.comb"/>
+  <Animation name="#filepath" path="animations\Characters\Effects"/>
+  <Animation name="*" path="*\*_Mimic.caf"/>
+ </AnimationList>
+</Params>

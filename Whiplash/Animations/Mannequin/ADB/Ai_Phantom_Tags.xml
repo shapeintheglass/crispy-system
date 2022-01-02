@@ -1,0 +1,28 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Stance">
+   <Tag name="Combat"/>
+   <Tag name="Relaxed"/>
+   <Tag name="InvestigateAnomaly"/>
+   <Tag name="InvestigateDanger"/>
+   <Tag name="InvestigateVision"/>
+   <Tag name="Hunt"/>
+  </Group>
+  <Group name="scope">
+   <Tag name="slave"/>
+  </Group>
+  <Group name="context">
+   <Tag name="context_slave_player"/>
+  </Group>
+  <Group name="Gravity">
+   <Tag name="LowG"/>
+   <Tag name="ZeroG"/>
+  </Group>
+  <Tag name="Start"/>
+  <Tag name="Middle"/>
+  <Tag name="Disable"/>
+  <Tag name="LookPose"/>
+  <Tag name="End"/>
+ </Tags>
+</TagDefinition>

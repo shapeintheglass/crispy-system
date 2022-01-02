@@ -1,0 +1,9 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Direction">
+   <Tag name="Left"/>
+   <Tag name="Right"/>
+  </Group>
+ </Tags>
+</TagDefinition>

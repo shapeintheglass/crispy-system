@@ -1,0 +1,9 @@
+
+<ArkStoreCatalog>
+ <Items>
+  <ArkStoreItem ID="13856881013266265263" Name="Pack 1" Label="@mtx_dlcpack1" Description="@mtx_dlcpack1desc" Entitlement="13856881013253628569" Rarity="1"/>
+  <ArkStoreItem ID="13856881013266420071" Name="Pack 2" Label="@mtx_dlcpack2" Description="@mtx_dlcpack2desc" Entitlement="13856881013253628593" Rarity="1"/>
+  <ArkStoreItem ID="13856881013266420074" Name="Pack 3" Label="@mtx_dlcpack3" Description="@mtx_dlcpack3desc" Entitlement="13856881013253628605" Rarity="1"/>
+  <ArkStoreItem ID="13856881013266420076" Name="Pack 4" Label="@mtx_dlcpack4" Description="@mtx_dlcpack4desc" Entitlement="13856881013253629187" Rarity="1"/>
+ </Items>
+</ArkStoreCatalog>

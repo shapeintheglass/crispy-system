@@ -1,0 +1,2011 @@
+
+<DebugLayout>
+ <pages>
+  <page label="General">
+   <attribute action="g_godmode" label="God Mode" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="Buddha" value="1"/>
+     <option label="God" value="2"/>
+    </list>
+   </attribute>
+   <attribute action="g_infiniteammo" label="Infinite Ammo" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_unlimitedPsi" label="Toggle Unlimited Psi" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_infiniteneuromods" label="Toggle Infinite Neuromods" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_disablecooldowns" label="Toggle Power Cooldowns" setOnChange="false">
+    <list>
+     <option label="Enabled" value="0"/>
+     <option label="Disabled" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_infinite_stamina" label="Toggle Infinite Stamina" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Toggle Tourist Mode" closeMenu="true">
+    <list>
+     <option label="Off" value="DisableTouristMode"/>
+     <option label="On" value="EnableTouristMode"/>
+    </list>
+   </attribute>
+   <attribute action="pl_difficulty" label="Difficulty" SetOnChange="true">
+    <list>
+     <option label="VeryEasy" value="0"/>
+     <option label="Easy" value="1"/>
+     <option label="Normal" value="2"/>
+     <option label="Hard" value="3"/>
+     <option label="Survival" value="4"/>
+    </list>
+   </attribute>
+   <attribute action="hud_tutorials" label="Tutorials" setOnChange="true">
+    <list>
+     <option label="Disabled" value="0"/>
+     <option label="Prompts Only" value="1"/>
+     <option label="Tutorials and Prompts" value="2"/>
+    </list>
+   </attribute>
+   <attribute action="pl_forcezerogmode" label="Zero G Mode" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="cl_sensitivity" label="Mouse Sensitivity">
+    <slider min="0.0002" max="0.0030" decimals="4" unit="0.0002"/>
+   </attribute>
+   <attribute action="cl_sensitivityController" label="Controller Sensitivity">
+    <slider min="2" max="12" decimals="0" unit="1"/>
+   </attribute>
+   <attribute action="cl_bobAmount" label="Camera Bob" setOnChange="true">
+    <slider min="0" max="1" decimals="2" unit=".05"/>
+   </attribute>
+   <attribute action="g_detachcamera" label="Detach Camera" setOnChange="true">
+    <list>
+     <option label="On" value="1"/>
+     <option label="Off" value="0"/>
+    </list>
+   </attribute>
+   <attribute action="t_scale" label="Time Scale (slow mo)">
+    <slider min="0" max="1" decimals="1" unit=".1"/>
+   </attribute>
+   <attribute action="ce " label="Debug world clock">
+    <list>
+     <option label="Show" value="ShowDebugToD"/>
+     <option label="Hide" value="HideDebugToD"/>
+    </list>
+   </attribute>
+   <attribute action="hud_hide" label="Toggle HUD">
+    <list>
+     <option label="Show" value="0"/>
+     <option label="Hide" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_aimAssist" label="Aim Assist">
+    <list>
+     <option label="Enabled" value="1"/>
+     <option label="Disabled" value="0"/>
+    </list>
+   </attribute>
+   <attribute action="pl_aimAssistDebug" label="Aim Assist Debug">
+    <list>
+     <option label="Enabled" value="1"/>
+     <option label="Disabled" value="0"/>
+    </list>
+   </attribute>
+   <attribute action="sig_ShowSignalModifiers" label="Signal Modifier Debug Mode">
+    <list>
+     <option label="Enabled" value="1"/>
+     <option label="Disabled" value="0"/>
+    </list>
+   </attribute>
+   <attribute action="g_disableDebugMenu" label="Debug Menu">
+    <list>
+     <option label="Enabled" value="0"/>
+     <option label="Disabled" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="es_ArkHighlightMode" label="Selection Highlight">
+    <list>
+     <option label="Disabled" value="0"/>
+     <option label="Enabled" value="1"/>
+     <option label="Enabled (Glint)" value="2"/>
+    </list>
+   </attribute>
+   <attribute action="cl_hfov" label="FOV">
+    <slider min="40" max="100" decimals="0" unit="1"/>
+   </attribute>
+   <attribute action="sys_maxfps" label="Cap FPS to">
+    <list>
+     <option label="Unlimited" value="-1; r_vsync 1"/>
+     <option label="15 FPS" value="15; r_vsync 0"/>
+     <option label="20 FPS" value="20; r_vsync 0"/>
+     <option label="30 FPS" value="30; r_vsync 0"/>
+     <option label="60 FPS" value="60; r_vsync 0"/>
+    </list>
+   </attribute>
+   <attribute action="ReloadDialogData" label="Reload Localization Text"/>
+  </page>
+  <page label="Campaign">
+   <attribute action="ce" label="Doom Clock" closeMenu="true">
+    <list>
+     <option label="On" value="startdc"/>
+     <option label="Off" value="stopdc"/>
+     <option label="Increase Level" value="incdc"/>
+    </list>
+   </attribute>
+   <attribute action="p_FlashMapFog" label="Map Fog" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="map" label="Clean load level:" closeMenu="true">
+    <list>
+     <option label="Staging Area" value="StagingArea"/>
+    </list>
+   </attribute>
+   <attribute action="map ShowpieceStaging" label="Showpiece Staging Area" closeMenu="true"/>
+   <attribute action="g_debugtimerevents" label="Fictional Time and Timer Debug">
+    <list>
+     <option label="Enabled" value="1"/>
+     <option label="Disabled" value="0"/>
+    </list>
+   </attribute>
+   <attribute action="pl_loglevelloottables" label="Log Loot Tables" setOnChange="false"/>
+   <attribute label="Objective Cheats:" closeMenu="true">
+    <list>
+     <option label="Skip Satellite Intro">
+      <subactions>
+       <subaction action="ce skipintro"/>
+      </subactions>
+     </option>
+     <option label="Skip Crater Intro">
+      <subactions>
+       <subaction action="ce skipcraterintro"/>
+       <subaction action="pl_giveCurrency 1000"/>
+      </subactions>
+     </option>
+     <option label="Skip To Escaped Once">
+      <subactions>
+       <subaction action="ce skiptofirstescape"/>
+       <subaction action="pl_giveCurrency 2000"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute label="Disable Forced Satellite Visits" closeMenu="true">
+    <list>
+     <option label="Disable Visits">
+      <subactions>
+       <subaction action="ce suppresssatellite"/>
+      </subactions>
+     </option>
+     <option label="Enable Visits">
+      <subactions>
+       <subaction action="ce unsuppresssatellite"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Display Level Hazard States" closeMenu="false">
+    <list>
+     <option label="On" value="showLevelStatesDebugMenuOn"/>
+     <option label="Off" value="showLevelStatesDebugMenuOff"/>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Level transition:" closeMenu="true">
+    <list>
+     <option label="To Crater from Transtar Labs" value="LvlTrans_TranstarA_to_Crater"/>
+     <option label="To Crater from Crew Annex" value="LvlTrans_CrewAnnex_to_Crater"/>
+     <option label="To Crater from Moonworks" value="LvlTrans_Moonworks_to_Crater"/>
+     <option label="To Transtar Labs from Tram" value="LvlTrans_Tram_to_TranstarLabs"/>
+     <option label="To Transtar Labs from Crater" value="LvlTrans_CraterA_to_TranstarLabs"/>
+     <option label="To Crew Annex from Tram" value="LvlTrans_Tram_to_CrewAnnex"/>
+     <option label="To Crew Annex from Crater" value="LvlTrans_Crater_to_CrewAnnex"/>
+     <option label="To Moonworks from Tram" value="LvlTrans_Tram_to_MoonWorks"/>
+     <option label="To Moonworks from Crater" value="LvlTrans_Crater_to_MoonWorks"/>
+     <option label="To Satellite" value="LvlTrans_Satellite"/>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Chapter skips:" closeMenu="true">
+    <list>
+     <option label="Chapter 1 (n/a)" value="Cheat_Chapter1"/>
+     <option label="Chapter 2 (n/a)" value="Cheat_Chapter2"/>
+     <option label="Chapter 3" value="Cheat_Chapter3"/>
+     <option label="Chapter 4" value="Cheat_Chapter4"/>
+    </list>
+   </attribute>
+   <attribute action="pl_collectAllData" label="Give ALL Data" closeMenu="false"/>
+  </page>
+  <page label="Player">
+   <attribute label="Unlock All Playable Characters" setOnChange="false">
+    <subactions>
+     <subaction action="pl_unlockAllChars"/>
+     <subaction action="ce unlockallplayablecharacters"/>
+    </subactions>
+   </attribute>
+   <attribute label="Unlock Playable Character" setOnChange="false">
+    <list>
+     <option label="Engineer">
+      <subactions>
+       <subaction action="pl_unlockPlayableCharacter Engineer"/>
+       <subaction action="ce unlockEngineer"/>
+      </subactions>
+     </option>
+     <option label="Director">
+      <subactions>
+       <subaction action="pl_unlockPlayableCharacter Director"/>
+       <subaction action="ce unlockDirector"/>
+      </subactions>
+     </option>
+     <option label="Security">
+      <subactions>
+       <subaction action="pl_unlockPlayableCharacter Security"/>
+       <subaction action="ce unlockSecurity"/>
+      </subactions>
+     </option>
+     <option label="Spy">
+      <subactions>
+       <subaction action="pl_unlockPlayableCharacter janitor"/>
+       <subaction action="ce unlockJanitor"/>
+      </subactions>
+     </option>
+     <option label="Volunteer">
+      <subactions>
+       <subaction action="pl_unlockPlayableCharacter volunteer"/>
+       <subaction action="ce unlockVolunteer"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Become Playable Character" closeMenu="true">
+    <list>
+     <option label="Engineer" value="setEngineer"/>
+     <option label="Director" value="setDirector"/>
+     <option label="Security" value="setSecurity"/>
+     <option label="Spy" value="setJanitor"/>
+     <option label="Volunteer" value="setVolunteer"/>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Set Playable Character Escaped Tokens" closeMenu="true">
+    <list>
+     <option label="Engineer" value="escapeAsEngineer"/>
+     <option label="Director" value="escapeAsDirector"/>
+     <option label="Security" value="escapeAsSecurity"/>
+     <option label="Spy" value="escapeAsSpy"/>
+     <option label="Volunteer" value="escapeAsVolunteer"/>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Start character side quest" closeMenu="true">
+    <list>
+     <option label="Engineer" value="EngineerQuest"/>
+     <option label="Director" value="DirectorQuest"/>
+     <option label="Security" value="SecurityQuest"/>
+     <option label="Spy" value="SpyQuest"/>
+     <option label="Volunteer" value="VolunteerQuest"/>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Complete character side quest" closeMenu="true">
+    <list>
+     <option label="Engineer" value="FinishEngineerQuest"/>
+     <option label="Director" value="FinishDirectorQuest"/>
+     <option label="Security" value="FinishSecurityQuest"/>
+     <option label="Spy" value="FinishSpyQuest"/>
+     <option label="Volunteer" value="FinishVolunteerQuest"/>
+    </list>
+   </attribute>
+   <attribute action="ce escapeAllCharacters" label="Set Escape Token for All Playable Characters" setOnChange="false"/>
+   <attribute action="ce" label="Escape Current Character" closeMenu="true">
+    <list>
+     <option label="Escape Pod" value="escapeInPod"/>
+     <option label="Shuttle" value="escapeInShuttle"/>
+     <option label="Crate" value="escapeInCrate"/>
+     <option label="Portal" value="escapeInPortal"/>
+     <option label="Brain Upload" value="escapeInUpload"/>
+    </list>
+   </attribute>
+   <attribute action="pl_unlockPsiScanning" label="Toggle Psi Scanning" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_dumpstats" label="Display All Stats (console)" setOnChange="false"/>
+   <attribute action="pl_dumpstats" label="Display Stat">
+    <datalist path="GameSDK/Ark/Player" xpath="PlayerConfig/Stats/Stat" id="name" label="name"/>
+   </attribute>
+   <attribute action="pl_health" label="Set Player Health">
+    <list>
+     <option label="10" value="100"/>
+     <option label="50" value="500"/>
+     <option label="100" value="1000"/>
+     <option label="150" value="1500"/>
+     <option label="200" value="2000"/>
+     <option label="250" value="2500"/>
+     <option label="300" value="3000"/>
+    </list>
+   </attribute>
+   <attribute action="pl_setPsiPoints" label="Set PSI Points">
+    <list>
+     <option label="10" value="10"/>
+     <option label="50" value="50"/>
+     <option label="100" value="100"/>
+     <option label="150" value="150"/>
+     <option label="200" value="200"/>
+    </list>
+   </attribute>
+   <attribute action="pl_giveCurrency" label="Give Cryptocurrency">
+    <list>
+     <option label="100" value="100"/>
+     <option label="200" value="200"/>
+     <option label="500" value="500"/>
+     <option label="1000" value="1000"/>
+    </list>
+   </attribute>
+   <attribute action="pl_enableTraumas" label="Toggle Traumas" setOnChange="true">
+    <list>
+     <option label="Disable" value="0"/>
+     <option label="Enable" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_status" label="Enable Trauma:" setOnChange="false">
+    <list>
+     <option label="Bleeding" value="Bleeding"/>
+     <option label="Burning" value="Burning"/>
+     <option label="Concussion" value="Concussion"/>
+     <option label="Crippled" value="Crippled"/>
+     <option label="Drunk" value="Drunk"/>
+     <option label="PsychoShock" value="PsychoShock"/>
+     <option label="Radiation" value="Radiation"/>
+     <option label="SuitIntegrity" value="SuitIntegrity"/>
+     <option label="Stun" value="Stun"/>
+     <option label="Poison" value="Poison"/>
+    </list>
+   </attribute>
+   <attribute action="pl_status clear" label="||CLEAR ALL TRAUMAS||"/>
+   <attribute action="" label="Refill Player Attribute:" closeMenu="false">
+    <list>
+     <option label="Everything" value="0">
+      <subactions>
+       <subaction action="pl_health 9999"/>
+       <subaction action="pl_setPsiPoints 200"/>
+       <subaction action="pl_refillOxygen"/>
+      </subactions>
+     </option>
+     <option label="Health" value="0">
+      <subactions>
+       <subaction action="pl_health 9999"/>
+      </subactions>
+     </option>
+     <option label="PSI" value="0">
+      <subactions>
+       <subaction action="pl_setPsiPoints 200"/>
+      </subactions>
+     </option>
+     <option label="Oxygen" value="0">
+      <subactions>
+       <subaction action="pl_refillOxygen"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="pl_movement.speedScale" label="Player Speed Scale">
+    <slider min="0" max="5" decimals="1" unit=".1"/>
+   </attribute>
+   <attribute action="ce PlayerIsFemale" label="Player Is Female"/>
+   <attribute action="ce PlayerIsMale" label="Player Is Male"/>
+  </page>
+  <page label="RPG">
+   <attribute action="" label="***ABILITIES***"/>
+   <attribute action="i_giveitem ArkPickups.Player.Neuromod" label="Neuromods:">
+    <list>
+     <option label="1" value="1"/>
+     <option label="5" value="5"/>
+     <option label="10" value="10"/>
+     <option label="25" value="25"/>
+    </list>
+   </attribute>
+   <attribute action="ce" label="||GIVE SPECIAL ABILITIES||" closeMenu="false">
+    <list>
+     <option label="Piloting" value="givepilot"/>
+    </list>
+   </attribute>
+   <attribute action="pl_maxSkills" label="||GIVE ALL ABILITIES||"/>
+   <attribute action="" label="Give All ||VOLUNTEER|| Abilities">
+    <subactions>
+     <subaction action="pl_grantskill 3149325216929347144"/>
+     <subaction action="pl_grantskill 3149325216929347147"/>
+     <subaction action="pl_grantskill 3149325216977824648"/>
+     <subaction action="pl_grantskill 3149325216929347148"/>
+     <subaction action="pl_grantskill 3149325216929347150"/>
+     <subaction action="pl_grantskill 3149325216929347152"/>
+     <subaction action="pl_grantskill 12348086275133482478"/>
+     <subaction action="pl_grantskill 3149325216929348629"/>
+     <subaction action="pl_grantskill 3149325216929348634"/>
+     <subaction action="pl_grantskill 3149325216929348643"/>
+     <subaction action="pl_grantskill 3149325216929348650"/>
+     <subaction action="pl_grantskill 3149325216929348386"/>
+     <subaction action="pl_grantskill 3149325216929348396"/>
+     <subaction action="pl_grantskill 3149325216929348401"/>
+     <subaction action="pl_grantskill 3149325216929348911"/>
+     <subaction action="pl_grantskill 3149325216957629675"/>
+     <subaction action="pl_grantskill 12348086275133482358"/>
+     <subaction action="pl_grantskill 3149325216929348608"/>
+     <subaction action="pl_grantskill 3149325216929348616"/>
+     <subaction action="pl_grantskill 7293080054674578299"/>
+     <subaction action="pl_grantskill 13856881013251314266"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_grantskill" label="_Unlock VOLUNTEER Ability_:">
+    <list>
+     <option label="Metabolic Boost" value="3149325216929347144"/>
+     <option label="Neurostimulant I" value="3149325216929347147"/>
+     <option label="Neurostimulant II" value="3149325216977824648"/>
+     <option label="Psionic Aptitude I" value="3149325216929347148"/>
+     <option label="Psionic Aptitude II" value="3149325216929347150"/>
+     <option label="Psionic Aptitude III" value="3149325216929347152"/>
+     <option label="Kinetic Blast I" value="12348086275133482478"/>
+     <option label="Kinetic Blast II" value="3149325216929348629"/>
+     <option label="Kinetic Blast III" value="3149325216929348634"/>
+     <option label="Lift I" value="3149325216929348643"/>
+     <option label="Lift II" value="3149325216929348650"/>
+     <option label="Superthermal I" value="3149325216929348386"/>
+     <option label="Superthermal II" value="3149325216929348396"/>
+     <option label="Superthermal III" value="3149325216929348401"/>
+     <option label="Regeneration I" value="3149325216929348911"/>
+     <option label="Regeneration II" value="3149325216957629675"/>
+     <option label="Backlash I" value="12348086275133482358"/>
+     <option label="Backlash II" value="3149325216929348608"/>
+     <option label="Backlash III" value="3149325216929348616"/>
+     <option label="Burrow I" value="7293080054674578299"/>
+     <option label="Burrow II" value="13856881013251314266"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Give All ||DIRECTOR|| Abilities">
+    <subactions>
+     <subaction action="pl_unlockPsiScanning 1"/>
+     <subaction action="pl_grantskill 3149325216929346740"/>
+     <subaction action="pl_grantskill 3149325216929347147"/>
+     <subaction action="pl_grantskill 3149325216977824648"/>
+     <subaction action="pl_grantskill 3149325216929347148"/>
+     <subaction action="pl_grantskill 3149325216929347150"/>
+     <subaction action="pl_grantskill 3149325216929347152"/>
+     <subaction action="pl_grantskill 3149325216929347153"/>
+     <subaction action="pl_grantskill 3149325216929347155"/>
+     <subaction action="pl_grantskill 3149325216929347156"/>
+     <subaction action="pl_grantskill 3149325216929347556"/>
+     <subaction action="pl_grantskill 3149325216929347559"/>
+     <subaction action="pl_grantskill 3149325216929347561"/>
+     <subaction action="pl_grantskill 3149325216929348919"/>
+     <subaction action="pl_grantskill 3149325216929348928"/>
+     <subaction action="pl_grantskill 12348086275133481882"/>
+     <subaction action="pl_grantskill 12348086275133482182"/>
+     <subaction action="pl_grantskill 3149325216929348778"/>
+     <subaction action="pl_grantskill 3149325216929349159"/>
+     <subaction action="pl_grantskill 3149325216929349114"/>
+     <subaction action="pl_grantskill 3149325216929349124"/>
+     <subaction action="pl_grantskill 3149325216929349128"/>
+     <subaction action="pl_grantskill 3149325216929349177"/>
+     <subaction action="pl_grantskill 3149325216929349169"/>
+     <subaction action="pl_grantskill 3149325216929348807"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_grantskill" label="_Unlock DIRECTOR Ability_:">
+    <list>
+     <option label="Necropsy" value="3149325216929346740"/>
+     <option label="Neurostimulant I" value="3149325216929347147"/>
+     <option label="Neurostimulant II" value="3149325216977824648"/>
+     <option label="Psionic Aptitude I" value="3149325216929347148"/>
+     <option label="Psionic Aptitude II" value="3149325216929347150"/>
+     <option label="Psionic Aptitude III" value="3149325216929347152"/>
+     <option label="Psychotronics I" value="3149325216929347153"/>
+     <option label="Psychotronics II" value="3149325216929347155"/>
+     <option label="Psychotronics III" value="3149325216929347156"/>
+     <option label="Stealth I" value="3149325216929347556"/>
+     <option label="Stealth II" value="3149325216929347559"/>
+     <option label="Stealth III" value="3149325216929347561"/>
+     <option label="Phantom Genesis I" value="3149325216929348919"/>
+     <option label="Phantom Genesis II" value="3149325216929348928"/>
+     <option label="Mimic Matter I" value="12348086275133481882"/>
+     <option label="Mimic Matter II" value="12348086275133482182"/>
+     <option label="Mimic Matter III" value="3149325216929348778"/>
+     <option label="Fear Resistance" value="3149325216929349159"/>
+     <option label="Psychoshock I" value="3149325216929349114"/>
+     <option label="Psychoshock II" value="3149325216929349124"/>
+     <option label="Psychoshock III" value="3149325216929349128"/>
+     <option label="Mindjack I" value="3149325216929349177"/>
+     <option label="Mindjack II" value="3149325216929349169"/>
+     <option label="Mindjack III" value="3149325216929348807"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Give All ||ENGINEER|| Abilities">
+    <subactions>
+     <subaction action="pl_grantskill 3149325216929347161"/>
+     <subaction action="pl_grantskill 3149325216929347163"/>
+     <subaction action="pl_grantskill 3149325216929347167"/>
+     <subaction action="pl_grantskill 3149325216929347172"/>
+     <subaction action="pl_grantskill 3149325216929347329"/>
+     <subaction action="pl_grantskill 3149325216929347333"/>
+     <subaction action="pl_grantskill 3149325216929347335"/>
+     <subaction action="pl_grantskill 3149325216957631045"/>
+     <subaction action="pl_grantskill 3149325216929347318"/>
+     <subaction action="pl_grantskill 3149325216929347322"/>
+     <subaction action="pl_grantskill 3149325216929347327"/>
+     <subaction action="pl_grantskill 13856881013250691703"/>
+     <subaction action="pl_grantskill 3149325216929348752"/>
+     <subaction action="pl_grantskill 3149325216929348761"/>
+     <subaction action="pl_grantskill 3149325216929348766"/>
+     <subaction action="pl_grantskill 3149325216929348280"/>
+     <subaction action="pl_grantskill 3149325216929348297"/>
+     <subaction action="pl_grantskill 3149325216929348303"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_grantskill" label="_Unlock ENGINEER Ability_:">
+    <list>
+     <option label="Repair I" value="3149325216929347161"/>
+     <option label="Repair II" value="3149325216929347163"/>
+     <option label="Repair III" value="3149325216929347167"/>
+     <option label="Dismantle" value="3149325216929347172"/>
+     <option label="Suit Modification I" value="3149325216929347329"/>
+     <option label="Suit Modification II" value="3149325216929347333"/>
+     <option label="Suit Modification III" value="3149325216929347335"/>
+     <option label="Materials Expert" value="3149325216957631045"/>
+     <option label="Wrench Fu I" value="3149325216929347318"/>
+     <option label="Wrench Fu II" value="3149325216929347322"/>
+     <option label="Pulverize" value="3149325216929347327"/>
+     <option label="Reverse Engineer" value="13856881013250691703"/>
+     <option label="Machine Mind I" value="3149325216929348752"/>
+     <option label="Machine Mind II" value="3149325216929348761"/>
+     <option label="Machine Mind III" value="3149325216929348766"/>
+     <option label="Electrostatic Burst I" value="3149325216929348280"/>
+     <option label="Electrostatic Burst II" value="3149325216929348297"/>
+     <option label="Electrostatic Burst III" value="3149325216929348303"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Give all ||SECURITY|| Abilities">
+    <subactions>
+     <subaction action="pl_grantskill 3149325216929347337"/>
+     <subaction action="pl_grantskill 3149325216929347338"/>
+     <subaction action="pl_grantskill 3149325216951898868"/>
+     <subaction action="pl_grantskill 3149325216979649415"/>
+     <subaction action="pl_grantskill 3149325216979649412"/>
+     <subaction action="pl_grantskill 3149325216964528002"/>
+     <subaction action="pl_grantskill 3149325216929347520"/>
+     <subaction action="pl_grantskill 3149325216929347518"/>
+     <subaction action="pl_grantskill 3149325216929347516"/>
+     <subaction action="pl_grantskill 3149325216964511506"/>
+     <subaction action="pl_grantskill 3149325216964516907"/>
+     <subaction action="pl_grantskill 3149325216929347345"/>
+     <subaction action="pl_grantskill 3149325216929347498"/>
+     <subaction action="pl_grantskill 3149325216929346737"/>
+     <subaction action="pl_grantskill 3149325216929346738"/>
+     <subaction action="pl_grantskill 3149325216928599448"/>
+     <subaction action="pl_grantskill 3149325216928599824"/>
+     <subaction action="pl_grantskill 3149325216933436173"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_grantskill" label="_Unlock SECURITY Ability_:">
+    <list>
+     <option label="Firearms I" value="3149325216929347337"/>
+     <option label="Firearms II" value="3149325216929347338"/>
+     <option label="Combat Focus I" value="3149325216951898868"/>
+     <option label="Combat Focus II" value="3149325216979649415"/>
+     <option label="Combat Focus III" value="3149325216979649412"/>
+     <option label="Conditioning" value="3149325216964528002"/>
+     <option label="Toughness I" value="3149325216929347520"/>
+     <option label="Toughness II" value="3149325216929347518"/>
+     <option label="Toughness III" value="3149325216929347516"/>
+     <option label="Stamina I" value="3149325216964511506"/>
+     <option label="Stamina II" value="3149325216964516907"/>
+     <option label="Mobility I" value="3149325216929347345"/>
+     <option label="Mobility II" value="3149325216929347498"/>
+     <option label="Combat Medic I" value="3149325216929346737"/>
+     <option label="Combat Medic II" value="3149325216929346738"/>
+     <option label="Leverage I" value="3149325216928599448"/>
+     <option label="Leverage II" value="3149325216928599824"/>
+     <option label="Leverage III" value="3149325216933436173"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Give all ||JANITOR|| Abilities">
+    <subactions>
+     <subaction action="pl_grantskill 13856881013250698026"/>
+     <subaction action="pl_grantskill 13856881013250698273"/>
+     <subaction action="pl_grantskill 13856881013250698355"/>
+     <subaction action="pl_grantskill 12348086275133481755"/>
+     <subaction action="pl_grantskill 12348086275133481459"/>
+     <subaction action="pl_grantskill 3149325216928600147"/>
+     <subaction action="pl_grantskill 3149325216928600154"/>
+     <subaction action="pl_grantskill 3149325216929347345"/>
+     <subaction action="pl_grantskill 3149325216929347498"/>
+     <subaction action="pl_grantskill 3149325216929347556"/>
+     <subaction action="pl_grantskill 3149325216929347559"/>
+     <subaction action="pl_grantskill 3149325216929347561"/>
+     <subaction action="pl_grantskill 3149325216929347574"/>
+     <subaction action="pl_grantskill 3149325216957629639"/>
+     <subaction action="pl_grantskill 3149325216929348589"/>
+     <subaction action="pl_grantskill 3149325216929348687"/>
+     <subaction action="pl_grantskill 3149325216929348694"/>
+     <subaction action="pl_grantskill 3149325216929348840"/>
+     <subaction action="pl_grantskill 3149325216929348853"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_grantskill" label="_Unlock JANITOR Ability_:">
+    <list>
+     <option label="Psi Sword I" value="13856881013250698026"/>
+     <option label="Psi Sword II" value="13856881013250698273"/>
+     <option label="Psi Sword III" value="13856881013250698355"/>
+     <option label="Hacking I" value="12348086275133481755"/>
+     <option label="Hacking II" value="12348086275133481459"/>
+     <option label="Hacking III" value="3149325216928600147"/>
+     <option label="Hacking IV" value="3149325216928600154"/>
+     <option label="Mobility I" value="3149325216929347345"/>
+     <option label="Mobility II" value="3149325216929347498"/>
+     <option label="Stealth I" value="3149325216929347556"/>
+     <option label="Stealth II" value="3149325216929347559"/>
+     <option label="Stealth III" value="3149325216929347561"/>
+     <option label="Sneak Attack I" value="3149325216929347574"/>
+     <option label="Sneak Attack II" value="3149325216957629639"/>
+     <option label="Remote Manipulation I" value="3149325216929348589"/>
+     <option label="Remote Manipulation II" value="3149325216929348687"/>
+     <option label="Remote Manipulation III" value="3149325216929348694"/>
+     <option label="Shift I" value="3149325216929348840"/>
+     <option label="Shift II" value="3149325216929348853"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Give All ||PSIONIC|| Abilities">
+    <subactions>
+     <subaction action="pl_grantskill 12348086275133482478"/>
+     <subaction action="pl_grantskill 3149325216929348629"/>
+     <subaction action="pl_grantskill 3149325216929348634"/>
+     <subaction action="pl_grantskill 3149325216929348280"/>
+     <subaction action="pl_grantskill 3149325216929348297"/>
+     <subaction action="pl_grantskill 3149325216929348303"/>
+     <subaction action="pl_grantskill 3149325216929348643"/>
+     <subaction action="pl_grantskill 3149325216929348650"/>
+     <subaction action="pl_grantskill 3149325216929348386"/>
+     <subaction action="pl_grantskill 3149325216929348396"/>
+     <subaction action="pl_grantskill 3149325216929348401"/>
+     <subaction action="pl_grantskill 12348086275133481882"/>
+     <subaction action="pl_grantskill 12348086275133482182"/>
+     <subaction action="pl_grantskill 3149325216929348778"/>
+     <subaction action="pl_grantskill 3149325216929348911"/>
+     <subaction action="pl_grantskill 3149325216957629675"/>
+     <subaction action="pl_grantskill 3149325216929348840"/>
+     <subaction action="pl_grantskill 3149325216929348853"/>
+     <subaction action="pl_grantskill 3149325216929348919"/>
+     <subaction action="pl_grantskill 3149325216929348928"/>
+     <subaction action="pl_grantskill 12348086275133482358"/>
+     <subaction action="pl_grantskill 3149325216929348608"/>
+     <subaction action="pl_grantskill 3149325216929348616"/>
+     <subaction action="pl_grantskill 3149325216929349159"/>
+     <subaction action="pl_grantskill 3149325216929349114"/>
+     <subaction action="pl_grantskill 3149325216929349124"/>
+     <subaction action="pl_grantskill 3149325216929349128"/>
+     <subaction action="pl_grantskill 3149325216929349177"/>
+     <subaction action="pl_grantskill 3149325216929349169"/>
+     <subaction action="pl_grantskill 3149325216929348807"/>
+     <subaction action="pl_grantskill 3149325216929348589"/>
+     <subaction action="pl_grantskill 3149325216929348687"/>
+     <subaction action="pl_grantskill 3149325216929348694"/>
+     <subaction action="pl_grantskill 3149325216929348752"/>
+     <subaction action="pl_grantskill 3149325216929348761"/>
+     <subaction action="pl_grantskill 3149325216929348766"/>
+    </subactions>
+   </attribute>
+   <attribute action="" label="Give All ||ENERGY|| Abilities">
+    <subactions>
+     <subaction action="pl_grantskill 12348086275133482478"/>
+     <subaction action="pl_grantskill 3149325216929348629"/>
+     <subaction action="pl_grantskill 3149325216929348634"/>
+     <subaction action="pl_grantskill 3149325216929348280"/>
+     <subaction action="pl_grantskill 3149325216929348297"/>
+     <subaction action="pl_grantskill 3149325216929348303"/>
+     <subaction action="pl_grantskill 3149325216929348643"/>
+     <subaction action="pl_grantskill 3149325216929348650"/>
+     <subaction action="pl_grantskill 3149325216929348386"/>
+     <subaction action="pl_grantskill 3149325216929348396"/>
+     <subaction action="pl_grantskill 3149325216929348401"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_grantskill" label="_Unlock ENERGY Ability_:">
+    <list>
+     <option label="Kinetic Blast I" value="12348086275133482478"/>
+     <option label="Kinetic Blast II" value="3149325216929348629"/>
+     <option label="Kinetic Blast III" value="3149325216929348634"/>
+     <option label="Electrostatic Burst I" value="3149325216929348280"/>
+     <option label="Electrostatic Burst II" value="3149325216929348297"/>
+     <option label="Electrostatic Burst III" value="3149325216929348303"/>
+     <option label="Lift I" value="3149325216929348643"/>
+     <option label="Lift II" value="3149325216929348650"/>
+     <option label="Superthermal I" value="3149325216929348386"/>
+     <option label="Superthermal II" value="3149325216929348396"/>
+     <option label="Superthermal III" value="3149325216929348401"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Give All ||MORPH|| Abilities">
+    <subactions>
+     <subaction action="pl_grantskill 7293080054674578299"/>
+     <subaction action="pl_grantskill 13856881013251314266"/>
+     <subaction action="pl_grantskill 12348086275133481882"/>
+     <subaction action="pl_grantskill 12348086275133482182"/>
+     <subaction action="pl_grantskill 3149325216929348778"/>
+     <subaction action="pl_grantskill 3149325216929348911"/>
+     <subaction action="pl_grantskill 3149325216957629675"/>
+     <subaction action="pl_grantskill 3149325216929348840"/>
+     <subaction action="pl_grantskill 3149325216929348853"/>
+     <subaction action="pl_grantskill 3149325216929348919"/>
+     <subaction action="pl_grantskill 3149325216929348928"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_grantskill" label="_Unlock MORPH Ability_:">
+    <list>
+     <option label="Burrow I" value="7293080054674578299"/>
+     <option label="Burrow II" value="13856881013251314266"/>
+     <option label="Mimic Matter I" value="12348086275133481882"/>
+     <option label="Mimic Matter II" value="12348086275133482182"/>
+     <option label="Mimic Matter III" value="3149325216929348778"/>
+     <option label="Regeneration I" value="3149325216929348911"/>
+     <option label="Regeneration II" value="3149325216957629675"/>
+     <option label="Programmed Double I" value="3149325216929348840"/>
+     <option label="Programmed Double II" value="3149325216929348853"/>
+     <option label="Phantom Genesis I" value="3149325216929348919"/>
+     <option label="Phantom Genesis II" value="3149325216929348928"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Give All ||TELEPATHY|| Abilities">
+    <subactions>
+     <subaction action="pl_grantskill 12348086275133482358"/>
+     <subaction action="pl_grantskill 3149325216929348608"/>
+     <subaction action="pl_grantskill 3149325216929348616"/>
+     <subaction action="pl_grantskill 3149325216929349159"/>
+     <subaction action="pl_grantskill 3149325216929349114"/>
+     <subaction action="pl_grantskill 3149325216929349124"/>
+     <subaction action="pl_grantskill 3149325216929349128"/>
+     <subaction action="pl_grantskill 3149325216929349177"/>
+     <subaction action="pl_grantskill 3149325216929349169"/>
+     <subaction action="pl_grantskill 3149325216929348807"/>
+     <subaction action="pl_grantskill 3149325216929348589"/>
+     <subaction action="pl_grantskill 3149325216929348687"/>
+     <subaction action="pl_grantskill 3149325216929348694"/>
+     <subaction action="pl_grantskill 3149325216929348752"/>
+     <subaction action="pl_grantskill 3149325216929348761"/>
+     <subaction action="pl_grantskill 3149325216929348766"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_grantskill" label="_Unlock TELEPATHY Ability_:">
+    <list>
+     <option label="Backlash I" value="12348086275133482358"/>
+     <option label="Backlash II" value="3149325216929348608"/>
+     <option label="Backlash III" value="3149325216929348616"/>
+     <option label="Fear Resistance" value="3149325216929349159"/>
+     <option label="Psychoshock I" value="3149325216929349114"/>
+     <option label="Psychoshock II" value="3149325216929349124"/>
+     <option label="Psychoshock III" value="3149325216929349128"/>
+     <option label="Mindjack I" value="3149325216929349177"/>
+     <option label="Mindjack II" value="3149325216929349169"/>
+     <option label="Mindjack III" value="3149325216929348807"/>
+     <option label="Remote Manipulation I" value="3149325216929348589"/>
+     <option label="Remote Manipulation II" value="3149325216929348687"/>
+     <option label="Remote Manipulation III" value="3149325216929348694"/>
+     <option label="Machine Mind I" value="3149325216929348752"/>
+     <option label="Machine Mind II" value="3149325216929348761"/>
+     <option label="Machine Mind III" value="3149325216929348766"/>
+    </list>
+   </attribute>
+   <attribute action="pl_minSkills" label="||RESET ALL ABILITIES||"/>
+   <attribute action="" label="***RESEARCH***"/>
+   <attribute action="pl_completeResearchTopics" label="|Unlock All Research|"/>
+   <attribute action="pl_incrementResearchTopicScanCount" label="Unlock Research:">
+    <list>
+     <option value="Cyberkinesis"/>
+     <option value="DrainHealth"/>
+     <option value="DrainPsi"/>
+     <option value="ElectroStaticBurst"/>
+     <option value="EtherHazard"/>
+     <option value="Fear"/>
+     <option value="Flare"/>
+     <option value="Hypnosis"/>
+     <option value="KineticBlast"/>
+     <option value="KineticShield"/>
+     <option value="Lift"/>
+     <option value="Mimic"/>
+     <option value="MindBlast"/>
+     <option value="ThermalBlast"/>
+    </list>
+   </attribute>
+  </page>
+  <page label="Items">
+   <attribute action="i_giveitem ArkPickups.Player.ZeroGSuit" label="Give ZeroGSuit"/>
+   <attribute action="i_giveitem ArkPickups.Player.Psychoscope" label="Give Psychoscope"/>
+   <attribute action="i_giveitem" label="Give Item:">
+    <list>
+     <option label="Food" value="ArkPickups.Food.FuD"/>
+     <option label="MedKit" value="ArkPickups.Medical.MedKit"/>
+     <option label="NeuroMod" value="ArkPickups.Player.Neuromod"/>
+     <option label="Oxygen Bottle" value="ArkPickups.Player.O2Bottle"/>
+     <option label="PSI Hypo" value="ArkPickups.Medical.PsiHypo"/>
+     <option label="Spare Parts" value="ArkPickups.Misc.SpareParts"/>
+     <option label="Suit Patch Kit" value="ArkPickups.Player.SuitPatchKit"/>
+     <option label="Time Shard" value="ArkPickups.Misc.TimeShard"/>
+     <option label="Control Module" value="ArkPickups.Misc.CondenserCell"/>
+    </list>
+   </attribute>
+   <attribute action="pl_collectRandomDataLoot 10641886185883452793" label="Give Random Fab Plans">
+    <list>
+     <option label="5" value="5"/>
+     <option label="10" value="10"/>
+     <option label="15" value="15"/>
+    </list>
+   </attribute>
+   <attribute action="pl_collectRandomDataLoot 10641886185891322598" label="Give Random Chipsets">
+    <list>
+     <option label="5" value="5"/>
+     <option label="10" value="10"/>
+     <option label="15" value="15"/>
+    </list>
+   </attribute>
+   <attribute label="Give Pet:">
+    <list>
+     <option label="Mimic Pet (Purchase)">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Player.PetMimicSpawner"/>
+       <subaction action="sys_entitlement_grant 10739735956182803545"/>
+      </subactions>
+     </option>
+     <option label="Operator Pet (Purchase)">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Player.PetOperatorSpawner"/>
+       <subaction action="sys_entitlement_grant 10739735956182803559"/>
+      </subactions>
+     </option>
+     <option label="Turret Pet">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Player.PetTurretSpawner"/>
+       <subaction action="pl_grantskill 13680621263446823611"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="" label="Give All ||Pharma||">
+    <subactions>
+     <subaction action="i_giveitem ArkPickups.Medical.TraumaPharmas.AntiBleed"/>
+     <subaction action="i_giveitem ArkPickups.Medical.TraumaPharmas.AntiBurn"/>
+     <subaction action="i_giveitem ArkPickups.Medical.TraumaPharmas.AntiConcussion"/>
+     <subaction action="i_giveitem ArkPickups.Medical.TraumaPharmas.AntiCripple"/>
+     <subaction action="i_giveitem ArkPickups.Medical.TraumaPharmas.AntiRad"/>
+    </subactions>
+   </attribute>
+   <attribute action="i_giveitem" label="Give Pharma:">
+    <list>
+     <option label="AntiBleed" value="ArkPickups.Medical.TraumaPharmas.AntiBleed"/>
+     <option label="AntiBurn" value="ArkPickups.Medical.TraumaPharmas.AntiBurn"/>
+     <option label="AntiConcussion" value="ArkPickups.Medical.TraumaPharmas.AntiConcussion"/>
+     <option label="AntiCripple" value="ArkPickups.Medical.TraumaPharmas.AntiCripple"/>
+     <option label="AntiRad" value="ArkPickups.Medical.TraumaPharmas.AntiRad"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Give All ||Chipsets||">
+    <subactions>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.BuffControlPowers"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.BuffDamagePowers"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.CritChancePlus10_GunsmithWeapons"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.CurrencyMultiplier"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.DecreaseTraumaChance"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.EnhancedPSI"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.FearBombFearResist"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.FreeCastFasterCooldown"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.HeavyAssist"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.IncreaseMaxHPAndStamina"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.LastChance"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.MechTechs"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.PhantomCorpseInhibitor"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.PropulsionUpgrade_I"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.ReducePsiPowersCosts"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.ResistElementalDamage"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.SneakAttackRestoreHealthAndPSI"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.SpendHealthAsPSI"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.SuitIntegrityBuff"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.SuitOxygenBuff"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.Triathlete"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.Ultrashield"/>
+     <subaction action="i_giveitem ArkPickups.Mods.Suit.WrenchKnockback"/>
+    </subactions>
+   </attribute>
+   <attribute action="i_giveitem" label="Give Chipset:">
+    <list>
+     <option label="BuffControlPowers" value="i_giveitem ArkPickups.Mods.Suit.BuffControlPowers"/>
+     <option label="BuffDamagePowers" value="i_giveitem ArkPickups.Mods.Suit.BuffDamagePowers"/>
+     <option label="CritChancePlus10" value="i_giveitem ArkPickups.Mods.Suit.CritChancePlus10_GunsmithWeapons"/>
+     <option label="CurrencyMultiplier" value="i_giveitem ArkPickups.Mods.Suit.CurrencyMultiplier"/>
+     <option label="DecreaseTraumaChance" value="i_giveitem ArkPickups.Mods.Suit.DecreaseTraumaChance"/>
+     <option label="EnhancedPSI" value="i_giveitem ArkPickups.Mods.Suit.EnhancedPSI"/>
+     <option label="FearBombFearResist" value="i_giveitem ArkPickups.Mods.Suit.FearBombFearResist"/>
+     <option label="FreeCastFasterCooldown" value="i_giveitem ArkPickups.Mods.Suit.FreeCastFasterCooldown"/>
+     <option label="HeavyAssist" value="i_giveitem ArkPickups.Mods.Suit.HeavyAssist"/>
+     <option label="IncreaseMaxHPAndStamina" value="i_giveitem ArkPickups.Mods.Suit.IncreaseMaxHPAndStamina"/>
+     <option label="LastChance" value="i_giveitem ArkPickups.Mods.Suit.LastChance"/>
+     <option label="MechTechs" value="i_giveitem ArkPickups.Mods.Suit.MechTechs"/>
+     <option label="PhantomCorpseInhibitor" value="i_giveitem ArkPickups.Mods.Suit.PhantomCorpseInhibitor"/>
+     <option label="PropulsionUpgrade_I" value="i_giveitem ArkPickups.Mods.Suit.PropulsionUpgrade_I"/>
+     <option label="ReducePsiPowersCosts" value="i_giveitem ArkPickups.Mods.Suit.ReducePsiPowersCosts"/>
+     <option label="ResistElementalDamage" value="i_giveitem ArkPickups.Mods.Suit.ResistElementalDamage"/>
+     <option label="SneakAttackRestoreHealthAndPSI" value="i_giveitem ArkPickups.Mods.Suit.SneakAttackRestoreHealthAndPSI"/>
+     <option label="SpendHealthAsPSI" value="i_giveitem ArkPickups.Mods.Suit.SpendHealthAsPSI"/>
+     <option label="SuitIntegrityBuff" value="i_giveitem ArkPickups.Mods.Suit.SuitIntegrityBuff"/>
+     <option label="SuitOxygenBuff" value="i_giveitem ArkPickups.Mods.Suit.SuitOxygenBuff"/>
+     <option label="Triathlete" value="i_giveitem ArkPickups.Mods.Suit.Triathlete"/>
+     <option label="Ultrashield" value="i_giveitem ArkPickups.Mods.Suit.Ultrashield"/>
+     <option label="WrenchKnockback" value="i_giveitem ArkPickups.Mods.Suit.WrenchKnockback"/>
+    </list>
+   </attribute>
+   <attribute action="i_giveitem" label="Give Crafting Ingredient:">
+    <list>
+     <option label="Organic" value="ArkPickups.Crafting.Ingredients.Organic 100"/>
+     <option label="Mineral" value="ArkPickups.Crafting.Ingredients.Mineral 100"/>
+     <option label="Synthetic" value="ArkPickups.Crafting.Ingredients.Synthetic 100"/>
+     <option label="Exotic" value="ArkPickups.Crafting.Ingredients.Exotic 100"/>
+    </list>
+   </attribute>
+   <attribute action="" label="***Fabrication Plans***"/>
+   <attribute action="" label="Give All ||Fabrication Plans||">
+    <subactions>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Ammo.GooGunAmmoFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Ammo.LaserAmmoFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Ammo.PistolAmmoFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Ammo.ShotgunShellsFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Ammo.StunGunAmmoFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Ammo.ToyGunAmmoFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Charge.AlienLureFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Charge.EMPGrenadesFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Charge.NullwaveTransmitterFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Charge.RecyclerGrenadeFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Charge.GlooGrenadeFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Charge.ApexSporeFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Weapon.GooGunFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Weapon.InstalaserFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Weapon.PistolFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Weapon.ShotgunFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Weapon.TaserPistolFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Weapon.ToyGunFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Weapon.WrenchFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Weapon.SwordFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.MedKitFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.NeuromodFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.SuitMaint.OxygenBottleFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.PropulsionSystemFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.PsiHypoFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.SuitMaint.SuitPatchKitFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.PsychoscopeFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.TurretFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.LaserTurretFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.GlooTurretFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBleedFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBurnFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiConcussionFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiCrippleFabPlan"/>
+     <subaction action="i_giveitem ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiRadFabPlan"/>
+    </subactions>
+   </attribute>
+   <attribute action="i_giveitem" label="Give TURRET Fabrication Plan:">
+    <list>
+     <option label="Normal Turret" value="ArkPickups.Crafting.FabricationPlans.TurretFabPlan"/>
+     <option label="Laser Turret" value="ArkPickups.Crafting.FabricationPlans.LaserTurretFabPlan"/>
+     <option label="Gloo Turret" value="ArkPickups.Crafting.FabricationPlans.GlooTurretFabPlan"/>
+    </list>
+   </attribute>
+   <attribute action="i_giveitem" label="Give AMMO Fabrication Plan:">
+    <list>
+     <option label="Goo Gun Ammo" value="ArkPickups.Crafting.FabricationPlans.Ammo.GooGunAmmoFabPlan"/>
+     <option label="Laser Ammo" value="ArkPickups.Crafting.FabricationPlans.Ammo.LaserAmmoFabPlan"/>
+     <option label="Pistol Ammo" value="ArkPickups.Crafting.FabricationPlans.Ammo.PistolAmmoFabPlan"/>
+     <option label="Random Ammo Plan" value="ArkPickups.Crafting.FabricationPlans.Ammo.Random"/>
+     <option label="Shotgun Shells" value="ArkPickups.Crafting.FabricationPlans.Ammo.ShotgunShellsFabPlan"/>
+     <option label="Stun Gun Ammo" value="ArkPickups.Crafting.FabricationPlans.Ammo.StunGunAmmoFabPlan"/>
+     <option label="Toy Gun Ammo" value="ArkPickups.Crafting.FabricationPlans.Ammo.ToyGunAmmoFabPlan"/>
+    </list>
+   </attribute>
+   <attribute action="i_giveitem" label="Give GRENADE Fabrication Plan:">
+    <list>
+     <option label="Alien Lure" value="ArkPickups.Crafting.FabricationPlans.Charge.AlienLureFabPlan"/>
+     <option label="EMP Grenade" value="ArkPickups.Crafting.FabricationPlans.Charge.EMPGrenadesFabPlan"/>
+     <option label="Nullwave Transmitter" value="ArkPickups.Crafting.FabricationPlans.Charge.NullwaveTransmitterFabPlan"/>
+     <option label="Recycler Grenade" value="ArkPickups.Crafting.FabricationPlans.Charge.RecyclerGrenadeFabPlan"/>
+     <option label="Gloo Grenade" value="ArkPickups.Crafting.FabricationPlans.Charge.GlooGrenadeFabPlan"/>
+     <option label="Apex Spore" value="ArkPickups.Crafting.FabricationPlans.Charge.ApexSporeFabPlan"/>
+     <option label="Random Grenade Plan" value="ArkPickups.Crafting.FabricationPlans.Charge.Random"/>
+    </list>
+   </attribute>
+   <attribute action="i_giveitem" label="Give WEAPON Fabrication Plan:">
+    <list>
+     <option label="Goo Gun" value="ArkPickups.Crafting.FabricationPlans.Weapon.GooGunFabPlan"/>
+     <option label="Instalaser" value="ArkPickups.Crafting.FabricationPlans.Weapon.InstalaserFabPlan"/>
+     <option label="Pistol" value="ArkPickups.Crafting.FabricationPlans.Weapon.PistolFabPlan"/>
+     <option label="Shotgun" value="ArkPickups.Crafting.FabricationPlans.Weapon.ShotgunFabPlan"/>
+     <option label="Stun Gun" value="ArkPickups.Crafting.FabricationPlans.Weapon.TaserPistolFabPlan"/>
+     <option label="Toy Gun" value="ArkPickups.Crafting.FabricationPlans.Weapon.ToyGunFabPlan"/>
+     <option label="Wrench" value="ArkPickups.Crafting.FabricationPlans.Weapon.WrenchFabPlan"/>
+     <option label="Sword" value="ArkPickups.Crafting.FabricationPlans.Weapon.SwordFabPlan"/>
+     <option label="Random Weapon" value="ArkPickups.Crafting.FabricationPlans.Weapon.Random"/>
+    </list>
+   </attribute>
+   <attribute action="i_giveitem" label="Give MISSION ITEM Fabrication Plan:">
+    <list/>
+   </attribute>
+   <attribute action="i_giveitem" label="Give MISC Fabrication Plan:">
+    <list>
+     <option label="Med Kit" value="ArkPickups.Crafting.FabricationPlans.MedKitFabPlan"/>
+     <option label="Neuromod" value="ArkPickups.Crafting.FabricationPlans.NeuromodFabPlan"/>
+     <option label="Oxygen Bottle" value="ArkPickups.Crafting.FabricationPlans.SuitMaint.OxygenBottleFabPlan"/>
+     <option label="Propulsion System" value="ArkPickups.Crafting.FabricationPlans.PropulsionSystemFabPlan"/>
+     <option label="Psi Hypo" value="ArkPickups.Crafting.FabricationPlans.PsiHypoFabPlan"/>
+     <option label="Suit Patch Kit" value="ArkPickups.Crafting.FabricationPlans.SuitMaint.SuitPatchKitFabPlan"/>
+     <option label="Psychoscope" value="ArkPickups.Crafting.FabricationPlans.PsychoscopeFabPlan"/>
+    </list>
+   </attribute>
+   <attribute action="i_giveitem" label="Give PHARMA Fabrication Plan:">
+    <list>
+     <option label="AntiBleed" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBleedFabPlan"/>
+     <option label="AntiBurn" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBurnFabPlan"/>
+     <option label="AntiConcussion" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiConcussionFabPlan"/>
+     <option label="AntiCripple" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiCrippleFabPlan"/>
+     <option label="AntiHazard" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntihazardFabPlan"/>
+     <option label="AntiPhysicalDamage" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiPhysicalDamageFabPlan"/>
+     <option label="AntiRad" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiRadFabPlan"/>
+     <option label="RepairBoost" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaRepairBoostFabPlan"/>
+     <option label="StrengthEnhancer" value="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaStrengthEnhancerFabPlan"/>
+     <option label="Random Pharma" value="ArkPickups.Crafting.FabricationPlans.Pharma.Random"/>
+    </list>
+   </attribute>
+   <attribute action="i_giveequipmentpack Empty" label="Clear Inventory"/>
+  </page>
+  <page label="Weapons">
+   <attribute action="" label="Give Weapon:">
+    <list>
+     <option label="Wrench" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.Wrench 1"/>
+      </subactions>
+     </option>
+     <option label="Wrench" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.Sword 1"/>
+      </subactions>
+     </option>
+     <option label="Sword" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.Sword 1"/>
+      </subactions>
+     </option>
+     <option label="Shotgun" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.Shotgun 1"/>
+       <subaction action="i_giveitem ArkPickups.Ammo.ShotgunShells 8"/>
+      </subactions>
+     </option>
+     <option label="Goo Gun" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.GooGun 1"/>
+       <subaction action="i_giveitem ArkPickups.Ammo.GooGun 72"/>
+      </subactions>
+     </option>
+     <option label="Instalaser" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.InstaLaser 1"/>
+       <subaction action="i_giveitem ArkPickups.Ammo.InstaLaser 200"/>
+      </subactions>
+     </option>
+     <option label="Pistol" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.Pistol 1"/>
+       <subaction action="i_giveitem ArkPickups.Ammo.PistolBullets 30"/>
+      </subactions>
+     </option>
+     <option label="Toy Gun" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.ToyGun 1"/>
+       <subaction action="i_giveitem ArkPickups.Ammo.ToyGunDarts 12"/>
+      </subactions>
+     </option>
+     <option label="Stun Gun" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Weapons.StunGun 1"/>
+       <subaction action="i_giveitem ArkPickups.Ammo.StunGunAmmo 200"/>
+      </subactions>
+     </option>
+     <option label="Recycler Charge" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.RecyclerGrenades 3"/>
+      </subactions>
+     </option>
+     <option label="EMP Charge" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.EMPGrenades 3"/>
+      </subactions>
+     </option>
+     <option label="Lure Grenade" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.LureGrenades 5"/>
+      </subactions>
+     </option>
+     <option label="Goo Grenade" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.GooGrenades 5"/>
+      </subactions>
+     </option>
+     <option label="Nullwave Transmitter" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.NullwaveTransmitter 5"/>
+      </subactions>
+     </option>
+     <option label="Apex Spore" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.ApexSpores 5"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="" label="Give All ||Weapons|| (and expanded inventory)">
+    <subactions>
+     <subaction action="hud_tutorials 0"/>
+     <subaction action="pl_grantskill 3149325216929347335"/>
+     <subaction action="i_giveitem ArkPickups.Weapons.Wrench 1"/>
+     <subaction action="i_giveitem ArkPickups.Weapons.Sword 1"/>
+     <subaction action="pl_grantskill 3149325216929347324"/>
+     <subaction action="i_giveitem ArkPickups.Weapons.Shotgun 1"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.ShotgunShells 8"/>
+     <subaction action="i_giveitem ArkPickups.Weapons.Pistol 1"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.PistolBullets 30"/>
+     <subaction action="i_giveitem ArkPickups.Weapons.GooGun 1"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.GooGun 72"/>
+     <subaction action="i_giveitem ArkPickups.Weapons.InstaLaser 1"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.InstaLaser 200"/>
+     <subaction action="i_giveitem ArkPickups.Weapons.ToyGun 1"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.ToyGunDarts 12"/>
+     <subaction action="i_giveitem ArkPickups.Weapons.StunGun 1"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.StunGunAmmo 200"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.RecyclerGrenades 3"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.EMPGrenades 3"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.LureGrenades 5"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.GooGrenades 5"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.NullwaveTransmitter 5"/>
+     <subaction action="i_giveitem ArkPickups.Ammo.ApexSpores 5"/>
+    </subactions>
+   </attribute>
+   <attribute action="pl_setweaponcondition" label="Set Equipped Weapon Condition">
+    <list>
+     <option label="100" value="100"/>
+     <option label="75" value="75"/>
+     <option label="50" value="50"/>
+     <option label="25" value="25"/>
+     <option label="10" value="10"/>
+     <option label="0" value="0"/>
+    </list>
+   </attribute>
+   <attribute action="pl_dumpweaponstats" label="Dump Equipped Weapon Stats" setOnChange="false"/>
+   <attribute action="" label="Refill Ammo for:">
+    <list>
+     <option label="Shotgun" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.ShotgunShells 8"/>
+      </subactions>
+     </option>
+     <option label="Pistol" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.PistolBullets 30"/>
+      </subactions>
+     </option>
+     <option label="Goo Gun" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.GooGun 72"/>
+      </subactions>
+     </option>
+     <option label="Instalaser" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.InstaLaser 200"/>
+      </subactions>
+     </option>
+     <option label="Toy Gun" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.ToyGunDarts 12"/>
+      </subactions>
+     </option>
+     <option label="Stun Gun" value="0">
+      <subactions>
+       <subaction action="i_giveitem ArkPickups.Ammo.StunGunAmmo 200"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="wpn_firstTimePickup" label="Play First Time Pickup Anim" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_debugShotgun" label="Shotgun Debug Mode" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_debugShotgunDispersion" label="Shotgun Dispersion Debug" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_debugShotgunSpread" label="Shotgun Spread Debug" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_debugShotgunAiming" label="Shotgun Aiming Debug" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_debugwrench" label="Wrench Debug" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_debuginstalaser" label="Laser Debug" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="i_giveequipmentpack Empty" label="Clear Inventory"/>
+  </page>
+  <page label="AI">
+   <attribute action="ai_DebugDraw" label="AI Debug Draw (ai_DebugDraw)">
+    <list>
+     <option label="nothing (-1)" value="-1"/>
+     <option label="minimal (0)" value="0"/>
+     <option label="full (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ai_DebugDrawNavigation" label="Navigation Debug Draw (ai_DebugDrawNavigation)">
+    <list>
+     <option label="0" value="0"/>
+     <option label="1" value="1"/>
+     <option label="2" value="2"/>
+     <option label="3" value="3"/>
+    </list>
+   </attribute>
+   <attribute action="ai_arkmovedebug" label="Move Debug (ai_arkmovedebug)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ai_forceEnableNightmareManager" label="Force Enable Nightmare Manager (ai_forceEnableNightmareManager)">
+    <list>
+     <option label="Disable (0)" value="0"/>
+     <option label="Enable (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_shownightmareheat" label="Show Nightmare Heat (g_shownightmareheat)">
+    <list>
+     <option label="Disable (0)" value="0"/>
+     <option label="Enable (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ai_drawpathfollower" label="Draw Path Follower (ai_drawpathfollower)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ai_invulnerable" label="AI Invulnerability (ai_invulnerable)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ai_cantdie" label="ai takes damage, but won&apos;t die (ai_cantdie)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_PlayerIsGhost" label="Player Ghost [Invis|inaud|invln To NPCs] (npc_PlayerIsGhost)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="player_invisible" label="Player Invisible to NPCs (player_invisible)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="player_inaudible" label="Player inaudible to NPCs (player_inaudible)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_togglecommondebug" label="Toggle commondebug (npc_togglecommondebug)"/>
+   <attribute action="NpcManagerToggleDebugDisplay" label="Toggle Npc Manager Debug (NpcManagerToggleDebugDisplay)"/>
+   <attribute action="ToggleShowVisionTargetingPoints" label="Toggle Show NPC Vision/Targeting points"/>
+   <attribute action="NpcUnreachableToggleDebugDisplay" label="Toggle Npc Unreachable Targeting Debug (NpcUnreachableToggleDebugDisplay)"/>
+   <attribute action="npc_FollowPlayer" label="Follow player (npc_FollowPlayer)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="player_showhunt" label="Player Show Hunt Debug (player_showhunt)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="player_showincombat" label="Player Show In Combat (player_showincombat)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="player_showhasattention" label="show npc attention on player (player_showhasattention)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="attn_NpcToNpc" label="show npc to npc attention on selected (attn_NpcToNpc)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_select" label="Select NPC Under Reticle (npc_select)"/>
+   <attribute action="npc_next" label="Select Next NPC (npc_next)"/>
+   <attribute action="npc_prev" label="Select Previous NPC (npc_prev)"/>
+   <attribute action="npc_MNDebug" label="Show Selected NPC MN_Debug (npc_MNDebug)"/>
+   <attribute action="npc_ESDebugAnim" label="Show Selected NPC ES_Debug (npc_ESDebugAnim)"/>
+   <attribute action="npc_SADebug" label="Show Selected NPC Signal Accum (npc_SADebug)"/>
+   <attribute action="npc_showinfo" label="Show Selected NPC Info (npc_showinfo)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_poltergeistsVisible" label="Toggles Visibility of polts (npc_poltergeistsVisible)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_DebugLastDeath" label="Show Selected NPC Death Info (npc_DebugLastDeath)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showlook" label="Show Selected NPC Look Vector (npc_showlook)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showfacing" label="Show Selected NPC Facing Vector (npc_showfacing)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showpath" label="Show Selected NPC Navigation (npc_showpath)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showselectionindicator" label="Highlight selected NPC (npc_showselectionindicator)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showallpathinginfo" label="facing, look and path (npc_showallpathinginfo)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showhealthanddisp" label="Health and Disposition (npc_showhealthanddisp)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_ShowMetaTags" label="Meta Tags (npc_ShowMetaTags)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showcommonai" label="aitree and fsm on selected(npc_showcommonai)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showcommondebug" label="aitree, pathing, info(npc_showcommondebug)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_ShowForAll" label="Show For All NPCs (npc_ShowForAll)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showaitree" label="Show AI tree (npc_showaitree)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showabilityinfo" label="ability info display (npc_showabilityinfo)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="ability list (1)" value="1"/>
+     <option label="prereqs (2)" value="2"/>
+     <option label="both (3)" value="3"/>
+    </list>
+   </attribute>
+   <attribute action="npc_setdumb" label="Make Selected NPC Dumb/Smart (npc_setdumb)">
+    <list>
+     <option label="Smart (0)" value="0"/>
+     <option label="Dumb (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute label="Kill NPCs">
+    <list>
+     <option label="Selected (npc_kill)">
+      <subactions>
+       <subaction action="npc_kill"/>
+      </subactions>
+     </option>
+     <option label="Visible (npc_killvisible)">
+      <subactions>
+       <subaction action="npc_killvisible"/>
+      </subactions>
+     </option>
+     <option label="All (npc_killall)">
+      <subactions>
+       <subaction action="npc_killall"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute label="Destroy NPCs">
+    <list>
+     <option label="Selected (npc_destroy)">
+      <subactions>
+       <subaction action="npc_destroy"/>
+      </subactions>
+     </option>
+     <option label="Visible (npc_destroyvisible)">
+      <subactions>
+       <subaction action="npc_destroyvisible"/>
+      </subactions>
+     </option>
+     <option label="All (npc_destroyall)">
+      <subactions>
+       <subaction action="npc_destroyall"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="encdebug" label="Show Encounter System Debug Info (encdebug)">
+    <list>
+     <option label="Enable (encdebug 1)">
+      <subactions>
+       <subaction action="encdebug 1"/>
+      </subactions>
+     </option>
+     <option label="Disable (encdebug 0)">
+      <subactions>
+       <subaction action="encdebug 0"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="aur_lognoises" label="spew noise data to console (aur_lognoises)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showthrowhitdetection" label="Toggle Throw Hit Detection Info (npc_showthrowhitdetection)">
+    <list>
+     <option label="Off (0)" value="0"/>
+     <option label="On (1)" value="1"/>
+    </list>
+   </attribute>
+  </page>
+  <page label="Debugging">
+   <attribute action="map" label="Load Testing Level" closeMenu="true">
+    <list>
+     <option label="FT_AudioPropagation" value="FT_AudioPropagation"/>
+     <option label="FT_Beta" value="FT_Beta"/>
+     <option label="FT_Containers" value="FT_Containers"/>
+     <option label="FT_Crafting" value="FT_Crafting"/>
+     <option label="FT_DamageFeedback" value="FT_DamageFeedback"/>
+     <option label="FT_ExplosiveCritter" value="FT_ExplosiveCritter"/>
+     <option label="FT_GravShaft" value="FT_GravShaft"/>
+     <option label="FT_HitReactions" value="FT_HitReactions"/>
+     <option label="FT_Instalaser" value="FT_Instalaser"/>
+     <option label="FT_KeycardReader" value="FT_KeycardReader"/>
+     <option label="FT_Keypad" value="FT_Keypad"/>
+     <option label="FT_KineticShield" value="FT_KineticShield"/>
+     <option label="FT_Kiosks" value="FT_Kiosks"/>
+     <option label="FT_LookingGlass" value="FT_LookingGlass"/>
+     <option label="FT_MedicalBay" value="FT_MedicalBay"/>
+     <option label="FT_MetricsZoo" value="FT_MetricsZoo"/>
+     <option label="FT_Navmesh" value="FT_Navmesh"/>
+     <option label="FT_NPCBeta" value="FT_NPCBeta"/>
+     <option label="FT_Patrol" value="FT_Patrol"/>
+     <option label="FT_Pickups" value="FT_Pickups"/>
+     <option label="FT_PsiResearch" value="FT_PsiResearch"/>
+     <option label="FT_PsyFX" value="FT_PsyFX"/>
+     <option label="FT_RecyclerGrenade" value="FT_RecyclerGrenade"/>
+     <option label="FT_Turret" value="FT_Turret"/>
+     <option label="FT_Workstation" value="FT_Workstation"/>
+     <option label="FT_Tutorials" value="FT_Tutorials"/>
+     <option label="Zoo_Props" value="Zoo_Props"/>
+    </list>
+   </attribute>
+   <attribute action="cl_note" label="Toggle Note Visibility" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ark_posteffectsdebug" label="Toggle ArkPostEffects Debug" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="s_drawaudiodebug" label="Toggle Audio Debug" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_playerInterferenceAura" label="Interference Debugging Radius" setOnChange="true">
+    <list>
+     <option label="Disabled" value="0"/>
+     <option label="5m" value="5"/>
+     <option label="10m" value="10"/>
+     <option label="15m" value="20"/>
+     <option label="25m" value="30"/>
+     <option label="50m" value="50"/>
+     <option label="100m" value="100"/>
+    </list>
+   </attribute>
+   <attribute action="pl_arkflymode" label="Fly Mode" setOnChange="false">
+    <list>
+     <option label="Normal" value="0"/>
+     <option label="Fly" value="1"/>
+     <option label="Noclip" value="2"/>
+    </list>
+   </attribute>
+   <attribute action="" label="________________________PHYSICS___________________________"/>
+   <attribute action="es_drawareas" label="es_drawareas" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="es_drawproximitytriggers" label="es_drawproximitytriggers" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="p_draw_helpers -s _g" label="|draw static entities|"/>
+   <attribute action="p_draw_helpers -rR _g" label="|draw rigid entities|"/>
+   <attribute action="p_draw_helpers -l _g" label="|draw characters|"/>
+   <attribute action="p_draw_helpers 0" label="|Turn Off Draw Helpers|"/>
+   <attribute action="" label="________________________PERFORMANCE________________________"/>
+   <attribute action="ark_budget" label="Budgets" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="Memory" value="1"/>
+     <option label="Performance" value="2"/>
+     <option label="Misc." value="3"/>
+    </list>
+   </attribute>
+   <attribute action="e_CameraFreeze" label="Freeze Camera" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="" label="Debug Render Mode" setOnChange="true">
+    <list>
+     <option label="Off">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+      </subactions>
+     </option>
+     <option label="Wireframe">
+      <subactions>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+       <subaction action="r_wireframe 1"/>
+      </subactions>
+     </option>
+     <option label="Flat Lighting">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+       <subaction action="r_unlit 1"/>
+       <subaction action="e_shadows 0"/>
+      </subactions>
+     </option>
+     <option label="Lighting Only">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+       <subaction action="r_texbindmode 6"/>
+       <subaction action="e_decals 0"/>
+      </subactions>
+     </option>
+     <option label="Light Complexity">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+       <subaction action="r_deferredshadingdebug 2"/>
+      </subactions>
+     </option>
+     <option label="Light Complexity - No Probes">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+       <subaction action="r_deferredshadingdebug 3"/>
+      </subactions>
+     </option>
+     <option label="Overdraw">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+       <subaction action="r_measureoverdraw 2"/>
+      </subactions>
+     </option>
+     <option label="Pixel Complexity">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+       <subaction action="r_measureoverdraw 1"/>
+      </subactions>
+     </option>
+     <option label="Texel Density">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="e_debugrendermode 0"/>
+       <subaction action="e_fog 1"/>
+       <subaction action="r_texelspermeter 512"/>
+      </subactions>
+     </option>
+     <option label="Draw Call Density">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 1"/>
+       <subaction action="e_fog 0"/>
+      </subactions>
+     </option>
+     <option label="Texture Memory">
+      <subactions>
+       <subaction action="r_wireframe 0"/>
+       <subaction action="r_unlit 0"/>
+       <subaction action="e_shadows 1"/>
+       <subaction action="r_texbindmode 0"/>
+       <subaction action="e_decals 1"/>
+       <subaction action="r_deferredshadingdebug 0"/>
+       <subaction action="r_measureoverdraw 0"/>
+       <subaction action="r_texelspermeter 0"/>
+       <subaction action="e_debugrendermode 2"/>
+       <subaction action="e_fog 0"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="r_displayinfo" label="r_displayinfo" setOnChange="true">
+    <list>
+     <option label="off" value="0"/>
+     <option label="fps" value="3"/>
+     <option label="basic" value="1"/>
+     <option label="enhanced" value="2"/>
+    </list>
+   </attribute>
+   <attribute action="es_LayerDebugInfo" label="Layer Debug">
+    <list>
+     <option value="0"/>
+     <option value="2"/>
+     <option value="3"/>
+    </list>
+   </attribute>
+   <attribute action="e_shadows 0" label="Kill Shadows"/>
+   <attribute action="log_spamdelay 5" label="Delay Log Spam"/>
+   <attribute action="r_multiscene 0" label="Kill Looking Glass"/>
+   <attribute action="r_multiscene 1" label="Restore Looking Glass"/>
+   <attribute action="e_shadows 1" label="Restore Shadows"/>
+  </page>
+  <page label="Dialog">
+   <attribute action="d_debugDialogRules" label="Debug Dialogue Rules" setOnChange="true">
+    <list>
+     <option label="off" value="0"/>
+     <option label="on" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="d_debugConversations" label="Debug Conversations" setOnChange="true">
+    <list>
+     <option label="off" value="0"/>
+     <option label="on" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pa_drawDebug" label="Debug PA Speakers" setOnChange="true">
+    <list>
+     <option label="off" value="0"/>
+     <option label="on" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="hud_subtitles" label="Subtitles" setOnChange="true">
+    <list>
+     <option label="Disabled" value="0"/>
+     <option label="Cutscenes Only" value="1"/>
+     <option label="All" value="2"/>
+    </list>
+   </attribute>
+   <attribute action="npc_showdialogeventpriority" label="debug dlg event priority">
+    <list>
+     <option label="off" value="0"/>
+     <option label="on" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_debugDeathSummary" label="Debug Death Summary" setOnChange="true">
+    <list>
+     <option label="off" value="0"/>
+     <option label="on" value="1"/>
+    </list>
+   </attribute>
+  </page>
+  <page label="VidCap">
+   <attribute action="cl_bobAmount" label="Camera Bob">
+    <slider min="0" max="1" decimals="1" unit="0.1"/>
+   </attribute>
+   <attribute label="Player Visibility">
+    <list>
+     <option label="Hidden">
+      <subactions>
+       <subaction action="pl_hide 1"/>
+      </subactions>
+     </option>
+     <option label="Visible">
+      <subactions>
+       <subaction action="pl_hide 0"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="g_godmode" label="God Mode" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_infiniteammo" label="Infinite Ammo" setOnChange="true">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="pl_unlimitedPsi" label="Toggle Unlimited Psi" setOnChange="false">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ce" label="Toggle Tourist Mode" closeMenu="true">
+    <list>
+     <option label="Off" value="DisableTouristMode"/>
+     <option label="On" value="EnableTouristMode"/>
+    </list>
+   </attribute>
+   <attribute action="hud_tutorials" label="Tutorials" setOnChange="true">
+    <list>
+     <option label="Disabled" value="0"/>
+     <option label="Nags Only" value="1"/>
+     <option label="Nags and Prompts" value="2"/>
+     <option label="All" value="3"/>
+    </list>
+   </attribute>
+   <attribute action="hud_hide" label="Toggle HUD">
+    <list>
+     <option label="Show" value="0"/>
+     <option label="Hide" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="cl_speedToBobFactor" label="Camera Bob" setOnChange="true">
+    <list>
+     <option label="On" value="0.25"/>
+     <option label="Off" value="0"/>
+    </list>
+   </attribute>
+   <attribute action="cl_hfov" label="FOV">
+    <slider min="40" max="100" decimals="0" unit="1"/>
+   </attribute>
+   <attribute action="g_detachcamera" label="Detach Camera" setOnChange="true">
+    <list>
+     <option label="On" value="1"/>
+     <option label="Off" value="0"/>
+    </list>
+   </attribute>
+   <attribute label="Freecam">
+    <list>
+     <option label="On">
+      <subactions>
+       <subaction action="freecamenable"/>
+      </subactions>
+     </option>
+     <option label="Off">
+      <subactions>
+       <subaction action="freecamdisable"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute action="t_GameTimeScale" label="Pause Simulation" setOnChange="true">
+    <list>
+     <option label="On" value="0"/>
+     <option label="Off" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="g_blockAutoSave" label="Auto Save" setOnChange="true">
+    <list>
+     <option label="Allow" value="0"/>
+     <option label="Block" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="npc_PlayerIsGhost" label="Player undetectable by NPCs">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute action="ai_cantdie" label="NPCs takes damage, but won&apos;t die">
+    <list>
+     <option label="Off" value="0"/>
+     <option label="On" value="1"/>
+    </list>
+   </attribute>
+   <attribute label="Kill NPCs">
+    <list>
+     <option label="Visible (npc_killvisible)">
+      <subactions>
+       <subaction action="npc_killvisible"/>
+      </subactions>
+     </option>
+     <option label="All (npc_killall)">
+      <subactions>
+       <subaction action="npc_killall"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+   <attribute label="Destroy NPCs">
+    <list>
+     <option label="Visible (npc_destroyvisible)">
+      <subactions>
+       <subaction action="npc_destroyvisible"/>
+      </subactions>
+     </option>
+     <option label="All (npc_destroyall)">
+      <subactions>
+       <subaction action="npc_destroyall"/>
+      </subactions>
+     </option>
+    </list>
+   </attribute>
+  </page>
+  <page label="Campaign Simulation"/>
+ </pages>
+</DebugLayout>

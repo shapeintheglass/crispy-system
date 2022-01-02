@@ -1,0 +1,13 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$TracksDatabase" path="Animations\Characters\Aliens\NightmareEther\*\*\*\*.dba"/>
+  <Animation name="#filepath" path="Animations\Characters\Aliens\NightmareEther"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="*" path="*\*.bspace"/>
+  <Animation name="*" path="*\*.comb"/>
+  <Animation name="#filepath" path="animations\Cutscenes"/>
+  <Animation name="*" path="*\*\*_NightmareEther.caf"/>
+  <Animation name="*" path="*\*\*_Nightmare.caf"/>
+ </AnimationList>
+</Params>

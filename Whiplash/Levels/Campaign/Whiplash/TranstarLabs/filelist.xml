@@ -1,0 +1,6 @@
+<download name="transtarlabs" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="14050936" md5="1583cb143e05b54ac6f90e51cdf0aba5"/>
+ </files>
+</download>

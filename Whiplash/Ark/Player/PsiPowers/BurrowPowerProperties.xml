@@ -1,0 +1,19 @@
+
+<BurrowPowerProperties>
+ <Common DisplayName="@rpg_BurrowName1" PsiCost="15" Description="@rpg_BurrowShort1" PickerLabel="Burrow" InterruptsMimicGrabSequence="true" TargetHighlightColorAlpha="1.0" TargetHighlightColor="0.71,0.32,0.58" ExecutionAudioTrigger="" CostReductionStat="psiCostScaleTelepathic" ExecutionPlayerEffect="Player.Powers.Burrow.BurrowMorphInto" CameraZoomDuration="0" PostProcessVFX="4231073014676407789"/>
+ <Unique NavMeshHorizontalSearchRadius="0.1"/>
+ <Levels>
+  <ArkPsiBurrowProperties DisplayName="@rpg_BurrowName1" Description="@rpg_BurrowShort1" CooldownDurationSec="1">
+   <TargetingProperties MaxRange="15" MinRange="3" TargetParticleEffect="Player.Powers.Burrow.Burrow_Targeting" TargetParticleLightEffect="Player.Powers.Burrow.Burrow_Targeting_Light"/>
+   <BlastTypeProperties>
+    <BlastProperties Radius="1.5" Force="150" DelaySec="0.2" DurationSec="0.0" StopPersistentAudioTrigger="null" NoiseId="9469288860501649125" LoudnessId="9469288860501649261" StartPersistentAudioTrigger="" KillPreExplosionParticleEffect="false" FalloffRadius="1" FalloffScale="0.5" ExplosionSignalPackageId="13856881013252251267" ExplosionParticleEffect="Player.Powers.Burrow.BurrowEmerge"/>
+   </BlastTypeProperties>
+  </ArkPsiBurrowProperties>
+  <ArkPsiBurrowProperties DisplayName="@rpg_BurrowName2" Description="@rpg_BurrowShort2" CooldownDurationSec="1">
+   <TargetingProperties MaxRange="25" MinRange="3" TargetParticleEffect="Player.Powers.Burrow.Burrow_Targeting" TargetParticleLightEffect="Player.Powers.Burrow.Burrow_Targeting_Light"/>
+   <BlastTypeProperties>
+    <BlastProperties Radius="1.5" Force="300" DelaySec="0.2" DurationSec="0.0" StopPersistentAudioTrigger="null" ExplosionParticleEffect="Player.Powers.Burrow.BurrowEmerge" NoiseId="9469288860501649125" LoudnessId="9469288860501649261" StartPersistentAudioTrigger="" KillPreExplosionParticleEffect="true" PreExplosionParticleEffect="" FalloffRadius="0.5" FalloffScale="0.5" ExplosionSignalPackageId="13856881013252251327"/>
+   </BlastTypeProperties>
+  </ArkPsiBurrowProperties>
+ </Levels>
+</BurrowPowerProperties>

@@ -1,0 +1,15 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/etherDuplicateTags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/etherDuplicateFragments.xml"/>
+ <FragmentDefs>
+  <Idle scopes="FullBody"/>
+  <Move scopes="FullBody"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Main/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody layer="0" numLayers="2" context="Main"/>
+ </ScopeDefs>
+</ControllerDef>

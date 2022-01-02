@@ -1,0 +1,9 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$AnimEventDatabase" path="Animations/weapons/Enchantments/Pistol/EnchantmentPistol.animevents"/>
+  <Animation name="#filepath" path="Animations/weapons/Enchantments/Pistol"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*.caf"/>
+ </AnimationList>
+</Params>

@@ -1,0 +1,16 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e54dbaf39/bddb548e54dbaf39.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e54dbaf6a/bddb548e54dbaf6a.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e5525abec/bddb548e5525abec.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e559556cc/bddb548e559556cc.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e54dbaf7e/bddb548e54dbaf7e.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e54d12179/bddb548e54d12179.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e54dbb009/bddb548e54dbb009.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e54dbaf74/bddb548e54dbaf74.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/bddb548e54dbaf56/bddb548e54dbaf56.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/3c5d528955b2c352/3c5d528955b2c352.animevents"/>
+  <Animation name="$AnimEventDatabase" path="animations/characters/humans/dialogue/default.animevents"/>
+ </AnimationList>
+</Params>

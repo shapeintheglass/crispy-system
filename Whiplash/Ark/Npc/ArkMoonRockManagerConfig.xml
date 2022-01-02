@@ -1,0 +1,2 @@
+
+<ArkMoonRockManagerConfig numRocksSpawnedMin="3" numRocksSpawnedMax="4" spawnDistanceMin="2.5" spawnDistanceMax="3.0" spawnAngleDegreesMin="-90" spawnAngleDegreesMax="90" spawnZOffset="0.2" impulseRandomMin="5.0,5.0,5.0" impulseRandomMax="5.1,5.1,5.1" numMoonRockArchetypes="4" maxNumMoonRocks="15" propTestAboveDist="0.1" retestNearbyRocksTime="1.0" targetMovedRetestDist="1.0" propMovedRetestDist="1.888" maxRelevantRockDistance="15.0" maxCloseRocksToConsider="12" minLosTestTime=".25"/>

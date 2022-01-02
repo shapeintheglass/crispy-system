@@ -1,0 +1,177 @@
+
+<Graph isModule="1" moduleName="WL_DoesLevelContainHazards" isObjectList="0" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <ModuleInputsOutputs>
+  <Port Name="LevelName" Type="5" Input="1"/>
+  <Port Name="HasHazards" Type="6" Input="0"/>
+ </ModuleInputsOutputs>
+ <Nodes>
+  <Node Id="1" Class="Module:Start_WL_DoesLevelContainHazards" pos="80,10,0"/>
+  <Node Id="2" Class="Module:End_WL_DoesLevelContainHazards" pos="3140,-190,0">
+   <Inputs HasHazards="0"/>
+  </Node>
+  <Node Id="4" Class="String:Compare" pos="940,-2230,0">
+   <Inputs A="" B="Satellite" IgnoreCase="1"/>
+  </Node>
+  <Node Id="5" Class="String:Compare" pos="940,-1240,0">
+   <Inputs A="" B="Crater" IgnoreCase="1"/>
+  </Node>
+  <Node Id="6" Class="String:Compare" pos="960,-150,0">
+   <Inputs A="" B="CrewAnnex" IgnoreCase="1"/>
+  </Node>
+  <Node Id="7" Class="String:Compare" pos="970,670,0">
+   <Inputs A="" B="Crew" IgnoreCase="1"/>
+  </Node>
+  <Node Id="8" Class="String:Compare" pos="970,780,0">
+   <Inputs A="" B="MoonWorks" IgnoreCase="1"/>
+  </Node>
+  <Node Id="9" Class="String:Compare" pos="930,1910,0">
+   <Inputs A="" B="Labs" IgnoreCase="1"/>
+  </Node>
+  <Node Id="10" Class="String:Compare" pos="930,2020,0">
+   <Inputs A="" B="TranstarLabs" IgnoreCase="1"/>
+  </Node>
+  <Node Id="12" Class="Math:BooleanTo" pos="2560,-250,0">
+   <Inputs/>
+  </Node>
+  <Node Id="14" Class="Mission:GameTokenCheck" pos="1200,-320,0">
+   <Inputs gametokenid_Token="378738370" CheckValue="0"/>
+  </Node>
+  <Node Id="15" Class="Mission:GameTokenCheck" pos="1210,-200,0">
+   <Inputs gametokenid_Token="1900878628" CheckValue="0"/>
+  </Node>
+  <Node Id="16" Class="Mission:GameTokenCheck" pos="1210,-80,0">
+   <Inputs gametokenid_Token="1864994439" CheckValue="2"/>
+  </Node>
+  <Node Id="17" Class="Mission:GameTokenCheck" pos="1210,160,0">
+   <Inputs gametokenid_Token="1981865789" CheckValue="true"/>
+  </Node>
+  <Node Id="18" Class="Mission:GameTokenCheck" pos="1210,280,0">
+   <Inputs gametokenid_Token="405716497" CheckValue="true"/>
+  </Node>
+  <Node Id="19" Class="Mission:GameTokenCheck" pos="1210,40,0">
+   <Inputs gametokenid_Token="105524146" CheckValue="0"/>
+  </Node>
+  <Node Id="22" Class="Logic:Gate" pos="1930,-170,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="23" Class="Logic:Gate" pos="1920,190,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="24" Class="Mission:GameTokenCheck" pos="1330,1950,0">
+   <Inputs gametokenid_Token="1981865790" CheckValue="0"/>
+  </Node>
+  <Node Id="25" Class="Mission:GameTokenCheck" pos="1340,2070,0">
+   <Inputs gametokenid_Token="1621148184" CheckValue="0"/>
+  </Node>
+  <Node Id="26" Class="Mission:GameTokenCheck" pos="1340,2190,0">
+   <Inputs gametokenid_Token="256760490" CheckValue="2"/>
+  </Node>
+  <Node Id="27" Class="Mission:GameTokenCheck" pos="1340,2430,0">
+   <Inputs gametokenid_Token="1281322606" CheckValue="true"/>
+  </Node>
+  <Node Id="28" Class="Mission:GameTokenCheck" pos="1340,2550,0">
+   <Inputs gametokenid_Token="1631525841" CheckValue="true"/>
+  </Node>
+  <Node Id="29" Class="Mission:GameTokenCheck" pos="1340,2310,0">
+   <Inputs gametokenid_Token="582314966" CheckValue="0"/>
+  </Node>
+  <Node Id="30" Class="Logic:Gate" pos="2060,2100,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="31" Class="Logic:Gate" pos="2050,2460,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="32" Class="Mission:GameTokenCheck" pos="1310,660,0">
+   <Inputs gametokenid_Token="654380812" CheckValue="0"/>
+  </Node>
+  <Node Id="33" Class="Mission:GameTokenCheck" pos="1320,780,0">
+   <Inputs gametokenid_Token="2123329109" CheckValue="0"/>
+  </Node>
+  <Node Id="34" Class="Mission:GameTokenCheck" pos="1320,900,0">
+   <Inputs gametokenid_Token="924354559" CheckValue="2"/>
+  </Node>
+  <Node Id="35" Class="Mission:GameTokenCheck" pos="1320,1140,0">
+   <Inputs gametokenid_Token="614937689" CheckValue="true"/>
+  </Node>
+  <Node Id="36" Class="Mission:GameTokenCheck" pos="1320,1260,0">
+   <Inputs gametokenid_Token="565256086" CheckValue="true"/>
+  </Node>
+  <Node Id="37" Class="Mission:GameTokenCheck" pos="1320,1020,0">
+   <Inputs gametokenid_Token="450901635" CheckValue="0"/>
+  </Node>
+  <Node Id="38" Class="Logic:Gate" pos="2040,810,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+  <Node Id="39" Class="Logic:Gate" pos="2030,1170,0">
+   <Inputs SetClosed="0" AutoCloseCount="0" Reset="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="A" portOut="LevelName" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="Compare" portOut="Start" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="A" portOut="LevelName" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="Compare" portOut="Start" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="A" portOut="LevelName" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="Compare" portOut="Start" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="A" portOut="LevelName" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="Compare" portOut="Start" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="A" portOut="LevelName" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="Compare" portOut="Start" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="A" portOut="LevelName" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="Compare" portOut="Start" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="1" portIn="A" portOut="LevelName" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="1" portIn="Compare" portOut="Start" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="4" portIn="false" portOut="True" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="5" portIn="false" portOut="True" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="6" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="32" nodeOut="7" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="32" nodeOut="8" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="24" nodeOut="9" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="24" nodeOut="10" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="12" portIn="HasHazards" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="12" portIn="Success" portOut="out" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="14" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="14" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="15" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="15" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="16" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="16" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="17" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="17" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="18" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="18" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="19" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="19" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="22" portIn="true" portOut="Out" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="23" portIn="false" portOut="Out" enabled="1"/>
+  <Edge nodeIn="25" nodeOut="24" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="24" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="26" nodeOut="25" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="25" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="26" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="26" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="28" nodeOut="27" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="27" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="28" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="31" nodeOut="28" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="27" nodeOut="29" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="29" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="30" portIn="true" portOut="Out" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="31" portIn="false" portOut="Out" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="32" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="32" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="34" nodeOut="33" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="33" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="37" nodeOut="34" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="34" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="36" nodeOut="35" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="35" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="36" portIn="In" portOut="True" enabled="1"/>
+  <Edge nodeIn="39" nodeOut="36" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="35" nodeOut="37" portIn="Trigger" portOut="True" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="37" portIn="In" portOut="False" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="38" portIn="true" portOut="Out" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="39" portIn="false" portOut="Out" enabled="1"/>
+ </Edges>
+ <GraphTokens/>
+</Graph>

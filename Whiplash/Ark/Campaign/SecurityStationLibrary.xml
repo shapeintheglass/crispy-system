@@ -1,0 +1,115 @@
+
+<ArkSecurityStations>
+ <SecurityStations>
+  <ArkSecurityStation ID="12889009725067675269" Name="TL_SecurityRoster" Location="844024417334136393" PersonnelTitle="@loc_12889009725067675294" User="844024417336895033">
+   <Emails/>
+   <Personnel/>
+   <Utilities>
+    <ArkButtonUtility ID="12889009725068822253" Name="UnlockGravShafts" Label="@loc_12889009725068822254" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_12889009725068822287">
+     <Buttons>
+      <Button ID="12889009725068822505" Name="Unlock" Label="@loc_12889009725068822506" Enabled="true" Hidden="false"/>
+      <Button ID="12889009725068822754" Name="Lock" Label="@loc_12889009725068822755" Enabled="true" Hidden="true"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="12889009725072540623" Name="RevealAreaMap" Label="@loc_12889009725072540624" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_12889009725072540647">
+     <Buttons>
+      <Button ID="12889009725072540651" Name="RevealMap" Label="@loc_12889009725072540652" Enabled="true" Hidden="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+   </Utilities>
+  </ArkSecurityStation>
+  <ArkSecurityStation ID="12889009725077551429" Name="TL_VolunteerRoster" Location="844024417334136393" User="4349723564977374844" PersonnelTitle="@loc_12889009725088949354">
+   <Emails>
+    <Email Value="12889009725088949084"/>
+    <Email Value="12889009725087206286"/>
+   </Emails>
+   <Personnel>
+    <Character Value="844024417336895008"/>
+    <Character Value="4349723564977375018"/>
+    <Character Value="4349723564977375033"/>
+    <Character Value="4349723564977375030"/>
+    <Character Value="4349723564977375036"/>
+    <Character Value="4349723564977375024"/>
+    <Character Value="4349723564977375027"/>
+    <Character Value="4349723564977375039"/>
+    <Character Value="4349723564977375021"/>
+    <Character Value="4349723564977375042"/>
+    <Character Value="4349723564986865364"/>
+    <Character Value="4349723564986865367"/>
+    <Character Value="4349723564986865358"/>
+   </Personnel>
+   <Utilities>
+    <ArkButtonUtility ID="12889009725077552230" Name="VolunteerDoorControl_1" Label="@loc_12889009725077552231" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_12889009725077552232">
+     <Buttons>
+      <Button ID="12889009725077552233" Name="Door1_Lock" Label="@loc_12889009725077552234" Enabled="false" Hidden="false"/>
+      <Button ID="12889009725077552235" Name="Door1_Unlock" Label="@loc_12889009725077552236" Enabled="true" Hidden="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="12889009725077552237" Name="VolunteerDoorControl_2" Label="@loc_12889009725077552238" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_12889009725077552239">
+     <Buttons>
+      <Button ID="12889009725077552240" Name="Door2_Lock" Label="@loc_12889009725077552241" Enabled="false" Hidden="false"/>
+      <Button ID="12889009725077552242" Name="Door2_Unlock" Label="@loc_12889009725077552243" Enabled="true" Hidden="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="12889009725077552244" Name="VolunteerDoorControl_3" Label="@loc_12889009725077552245" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_12889009725077552246">
+     <Buttons>
+      <Button ID="12889009725077552247" Name="Door3_Lock" Label="@loc_12889009725077552248" Enabled="false" Hidden="false"/>
+      <Button ID="12889009725077552249" Name="Door3_Unlock" Label="@loc_12889009725077552250" Enabled="true" Hidden="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="12889009725077552251" Name="VolunteerDoorControl_4" Label="@loc_12889009725077552252" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_12889009725077552253">
+     <Buttons>
+      <Button ID="12889009725077552254" Name="Door4_Lock" Label="@loc_12889009725077552255" Enabled="false" Hidden="false"/>
+      <Button ID="12889009725077552256" Name="Door4_Unlock" Label="@loc_12889009725077552257" Enabled="true" Hidden="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="12889009725077552258" Name="VolunteerDoorControl_5" Label="@loc_12889009725077552259" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_12889009725077552260">
+     <Buttons>
+      <Button ID="12889009725077552261" Name="Door5_Lock" Label="@loc_12889009725077552262" Enabled="false" Hidden="false"/>
+      <Button ID="12889009725077552263" Name="Door5_Unlock" Label="@loc_12889009725077552264" Enabled="true" Hidden="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+   </Utilities>
+  </ArkSecurityStation>
+  <ArkSecurityStation ID="844024417338619510" Name="WL_Prototype_SecurityStation" Location="844024417334136241" User="844024417336894585" PersonnelTitle="@loc_844024417338619545">
+   <Emails/>
+   <Personnel/>
+   <Utilities>
+    <ArkButtonUtility ID="844024417359817274" Name="UnlockGravShafts" Label="@loc_844024417359817275" Enabled="true" Hidden="true" NoDefaultButton="false" Description="@loc_844024417359817276">
+     <Buttons>
+      <Button ID="844024417359817277" Name="Unlock" Label="@loc_844024417359817278" Enabled="true" Hidden="false"/>
+      <Button ID="844024417359817279" Name="Lock" Label="@loc_844024417359817280" Enabled="true" Hidden="true"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="844024417359817250" Name="RevealAreaMap" Label="@loc_844024417359817251" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_844024417359817252">
+     <Buttons>
+      <Button ID="844024417359817253" Name="RevealMap" Label="@loc_844024417359817254" Enabled="true" Hidden="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="844024417338619550" Name="PodStatus" Label="@loc_844024417338619551" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_844024417338619589">
+     <Buttons>
+      <Button ID="844024417360760890" Name="PodCheck" Label="@loc_844024417360760891" Enabled="true" Hidden="false" InSatellite="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="844024417340537728" Name="Hazard Status" Label="@loc_844024417340537729" Enabled="true" Hidden="false" NoDefaultButton="false" Description="@loc_844024417340537752">
+     <Buttons>
+      <Button ID="844024417340537762" Name="PowerCheck" Label="@loc_844024417340537763" Enabled="true" Hidden="false"/>
+      <Button ID="844024417340537796" Name="RadiationCheck" Label="@loc_844024417340537797" Enabled="true" Hidden="false"/>
+      <Button ID="844024417340537811" Name="O2Check" Label="@loc_844024417340537812" Enabled="true" Hidden="false"/>
+      <Button ID="844024417360947381" Name="FireCheck" Label="@loc_844024417360947382" Enabled="true" Hidden="false" InSatellite="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="844024417360759700" Name="TramStatus" Label="@loc_844024417360759701" Enabled="true" Hidden="false" InSatellite="false" NoDefaultButton="false" Description="@loc_844024417360759724">
+     <Buttons>
+      <Button ID="844024417360760781" Name="TramCheck" Label="@loc_844024417360760782" Enabled="true" Hidden="false" InSatellite="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+    <ArkButtonUtility ID="844024417360760795" Name="ClosetStatus" Label="@loc_844024417360760796" Enabled="true" Hidden="false" InSatellite="false" NoDefaultButton="false" Description="@loc_844024417360760836">
+     <Buttons>
+      <Button ID="844024417360760840" Name="ClosetCheck" Label="@loc_844024417360760841" Enabled="true" Hidden="false" InSatellite="false"/>
+     </Buttons>
+    </ArkButtonUtility>
+   </Utilities>
+  </ArkSecurityStation>
+ </SecurityStations>
+</ArkSecurityStations>

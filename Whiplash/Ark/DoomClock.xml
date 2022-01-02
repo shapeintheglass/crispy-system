@@ -1,0 +1,146 @@
+
+<ArkDoomClockData>
+ <GlobalData MaxLevel="6" PreIncrementPostFX="14610450286812739726" PreIncrementVFX="LevelShared.Doomclock.PreIncrement">
+  <Profile>
+   <ArkDoomClockGlobalData_Profile Name="Default">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="900.0" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_15659330456398957298" CryptoMultiplier="0"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="900.0" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_15659330456398957299" CryptoMultiplier="0.33"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="900" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_15659330456398957300" CryptoMultiplier="0.5"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="975" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_15659330456398957301" CryptoMultiplier="0.66"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="675" PreIncrement="60.0" MaxSummonedPhantoms="3" Label="@loc_15659330456398957302" CryptoMultiplier="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="3" Label="@loc_15659330456398957304" CryptoMultiplier="1"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="Phase2">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="750.0" PreIncrement="10" MaxSummonedPhantoms="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="750.0" PreIncrement="10" MaxSummonedPhantoms="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="2"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="2"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="60.0" MaxSummonedPhantoms="3"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="3"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="Phase3">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="2"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="540.0" PreIncrement="10" MaxSummonedPhantoms="2"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="480.0" PreIncrement="60.0" MaxSummonedPhantoms="3"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="480.0" PreIncrement="10" MaxSummonedPhantoms="3"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="Jefftest1">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="60.0" PreIncrement="5.0" MaxSummonedPhantoms="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="55.0" PreIncrement="7.0" MaxSummonedPhantoms="2"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="50.0" PreIncrement="8.0" MaxSummonedPhantoms="3"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="45.0" PreIncrement="9.0" MaxSummonedPhantoms="4"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="40.0" PreIncrement="4.0" MaxSummonedPhantoms="5"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="45.0" PreIncrement="6.0" MaxSummonedPhantoms="6"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="Jefftest2">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="30.0" PreIncrement="10.0" MaxSummonedPhantoms="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="40.0" PreIncrement="10.0" MaxSummonedPhantoms="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="50.0" PreIncrement="10.0" MaxSummonedPhantoms="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="60.0" PreIncrement="20.0" MaxSummonedPhantoms="2"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="70.0" PreIncrement="20.0" MaxSummonedPhantoms="3"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="80.0" PreIncrement="15.0" MaxSummonedPhantoms="3"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="CorruptIntro">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="1" PreIncrement="0" MaxSummonedPhantoms="0" Label="@loc_15659330456398957350"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="2" PreIncrement="10" MaxSummonedPhantoms="0" Label="@loc_15659330456398957351"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="2" PreIncrement="10" MaxSummonedPhantoms="0" Label="@loc_15659330456398957352"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="2" PreIncrement="10" MaxSummonedPhantoms="0" Label="@loc_15659330456398957353"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="120" PreIncrement="15" MaxSummonedPhantoms="3" Label="@loc_15659330456398957355"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="NarrativePhase3">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="825" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_844024417358062770"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="825" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_844024417358062771" CryptoMultiplier="0.33"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="900" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_844024417358062772" CryptoMultiplier="0.5"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="1050" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_844024417358062773" CryptoMultiplier="0.66"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="750" PreIncrement="60.0" MaxSummonedPhantoms="3" Label="@loc_844024417358062774" CryptoMultiplier="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="3" Label="@loc_844024417358062775" CryptoMultiplier="1"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="NarrativePhase4">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="750" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_844024417358062728"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="675" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_844024417358062729" CryptoMultiplier="0.33"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="975" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_844024417358062730" CryptoMultiplier="0.5"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="1125" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_844024417358062731" CryptoMultiplier="0.66"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="825" PreIncrement="60.0" MaxSummonedPhantoms="3" Label="@loc_844024417358062732" CryptoMultiplier="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="3" Label="@loc_844024417358062733" CryptoMultiplier="1"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="NarrativePhase5">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_844024417358063588"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_844024417358063589" CryptoMultiplier="0.33"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="1125" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_844024417358063590" CryptoMultiplier="0.5"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="1125" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_844024417358063591" CryptoMultiplier="0.66"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="900" PreIncrement="60.0" MaxSummonedPhantoms="3" Label="@loc_844024417358063592" CryptoMultiplier="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="3" Label="@loc_844024417358063593" CryptoMultiplier="1"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+   <ArkDoomClockGlobalData_Profile Name="NarrativePhase6">
+    <Levels>
+     <ArkDoomClockGlobalData_ProfileElem Duration="375" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_844024417358063597"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600" PreIncrement="10" MaxSummonedPhantoms="1" Label="@loc_844024417358063598" CryptoMultiplier="0.33"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="1200" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_844024417358063599" CryptoMultiplier="0.5"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="1200" PreIncrement="10" MaxSummonedPhantoms="2" Label="@loc_844024417358063600" CryptoMultiplier="0.66"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="975" PreIncrement="60.0" MaxSummonedPhantoms="3" Label="@loc_844024417358063601" CryptoMultiplier="1"/>
+     <ArkDoomClockGlobalData_ProfileElem Duration="600.0" PreIncrement="10" MaxSummonedPhantoms="3" Label="@loc_844024417358063602" CryptoMultiplier="1"/>
+    </Levels>
+   </ArkDoomClockGlobalData_Profile>
+  </Profile>
+  <LevelFanfare>
+   <ArkDoomClockLevelFanfare PostFX="14610450286812740305" SFX="Play_Thermal_Blast_2D" VFX="LevelShared.Doomclock.Level02"/>
+  </LevelFanfare>
+ </GlobalData>
+ <EntityData>
+  <ArkDoomClockEntityData Name="None">
+   <Levels>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+   </Levels>
+  </ArkDoomClockEntityData>
+  <ArkDoomClockEntityData Name="Default">
+   <Levels>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="20" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="40" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="60" DamageModifier="50"/>
+    <ArkDoomClockEntityData_Level HealthModifier="100" DamageModifier="100"/>
+    <ArkDoomClockEntityData_Level HealthModifier="100" DamageModifier="100"/>
+   </Levels>
+  </ArkDoomClockEntityData>
+  <ArkDoomClockEntityData Name="BossNPCs">
+   <Levels>
+    <ArkDoomClockEntityData_Level HealthModifier="0" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="15" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="30" DamageModifier="0"/>
+    <ArkDoomClockEntityData_Level HealthModifier="45" DamageModifier="25"/>
+    <ArkDoomClockEntityData_Level HealthModifier="60" DamageModifier="50"/>
+    <ArkDoomClockEntityData_Level HealthModifier="60" DamageModifier="100"/>
+   </Levels>
+  </ArkDoomClockEntityData>
+ </EntityData>
+</ArkDoomClockData>

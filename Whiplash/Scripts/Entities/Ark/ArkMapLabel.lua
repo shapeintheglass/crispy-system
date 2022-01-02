@@ -1,0 +1,15 @@
+local L0_4274, L1_4275
+L0_4274 = {}
+L1_4275 = {}
+L1_4275.ei_ObjectMapIcon = "10"
+L0_4274.Properties = L1_4275
+L1_4275 = {}
+L1_4275.location_Location = ""
+L1_4275.textMapLabel = ""
+L1_4275.bShowAlways = 0
+L0_4274.PropertiesInstance = L1_4275
+L1_4275 = {}
+L1_4275.Icon = "Comment.bmp"
+L1_4275.IconOnTop = 1
+L0_4274.Editor = L1_4275
+ArkMapLabel = L0_4274

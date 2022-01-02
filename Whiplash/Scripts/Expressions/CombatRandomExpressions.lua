@@ -1,0 +1,12 @@
+local L0_9473, L1_9474
+L0_9473 = {}
+L1_9474 = {}
+L1_9474.Interval = 2
+L1_9474.IntervalRandom = 0
+L1_9474.Amp = 1
+L1_9474.AmpRandom = 0
+L1_9474.BlendIn = 0.5
+L1_9474.Hold = 1.5
+L1_9474.BlendOut = 0.5
+L0_9473.full_angry_teeth = L1_9474
+CombatRandomExpressions = L0_9473

@@ -1,0 +1,420 @@
+
+<ArkLootTables>
+ <Tables>
+  <ArkLootTable ID="10641886185883453448" Name="Global">
+   <Slots>
+    <ArkLootSlot Percent="5" Spawn="12348086275205041884"/>
+    <ArkLootSlot Percent="12" Spawn="10641886185883453247"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955081" Name="Ammo_All">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205035344"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882507177" Name="Ammo_Gunsmith">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185882418585"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882507179" Name="Ammo_LabTech">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185882417982"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882320713" Name="Chipsets_All">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185891322598"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882674573" Name="Consumables">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185882671250"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185893735443" Name="Consumables_ChanceNeuromod">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185893735118"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955083" Name="CraftingIngredients_All">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205036068"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="13856881013266269090" Name="FabPlans_All">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185883452793"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="13856881013268163152" Name="FabPlans_All_Or_Nothing">
+   <Slots>
+    <ArkLootSlot Percent="50" Spawn="10641886185883452793"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185880429143" Name="Grenades_All">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205020030"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882415132" Name="Junk_All_NoExotic">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205046531"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882675592" Name="Junk_All">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185882407827"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882675602" Name="Junk_Exotic">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185882418281"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882674714" Name="Junk_Medical">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205029175"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882674742" Name="Junk_Engineering">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205019725"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882674835" Name="Junk_Industrial">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205042447"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882668648" Name="Junk_Office">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205034751"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882675870" Name="Junk_Lab">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205044602"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185884127509" Name="Neuromod_ChanceNone">
+   <Slots>
+    <ArkLootSlot Percent="50" Spawn="12348086275205041884"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882506609" Name="Theme_Breakroom_DrinksNoAlcohol">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185887754876"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185887754995" Name="Theme_Breakroom_Alcohol_Upscale">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185882415768"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882417526" Name="Theme_Breakroom_Fridge">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205036156"/>
+    <ArkLootSlot Percent="75" Spawn="12348086275205036156"/>
+    <ArkLootSlot Percent="90" Spawn="12348086275204959326"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882419351" Name="Theme_Breakroom_Large">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205036156"/>
+    <ArkLootSlot Percent="75" Spawn="12348086275204959326"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275204959716"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882415462" Name="Theme_Breakroom_Small">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205036156"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275204959326"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882415725" Name="Theme_Breakroom_Snacks_Upscale">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="12348086275205015084"/>
+    <ArkLootSlot Percent="75" Spawn="12348086275205015084"/>
+    <ArkLootSlot Percent="50" Spawn="10641886185882415768"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882670343" Name="Theme_Exterior_Supplies">
+   <Slots>
+    <ArkLootSlot Percent="50" Spawn="10641886185882670555"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205042447"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882415424" Name="Theme_Lab_General">
+   <Slots>
+    <ArkLootSlot Percent="10" Spawn="10641886185882418474"/>
+    <ArkLootSlot Percent="50" Spawn="10641886185885440046"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882671060" Name="Theme_Locker_Large">
+   <Slots>
+    <ArkLootSlot Percent="30" Spawn="10641886185885444996"/>
+    <ArkLootSlot Percent="15" Spawn="10641886185885444996"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882671637" Name="Theme_Locker_Small">
+   <Slots>
+    <ArkLootSlot Percent="30" Spawn="10641886185885444996"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882674642" Name="Theme_Medical">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185882409443"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882669373" Name="Theme_Office_Large">
+   <Slots>
+    <ArkLootSlot Percent="10" Spawn="12348086275205035344"/>
+    <ArkLootSlot Percent="50" Spawn="10641886185885443236"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882671907" Name="Theme_Safe">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185884145368"/>
+    <ArkLootSlot Percent="100" Spawn="10641886185891320760"/>
+    <ArkLootSlot Percent="50" Spawn="10641886185882672231"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185893720997" Name="Theme_SupplyCrate_Medical">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185882409443"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205029175"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185893721518" Name="Theme_SupplyCrate_Science">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185885440046"/>
+    <ArkLootSlot Percent="25" Spawn="10641886185893733281"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185893721548" Name="Theme_SupplyCrate_Engineering">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185885445205"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205019725"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185885444530" Name="Theme_Security_Large_100">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185882671358"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205035344"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882674245" Name="Theme_Toolbox">
+   <Slots>
+    <ArkLootSlot Percent="50" Spawn="10641886185885445205"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205019725"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882674340" Name="Theme_TrashCan">
+   <Slots>
+    <ArkLootSlot Percent="50" Spawn="12348086275205046531"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882504588" Name="Weapons_All">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185879818420"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882503817" Name="Weapons_Gunsmith">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185882418552"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185882503009" Name="Weapons_LabTech">
+   <Slots>
+    <ArkLootSlot Percent="75" Spawn="10641886185882418474"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955117" Name="NPC_Human_Admin">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205103657"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205036156"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955115" Name="NPC_Human_Engineer">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205104502"/>
+    <ArkLootSlot Percent="35" Spawn="10641886185896670410"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955111" Name="NPC_Human_Scientist">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105995"/>
+    <ArkLootSlot Percent="35" Spawn="10641886185893733281"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955113" Name="NPC_Human_Security_Armed">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205104261"/>
+    <ArkLootSlot Percent="10" Spawn="10641886185888980063"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="418270515537992888" Name="NPC_Human_Johannes">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205104261"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185898046244" Name="NPC_Human_Vijay">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185898046292"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205041884"/>
+    <ArkLootSlot Percent="100" Spawn="10641886185898046376"/>
+    <ArkLootSlot Percent="100" Spawn="10641886185888980063"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185885865029" Name="NPC_Human_Tutorial">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205104304"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205042447"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955124" Name="NPC_Human_Volunteer">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205036156"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955125" Name="NPC_Mimic_Base">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105687"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105719"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955126" Name="NPC_Mimic_Elite">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105687"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205105687"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105719"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955136" Name="NPC_Nightmare">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185898046651"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205111040"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205111071"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205104305"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955119" Name="NPC_Operator_Engineering">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105475"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105497"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955120" Name="NPC_Operator_Medical">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105475"/>
+    <ArkLootSlot Percent="100" Spawn="10641886185897523010"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185883024813" Name="NPC_Operator_Recycler">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185884228780"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105475"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205036068"/>
+    <ArkLootSlot Percent="75" Spawn="12348086275205036068"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955121" Name="NPC_Operator_Science">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105475"/>
+    <ArkLootSlot Percent="50" Spawn="10641886185882409769"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955122" Name="NPC_Operator_Military">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105475"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105497"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955127" Name="NPC_Phantom_Scientist">
+   <Slots>
+    <ArkLootSlot Percent="50" Spawn="12348086275205036156"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205105995"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955128" Name="NPC_Phantom_Security">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185882418585"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205036156"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955129" Name="NPC_Phantom_Engineer">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205042345"/>
+    <ArkLootSlot Percent="50" Spawn="12348086275205104502"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955130" Name="NPC_Phantom_Base">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205106603"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205109450"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955131" Name="NPC_Phantom_Elite">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205106603"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205109450"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955132" Name="NPC_Poltergeist">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205110400"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205110442"/>
+    <ArkLootSlot Percent="30" Spawn="12348086275205104305"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955133" Name="NPC_Telepath">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185898046651"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205110465"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205110950"/>
+    <ArkLootSlot Percent="30" Spawn="12348086275205104305"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955134" Name="NPC_Technopath">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185898046651"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205110465"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205110950"/>
+    <ArkLootSlot Percent="30" Spawn="12348086275205104305"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10739735956177881237" Name="NPC_Tentacle_Nest">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205104305"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955123" Name="NPC_Turret">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105475"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205104304"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185883025075" Name="NPC_Turret_Gloo">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105475"/>
+    <ArkLootSlot Percent="50" Spawn="10641886185883025126"/>
+    <ArkLootSlot Percent="100" Spawn="10641886185883025126"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="10641886185883025383" Name="NPC_Turret_Laser">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105475"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205105497"/>
+   </Slots>
+  </ArkLootTable>
+  <ArkLootTable ID="12348086275204955135" Name="NPC_Weaver">
+   <Slots>
+    <ArkLootSlot Percent="100" Spawn="10641886185898046651"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205110465"/>
+    <ArkLootSlot Percent="100" Spawn="12348086275205111003"/>
+    <ArkLootSlot Percent="30" Spawn="12348086275205104305"/>
+   </Slots>
+  </ArkLootTable>
+ </Tables>
+</ArkLootTables>

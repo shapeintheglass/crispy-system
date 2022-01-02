@@ -1,0 +1,29 @@
+
+<ATLConfig atl_name="CargoBay">
+ <AudioTriggers>
+  <ATLTrigger atl_name="Play_CargoBay_Hydraulic_Cargo_Init" path="Objects">
+   <WwiseEvent wwise_name="Play_CargoBay_Hydraulic_Cargo_Init"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_CargoBay_Hydraulic_Cargo_FloorContact" path="Objects">
+   <WwiseEvent wwise_name="Stop_CargoBay_Hydraulic_Cargo_FloorContact"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_CargoBay_Hydraulic_Cargo_Raised" path="Objects">
+   <WwiseEvent wwise_name="Stop_CargoBay_Hydraulic_Cargo_Raised"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_CargoWinch_LP" path="Objects">
+   <WwiseEvent wwise_name="Stop_CargoWinch_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_CargoWinch_LP" path="Objects">
+   <WwiseEvent wwise_name="Play_CargoWinch_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_CargoBay_Restore_Power" path="Objects">
+   <WwiseEvent wwise_name="Play_CargoBay_Restore_Power"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Play_ChainFence_Move_LP" path="Objects">
+   <WwiseEvent wwise_name="Play_ChainFence_Move_LP"/>
+  </ATLTrigger>
+  <ATLTrigger atl_name="Stop_ChainFence_Move_LP" path="Objects">
+   <WwiseEvent wwise_name="Stop_ChainFence_Move_LP"/>
+  </ATLTrigger>
+ </AudioTriggers>
+</ATLConfig>

@@ -1,0 +1,885 @@
+
+<ArkLootSpawns>
+ <Loots>
+  <ArkLootSpawn ID="10641886185883453247" Name="Items_Global">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.GooGunAmmoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.LaserAmmoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.PistolAmmoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.ShotgunShellsFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.StunGunAmmoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.ToyGunAmmoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.AlienLureFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.EMPGrenadesFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.ApexSporeFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.NullwaveTransmitterFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.RecyclerGrenadeFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.CondenserCell" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.FuDFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.GlooTurretFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.LaserTurretFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.MedKitFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.NeuroModFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBleedFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBurnFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiConcussionFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiCrippleFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiRadFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.PropulsionSystemFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.PsiHypoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.SuitMaint.OxygenBottleFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.SuitMaint.SuitPatchKitFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.TimeShardFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.TurretFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.GooGunFabPlan" Weight="2" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.InstalaserFabPlan" Weight="2" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.PistolFabPlan" Weight="2" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.ShotgunFabPlan" Weight="2" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.TaserPistolFabPlan" Weight="2" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.ToyGunFabPlan" Weight="2" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.WrenchFabPlan" Weight="2" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.SwordFabPlan" Weight="2" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.BuffControlPowers" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.BuffDamagePowers" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.CritChancePlus10_GunsmithWeapons" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.CurrencyMultiplier" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.DecreaseTraumaChance" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.EMPAndNullwaveShield" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.EnhancedPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.FearBombFearResist" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.FreeCastFasterCooldown" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.HeavyAssist" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.IncreaseMaxHPAndStamina" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.MechTechs" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.PhantomCorpseInhibitor" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.PropulsionUpgrade_I" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.ReducePsiPowersCosts" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.ResistElementalDamage" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SneakAttackRestoreHealthAndPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SpendHealthAsPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SuitIntegrityBuff" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SuitOxygenBuff" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.Triathlete" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.Ultrashield" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.WrenchKnockback" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205035344" Name="Items_Ammo_All">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.PistolBullets" Weight="2" CountMin="3" CountMax="8"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.StunGunAmmo" Weight="1" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ToyGunDarts" Weight="1" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.InstaLaser" Weight="1" CountMin="50" CountMax="100"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ShotgunShells" Weight="2" CountMin="3" CountMax="6"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGun" Weight="1" CountMin="20" CountMax="42"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882418585" Name="Items_Ammo_Gunsmith">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.PistolBullets" Weight="1" CountMin="3" CountMax="8"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ShotgunShells" Weight="1" CountMin="3" CountMax="6"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205104305" Name="Items_Ammo_ApexSpore">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ApexSpores" Weight="1" CountMin="1" CountMax="3" LootRequirement="3149325216929346740"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882417982" Name="Items_Ammo_LabTech">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.InstaLaser" Weight="2" CountMin="50" CountMax="100"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.StunGunAmmo" Weight="2" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGun" Weight="2" CountMin="20" CountMax="42"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ToyGunDarts" Weight="1" CountMin="2" CountMax="4"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205104304" Name="Items_Ammo_PistolBullets">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.PistolBullets" Weight="1" CountMin="3" CountMax="8"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205105497" Name="Items_Ammo_QBeam">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.InstaLaser" Weight="1" CountMin="50" CountMax="100"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185898046376" Name="Items_Ammo_Shells">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ShotgunShells" Weight="1" CountMin="3" CountMax="6"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185891322598" Name="Items_Chipsets_All">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.BuffControlPowers" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.BuffDamagePowers" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.CritChancePlus10_GunsmithWeapons" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.CurrencyMultiplier" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.DecreaseTraumaChance" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.EMPAndNullwaveShield" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.EnhancedPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.FearBombFearResist" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.FreeCastFasterCooldown" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.HeavyAssist" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.IncreaseMaxHPAndStamina" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.MechTechs" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.PhantomCorpseInhibitor" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.PropulsionUpgrade_I" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.ReducePsiPowersCosts" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.ResistElementalDamage" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SneakAttackRestoreHealthAndPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SpendHealthAsPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SuitIntegrityBuff" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SuitOxygenBuff" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.Triathlete" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.Ultrashield" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.WrenchKnockback" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185884228780" Name="Items_CondenserCell">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Misc.CondenserCell" Weight="1" CountMin="1" CountMax="1" QualityOverride="None"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882671250" Name="Items_Consumables_1">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Misc.SpareParts" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.TimeShard" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.PsiHypo" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiBleed" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiBurn" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiConcussion" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiCripple" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiRad" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185893735118" Name="Items_Consumables_2">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.SpareParts" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.TimeShard" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.PsiHypo" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Player.Neuromod" Weight="3" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205036068" Name="Items_CraftingIngredients_All">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Exotic" Weight="1" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Mineral" Weight="1" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Organic" Weight="1" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Synthetic" Weight="1" CountMin="100" CountMax="200"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185883452793" Name="Items_FabPlans_All">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.GooGunAmmoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.LaserAmmoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.PistolAmmoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.ShotgunShellsFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.StunGunAmmoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.ToyGunAmmoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.AlienLureFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.ApexSporeFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.EMPGrenadesFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.NullwaveTransmitterFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.RecyclerGrenadeFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.CondenserCell" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.FuDFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.GlooTurretFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.LaserTurretFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.MedKitFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.NeuroModFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBleedFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBurnFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiConcussionFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiCrippleFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiRadFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.PropulsionSystemFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.PsiHypoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.SuitMaint.SuitPatchKitFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.TimeShardFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.TurretFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.GooGunFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.InstalaserFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.PistolFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.ShotgunFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.TaserPistolFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.ToyGunFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.WrenchFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882938369" Name="Items_Food_All">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.Apple" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.Banana" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.BluePomegranate" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.Lemon" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.Tomato" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bag.BigBangCandy" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bag.Glucassist" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bag.SunDriedTomatoJerky" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bag.VeggieBlend" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bowl.BananaPudding" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bowl.DimSum" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bowl.UdonNoodles" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.BliniCakes" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.CrispyFrites" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.FishSticks" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.LemonPieSlice" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.SkeksisUnagiRollz" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.SpiraliteCookies" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Tin.Caviar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Tin.JelliedEels" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275204959716" Name="Items_Food_Alcohol_All">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Bourbon" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Champagne" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.DuckBeer" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Gin" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Moonshine" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Vodka" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185887754876" Name="Items_Food_DrinksNoAlcohol">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Can.Water" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Can.PopStar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Can.KafeKarsk" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Can.GreenTea" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882420583" Name="Items_Food_Alcohol_Cheapo">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.DuckBeer" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Moonshine" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Vodka" Weight="2" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882415768" Name="Items_Food_Alcohol_Upscale">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Bourbon" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Champagne" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Gin" Weight="2" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275204959326" Name="Items_Food_Fruit">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.Apple" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.Banana" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.BluePomegranate" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Produce.Lemon" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205036156" Name="Items_Food_Snacks_Large">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Bag.BigBangCandy" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bag.Glucassist" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bag.SunDriedTomatoJerky" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bag.VeggieBlend" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bowl.BananaPudding" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bowl.DimSum" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Bowl.UdonNoodles" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.BliniCakes" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.CrispyFrites" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.FishSticks" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.LemonPieSlice" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.SkeksisUnagiRollz" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.SpiraliteCookies" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Tin.Caviar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Tin.JelliedEels" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205015084" Name="Items_Food_Snacks_Upscale">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.SkeksisUnagiRollz" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Box.SpiraliteCookies" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Tin.Caviar" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882670555" Name="Items_Exterior">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Misc.TimeShard" Weight="2" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Player.ZeroGSuit" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="2" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.SpareParts" Weight="3" CountMin="1" CountMax="2"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185885445205" Name="Items_General_Engineering">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.RecyclerGrenades" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGrenades" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.EMPGrenades" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Wrench" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.SpareParts" Weight="2" CountMin="3" CountMax="6"/>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="2" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CorrodedCoil" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.FriedHardDrive" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.WireSpool" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BrokenCoolerFan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BurntCircuitBoard" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185885440046" Name="Items_General_Lab">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Medical.PsiHypo" Weight="3" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Synthetic" Weight="2" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Organic" Weight="2" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Mineral" Weight="2" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Exotic" Weight="2" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BiohazardWaste" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.ExpiredPlasmaBag" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PetriDishSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.TestTubeSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.AsteroidFragment" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185885444996" Name="Items_General_Locker">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.StunGunAmmo" Weight="2" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ToyGunDarts" Weight="2" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ShotgunShells" Weight="2" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.PistolBullets" Weight="2" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.InstaLaser" Weight="2" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGun" Weight="2" CountMin="2" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.TimeShard" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.AsteroidFragment" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BiohazardWaste" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BrokenCoolerFan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BurntCircuitBoard" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CorrodedCoil" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CrumpledPaper" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.EmptyCan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.ExpiredPlasmaBag" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.FriedHardDrive" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PetriDishSample" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PlasticTubing" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.TestTubeSample" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.WireSpool" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGrenades" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.EMPGrenades" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.LureGrenades" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.NullwaveTransmitter" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.RecyclerGrenades" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Instalaser" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Pistol" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Shotgun" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.ToyGun" Weight="0" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.StunGun" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Wrench" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Sword" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.GooGun" Weight="2" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185885443236" Name="Items_General_Office">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Vodka" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Gin" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Moonshine" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Bourbon" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.Champagne" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Food.Alcohol.DuckBeer" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.UsedCigar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.AsteroidFragment" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostBananaPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostLemonPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CrumpledPaper" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882407827" Name="Items_Junk__All">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.AsteroidFragment" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BaseballGlove" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BiohazardWaste" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BrokenCoolerFan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BurntCircuitBoard" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostBananaPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostEelScraps" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostLemonPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CorrodedCoil" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CrumpledPaper" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.EmptyCan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.ExpiredPlasmaBag" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Flowers_A" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Flowers_B" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Flowers_C" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Flowers_D" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.FriedHardDrive" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PetriDishSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PlasticTubing" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.TestTubeSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.UsedCigar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.WireSpool" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Yellow_Tulips_A_Pickup" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.MimicTumor" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonCortex" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonGanglion" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonPlasma" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205046531" Name="Items_Junk_NoExotic">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.AsteroidFragment" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BaseballGlove" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BiohazardWaste" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BrokenCoolerFan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BurntCircuitBoard" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostBananaPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostEelScraps" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostLemonPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CorrodedCoil" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CrumpledPaper" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.EmptyCan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.ExpiredPlasmaBag" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Flowers_A" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Flowers_B" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Flowers_C" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Flowers_D" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.FriedHardDrive" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PetriDishSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PlasticTubing" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.TestTubeSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.UsedCigar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.WireSpool" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Yellow_Tulips_A_Pickup" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882418281" Name="Items_Junk_Exotic">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.MimicTumor" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonCortex" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonGanglion" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonPlasma" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205019725" Name="Items_Junk_Engineering">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BurntCircuitBoard" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CorrodedCoil" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.FriedHardDrive" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.WireSpool" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BrokenCoolerFan" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205042447" Name="Items_Junk_Industrial">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CorrodedCoil" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.WireSpool" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PlasticTubing" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205023153" Name="Items_Junk_IT">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BurntCircuitBoard" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BrokenCoolerFan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.FriedHardDrive" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205034654" Name="Items_Junk_Kitchen">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostBananaPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostLemonPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostEelScraps" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.EmptyCan" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205044602" Name="Items_Junk_Lab">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BiohazardWaste" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.ExpiredPlasmaBag" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PetriDishSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.TestTubeSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.AsteroidFragment" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205029175" Name="Items_Junk_Medical">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PetriDishSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.TestTubeSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PlasticTubing" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205034751" Name="Items_Junk_Office">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.UsedCigar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.AsteroidFragment" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostBananaPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostLemonPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CrumpledPaper" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205033991" Name="Items_Junk_Residential">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.UsedCigar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CrumpledPaper" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882409443" Name="Items_Medical_All">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="4" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiBleed" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiBurn" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiConcussion" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiCripple" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiRad" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185897523010" Name="Items_Medical_Operator">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="10" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiBleed" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiBurn" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiConcussion" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiCripple" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiRad" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205031384" Name="Items_Medkit">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205041884" Name="Items_Neuromod">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Player.Neuromod" Weight="1" CountMin="1" CountMax="3"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882409769" Name="Items_PsiHypo">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Medical.PsiHypo" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882672231" Name="Items_Safe">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Exotic" Weight="1" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Mineral" Weight="1" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Organic" Weight="1" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.Ingredients.Synthetic" Weight="1" CountMin="100" CountMax="200"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.PsiHypo" Weight="1" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="1" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="1" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.SpareParts" Weight="1" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.TimeShard" Weight="1" CountMin="1" CountMax="2"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185884145368" Name="Items_Safe_HighValue_1">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.GooGunAmmoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.LaserAmmoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.PistolAmmoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.ShotgunShellsFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.StunGunAmmoFabPlan" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Ammo.ToyGunAmmoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.AlienLureFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.EMPGrenadesFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.NullwaveTransmitterFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.RecyclerGrenadeFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Charge.ApexSporeFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.CondenserCell" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.FuDFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.GlooTurretFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.LaserTurretFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.MedKitFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.NeuroModFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBleedFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiBurnFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiConcussionFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiCrippleFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Pharma.PharmaAntiRadFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.PropulsionSystemFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.PsiHypoFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.SuitMaint.OxygenBottleFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.SuitMaint.SuitPatchKitFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.TimeShardFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.TurretFabPlan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.GooGunFabPlan" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.InstalaserFabPlan" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.PistolFabPlan" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.ShotgunFabPlan" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.TaserPistolFabPlan" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.ToyGunFabPlan" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.FabricationPlans.Weapon.WrenchFabPlan" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.GooGun" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Instalaser" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Pistol" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Shotgun" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.StunGun" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Sword" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.ToyGun" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Wrench" Weight="1" CountMin="1" CountMax="1" QualityOverride="&lt;No Override&gt;"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185891320760" Name="Items_Safe_HighValue_2">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Player.Neuromod" Weight="20" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.BuffControlPowers" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.BuffDamagePowers" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.CritChancePlus10_GunsmithWeapons" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.CurrencyMultiplier" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.DecreaseTraumaChance" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.EMPAndNullwaveShield" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.EnhancedPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.FearBombFearResist" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.FreeCastFasterCooldown" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.HeavyAssist" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.IncreaseMaxHPAndStamina" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.MechTechs" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.PhantomCorpseInhibitor" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.PropulsionUpgrade_I" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.ReducePsiPowersCosts" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.ResistElementalDamage" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SneakAttackRestoreHealthAndPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SpendHealthAsPSI" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SuitIntegrityBuff" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.SuitOxygenBuff" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.Triathlete" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.Ultrashield" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Mods.Suit.WrenchKnockback" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205104025" Name="Items_Security">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.PistolBullets" Weight="1" CountMin="3" CountMax="6"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ShotgunShells" Weight="1" CountMin="3" CountMax="4"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205042345" Name="Items_SpareParts">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Misc.SpareParts" Weight="1" CountMin="1" CountMax="3"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205105475" Name="Items_SpareParts_Dismantle">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Misc.SpareParts" Weight="1" CountMin="1" CountMax="2" LootRequirement="3149325216929347172"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185888980063" Name="Items_Suit">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Player.ZeroGSuit" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185898046651" Name="Items_TimeShard">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Misc.TimeShard" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185879818420" Name="Items_Weapons">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Instalaser" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Pistol" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Shotgun" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.ToyGun" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.StunGun" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Wrench" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Sword" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.GooGun" Weight="2" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882671358" Name="Items_Weapons_&amp;_Grenades">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGrenades" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ApexSpores" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.EMPGrenades" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.LureGrenades" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.NullwaveTransmitter" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.RecyclerGrenades" Weight="2" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Instalaser" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Pistol" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Shotgun" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.ToyGun" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.StunGun" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Wrench" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Sword" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.GooGun" Weight="2" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882418552" Name="Items_Weapons_Gunsmith">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Pistol" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Shotgun" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Wrench" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205020030" Name="Items_Weapons_GrenadesOnly">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.RecyclerGrenades" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.EMPGrenades" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGrenades" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.LureGrenades" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.NullwaveTransmitter" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ApexSpores" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882418474" Name="Items_Weapons_LabTech">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Instalaser" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.StunGun" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.ToyGun" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.GooGun" Weight="2" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185893733281" Name="Items_Weapons_LabTech_2">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.LureGrenades" Weight="1" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ApexSpores" Weight="1" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.NullwaveTransmitter" Weight="1" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Instalaser" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.StunGun" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.ToyGun" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.GooGun" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185896670410" Name="Items_Weapons_Engineering">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.RecyclerGrenades" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.EMPGrenades" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGrenades" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Wrench" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.ToyGun" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.StunGun" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205104351" Name="Items_Weapons_Pistol">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Pistol" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185882937145" Name="Items_Weapons_Security">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Pistol" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Shotgun" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205117566" Name="Items_Weapons_Wrench">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Wrench" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205104261" Name="NPC_Human_Security">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="1" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ShotgunShells" Weight="1" CountMin="3" CountMax="4"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.PistolBullets" Weight="1" CountMin="3" CountMax="6"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Shotgun" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Pistol" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205103657" Name="NPC_Human_Admin">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.UsedCigar" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CrumpledPaper" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostLemonPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CompostBananaPeel" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Medical.MedKit" Weight="2" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="2" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205104502" Name="NPC_Human_Engineer">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BrokenCoolerFan" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BurntCircuitBoard" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.FriedHardDrive" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.CorrodedCoil" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Misc.SpareParts" Weight="2" CountMin="1" CountMax="2"/>
+    <ArkLootItem Archetype="ArkPickups.Player.SuitPatchKit" Weight="2" CountMin="1" CountMax="2"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205105995" Name="NPC_Human_Scientist">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Medical.PsiHypo" Weight="5" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.BiohazardWaste" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.ExpiredPlasmaBag" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.PetriDishSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.TestTubeSample" Weight="1" CountMin="1" CountMax="1"/>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.AsteroidFragment" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185898046292" Name="NPC_Vijay_Shotgun">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Weapons.Unique.Shotgun_SecurityCharacter" Weight="5" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205105687" Name="NPC_AlienOrgan_Small">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="1" CountMax="1"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205105903" Name="NPC_AlienOrgan_Small_x2">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="2" CountMax="2"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205106603" Name="NPC_AlienOrgan_Small_x3">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="3" CountMax="3"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205109450" Name="NPC_AlienOrgan_Small_Nec">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="1" CountMax="1" LootRequirement="3149325216929346740"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205110400" Name="NPC_AlienOrgan_Small_Nec_x2">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="2" CountMax="2" LootRequirement="3149325216929346740"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205110442" Name="NPC_AlienOrgan_Small_x6">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="6" CountMax="6"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205110465" Name="NPC_AlienOrgan_Small_x15">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="30" CountMax="30"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205111040" Name="NPC_AlienOrgan_Small_x30">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.AlienOrganSmall" Weight="1" CountMin="15" CountMax="15"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205110950" Name="NPC_AlienOrgan_TyphonGanglion_Nec">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonGanglion" Weight="1" CountMin="1" CountMax="1" LootRequirement="3149325216929346740"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205111003" Name="NPC_AlienOrgan_TyphonPlasma_Nec">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonPlasma" Weight="1" CountMin="1" CountMax="1" LootRequirement="3149325216929346740"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205111071" Name="NPC_AlienOrgan_TyphonCortex_Nec">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.TyphonCortex" Weight="1" CountMin="1" CountMax="1" LootRequirement="3149325216929346740"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205105719" Name="NPC_MimicTumor_Necropsy">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Crafting.RecyclerJunk.Exotic.MimicTumor" Weight="1" CountMin="1" CountMax="1" LootRequirement="3149325216929346740"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="12348086275205105818" Name="NPC_MimicBase_Ammo">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.PistolBullets" Weight="1" CountMin="2" CountMax="3"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.ShotgunShells" Weight="1" CountMin="2" CountMax="3"/>
+   </Items>
+  </ArkLootSpawn>
+  <ArkLootSpawn ID="10641886185883025126" Name="NPC_Turret_Gloo">
+   <Items>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGun" Weight="1" CountMin="20" CountMax="40"/>
+    <ArkLootItem Archetype="ArkPickups.Ammo.GooGrenades" Weight="1" CountMin="2" CountMax="3"/>
+   </Items>
+  </ArkLootSpawn>
+ </Loots>
+</ArkLootSpawns>

@@ -1,0 +1,90 @@
+
+<UIElements name="DanielleMTXStore">
+ <UIElement name="DanielleMTXStore" render_lockless="1" mouseevents="1" keyevents="0" cursor="0" controller_input="1" use_steam_menu="1">
+  <GFx file="GFX/danielle_mtx_store.gfx" layer="2">
+   <Constraints>
+    <Align mode="dynamic" valign="center" halign="center" scale="1" max="0"/>
+   </Constraints>
+  </GFx>
+  <functions>
+   <function name="storeOpenPage" funcname="mtx.openPage"/>
+   <function name="storeExitPage" funcname="mtx.exitPage"/>
+   <function name="storeClearItems" funcname="mtx.clearList"/>
+   <function name="storeAddItem" funcname="mtx.addItem">
+    <param name="ID" desc="uniqueID" type="string"/>
+    <param name="Title" desc="" type="String"/>
+    <param name="Rarity" desc="" type="int"/>
+    <param name="Icon" desc="" type="String"/>
+    <param name="Cost" desc="" type="String"/>
+    <param name="Sale" desc="" type="String"/>
+    <param name="isPurchased" desc="" type="bool"/>
+    <param name="isNew" desc="" type="bool"/>
+   </function>
+   <function name="storeUpdateList" funcname="mtx.updateList"/>
+   <function name="storeSetDescription" funcname="mtx.setDescription">
+    <param name="Body" desc="" type="string"/>
+   </function>
+   <function name="storeSetLoading" funcname="mtx.setSpinnerVis">
+    <param name="isVis" desc="" type="bool"/>
+   </function>
+   <function name="highlightID" funcname="highlightID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </function>
+   <function name="HLUp" funcname="HLUp"/>
+   <function name="HLDown" funcname="HLDown"/>
+   <function name="HLLeft" funcname="HLLeft"/>
+   <function name="HLRight" funcname="HLRight"/>
+   <function name="btnSelect" funcname="btnSelect"/>
+   <function name="btnBack" funcname="btnBack"/>
+   <function name="openPage" funcname="openPage"/>
+   <function name="exitPage" funcname="exitPage"/>
+   <function name="scrollX" funcname="scrollX">
+    <param name="value" type="float"/>
+   </function>
+   <function name="scrollY" funcname="scrollY">
+    <param name="value" type="float"/>
+   </function>
+   <function name="SetControlScheme" funcname="setControlScheme">
+    <param name="controlScheme" type="int"/>
+   </function>
+   <function name="setPrompt" funcname="global.setPrompt">
+    <param name="Place" desc="1-8" type="int"/>
+    <param name="Visible" desc="" type="bool"/>
+    <param name="Prompt" desc="" type="string"/>
+    <param name="Text" desc="" type="string"/>
+    <param name="isEnabled" desc="" type="bool"/>
+    <param name="ID" desc="Returned onMouseClick" type="string"/>
+   </function>
+   <function name="formatPrompts" funcname="global.formatPrompts"/>
+   <function name="screenRotate" funcname="camera.rotateOffset">
+    <param name="xValue" desc="-1 to +1" type="float"/>
+    <param name="yValue" desc="-1 to +1" type="float"/>
+   </function>
+  </functions>
+  <Events>
+   <event name="storeHL" fscommand="storeHL" desc="returns unique ID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </event>
+   <event name="storeSelect" fscommand="selectItem" desc="returns unique ID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </event>
+   <event name="buttonPress" fscommand="buttonPress" desc="right now only used for the back button">
+    <param name="whatButton" desc="" type="string"/>
+   </event>
+   <event name="menuTransition" fscommand="menuTransition" desc="">
+    <param name="Page" desc="" type="string"/>
+   </event>
+   <event name="UISoundManager" fscommand="UISoundPlay" desc="Sound.########">
+    <param name="SoundEvent" desc="Sound Path" type="string"/>
+   </event>
+   <event name="PlayForceFeedback" fscommand="playForceFeedback">
+    <param name="ID" type="string"/>
+   </event>
+   <event name="promptSelect" fscommand="promptSelect">
+    <param name="promptIndex" desc="" type="int"/>
+   </event>
+  </Events>
+  <Arrays/>
+  <variables/>
+ </UIElement>
+</UIElements>

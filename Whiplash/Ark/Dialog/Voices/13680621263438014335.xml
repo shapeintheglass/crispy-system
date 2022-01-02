@@ -1,0 +1,29 @@
+
+<Dialog>
+ <Dialog id="13680621263438014519" text="This is so weird." modified="10/13/2017 04:22:15 PM" notes="[Angela Wagner] Uncomfortable. Nervous."/>
+ <Dialog id="13680621263438014627" text="Hmph. Not like this." modified="10/13/2017 04:53:22 PM" notes="[Angela Wagner] "/>
+ <Dialog id="13680621263438015003" text="I have your connectome. I&apos;m headed there now to inject your piloting skills into my skull." modified="10/13/2017 09:04:44 PM" notes="[Angela Wagner]  Emphasis on YOUR and MY."/>
+ <Dialog id="13680621263438015034" text="Yeah, like what?" modified="10/13/2017 09:03:26 PM" notes="[Angela Wagner] "/>
+ <Dialog id="13680621263438016497" text="Actually - you&apos;ll be obsolete &apos;cause I&apos;ll be able to fix them and fly them." modified="03/13/2018 04:03:26 PM" notes="[Angela Wagner] Coming around. Teasing him now. Emphasis on AND."/>
+ <Dialog id="13680621263438470555" text="This mimic you brought me - something is definitely wrong with it. It keeps throwing various... shoes at me. " modified="10/18/2017 11:03:20 PM" notes="[Kristen Schwanholz]"/>
+ <Dialog id="13680621263438470763" text="I&apos;m serious. It&apos;s like it&apos;s punching holes to somewhere - a universe of shoes - I don&apos;t know. But, my point is, someone with sufficient Typhon abilities and a strong attachment to someplace else, like-" modified="10/18/2017 11:16:35 PM" notes="[Kristen Schwanholz]"/>
+ <Dialog id="13680621263438470902" text="Yes. Exactly. Then, I think  you could open a door. Maybe even walk through it." modified="10/18/2017 11:21:18 PM" notes="[Kristen Schwanholz]"/>
+ <Dialog id="13680621263438470998" text="I think I could tweak the containment shield to stabilize the mimic." modified="10/18/2017 11:10:14 PM" notes="[Kristen Schwanholz]"/>
+ <Dialog id="13680621263438471030" text="Well? What are you waiting for? I&apos;ll be in the lab." modified="10/18/2017 11:21:56 PM" notes="[Kristen Schwanholz]"/>
+ <Dialog id="13680621263440612703" text="You were right." modified="11/12/2017 06:05:19 PM" notes="[Casey Fletcher]"/>
+ <Dialog id="13680621263440612810" text="Three more surveillance kits missing." modified="11/12/2017 06:07:06 PM" notes="[Casey Fletcher]"/>
+ <Dialog id="13680621263440612840" facefx="0" sync="0" notes="[Casey Fletcher]" text="Two more surveillance kits missing." modified="11/12/2017 06:07:43 PM"/>
+ <Dialog id="13680621263440612848" facefx="0" sync="0" notes="[Casey Fletcher]" text="One more surveillance kit missing." modified="11/12/2017 06:07:55 PM"/>
+ <Dialog id="13680621263440612863" facefx="0" sync="0" notes="[Casey Fletcher]" text="Four more surveillance kits missing." modified="11/12/2017 06:08:03 PM"/>
+ <Dialog id="13680621263440612884" text="No, that&apos;s it." modified="11/12/2017 06:08:33 PM" notes="[Casey Fletcher]"/>
+ <Dialog id="13680621263440612950" text="No. Nothing in the security computer. No logins used, no keycodes entered." modified="11/12/2017 06:12:48 PM" notes="[Casey Fletcher]"/>
+ <Dialog id="13680621263440613425" text="Wait." modified="11/12/2017 06:17:21 PM" notes="[Casey Fletcher] Swallowing, uncomfortable."/>
+ <Dialog id="13680621263440613445" text="There&apos;s something else." modified="11/12/2017 06:17:41 PM" notes="[Casey Fletcher]"/>
+ <Dialog id="13680621263440613470" text="Shuttle came in last night. It&apos;s... a letter from the AIL." modified="11/12/2017 06:23:38 PM" notes="[Casey Fletcher]"/>
+ <Dialog id="13680621263440613536" text="If you... uhm... let me know if you need anything. Okay?" modified="11/12/2017 06:24:13 PM" notes="[Casey Fletcher] She knows it&apos;s probably bad news about his son."/>
+ <Dialog id="13680621263440614950" text="No. First time. Am I that obvious?" modified="11/12/2017 06:43:19 PM" notes="[Terri Brown]"/>
+ <Dialog id="13680621263440615090" text="Is there any risk of an outbreak." modified="11/12/2017 06:45:06 PM" notes="[Terri Brown]"/>
+ <Dialog id="13680621263440615182" text="But what about the voltaic kind? Wouldn&apos;t an EMP disrupt the-" modified="11/12/2017 06:48:00 PM" notes="[Terri Brown]"/>
+ <Dialog id="13680621263440615316" text="It&apos;s just... a little surreal. You know? Being here on the moon. Under a dome. Aliens. People with... psychic abilities." modified="11/12/2017 06:48:52 PM" notes="[Terri Brown]"/>
+ <Dialog id="13680621263440615346" text="That is literally what I just said." modified="11/12/2017 06:49:22 PM" notes="[Terri Brown] Taken aback, like, are you mental?"/>
+</Dialog>

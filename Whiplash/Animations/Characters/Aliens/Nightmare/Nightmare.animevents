@@ -1,0 +1,588 @@
+
+<anim_event_list>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_combat_move.bspace">
+  <event name="sound" time="0.31020001" endTime="0.31020001" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8132" endTime="0.8132" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_combat_movestrafe.bspace">
+  <event name="sound" time="0.33660001" endTime="0.33660001" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.33660001" endTime="0.33660001" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.79500002" endTime="0.79500002" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.79500002" endTime="0.79500002" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/detect/combat_detect_player.caf">
+  <event name="sound" time="0.0425" endTime="0.0425" parameter="Play_Nightmare_mvmt_DetectPlayer" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1095" endTime="0.1095" parameter="Play_Nightmare_Vox_Scream_1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.56770831" endTime="0.56770831" parameter="Play_Nightmare_Mvmt_FlipBack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/etherform/combat_etherform_in.caf">
+  <event name="sound" time="0.056699999" endTime="0.056699999" parameter="Play_Nightmare_IntoSmokeForm" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/etherform/combat_etherform_in_nomove.caf">
+  <event name="sound" time="0.1318" endTime="0.1318" parameter="Play_Nightmare_IntoSmokeForm" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/etherform/combat_etherform_out.caf">
+  <event name="sound" time="0.030299999" endTime="0.030299999" parameter="Play_Nightmare_OutOfSmokeForm" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/melee/combat_melee_front_long_a.caf">
+  <event name="sound" time="0.1257" endTime="0.1257" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.16531441" endTime="0.16531441" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1987" endTime="0.1987" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2859" endTime="0.2859" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.068799995" endTime="0.068799995" parameter="Play_Nightmare_Vox_Attack_1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/melee/combat_melee_front_medium_a.caf">
+  <event name="sound" time="0.1114" endTime="0.1114" parameter="Play_Nightmare_mvmt_swish_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1682" endTime="0.1682" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25139999" endTime="0.25139999" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.27169999" endTime="0.27169999" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3265" endTime="0.3265" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="New Event" time="0.20459999" endTime="0.20459999" parameter="Play_Nightmare_Vox_Scream_1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/melee/combat_melee_front_short_a.caf">
+  <event name="sound" time="0.27687627" endTime="0.27687627" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.33669999" endTime="0.33669999" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.1723" endTime="0.1723" parameter="Play_Nightmare_Step_Noise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3527" endTime="0.3527" parameter="Play_Nightmare_Step_Crunch" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/melee/combat_melee_front_short_b.caf">
+  <event name="sound" time="0.27770001" endTime="0.27770001" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38519999" endTime="0.38519999" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.156" endTime="0.156" parameter="Play_Nightmare_Step_Noise" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4077" endTime="0.4077" parameter="Play_Nightmare_Step_Crunch" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/melee/combat_melee_left_medium_a.caf">
+  <event name="sound" time="0.081" endTime="0.081" parameter="Play_Nightmare_mvmt_swish_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.20479999" endTime="0.20479999" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3529" endTime="0.3529" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/melee/combat_melee_right_medium_a.caf">
+  <event name="sound" time="0.095100001" endTime="0.095100001" parameter="Play_Nightmare_mvmt_swish_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25549999" endTime="0.25549999" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38319999" endTime="0.38319999" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.42389998" endTime="0.42389998" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walk/combat_walk_forward.caf">
+  <event name="sound" time="0.3263" endTime="0.3263" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.80930001" endTime="0.80930001" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.722" endTime="0.722" parameter="Play_Nightmare_mvmt_swish_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25749999" endTime="0.25749999" parameter="Play_Nightmare_mvmt_swish_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/run/combat_run_backward.caf">
+  <event name="footstep" time="0.33057851" endTime="0.33057851" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8247934" endTime="0.8247934" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/run/combat_run_backwardleft.caf">
+  <event name="footstep" time="0.32727271" endTime="0.32727271" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.81570244" endTime="0.81570244" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/run/combat_run_backwardright.caf">
+  <event name="footstep" time="0.32644629" endTime="0.32644629" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8247934" endTime="0.8247934" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/run/combat_run_forward.caf">
+  <event name="footstep" time="0.31322315" endTime="0.31322315" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8231405" endTime="0.8231405" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/run/combat_run_forwardleft.caf">
+  <event name="footstep" time="0.31239671" endTime="0.31239671" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.81652892" endTime="0.81652892" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/run/combat_run_forwardright.caf">
+  <event name="footstep" time="0.34049585" endTime="0.34049585" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.81239671" endTime="0.81239671" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/run/combat_run_left.caf">
+  <event name="footstep" time="0.31570247" endTime="0.31570247" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8157025" endTime="0.8157025" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/run/combat_run_right.caf">
+  <event name="footstep" time="0" endTime="0" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.31322315" endTime="0.31322315" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runstart/combat_runstart_left.caf">
+  <event name="footstep" time="0.16694215" endTime="0.16694215" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.34999999" endTime="0.34999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.47107437" endTime="0.47107437" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.85702479" endTime="0.85702479" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runstart/combat_runstart_left180.caf">
+  <event name="footstep" time="0.14132231" endTime="0.14132231" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.34999999" endTime="0.34999999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.46694216" endTime="0.46694216" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.85785127" endTime="0.85785127" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runstart/combat_runstart_left90.caf">
+  <event name="footstep" time="0.15454546" endTime="0.15454546" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment1" time="0.36879402" endTime="0.36879402" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.46694216" endTime="0.46694216" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.86033058" endTime="0.86033058" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runstart/combat_runstart_right.caf">
+  <event name="segment1" time="0.15456209" endTime="0.2454" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.21322314" endTime="0.21322314" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.51157027" endTime="0.51157027" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.67684138" endTime="0.69172001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.85702479" endTime="0.85702479" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runstart/combat_runstart_right180.caf">
+  <event name="segment1" time="0.1757054" endTime="0.2454" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.19504133" endTime="0.19504133" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.51322311" endTime="0.51322311" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.67527521" endTime="0.69172001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.86363637" endTime="0.86363637" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runstart/combat_runstart_right90.caf">
+  <event name="segment1" time="0.18040392" endTime="0.2454" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.22231404" endTime="0.22231404" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.52479339" endTime="0.52479339" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.6588304" endTime="0.69172001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.8595041" endTime="0.8595041" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runstop/combat_runstop_leftfootup.caf">
+  <event name="footstep" time="0.23636363" endTime="0.23636363" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.60082644" endTime="0.60082644" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87603307" endTime="0.87603307" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runstop/combat_runstop_rightfootup.caf">
+  <event name="footstep" time="0.2338843" endTime="0.2338843" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.63471073" endTime="0.63471073" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.87438017" endTime="0.87438017" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runturn/combat_runturn_left.caf">
+  <event name="footstep" time="0.082644626" endTime="0.082644626" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.20330578" endTime="0.20330578" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.33140495" endTime="0.33140495" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.45619833" endTime="0.45619833" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.58595043" endTime="0.58595043" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.71239668" endTime="0.71239668" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.83471072" endTime="0.83471072" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.95619833" endTime="0.95619833" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/runturn/combat_runturn_right.caf">
+  <event name="footstep" time="0.081818178" endTime="0.081818178" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.20578513" endTime="0.20578513" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.32809916" endTime="0.32809916" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.45950413" endTime="0.45950413" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.58264464" endTime="0.58264464" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.70826447" endTime="0.70826447" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.83140498" endTime="0.83140498" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.95371902" endTime="0.95371902" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/steprot/combat_steprot_left180.caf">
+  <event name="footstep" time="0.50082642" endTime="0.50082642" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.96694213" endTime="0.96694213" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/steprot/combat_steprot_left90.caf">
+  <event name="footstep" time="0.49008265" endTime="0.49008265" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.95867771" endTime="0.95867771" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/steprot/combat_steprot_right180.caf">
+  <event name="footstep" time="0.49504131" endTime="0.49504131" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.95867771" endTime="0.95867771" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/steprot/combat_steprot_right90.caf">
+  <event name="footstep" time="0.54049587" endTime="0.54049587" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.94214875" endTime="0.94214875" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walk/combat_walk_backward.caf">
+  <event name="footstep" time="0.33057851" endTime="0.33057851" parameter="footstep_nightmare" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.79090911" endTime="0.79090911" parameter="footstep_nightmare" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_combat_movestop_walk.bspace">
+  <event name="sound" time="0.24354" endTime="0.24354" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.24354" endTime="0.24354" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.75357997" endTime="0.75357997" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.75357997" endTime="0.75357997" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.87" endTime="0.87" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_combat_movestop_run.bspace">
+  <event name="sound" time="0.22588" endTime="0.22588" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.22588" endTime="0.22588" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.65079999" endTime="0.65079999" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.65079999" endTime="0.65079999" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.86562997" endTime="0.86562997" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.86562997" endTime="0.86562997" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="animexit" time="0.87" endTime="0.87" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_right180.caf">
+  <event name="segment1" time="0.18454543" endTime="0.57323003" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.66140562" endTime="0.89617002" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_left.caf">
+  <event name="segment1" time="0.38893282" endTime="0.40000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_left90.caf">
+  <event name="segment1" time="0.36996049" endTime="0.40000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_left180.caf">
+  <event name="segment1" time="0.37391305" endTime="0.40000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_right.caf">
+  <event name="segment1" time="0.14027666" endTime="0.5831309" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.66061509" endTime="0.91926003" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_right90.caf">
+  <event name="segment1" time="0.18375492" endTime="0.58445013" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.66377711" endTime="0.91926003" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstop/combat_walkstop_leftfootup.caf">
+  <event name="animexit" time="0.86345649" endTime="0.86345649" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstop/combat_walkstop_rightfootup.caf">
+  <event name="animexit" time="0.81332451" endTime="0.81332451" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/3d-bspace_combat_movestrafecrouch.comb">
+  <event name="sound" time="0.28433001" endTime="0.28433001" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.28433001" endTime="0.28433001" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.741" endTime="0.741" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.741" endTime="0.741" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_combat_movestart.comb">
+  <event name="sound" time="0.23865999" endTime="0.23865999" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.23865999" endTime="0.23865999" parameter="" bone="l_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.54180998" endTime="0.54180998" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.54180998" endTime="0.54180998" parameter="" bone="r_foot_jnt" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_left.caf">
+  <event name="segment1" time="0.40000001" endTime="0.40000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_left180.caf">
+  <event name="segment1" time="0.40000001" endTime="0.40000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_left90.caf">
+  <event name="segment1" time="0.40000001" endTime="0.40000001" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_right.caf">
+  <event name="segment1" time="0.16320154" endTime="0.57323003" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.67089176" endTime="0.75038999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_right180.caf">
+  <event name="segment1" time="0.23750985" endTime="0.57323003" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.68353999" endTime="0.75038999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_right90.caf">
+  <event name="segment1" time="0.18612644" endTime="0.57323003" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.68353999" endTime="0.75038999" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/runstart/crouch_runstart_left.caf">
+  <event name="segment1" time="0.38527799" endTime="0.38527799" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/runstart/crouch_runstart_left180.caf">
+  <event name="segment1" time="0.42443228" endTime="0.42443228" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/runstart/crouch_runstart_left90.caf">
+  <event name="segment1" time="0.38371181" endTime="0.38371181" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/runstart/crouch_runstart_right.caf">
+  <event name="segment1" time="0.15426782" endTime="0.15426782" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.69303054" endTime="0.69303054" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/runstart/crouch_runstart_right180.caf">
+  <event name="segment1" time="0.19263899" endTime="0.19263899" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.70947534" endTime="0.70947534" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/runstart/crouch_runstart_right90.caf">
+  <event name="segment1" time="0.17306186" endTime="0.17306186" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="segment2" time="0.69224745" endTime="0.69224745" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_crouch_runstop.comb">
+  <event name="animexit" time="0.8197853" endTime="0.8197853" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_crouch_walkstop.comb">
+  <event name="animexit" time="0.86656439" endTime="0.86656439" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_etherform_in_nomove.bspace">
+  <event name="sound" time="0.041666668" endTime="0.041666668" parameter="Play_Nightmare_IntoSmokeForm" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_etherform_out_nomove.bspace">
+  <event name="sound" time="0.01171875" endTime="0.01171875" parameter="Play_Nightmare_OutOfSmokeForm" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_combat_moveturn.bspace">
+  <event name="sound" time="0.265625" endTime="0.265625" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.74088538" endTime="0.74088538" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/3d-bspace_combat_moveturncrouch.bspace">
+  <event name="sound" time="0.25065103" endTime="0.25065103" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.72330731" endTime="0.72330731" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/etherform/combat_etherform_out_nomove.caf">
+  <event name="sound" time="0.00390625" endTime="0.00390625" parameter="Play_Nightmare_OutOfSmokeForm" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/fear/combat_fear.caf">
+  <event name="sound" time="0.15755208" endTime="0.15755208" parameter="Play_Nightmare_Vox_Fear" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/psiattack/combat_psiattack_a.caf">
+  <event name="sound" time="0.10742188" endTime="0.10742188" parameter="Play_Nightmare_Psi_Attack" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/movethroughdoor/combat_movethroughdoor.caf">
+  <event name="sound" time="0.037109375" endTime="0.037109375" parameter="Play_Nightmare_Mvmt_A_MoveThroughDoor" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.10221354" endTime="0.10221354" parameter="Play_Nightmare_mvmt_step_light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.23828125" endTime="0.23828125" parameter="Play_Nightmare_mvmt_step_light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5" endTime="0.5" parameter="Play_Nightmare_Mvmt_B_MoveThroughDoor" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_stomp_a.bspace">
+  <event name="sound" time="0.026041666" endTime="0.026041666" parameter="Play_Nightmare_mvmt_lowGrit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35677084" endTime="0.35677084" parameter="Play_Nightmare_mvmt_swish_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.44205728" endTime="0.44205728" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_melee_right_medium_a.bspace">
+  <event name="sound" time="0.079427086" endTime="0.079427086" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.40104166" endTime="0.40104166" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4765625" endTime="0.4765625" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_melee_left_medium_a.bspace">
+  <event name="sound" time="0.11002604" endTime="0.11002604" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.34179688" endTime="0.34179688" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_melee_front_short_a.bspace">
+  <event name="sound" time="0.18164063" endTime="0.18164063" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35351563" endTime="0.35351563" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_melee_front_medium_a.bspace">
+  <event name="sound" time="0.046223957" endTime="0.046223957" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.21028645" endTime="0.21028645" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.35026041" endTime="0.35026041" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_melee_front_long_a.bspace">
+  <event name="sound" time="0.03125" endTime="0.03125" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25260416" endTime="0.25260416" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.38251877" endTime="0.38251877" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_melee_front_short_b.bspace">
+  <event name="sound" time="0.053385418" endTime="0.053385418" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.36197916" endTime="0.36197916" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_death.bspace">
+  <event name="sound" time="0.0066666668" endTime="0.0066666668" parameter="Play_Nightmare_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_fear.bspace">
+  <event name="sound" time="0.068571433" endTime="0.068571433" parameter="Play_Nightmare_Crouch_Run_Start" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.15238096" endTime="0.15238096" parameter="Play_Nightmare_Vox_Fear" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_psiattack_a.bspace">
+  <event name="sound" time="0.085714288" endTime="0.085714288" parameter="Play_Nightmare_Vox_Scream_Distant" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_walk.bspace">
+  <event name="sound" time="0.25428572" endTime="0.25428572" parameter="Play_Nightmare_mvmt_step_light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.29619047" endTime="0.29619047" parameter="Play_Nightmare_mvmt_lowGrit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78761905" endTime="0.78761905" parameter="Play_Nightmare_mvmt_step_light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83999997" endTime="0.83999997" parameter="Play_Nightmare_mvmt_lowGrit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_walkjuke_left180.bspace">
+  <event name="sound" time="0.21142857" endTime="0.21142857" parameter="Play_Nightmare_mvmt_lowGrit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.2742857" endTime="0.2742857" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_walkjuke_left90.bspace">
+  <event name="sound" time="0.21238095" endTime="0.21238095" parameter="Play_Nightmare_mvmt_lowGrit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/1d-bspace_crouch_walkjuke_right90.bspace">
+  <event name="sound" time="0.15523809" endTime="0.15523809" parameter="Play_Nightmare_mvmt_lowGrit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22285715" endTime="0.22285715" parameter="Play_Nightmare_mvmt_step_light" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_crouch_runstart.comb">
+  <event name="sound" time="0.052380953" endTime="0.052380953" parameter="Play_Nightmare_mvmt_lowGrit" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.25809523" endTime="0.25809523" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55047619" endTime="0.55047619" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.83428574" endTime="0.83428574" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_crouch_runstart_left.bspace">
+  <event name="sound" time="0.059047621" endTime="0.059047621" parameter="Play_Nightmare_Crouch_Run_Start" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24571429" endTime="0.24571429" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.55809522" endTime="0.55809522" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.85333335" endTime="0.85333335" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/_lmg/2d-bspace_crouch_runstart_right.bspace">
+  <event name="sound" time="0.067619048" endTime="0.067619048" parameter="Play_Nightmare_Crouch_Run_Start" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.22952381" endTime="0.22952381" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.5447619" endTime="0.5447619" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.84666669" endTime="0.84666669" parameter="Play_Nightmare_mvmt_step" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/stomp/combat_stomp_a.caf">
+  <event name="sound" time="0.25735295" endTime="0.25735295" parameter="Play_Nightmare_mvmt_Melee" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4360294" endTime="0.4360294" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/taunt/combat_taunt.caf">
+  <event name="sound" time="0.059558824" endTime="0.059558824" parameter="Play_Nightmare_mvmt_ShockMovem" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12941177" endTime="0.14705883" parameter="Play_Nightmare_Vox_Scream_1" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/death/crouch_death.caf">
+  <event name="sound" time="0.030882353" endTime="0.030882353" parameter="Play_Nightmare_Death" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/psiattack/crouch_psiattack_a.caf">
+  <event name="sound" time="0.036764707" endTime="0.036764707" parameter="Play_Nightmare_Crouch_Run_Start" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.12794118" endTime="0.12794118" parameter="Play_Nightmare_Vox_Scream_Distant" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/melee/crouch_melee_front_long_a.caf">
+  <event name="sound" time="0.26066178" endTime="0.26066178" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.3897059" endTime="0.3897059" parameter="Play_Nightmare_mvmt_GroundStab" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestart/combat_strafestart_2m_backward.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestart/combat_strafestart_2m_forward.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestart/combat_strafestart_2m_backwardright.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestart/combat_strafestart_2m_backwardleft.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestart/combat_strafestart_2m_right.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestart/combat_strafestart_2m_left.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestart/combat_strafestart_2m_forwardright.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestart/combat_strafestart_2m_forwardleft.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_2m_right90.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_2m_right180.caf">
+  <event name="segment2" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_2m_right.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_2m_left90.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_2m_left180.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_2m_left.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_4m_right90.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_4m_right180.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_4m_right.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_4m_left90.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_4m_left180.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/walkstart/combat_walkstart_4m_left.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/strafestart/crouch_strafestart_2m_backward.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/strafestart/crouch_strafestart_2m_backwardright.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/strafestart/crouch_strafestart_2m_backwardleft.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/strafestart/crouch_strafestart_2m_right.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/strafestart/crouch_strafestart_2m_left.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/strafestart/crouch_strafestart_2m_forwardright.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/strafestart/crouch_strafestart_2m_forwardleft.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/strafestart/crouch_strafestart_2m_forward.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_2m_right90.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_2m_right180.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_2m_right.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_2m_left90.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_2m_left180.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_2m_left.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_4m_left180.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_4m_left.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_4m_right90.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_4m_right180.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_4m_right.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/crouch/walkstart/crouch_walkstart_4m_left90.caf">
+  <event name="segment1" time="0.98" endTime="0.98" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_leftfootup_2m_backwardleft.caf">
+  <event name="animexit" time="0.83205521" endTime="0.83205521" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_leftfootup_2m_backward.caf">
+  <event name="animexit" time="0.84279144" endTime="0.84279144" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_leftfootup_2m_backwardright.caf">
+  <event name="animexit" time="0.84049082" endTime="0.84049082" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_leftfootup_2m_forwardleft.caf">
+  <event name="animexit" time="0.83972394" endTime="0.83972394" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_leftfootup_2m_forward.caf">
+  <event name="animexit" time="0.779908" endTime="0.779908" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_rightfootup_2m_left.caf">
+  <event name="animexit" time="0.97239262" endTime="0.97239262" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_leftfootup_2m_right.caf">
+  <event name="animexit" time="0.83588958" endTime="0.83588958" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_rightfootup_2m_backwardleft.caf">
+  <event name="animexit" time="0.81211656" endTime="0.81211656" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_rightfootup_2m_backward.caf">
+  <event name="animexit" time="0.87576687" endTime="0.87576687" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_leftfootup_2m_forwardright.caf">
+  <event name="animexit" time="0.82285273" endTime="0.82285273" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_rightfootup_2m_right.caf">
+  <event name="animexit" time="0.85506135" endTime="0.85506135" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_leftfootup_2m_left.caf">
+  <event name="animexit" time="0.81978524" endTime="0.81978524" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_rightfootup_2m_forwardleft.caf">
+  <event name="animexit" time="0.83588958" endTime="0.83588958" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_rightfootup_2m_forward.caf">
+  <event name="animexit" time="0.80444783" endTime="0.80444783" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_rightfootup_2m_backwardright.caf">
+  <event name="animexit" time="0.79371166" endTime="0.79371166" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/nightmare/combat/strafestop/combat_strafestop_rightfootup_2m_forwardright.caf">
+  <event name="animexit" time="0.81365031" endTime="0.81365031" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

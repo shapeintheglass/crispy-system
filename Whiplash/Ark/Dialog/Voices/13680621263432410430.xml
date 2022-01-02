@@ -1,0 +1,57 @@
+
+<Dialog>
+ <Dialog id="13680621263432410590" text="Good morning, Module 13." modified="11/28/2017 09:29:09 PM"/>
+ <Dialog id="13680621263432410594" text="Today is Friday, December 3rd, 2036." modified="08/09/2017 07:43:46 PM"/>
+ <Dialog id="13680621263432410613" text="You have 346,791 days of service remaining." modified="02/23/2018 11:05:08 PM"/>
+ <Dialog id="13680621263432410685" text="Transport craft African Bee KTL-17 commencing docking procedure." modified="08/09/2017 07:45:01 PM"/>
+ <Dialog id="13680621263432410696" text="Please stand by to receive payload." modified="08/09/2017 07:45:12 PM"/>
+ <Dialog id="13680621263437930055" text="Typhon material detected." modified="10/12/2017 04:59:48 PM"/>
+ <Dialog id="13680621263437930121" text="No Typhon detected." modified="10/12/2017 04:55:37 PM"/>
+ <Dialog id="13680621263437930160" text="Emergency bypass in..." modified="10/12/2017 04:56:26 PM"/>
+ <Dialog id="13680621263437930247" text="Three..." modified="10/12/2017 04:57:43 PM" notes="Countdown (or up)"/>
+ <Dialog id="13680621263437930259" text="Two..." modified="10/12/2017 04:57:55 PM" notes="Countdown (or up)"/>
+ <Dialog id="13680621263437930264" text="One..." modified="10/12/2017 04:58:00 PM" notes="Countdown (or up)"/>
+ <Dialog id="13680621263437930307" text="Gate reactivation in..." modified="10/12/2017 04:58:43 PM"/>
+ <Dialog id="13680621263437930345" text="Activating gate." modified="10/12/2017 04:59:40 PM"/>
+ <Dialog id="13680621263437931422" text="Scanning..." modified="10/12/2017 05:17:18 PM"/>
+ <Dialog id="13680621263437931666" text="Area not secure." modified="10/12/2017 05:21:22 PM"/>
+ <Dialog id="13680621263437931831" text="Typhon threat imminent. " modified="02/23/2018 11:04:23 PM"/>
+ <Dialog id="13680621263437931940" text="Warning. Gate remains closed while Typhon are present." modified="10/12/2017 05:25:56 PM"/>
+ <Dialog id="13680621263438472766" text="Error. The navigation chip in this Escape Pod is damaged." modified="10/18/2017 11:41:18 PM"/>
+ <Dialog id="13680621263438472782" text="Please repair or seek a replacement." modified="10/18/2017 11:39:58 PM"/>
+ <Dialog id="13680621263438472790" text="Please seek a replacement." modified="10/18/2017 11:40:06 PM"/>
+ <Dialog id="13680621263438472890" text="Please contact engineering for a replacement." modified="10/18/2017 11:41:46 PM"/>
+ <Dialog id="13680621263439828496" facefx="0" sync="0" notes="Countdown (or up)" text="Four..." modified="11/03/2017 04:15:32 PM"/>
+ <Dialog id="13680621263439828524" facefx="0" sync="0" notes="Countdown (or up)" text="Five..." modified="11/03/2017 04:15:43 PM"/>
+ <Dialog id="13680621263439828529" facefx="0" sync="0" notes="Countdown (or up)" text="Six..." modified="11/03/2017 04:15:47 PM"/>
+ <Dialog id="13680621263439828533" facefx="0" sync="0" notes="Countdown (or up)" text="Seven..." modified="11/03/2017 04:15:53 PM"/>
+ <Dialog id="13680621263439828538" facefx="0" sync="0" notes="Countdown (or up)" text="Eight..." modified="11/03/2017 04:15:57 PM"/>
+ <Dialog id="13680621263439828542" facefx="0" sync="0" notes="Countdown (or up)" text="Nine..." modified="11/03/2017 04:16:02 PM"/>
+ <Dialog id="13680621263439828547" facefx="0" sync="0" notes="Countdown (or up)" text="Ten..." modified="11/03/2017 04:16:05 PM"/>
+ <Dialog id="13680621263439828706" text="Launch." modified="11/03/2017 04:18:42 PM"/>
+ <Dialog id="13680621263439828899" text="Mass Driver launch sequence initiated." modified="11/03/2017 06:14:44 PM"/>
+ <Dialog id="13680621263439828957" text="Destination - low earth orbit." modified="11/03/2017 06:14:50 PM"/>
+ <Dialog id="13680621263439828964" text="Please ensure container is secure and all personnel are clear of the lift zone." modified="11/03/2017 06:17:11 PM"/>
+ <Dialog id="13680621263439829020" text="Container secure. Activating lift. " modified="11/03/2017 06:24:28 PM"/>
+ <Dialog id="13680621263439829032" text="Tranferring container to Mass Driver." modified="11/03/2017 06:23:58 PM"/>
+ <Dialog id="13680621263439829050" text="Prepare to launch." modified="11/03/2017 06:23:41 PM"/>
+ <Dialog id="13680621263439836256" text="Please stand clear." modified="11/03/2017 06:24:32 PM"/>
+ <Dialog id="13680621263439837368" text="Datavault emergency back up procedure complete." modified="11/03/2017 06:43:10 PM"/>
+ <Dialog id="13680621263439837423" text="Warning. Emergency backup cannot complete. File corrupt or missing." modified="11/03/2017 06:45:01 PM"/>
+ <Dialog id="13680621263439841784" text="Please load Operator into emergency launch channel." modified="11/06/2017 06:27:30 PM"/>
+ <Dialog id="13680621263439841906" text="Starting procedure: personality capture and emulation." modified="11/06/2017 06:37:56 PM"/>
+ <Dialog id="13680621263439842250" text="Capture and transfer complete." modified="11/06/2017 06:45:45 PM"/>
+ <Dialog id="13680621263439842284" text="Emulation procedure successful." modified="11/06/2017 07:05:53 PM"/>
+ <Dialog id="13680621263439842298" text="Emergency Datavault Operator launch in..." modified="11/06/2017 07:05:43 PM"/>
+ <Dialog id="13680621263440095766" text="Source: Riley Yu. Pytheas Facility Director." modified="11/06/2017 06:33:32 PM"/>
+ <Dialog id="13680621263440095839" text="Target: Minerva 465 Datavault class operator." modified="11/06/2017 06:32:28 PM"/>
+ <Dialog id="13680621263440096034" text="Warning. Source not ready." modified="11/06/2017 06:34:10 PM"/>
+ <Dialog id="13680621263440096150" text="Please have a seat." modified="11/06/2017 06:40:17 PM"/>
+ <Dialog id="13680621263440096464" text="Please ensure source is securely seated in capture chair." modified="11/06/2017 06:41:20 PM" notes="alt lines for emulation capture"/>
+ <Dialog id="13680621263440096481" text="Please have a seat to commence capture." modified="11/08/2017 08:32:13 PM" notes="alt lines for emulation capture"/>
+ <Dialog id="13680621263440097418" text="Additional instructions found." modified="11/06/2017 07:02:59 PM"/>
+ <Dialog id="13680621263440097482" text="Starting procedure: EraseYu.bat. " modified="03/13/2018 03:19:22 PM"/>
+ <Dialog id="13680621263440097954" text="Destroying source subject." modified="11/06/2017 07:06:10 PM"/>
+ <Dialog id="13680621263440099794" text="No Typhon material. Subject rejected." modified="11/06/2017 07:36:50 PM"/>
+ <Dialog id="13680621263440099822" text="Typhon anomaly stabilized." modified="11/06/2017 07:37:18 PM"/>
+</Dialog>

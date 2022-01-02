@@ -1,0 +1,82 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Melee_JumpAttack"/>
+  <Tag name="Melee_JumpAttack_Bump"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="Cs_SimulationLabs_Sq11_MimicAttack_Mimic"/>
+  <Tag name="Motion_WallJump_In" subTagDef="Animations/Mannequin/ADB/npcHeightTags.xml"/>
+  <Tag name="MantleUp"/>
+  <Tag name="Motion_WallJump_Out" subTagDef="Animations/Mannequin/ADB/npcHeightTags.xml"/>
+  <Tag name="Motion_Leap" subTagDef="Animations/Mannequin/ADB/npcMeleeTags.xml"/>
+  <Tag name="Melee" subTagDef="Animations/Mannequin/ADB/npcMeleeTags.xml"/>
+  <Tag name="DodgeRoll" subTagDef="Animations/Mannequin/ADB/mimicDodgeRollTags.xml"/>
+  <Tag name="CombatReaction"/>
+  <Tag name="Distractor_SnakesCheck"/>
+  <Tag name="CS_SimulationLabs_GooedMimic"/>
+  <Tag name="GrabPlayer_In"/>
+  <Tag name="GrabPlayer_Jump"/>
+  <Tag name="GrabPlayer_Abort"/>
+  <Tag name="GrabPlayer_Wrestling"/>
+  <Tag name="GrabPlayer_PlayerWin"/>
+  <Tag name="Distractor_DeskSwipe"/>
+  <Tag name="Hypnotized" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Blinded" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Distractor_Sniff"/>
+  <Tag name="Cs_SimulationLabs_Sq12_ShadowMimic_Start_Mimic"/>
+  <Tag name="Cs_SimulationLabs_Sq12_ShadowMimic_Loop_Mimic"/>
+  <Tag name="Cs_SimulationLabs_Sq12_ShadowMimic_End_Mimic"/>
+  <Tag name="Distractor_Poke"/>
+  <Tag name="Distractor_Swipe"/>
+  <Tag name="Distractor_Swipe_B"/>
+  <Tag name="Lifted"/>
+  <Tag name="Fall"/>
+  <Tag name="Land_Bump"/>
+  <Tag name="Land_Stumble"/>
+  <Tag name="Lifted_BumpCeiling"/>
+  <Tag name="Taunt"/>
+  <Tag name="Fatality_Front_Wrench"/>
+  <Tag name="Stunned" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="SideStep" subTagDef="Animations/Mannequin/ADB/npcSideStepTags.xml"/>
+  <Tag name="Dodge" subTagDef="Animations/Mannequin/ADB/npcDodgeTags.xml"/>
+  <Tag name="Melee_JumpAttack_Telegraph"/>
+  <Tag name="Mimic_In"/>
+  <Tag name="Mimic_Out"/>
+  <Tag name="BreakOutOfGloo"/>
+  <Tag name="BreakGloo"/>
+  <Tag name="UnMimic_Attack"/>
+  <Tag name="MantleDown"/>
+  <Tag name="MindJack_In"/>
+  <Tag name="MindJack_Out"/>
+  <Tag name="Notice" subTagDef="Animations/Mannequin/ADB/npcNoticeTags.xml"/>
+  <Tag name="Distractor_LookAt_High_A"/>
+  <Tag name="Fatality_Front_A_Wrench"/>
+  <Tag name="Fatality_Front_B_Wrench"/>
+  <Tag name="Fatality_Front_C_Wrench"/>
+  <Tag name="Fatality_Front_LR_A_Wrench"/>
+  <Tag name="Fatality_Front_LR_B_Wrench"/>
+  <Tag name="Fatality_Front_RL_A_Wrench"/>
+  <Tag name="Fatality_Front_RL_B_Wrench"/>
+  <Tag name="Search"/>
+  <Tag name="Glood_Pose"/>
+  <Tag name="distractor_conference_room"/>
+  <Tag name="Feed" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Cocoon" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="TentacleTrap_In"/>
+  <Tag name="TentacleTrap_Out"/>
+  <Tag name="Jump_Start"/>
+  <Tag name="Jump_InAir"/>
+  <Tag name="Jump_Land"/>
+  <Tag name="Burrow_In"/>
+  <Tag name="Burrow_Out"/>
+  <Tag name="Burrow_Lifted"/>
+  <Tag name="Mark"/>
+  <Tag name="Cs_TranstarLabs_Sq05_Wormhole_In_Mimic"/>
+  <Tag name="Cs_TranstarLabs_Sq05_Wormhole_Idle_Mimic"/>
+  <Tag name="Cs_TranstarLabs_Sq05_Wormhole_Out_Mimic"/>
+ </Tags>
+</TagDefinition>

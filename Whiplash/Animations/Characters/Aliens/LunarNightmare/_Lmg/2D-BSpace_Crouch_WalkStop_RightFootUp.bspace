@@ -1,0 +1,51 @@
+
+<ParaGroup>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <VEGPARAMS Move2Idle="1"/>
+ <Dimensions>
+  <Param name="StopLeg" min="-1" max="0" cells="3" locked="1"/>
+  <Param name="Height" min="+0" max="+100" cells="10"/>
+ </Dimensions>
+ <AdditionalExtraction/>
+ <ExampleList>
+  <Example AName="Combat_WalkStop_RightFootUp" PlaybackScale="1.4" SetPara0="-1" SetPara1="100"/>
+  <Example AName="Combat_WalkStop_RightFootUp" PlaybackScale="1.4" SetPara0="0" SetPara1="100"/>
+  <Example AName="Crouch_WalkStop_RightFootUp" PlaybackScale="1.4" SetPara0="-1" SetPara1="0"/>
+  <Example AName="Crouch_WalkStop_RightFootUp" PlaybackScale="1.4" SetPara0="0" SetPara1="0"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="3" p1="1" p2="0" p3="2"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="2" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+  <VExample i0="2" i1="3" i2="0" i3="0" w0="0.5" w1="0.5" w2="0" w3="0"/>
+  <VExample i0="3" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.11111113" w1="0.88888884" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.055555552" w1="0.055555552" w2="0.44444442" w3="0.44444442"/>
+  <VExample i0="1" i1="3" i2="0" i3="0" w0="0.11111113" w1="0.88888884" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.22222221" w1="0.77777779" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.1111111" w1="0.1111111" w2="0.3888889" w3="0.3888889"/>
+  <VExample i0="1" i1="3" i2="0" i3="0" w0="0.22222221" w1="0.77777779" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.33333328" w1="0.66666669" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.16666666" w1="0.16666666" w2="0.33333334" w3="0.33333334"/>
+  <VExample i0="1" i1="3" i2="0" i3="0" w0="0.33333328" w1="0.66666669" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.44444442" w1="0.55555558" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.22222221" w1="0.22222221" w2="0.27777779" w3="0.27777779"/>
+  <VExample i0="1" i1="3" i2="0" i3="0" w0="0.44444442" w1="0.55555558" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.55555552" w1="0.44444445" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.27777776" w1="0.27777776" w2="0.22222222" w3="0.22222222"/>
+  <VExample i0="1" i1="3" i2="0" i3="0" w0="0.55555552" w1="0.44444445" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.66666663" w1="0.33333334" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.33333331" w1="0.33333331" w2="0.16666667" w3="0.16666667"/>
+  <VExample i0="1" i1="3" i2="0" i3="0" w0="0.66666663" w1="0.33333334" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.77777767" w1="0.22222228" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.38888884" w1="0.38888884" w2="0.11111114" w3="0.11111114"/>
+  <VExample i0="1" i1="3" i2="0" i3="0" w0="0.77777767" w1="0.22222228" w2="0" w3="0"/>
+  <VExample i0="0" i1="2" i2="0" i3="0" w0="0.88888884" w1="0.11111114" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="2" i3="3" w0="0.44444442" w1="0.44444442" w2="0.055555571" w3="0.055555571"/>
+  <VExample i0="1" i1="3" i2="0" i3="0" w0="0.88888884" w1="0.11111114" w2="0" w3="0"/>
+  <VExample i0="0" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+  <VExample i0="0" i1="1" i2="0" i3="0" w0="0.5" w1="0.5" w2="0" w3="0"/>
+  <VExample i0="1" i1="0" i2="0" i3="0" w0="1" w1="0" w2="0" w3="0"/>
+ </VGrid>
+</ParaGroup>

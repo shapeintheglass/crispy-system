@@ -1,0 +1,51 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Motion_IdleTurn"/>
+  <Tag name="Melee" subTagDef="Animations/Mannequin/ADB/npcMeleeTags.xml"/>
+  <Tag name="LookPose"/>
+  <Tag name="LookPoseHead"/>
+  <Tag name="Looking"/>
+  <Tag name="LookAround"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="CombatReaction"/>
+  <Tag name="Stunned" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="CODE_MT_walkToIdle"/>
+  <Tag name="CODE_MT_runToIdle"/>
+  <Tag name="BreakGloo"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="Taunt"/>
+  <Tag name="Fear"/>
+  <Tag name="Door"/>
+  <Tag name="CODE_MT_idleToRun"/>
+  <Tag name="PsiAttack"/>
+  <Tag name="CODE_MT_idleToWalk2mLeft"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdLft"/>
+  <Tag name="CODE_MT_runJukeTurnFwdLft"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdRgt"/>
+  <Tag name="CODE_MT_runJukeTurnFwdRgt"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdLft180"/>
+  <Tag name="CODE_MT_walkJukeTurnFwdRgt180"/>
+  <Tag name="Dissipate"/>
+  <Tag name="ForceResist" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="CODE_MT_idleToWalkStrafe"/>
+  <Tag name="CODE_MT_idleToWalk4mLeft"/>
+  <Tag name="CODE_MT_idleToWalk2mRight"/>
+  <Tag name="CODE_MT_idleToWalk4mRight"/>
+  <Tag name="CODE_MT_walkToIdleStrafe2m"/>
+  <Tag name="ForceResistScrunch" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="Fall"/>
+  <Tag name="Land_Bump"/>
+  <Tag name="Land_Stumble"/>
+  <Tag name="Power_Throw"/>
+  <Tag name="Burrow"/>
+  <Tag name="Unburrow"/>
+  <Tag name="GroundSlam"/>
+  <Tag name="Unburrow_Attacking"/>
+  <Tag name="Search"/>
+  <Tag name="Confused_LookAround"/>
+ </Tags>
+</TagDefinition>

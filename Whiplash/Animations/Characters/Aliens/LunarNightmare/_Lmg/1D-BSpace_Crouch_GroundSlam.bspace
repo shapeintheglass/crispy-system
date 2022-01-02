@@ -1,0 +1,18 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param name="Height" min="+0" max="+100" cells="10"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="MoveSpeed" ParaScale="1.0"/>
+  <Param name="TurnAngle" ParaScale="1.0"/>
+ </AdditionalExtraction>
+ <ExampleList>
+  <Example AName="Combat_GroundSlam" SetPara0="+100"/>
+  <Example AName="Crouch_GroundSlam" SetPara0="+0"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="1" p1="0"/>
+ </Blendable>
+ <VGrid/>
+</ParaGroup>

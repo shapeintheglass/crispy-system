@@ -1,0 +1,373 @@
+
+<GameTokensLibrary Name="GT_Global">
+ <GameToken Id="101193842" Name="LevelTransition.LevelTransitionDestination" Type="String" Value="From_Nowhere"/>
+ <GameToken Id="137802088" Name="PlayerState.HasAlienUpgrades" Type="Bool" Value="false"/>
+ <GameToken Id="1982964289" Name="Psychotronics_Gear.SeenSpaceSuit" Type="Bool" Value="false"/>
+ <GameToken Id="1088980855" Name="PlayerGear.HasPsychoscope" Type="Bool" Value="false"/>
+ <GameToken Id="27997929" Name="PlayerGear.PlayerHasZeroGSuit" Type="Bool" Value="false"/>
+ <GameToken Id="1482344631" Name="PlayerState.HasSeenMedicalStation" Type="Bool" Value="false"/>
+ <GameToken Id="1570678163" Name="WorldState.CoralPhase" Type="Int" Value="1"/>
+ <GameToken Id="1621498871" Name="SimLab.IsLookingGlassDemo" Type="Bool" Value="false"/>
+ <GameToken Id="767850722" Name="SimLab.ConferenceRoomPowerShortCircuited" Type="Bool" Value="false"/>
+ <GameToken Id="960757789" Name="SimLab.ConferenceRoomLiftBackupPowerRestored" Type="Bool" Value="false"/>
+ <GameToken Id="496373530" Name="SimLab.ConferenceRoomCircuitBreakerFunctional" Type="Bool" Value="true"/>
+ <GameToken Id="1929145887" Name="SimLab.ManufacturingControlDoorLocked" Type="Bool" Value="true"/>
+ <GameToken Id="580775186" Name="PlayerState.FirstFabricationPlanAcquired" Type="String" Value=""/>
+ <GameToken Id="1058343692" Name="PlayerState.HasSeenFabricator" Type="Bool" Value="false"/>
+ <GameToken Id="1899756249" Name="PlayerState.Trauma_FirstTraumaAcquired" Type="Bool" Value="false"/>
+ <GameToken Id="203224110" Name="PlayerState.NumTimesFabricatorUsed" Type="Float" Value="0.000000"/>
+ <GameToken Id="604911288" Name="SimLab.A_PrepDoor01_Open" Type="Bool" Value="false"/>
+ <GameToken Id="580535318" Name="SimLab.A_PrepDoor02_Open" Type="Bool" Value="false"/>
+ <GameToken Id="240574359" Name="SimLab.A_NumTestsOff" Type="Int" Value="0"/>
+ <GameToken Id="617130535" Name="SimLab.A_Turret01_Enabled" Type="Bool" Value="false"/>
+ <GameToken Id="158303017" Name="SimLab.A_TestControlDoor_Open" Type="Bool" Value="false"/>
+ <GameToken Id="1201392715" Name="SimLab.ApartmentUseActualHeiRide" Type="Bool" Value="false"/>
+ <GameToken Id="833409339" Name="SimLab.ApartmentFakeElevatorUp" Type="Bool" Value="false"/>
+ <GameToken Id="1304802513" Name="SimLab.Apartment_2ndDay" Type="Bool" Value="false"/>
+ <GameToken Id="89566529" Name="SimLab.Apartment_ElevatorBroken" Type="Bool" Value="false"/>
+ <GameToken Id="99304517" Name="Psychotronics.PsychotronicsPowerON" Type="Bool" Value="true"/>
+ <GameToken Id="1297538319" Name="Psychotronics.PsychotronicsPowerRepaired" Type="Bool" Value="false"/>
+ <GameToken Id="750423348" Name="SimLab.Apartment_PlayerHasFirstDayObjective" Type="Bool" Value="false"/>
+ <GameToken Id="163153460" Name="SimLab.Helipad_SetToTranStar" Type="Bool" Value="false"/>
+ <GameToken Id="1666582739" Name="SimLab.Apartment_HallwaySetToRoof" Type="Bool" Value="false"/>
+ <GameToken Id="1718281973" Name="SimLab.Helipad_RoofSimulationBroken" Type="Bool" Value="false"/>
+ <GameToken Id="285606644" Name="Fabricator.FabricatorOutputEntityID" Type="String" Value="false"/>
+ <GameToken Id="697351171" Name="Fabricator.FabricatorOutputEntityName" Type="String" Value="false"/>
+ <GameToken Id="597364167" Name="WorldState.IsTouristMode" Type="Bool" Value="false"/>
+ <GameToken Id="881287025" Name="Temp.PlayerIsUsingKeyboardAndMouse" Type="Bool" Value="false"/>
+ <GameToken Id="551341969" Name="SimLab.Apartment_AptDoorOpen" Type="Bool" Value="false"/>
+ <GameToken Id="1326240442" Name="ShuttleBay.ShuttleLiftUP" Type="Bool" Value="false"/>
+ <GameToken Id="429963292" Name="SimLab.AlexExplainsTests_Played" Type="Bool" Value="false"/>
+ <GameToken Id="1768724749" Name="Psychotronics.ContainmentShieldOpened" Type="Bool" Value="false"/>
+ <GameToken Id="2011735060" Name="Psychotronics.TelepathCreatedPhantom" Type="Bool" Value="false"/>
+ <GameToken Id="739272275" Name="Lobby.TurnShenanigansOFF" Type="Bool" Value="false"/>
+ <GameToken Id="1437407988" Name="PlayerState.PlayNeuromodInstallation" Type="Bool" Value="true"/>
+ <GameToken Id="1488372135" Name="CargoBay.CurrentActiveCrate" Type="Int" Value="0"/>
+ <GameToken Id="1197170766" Name="SimLab.AlexTalkingInTrackview" Type="Bool" Value="false"/>
+ <GameToken Id="1500990797" Name="SimLab.Helipad_LG_On" Type="Bool" Value="true"/>
+ <GameToken Id="1431001633" Name="SimLab.IsCinematicFlip" Type="Bool" Value="false"/>
+ <GameToken Id="1441883458" Name="SimLab.SwitchDayInProgress" Type="Bool" Value="false"/>
+ <GameToken Id="1110866113" Name="CargoBay.CageOneOpen" Type="Bool" Value="false"/>
+ <GameToken Id="1233582855" Name="CargoBay.CageTwoOpen" Type="Bool" Value="false"/>
+ <GameToken Id="155826044" Name="SimLab.Atrium_GravShaftOn" Type="Bool" Value="false"/>
+ <GameToken Id="775804479" Name="SimLab.Volunteers_PowerOn" Type="Bool" Value="false"/>
+ <GameToken Id="1861733497" Name="Psychotronics.PsychoscopeOn" Type="Bool" Value="false"/>
+ <GameToken Id="420403925" Name="Psychotronics.WeaverInView" Type="Bool" Value="false"/>
+ <GameToken Id="1133014205" Name="PlayerState.Trauma_HasConcussion" Type="Bool" Value="false"/>
+ <GameToken Id="275612090" Name="PlayerState.Trauma_HasCrippled" Type="Bool" Value="false"/>
+ <GameToken Id="632229119" Name="PlayerState.Trauma_HasFear" Type="Bool" Value="false"/>
+ <GameToken Id="756409341" Name="PlayerState.Trauma_HasLacerations" Type="Bool" Value="false"/>
+ <GameToken Id="716038474" Name="PlayerState.Trauma_HasRadSickness" Type="Bool" Value="false"/>
+ <GameToken Id="1265875375" Name="PlayerState.Trauma_HasThirdDegreeBurns" Type="Bool" Value="false"/>
+ <GameToken Id="1427566562" Name="PlayerState.Trauma_HasBlind" Type="Bool" Value="false"/>
+ <GameToken Id="1323380780" Name="Nightmare.IsAlive" Type="Bool" Value="false"/>
+ <GameToken Id="635962018" Name="Nightmare.CurrentLocation" Type="String" Value="nowhere"/>
+ <GameToken Id="1568364366" Name="TheCorpseVanishes.PlayerReadSimmonsEmail" Type="Bool" Value="false"/>
+ <GameToken Id="1021037447" Name="TheCorpseVanishes.PlayerReadBellamyMorgueEmail" Type="Bool" Value="false"/>
+ <GameToken Id="1197251550" Name="TheCorpseVanishes.PlayerHasBellamysCard" Type="Bool" Value="false"/>
+ <GameToken Id="1449504193" Name="TheCorpseVanishes.PlayerCompletedTheCorpseVanishes" Type="Bool" Value="false"/>
+ <GameToken Id="187538615" Name="WorldState.PlayerStandingNearWindow" Type="Bool" Value="false"/>
+ <GameToken Id="1228741680" Name="Debug.LoadoutType" Type="String" Value="empty"/>
+ <GameToken Id="769518111" Name="DLC_Hooks.ShuttleDestroyed" Type="Bool" Value="false"/>
+ <GameToken Id="187531779" Name="SimLab.Decontamination_SawMimicScene" Type="Bool" Value="false"/>
+ <GameToken Id="2032007611" Name="Lobby.LiftAtTop" Type="Bool" Value="false"/>
+ <GameToken Id="644485823" Name="Lobby.LiftAtMid" Type="Bool" Value="false"/>
+ <GameToken Id="1212228199" Name="Lobby.LiftAtBottom" Type="Bool" Value="false"/>
+ <GameToken Id="828536512" Name="WorldState.IsCampaign" Type="Bool" Value="false"/>
+ <GameToken Id="2086029806" Name="WorldState.PlayerHasPsychoscope" Type="Bool" Value="false"/>
+ <GameToken Id="373243810" Name="SimLab.HelipadWallsClimbable" Type="Bool" Value="false"/>
+ <GameToken Id="143421459" Name="CargoBay.Gate1Active" Type="Bool" Value="false"/>
+ <GameToken Id="962882190" Name="CargoBay.Gate2Active" Type="Bool" Value="false"/>
+ <GameToken Id="1275641814" Name="Lobby.ElevatorUsedForFirstTime" Type="Bool" Value="false"/>
+ <GameToken Id="120809408" Name="PlayerState.AlienPowerThresholdLow" Type="Int" Value="1"/>
+ <GameToken Id="415178336" Name="PlayerState.AlienPowerThresholdMedium" Type="Int" Value="5"/>
+ <GameToken Id="1168891470" Name="PlayerState.AlienPowerThresholdHigh" Type="Int" Value="10"/>
+ <GameToken Id="1068042886" Name="Tutorials.HasCombatTutorialTriggered" Type="Bool" Value="false"/>
+ <GameToken Id="950438610" Name="Tutorials.HasPlayTutorialTriggered" Type="Bool" Value="false"/>
+ <GameToken Id="25674397" Name="Tutorials.HasFlashlightTutorialTriggered" Type="Bool" Value="false"/>
+ <GameToken Id="2067707504" Name="WorldState.AllowSaveGame" Type="Bool" Value="false"/>
+ <GameToken Id="2040982964" Name="AirlockStates.AirlockSealedInternally_ShuttleBay" Type="Bool" Value="true"/>
+ <GameToken Id="1780726777" Name="AirlockStates.AirlockSealedInternally_HardwareLabs" Type="Bool" Value="true"/>
+ <GameToken Id="2123749992" Name="AirlockStates.AirlockSealedInternally_PowerSource" Type="Bool" Value="true"/>
+ <GameToken Id="709172748" Name="AirlockStates.AirlockSealedInternally_Arboretum" Type="String" Value="1"/>
+ <GameToken Id="445174779" Name="AirlockStates.AirlockSealedInternally_Psychotronics" Type="Bool" Value="true"/>
+ <GameToken Id="251244826" Name="Lobby.TechnoPathDeadForElevator" Type="Bool" Value="false"/>
+ <GameToken Id="1234233823" Name="WorldState.UsingSkipCheats" Type="Bool" Value="false"/>
+ <GameToken Id="1058508701" Name="SimLab.Helipad_RotorsOn" Type="Bool" Value="false"/>
+ <GameToken Id="1798961861" Name="Tutorials.HasAirlockTutorialTriggered" Type="Bool" Value="false"/>
+ <GameToken Id="862381485" Name="PlayerState.PlayerPickedUpPyschoscope" Type="Bool" Value="false"/>
+ <GameToken Id="428263371" Name="SimLab.Apartment_BlindsUp" Type="Bool" Value="false"/>
+ <GameToken Id="417809741" Name="WorldState.EnableEquipAnimations" Type="Bool" Value="true"/>
+ <GameToken Id="1372047655" Name="Nightmare.NightmareID" Type="Int" Value="0"/>
+ <GameToken Id="1055967760" Name="System.SYSTEM_ALWAYS_FALSE" Type="Bool" Value="false"/>
+ <GameToken Id="580420186" Name="Tutorials.HasCombatFocusTutorial" Type="Bool" Value="false"/>
+ <GameToken Id="1261858621" Name="CargoBay.CurrentActiveCrate1" Type="Int" Value="0"/>
+ <GameToken Id="624430609" Name="CargoBay.CurrentActiveCrate2" Type="Int" Value="0"/>
+ <GameToken Id="1521468593" Name="WorldState.ImportantConversationPlaying" Type="Bool" Value="false"/>
+ <GameToken Id="804058823" Name="PlayerState.PlayerIsMimic" Type="Bool" Value="false"/>
+ <GameToken Id="1539999206" Name="Tutorials.HasUsedWheel" Type="Bool" Value="false"/>
+ <GameToken Id="1058263810" Name="PlayerState.DeadlyCombosTutorialState" Type="String" Value="disabled"/>
+ <GameToken Id="1673118524" Name="PlayerState.PlayerHasAtLeastOneAlienAbility" Type="Bool" Value="false"/>
+ <GameToken Id="1778889708" Name="WorldState.AI_Population_Phase" Type="Int" Value="1"/>
+ <GameToken Id="378738370" Name="WL_LevelHazards.CrewAnnexEnvState_FireIndex" Type="Int" Value="0" Description="0 : No Fire, 1-3 : Level Zones"/>
+ <GameToken Id="1981865789" Name="WL_LevelHazards.CrewAnnexEnvState_HasNoOxygen" Type="Bool" Value="false"/>
+ <GameToken Id="1864994439" Name="WL_LevelHazards.CrewAnnexEnvState_GravityIndex" Type="Int" Value="2" Description="0 : Zero G, 1 : Moon G, 2 : Normal G"/>
+ <GameToken Id="405716497" Name="WL_LevelHazards.CrewAnnexEnvState_HasNoPower" Type="Bool" Value="false"/>
+ <GameToken Id="105524146" Name="WL_LevelHazards.CrewAnnexEnvState_RadiationIndex" Type="Int" Value="0" Description="0 : No Radiation, 1-3 : Level Zones"/>
+ <GameToken Id="1900878628" Name="WL_LevelHazards.CrewAnnexEnvState_FloodedIndex" Type="Int" Value="0" Description="0 : No Flooding, 1-3 : Level Zones"/>
+ <GameToken Id="256760490" Name="WL_LevelHazards.LabsEnvState_GravityIndex" Type="Int" Value="2" Description="0 : Zero G, 1 : Moon G, 2 : Normal G"/>
+ <GameToken Id="1281322606" Name="WL_LevelHazards.LabsEnvState_HasNoOxygen" Type="Bool" Value="false"/>
+ <GameToken Id="1631525841" Name="WL_LevelHazards.LabsEnvState_HasNoPower" Type="Bool" Value="false"/>
+ <GameToken Id="582314966" Name="WL_LevelHazards.LabsEnvState_RadiationIndex" Type="Int" Value="0" Description="0 : No Radiation, 1-X : Level Zones"/>
+ <GameToken Id="1981865790" Name="WL_LevelHazards.LabsEnvState_FireIndex" Type="Int" Value="0" Description="0 : No Fire, 1-3 : Level Zones"/>
+ <GameToken Id="1621148184" Name="WL_LevelHazards.LabsEnvState_FloodedIndex" Type="Int" Value="0" Description="0 : No Flooding, 1 - Director&apos;s Office, 2 - Lobby Entrance, 3 - Basement Atrium"/>
+ <GameToken Id="924354559" Name="WL_LevelHazards.MoonworksEnvState_GravityIndex" Type="Int" Value="2" Description="0 : Zero G, 1 : Moon G, 2 : Normal G"/>
+ <GameToken Id="614937689" Name="WL_LevelHazards.MoonworksEnvState_HasNoOxygen" Type="Bool" Value="false"/>
+ <GameToken Id="565256086" Name="WL_LevelHazards.MoonworksEnvState_HasNoPower" Type="Bool" Value="false"/>
+ <GameToken Id="450901635" Name="WL_LevelHazards.MoonworksEnvState_RadiationIndex" Type="Int" Value="0" Description="0 : No Radiation, 1-X : Level Zones"/>
+ <GameToken Id="654380812" Name="WL_LevelHazards.MoonworksEnvState_FireIndex" Type="Int" Value="0" Description="0 : No Fire, 1-X : Level Zones"/>
+ <GameToken Id="2123329109" Name="WL_LevelHazards.MoonworksEnvState_FloodedIndex" Type="Int" Value="0" Description="0 : No Flooding, 1-X : Level Zones"/>
+ <GameToken Id="1225464659" Name="DLC.LevelTransitionDestination" Type="String" Value="false"/>
+ <GameToken Id="946073011" Name="Crater.Gravity" Type="Int" Value="1" Description="0 - Zero-g, 1 - Low-g, 2 - Normal g"/>
+ <GameToken Id="1093795368" Name="WL_LevelHazards.CraterEnvState_RadiationIndex" Type="Int" Value="0" Description="0 : No Radiation, 1- Control, 2 - Labs, 3 - Moonworks, 4 - Crew, 5 - Scale, 6 - PowerControl"/>
+ <GameToken Id="1458174857" Name="WL_TranstarLabs.MonorailAtPyramid" Type="Bool" Value="false"/>
+ <GameToken Id="1176125263" Name="DLC.IsWLactive" Type="Bool" Value="false"/>
+ <GameToken Id="1816182996" Name="WL_Prototype.EscapeMethod" Type="Int" Value="0"/>
+ <GameToken Id="119930513" Name="DLC_Crater.Crane1Powered" Type="Bool" Value="false"/>
+ <GameToken Id="162199922" Name="DLC_Crater.Crane2Powered" Type="Bool" Value="false"/>
+ <GameToken Id="1501112431" Name="DLC_Crater.Pylon1Powered" Type="Bool" Value="false"/>
+ <GameToken Id="1475751820" Name="DLC_Crater.Pylon2Powered" Type="Bool" Value="false"/>
+ <GameToken Id="459026194" Name="DLC_Crater.Pylon3Powered" Type="Bool" Value="false"/>
+ <GameToken Id="1594547532" Name="DLC_Crater.ExcavatorPowered" Type="Bool" Value="false"/>
+ <GameToken Id="1909864866" Name="DLC_Crater.LabBat1Placed" Type="Bool" Value="false"/>
+ <GameToken Id="1077814079" Name="DLC_Crater.LabBat2Placed" Type="Bool" Value="false"/>
+ <GameToken Id="145139147" Name="DLC_Crater.Pylon1Activated" Type="Bool" Value="false"/>
+ <GameToken Id="1670454984" Name="DLC_Crater.Pylon2Activated" Type="Bool" Value="false"/>
+ <GameToken Id="206796278" Name="DLC_Crater.Pylon3Activated" Type="Bool" Value="false"/>
+ <GameToken Id="1486248811" Name="DLC_Crater.PlayerAroundPylon1" Type="Bool" Value="false"/>
+ <GameToken Id="1100942033" Name="DLC_Crater.PlayerAroundPylon2" Type="Bool" Value="false"/>
+ <GameToken Id="915946055" Name="DLC_Crater.PlayerAroundPylon3" Type="Bool" Value="false"/>
+ <GameToken Id="513997889" Name="DLC_Crater.TentacleCanSpawn" Type="Bool" Value="false"/>
+ <GameToken Id="1642998917" Name="DLC_Crater.CrewBat1Placed" Type="Bool" Value="false"/>
+ <GameToken Id="1342584344" Name="DLC_Crater.CrewBat2Placed" Type="Bool" Value="false"/>
+ <GameToken Id="2125707640" Name="DLC_Crater.MineBat1Placed" Type="Bool" Value="false"/>
+ <GameToken Id="1331405797" Name="DLC_Crater.MineBat2Placed" Type="Bool" Value="false"/>
+ <GameToken Id="1106297948" Name="PlayerState.PlayableEngineerStatus" Type="Int" Value="0" Description="0 = locked, 1 = unlocked/playable, 2 = dead, 3 = escaped"/>
+ <GameToken Id="1631584940" Name="PlayerState.PlayableVolunteerStatus" Type="Int" Value="1" Description="0 = locked, 1 = unlocked/playable, 2 = dead, 3 = escaped"/>
+ <GameToken Id="1631584941" Name="PlayerState.PlayableScientistStatus" Type="Int" Value="0" Description="0 = locked, 1 = unlocked/playable, 2 = dead, 3 = escaped"/>
+ <GameToken Id="1631584942" Name="PlayerState.PlayableAdminStatus" Type="Int" Value="0" Description="0 = locked, 1 = unlocked/playable, 2 = dead, 3 = escaped"/>
+ <GameToken Id="1631584943" Name="PlayerState.PlayableSecurityStatus" Type="Int" Value="0" Description="0 = locked, 1 = unlocked/playable, 2 = dead, 3 = escaped"/>
+ <GameToken Id="519941534" Name="WL_EscapeMethods.WL_Prototype_CrateSupplyTypeNeeded" Type="Int" Value="0" Description="0 = food, 1 = water, 2 = O2"/>
+ <GameToken Id="2013681718" Name="WorldState.IsSimulationLocked" Type="Bool" Value="false"/>
+ <GameToken Id="634184199" Name="Debug.LevelStateScreenPosY" Type="Int" Value="50"/>
+ <GameToken Id="979839634" Name="WL_TranstarLabs.MainContainmentDoorLocked" Type="Bool" Value="false"/>
+ <GameToken Id="1849346638" Name="WL_TranstarLabs.VolunteerDoor1_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="84767053" Name="WL_TranstarLabs.VolunteerDoor2_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="1791957619" Name="WL_TranstarLabs.VolunteerDoor3_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="135463178" Name="WL_TranstarLabs.VolunteerDoor4_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="1741777460" Name="WL_TranstarLabs.VolunteerDoor5_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="216453431" Name="WL_TranstarLabs.VolunteerDoor6_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="1146619004" Name="WL_EscapeMethods.WL_EscapePodLocation" Type="String" Value="uninitialized"/>
+ <GameToken Id="648802489" Name="WL_TranstarLabs.TramTransitionToCrewAnnex" Type="Bool" Value="false"/>
+ <GameToken Id="634184200" Name="Debug.DebugDoomClockTimeInterval" Type="String" Value="empty"/>
+ <GameToken Id="1582250403" Name="WL_TranstarLabs.MainGravShaftDoorUnlocked" Type="Bool" Value="false"/>
+ <GameToken Id="1799798848" Name="WL_SimulationState.WL_CharacterEscapedThisRound" Type="Bool" Value="false"/>
+ <GameToken Id="1537533395" Name="DLC_Crater.Pylon1TentacleActive" Type="Bool" Value="false"/>
+ <GameToken Id="1255772074" Name="DLC_Crater.Pylon2TentacleActive" Type="Bool" Value="false"/>
+ <GameToken Id="1931629634" Name="DLC_Crater.Pylon3TentacleActive" Type="Bool" Value="false"/>
+ <GameToken Id="556070105" Name="WL_EscapeMethods.WL_EscapeMethodConsumed_EscapePod" Type="Bool" Value="false"/>
+ <GameToken Id="1408145674" Name="WL_EscapeMethods.WL_EscapeMethodConsumed_Shuttle" Type="Bool" Value="false"/>
+ <GameToken Id="689568990" Name="WL_EscapeMethods.WL_EscapeMethodConsumed_Crate" Type="Bool" Value="false"/>
+ <GameToken Id="834599679" Name="WL_EscapeMethods.WL_EscapeMethodConsumed_BrainCopy" Type="Bool" Value="false"/>
+ <GameToken Id="184267063" Name="WL_EscapeMethods.WL_EscapeMethodConsumed_Portal" Type="Bool" Value="false"/>
+ <GameToken Id="1058345734" Name="WL_EscapeMethods.WL_ReturningToSatelliteFromEscape" Type="Bool" Value="false"/>
+ <GameToken Id="1416260106" Name="WL_SimulationState.CharacterEscapeStreak" Type="Int" Value="0"/>
+ <GameToken Id="1456406639" Name="WL_TranstarLabs.DirectorPermission" Type="Bool" Value="false"/>
+ <GameToken Id="244613791" Name="WL_LevelHazards.CraterEnvState_FireIndex" Type="Int" Value="0" Description="0 : No Fire, 1- Control, 2 - Labs, 3 - Moonworks, 4 - Crew, 5 - Scale, 6 - PowerControl"/>
+ <GameToken Id="633703453" Name="WL_LevelHazards.CraterEnvState_FloodedIndex" Type="Int" Value="0" Description="0 : No Flooding, 1- Control, 2 - Labs, 3 - Moonworks, 4 - Crew, 5 - Scale, 6 - PowerControl"/>
+ <GameToken Id="1775176143" Name="WL_EscapeMethods.WL_VolunteerEscapeMethod" Type="String" Value="none"/>
+ <GameToken Id="141492127" Name="WL_EscapeMethods.WL_ScientistEscapeMethod" Type="String" Value="none"/>
+ <GameToken Id="292007461" Name="WL_EscapeMethods.WL_EngineerEscapeMethod" Type="String" Value="none"/>
+ <GameToken Id="1717608115" Name="WL_TranstarLabs.WL_SecurityEscapeMethod" Type="String" Value="none"/>
+ <GameToken Id="2013530896" Name="WL_EscapeMethods.WL_AdminEscapeMethod" Type="String" Value="none"/>
+ <GameToken Id="1582921352" Name="WL_EscapeMethods.WL_LastEscapeMethodUsed" Type="String" Value="none"/>
+ <GameToken Id="1819085610" Name="WL_EscapeMethods.WL_MoonWorksEscapePodIndex" Type="Int" Value="0" Description="0 = absent, 1 = broken, 2 = functional, 3 = used"/>
+ <GameToken Id="1485523818" Name="WL_EscapeMethods.WL_CraterEscapePodIndex" Type="Int" Value="0" Description="0 = absent, 1 = broken, 2 = functional, 3 = used"/>
+ <GameToken Id="900966197" Name="WL_EscapeMethods.WL_LabsEscapePodIndex" Type="Int" Value="0" Description="0 = absent, 1 = broken, 2 = functional, 3 = used"/>
+ <GameToken Id="1159452125" Name="WL_LevelVariability.WL_LabsClosetIndex" Type="Int" Value="0" Description="0: supply closet, 1: engineer operator closet, 2: medical operator closet"/>
+ <GameToken Id="2071681547" Name="WL_LevelVariability.WL_CrewClosetIndex" Type="Int" Value="0" Description="0: supply closet, 1: engineer operator closet, 2: medical operator closet"/>
+ <GameToken Id="1651641265" Name="WL_LevelVariability.WL_MoonWorksClosetIndex" Type="Int" Value="0" Description="0: supply closet, 1: engineer operator closet, 2: medical operator closet"/>
+ <GameToken Id="360004391" Name="WL_LevelVariability.WL_CraterClosetIndex" Type="Int" Value="0" Description="0: supply closet, 1: engineer operator closet, 2: medical operator closet"/>
+ <GameToken Id="984638697" Name="DLC_Moonworks.Gun1stShotFired" Type="Bool" Value="false"/>
+ <GameToken Id="499759993" Name="DLC_Moonworks.PlayerWastedFinalBullet" Type="Bool" Value="false"/>
+ <GameToken Id="1000515005" Name="WorldState.ResetSimInitiated" Type="Bool" Value="false"/>
+ <GameToken Id="1305313136" Name="DLC_Crater.TutorialComplete" Type="Bool" Value="false"/>
+ <GameToken Id="141958464" Name="WL_SimulationState.WL_DC_Level_Crater" Type="Int" Value="0"/>
+ <GameToken Id="756000113" Name="WL_SimulationState.WL_DC_Level_Moonworks" Type="Int" Value="0"/>
+ <GameToken Id="845071228" Name="WL_SimulationState.WL_DC_Level_CrewAnnex" Type="Int" Value="0"/>
+ <GameToken Id="164906988" Name="WL_SimulationState.WL_DC_Level_TranstarLabs" Type="Int" Value="0"/>
+ <GameToken Id="1366156877" Name="WL_Tram.WL_LabsTramIsOperational" Type="Bool" Value="false"/>
+ <GameToken Id="199278460" Name="WL_Tram.WL_CrewTramIsOperational" Type="Bool" Value="false"/>
+ <GameToken Id="2081212705" Name="WL_Tram.WL_MoonWorksTramIsOperational" Type="Bool" Value="false"/>
+ <GameToken Id="855901957" Name="PlayerState.PlayableAdminCorpseID" Type="Int" Value="-1"/>
+ <GameToken Id="248359460" Name="PlayerState.PlayableEngineerCorpseID" Type="Int" Value="-1"/>
+ <GameToken Id="620881485" Name="PlayerState.PlayableScientistCorpseID" Type="Int" Value="-1"/>
+ <GameToken Id="1309076354" Name="PlayerState.PlayableSecurityCorpseID" Type="Int" Value="-1"/>
+ <GameToken Id="900438523" Name="PlayerState.PlayableVolunteerCorpseID" Type="Int" Value="-1"/>
+ <GameToken Id="368685083" Name="WorldState.SkipTutorialFromSatellite" Type="Bool" Value="false"/>
+ <GameToken Id="543820500" Name="WL_NoReset_EscapeMethods.WL_ProjectGenesisDataScanned" Type="Bool" Value="false"/>
+ <GameToken Id="1011318537" Name="DLC_Crater.DLC_Crater_TunnelUnblocked" Type="Bool" Value="false"/>
+ <GameToken Id="2143380774" Name="WL_LevelVariability.Crater_DustStorm" Type="Bool" Value="false"/>
+ <GameToken Id="1334252338" Name="Tutorials.WL_PlayerGotFabPlans" Type="Bool" Value="false"/>
+ <GameToken Id="1618838039" Name="PlayerState.PlayableUnlockedInventoryScreen" Type="Bool" Value="false"/>
+ <GameToken Id="822535442" Name="DLC_Crater.CraterToMoonworksTransitionDuringTutorial" Type="Bool" Value="false"/>
+ <GameToken Id="1810499431" Name="DLC_Crater.CraterToCrewTransitionDuringTutorial" Type="Bool" Value="false"/>
+ <GameToken Id="752003991" Name="DLC_Crater.CraterToLabsTransitionDuringTutorial" Type="Bool" Value="false"/>
+ <GameToken Id="1271150884" Name="Tutorials.WL_TutorialDeathMessageReady" Type="Bool" Value="false"/>
+ <GameToken Id="253498643" Name="WL_LevelHazards.LabsEnvState_Damaged_LobbyStairs" Type="Int" Value="0" Description="0: No Damage, 1: Damaged"/>
+ <GameToken Id="569966990" Name="WL_LevelHazards.LabsEnvState_Damaged_DirectorStairs" Type="Int" Value="0" Description="0: No Damage, 1: Damaged"/>
+ <GameToken Id="936807767" Name="WL_LevelHazards.LabsEnvState_Damaged_Atrium" Type="Int" Value="0" Description="0: No Damage, 1: Damaged"/>
+ <GameToken Id="632605561" Name="WL_LevelHazards.LabsEnvState_ShutterIndex" Type="Int" Value="0" Description="0: No Shutters, 1: Shutters Open, 2: Shutters Closed"/>
+ <GameToken Id="1393841140" Name="DLC_Crater.TutorialComplete_TyphonGate" Type="Bool" Value="false"/>
+ <GameToken Id="1860450531" Name="WL_Tram.WL_CurrentTramLocation" Type="Int" Value="0" Description="1 = crew, 2 = labs, 3 = moonworks"/>
+ <GameToken Id="613341054" Name="WL_LevelHazards.CrewAnnexEnvState_TyphonGateIndex" Type="Int" Value="0" Description="0 : No Gates, 1-X : Level Zones"/>
+ <GameToken Id="814784498" Name="WL_StoryState.WL_NarrativePhase" Type="Int" Value="1"/>
+ <GameToken Id="1339648096" Name="WL_EscapeMethods.WL_CrateFoodCount" Type="Bool" Value="false"/>
+ <GameToken Id="1570752667" Name="WL_EscapeMethods.WL_CrateWaterCount" Type="Bool" Value="false"/>
+ <GameToken Id="1470817387" Name="WL_EscapeMethods.WL_CrateAntiRadCount" Type="Bool" Value="false"/>
+ <GameToken Id="1516485892" Name="WL_EscapeMethods.WL_CrateOxygenCount" Type="Bool" Value="false"/>
+ <GameToken Id="32667333" Name="WL_StoryState.WL_ChecklistEntriesCompleted" Type="Int" Value="0"/>
+ <GameToken Id="1334086262" Name="WL_StoryState.WL_NarrativePhaseThreshold_Lvl1" Type="Int" Value="0"/>
+ <GameToken Id="1452137420" Name="WL_StoryState.WL_NarrativePhaseThreshold_Lvl2" Type="Int" Value="0"/>
+ <GameToken Id="562752346" Name="WL_StoryState.WL_NarrativePhaseThreshold_Lvl3" Type="Int" Value="10"/>
+ <GameToken Id="1072594681" Name="WL_StoryState.WL_NarrativePhaseThreshold_Lvl4" Type="Int" Value="13"/>
+ <GameToken Id="1223249519" Name="WL_StoryState.WL_NarrativePhaseThreshold_Lvl5" Type="Int" Value="18"/>
+ <GameToken Id="1373642709" Name="WL_StoryState.WL_NarrativePhaseThreshold_Lvl6" Type="Int" Value="22"/>
+ <GameToken Id="652685123" Name="WL_StoryState.WL_NarrativePhaseThreshold_Lvl7" Type="Int" Value="27"/>
+ <GameToken Id="911749842" Name="WL_StoryState.WL_NarrativePhaseThreshold_Lvl8" Type="Int" Value="9999"/>
+ <GameToken Id="630105566" Name="Debug.TempString" Type="String" Value=""/>
+ <GameToken Id="516936160" Name="WL_LevelHazards.CraterEnvState_NoHazard" Type="Bool" Value="false"/>
+ <GameToken Id="921677457" Name="WL_LevelHazards.CrewAnnexEnvState_NoHazard" Type="Bool" Value="false"/>
+ <GameToken Id="1893196976" Name="WL_LevelHazards.LabsEnvState_NoHazard" Type="Bool" Value="false"/>
+ <GameToken Id="2033881046" Name="WL_LevelHazards.MoonworksEnvState_NoHazard" Type="Bool" Value="false"/>
+ <GameToken Id="1040508353" Name="WL_EscapeMethods.WL_CrateTrailheadLocation" Type="Int" Value="0" Description="0 = crater, 1 = crew, 2 = labs"/>
+ <GameToken Id="1277066358" Name="WorldState.PlayerPurchasedWeapon" Type="Bool" Value="true" Description="Used to check if player has purchased a weapon, for Tutorial purposes."/>
+ <GameToken Id="1950471013" Name="WL_StoryState.PlayerKnowsAboutKasmaKey" Type="Bool" Value="false"/>
+ <GameToken Id="705100641" Name="WL_LevelHazards.WL_ReactorCapacity" Type="Int" Value="3"/>
+ <GameToken Id="139433854" Name="WL_TranstarLabs.DimensionalGate_Unlocked" Type="Bool" Value="true"/>
+ <GameToken Id="1318375894" Name="WL_EscapeMethods.WL_DimensionalGate_DoorIntact" Type="Bool" Value="false"/>
+ <GameToken Id="156842021" Name="WL_EscapeMethods.WL_DimensionalGate_Hacked" Type="Bool" Value="false"/>
+ <GameToken Id="1519947824" Name="WL_EscapeMethods.WL_DimensionalGate_DoorOpen" Type="Bool" Value="false"/>
+ <GameToken Id="1678393980" Name="DLC_Crater.EngineerSidequestMemoryBlockTaskActive" Type="Bool" Value="false"/>
+ <GameToken Id="1525185879" Name="DLC_Crater.EngineerSidequestMemoryBlockInactive" Type="Bool" Value="false"/>
+ <GameToken Id="1081973475" Name="WL_SideQuests.SecurityQuestAntidoteLevelIndex" Type="Int" Value="0"/>
+ <GameToken Id="692968307" Name="WL_NoReset_EscapeMethods.PlayerHasEscapedOnce" Type="Bool" Value="false"/>
+ <GameToken Id="237420312" Name="WL_EscapeMethods.EscapesThisRun" Type="Int" Value="0"/>
+ <GameToken Id="1718070761" Name="WL_NoReset_EscapeMethods.WL_EscapeMethods_PlayerFoundPilotConnectome" Type="Bool" Value="false"/>
+ <GameToken Id="1624932178" Name="WL_LevelHazards.CrewAnnexEnvState_IsOnFire" Type="Bool" Value="false"/>
+ <GameToken Id="1977132764" Name="WL_LevelHazards.CrewAnnexEnvState_IsFlooded" Type="Bool" Value="false"/>
+ <GameToken Id="1519136495" Name="WL_LevelHazards.CrewAnnexEnvState_IsIrradiated" Type="Bool" Value="false"/>
+ <GameToken Id="652359027" Name="WL_LevelHazards.LabsEnvState_IsOnFire" Type="Bool" Value="false"/>
+ <GameToken Id="972525256" Name="WL_LevelHazards.LabsEnvState_IsFlooded" Type="Bool" Value="false"/>
+ <GameToken Id="925873916" Name="WL_LevelHazards.LabsEnvState_IsIrradiated" Type="Bool" Value="false"/>
+ <GameToken Id="789536277" Name="WL_LevelHazards.MoonworksEnvState_IsOnFire" Type="Bool" Value="false"/>
+ <GameToken Id="498051022" Name="WL_LevelHazards.MoonworksEnvState_IsFlooded" Type="Bool" Value="false"/>
+ <GameToken Id="307530951" Name="WL_LevelHazards.MoonworksEnvState_IsIrradiated" Type="Bool" Value="false"/>
+ <GameToken Id="582024197" Name="WL_LevelHazards.CraterEnvState_IsOnFire" Type="Bool" Value="false"/>
+ <GameToken Id="9766920" Name="WL_LevelHazards.CraterEnvState_IsFlooded" Type="Bool" Value="false"/>
+ <GameToken Id="1759846332" Name="WL_LevelHazards.CraterEnvState_IsIrradiated" Type="Bool" Value="false"/>
+ <GameToken Id="1876226561" Name="WL_EscapeMethods.WL_ProjectGenesisData_LevelLocation" Type="Int" Value="0" Description="0 = Moonworks, 1 = Crew Annex"/>
+ <GameToken Id="2110852129" Name="WL_EscapeMethods.WL_ProjectGenesisData_BodyLocation" Type="Int" Value="0"/>
+ <GameToken Id="471328101" Name="WL_ResetPerLaunch.PlayerDied_Poison" Type="Bool" Value="false"/>
+ <GameToken Id="52616928" Name="WL_ResetPerLaunch.PlayerDied_Starvation" Type="Bool" Value="false"/>
+ <GameToken Id="795981171" Name="WL_ResetPerLaunch.PlayerDied_Thirst" Type="Bool" Value="false"/>
+ <GameToken Id="1721559712" Name="WL_ResetPerLaunch.PlayerDied_Radiation" Type="Bool" Value="false"/>
+ <GameToken Id="1528069291" Name="WL_SideQuests.KasmaSpy_NumListenersDestroyed" Type="Int" Value="0"/>
+ <GameToken Id="855880189" Name="WL_SideQuests.KasmaSpy_Listeners_Level" Type="Int" Value="0" Description="0: Crater, 1: Crew Annex"/>
+ <GameToken Id="873492998" Name="WL_SideQuests.KasmaSpy_Listeners_Device1Location" Type="Int" Value="0"/>
+ <GameToken Id="228413123" Name="WL_SideQuests.KasmaSpy_Listeners_Device2Location" Type="Int" Value="0"/>
+ <GameToken Id="451304064" Name="WL_SideQuests.KasmaSpy_Listeners_Device3Location" Type="Int" Value="0"/>
+ <GameToken Id="438602872" Name="WL_StoryState.WL_NarrativeLevelOverflow" Type="Int" Value="0"/>
+ <GameToken Id="1961490721" Name="DLC_Crater.Moonshark_Killed" Type="Bool" Value="false"/>
+ <GameToken Id="992163824" Name="PlayerState.CharacterUnlocked_Admin" Type="Bool" Value="false"/>
+ <GameToken Id="1054490268" Name="PlayerState.CharacterUnlocked_Volunteer" Type="Bool" Value="true"/>
+ <GameToken Id="2000832833" Name="PlayerState.CharacterUnlocked_Spy" Type="Bool" Value="false"/>
+ <GameToken Id="221977046" Name="PlayerState.CharacterUnlocked_Engineer" Type="Bool" Value="false"/>
+ <GameToken Id="41099509" Name="PlayerState.CharacterUnlocked_Security" Type="Bool" Value="false"/>
+ <GameToken Id="2000832834" Name="PlayerState.CharacterEscaped_Volunteer" Type="Bool" Value="false"/>
+ <GameToken Id="422198136" Name="PlayerState.CharacterEscaped_Engineer" Type="Bool" Value="false"/>
+ <GameToken Id="17301090" Name="PlayerState.CharacterEscaped_Spy" Type="Bool" Value="false"/>
+ <GameToken Id="302808244" Name="PlayerState.CharacterEscaped_Security" Type="Bool" Value="false"/>
+ <GameToken Id="422198137" Name="PlayerState.CharacterEscaped_Admin" Type="Bool" Value="false"/>
+ <GameToken Id="2057291925" Name="WL_LevelVariability.WL_MoonWorks_BrokenCatwalkIndex" Type="Int" Value="0"/>
+ <GameToken Id="1883768108" Name="WL_LevelVariability.WL_MoonWorks_MineUpperCatwalk_Broken" Type="Int" Value="0"/>
+ <GameToken Id="342740496" Name="WL_LevelVariability.WL_MoonWorks_MineLowerCatwalk_Broken" Type="Int" Value="0"/>
+ <GameToken Id="1406916474" Name="WL_LevelVariability.WL_MoonWorks_RefineryCatwalk_Broken" Type="Int" Value="0"/>
+ <GameToken Id="1948229194" Name="DLC_Crater.PlayerSpawnedAsRiley" Type="Bool" Value="false"/>
+ <GameToken Id="1887355600" Name="DLC_Crater.PylonsPoweredTotal" Type="Int" Value="0"/>
+ <GameToken Id="604089170" Name="WL_SideQuests.KasmaSpy_Device1_Destroyed" Type="Bool" Value="false"/>
+ <GameToken Id="1038339411" Name="WL_SideQuests.KasmaSpy_Device2_Destroyed" Type="Bool" Value="false"/>
+ <GameToken Id="2087522963" Name="WL_SideQuests.KasmaSpy_Device3_Destroyed" Type="Bool" Value="false"/>
+ <GameToken Id="1700418609" Name="WL_SideQuests.KasmaSpy_PlayerHas_Device1" Type="Bool" Value="false"/>
+ <GameToken Id="2085815691" Name="WL_SideQuests.KasmaSpy_PlayerHas_Device2" Type="Bool" Value="false"/>
+ <GameToken Id="190067997" Name="WL_SideQuests.KasmaSpy_PlayerHas_Device3" Type="Bool" Value="false"/>
+ <GameToken Id="1704862053" Name="PlayerState.HasTurretFabPlan" Type="Bool" Value="false"/>
+ <GameToken Id="721966599" Name="PlayerState.FabPlanPistolPickedUp" Type="Bool" Value="false"/>
+ <GameToken Id="1280089561" Name="PlayerState.FabPlanPistolAmmoPickedUp" Type="Bool" Value="false"/>
+ <GameToken Id="1781849489" Name="WL_SideQuests.PlayerLetClaireEscape" Type="Bool" Value="false"/>
+ <GameToken Id="1013662113" Name="WL_StoryState.WL_PowerSystemsFunctional" Type="Bool" Value="false"/>
+ <GameToken Id="235583987" Name="Tutorials.WL_TutorialsQueued" Type="Bool" Value="false"/>
+ <GameToken Id="289392078" Name="WL_ResetPerLaunch.PlayerDied_TyphonTower" Type="Bool" Value="false"/>
+ <GameToken Id="71203000" Name="WL_SideQuests.PlayerIsTrackingBrianChung" Type="Bool" Value="false"/>
+ <GameToken Id="1863597093" Name="WL_TranstarLabs.PsiCutterDoor_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="1446290916" Name="WL_TranstarLabs.StickyNoteLocation" Type="Int" Value="0"/>
+ <GameToken Id="1329665552" Name="DLC_Crater.Moonshark_Intro_Spawned" Type="Bool" Value="false"/>
+ <GameToken Id="97462324" Name="DLC_Moonworks.PlayerIsInsideCrate" Type="Bool" Value="false"/>
+ <GameToken Id="617327750" Name="WL_EscapeMethods.WL_EscapePod_VolunteerPodNeeded" Type="Bool" Value="false"/>
+ <GameToken Id="128123406" Name="WL_EscapeMethods.WL_EscapePod_VolunteerPodLaunched" Type="Bool" Value="false"/>
+ <GameToken Id="784902482" Name="System.IsMetricsRun" Type="Bool" Value="false"/>
+ <GameToken Id="1961798289" Name="CargoBay.WL_Crew_BasketBallPadStateOn" Type="Bool" Value="false"/>
+ <GameToken Id="1846422894" Name="WL_StoryState.WL_OneChecklistEntryLeft" Type="Bool" Value="false"/>
+ <GameToken Id="1505224919" Name="WL_TranstarLabs.RileyYu" Type="Int" Value="0"/>
+ <GameToken Id="66034719" Name="WL_LevelHazards.Crew_CleanFire" Type="Bool" Value="false"/>
+ <GameToken Id="1072790680" Name="WL_LevelHazards.Crew_CleanFlooded" Type="Bool" Value="false"/>
+ <GameToken Id="343588416" Name="WL_LevelHazards.Crew_CleanIrradiated" Type="Bool" Value="false"/>
+ <GameToken Id="1161170212" Name="WL_SideQuests.SecurityQuestAntidoteID" Type="String" Value="none"/>
+ <GameToken Id="1275481836" Name="WL_ResetPerLaunch.TelepathExplodedHead" Type="Bool" Value="false"/>
+ <GameToken Id="121054758" Name="WL_NoReset_EscapeMethods.PlayerHasMassDrivePassword" Type="Bool" Value="false"/>
+ <GameToken Id="1234761092" Name="WL_StoryState.IsPenultimatePhase" Type="Bool" Value="false"/>
+ <GameToken Id="318475337" Name="WL_ResetPerLaunch.DeathViaCorruptionLevelMax" Type="Bool" Value="false"/>
+ <GameToken Id="1522359105" Name="DLC_Crater.TutorialPickedUpFabPlan1" Type="Bool" Value="false"/>
+ <GameToken Id="1135872763" Name="DLC_Crater.TutorialPickedUpFabPlan2" Type="Bool" Value="false"/>
+ <GameToken Id="884161133" Name="DLC_Crater.TutorialPickedUpFabPlan3" Type="Bool" Value="false"/>
+ <GameToken Id="781461255" Name="WL_TranstarLabs.WeaponsLabsDoor1_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="1168350212" Name="WL_TranstarLabs.WeaponsLabsDoor2_Unlocked" Type="Bool" Value="false"/>
+ <GameToken Id="1852854024" Name="WL_SideQuests.KasmaSpy_DataOperatorDestroyed" Type="Bool" Value="false"/>
+ <GameToken Id="1018201432" Name="WL_SideQuests.KasmaSpy_KeyInOperator" Type="Bool" Value="false"/>
+ <GameToken Id="1225151774" Name="WL_SideQuests.VolunteerQuest_ToyID" Type="Int" Value="0"/>
+ <GameToken Id="1467607318" Name="WL_EscapeMethods.WL_Shuttle_AngelaTranScribePlayed" Type="Bool" Value="false"/>
+ <GameToken Id="1260054388" Name="Debug.IsCheatingNarrative" Type="Bool" Value="false"/>
+ <GameToken Id="927525007" Name="Debug.IsCheatingEscapes" Type="Bool" Value="false"/>
+ <GameToken Id="202651269" Name="Debug.IsCheatingCharacters" Type="Bool" Value="false"/>
+ <GameToken Id="1911484487" Name="WorldState.PlayerHasCommandKey" Type="Bool" Value="false"/>
+ <GameToken Id="1925608601" Name="WL_SimulationState.IsSoftReset" Type="Bool" Value="false"/>
+ <GameToken Id="295092284" Name="WL_LevelHazards.PlayerTamperedWithPowerLevels" Type="Bool" Value="false"/>
+ <GameToken Id="688982986" Name="DLC_Crater.IntroCanSave" Type="Bool" Value="false"/>
+ <GameToken Id="166303563" Name="WL_SideQuests.VolunteerQuest_Active" Type="String" Value="0"/>
+ <GameToken Id="1060396219" Name="WL_TranstarLabs.OperatorPlaced_Riley" Type="Bool" Value="false"/>
+ <GameToken Id="1089915378" Name="WL_TranstarLabs.OperatorPlaced_Claire" Type="Bool" Value="false"/>
+ <GameToken Id="784706411" Name="WL_ResetPerLaunch.BrainUploaded" Type="Bool" Value="false"/>
+ <GameToken Id="681604970" Name="WL_EscapeMethods.PodComponentInMDCrate" Type="Bool" Value="false"/>
+ <GameToken Id="409756831" Name="WL_EscapeMethods.PodComponentInMDContainer" Type="Bool" Value="false"/>
+ <GameToken Id="1613893255" Name="WL_EscapeMethods.PodComponentInShuttle" Type="Bool" Value="false"/>
+ <GameToken Id="1952600313" Name="WL_SideQuests.VolunteerToyLocation" Type="Int" Value="0"/>
+ <GameToken Id="1731096111" Name="WL_NoReset_EscapeMethods.NavChipFabPlanAcquired" Type="Bool" Value="false"/>
+ <GameToken Id="1181361612" Name="WL_SideQuests.ToyMapLocationINT" Type="Int" Value="0"/>
+ <GameToken Id="11650836" Name="DLC_Crater.TutorialPickedUpNeuromod" Type="Bool" Value="false"/>
+ <GameToken Id="366384268" Name="WL_StoryState.BasiliskCompanionsUnlocked" Type="Bool" Value="false"/>
+ <GameToken Id="357696643" Name="WL_EscapeMethods.OperatorPlaced_InLauncher" Type="Bool" Value="false"/>
+ <GameToken Id="1454254135" Name="WL_EscapeMethods.DroppedComponentLabs" Type="Bool" Value="false"/>
+ <GameToken Id="1537236083" Name="WL_EscapeMethods.DroppedComponentCrater" Type="Bool" Value="false"/>
+ <GameToken Id="1880723288" Name="WL_EscapeMethods.DroppedComponentCrew" Type="Bool" Value="false"/>
+ <GameToken Id="1486959192" Name="WL_EscapeMethods.DroppedComponentMoonWorks" Type="Bool" Value="false"/>
+</GameTokensLibrary>

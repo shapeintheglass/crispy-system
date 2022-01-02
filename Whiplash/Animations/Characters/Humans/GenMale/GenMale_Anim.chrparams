@@ -1,0 +1,41 @@
+
+<Params>
+ <AnimationList>
+  <Animation name="$AnimEventDatabase" path="Animations/Characters/Humans/GenMale/GenMale.animevents"/>
+  <Animation name="#filepath" path="Animations/Characters/Humans/GenMale"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+  <Animation name="#filepath" path="animations/Cutscenes"/>
+  <Animation name="*" path="*/*/*_Mechanic.caf"/>
+  <Animation name="*" path="*/*/*_GenMale.caf"/>
+  <Animation name="*" path="*/*/*_Bellamy.caf"/>
+  <Animation name="*" path="*/*/*_FrankJones.caf"/>
+  <Animation name="*" path="*/*/*_SecurityGuard.caf"/>
+  <Animation name="*" path="*/*/*_Simmons.caf"/>
+  <Animation name="*" path="*/*/*_Calvino.caf"/>
+  <Animation name="*" path="*/*/*_Sato.caf"/>
+  <Animation name="*" path="*/*/*_Morgan*.caf"/>
+  <Animation name="*" path="*/*/*_Thaddeus.caf"/>
+  <Animation name="*" path="*/*/*_AlfredRose.caf"/>
+  <Animation name="*" path="*/*/*_SamHertz.caf"/>
+  <Animation name="*" path="*/*/*_DwayneMaddox.caf"/>
+  <Animation name="*" path="*/*/*_KevinHague.caf"/>
+  <Animation name="*" path="*/*/*_Dalton.caf"/>
+  <Animation name="*" path="*/*/*_AustinCool.caf"/>
+  <Animation name="*" path="*/*/*_Igwe.caf"/>
+  <Animation name="*" path="*/*/*_Dahl.caf"/>
+  <Animation name="*" path="*/*/*_AaronIngram.caf"/>
+  <Animation name="*" path="*/*/*_NoelleBenson.caf"/>
+  <Animation name="*" path="*/*_MaleVolunteer.caf"/>
+  <Animation name="*" path="*/*_MaleSecurity.caf"/>
+  <Animation name="#filepath" path="animations/Characters/Humans/Shared_Animations"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="#filepath" path="animations/Characters/Effects"/>
+  <Animation name="*" path="*/*_Human.caf"/>
+  <Animation name="#filepath" path="Animations/MarketingPoses"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+ </AnimationList>
+</Params>

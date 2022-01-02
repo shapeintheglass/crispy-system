@@ -1,0 +1,232 @@
+
+<ResponseRules>
+ <WritebackKeys/>
+ <ResponseRule id="13680621263438025579" name="We Can Be Together Again" cooldown="" response="13680621263438033922" conversation="1">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid" compare="0"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onTranscribeTrigger" fromResponse="0" type="default"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" compare="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438026003">
+  <Response dialog="13680621263438033921" id="13680621263438026004" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="2" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033338" name="" cooldown="" response="13680621263438033339">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438026004" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033339">
+  <Response dialog="13680621263438033337" id="13680621263438033340" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033444" name="" cooldown="" response="13680621263438033445">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033340" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033445">
+  <Response dialog="13680621263438033443" id="13680621263438033446" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033451" name="" cooldown="" response="13680621263438033452">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033446" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033452">
+  <Response dialog="13680621263438033450" id="13680621263438033453" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033535" name="" cooldown="" response="13680621263438033536">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033453" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033536">
+  <Response dialog="13680621263438033534" id="13680621263438033537" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033575" name="" cooldown="" response="13680621263438033576">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033537" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033576">
+  <Response dialog="13680621263438033574" id="13680621263438033577" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033637" name="" cooldown="" response="13680621263438033638">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033577" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033638">
+  <Response dialog="13680621263438033636" id="13680621263438033639" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033840" name="" cooldown="" response="13680621263438033841">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033639" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033841">
+  <Response dialog="13680621263438033839" id="13680621263438033842" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033860" name="" cooldown="" response="13680621263438033861">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033842" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033861">
+  <Response dialog="13680621263438033859" id="13680621263438033862" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033867" name="" cooldown="" response="13680621263438033868">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033862" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033868">
+  <Response dialog="13680621263438033866" id="13680621263438033869" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033871" name="" cooldown="" response="13680621263438033872">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033869" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438033872">
+  <Response dialog="13680621263438033870" id="13680621263438033873" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263438033922">
+  <Response dialog="13680621263438026002" id="13680621263438033923" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438033924" name="" cooldown="" response="13680621263438026003">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438033923" fromResponse="1" type="guid"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451477" type="guid" keyType="default" value="13680621263438025726"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263438034221" name="Telepath Flavor Comments - Pre Found Toy" cooldown="" response="13680621263438034299" conversation="1">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid" compare="0"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onTranscribeTrigger" fromResponse="0" type="default"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" compare="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438034299">
+  <Response dialog="13680621263438034298" id="13680621263438034300" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263438034359" id="13680621263438034360" cooldown="0" weight="1" oneshot="true" completeConversation="0" delay="0" cutoff="0"/>
+  <Response dialog="13680621263438034415" id="13680621263438034416" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263438034443" id="13680621263438034444" cooldown="0" weight="1" oneshot="true" completeConversation="0" delay="0" cutoff="0"/>
+  <Response dialog="13680621263438034539" id="13680621263438034540" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438034379" name="" cooldown="" response="13680621263438034380">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438034360" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438034380">
+  <Response dialog="13680621263438034378" id="13680621263438034381" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438034449" name="" cooldown="" response="13680621263438034450">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438034444" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438034450">
+  <Response dialog="13680621263438034448" id="13680621263438034451" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438034568" name="Player Attacked Telepath" cooldown="" response="13680621263438034585" conversation="1">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid" compare="0"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onTranscribeTrigger" fromResponse="0" type="default"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" compare="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438034585">
+  <Response dialog="13680621263438034584" id="13680621263438034586" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263438034596" id="13680621263438034597" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263438034634" id="13680621263438034635" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438034649" name="Player Attacked Telepath Too Many Times" cooldown="" response="13680621263438034684" conversation="1">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid" compare="0"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onTranscribeTrigger" fromResponse="0" type="default"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" compare="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438034684">
+  <Response dialog="13680621263438034683" id="13680621263438034685" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438034745" name="Found My Toy" cooldown="" response="13680621263438034773" conversation="1">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid" compare="0"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onTranscribeTrigger" fromResponse="0" type="default"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" compare="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438034773">
+  <Response dialog="13680621263438034772" id="13680621263438034774" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438034826" name="Arrived Near Escape Pods" cooldown="" response="13680621263438034860" conversation="1">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid" compare="0"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onTranscribeTrigger" fromResponse="0" type="default"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" compare="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438034860">
+  <Response dialog="13680621263438034859" id="13680621263438034861" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438034876" name="Player Taking Too Long After Found Toy" cooldown="" response="13680621263438034916" conversation="1">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid" compare="0"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onTranscribeTrigger" fromResponse="0" type="default"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" compare="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438034916">
+  <Response dialog="13680621263438034915" id="13680621263438034917" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263438034928" id="13680621263438034929" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263438034947" id="13680621263438034948" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438035014" name="The End For Papa" cooldown="" response="13680621263438035060" conversation="1">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid" compare="0"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onTranscribeTrigger" fromResponse="0" type="default"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" compare="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438035060">
+  <Response dialog="13680621263438035059" id="13680621263438035061" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263438035076" name="" cooldown="" response="13680621263438035077">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="13680621263438024261" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="13680621263438035061" fromResponse="1" type="guid"/>
+   <Criterion id="15659330456318451477" value="13680621263438025726" comparison="0" type="guid"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263438035077">
+  <Response dialog="13680621263438035075" id="13680621263438035078" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+</ResponseRules>

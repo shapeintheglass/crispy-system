@@ -1,0 +1,68 @@
+
+<Dialog>
+ <Dialog id="13680621263437075306" text="Warning: fire hazards detected." modified="10/02/2017 07:28:42 PM"/>
+ <Dialog id="13680621263437075539" text="Warning. Power failure detected. Auxilliary power enabled until further notice." modified="10/02/2017 07:32:35 PM"/>
+ <Dialog id="13680621263437075602" text="Warning. Lethal radiation levels detected." modified="10/02/2017 07:33:38 PM"/>
+ <Dialog id="13680621263437075633" text="Warning. Flooding and electrical damage detected." modified="10/02/2017 07:34:09 PM"/>
+ <Dialog id="13680621263439654829" text="Good afternoon, Pytheas." modified="11/01/2017 04:00:45 PM" notes="THE GOOD ONE"/>
+ <Dialog id="13680621263439654866" text="I&apos;m happy to report that MoonWorks has completed another quarter without any serious accidents or loss of equipment. Keep up the good work." modified="11/01/2017 04:01:24 PM"/>
+ <Dialog id="13680621263439654891" text="Attention everyone." modified="11/01/2017 04:01:47 PM"/>
+ <Dialog id="13680621263439654914" text="Material shipments to Talos I - including H3 fuel canisters - must be prepped in the mass driver loading zone before the cycle they&apos;re scheduled to launch." modified="04/02/2018 02:48:21 PM" notes="BEFORE"/>
+ <Dialog id="13680621263439654942" text="This is a security reminder." modified="11/01/2017 04:02:38 PM"/>
+ <Dialog id="13680621263439654966" text="Personal items are not allowed aboard cargo containers shipped to Earth or Talos I. Failure to comply will result in disciplinary action. Personal items go on the monthly shuttle. " modified="11/01/2017 04:03:17 PM"/>
+ <Dialog id="13680621263439655025" text="Due to solar weather, harvester fleet gator and falcon have been reassigned to hectares LH1B through LH1D." modified="11/01/2017 04:04:01 PM"/>
+ <Dialog id="13680621263439655056" text="Tampering with TranStar property is strictly against company policy. This includes seemingly innocuous acts such as drawing on harvesters or... renaming security turrets. Thank you." modified="03/28/2018 01:54:21 PM"/>
+ <Dialog id="13680621263439655126" text="Removing control modules from harvesters for other purposes isn&apos;t okay. Please file a proper request so we can track supplies and make everyone&apos;s life easier. Thank you. " modified="11/01/2017 04:05:42 PM"/>
+ <Dialog id="13680621263439655164" text="For any minor equipment repairs please visit the Engineering Annex in the corridor outside the refinery.  " modified="11/15/2017 07:05:33 PM"/>
+ <Dialog id="13680621263439655177" text="For any minor medical emergencies please visit the Trauma Center in the corridor outside the refinery." modified="11/01/2017 04:06:33 PM"/>
+ <Dialog id="13680621263439655251" text="Just a reminder that extra supplies are kept in the Storage Room near the refinery." modified="11/01/2017 04:07:47 PM"/>
+ <Dialog id="13680621263439657322" text="Tomorrow, after second shift, Dr. McAlister will be giving a presentation on the properties of... &quot;transpositional locomotion and lunar regolith displacement&quot; as a hypothetical potential in some Typhon species.  " modified="11/01/2017 04:42:18 PM"/>
+ <Dialog id="13680621263439657329" text="Attendance is optional. Refreshments will be provided." modified="11/01/2017 04:42:25 PM"/>
+ <Dialog id="13680621263439657369" text="For any minor equipment repairs please visit the Engineering Annex just off the main lobby." modified="11/01/2017 04:43:05 PM"/>
+ <Dialog id="13680621263439657484" text="For any minor medical emergencies please visit the Trauma Center just off the main lobby." modified="11/01/2017 04:45:00 PM"/>
+ <Dialog id="13680621263439657493" text="Just a reminder that extra supplies are kept in the Storage Room just off the main lobby." modified="11/01/2017 04:45:09 PM"/>
+ <Dialog id="13680621263439657552" text="Exotic material is restricted to the Pytheas labs and Crater. Violations will result in immediate disciplinary action, up to and including termination." modified="11/01/2017 04:46:08 PM"/>
+ <Dialog id="13680621263439662363" text="Attention everyone. We have a special announcement from our head of security." modified="11/01/2017 06:06:19 PM"/>
+ <Dialog id="13680621263439662524" text="Tomorrow evening is Schrodinger&apos;s Flavor night in the cafeteria." modified="11/01/2017 06:10:14 PM" notes="Slight hesitation around the  name."/>
+ <Dialog id="13680621263439662580" text="We&apos;d like to remind everyone to please observe the posted quiet hours on Level One of the Crew Annex." modified="11/01/2017 06:09:56 PM"/>
+ <Dialog id="13680621263439662585" text="Quality rest is essential for peak performance and safety." modified="11/01/2017 06:10:01 PM"/>
+ <Dialog id="13680621263439662601" text="Chef Crosby would like to invite everyone to come enjoy the tastes and textures of molecular gastronomy on the moon." modified="11/01/2017 06:10:17 PM"/>
+ <Dialog id="13680621263439662682" text="Attention everyone. We have a very special announcement from our facility Director." modified="11/01/2017 08:31:20 PM"/>
+ <Dialog id="13680621263439671268" text="This is a reminder that all shuttle leave must be registered with security along with signed documentation from HR and your immediate supervisor.    " modified="11/15/2017 07:10:07 PM"/>
+ <Dialog id="13680621263439671305" text="Crater access from the Crew Annex is prohibited and constitutes a severe breach of safety protocol. " modified="11/01/2017 08:35:21 PM"/>
+ <Dialog id="13680621263439671408" text="I&apos;m pleased to announce our very own, Engineer Brian Chung, will be carving a beautiful art installation to be displayed in the MoonWorks tram stop." modified="11/01/2017 08:37:04 PM"/>
+ <Dialog id="13680621263439671413" text="If you, or anyone you know, have any hidden talents that might make life at Pytheas more pleasant, please let Director Yu and HR know." modified="11/01/2017 08:37:09 PM"/>
+ <Dialog id="13680621263439671645" text="Last week&apos;s basketball tournament was a big success. The Lunatics took the trophy again, winning against the Craters. That makes three consecutive victories for the security folks." modified="11/01/2017 08:41:01 PM"/>
+ <Dialog id="13680621263439671654" text="I also want to mention the Phantoms are still looking for a few players to fill out their roster. As always, please see Mr. Safra in the Crew Annex to sign up or reserve gym time." modified="11/01/2017 08:41:10 PM"/>
+ <Dialog id="13680621263439671696" text="All TranStar projects and technologies are confidential. If you suspect anyone of unauthorized disclosure to outside agents or competitors, please report the matter to Officer Bhatia immediately. Thank you." modified="11/08/2017 08:12:50 PM"/>
+ <Dialog id="13680621263439672452" text="For any minor equipment repairs or supplies visit the Engineering Annex on Level Two." modified="11/01/2017 08:54:28 PM"/>
+ <Dialog id="13680621263439672478" text="For any minor medical emergencies visit the Trauma Center on Level Two." modified="11/01/2017 08:54:54 PM"/>
+ <Dialog id="13680621263439672489" text="Just a reminder that extra supplies are kept in the Storage Room just off the main lobby." modified="11/01/2017 08:55:05 PM"/>
+ <Dialog id="13680621263439673025" text="Attention all Pytheas crewmembers." modified="11/01/2017 09:04:01 PM"/>
+ <Dialog id="13680621263439673034" text="This is an emergency broadcast. Please report to designated escape pod stations and prepare for evacuation." modified="11/01/2017 09:04:10 PM"/>
+ <Dialog id="13680621263439673038" text="If you are unable to reach an escape pod, Security will track your position as they conduct a final sweep before launching." modified="11/01/2017 09:04:19 PM"/>
+ <Dialog id="13680621263439673194" text="Attention everyone. We have an extra special message today from our CEO." modified="11/01/2017 09:08:17 PM"/>
+ <Dialog id="13680621263439673732" text="Our head custodian, Claire Whitten, would like to remind everyone that... your mom doesn&apos;t work on Pytheas. " modified="02/23/2018 11:00:44 PM"/>
+ <Dialog id="13680621263439673751" text="So let&apos;s all do our best to practice good restroom etiquette and leave things in as good of condition as we found it. Thank you." modified="11/01/2017 09:16:07 PM"/>
+ <Dialog id="13680621263439673879" text="Typhon Gates are essential to the safety of every crewmember. If you find an active gate, please contact security immediately. Do not engage the bypass without proper authorization." modified="11/01/2017 09:18:15 PM"/>
+ <Dialog id="13680621263439674424" text="[tram chime]" modified="11/01/2017 09:28:11 PM" notes="SFX"/>
+ <Dialog id="13680621263439674436" text="Now arriving." modified="11/01/2017 09:27:32 PM"/>
+ <Dialog id="13680621263439674662" text="Error F-CM53. Control Module replacement required." modified="11/01/2017 09:31:18 PM"/>
+ <Dialog id="13680621263439674668" text="This stop is experiencing technical difficulties." modified="11/01/2017 09:31:24 PM"/>
+ <Dialog id="13680621263439674674" text="Please contact engineering for support." modified="11/01/2017 09:31:30 PM"/>
+ <Dialog id="13680621263439674723" text="I&apos;m very sorry. The MoonWorks stop is experiencing technical difficulties." modified="11/28/2017 08:24:16 PM"/>
+ <Dialog id="13680621263439674761" text="I&apos;m very sorry. The Pytheas Labs stop is experiencing technical difficulties." modified="11/15/2017 07:20:53 PM"/>
+ <Dialog id="13680621263439674796" text="I&apos;m very sorry. The Crew Annex stop is experiencing technical difficulties." modified="11/15/2017 07:20:58 PM"/>
+ <Dialog id="13680621263439674974" text="Next stop, Moonworks." modified="11/01/2017 09:36:30 PM"/>
+ <Dialog id="13680621263439674986" text="Next stop, Pytheas Labs." modified="11/01/2017 09:36:42 PM"/>
+ <Dialog id="13680621263439674998" text="Next stop, Crew Annex." modified="11/01/2017 09:36:54 PM"/>
+ <Dialog id="13680621263439675156" text="Warning." modified="11/01/2017 09:39:32 PM"/>
+ <Dialog id="13680621263439675325" text="One escape pod remaining." modified="11/01/2017 09:42:21 PM"/>
+ <Dialog id="13680621263439675335" text="Two escape pods remaining." modified="11/01/2017 09:42:31 PM"/>
+ <Dialog id="13680621263439675352" text="All escape pods remaining." modified="11/01/2017 09:42:48 PM"/>
+ <Dialog id="13680621263439675378" text="No escape pods remaining." modified="11/01/2017 09:43:14 PM"/>
+ <Dialog id="13680621263439675397" text="Please try another escape pod station or contact security for emergency assistance." modified="11/01/2017 09:43:33 PM"/>
+ <Dialog id="13680621263439675438" text="Please evacuate in an orderly fashion." modified="04/09/2018 09:34:48 PM"/>
+ <Dialog id="13680621263439675563" text="Warning. Due to a ventilation malfunction, the crater is experiencing dust storm conditions." modified="11/01/2017 09:47:30 PM"/>
+ <Dialog id="13680621263439675584" text="Please secure a breathing apparatus and remain indoors until the issue is resolved." modified="11/01/2017 09:47:05 PM"/>
+</Dialog>

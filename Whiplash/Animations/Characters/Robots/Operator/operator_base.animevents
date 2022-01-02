@@ -1,0 +1,14 @@
+
+<anim_event_list>
+ <animation name="animations/cutscenes/vs/sq01/cs_vs_sq01_prepareforextract_grabsphere_operatorbase.caf">
+  <event name="sound" time="0.0071783862" endTime="0.0071783862" parameter="Play_Operator_Base_Mechanics_02" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.027099999" endTime="0.027099999" parameter="Play_Operator_Base_Mechanics_05" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.017813032" endTime="0.017813032" parameter="Play_Operator_Base_Mechanics_04" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.0117" endTime="0.0117" parameter="Play_Operator_Base_Mechanics_03" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.054056793" endTime="0.054056793" parameter="Play_Operator_Base_Mechanics_03" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.93470329" endTime="0.93470329" parameter="Play_Operator_Base_Mechanics_03" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.9425" endTime="0.9425" parameter="Play_Operator_Base_Mechanics_03" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.95019996" endTime="0.95019996" parameter="Play_Operator_Base_Mechanics_04" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.97279996" endTime="0.97279996" parameter="Play_Operator_Base_Mechanics_01" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

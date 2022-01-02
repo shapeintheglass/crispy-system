@@ -1,0 +1,12 @@
+
+<ArkChallengeList>
+ <Challenges>
+  <ArkChallenge id="10739735956182110122" Seed="1" PlayableCharacter="10739735956174775230" StartingMap="ChallengeModeReadyRoom" StartingCrypto="10000" StartingNeuromods="0">
+   <StartingFabPlans/>
+   <StartingStoreChipsets/>
+   <StartingItems/>
+   <StartingAbilities/>
+   <StartDate Month="9" Day="13" Year="2017"/>
+  </ArkChallenge>
+ </Challenges>
+</ArkChallengeList>

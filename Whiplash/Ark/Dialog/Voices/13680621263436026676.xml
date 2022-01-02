@@ -1,0 +1,29 @@
+
+<Dialog>
+ <Dialog id="13680621263436026962" text="Kruse! This is Vijay. Listen to me. You need to stay off the lunar surface. I repeat - do not step foot on the regolith. There&apos;s... something underneath. I think it&apos;s drawn to movement. It senses vibrations. I can&apos;t kill it." modified="10/13/2017 03:39:12 PM"/>
+ <Dialog id="13680621263438011870" text="There&apos;s a shuttle in Crew, but we&apos;re stuck in the damn crater until we can get the Typhon Gates down." modified="11/08/2017 08:52:59 PM"/>
+ <Dialog id="13680621263438011894" text="Round up anyone else you can find. Warn them. I-" modified="10/13/2017 03:39:48 PM" notes="SFX - sound of moonshark, then cut off."/>
+ <Dialog id="13680621263439662397" text="Thank you. This is Officer Bhatia with a quick lost and found update." modified="11/01/2017 06:07:45 PM"/>
+ <Dialog id="13680621263439673939" text="This is Officer Bhatia, head of security. Just want to take a second to call out this month&apos;s security commendation." modified="11/01/2017 09:19:41 PM"/>
+ <Dialog id="13680621263439673988" text="The commendation goes to officer... Casey Fletcher for outstanding service. Be sure to congratulate Officer Fletcher and buy her a round." modified="11/01/2017 09:20:14 PM"/>
+ <Dialog id="13680621263440608121" text="You wanted to see me?" modified="11/12/2017 04:48:57 PM"/>
+ <Dialog id="13680621263440609155" text="Yes, sir. That&apos;s right." modified="11/12/2017 05:06:11 PM"/>
+ <Dialog id="13680621263440609177" text="I am." modified="11/12/2017 05:06:33 PM"/>
+ <Dialog id="13680621263440609212" text="I&apos;m sure he&apos;d be honored. [throat clear] Was there something you needed?" modified="11/12/2017 05:07:58 PM" notes="getting a little uncomfortable"/>
+ <Dialog id="13680621263440609328" text="This is... it&apos;s a surveillance device." modified="11/12/2017 05:09:36 PM"/>
+ <Dialog id="13680621263440609348" text="It&apos;s one of ours. Did you get this from security?" modified="11/12/2017 05:09:24 PM" notes="some creeping dread mixed w/ confusion"/>
+ <Dialog id="13680621263440609408" text="Sir. I&apos;ve never given an order to-" modified="11/12/2017 05:10:24 PM" notes="Shocked... vijay sees himself as honorable and above reproach"/>
+ <Dialog id="13680621263440609595" text="I trust my people. I can&apos;t imagine any of them doing this." modified="11/12/2017 05:19:17 PM"/>
+ <Dialog id="13680621263440609619" text="Sir?" modified="11/12/2017 05:13:55 PM"/>
+ <Dialog id="13680621263440609721" text="I&apos;ll get to the bottom of this, Mr. Yu. You have my word." modified="11/12/2017 05:15:46 PM"/>
+ <Dialog id="13680621263440612690" text="What did you find?" modified="11/12/2017 06:05:06 PM"/>
+ <Dialog id="13680621263440612778" text="Shit." modified="11/12/2017 06:06:34 PM" notes="Under his breath."/>
+ <Dialog id="13680621263440612878" text="Anything else?" modified="11/12/2017 06:08:14 PM"/>
+ <Dialog id="13680621263440612916" text="And no recent requisition entries?" modified="11/12/2017 06:12:42 PM"/>
+ <Dialog id="13680621263440612977" text="So we have no idea how long they&apos;ve been missing, and whoever took them probably hacked their way in." modified="11/12/2017 06:12:03 PM" notes="Frustrated. No leads."/>
+ <Dialog id="13680621263440613203" text="[Big sigh] Alright. Keep it to yourself for the next cycle. I don&apos;t want to show our hand just yet." modified="11/12/2017 06:17:02 PM" notes="Last thing I want to do."/>
+ <Dialog id="13680621263440613421" text="Thanks, Casey." modified="11/12/2017 06:17:17 PM"/>
+ <Dialog id="13680621263440613500" text="Oh." modified="11/12/2017 06:18:36 PM" notes="Stunned."/>
+ <Dialog id="13680621263440613548" text="I will. Thank you." modified="11/12/2017 06:19:47 PM" notes="Voice has gone dead, distant. What&apos;s this letter."/>
+ <Dialog id="13680621263440708803" text="An important briefcase has been misplaced on Level Two, near the lounge of the Crew Annex. If you locate it, please contact security immediately." modified="11/13/2017 08:46:59 PM"/>
+</Dialog>

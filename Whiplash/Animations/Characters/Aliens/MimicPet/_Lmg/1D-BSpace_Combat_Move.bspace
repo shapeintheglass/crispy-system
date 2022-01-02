@@ -1,0 +1,39 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param Name="MoveSpeed" Min="1.5" Max="8" Cells="19" Scale="1" SKey="0" EKey="1"/>
+ </Dimensions>
+ <AdditionalExtraction/>
+ <ExampleList>
+  <Example AName="Combat_Walk_Forward" PlaybackScale="1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_Run_Forward" PlaybackScale="1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_Sprint_Forward" PlaybackScale="1" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+ </ExampleList>
+ <ExamplePseudo/>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+  <Face p0="1" p1="2"/>
+ </Blendable>
+ <JointList/>
+ <VGrid>
+  <VExample i0="0" i1="1" w0="1.3333352" w1="-0.3333351"/>
+  <VExample i0="0" i1="1" w0="1.1728411" w1="-0.17284112"/>
+  <VExample i0="0" i1="1" w0="1.0123471" w1="-0.012347125"/>
+  <VExample i0="0" i1="1" w0="0.85185325" w1="0.14814675"/>
+  <VExample i0="0" i1="1" w0="0.69135928" w1="0.30864075"/>
+  <VExample i0="0" i1="1" w0="0.53086531" w1="0.46913472"/>
+  <VExample i0="0" i1="1" w0="0.3703714" w1="0.6296286"/>
+  <VExample i0="0" i1="1" w0="0.20987743" w1="0.79012257"/>
+  <VExample i0="0" i1="1" w0="0.049383402" w1="0.9506166"/>
+  <VExample i0="1" i1="2" w0="0.96875018" w1="0.031249827"/>
+  <VExample i0="1" i1="2" w0="0.92361128" w1="0.076388732"/>
+  <VExample i0="1" i1="2" w0="0.87847239" w1="0.12152763"/>
+  <VExample i0="1" i1="2" w0="0.83333349" w1="0.16666648"/>
+  <VExample i0="1" i1="2" w0="0.7881946" w1="0.21180539"/>
+  <VExample i0="1" i1="2" w0="0.7430557" w1="0.2569443"/>
+  <VExample i0="1" i1="2" w0="0.69791681" w1="0.30208319"/>
+  <VExample i0="1" i1="2" w0="0.65277791" w1="0.34722209"/>
+  <VExample i0="1" i1="2" w0="0.60763901" w1="0.39236099"/>
+  <VExample i0="1" i1="2" w0="0.56250012" w1="0.43749991"/>
+ </VGrid>
+</ParaGroup>

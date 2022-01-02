@@ -1,0 +1,122 @@
+
+<ArkLocations>
+ <Locations>
+  <ArkLocation ID="844024417334136241" Name="WL_Crater" Label="@loc_844024417334136242" StationMapIndex="1" LevelName="Crater" ScreenshotPath="ui_saveload_screenshot_crater" RichPresence="@rp_crater">
+   <Transitions>
+    <ArkTransition ConnectionA="844024417334136321" ConnectionB="844024417334136487" Cost="350"/>
+    <ArkTransition ConnectionA="844024417334136393" ConnectionB="844024417334136487" Cost="350"/>
+    <ArkTransition ConnectionA="844024417334136321" ConnectionB="844024417334136393" Cost="350"/>
+   </Transitions>
+   <Floors>
+    <ArkMapFloor Name="PowerControl" Label="@loc_761057048028893518"/>
+    <ArkMapFloor Name="CraterMain" Label="@loc_761057048028892804"/>
+    <ArkMapFloor Name="CommandCenter" Label="@loc_761057048028893583"/>
+   </Floors>
+  </ArkLocation>
+  <ArkLocation ID="844024417334136321" Name="WL_CrewAnnex" Label="@loc_844024417334136322" StationMapIndex="2" LevelName="CrewAnnex" ScreenshotPath="ui_saveload_screenshot_crewannex" RichPresence="@rp_crewannex">
+   <Transitions>
+    <ArkTransition ConnectionA="844024417334136393" ConnectionB="844024417334136241" Cost="300"/>
+    <ArkTransition ConnectionA="844024417334136487" ConnectionB="844024417334136241" Cost="300"/>
+    <ArkTransition ConnectionA="844024417334136487" ConnectionB="844024417334136393" Cost="75"/>
+   </Transitions>
+   <Floors>
+    <ArkMapFloor Name="WL_CrewAnnex_CraterDoor" Label="@loc_4349723564986798936"/>
+    <ArkMapFloor Name="WL_CrewAnnex_Residential" Label="@loc_4349723564986798933"/>
+    <ArkMapFloor Name="WL_CrewAnnex_Lounge" Label="@loc_4349723564986798932"/>
+    <ArkMapFloor Name="WL_CrewAnnex_Admin" Label="@loc_4349723564986798926"/>
+    <ArkMapFloor Name="WL_CrewAnnex_Tower" Label="@loc_4349723564986796360"/>
+   </Floors>
+  </ArkLocation>
+  <ArkLocation ID="844024417334136393" Name="WL_Labs" Label="@loc_844024417334136394" StationMapIndex="3" LevelName="TranstarLabs" ScreenshotPath="ui_saveload_screenshot_transtarlabs" RichPresence="@rp_pytheaslabs">
+   <Transitions>
+    <ArkTransition ConnectionA="844024417334136321" ConnectionB="844024417334136241" Cost="300"/>
+    <ArkTransition ConnectionA="844024417334136487" ConnectionB="844024417334136241" Cost="300"/>
+    <ArkTransition ConnectionA="844024417334136487" ConnectionB="844024417334136321" Cost="75"/>
+   </Transitions>
+   <Floors>
+    <ArkMapFloor Name="Floor1" Label="@loc_12889009725071848340"/>
+    <ArkMapFloor Name="Floor2" Label="@loc_12889009725071848339"/>
+    <ArkMapFloor Name="Floor3" Label="@loc_12889009725071848322"/>
+    <ArkMapFloor Name="Floor4" Label="@loc_12889009725071848341"/>
+   </Floors>
+  </ArkLocation>
+  <ArkLocation ID="844024417334136425" Name="WL_Engineering" Label="@loc_844024417334136426" StationMapIndex="0" LevelName="Engineering"/>
+  <ArkLocation ID="844024417334136487" Name="WL_MoonWorks" Label="@loc_844024417334136488" StationMapIndex="4" LevelName="Moonworks" ScreenshotPath="ui_saveload_screenshot_moonworks" RichPresence="@rp_moonworks">
+   <Transitions>
+    <ArkTransition ConnectionA="844024417334136393" ConnectionB="844024417334136241" Cost="300"/>
+    <ArkTransition ConnectionA="844024417334136321" ConnectionB="844024417334136241" Cost="300"/>
+    <ArkTransition ConnectionA="844024417334136393" ConnectionB="844024417334136321" Cost="75"/>
+   </Transitions>
+   <Floors>
+    <ArkMapFloor Name="MW_LowerLevel" Label="@loc_761057048034434945"/>
+    <ArkMapFloor Name="MW_MidLevel" Label="@loc_761057048034435003"/>
+    <ArkMapFloor Name="MW_UpperLevel" Label="@loc_761057048041593792"/>
+    <ArkMapFloor Name="MW_MassDriver" Label="@loc_761057048034435055"/>
+    <ArkMapFloor Name="MW_MassDriverControl" Label="@loc_761057048041593819"/>
+   </Floors>
+  </ArkLocation>
+  <ArkLocation ID="844024417334143948" Name="WL_Staging" Label="@loc_844024417334143949" StationMapIndex="0" LevelName="StagingArea"/>
+  <ArkLocation ID="844024417336902480" Name="WL_Satellite" Label="@loc_844024417336902481" StationMapIndex="0" LevelName="Satellite" ScreenshotPath="ui_saveload_screenshot_satellite" RichPresence="@rp_satellite"/>
+  <ArkLocation ID="12889009725073210403" Name="TL_Administration" Label="@loc_12889009725073210404" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725079861703" Name="TL_Conference" Label="@loc_12889009725079861704" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210366" Name="TL_ContainmentDeployment" Label="@loc_12889009725073210367" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210581" Name="TL_DataArchive" Label="@loc_12889009725073210582" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210483" Name="TL_DeploymentCommand" Label="@loc_12889009725073210484" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210416" Name="TL_DirectorsOffice" Label="@loc_12889009725073210417" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210470" Name="TL_EngineeringDock" Label="@loc_12889009725073210471" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210633" Name="TL_EscapePod" Label="@loc_12889009725073210634" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210295" Name="TL_Labs" Label="@loc_12889009725073210296" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210612" Name="TL_Lobby" Label="@loc_12889009725073210613" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210441" Name="TL_MedicalBay" Label="@loc_12889009725073210442" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210543" Name="TL_ProjectX" Label="@loc_12889009725073210544" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210335" Name="TL_SciencesSupport" Label="@loc_12889009725073210336" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725079861760" Name="TL_SecurityBooth" Label="@loc_12889009725079861761" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725079863254" Name="TL_IsolationChamber" Label="@loc_12889009725079863255" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210456" Name="TL_Storage" Label="@loc_12889009725073210457" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210388" Name="TL_Tram" Label="@loc_12889009725073210389" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210513" Name="TL_TyphonContainment" Label="@loc_12889009725073210514" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210319" Name="TL_TyphonSciences" Label="@loc_12889009725073210320" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210499" Name="TL_VolunteerContainment" Label="@loc_12889009725073210500" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725079863302" Name="TL_SecurityOffice" Label="@loc_12889009725079863303" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210528" Name="TL_VolunteerShowers" Label="@loc_12889009725073210529" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="12889009725073210347" Name="TL_WeaponsResearch" Label="@loc_12889009725073210348" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="761057048029692991" Name="WL_TranStarPytheasMoonFacility" Label="@loc_761057048029692992" StationMapIndex="0"/>
+  <ArkLocation ID="844024417347530833" Name="DebugTravelA" Label="@loc_844024417347530834" StationMapIndex="0" LevelName="FT_LevelTravelA"/>
+  <ArkLocation ID="844024417347530877" Name="DebugTravelB" Label="@loc_844024417347530878" StationMapIndex="0" LevelName="FT_LevelTravelB"/>
+  <ArkLocation ID="761057048034444928" Name="MW_DecommissionedCraterAccess" Label="@loc_761057048034444929" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="761057048034444974" Name="MW_CentralMine" Label="@loc_761057048034444975" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="761057048034445013" Name="MW_SupportSystems" Label="@loc_761057048034445014" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="761057048034445031" Name="MW_Refinery" Label="@loc_761057048034445032" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="761057048034445047" Name="MW_MassDriver" Label="@loc_761057048034445048" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="761057048034445066" Name="MW_EscapePod" Label="@loc_761057048034445067" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="13856881013254919000" Name="WL_Challenge" Label="@loc_13856881013254919001" StationMapIndex="0" LevelName="ChallengeModeReadyRoom"/>
+  <ArkLocation ID="6732635291261995561" Name="CR_CentralCrater" Label="@loc_6732635291261995562" StationMapIndex="0" LevelName="Crater" Cooldown="300"/>
+  <ArkLocation ID="6732635291261995628" Name="CR_CommandCenter" Label="@loc_6732635291261995629" StationMapIndex="0" LevelName="Crater" Cooldown="300"/>
+  <ArkLocation ID="6732635291261995665" Name="CR_PowerControl" Label="@loc_6732635291261995666" StationMapIndex="0" LevelName="Crater" Cooldown="300"/>
+  <ArkLocation ID="6732635291261995686" Name="CR_TranstarLabsTunnel" Label="@loc_6732635291261995687" StationMapIndex="0" LevelName="Crater" Cooldown="300"/>
+  <ArkLocation ID="6732635291261995716" Name="CR_EscapePod" Label="@loc_6732635291261995717" StationMapIndex="0" LevelName="Crater" Cooldown="300"/>
+  <ArkLocation ID="6732635291261995784" Name="CR_TranStarLabsTransition" Label="@loc_6732635291261995785" StationMapIndex="0" LevelName="Crater" Cooldown="300"/>
+  <ArkLocation ID="6732635291261996887" Name="CR_CrewAnnexTransition" Label="@loc_6732635291261996888" StationMapIndex="0" LevelName="Crater" Cooldown="300"/>
+  <ArkLocation ID="6732635291261996858" Name="CR_MoonworksTransition" Label="@loc_6732635291261996859" StationMapIndex="0" LevelName="Crater" Cooldown="300"/>
+  <ArkLocation ID="6732635291261997229" Name="CR_PytheasMoonbase" Label="@loc_6732635291261997230" StationMapIndex="0" LevelName="Crater"/>
+  <ArkLocation ID="4349723564986796222" Name="WL_CrewAnnex_Map_Tower" Label="@loc_4349723564986796223" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="4349723564986799034" Name="WL_CrewAnnex_Map_Admin" Label="@loc_4349723564986799035" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="4349723564986799041" Name="WL_CrewAnnex_Map_Lounge" Label="@loc_4349723564986799042" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="4349723564986799045" Name="WL_CrewAnnex_Map_Residential" Label="@loc_4349723564986799046" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="4349723564986799048" Name="WL_CrewAnnex_Map_CraterDoor" Label="@loc_4349723564986799049" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="4349723564986950263" Name="WL_CrewAnnex_Main" Label="@loc_4349723564986950264" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="761057048042993253" Name="MW_JoanWinslow" Label="@loc_761057048042993254" StationMapIndex="0" Cooldown="300"/>
+  <ArkLocation ID="844024417362151901" Name="MW_ClosetStandard" Label="@loc_844024417362151902" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362152022" Name="MW_ClosetEngineering" Label="@loc_844024417362152023" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362152026" Name="MW_ClosetMedical" Label="@loc_844024417362152027" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362152161" Name="Crater_ClosetStandard" Label="@loc_844024417362152162" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362152182" Name="Crater_ClosetEngineering" Label="@loc_844024417362152183" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362152188" Name="Crater_ClosetMedical" Label="@loc_844024417362152189" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362152281" Name="Crew_ClosetMedical" Label="@loc_844024417362152282" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362152286" Name="Crew_ClosetEngineering" Label="@loc_844024417362152287" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362152293" Name="Crew_ClosetStandard" Label="@loc_844024417362152294" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362153653" Name="Labs_ClosetMedical" Label="@loc_844024417362153654" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362153659" Name="Labs_ClosetEngineering" Label="@loc_844024417362153660" StationMapIndex="0"/>
+  <ArkLocation ID="844024417362153665" Name="Labs_ClosetStandard" Label="@loc_844024417362153666" StationMapIndex="0"/>
+ </Locations>
+</ArkLocations>

@@ -1,0 +1,100 @@
+
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/Ai_Mimic_Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Ai_Mimic_FragmentIds.xml"/>
+ <FragmentDefs>
+  <Motion_Idle scopes="FullBody3P"/>
+  <Motion_Move scopes="FullBody3P"/>
+  <Melee_JumpAttack scopes="FullBody3P"/>
+  <Melee_JumpAttack_Bump scopes="FullBody3P"/>
+  <Reaction_Death scopes="FullBody3P"/>
+  <BlendRagdoll scopes="FullBody3P"/>
+  <Cs_SimulationLabs_Sq11_MimicAttack_Mimic scopes="FullBody3P"/>
+  <Motion_WallJump_In scopes="FullBody3P"/>
+  <MantleUp scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Motion_WallJump_Out scopes="FullBody3P"/>
+  <Motion_Leap scopes="FullBody3P"/>
+  <Melee scopes="FullBody3P"/>
+  <DodgeRoll scopes="FullBody3P"/>
+  <CombatReaction scopes="FullBody3P"/>
+  <Distractor_SnakesCheck scopes="FullBody3P"/>
+  <CS_SimulationLabs_GooedMimic scopes="FullBody3P"/>
+  <GrabPlayer_In scopes="FullBody3P"/>
+  <GrabPlayer_Jump scopes="FullBody3P"/>
+  <GrabPlayer_Abort scopes="FullBody3P"/>
+  <GrabPlayer_Wrestling scopes="FullBody3P+SlaveChar">
+   <Override tags="slave+context_slave_player" scopes="SlaveChar"/>
+   <Override tags="context_slave_player" scopes="FullBody3P+SlaveChar"/>
+  </GrabPlayer_Wrestling>
+  <GrabPlayer_PlayerWin scopes="FullBody3P">
+   <Override tags="slave+context_slave_player" scopes="SlaveChar"/>
+   <Override tags="context_slave_player" scopes="FullBody3P+SlaveChar"/>
+  </GrabPlayer_PlayerWin>
+  <Distractor_DeskSwipe scopes="FullBody3P"/>
+  <Hypnotized scopes="FullBody3P"/>
+  <Blinded scopes="FullBody3P"/>
+  <Distractor_Sniff scopes="FullBody3P"/>
+  <Cs_SimulationLabs_Sq12_ShadowMimic_Start_Mimic scopes="FullBody3P+AimPose"/>
+  <Cs_SimulationLabs_Sq12_ShadowMimic_Loop_Mimic scopes="FullBody3P+AimPose"/>
+  <Cs_SimulationLabs_Sq12_ShadowMimic_End_Mimic scopes="FullBody3P+AimPose"/>
+  <Distractor_Poke scopes="FullBody3P"/>
+  <Distractor_Swipe scopes="FullBody3P"/>
+  <Distractor_Swipe_B scopes="FullBody3P"/>
+  <Lifted scopes="FullBody3P"/>
+  <Fall scopes="FullBody3P"/>
+  <Land_Bump scopes="Torso3P"/>
+  <Land_Stumble scopes="FullBody3P"/>
+  <Lifted_BumpCeiling scopes="Torso3P"/>
+  <Taunt scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Fatality_Front_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Stunned scopes="FullBody3P"/>
+  <PushObstacle scopes="FullBody3P+Torso3P+AimPose"/>
+  <SideStep scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Dodge scopes="FullBody3P"/>
+  <Melee_JumpAttack_Telegraph scopes="FullBody3P"/>
+  <Mimic_In scopes="FullBody3P"/>
+  <Mimic_Out scopes="FullBody3P"/>
+  <BreakOutOfGloo scopes="FullBody3P"/>
+  <BreakGloo scopes="FullBody3P"/>
+  <UnMimic_Attack scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <MantleDown scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <MindJack_In scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <MindJack_Out scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Notice scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Distractor_LookAt_High_A scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Fatality_Front_A_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Fatality_Front_B_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Fatality_Front_C_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Fatality_Front_LR_A_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Fatality_Front_LR_B_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Fatality_Front_RL_A_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Fatality_Front_RL_B_Wrench scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Search scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Glood_Pose scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <distractor_conference_room scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Feed scopes="FullBody3P"/>
+  <Cocoon scopes="FullBody3P"/>
+  <TentacleTrap_In scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <TentacleTrap_Out scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Jump_Start scopes="FullBody3P"/>
+  <Jump_InAir scopes="FullBody3P"/>
+  <Jump_Land scopes="FullBody3P"/>
+  <Burrow_In scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Burrow_Out scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Burrow_Lifted scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Mark scopes="FullBody3P"/>
+  <Cs_TranstarLabs_Sq05_Wormhole_In_Mimic scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Cs_TranstarLabs_Sq05_Wormhole_Idle_Mimic scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+  <Cs_TranstarLabs_Sq05_Wormhole_Out_Mimic scopes="FullBody3P+Torso3P+AimPose+SlaveChar"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P/>
+  <SlaveChar/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <Torso3P layer="9" numLayers="3" context="Char3P"/>
+  <AimPose layer="4" numLayers="2" context="Char3P"/>
+  <SlaveChar layer="0" numLayers="3" context="SlaveChar" Tags="slave"/>
+ </ScopeDefs>
+</ControllerDef>

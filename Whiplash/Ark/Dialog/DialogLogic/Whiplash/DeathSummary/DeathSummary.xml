@@ -1,0 +1,1057 @@
+
+<ResponseRules>
+ <WritebackKeys/>
+ <ResponseRule id="13680621263436049548" name="General Case" cooldown="" response="13680621263436049587" description="A catchall">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263439066735" name="Trauma: Burned" cooldown="" response="13680621263439066767" description="">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathBurning" fromResponse="0" type="default"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263439066788" name="Trauma: Oxygen" cooldown="" response="13680621263439066830" description="">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathOxygen" fromResponse="0" type="default"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445215018" name="Trauma: Bleeding" cooldown="" response="13680621263445216355" description="">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathBurning" fromResponse="0" type="default"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445216387" name="Trauma: Radiation" cooldown="" response="13680621263445216443" description="">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathRadiation" fromResponse="0" type="default"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445215095" name="Hazard, Explosion" cooldown="" response="13680621263445216968">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216915625421"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214925" name="Hazard, Fire" cooldown="" response="13680621263439066767">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216925558857"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214970" name="Hazard, Radiation" cooldown="" response="13680621263445216443">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795235289"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214933" name="Hazard, Electric Arc" cooldown="" response="13680621263445217159">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795235236"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13856881013265574159" name="Hazard, Electric Floor" cooldown="" response="13680621263445217159">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795235335"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214986" name="Hazard, Corrosive" cooldown="" response="13680621263445217188">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795235090"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436050287" name="Mimic, General" cooldown="" response="13680621263436051060">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimic"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436051569" name="Mimic, Melee" cooldown="" response="13680621263436051603">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimic"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216914175803"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436051742" name="Elite Mimic, General" cooldown="" response="13680621263436051787">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436051816" name="Elite Mimic, Melee" cooldown="" response="13680621263436051842">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216914175803"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436051605" name="Elite Mimic, Choked" cooldown="" response="13680621263436051690">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216948718001"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214823" name="Thermal Mimic" cooldown="" response="13680621263445643628">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860566207169" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445643555" name="Thermal Mimic, Choked" cooldown="" response="13680621263445643656">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216948718001"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860566207169" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214858" name="Voltaic Mimic" cooldown="" response="13680621263445643710">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860566207151" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445643563" name="Voltaic Mimic, Choked" cooldown="" response="13680621263445643730">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216948718001"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860566207151" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214878" name="Etheric Mimic" cooldown="" response="13680621263445643752">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860566207186" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445643569" name="Etheric Mimic, Choked" cooldown="" response="13680621263445643762">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkMimicElite"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216948718001"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860566207186" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="15659330456391353504" name="Phantom, General" cooldown="" response="15659330456391356889">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="15659330456391356889">
+  <Response dialog="15659330456391356888" id="15659330456391356890" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="15659330456391713255" name="Phantom, Kinetic Blast" cooldown="" response="15659330456391713366">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216974108474"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="15659330456391713366">
+  <Response dialog="15659330456391713365" id="15659330456391713367" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436049891" id="13680621263436049892" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436050011" id="13680621263436050012" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263436049587">
+  <Response dialog="13680621263436049586" id="13680621263436049588" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263436049831" name="Phantom, Melee" cooldown="" response="13680621263436050163">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216914175777"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263436050163">
+  <Response dialog="13680621263436050162" id="13680621263436050164" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436050173" id="13680621263436050174" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436050177" id="13680621263436050178" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263436051060">
+  <Response dialog="13680621263436051059" id="13680621263436051061" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263436051603">
+  <Response dialog="13680621263436051602" id="13680621263436051604" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436052571" id="13680621263436052572" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436052649" id="13680621263436052650" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263436051690">
+  <Response dialog="13680621263436051689" id="13680621263436051691" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436051699" id="13680621263436051700" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436051708" id="13680621263436051709" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263436051787">
+  <Response dialog="13680621263436051786" id="13680621263436051788" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263436051842">
+  <Response dialog="13680621263436051841" id="13680621263436051843" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263436052758" name="Voltaic Phantom, General" cooldown="" response="13680621263436052788">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPhantomVoltaic"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436053076" name="Voltaic Phantom, Melee" cooldown="" response="13680621263436053120">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPhantomVoltaic"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216914175777"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263436052788">
+  <Response dialog="13680621263436052787" id="13680621263436052789" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263436052793" name="Voltaic Phantom, Elec Aura" cooldown="" response="13680621263436052911">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPhantomVoltaic"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="5310807215636213063"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263436052911">
+  <Response dialog="13680621263436052910" id="13680621263436052912" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053005" id="13680621263436053006" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053034" id="13680621263436053035" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053066" id="13680621263436053067" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263436052940" name="Voltaic Phantom, EMP attack" cooldown="" response="13680621263436052911">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPhantomVoltaic"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795227267"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445212742" name="Thermal Phantom, General" cooldown="" response="13680621263445212809">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860501638616" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445212746" name="Thermal Phantom, Melee" cooldown="" response="13680621263445217844">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216914175777"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860501638616" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445212748" name="Thermal Phantom, Fire Aura" cooldown="" response="13680621263445218602">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795228216"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860501638616" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445212752" name="Thermal Phantom, Thermal Blast" cooldown="" response="13680621263445218634">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795227403"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860501638616" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213424" name="Etheric Phantom, General" cooldown="" response="13680621263445218780">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860501638642" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213434" name="Etheric Phantom, Melee" cooldown="" response="13680621263445218828">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216914175777"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860501638642" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213440" name="Etheric Phantom, Etheric Aura" cooldown="" response="13680621263445219033">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkBeta"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795229340"/>
+   <Criterion comparison="0" passIfMissing="false" id="9469288860501638642" value="1" keyType="metatag"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263436053120">
+  <Response dialog="13680621263436053119" id="13680621263436053121" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053130" id="13680621263436053131" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053168" id="13680621263436053169" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263436053219" name="Corrupt Engineer Operator, General" cooldown="" response="13680621263436053501">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorEngineer"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436053485" name="Corrupt Engineer Operator, Flame" cooldown="" response="13680621263436053513">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorEngineer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860517477357"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263436053501">
+  <Response dialog="13680621263436053500" id="13680621263436053502" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263436053513">
+  <Response dialog="13680621263436053512" id="13680621263436053514" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053538" id="13680621263436053539" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053550" id="13680621263436053551" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053628" id="13680621263436053629" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263436053710" name="Corrupt Engineer Operator, Death Explosion" cooldown="" response="13680621263436053764">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorEngineer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860551345417"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263436053764">
+  <Response dialog="13680621263436053763" id="13680621263436053765" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053779" id="13680621263436053780" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053812" id="13680621263436053813" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436053822" id="13680621263436053823" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263436054004" name="Corrupt Science Operator, General" cooldown="" response="13680621263436054053">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorScience"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436054057" name="Corrupt Science Operator, Shock" cooldown="" response="13680621263436054122">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorScience"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860517477196"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436053854" name="Corrupt Science Operator, Death Explosion" cooldown="" response="13680621263436053764">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorScience"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860551345417"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213629" name="Corrupt Medical Operator, General" cooldown="" response="13680621263445219123">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMed"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213606" name="Corrupt Medical Operator, Shock" cooldown="" response="13680621263445219211">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMed"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860517477196"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436053883" name="Corrupt Medical Operator, Death Explosion" cooldown="" response="13680621263436053764">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMedic"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860551345417"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213506" name="Corrupt Security Operator, General" cooldown="" response="13680621263445219286">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMilitary"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213581" name="Corrupt Security Operator, Laser" cooldown="" response="13680621263445219321">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMilitary"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795233780"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263436053915" name="Corrupt Security Operator, Death Explosion" cooldown="" response="13680621263436053764">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMilitary"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860551345417"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263436054053">
+  <Response dialog="13680621263436054052" id="13680621263436054054" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263436054122">
+  <Response dialog="13680621263436054121" id="13680621263436054123" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436054463" id="13680621263436054464" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263436055522" id="13680621263436055523" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263436194974" name="Special: Simulation Crash" cooldown="" response="13680621263436195177" description="A catchall">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="1271150884" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263443213429" name="Special: Kasma Spy Poison" cooldown="" response="13680621263443213487" description="For the crate escape quest.">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="471328101" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263446417387" name="Special: Typhon Kill Tower" cooldown="" response="13680621263446417423" description="If you are typhon and blast yourself with the towers">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="289392078" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263449367516" name="Special: Telepath Exploded Volunteers Head" cooldown="" response="13680621263449367607" description="If you are the Volunteer and the telepath controlling you blew up your head.">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="1275481836" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263449449784" name="Special: Simulation Max Corruption Reached" cooldown="" response="13680621263449449880" description="If you are the Volunteer and the telepath controlling you blew up your head." priority="2">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="318475337" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263450995129" name="Special: Conciousness Upload" cooldown="" response="13680621263450995298" description="A catchall">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="784706411" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263436195177">
+  <Response dialog="13680621263436195176" id="13680621263436195178" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263439048857" name="Crate Escape: Starved" cooldown="" response="13680621263439049024" description="For the crate escape quest.">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="52616928" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263439048900" name="Crate Escape: Died From Thirst" cooldown="" response="13680621263439049044" description="For the crate escape quest.">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="795981171" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263439048903" name="Crate Escape: Died from Radiation" cooldown="" response="13680621263439049068" description="For the crate escape quest.">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="1721559712" keyType="gameToken" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263439049024">
+  <Response dialog="13680621263439049023" id="13680621263439049025" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263439049044">
+  <Response dialog="13680621263439049043" id="13680621263439049045" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263439049068">
+  <Response dialog="13680621263439049067" id="13680621263439049069" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263439066767">
+  <Response dialog="13680621263439066766" id="13680621263439066768" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263439066772" id="13680621263439066773" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263439066779" id="13680621263439066780" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263439066830">
+  <Response dialog="13680621263439066829" id="13680621263439066831" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13856881013259159979" name="Falling V1" cooldown="" response="13856881013259160053" description="Death from falling.">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathFalling" fromResponse="0" type="default"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13856881013259160053">
+  <Response dialog="13856881013259160052" id="13856881013259160054" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13856881013259431811" name="Falling V2" cooldown="" response="13856881013259160053" description="Death from falling. 2nd set of rules to handle falling death.">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216943200410"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263443213487">
+  <Response dialog="13680621263443213486" id="13680621263443213488" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445212809">
+  <Response dialog="13680621263445212808" id="13680621263445212810" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263445213707" name="Harvester, General" cooldown="" response="13680621263445219420">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMining"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213724" name="Harvester, Recycled" cooldown="" response="13680621263445220347">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMining"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795235880"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445213731" name="Harvester, DeathExplosion" cooldown="" response="13680621263445219835">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkOperatorMining"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860551345417"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214180" name="Telepath, General" cooldown="" response="13680621263445214222">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkTelepath"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263445214222">
+  <Response dialog="13680621263445214221" id="13680621263445214223" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263445214234" name="Telepath, Projectile" cooldown="" response="13680621263445220143">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkTelepath"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216973929794"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214273" name="Telepath, Psychoshock Blast" cooldown="" response="13680621263445219899">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkTelepath"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216973929794"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214549" name="Technopath, General" cooldown="" response="13680621263445220303">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkTechnopath"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445220308" name="Technopath, Electric Blast" cooldown="" response="13680621263445631655">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkTechnopath"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="17591291352644797374"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214574" name="Nightmare, General" cooldown="" response="13680621263445631796">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkNightmare"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445631804" name="Nightmare, Melee" cooldown="" response="13680621263445631936">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkNightmare"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795233495"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445631868" name="Nightmare, Projectile" cooldown="" response="13680621263445632280">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkNightmare"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216973929839"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214581" name="Moonshark, General" cooldown="" response="13680621263445221293">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkNightmareLunar"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445221300" name="Moonshark, Melee" cooldown="" response="13680621263445221348">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkNightmareLunar"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="9469288860569310610"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445221413" name="Moonshark, Boulders" cooldown="" response="13680621263445221640">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkNightmareLunar"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216962551505"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214592" name="Poltergeist, General" cooldown="" response="13680621263445635273">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPoltergeist"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445635737" name="Poltergeist, Repel Blast" cooldown="" response="13680621263445635794">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPoltergeist"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="243995946823927876"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445221202" name="Poltergeist, Thrown Object Lev 0" cooldown="" response="13680621263445635390">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPoltergeist"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216962551627"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445635196" name="Poltergeist, Thrown Object Lev 1" cooldown="" response="13680621263445635390">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPoltergeist"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216962551599"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445635199" name="Poltergeist, Thrown Object Lev 2" cooldown="" response="13680621263445635390">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPoltergeist"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216962551572"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445635219" name="Poltergeist, Thrown Object Lev 3" cooldown="" response="13680621263445635390">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPoltergeist"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216962551505"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214611" name="Cystoid, General" cooldown="" response="13680621263445636958">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkAlienJelly"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445636960" name="Cystoid, Explosion" cooldown="" response="13680621263445640776">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkAlienJelly"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216913727345"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445637009" name="Cystoid, ExplosionEnergized" cooldown="" response="13680621263445640776">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkAlienJelly"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216937655688"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214621" name="Tentacle, General" cooldown="" response="13680621263445640907">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkApexTentacle"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445640918" name="Tentacle, General" cooldown="" response="13680621263445640957">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkApexTentacle"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795233761"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214629" name="Weaver, General" cooldown="" response="13680621263445641075">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkWeaver"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214654" name="Mind-Controlled Human, General" cooldown="" response="13680621263445641119">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkHuman"/>
+   <Criterion comparison="0" passIfMissing="false" id="17591291352635828515" type="default" keyType="default" value="1"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445641463" name="Mind-Controlled Human, Exploding Head" cooldown="" response="13680621263445641530">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkHuman"/>
+   <Criterion comparison="0" passIfMissing="false" id="17591291352635828515" type="default" keyType="default" value="1"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="17591291352643785042"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445215006" name="Turret, Laser" cooldown="" response="13680621263445643286">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkTurret"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795233780"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214996" name="Turret, Ballistic" cooldown="" response="13680621263445643297">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkTurret"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795225404"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445214771" name="Self, Recycled" cooldown="" response="13680621263445642829">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPlayer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795235880"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445215078" name="Self, Kinetic Blast Lvl 1" cooldown="" response="13680621263445642985">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPlayer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185795236150"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445642895" name="Self, Kinetic Blast Lvl 2" cooldown="" response="13680621263445642985">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPlayer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216945624944"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445642903" name="Self, Kinetic Blast Lvl 3" cooldown="" response="13680621263445642985">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPlayer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216945624977"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445215071" name="Self, Thermal Blast  Lvl 1" cooldown="" response="13680621263445643081">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPlayer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216928226510"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263445216355">
+  <Response dialog="13680621263445216354" id="13680621263445216356" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445216443">
+  <Response dialog="13680621263445216442" id="13680621263445216444" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445216457" id="13680621263445216458" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445216968">
+  <Response dialog="13680621263445216967" id="13680621263445216969" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445217159">
+  <Response dialog="13680621263445217158" id="13680621263445217160" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445217168" id="13680621263445217169" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445217188">
+  <Response dialog="13680621263445217187" id="13680621263445217189" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445217844">
+  <Response dialog="13680621263445217843" id="13680621263445217845" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445217863" id="13680621263445217864" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445217880" id="13680621263445217881" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445218602">
+  <Response dialog="13680621263445218601" id="13680621263445218603" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445218634">
+  <Response dialog="13680621263445218633" id="13680621263445218635" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445218648" id="13680621263445218649" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445218678" id="13680621263445218679" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445218780">
+  <Response dialog="13680621263445218779" id="13680621263445218781" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445218828">
+  <Response dialog="13680621263445218827" id="13680621263445218829" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445218955" id="13680621263445218956" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445218970" id="13680621263445218971" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445219033">
+  <Response dialog="13680621263445219032" id="13680621263445219034" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445219123">
+  <Response dialog="13680621263445219122" id="13680621263445219124" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445219211">
+  <Response dialog="13680621263445219210" id="13680621263445219212" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445219222" id="13680621263445219223" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445219251" id="13680621263445219252" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445219286">
+  <Response dialog="13680621263445219285" id="13680621263445219287" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445219321">
+  <Response dialog="13680621263445219320" id="13680621263445219322" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445219353" id="13680621263445219354" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445219371" id="13680621263445219372" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445219420">
+  <Response dialog="13680621263445219419" id="13680621263445219421" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445219835">
+  <Response dialog="13680621263445219834" id="13680621263445219836" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445219843" id="13680621263445219844" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445219899">
+  <Response dialog="13680621263445219898" id="13680621263445219900" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445219914" id="13680621263445219915" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445219943" id="13680621263445219944" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445220143">
+  <Response dialog="13680621263445220142" id="13680621263445220144" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445220186" id="13680621263445220187" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445220303">
+  <Response dialog="13680621263445220302" id="13680621263445220304" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445220347">
+  <Response dialog="13680621263445220346" id="13680621263445220348" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445220361" id="13680621263445220362" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445220420" id="13680621263445220421" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445221293">
+  <Response dialog="13680621263445221292" id="13680621263445221294" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445221348">
+  <Response dialog="13680621263445221347" id="13680621263445221349" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445221361" id="13680621263445221362" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445221397" id="13680621263445221398" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445221640">
+  <Response dialog="13680621263445221639" id="13680621263445221641" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445221652" id="13680621263445221653" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445221667" id="13680621263445221668" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445631655">
+  <Response dialog="13680621263445631654" id="13680621263445631656" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445631687" id="13680621263445631688" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445631741" id="13680621263445631742" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445631796">
+  <Response dialog="13680621263445631795" id="13680621263445631797" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445631936">
+  <Response dialog="13680621263445631935" id="13680621263445631937" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445631947" id="13680621263445631948" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445632063" id="13680621263445632064" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445632280">
+  <Response dialog="13680621263445632279" id="13680621263445632281" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445632328" id="13680621263445632329" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445635273">
+  <Response dialog="13680621263445635272" id="13680621263445635274" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445635390">
+  <Response dialog="13680621263445635389" id="13680621263445635391" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445635417" id="13680621263445635418" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445635464" id="13680621263445635465" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445635794">
+  <Response dialog="13680621263445635793" id="13680621263445635795" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445636958">
+  <Response dialog="13680621263445636957" id="13680621263445636959" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445640776">
+  <Response dialog="13680621263445640775" id="13680621263445640777" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445640826" id="13680621263445640827" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445640839" id="13680621263445640840" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445640907">
+  <Response dialog="13680621263445640906" id="13680621263445640908" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445640957">
+  <Response dialog="13680621263445640956" id="13680621263445640958" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445641009" id="13680621263445641010" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445641038" id="13680621263445641039" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445641075">
+  <Response dialog="13680621263445641074" id="13680621263445641076" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445641119">
+  <Response dialog="13680621263445641118" id="13680621263445641120" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445641530">
+  <Response dialog="13680621263445641529" id="13680621263445641531" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445641584" id="13680621263445641585" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445641611" id="13680621263445641612" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445642829">
+  <Response dialog="13680621263445642828" id="13680621263445642830" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445642985">
+  <Response dialog="13680621263445642984" id="13680621263445642986" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263445643030" name="Self, Thermal Blast  Lvl 2" cooldown="" response="13680621263445643081">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPlayer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216945624770"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseRule id="13680621263445643032" name="Self, Thermal Blast  Lvl 3" cooldown="" response="13680621263445643081">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPlayer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="3149325216945624776"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263445643081">
+  <Response dialog="13680621263445643080" id="13680621263445643082" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445643286">
+  <Response dialog="13680621263445643285" id="13680621263445643287" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445643331" id="13680621263445643332" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445643297">
+  <Response dialog="13680621263445643296" id="13680621263445643298" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445643308" id="13680621263445643309" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445643628">
+  <Response dialog="13680621263445643627" id="13680621263445643629" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445643656">
+  <Response dialog="13680621263445643655" id="13680621263445643657" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445643710">
+  <Response dialog="13680621263445643709" id="13680621263445643711" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445643730">
+  <Response dialog="13680621263445643729" id="13680621263445643731" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445643752">
+  <Response dialog="13680621263445643751" id="13680621263445643753" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263445643762">
+  <Response dialog="13680621263445643761" id="13680621263445643763" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263445643770" id="13680621263445643771" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263446417423">
+  <Response dialog="13680621263446417422" id="13680621263446417424" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+  <Response dialog="13680621263446417440" id="13680621263446417441" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263449367607">
+  <Response dialog="13680621263449367606" id="13680621263449367608" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseSet id="13680621263449449880">
+  <Response dialog="13680621263449449879" id="13680621263449449881" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263450389759" name="Self, Electric Xbow Bolt" cooldown="" response="13680621263450390755">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkProjectileToyGun"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185881026309"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263450390755">
+  <Response dialog="13680621263450390754" id="13680621263450390756" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+ <ResponseRule id="13680621263450390782" name="Self, Flaming Xbow Bolt" cooldown="" response="13680621263450390755">
+  <Criteria>
+   <Criterion id="15659330456318451386" value="15659330456391353434" comparison="0" type="guid"/>
+   <Criterion id="15659330456318451410" comparison="0" value="onDeathSignal" fromResponse="0" type="default"/>
+   <Criterion comparison="0" passIfMissing="false" id="15659330456318451416" type="default" keyType="default" value="ArkPlayer"/>
+   <Criterion comparison="0" passIfMissing="false" id="10850392949532183308" type="guid" keyType="default" value="10641886185881042151"/>
+  </Criteria>
+ </ResponseRule>
+ <ResponseSet id="13680621263450995298">
+  <Response dialog="13680621263450995297" id="13680621263450995299" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0"/>
+ </ResponseSet>
+</ResponseRules>

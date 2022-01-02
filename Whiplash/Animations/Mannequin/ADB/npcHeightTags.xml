@@ -1,0 +1,10 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Group name="Height">
+   <Tag name="High"/>
+   <Tag name="Medium"/>
+   <Tag name="Low"/>
+  </Group>
+ </Tags>
+</TagDefinition>

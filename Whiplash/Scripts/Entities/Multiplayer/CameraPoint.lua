@@ -1,0 +1,16 @@
+local L0_6281, L1_6282
+L0_6281 = {}
+L1_6282 = {}
+L0_6281.Client = L1_6282
+L1_6282 = {}
+L0_6281.Server = L1_6282
+L1_6282 = {}
+L1_6282.Icon = "spectator.bmp"
+L1_6282.DisplayArrow = 1
+L0_6281.Editor = L1_6282
+L1_6282 = {}
+L1_6282.bEnabled = 1
+L1_6282.PitchLimits = 45
+L1_6282.YawLimits = 45
+L0_6281.Properties = L1_6282
+CameraPoint = L0_6281

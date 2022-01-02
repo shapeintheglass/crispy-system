@@ -1,0 +1,621 @@
+
+<ArkTipLibrary>
+ <Tips>
+  <ArkTip ID="418270515531952595" Name="WL_Strategy_Characters" Content="@loc_418270515531952596" HideOnDeathScreen="false">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515532052877" Name="WL_Strategy_Escape" Content="@loc_418270515532052878" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515531961033" Name="WL_Strategy_Harvester" Content="@loc_418270515531961034" HideOnDeathScreen="false">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531961293" Name="WL_Strategy_LunarNightmare" Content="@loc_418270515531961294" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515531961591" Name="WL_Strategy_PoltergeistWep" Content="@loc_418270515531961592" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953129"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263447345700" Name="WL_Strategy_GLOOvsFire" Content="@loc_13680621263447345701" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263451331641" Name="WL_Strategy_Upgrades" Content="@loc_13680621263451331642" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263451331938" Name="WL_Strategy_SimPoints" Content="@loc_13680621263451331939" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080446"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263451332145" Name="WL_Strategy_Reset" Content="@loc_13680621263451332146" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263451929352" Name="WL_Strategy_MultipleEscapes" Content="@loc_13680621263451929353">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263410485063" Name="Strategy_Disable_1" Content="@loc_13680621263410485064" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263410485110" Name="Strategy_Disable_2" Content="@loc_13680621263410485111" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263410485258" Name="Strategy_Disable_3" Content="@loc_13680621263410485259" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263410485326" Name="Strategy_Disable_4" Content="@loc_13680621263410485327" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263410485420" Name="Strategy_Disable_5" Content="@loc_13680621263410485421" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972400076" Name="Strategy_Leverage" Content="@loc_3149325216972400077" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491418094"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972397541" Name="Strategy_Cystoid" Content="@loc_3149325216972397542" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953139"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972398287" Name="Strategy_Diversions" Content="@loc_3149325216972398288" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972455241" Name="Strategy_ElectricMimics" Content="@loc_3149325216972455242" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953123"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972456594" Name="Strategy_EngineeringOperator" Content="@loc_3149325216972456595" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953202"/>
+    <Lock value="3149325216969953325"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972400179" Name="Strategy_Fortify" Content="@loc_3149325216972400180" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953192"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972397021" Name="Strategy_FightOrFlight" Content="@loc_3149325216972397022" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972455698" Name="Strategy_GlooCombat" Content="@loc_3149325216972455699" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491423551"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972392600" Name="Strategy_GLOO" Content="@loc_3149325216972392601" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491423551"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972395424" Name="Strategy_Hazards" Content="@loc_3149325216972395425" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972400313" Name="Strategy_Lift" Content="@loc_3149325216972400314" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953129"/>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972456528" Name="Strategy_MedicalOperator" Content="@loc_3149325216972456529" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953325"/>
+    <Lock value="3149325216969953297"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972400476" Name="Strategy_MimicPower" Content="@loc_3149325216972400477" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+    <Lock value="3149325216969953093"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972398053" Name="Strategy_PistolRange" Content="@loc_3149325216972398054" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491424504"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972455227" Name="Strategy_Poltergeist" Content="@loc_3149325216972455228" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953129"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972400683" Name="Strategy_Robots" Content="@loc_3149325216972400684" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953192"/>
+    <Lock value="418270515491426391"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972395113" Name="Strategy_Scanning" Content="@loc_3149325216972395114" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972456674" Name="Strategy_ScienceOperator" Content="@loc_3149325216972456675" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953195"/>
+    <Lock value="3149325216969953325"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972397819" Name="Strategy_ShotgunRange" Content="@loc_3149325216972397820" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491432855"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972401780" Name="Strategy_Stungun" Content="@loc_3149325216972401781" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491433314"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972455902" Name="Strategy_Stunned" Content="@loc_3149325216972455903" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491417899"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972396672" Name="Strategy_Thermal" Content="@loc_3149325216972396673" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953116"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972456349" Name="Strategy_ThermalMimics" Content="@loc_3149325216972456350" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953116"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972744857" Name="Strategy_UnconciousHumans" Content="@loc_3149325216972744858" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491433934"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972396546" Name="Strategy_Voltaic" Content="@loc_3149325216972396547" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953123"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515531951691" Name="WL_Tutorial_Death_1" Content="@loc_418270515531951692">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531951869" Name="WL_Tutorial_Death_2" Content="@loc_418270515531951870">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="13680621263446764407" Name="WL_Tutorial_Death_3" Content="@loc_13680621263446764408">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531951930" Name="WL_Tutorial_AbilityPurchases" Content="@loc_418270515531951931">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531955164" Name="WL_Tutorial_Psychoscope" Content="@loc_418270515531955165">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531955260" Name="WL_Tutorial_Psychoscope_2" Content="@loc_418270515531955261">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515531955516" Name="WL_Tutorial_SimCorruption" Content="@loc_418270515531955517">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515531967202" Name="WL_Tutorial_SimPoints" Content="@loc_418270515531967203">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515532051295" Name="WL_Tutorial_Thrusters" Content="@loc_418270515532051296">
+   <Locks>
+    <Lock value="13680621263451081424"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263447343782" Name="WL_Tutorial_KasmaOrders" Content="@loc_13680621263447343783">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263447343888" Name="WL_Tutorial_WeaponRarity" Content="@loc_13680621263447343889">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="13680621263447344380" Name="WL_Tutorial_ControlModules" Content="@loc_13680621263447344381">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263447344604" Name="WL_Tutorial_Cutter" Content="@loc_13680621263447344605">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263447344798" Name="WL_Tutorial_Degradation" Content="@loc_13680621263447344799">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263447344979" Name="WL_Tutorial_NewTurrets" Content="@loc_13680621263447344980">
+   <Locks>
+    <Lock value="3149325216969953192"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263447345360" Name="WL_Tutorial_Spore" Content="@loc_13680621263447345361">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="13680621263447345430" Name="WL_Tutorial_Harvesters" Content="@loc_13680621263447345431">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="13680621263447345561" Name="WL_Tutorial_EngineeringOperators" Content="@loc_13680621263447345562">
+   <Locks>
+    <Lock value="3149325216969953202"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969962216" Name="Tutorial_Alcohol" Content="@loc_3149325216969962217" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972395668" Name="Tutorial_Chipsets" Content="@loc_3149325216972395669" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969955784" Name="Tutorial_CorrosiveHazard" Content="@loc_3149325216969955785" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969962072" Name="Tutorial_Electricity" Content="@loc_3149325216969962073" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972386060" Name="Tutorial_EMPCharge" Content="@loc_3149325216972386061" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491434472"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969962263" Name="Tutorial_Fear" Content="@loc_3149325216969962264" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969954398" Name="Tutorial_LureCharge" Content="@loc_3149325216969954399" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953946"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972396282" Name="Tutorial_Marking" Content="@loc_3149325216972396283" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969954232" Name="Tutorial_Neuromod" Content="@loc_3149325216969954233" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="3149325216969954631" Name="Tutorial_NullwaveTransmitter" Content="@loc_3149325216969954632" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953953"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972399912" Name="Tutorial_OperatorDispenser" Content="@loc_3149325216972399913" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491426391"/>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972399606" Name="Tutorial_Operators" Content="@loc_3149325216972399607" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953202"/>
+    <Lock value="3149325216969953297"/>
+    <Lock value="3149325216969953195"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972385980" Name="Tutorial_Pistol" Content="@loc_3149325216972385981" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491424504"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969962115" Name="Tutorial_PlayYourWay" Content="@loc_3149325216969962116" HideOnDeathScreen="false">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="3149325216969954834" Name="Tutorial_Psychoscope " Content="@loc_3149325216969954835" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972384965" Name="Tutorial_QBeam" Content="@loc_3149325216972384966" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491435643"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969955848" Name="Tutorial_Radiation" Content="@loc_3149325216969955849" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969955520" Name="Tutorial_RecyclerCharge" Content="@loc_3149325216969955521" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="3149325216969953960"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972386154" Name="Tutorial_Wrench" Content="@loc_3149325216972386155" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491435910"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969962154" Name="Tutorial_Stealth" Content="@loc_3149325216969962155" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491417899"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969961968" Name="Tutorial_Stamina" Content="@loc_3149325216969961969" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491435910"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972386687" Name="Tutorial_Stungun" Content="@loc_3149325216972386688" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491433314"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969955087" Name="Tutorial_SuitIntegrity" Content="@loc_3149325216969955088" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451080467"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969955244" Name="Tutorial_Recycler" Content="@loc_3149325216969955245" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972385662" Name="Tutorial_Toygun" Content="@loc_3149325216972385663" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="418270515491436464"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969962359" Name="Tutorial_WellFed" Content="@loc_3149325216969962360" HideOnDeathScreen="false">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515531952407" Name="WL_Fiction_EscapePods" Content="@loc_418270515531952408" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515532050910" Name="WL_Fiction_Shuttle" Content="@loc_418270515532050911" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515531955624" Name="WL_Fiction_MassDriver" Content="@loc_418270515531955625" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451079132"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="4349723564947201916" Name="WL_Fiction_Pytheas" Content="@loc_4349723564947201917" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531960340" Name="WL_Fiction_Basketball" Content="@loc_418270515531960341" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531965483" Name="WL_Fiction_Kasma_1" Content="@loc_418270515531965484" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531965614" Name="WL_Fiction_Kasma_2" Content="@loc_418270515531965615" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515532050081" Name="WL_Fiction_Harvester" Content="@loc_418270515532050082" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515532119875" Name="WL_Fiction_Moonworks" Content="@loc_418270515532119876" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="4349723564947205025" Name="Fiction_BoardOfDirectors" Content="@loc_4349723564947205026" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216972456746" Name="Fiction_MedicalOperator" Content="@loc_3149325216972456747" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="3149325216969953297"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="3149325216969953016" Name="Fiction_Mimic" Content="@loc_3149325216969953017" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="3149325216969953093"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="4349723564947201717" Name="Fiction_TranStar" Content="@loc_4349723564947201718" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="4349723564947202698" Name="Fiction_VIPVisitors" Content="@loc_4349723564947202699" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490638221" Name="Fiction_Reward" Content="@loc_418270515490638222" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491418094"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490638327" Name="Fiction_Fabricator" Content="@loc_418270515490638328" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490638354" Name="Fiction_Recycler" Content="@loc_418270515490638355" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490638522" Name="Fiction_Operator" Content="@loc_418270515490638523" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491426391"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490638541" Name="Fiction_Secret" Content="@loc_418270515490638542" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490638575" Name="Fiction_Volunteer" Content="@loc_418270515490638576" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490638632" Name="Fiction_Ecology" Content="@loc_418270515490638633" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="3149325216969953688"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490638662" Name="Fiction_Board" Content="@loc_418270515490638663" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490638936" Name="Fiction_Uniform" Content="@loc_418270515490638937" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490638957" Name="Fiction_Resources" Content="@loc_418270515490638958" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490639048" Name="Fiction_Vorona" Content="@loc_418270515490639049" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="13680621263451080479"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490639112" Name="Timeline_1955" Content="@loc_418270515490639113" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490639299" Name="Timeline_1957" Content="@loc_418270515490639300" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490639333" Name="Timeline_1958" Content="@loc_418270515490639334" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490639773" Name="Timeline_1960" Content="@loc_418270515490639774" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491417899"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490639794" Name="Timeline_1962" Content="@loc_418270515490639795" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491417899"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490639850" Name="Timeline_1963a" Content="@loc_418270515490639851" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491417518"/>
+   </Locks>
+  </ArkTip>
+  <ArkTip ID="418270515490639964" Name="Timeline_1963b" Content="@loc_418270515490639965" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490640084" Name="Timeline_WL_1964" Content="@loc_418270515490640085" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531956117" Name="Timeline_WL_1978" Content="@loc_418270515531956118" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490640140" Name="Timeline_1980" Content="@loc_418270515490640141" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490640168" Name="Timeline_WL_1984" Content="@loc_418270515490640169" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531958740" Name="Timeline_WL_2018" Content="@loc_418270515531958741" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515531959361" Name="Timeline_WL_2024" Content="@loc_418270515531959362" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490640248" Name="Timeline_2025a" Content="@loc_418270515490640249" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490640290" Name="Timeline_WL_2025b" Content="@loc_418270515490640291" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490640311" Name="Timeline_WL_2030" Content="@loc_418270515490640312" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490640392" Name="Timeline_WL_2032" Content="@loc_418270515490640393" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks/>
+  </ArkTip>
+  <ArkTip ID="418270515490640414" Name="Timeline_WL_2034" Content="@loc_418270515490640415" Sequence="15659330456361565920" HideOnDeathScreen="true">
+   <Locks>
+    <Lock value="418270515491436356"/>
+   </Locks>
+  </ArkTip>
+ </Tips>
+ <Locks>
+  <ArkTipLock ID="15659330456356545343" Name="_LocationTips_DoNotUnlock"/>
+  <ArkTipLock ID="3149325216969953889" Name="ApexArrival"/>
+  <ArkTipLock ID="418270515491434472" Name="ChargeEMP"/>
+  <ArkTipLock ID="3149325216969953946" Name="ChargeLure"/>
+  <ArkTipLock ID="3149325216969953960" Name="ChargeRecycler"/>
+  <ArkTipLock ID="3149325216969953139" Name="CystoidAndNests"/>
+  <ArkTipLock ID="418270515491436464" Name="DartGun"/>
+  <ArkTipLock ID="418270515491418094" Name="FirstNeuromod"/>
+  <ArkTipLock ID="418270515491433836" Name="FirstTrauma"/>
+  <ArkTipLock ID="418270515491437959" Name="FirstVisitHL"/>
+  <ArkTipLock ID="418270515491436356" Name="FirstVisitMorgansOffice"/>
+  <ArkTipLock ID="418270515491441086" Name="FirstVisitPT"/>
+  <ArkTipLock ID="418270515491423551" Name="GlooCannon"/>
+  <ArkTipLock ID="3149325216969953093" Name="Mimic"/>
+  <ArkTipLock ID="418270515491433934" Name="MindControlledHuman"/>
+  <ArkTipLock ID="3149325216969953953" Name="NullwaveTransmitter"/>
+  <ArkTipLock ID="418270515491426391" Name="Operator"/>
+  <ArkTipLock ID="3149325216969953325" Name="OperatorCorrupted"/>
+  <ArkTipLock ID="3149325216969953202" Name="OperatorEngineering"/>
+  <ArkTipLock ID="3149325216969953297" Name="OperatorMedical"/>
+  <ArkTipLock ID="3149325216969953208" Name="OperatorMilitary"/>
+  <ArkTipLock ID="3149325216969953195" Name="OperatorScience"/>
+  <ArkTipLock ID="3149325216969953116" Name="PhantomThermal"/>
+  <ArkTipLock ID="3149325216969953123" Name="PhantomVoltaic"/>
+  <ArkTipLock ID="418270515491424504" Name="Pistol"/>
+  <ArkTipLock ID="3149325216969953129" Name="Poltergeist"/>
+  <ArkTipLock ID="3149325216969953688" Name="Psychoscope"/>
+  <ArkTipLock ID="418270515491435643" Name="QBeam"/>
+  <ArkTipLock ID="418270515491432855" Name="Shotgun"/>
+  <ArkTipLock ID="418270515491433314" Name="StunGun"/>
+  <ArkTipLock ID="418270515491417518" Name="TalosReveal"/>
+  <ArkTipLock ID="3149325216969953192" Name="Turret"/>
+  <ArkTipLock ID="418270515491417899" Name="TyphonReveal"/>
+  <ArkTipLock ID="418270515491436720" Name="WeaponKit"/>
+  <ArkTipLock ID="418270515491435910" Name="Wrench"/>
+  <ArkTipLock ID="13680621263451079132" Name="EscapedOnce"/>
+  <ArkTipLock ID="13680621263451080446" Name="NarrativePhase2"/>
+  <ArkTipLock ID="13680621263451080467" Name="NarrativePhase3"/>
+  <ArkTipLock ID="13680621263451080479" Name="NarrativePhase4"/>
+  <ArkTipLock ID="13680621263451080929" Name="NarrativePhase5"/>
+  <ArkTipLock ID="13680621263451081424" Name="ArtaxSuit"/>
+ </Locks>
+ <Sequences>
+  <ArkTipSequence ID="15659330456361565920" Name="Timeline"/>
+ </Sequences>
+</ArkTipLibrary>

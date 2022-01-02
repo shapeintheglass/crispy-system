@@ -1,0 +1,156 @@
+
+<Objectives>
+ <Objective id="844024417334828385" title="@loc_844024417334828386" optional="true" countsForQuantumLeap="true" owner="10739735956174775251">
+  <Clues>
+   <Clue id="761057048035307414" displayName="Roster" text="@loc_761057048035307415"/>
+   <Clue id="761057048041173444" displayName="AntidoteRecycled" text="@loc_761057048041173445"/>
+  </Clues>
+  <Descriptions>
+   <Desc id="844024417349418720" displayName="Trailhead" text="@loc_844024417349418721"/>
+   <Desc id="844024417334828387" displayName="QuestStart" text="@loc_844024417334828388"/>
+   <Desc id="761057048041785203" displayName="Poisoned" text="@loc_761057048041785204"/>
+   <Desc id="761057048041785216" displayName="Not Poisoned" text="@loc_761057048041785217"/>
+   <Desc id="761057048041785223" displayName="Complete" text="@loc_761057048041785224"/>
+   <Desc id="761057048041952368" displayName="Complete2" text="@loc_761057048041952369"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417349418760" displayName="Trailhead" optional="false" text="@loc_844024417349418761" markerLabel="@loc_844024417349418776" description="844024417349418720" Location="844024417334136321"/>
+   <Task id="844024417339311622" displayName="Task1_ListenToRiley" optional="false" text="@loc_844024417339311625" Location="844024417334136321" targetCharacterId="844024417339311623" timerLabel="@loc_844024417339311626"/>
+   <Task id="844024417339311627" displayName="Task2_FindClairWhitten" optional="false" text="@loc_844024417339311630" targetCharacterId="844024417339311628" markerLabel="@loc_844024417339311629" timerLabel="@loc_844024417339311631" description="844024417334828387"/>
+   <Task id="844024417339311632" displayName="Task3_InvestigateRoom" optional="false" text="@loc_844024417339311635" targetCharacterId="844024417339311633" markerLabel="@loc_844024417339311634" timerLabel="@loc_844024417339311636" Location="844024417334136487" description="844024417334828387"/>
+   <Task id="844024417339311637" displayName="Task4_FindAntidote" optional="false" text="@loc_844024417339311640" targetCharacterId="844024417339311638" markerLabel="@loc_844024417339311639" timerLabel="@loc_844024417339311641" Location="844024417334136241"/>
+   <Task id="761057048034520623" displayName="Task5_BlowUpPod" optional="false" text="@loc_761057048034520624" markerLabel="@loc_761057048034520646" timerLabel="@loc_761057048034520696" Location="844024417334136321"/>
+   <Task id="13680621263446236278" displayName="Task6_LetClaireEscape" optional="false" text="@loc_13680621263446236279" markerLabel="@loc_13680621263446236378" Location="844024417334136321"/>
+  </Tasks>
+ </Objective>
+ <Objective id="844024417334828375" title="@loc_844024417334828376" optional="true" countsForQuantumLeap="true" owner="10739735956174775260">
+  <Clues>
+   <Clue id="4349723564990760334" displayName="Clue_ControlModules" text="@loc_4349723564990760335"/>
+   <Clue id="4349723564990762522" displayName="Clue_HaveCMs" text="@loc_4349723564990762523"/>
+  </Clues>
+  <Descriptions>
+   <Desc id="844024417334828377" displayName="TyphonPylons" text="@loc_844024417334828378"/>
+   <Desc id="844024417349418850" displayName="Trailhead" text="@loc_844024417349418851"/>
+   <Desc id="4349723564981687050" displayName="PowerThePylonsDesc" text="@loc_4349723564981687051"/>
+   <Desc id="13680621263446241817" displayName="Completed" text="@loc_13680621263446241818"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417349418822" displayName="Trailhead" optional="false" text="@loc_844024417349418823" markerLabel="@loc_844024417349418839" description="844024417349418850" Location="844024417334136241"/>
+   <Task id="4349723564981680512" displayName="FindControlModules" optional="false" text="@loc_4349723564981680513"/>
+   <Task id="844024417339311806" displayName="PowerThePylons" optional="false" text="@loc_844024417339311809" targetCharacterId="844024417339311807" markerLabel="@loc_844024417339311808" timerLabel="@loc_844024417339311810" description="844024417334828377" Location="844024417334136241"/>
+   <Task id="844024417339311821" displayName="ActivatePylons" optional="false" text="@loc_844024417339311824" targetCharacterId="844024417339311822" markerLabel="@loc_844024417339311823" timerLabel="@loc_844024417339311825" Location="844024417334136241"/>
+   <Task id="844024417339311811" displayName="OBSOLETE_PlugInModules" optional="false" text="@loc_844024417339311814" targetCharacterId="844024417339311812" markerLabel="@loc_844024417339311813" timerLabel="@loc_844024417339311815" Location="844024417334136241"/>
+   <Task id="4349723564981680510" displayName="OBSOLETE_Pylon_2More" optional="false" text="@loc_4349723564981680511"/>
+   <Task id="4349723564981680504" displayName="OBSOLETE_Pylon_2More" optional="false" text="@loc_4349723564981680505" Location="844024417334136241"/>
+   <Task id="4349723564981680501" displayName="OBSOLETE_ControlModule_1More" optional="false" text="@loc_4349723564981680502" Location="844024417334136241"/>
+  </Tasks>
+ </Objective>
+ <Objective id="844024417334828356" title="@loc_844024417334828357" optional="true" countsForQuantumLeap="true" owner="10739735956174775241">
+  <Clues>
+   <Clue id="12889009725081847734" displayName="HowToDestroyEvidence" text="@loc_12889009725081847735"/>
+   <Clue id="12889009725083400262" displayName="EvidenceDestroyed0" text="@loc_12889009725083400263"/>
+   <Clue id="12889009725083400163" displayName="EvidenceDestroyed1" text="@loc_12889009725083400164"/>
+   <Clue id="12889009725083400165" displayName="EvidenceDestroyed2" text="@loc_12889009725083400166"/>
+  </Clues>
+  <Descriptions>
+   <Desc id="844024417349418932" displayName="Trailhead" text="@loc_844024417349418933"/>
+   <Desc id="844024417334828358" displayName="Default" text="@loc_844024417334828359"/>
+   <Desc id="12889009725083420881" displayName="HideKey" text="@loc_12889009725083420882"/>
+   <Desc id="13680621263446242983" displayName="No Description" text="@loc_13680621263446242984"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417349418947" displayName="Trailhead" optional="false" text="@loc_844024417349418948" markerLabel="@loc_844024417349418974" description="844024417349418932" Location="844024417334136487"/>
+   <Task id="844024417339311863" displayName="DestroyTransponder" optional="false" text="@loc_844024417339311866" Location="844024417334136487" targetCharacterId="844024417339311864" markerLabel="@loc_844024417339311865" timerLabel="@loc_844024417339311867" description="844024417334828358"/>
+   <Task id="844024417339311858" displayName="DestroyEvidence1" optional="false" text="@loc_844024417339311861" targetCharacterId="844024417339311859" markerLabel="@loc_844024417339311860" timerLabel="@loc_844024417339311862" description="844024417334828358" Location="844024417334136321"/>
+   <Task id="12889009725083420648" displayName="DestroyEvidence2" optional="false" text="@loc_12889009725083420651" targetCharacterId="12889009725083420649" markerLabel="@loc_12889009725083420650" timerLabel="@loc_12889009725083420652" description="844024417334828358" Location="844024417334136241"/>
+   <Task id="12889009725083420653" displayName="DestroyEvidence3" optional="false" text="@loc_12889009725083420656" targetCharacterId="12889009725083420654" markerLabel="@loc_12889009725083420655" timerLabel="@loc_12889009725083420657" description="844024417334828358" Location="844024417334136321"/>
+   <Task id="844024417339311853" displayName="GetKasmaCommandKey" optional="false" text="@loc_844024417339311856" targetCharacterId="844024417339311854" markerLabel="@loc_844024417339311855" timerLabel="@loc_844024417339311857" description="12889009725083420881" Location="844024417334136393"/>
+   <Task id="12889009725076854545" displayName="HideKasmaCommandKey" optional="false" text="@loc_12889009725076854548" targetCharacterId="12889009725076854546" timerLabel="@loc_12889009725076854549" description="12889009725083420881" Location="844024417334136393"/>
+   <Task id="12889009725088323406" displayName="EscapePytheas" optional="false" text="@loc_12889009725088323409" targetCharacterId="12889009725088323407" markerLabel="@loc_12889009725088323408" timerLabel="@loc_12889009725088323410" description="13680621263446242983"/>
+  </Tasks>
+ </Objective>
+ <Objective id="844024417334828346" title="@loc_844024417334828347" optional="true" countsForQuantumLeap="true" owner="10739735956175282099">
+  <Clues>
+   <Clue id="844024417351401374" displayName="PodClue" text="@loc_844024417351401375"/>
+   <Clue id="13680621263449366880" displayName="Mind Controlled." text="@loc_13680621263449366881"/>
+  </Clues>
+  <Descriptions>
+   <Desc id="844024417334828348" displayName="Toy Quest" text="@loc_844024417334828349"/>
+   <Desc id="844024417349422072" displayName="Trailhead" text="@loc_844024417349422073"/>
+   <Desc id="13680621263446249978" displayName="Completed" text="@loc_13680621263446249979"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417349422086" displayName="Trailhead" optional="false" text="@loc_844024417349422087" markerLabel="@loc_844024417349422096" description="844024417349422072" Location="844024417334136393"/>
+   <Task id="844024417339311430" displayName="Find Toy" optional="false" text="@loc_844024417339311431" Location="844024417334136321" markerLabel="@loc_844024417351400968" description="844024417334828348"/>
+   <Task id="844024417339311458" displayName="Launch Toy" optional="false" text="@loc_844024417339311459" markerLabel="@loc_844024417351401102" description="13680621263446249978"/>
+  </Tasks>
+ </Objective>
+ <Objective id="844024417334828332" title="@loc_844024417334828333" optional="true" countsForQuantumLeap="true" owner="10739735956174775230">
+  <Clues>
+   <Clue id="761057048046626568" displayName="SecurityStation" text="@loc_761057048046626569"/>
+  </Clues>
+  <Descriptions>
+   <Desc id="844024417349422109" displayName="Trailhead" text="@loc_844024417349422110"/>
+   <Desc id="6732635291258984915" displayName="Starting" text="@loc_6732635291258984916"/>
+   <Desc id="6732635291258985128" displayName="Locate Chung" text="@loc_6732635291258985129"/>
+   <Desc id="6732635291258985176" displayName="Liberate and Kill the Chung Phantom" text="@loc_6732635291258985177"/>
+   <Desc id="6732635291258985243" displayName="Access Chung&apos;s pod" text="@loc_6732635291258985244"/>
+   <Desc id="13680621263446316796" displayName="Finish the Statue" text="@loc_13680621263446316797"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417349422120" displayName="Trailhead" optional="false" text="@loc_844024417349422121" markerLabel="@loc_844024417349422130" description="844024417349422109" Location="844024417334136321"/>
+   <Task id="844024417339311955" displayName="Search Dr. Mizuki&apos;s Quarters" optional="false" text="@loc_844024417339311958" Location="844024417334136321" targetCharacterId="844024417339311956" markerLabel="@loc_844024417339311957" timerLabel="@loc_844024417339311959" description="6732635291258984915"/>
+   <Task id="844024417339311950" displayName="Find Brian Chung in Labs" optional="false" text="@loc_844024417339311953" targetCharacterId="844024417339311951" markerLabel="@loc_844024417339311952" timerLabel="@loc_844024417339311954" description="6732635291258985128"/>
+   <Task id="844024417339311945" displayName="Destroy Brian Chung&apos;s Phantom" optional="false" text="@loc_844024417339311948" targetCharacterId="844024417339311946" markerLabel="@loc_844024417339311947" timerLabel="@loc_844024417339311949" Location="844024417334136393" description="6732635291258985176"/>
+   <Task id="13680621263446315356" displayName="Search Brian Chung&apos;s Remains" optional="false" text="@loc_13680621263446315357" markerLabel="@loc_13680621263446316298" Location="844024417334136393"/>
+   <Task id="844024417339311940" displayName="Search Chung&apos;s room" optional="false" text="@loc_844024417339311943" targetCharacterId="844024417339311941" markerLabel="@loc_844024417339311942" timerLabel="@loc_844024417339311944" Location="844024417334136321" description="6732635291258985243"/>
+   <Task id="418270515534816397" displayName="Pick Up the Bird Statue" optional="false" text="@loc_418270515534816400" markerLabel="@loc_418270515534816399" Location="844024417334136487" targetCharacterId="418270515534816398" timerLabel="@loc_418270515534816401"/>
+   <Task id="13680621263446315634" displayName="Complete Brian&apos;s Statue" optional="false" text="@loc_13680621263446315635" markerLabel="@loc_13680621263446315644" Location="844024417334136487"/>
+  </Tasks>
+ </Objective>
+ <Objective id="844024417362909276" title="@loc_844024417362909277" optional="false" owner="10739735956174775251">
+  <Descriptions>
+   <Desc id="844024417362909278" displayName="Default" text="@loc_844024417362909279"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417362909342" displayName="instructions" optional="false" text="@loc_844024417362909343" description="844024417362909278"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+ <Objective id="844024417362909438" title="@loc_844024417362909439" optional="false" owner="10739735956174775241">
+  <Descriptions>
+   <Desc id="844024417362909440" displayName="Default" text="@loc_844024417362909441"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417362909442" displayName="instructions" optional="false" text="@loc_844024417362909445" description="844024417362909278" targetCharacterId="844024417362909443" markerLabel="@loc_844024417362909444" timerLabel="@loc_844024417362909446"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+ <Objective id="844024417362909597" title="@loc_844024417362909598" optional="false" owner="10739735956175282099">
+  <Descriptions>
+   <Desc id="844024417362909599" displayName="default" text="@loc_844024417362909600"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417362909612" displayName="instructions" optional="false" text="@loc_844024417362909613" description="844024417362909599"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+ <Objective id="844024417362909669" title="@loc_844024417362909670" optional="false" owner="10739735956174775230">
+  <Descriptions>
+   <Desc id="844024417362909671" displayName="default" text="@loc_844024417362909672"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417362909706" displayName="instructions" optional="false" text="@loc_844024417362909707" description="844024417362909671"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+ <Objective id="844024417362909742" title="@loc_844024417362909743" optional="false" owner="10739735956174775260">
+  <Descriptions>
+   <Desc id="844024417362909744" displayName="default" text="@loc_844024417362909745"/>
+  </Descriptions>
+  <Tasks>
+   <Task id="844024417362909809" displayName="instructions" optional="false" text="@loc_844024417362909810" description="844024417362909744"/>
+  </Tasks>
+  <Clues/>
+ </Objective>
+</Objectives>

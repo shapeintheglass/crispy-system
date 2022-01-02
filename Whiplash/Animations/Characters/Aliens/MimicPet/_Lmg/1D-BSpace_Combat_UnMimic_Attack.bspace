@@ -1,0 +1,23 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param Name="TravelDist" Min="2" Max="7" Cells="3" Scale="1" SKey="0" EKey="1"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="TravelSlope"/>
+ </AdditionalExtraction>
+ <ExampleList>
+  <Example AName="Combat_UnMimic_Attack_Short" PlaybackScale="1" SetPara0="2" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+  <Example AName="Combat_UnMimic_Attack_Long" PlaybackScale="1" SetPara0="7" UseDirectlyForDeltaMotion0="0" UseDirectlyForDeltaMotion1="0" UseDirectlyForDeltaMotion2="0" UseDirectlyForDeltaMotion3="0"/>
+ </ExampleList>
+ <ExamplePseudo/>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+ </Blendable>
+ <JointList/>
+ <VGrid>
+  <VExample i0="0" i1="0" w0="1" w1="0"/>
+  <VExample i0="0" i1="1" w0="0.5" w1="0.5"/>
+  <VExample i0="1" i1="0" w0="1" w1="0"/>
+ </VGrid>
+</ParaGroup>

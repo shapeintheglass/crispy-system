@@ -1,0 +1,6 @@
+<download name="satellite" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2927317" md5="46dcb7ba20238574b3f94fa760b00b92"/>
+ </files>
+</download>

@@ -1,0 +1,32 @@
+
+<anim_event_list>
+ <animation name="animations/characters/robots/operatorengineer/death/death_explode.caf">
+  <event name="sound" time="0.0040705563" endTime="0.0040705563" parameter="Play_Operator_Death_Spindown" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorengineer/combat/melee/combat_melee_torch_attack_a.caf">
+  <event name="sound" time="0.0020352781" endTime="0.0020352781" parameter="Play_Operator_Loco_Mechanics_Long" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.4111262" endTime="0.4111262" parameter="Play_Operator_Loco_Mechanics_Med" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorengineer/combat/melee/combat_melee_torch_in.caf">
+  <event name="sound" time="0.0040705563" endTime="0.0040705563" parameter="Play_Operator_Loco_Mechanics_Short" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.24559024" endTime="0.24559024" parameter="Play_Operator_Loco_Mechanics_Short" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorengineer/combat/melee/combat_melee_torch_retracted.caf">
+  <event name="sound" time="0" endTime="0" parameter="Play_Operator_Loco_Mechanics_Short" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorengineer/combat/melee/combat_melee_torch_out.caf">
+  <event name="sound" time="0.0027137042" endTime="0.0027137042" parameter="Play_Operator_Loco_Mechanics_Short" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/cutscenes/crewfacilities/sq01/crewfacilities_sq01_cookintro_operator.caf">
+  <event name="sound" time="0.13237196" endTime="0.13512491" parameter="Play_Evnt_Kitchen_Skillet_Complain_Vox" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorengineer/disabled/disabled_getup_leftsidedown.caf">
+  <event name="sound" time="0.016961131" endTime="0.016961131" parameter="Play_Operator_Eng_Corrupted_GetUp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorengineer/disabled/disabled_getup_rightsidedown.caf">
+  <event name="sound" time="0.05017668" endTime="0.05017668" parameter="Play_Operator_Eng_Corrupted_GetUp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/robots/operatorengineer/disabled/disabled_getup_bottomsidedown.caf">
+  <event name="sound" time="0.015547703" endTime="0.015547703" parameter="Play_Operator_Eng_Corrupted_GetUp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

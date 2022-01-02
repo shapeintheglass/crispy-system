@@ -1,0 +1,35 @@
+
+<Dialog>
+ <Dialog id="13680621263438026002" text="Papa?" modified="10/13/2017 07:34:09 PM" notes="SFX distort the voice. Almost demonic, telepathic at first."/>
+ <Dialog id="13680621263438033337" text="It&apos;s me. Alexei." modified="10/13/2017 09:35:53 PM"/>
+ <Dialog id="13680621263438033443" text="We can be together again. But you have to do what I say. It&apos;s very important." modified="11/15/2017 11:23:05 PM"/>
+ <Dialog id="13680621263438033450" text="Okay Papa?" modified="10/13/2017 09:37:46 PM"/>
+ <Dialog id="13680621263438033534" text="There&apos;s something... something you have to do for me. For us. So we can be together. It&apos;s what you want." modified="11/15/2017 11:33:41 PM" notes="The telepath is reading the volunteers mind, plucking things out and using them. "/>
+ <Dialog id="13680621263438033574" text="Me. You. And... mama? Yes. Mama too." modified="10/13/2017 09:41:40 PM" notes="Uncertain about the mama memory, then yes, certain."/>
+ <Dialog id="13680621263438033636" text="It&apos;s what you want." modified="10/13/2017 09:41:54 PM" notes="Emphasis on want - voice slips into telepath SFX overlay."/>
+ <Dialog id="13680621263438033839" text="You have to find... my toy. You missed my birthday. Missed so many. I think about you and my toy all the time. " modified="10/13/2017 09:47:22 PM"/>
+ <Dialog id="13680621263438033859" text="Remember. It&apos;s what you want." modified="10/13/2017 09:44:35 PM"/>
+ <Dialog id="13680621263438033866" text="Find my toy." modified="10/13/2017 09:44:42 PM"/>
+ <Dialog id="13680621263438033870" text="I won&apos;t force you." modified="10/13/2017 09:44:51 PM"/>
+ <Dialog id="13680621263438033921" text="Papa." modified="10/13/2017 09:45:37 PM"/>
+ <Dialog id="13680621263438034298" text="Papa. I&apos;m... sorry I told them about you. You&apos;re so far away now." modified="10/13/2017 09:51:54 PM"/>
+ <Dialog id="13680621263438034359" text="Papa. Why did you  make a deal with those... men? Is it what you wanted? You wanted to be far away?" modified="10/13/2017 09:52:55 PM"/>
+ <Dialog id="13680621263438034378" text="No. You wanted... you wanted us to... not perish." modified="10/13/2017 09:53:14 PM"/>
+ <Dialog id="13680621263438034415" text="No hurts. Stick together. Have fun. Remember, Papa?" modified="10/13/2017 09:53:51 PM"/>
+ <Dialog id="13680621263438034443" text="You left us. All alone. With no toy. Hurry." modified="10/13/2017 09:54:19 PM"/>
+ <Dialog id="13680621263438034448" text="It&apos;s what you want." modified="10/13/2017 09:54:24 PM"/>
+ <Dialog id="13680621263438034539" text="Papa. I&apos;m scared without my toy." modified="10/13/2017 09:55:55 PM"/>
+ <Dialog id="13680621263438034584" text="Papa?" modified="10/13/2017 09:56:40 PM" notes="almost threatening"/>
+ <Dialog id="13680621263438034596" text="No, papa." modified="10/13/2017 09:56:52 PM" notes="Like scolding a dog."/>
+ <Dialog id="13680621263438034634" text="Stop. No hurting." modified="10/13/2017 09:57:30 PM"/>
+ <Dialog id="13680621263438034683" text="You&apos;re a bad bad bad-" modified="10/13/2017 09:58:19 PM" notes="Angry. Ends in the player&apos;s death."/>
+ <Dialog id="13680621263438034772" text="You found it. My toy. Take it to the space ships. The little ones. It&apos;s what you want. " modified="10/13/2017 10:00:29 PM"/>
+ <Dialog id="13680621263438034859" text="You&apos;re so close. So close to me and mama. You have to put my toy in the space ship." modified="10/13/2017 10:01:18 PM"/>
+ <Dialog id="13680621263438034915" text="Papa? Why are you taking so long. Don&apos;t you want me to be happy?" modified="10/13/2017 10:02:11 PM"/>
+ <Dialog id="13680621263438034928" text="Papa..." modified="10/13/2017 10:02:24 PM" notes="creepy whisper, plaintive"/>
+ <Dialog id="13680621263438034947" text="Hurry papa. It&apos;s what you want." modified="10/13/2017 10:02:43 PM"/>
+ <Dialog id="13680621263438035059" text="Oh papa. I&apos;m going to be so happy with my toy." modified="10/13/2017 10:04:35 PM"/>
+ <Dialog id="13680621263438035075" text="I&apos;m so proud of you. So proud of you. So proud of-" modified="10/13/2017 10:04:51 PM" notes="SFX grow in creepy intensity until he player&apos;s head pops like a balloon."/>
+ <Dialog id="13680621263440099241" text="I&apos;ll show you where it is." modified="11/06/2017 07:27:37 PM"/>
+ <Dialog id="13680621263440099270" facefx="0" sync="0" notes="" text="My friend will show you the way. Follow my friend, papa." modified="11/06/2017 07:28:34 PM"/>
+</Dialog>

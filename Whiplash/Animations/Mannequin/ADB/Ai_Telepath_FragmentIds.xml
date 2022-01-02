@@ -1,0 +1,24 @@
+
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="BreakGloo"/>
+  <Tag name="Motion_Idle"/>
+  <Tag name="Motion_Move"/>
+  <Tag name="Melee"/>
+  <Tag name="Death"/>
+  <Tag name="Reaction_Death" subTagDef="Animations/Mannequin/ADB/ArkHitDeathTags.xml"/>
+  <Tag name="BlendRagdoll" subTagDef="Animations/Mannequin/ADB/blendRagdollTags.xml"/>
+  <Tag name="Cs_Arboretum_Sq01_TelepathIntro_Telepath"/>
+  <Tag name="PushObstacle"/>
+  <Tag name="Stunned" subTagDef="Animations/Mannequin/ADB/multiStageFragmentTags.xml"/>
+  <Tag name="Lifted"/>
+  <Tag name="Lifted_BumpCeiling"/>
+  <Tag name="MindJack_In"/>
+  <Tag name="MindJack_Out"/>
+  <Tag name="CombatReaction"/>
+  <Tag name="PsiAttack"/>
+  <Tag name="ForceResist" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="ForceResistScrunch" subTagDef="Animations/Mannequin/ADB/forceResistTags.xml"/>
+  <Tag name="Cs_TranstarLabs_VolunteerSideQuest_Telepath"/>
+ </Tags>
+</TagDefinition>

@@ -1,0 +1,57 @@
+
+<Dialog>
+ <Dialog id="13680621263439142321" text="Beep." modified="11/06/2017 09:19:45 PM"/>
+ <Dialog id="13680621263439146660" text="Oops." modified="10/26/2017 06:51:16 PM"/>
+ <Dialog id="13680621263439148576" text="Hmm?" modified="11/07/2017 03:28:06 PM" notes="Like, oh that&apos;s interesint."/>
+ <Dialog id="13680621263439148949" text="Virtual mule software version 1.0 loaded." modified="11/06/2017 09:29:33 PM"/>
+ <Dialog id="13680621263440105878" text="Goodbye." modified="11/06/2017 09:18:14 PM"/>
+ <Dialog id="13680621263440105965" text="Hello." modified="11/06/2017 09:19:41 PM"/>
+ <Dialog id="13680621263440105976" text="Ready." modified="11/06/2017 09:28:02 PM"/>
+ <Dialog id="13680621263440106716" text="Render mesh: ScienceOperator_alt.obj" modified="11/07/2017 03:50:18 PM"/>
+ <Dialog id="13680621263440106976" text="Voice: Synthesis file not found. Using simple TTS." modified="11/06/2017 09:41:43 PM"/>
+ <Dialog id="13680621263440106989" text="Autonomy setting: 1.2" modified="11/07/2017 03:49:44 PM"/>
+ <Dialog id="13680621263440107313" text="Testing. Testing." modified="11/06/2017 09:42:09 PM"/>
+ <Dialog id="13680621263440107351" text="Wow." modified="11/07/2017 03:21:22 PM"/>
+ <Dialog id="13680621263440108091" text="Placeholder." modified="11/06/2017 09:55:07 PM"/>
+ <Dialog id="13680621263440108135" text="Unloading." modified="11/06/2017 09:55:51 PM"/>
+ <Dialog id="13680621263440108647" text="Sawadee-krup" modified="11/07/2017 03:42:56 PM" notes="Thai for hello"/>
+ <Dialog id="13680621263440108745" text="La-gorn-krup." modified="11/06/2017 10:06:01 PM" notes="Thai for goodbye"/>
+ <Dialog id="13680621263440108855" text="Deleting all items." modified="11/07/2017 03:21:44 PM"/>
+ <Dialog id="13680621263440108863" text="No. Just kidding." modified="11/06/2017 10:09:55 PM"/>
+ <Dialog id="13680621263440108957" text="[grumble]" modified="03/06/2018 09:07:34 PM" notes="A low grumpy grumble &quot;hmnph!&quot;"/>
+ <Dialog id="13680621263440109004" text="You should have seen your face." modified="11/06/2017 10:10:20 PM"/>
+ <Dialog id="13680621263440109016" text="Your stuff is safe with me." modified="11/06/2017 10:10:32 PM"/>
+ <Dialog id="13680621263440109058" text="Phew." modified="11/06/2017 10:11:14 PM"/>
+ <Dialog id="13680621263440109100" text="Fist bump." modified="11/06/2017 10:11:56 PM"/>
+ <Dialog id="13680621263440109110" text="Ouch." modified="11/06/2017 10:12:06 PM"/>
+ <Dialog id="13680621263440109182" text="[whistling]" modified="03/06/2018 09:07:39 PM" notes="variant 1: mind games song"/>
+ <Dialog id="13680621263440109318" text="[digital burp]" modified="03/06/2018 09:08:15 PM" notes="SFX Like a robot grunt or even flatulance"/>
+ <Dialog id="13680621263440109329" text="[humming]" modified="03/06/2018 09:08:17 PM" notes="varitna 1 Distracted..."/>
+ <Dialog id="13680621263440109371" text="Opening." modified="11/07/2017 03:30:50 PM"/>
+ <Dialog id="13680621263440171022" text="Hee-Haw." modified="11/07/2017 03:24:48 PM" notes="A mock mule sound"/>
+ <Dialog id="13680621263440171046" text="Hee-haw!" modified="11/07/2017 03:24:22 PM"/>
+ <Dialog id="13680621263440171083" text="Boop." modified="11/07/2017 03:24:59 PM"/>
+ <Dialog id="13680621263440171116" text="[whine]" modified="03/06/2018 09:08:19 PM" notes="Like an &apos;awww man&apos; but shorter"/>
+ <Dialog id="13680621263440171175" text="[grumble]" modified="03/06/2018 09:08:20 PM" notes="A low grumpy grumble &quot;hmnph!&quot; variant 2"/>
+ <Dialog id="13680621263440171199" text="Oof." modified="11/07/2017 03:26:55 PM" notes="This is heavy."/>
+ <Dialog id="13680621263440171231" text="[sigh]" modified="03/06/2018 09:08:22 PM" notes="Puff of air, like a sigh of relief."/>
+ <Dialog id="13680621263440171315" text="[whistling]" modified="03/06/2018 09:08:24 PM" notes="variant 2, danielle&apos;s song sacred geometry"/>
+ <Dialog id="13680621263440171340" text="[humming]" modified="03/06/2018 09:08:25 PM" notes="variant 2 Happy sounds."/>
+ <Dialog id="13680621263440171388" text="Oh?" modified="11/07/2017 03:30:04 PM" notes="Like, what could that be?"/>
+ <Dialog id="13680621263440171409" text="Interesting." modified="11/07/2017 03:30:25 PM"/>
+ <Dialog id="13680621263440171428" text="Ta-da." modified="11/07/2017 05:17:04 PM"/>
+ <Dialog id="13680621263440171452" text="Uh oh." modified="11/07/2017 03:31:08 PM"/>
+ <Dialog id="13680621263440171522" text="...excuse you." modified="11/07/2017 03:32:18 PM" notes="Almost under breath."/>
+ <Dialog id="13680621263440171588" text="Ok." modified="11/07/2017 03:33:24 PM"/>
+ <Dialog id="13680621263440171610" text="Who&apos;s that for?" modified="11/07/2017 03:33:46 PM"/>
+ <Dialog id="13680621263440171630" text="Watch out!" modified="11/07/2017 03:34:06 PM"/>
+ <Dialog id="13680621263440171642" text="Hey!" modified="11/07/2017 03:34:18 PM" notes="I&apos;m right here!"/>
+ <Dialog id="13680621263440171764" text="Got it." modified="11/07/2017 03:36:20 PM"/>
+ <Dialog id="13680621263440171848" text="Right away." modified="11/07/2017 03:37:44 PM"/>
+ <Dialog id="13680621263440171886" text="Safe and sound." modified="11/07/2017 03:39:02 PM" notes=""/>
+ <Dialog id="13680621263440171965" text="High five." modified="11/07/2017 03:39:41 PM"/>
+ <Dialog id="13680621263440171972" text="No?" modified="11/07/2017 03:39:48 PM"/>
+ <Dialog id="13680621263440172406" text="Tick tock. Tick tock." modified="11/07/2017 03:47:02 PM" notes="Absent mindidly"/>
+ <Dialog id="13680621263440172438" text="[humming]" modified="03/06/2018 09:08:26 PM" notes="variant 3 mind games song"/>
+ <Dialog id="13680621263440172460" text="[humming]" modified="03/06/2018 09:08:28 PM" notes="variant 4 danielle&apos;s song"/>
+</Dialog>

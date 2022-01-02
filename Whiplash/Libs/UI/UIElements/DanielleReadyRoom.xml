@@ -1,0 +1,378 @@
+
+<UIElements name="DanielleReadyRoom">
+ <UIElement name="DanielleReadyRoom" render_lockless="1" mouseevents="1" keyevents="0" cursor="0" controller_input="1" use_steam_menu="1">
+  <GFx file="GFX/danielle_readyroom.gfx" layer="4">
+   <Constraints>
+    <Align mode="dynamic" valign="center" halign="center" scale="1" max="0"/>
+   </Constraints>
+  </GFx>
+  <functions>
+   <function name="charOpenPage" funcname="char.openPage"/>
+   <function name="charExitPage" funcname="char.exitPage"/>
+   <function name="setClass" funcname="char.setClass">
+    <param name="Text" desc="" type="string"/>
+    <param name="CharState" desc="" type="int"/>
+    <param name="DeathReason" desc="" type="string"/>
+    <param name="CorpseLocation" desc="" type="string"/>
+    <param name="escapeMethod" desc="" type="string"/>
+   </function>
+   <function name="setDescription" funcname="char.setDescription">
+    <param name="Header" desc="" type="string"/>
+    <param name="status" type="int"/>
+    <param name="Body" desc="" type="string"/>
+    <param name="Specialties" desc="" type="string"/>
+   </function>
+   <function name="setClassDots" funcname="char.setClassDots">
+    <param name="SelectedIndex" desc="to be updated whenever character changes" type="int"/>
+   </function>
+   <function name="setResetButton" funcname="char.setResetButton">
+    <param name="Label" desc="" type="string"/>
+    <param name="isEnabled" desc="" type="bool"/>
+    <param name="isAnimated" desc="" type="bool"/>
+   </function>
+   <function name="setObjective" funcname="char.setObjective">
+    <param name="charState" desc="0=hidden, 1=default, 2=completed" type="int"/>
+    <param name="charBody" desc="" type="string"/>
+   </function>
+   <function name="setCharStats" funcname="char.setCharStats">
+    <param name="Health" desc="" type="int"/>
+    <param name="Psi" desc="" type="int"/>
+   </function>
+   <function name="setDoomClock" funcname="char.setDoomClock">
+    <param name="isVis" desc="" type="bool"/>
+    <param name="Level" desc="" type="int"/>
+    <param name="Max" desc="" type="int"/>
+    <param name="MeterValue" desc="0-100" type="float"/>
+    <param name="Text" desc="" type="string"/>
+   </function>
+   <function name="skillsClear" funcname="char.clearSkills"/>
+   <function name="skillsAdd" funcname="char.addSkill">
+    <param name="GridType" desc="false=human, true=alien" type="bool"/>
+    <param name="State" desc="0=unresearched, 1=researched, 2=purchased" type="int"/>
+    <param name="Row" desc="start at 1" type="int"/>
+    <param name="Column" desc="start at 1" type="int"/>
+   </function>
+   <function name="skillsAddPreReq" funcname="char.addPreReq">
+    <param name="GridType" desc="false=human, true=alien" type="bool"/>
+    <param name="FromRow" desc="" type="int"/>
+    <param name="FromCol" desc="" type="int"/>
+    <param name="ToRow" desc="" type="int"/>
+    <param name="ToCol" desc="" type="int"/>
+   </function>
+   <function name="skillsUpdate" funcname="char.updateSkills"/>
+   <function name="inventoryUpdate" funcname="char.updateItems"/>
+   <function name="invOpenPage" funcname="inv.openPage"/>
+   <function name="invExitPage" funcname="inv.exitPage"/>
+   <function name="invSetDescription" funcname="inv.setDescription">
+    <param name="Header" desc="" type="string"/>
+    <param name="Rarity" desc="" type="int"/>
+    <param name="Body" desc="" type="string"/>
+   </function>
+   <function name="invUpdateList" funcname="inv.updateList"/>
+   <function name="invCartClear" funcname="inv.cartClearItems"/>
+   <function name="invCartAddItem" funcname="inv.cartAddInventoryItem">
+    <param name="ID" desc="uniqueID" type="string"/>
+    <param name="Icon" desc="" type="string"/>
+    <param name="Width" desc="" type="int"/>
+    <param name="Height" desc="" type="int"/>
+    <param name="Rotation" desc="" type="int"/>
+    <param name="Row" desc="" type="int"/>
+    <param name="Column" desc="" type="int"/>
+    <param name="Quantity" desc="" type="int"/>
+    <param name="Stackable" desc="" type="bool"/>
+    <param name="Equipped" desc="" type="bool"/>
+    <param name="Assigned" desc="" type="int"/>
+    <param name="IsType" desc="" type="int"/>
+    <param name="Favorite" desc="" type="bool"/>
+    <param name="Blocked" desc="" type="bool"/>
+    <param name="Rarity" desc="" type="int"/>
+   </function>
+   <function name="invCartUpdate" funcname="inv.cartUpdateGrid"/>
+   <function name="inventoryNav" funcname="inv.itemNav">
+    <param name="Row" desc="" type="int"/>
+    <param name="Column" desc="" type="int"/>
+    <param name="Width" desc="" type="int"/>
+    <param name="Height" desc="" type="int"/>
+    <param name="Conflict" desc="conflicting=true" type="bool"/>
+    <param name="isVisble" desc="" type="bool"/>
+   </function>
+   <function name="itemStartMove" funcname="inv.itemStartMove">
+    <param name="ID" desc="unique identifier" type="int"/>
+    <param name="Row" desc="" type="int"/>
+    <param name="Column" desc="" type="int"/>
+   </function>
+   <function name="itemMove" funcname="inv.itemMove">
+    <param name="ID" desc="unique identifier" type="int"/>
+    <param name="Row" desc="" type="int"/>
+    <param name="Column" desc="" type="int"/>
+   </function>
+   <function name="itemMoveRelease" funcname="inv.itemMoveRelease">
+    <param name="ID" desc="unique identifier" type="int"/>
+    <param name="Row" desc="" type="int"/>
+    <param name="Column" desc="" type="int"/>
+   </function>
+   <function name="itemDrop" funcname="inv.itemDrop">
+    <param name="ID" desc="unique identifier" type="int"/>
+   </function>
+   <function name="invLoadoutClear" funcname="inv.loadoutClearItems"/>
+   <function name="invLoadoutAddItem" funcname="inv.loadoutAddInventoryItem">
+    <param name="ID" desc="uniqueID" type="string"/>
+    <param name="Icon" desc="" type="string"/>
+    <param name="Width" desc="" type="int"/>
+    <param name="Height" desc="" type="int"/>
+    <param name="Rotation" desc="" type="int"/>
+    <param name="Row" desc="" type="int"/>
+    <param name="Column" desc="" type="int"/>
+    <param name="Quantity" desc="" type="int"/>
+    <param name="Stackable" desc="" type="bool"/>
+    <param name="Equipped" desc="" type="bool"/>
+    <param name="Assigned" desc="" type="int"/>
+    <param name="IsType" desc="" type="int"/>
+    <param name="Favorite" desc="" type="bool"/>
+    <param name="Blocked" desc="" type="bool"/>
+    <param name="Rarity" desc="" type="int"/>
+   </function>
+   <function name="invLoadoutUpdate" funcname="inv.loadoutUpdateGrid"/>
+   <function name="chipsOpenPage" funcname="chips.openPage"/>
+   <function name="chipsExitPage" funcname="chips.exitPage"/>
+   <function name="chipsUpdateList" funcname="chips.updateItems"/>
+   <function name="chipsUpdateCart" funcname="chips.updateCart"/>
+   <function name="chipsSetDescription" funcname="chips.setDescription">
+    <param name="Header" desc="" type="string"/>
+    <param name="Rarity" desc="" type="int"/>
+    <param name="Body" desc="" type="string"/>
+   </function>
+   <function name="chipsAvailableSlots" funcname="chips.setChipsetSlots">
+    <param name="NoOfSlots" desc="" type="int"/>
+   </function>
+   <function name="launchOpenPage" funcname="launch.openPage"/>
+   <function name="launchExitPage" funcname="launch.exitPage"/>
+   <function name="launchSetClass" funcname="launch.setClass">
+    <param name="Text" desc="" type="string"/>
+   </function>
+   <function name="launchSetDescription" funcname="launch.setDescription">
+    <param name="Header" desc="" type="string"/>
+    <param name="Body" desc="" type="string"/>
+   </function>
+   <function name="launchObjectives" funcname="launch.setObjectives">
+    <param name="charState" desc="0=hidden, 1=default, 2=completed" type="int"/>
+    <param name="charTitle" desc="" type="string"/>
+    <param name="charBody" desc="" type="string"/>
+    <param name="bountyState" desc="0=hidden, 1=default, 2=completed" type="int"/>
+    <param name="bountyTitle" desc="" type="string"/>
+    <param name="bountyBody" desc="" type="string"/>
+   </function>
+   <function name="progressOpenPage" funcname="progress.openPage"/>
+   <function name="progressExitPage" funcname="progress.exitPage"/>
+   <function name="progressStats" funcname="progress.setStats">
+    <param name="Progress" desc="" type="string"/>
+    <param name="Earned" desc="" type="string"/>
+   </function>
+   <function name="progressUpdate" funcname="progress.updateBody"/>
+   <function name="scorePopupOpenPage" funcname="scorePopup.openPage"/>
+   <function name="scorePopupExitPage" funcname="scorePopup.exitPage"/>
+   <function name="scorePopupUpdateStats" funcname="scorePopup.updateStats"/>
+   <function name="scorePopupSetStats" funcname="scorePopup.setStats">
+    <param name="DeathReason" desc="" type="string"/>
+    <param name="Earned" desc="" type="string"/>
+    <param name="Total" desc="" type="string"/>
+    <param name="isAlive" desc="" type="bool"/>
+    <param name="escapeMethod" type="string"/>
+   </function>
+   <function name="scoreOpenPage" funcname="score.openPage"/>
+   <function name="scoreExitPage" funcname="score.exitPage"/>
+   <function name="scoreUpdateStats" funcname="score.updateStats"/>
+   <function name="scoreSetStats" funcname="score.setStats">
+    <param name="DeathReason" desc="" type="string"/>
+    <param name="Earned" desc="" type="string"/>
+    <param name="Total" desc="" type="string"/>
+    <param name="isAlive" desc="" type="bool"/>
+    <param name="escapeMethod" type="string"/>
+   </function>
+   <function name="scoreUpdateEarned" funcname="score.updateEarned">
+    <param name="Earned" desc="" type="string"/>
+   </function>
+   <function name="scoreMoveCompleted" funcname="score.moveScoreCompleted">
+    <param name="Total" desc="" type="string"/>
+   </function>
+   <function name="updateTabs" funcname="tabs.updateTabs"/>
+   <function name="highlightTab" funcname="tabs.highlightID">
+    <param name="ID" desc="" type="String"/>
+   </function>
+   <function name="showTabs" funcname="tabs.openPage"/>
+   <function name="hideTabs" funcname="tabs.exitPage"/>
+   <function name="exitPage" funcname="exitPage"/>
+   <function name="setCurrency" funcname="global.setCurrency">
+    <param name="SpaceBucks" desc="" type="String"/>
+   </function>
+   <function name="showErrorText" funcname="global.showErrorText">
+    <param name="Body" desc="" type="String"/>
+   </function>
+   <function name="hideErrorText" funcname="global.hideErrorText"/>
+   <function name="tutorialOpen" funcname="tut.tutorialOpen">
+    <param name="Title" desc="" type="String"/>
+    <param name="Body" desc="" type="String"/>
+    <param name="Attention" desc="0=nothing, 1=left, 2=center, 3=right, 4=reset/launch button" type="int"/>
+   </function>
+   <function name="tutorialUpdate" funcname="tut.tutorialUpdate">
+    <param name="Body" desc="" type="String"/>
+   </function>
+   <function name="tutorialClose" funcname="tut.tutorialClose"/>
+   <function name="tutorialSetPrompt" funcname="tut.setPrompt">
+    <param name="Place" desc="1-8" type="int"/>
+    <param name="Visible" desc="" type="bool"/>
+    <param name="Prompt" desc="" type="string"/>
+    <param name="isHold" desc="0-1" type="bool"/>
+    <param name="holdValue" desc="0-1" type="float"/>
+    <param name="Text" desc="" type="string"/>
+    <param name="isEnabled" desc="" type="bool"/>
+    <param name="ID" desc="" type="int"/>
+   </function>
+   <function name="tutorialFormatPrompts" funcname="tut.formatPrompts"/>
+   <function name="tutorialPromptAttention" funcname="tut.promptAttention">
+    <param name="Place" desc="1-8" type="int"/>
+    <param name="State" desc="0=none, 1=frame, 2=animated" type="int"/>
+   </function>
+   <function name="loadTransition" funcname="loadTransition"/>
+   <function name="clearTransition" funcname="save.clearTransition"/>
+   <function name="highlightID" funcname="highlightID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </function>
+   <function name="HLUp" funcname="HLUp"/>
+   <function name="HLDown" funcname="HLDown"/>
+   <function name="HLLeft" funcname="HLLeft"/>
+   <function name="HLRight" funcname="HLRight"/>
+   <function name="btnSelect" funcname="btnSelect"/>
+   <function name="btnBack" funcname="btnBack"/>
+   <function name="openPage" funcname="openPage"/>
+   <function name="exitPage" funcname="exitPage"/>
+   <function name="scrollX" funcname="scrollX">
+    <param name="value" type="float"/>
+   </function>
+   <function name="scrollY" funcname="scrollY">
+    <param name="value" type="float"/>
+   </function>
+   <function name="SetControlScheme" funcname="setControlScheme">
+    <param name="controlScheme" type="int"/>
+   </function>
+   <function name="setNavigationPrompts" desc="strings of keybinds" funcname="tabs.setNavigationPrompts">
+    <param name="L1" desc="" type="string"/>
+    <param name="L2" desc="" type="string"/>
+    <param name="R1" desc="" type="string"/>
+    <param name="R2" desc="" type="string"/>
+   </function>
+   <function name="setPrompt" funcname="global.setReadyRoomPrompt">
+    <param name="Place" desc="1-8" type="int"/>
+    <param name="Visible" desc="" type="bool"/>
+    <param name="Prompt" desc="" type="string"/>
+    <param name="isHold" desc="0-1" type="bool"/>
+    <param name="holdValue" desc="0-1" type="float"/>
+    <param name="Text" desc="" type="string"/>
+    <param name="isEnabled" desc="" type="bool"/>
+    <param name="ID" desc="" type="int"/>
+   </function>
+   <function name="formatPrompts" funcname="global.formatReadyRoomPrompts"/>
+   <function name="promptAttention" funcname="global.promptAttention">
+    <param name="Place" desc="1-8" type="int"/>
+    <param name="State" desc="0=none, 1=frame, 2=animated" type="int"/>
+   </function>
+   <function name="screenRotate" funcname="camera.rotateOffset">
+    <param name="xValue" desc="-1 to +1" type="float"/>
+    <param name="yValue" desc="-1 to +1" type="float"/>
+   </function>
+   <function name="updateCheckout" funcname="global.updateCheckout"/>
+  </functions>
+  <Events>
+   <event name="tabSelect" fscommand="tabSelect" desc="">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </event>
+   <event name="CharacterNav" fscommand="CharacterNav">
+    <param name="Direction" desc="-1 or 1" type="int"/>
+   </event>
+   <event name="CharacterPip" fscommand="CharacterPip">
+    <param name="Index" desc="return the dot number" type="int"/>
+   </event>
+   <event name="CharacterSelect" fscommand="CharacterSelect" desc="returns unique ID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </event>
+   <event name="CharacterReset" fscommand="CharacterReset"/>
+   <event name="menuTransition" fscommand="menuTransition" desc="">
+    <param name="Page" desc="" type="string"/>
+   </event>
+   <event name="loadTransition" fscommand="loadTransition" desc="">
+    <param name="Page" desc="" type="string"/>
+   </event>
+   <event name="TutorialOpen" fscommand="TutorialOpen" desc=""/>
+   <event name="TutorialClose" fscommand="TutorialClose" desc=""/>
+   <event name="TutorialCloseComplete" fscommand="TutorialCloseComplete" desc=""/>
+   <event name="buttonPress" fscommand="buttonPress">
+    <param name="whatBtn" desc="" type="string"/>
+   </event>
+   <event name="promptSelect" fscommand="promptSelect">
+    <param name="promptIndex" desc="" type="int"/>
+   </event>
+   <event name="UISoundManager" fscommand="UISoundPlay" desc="Sound.########">
+    <param name="SoundEvent" desc="Sound Path" type="string"/>
+   </event>
+   <event name="PlayForceFeedback" fscommand="playForceFeedback">
+    <param name="ID" type="string"/>
+    <param name="intensity" type="float"/>
+    <param name="delay" type="float"/>
+   </event>
+   <event name="showDisplayPane" fscommand="showDisplayPane" desc="Outputs the ID of the highlighted item">
+    <param name="ItemID" desc="" type="int"/>
+   </event>
+   <event name="InventorySelect" fscommand="InventorySelect" desc="">
+    <param name="itemId" desc="" type="int"/>
+   </event>
+   <event name="inventoryFocus" fscommand="inventoryFocus" desc="">
+    <param name="whatIsFocus" desc="1=list, 2=cart, 3=default" type="int"/>
+   </event>
+   <event name="inventorySetHL" fscommand="inventorySetHL" desc="Outputs the ID of the item the mouse has selected">
+    <param name="ItemID" desc="" type="int"/>
+   </event>
+   <event name="inventoryPickItem" fscommand="inventoryPickItem">
+    <param name="itemId" type="int"/>
+    <param name="x" type="int"/>
+    <param name="y" type="int"/>
+   </event>
+   <event name="inventoryPlaceItem" fscommand="inventoryPlaceItem">
+    <param name="itemId" type="int"/>
+   </event>
+   <event name="inventoryDragPos" fscommand="inventoryDragPos">
+    <param name="x" type="int"/>
+    <param name="y" type="int"/>
+   </event>
+   <event name="DoubleClick" fscommand="DoubleClick">
+    <param name="itemId" type="int"/>
+   </event>
+   <event name="ChipsetSelect" fscommand="ChipsetSelect" desc="returns unique ID">
+    <param name="ID" desc="uniqueID" type="string"/>
+   </event>
+   <event name="ChipsetFocus" fscommand="ChipsetFocus" desc="">
+    <param name="whatIsFocus" desc="1=list, 2=cart, 3=default" type="int"/>
+   </event>
+   <event name="scoreEntryComplete" fscommand="scoreEntryComplete" desc="">
+    <param name="entryIndex" desc="" type="int"/>
+   </event>
+   <event name="scoreTotalCompleted" fscommand="scoreTotalCompleted" desc=""/>
+   <event name="scoreAnimComplete" fscommand="scoreAnimComplete" desc=""/>
+  </Events>
+  <Arrays>
+   <Array name="tabsArray" varname="tabs.tabArray" desc="ID, Text, isEnabled"/>
+   <Array name="characterDotsArray" varname="char.dotsArray" desc="1=available, 2=locked, 3=dead, 4=escaped"/>
+   <Array name="characterLoadoutArray" varname="char.listArray" desc=""/>
+   <Array name="InventoryListArray" varname="inv.listArray" desc="ID, isState, Title, Icon, Rarity, Price, isNew, isAttention"/>
+   <Array name="ChipsetsListArray" varname="chips.listArray" desc="ID, isState, Title, Icon, Rarity, Price, isNew, isAttention"/>
+   <Array name="ChipsetsCartArray" varname="chips.cartArray" desc="ID, isState, Title, Icon, Rarity, Price, isNew, isAttention"/>
+   <Array name="CheckoutArray" varname="global.checkoutArray" desc="bankString, itemsQuant, itemsTotal, chipsQuant, chipsTotal, subTotal, endTotal, endColor (true=white, false=red"/>
+   <Array name="progressListArray" varname="progress.listArray" desc="Title, isChecked"/>
+   <Array name="progressScoreArray" varname="progress.scoreArray" desc="Title, Score"/>
+   <Array name="scorecardCheckArray" varname="score.checklistArray" desc="Title, Score"/>
+   <Array name="scorecardArray" varname="score.statsArray" desc="Title, Score"/>
+   <Array name="scorecardPopupCheckArray" varname="scorePopup.checklistArray" desc="Title, Score"/>
+   <Array name="scorecardPopupArray" varname="scorePopup.statsArray" desc="Title, Score"/>
+  </Arrays>
+  <variables/>
+ </UIElement>
+</UIElements>

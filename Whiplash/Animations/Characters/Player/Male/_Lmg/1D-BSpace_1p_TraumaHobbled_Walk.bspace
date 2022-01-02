@@ -1,0 +1,36 @@
+
+<ParaGroup>
+ <Dimensions>
+  <Param name="MoveSpeed" min="+0.0" max="+4.0" cells="19"/>
+ </Dimensions>
+ <ExampleList>
+  <Example AName="1p_Trauma_HobbledIdle_A" SetPara0="0.0" PlaybackScale="1.0"/>
+  <Example AName="1p_Trauma_HobbledWalk_A" SetPara0="0.8" PlaybackScale="1.0"/>
+  <Example AName="1p_Trauma_HobbledRun_A" SetPara0="4.0" PlaybackScale="1.0"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+  <Face p0="1" p1="2"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="0" i1="0" w0="1" w1="0"/>
+  <VExample i0="0" i1="1" w0="0.72222221" w1="0.27777776"/>
+  <VExample i0="0" i1="1" w0="0.44444448" w1="0.55555552"/>
+  <VExample i0="0" i1="1" w0="0.16666663" w1="0.83333337"/>
+  <VExample i0="1" i1="2" w0="0.97222221" w1="0.027777776"/>
+  <VExample i0="1" i1="2" w0="0.90277779" w1="0.097222231"/>
+  <VExample i0="1" i1="2" w0="0.83333331" w1="0.16666667"/>
+  <VExample i0="1" i1="2" w0="0.7638889" w1="0.23611112"/>
+  <VExample i0="1" i1="2" w0="0.69444442" w1="0.30555555"/>
+  <VExample i0="1" i1="2" w0="0.625" w1="0.375"/>
+  <VExample i0="1" i1="2" w0="0.55555552" w1="0.44444448"/>
+  <VExample i0="1" i1="2" w0="0.4861111" w1="0.5138889"/>
+  <VExample i0="1" i1="2" w0="0.41666663" w1="0.58333337"/>
+  <VExample i0="1" i1="2" w0="0.34722221" w1="0.65277779"/>
+  <VExample i0="1" i1="2" w0="0.27777773" w1="0.72222227"/>
+  <VExample i0="1" i1="2" w0="0.20833337" w1="0.79166663"/>
+  <VExample i0="1" i1="2" w0="0.1388889" w1="0.8611111"/>
+  <VExample i0="1" i1="2" w0="0.069444418" w1="0.93055558"/>
+  <VExample i0="2" i1="0" w0="1" w1="0"/>
+ </VGrid>
+</ParaGroup>

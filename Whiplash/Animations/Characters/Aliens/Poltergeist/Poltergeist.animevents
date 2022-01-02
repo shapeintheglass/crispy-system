@@ -1,0 +1,12 @@
+
+<anim_event_list>
+ <animation name="animations/characters/aliens/poltergeist/_lmg/2d-bspace_combat_moveturn.bspace">
+  <event name="sound" time="0.1842448" endTime="0.1842448" parameter="Play_Poltergeist_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.73763019" endTime="0.73763019" parameter="Play_Poltergeist_Walk" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/poltergeist/combat/throw/combat_throw_front.caf">
+  <event name="sound" time="0.25325522" endTime="0.26367188" parameter="Play_Poltergeist_Throw" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.78320313" endTime="0.78320313" parameter="Play_Poltergeist_Debris" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/characters/aliens/poltergeist/combat/lift/combat_lift_a.caf"/>
+</anim_event_list>

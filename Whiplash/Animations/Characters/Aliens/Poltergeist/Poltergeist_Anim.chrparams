@@ -1,0 +1,13 @@
+
+<Params>
+ <AnimationList>
+  <Comment value="-------EVENT DATABASE-------"/>
+  <Animation name="$AnimEventDatabase" path="Animations\Characters\Aliens\Poltergeist\Poltergeist.animevents"/>
+  <Animation name="#filepath" path="animations\Cutscenes"/>
+  <Animation name="*" path="*\*\*_Poltergeist.caf"/>
+  <Animation name="#filepath" path="Animations\Characters\Aliens\Poltergeist"/>
+  <Animation name="*" path="*\*.caf"/>
+  <Animation name="*" path="*\*.bspace"/>
+  <Animation name="*" path="*\*.comb"/>
+ </AnimationList>
+</Params>

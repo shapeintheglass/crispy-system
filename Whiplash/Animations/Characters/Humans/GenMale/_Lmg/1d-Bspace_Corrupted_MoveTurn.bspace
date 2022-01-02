@@ -1,0 +1,32 @@
+
+<ParaGroup>
+ <VEGPARAMS LookAheadTime="1.0"/>
+ <Dimensions>
+  <Param name="TurnSpeed" min="-2.1" max="+2.1" cells="9" scale="1.0"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="MoveSpeed"/>
+  <Param name="TravelAngle"/>
+  <Param name="TurnAngle"/>
+ </AdditionalExtraction>
+ <ExampleList>
+  <Example AName="corrupted_walkturn_right"/>
+  <Example AName="corrupted_walk_forward"/>
+  <Example AName="corrupted_walkturn_left"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+  <Face p0="1" p1="2"/>
+ </Blendable>
+ <VGrid>
+  <VExample i0="0" i1="1" w0="2.6669965" w1="-1.6669965"/>
+  <VExample i0="0" i1="1" w0="2.0002475" w1="-1.0002474"/>
+  <VExample i0="0" i1="1" w0="1.3334982" w1="-0.33349824"/>
+  <VExample i0="0" i1="1" w0="0.66674912" w1="0.33325088"/>
+  <VExample i0="1" i1="0" w0="1" w1="0"/>
+  <VExample i0="1" i1="2" w0="0.25648808" w1="0.74351192"/>
+  <VExample i0="1" i1="2" w0="-0.48702347" w1="1.4870235"/>
+  <VExample i0="1" i1="2" w0="-1.230535" w1="2.230535"/>
+  <VExample i0="1" i1="2" w0="-1.9740469" w1="2.9740469"/>
+ </VGrid>
+</ParaGroup>

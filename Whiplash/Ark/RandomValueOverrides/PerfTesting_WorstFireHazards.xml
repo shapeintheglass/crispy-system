@@ -1,0 +1,9 @@
+
+<overrides>
+ <override id="13856881013243429027" name="WL_LevelState_Moonworks_FireIndex" value="2"/>
+ <override id="13856881013243428929" name="WL_LevelState_TranstarLabs_FireIndex" value="2"/>
+ <override id="6732635291258641402" name="WL_LevelState_Crater_DustStormchance" value="0"/>
+ <override id="13856881013243429085" name="WL_LevelState_CrewAnnex_FireIndex" value="2"/>
+ <override id="13856881013245773610" name="WL_LevelState_Crater_FireIndex" value="1"/>
+ <override id="844024417347599971" name="WL_LabsState_Debris" value="1"/>
+</overrides>

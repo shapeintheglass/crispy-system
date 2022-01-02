@@ -1,0 +1,24 @@
+local L0_3390, L1_3391, L2_3392
+L0_3390 = {}
+L1_3391 = {}
+L2_3392 = {}
+L2_3392.fWaitMin = 5
+L2_3392.fWaitMax = 15
+L2_3392.fLocationRadius = 5
+L2_3392.fChanceToAttract = 0.5
+L2_3392.fAttractionStrength = 1
+L2_3392.fAttractionCD = 30
+L1_3391.ArkAttractor = L2_3392
+L0_3390.PropertiesInstance = L1_3391
+L1_3391 = {}
+L1_3391.Icon = "Seed.bmp"
+L1_3391.IconOnTop = 1
+L0_3390.Editor = L1_3391
+ArkAttractor = L0_3390
+L0_3390 = ArkAttractor
+L1_3391 = {}
+L2_3392 = {}
+L1_3391.Inputs = L2_3392
+L2_3392 = {}
+L1_3391.Outputs = L2_3392
+L0_3390.FlowEvents = L1_3391
