@@ -1,0 +1,2 @@
+
+<Entity Name="AudioAreaAmbience" Script="Scripts/Entities/Sound/AudioAreaAmbience.lua"/>

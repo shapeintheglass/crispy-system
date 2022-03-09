@@ -1,0 +1,2 @@
+
+<Entity Name="VTOLSpawnPoint" Script="Scripts/Entities/Multiplayer/VTOLSpawnPoint.lua" Invisible="1"/>

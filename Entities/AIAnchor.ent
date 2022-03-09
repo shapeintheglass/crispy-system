@@ -1,0 +1,2 @@
+
+<Entity Name="AIAnchor" Script="Scripts/Entities/AI/AIAnchor.lua" Invisible="1"/>

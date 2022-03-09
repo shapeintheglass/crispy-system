@@ -1,0 +1,2 @@
+
+<Entity Name="AdvancedDoor" Script="Scripts/Entities/Doors/AdvancedDoor.lua"/>

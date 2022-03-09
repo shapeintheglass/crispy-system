@@ -1,0 +1,2 @@
+
+<Entity Name="AreaTrigger" Script="Scripts/Entities/Triggers/AreaTrigger.lua"/>

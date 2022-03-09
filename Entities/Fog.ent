@@ -1,0 +1,2 @@
+
+<Entity Name="Fog" Script="Scripts/Entities/Render/Fog.lua" Invisible="1"/>

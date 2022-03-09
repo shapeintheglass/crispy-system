@@ -1,0 +1,2 @@
+
+<Entity Name="MapIconEntity" Script="Scripts/Entities/HUD/MapIconEntity.lua"/>

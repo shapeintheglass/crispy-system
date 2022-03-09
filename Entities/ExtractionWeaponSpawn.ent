@@ -1,0 +1,2 @@
+
+<Entity Name="ExtractionWeaponSpawn" Script="Scripts/Entities/Multiplayer/ExtractionWeaponSpawn.lua"/>

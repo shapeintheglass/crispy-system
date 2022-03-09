@@ -1,0 +1,2 @@
+
+<Entity Name="SmartObjectCondition" Script="Scripts/Entities/AI/SmartObjectCondition.lua" Invisible="1"/>

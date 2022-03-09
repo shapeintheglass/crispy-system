@@ -1,0 +1,2 @@
+
+<Entity Name="RigidBodyEx" Script="Scripts/Entities/Physics/RigidBodyEx.lua"/>

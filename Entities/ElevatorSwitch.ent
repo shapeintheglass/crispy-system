@@ -1,0 +1,2 @@
+
+<Entity Name="ElevatorSwitch" Script="Scripts/Entities/Elevators/ElevatorSwitch.lua"/>

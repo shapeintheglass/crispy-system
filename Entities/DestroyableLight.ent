@@ -1,0 +1,2 @@
+
+<Entity Name="DestroyableLight" Script="Scripts/Entities/Lights/DestroyableLight.lua"/>

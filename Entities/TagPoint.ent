@@ -1,0 +1,2 @@
+
+<Entity Name="TagPoint" Script="Scripts/Entities/AI/TagPoint.lua" Invisible="1"/>

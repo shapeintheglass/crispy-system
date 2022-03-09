@@ -1,0 +1,2 @@
+
+<Entity Name="PrismObject" Script="Scripts/Entities/Render/PrismObject.lua" Invisible="1"/>

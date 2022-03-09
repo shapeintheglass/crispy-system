@@ -1,0 +1,2 @@
+
+<Entity Name="HealthPack" Script="Scripts/Entities/Items/HealthPack.lua"/>

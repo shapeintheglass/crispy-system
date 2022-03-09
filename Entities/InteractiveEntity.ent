@@ -1,0 +1,2 @@
+
+<Entity Name="InteractiveEntity" Script="Scripts/Entities/Others/InteractiveEntity.lua"/>
